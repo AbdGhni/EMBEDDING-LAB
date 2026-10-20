@@ -1,23 +1,28 @@
 # État courant
 
-Mis à jour : 2026-10-20T21:50+02:00
+Mis à jour : session S02, 2026-10-20 (soir)
 
 ## Git
 
 - `main` @ `825fa57` — poussé.
-- `el-001-cadrage` — documents de cadrage ; voir le dernier commit de la branche. PR à ouvrir depuis l'interface GitHub (le CLI `gh` n'est pas authentifié dans la VM).
+- `el-001-cadrage` @ `b8f8a78` — poussé, PR à ouvrir depuis GitHub (le CLI `gh` n'est pas authentifié dans la VM).
+- `el-003-datasets` — basé sur `el-001-cadrage`, voir son dernier commit.
 
 ## Tickets
 
-- EL-001 : en cours (documents créés).
-- EL-002 : bloqué, en attente de réponses (voir `DECISIONS.md`, questions ouvertes).
-- Tous les autres : prévus.
+- EL-001, EL-002 : validés.
+- EL-003 : exécuté non validé (licence XNLI non vérifiée).
+- EL-004 : en attente de validation de D-008 (SUMM-RE re-splitté par groupe + synthétique + PAWS-X fr).
+- Autres : prévus.
+
+## Décisions clés
+
+Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-006), assistance IA documentée (D-007).
 
 ## Environnement
 
-- Session de travail : VM cloud Linux, Python 3.13, CPU seulement.
-- Poste de l'étudiant : Windows, PowerShell, ECC installé selon l'étudiant (non vérifié ici).
-- Aucun environnement Python du projet encore créé.
+- VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
+- Environnement du projet pas encore créé (EL-005).
 
 ## Runs
 
@@ -25,9 +30,9 @@ Aucun.
 
 ## Blocages
 
-1. Échéance, langue des données, GPU/budget de calcul inconnus.
-2. ECC non vérifiable depuis la VM.
+- Validation de D-008 par l'étudiant.
+- ECC non vérifiable depuis la VM.
 
 ## Prochaine action
 
-EL-003 : comparer AMI, ICSI, MeetingBank, QMSum et des jeux NLI/paraphrase depuis leurs sources officielles (licence, langue, taille, redistribution), sans téléchargement massif.
+EL-005 (pyproject + CI) et EL-006 (schémas unités/relations/intentions + guide d'annotation).

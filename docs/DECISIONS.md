@@ -25,3 +25,36 @@ Format : ID · date · décision · justification · alternatives · statut.
 2. Langue cible des données : français, anglais, ou bilingue.
 3. GPU disponible sur ton PC (modèle, VRAM) ; autorisation d'utiliser Colab/Kaggle gratuits ; budget éventuel pour du calcul payant.
 4. Règles de l'école sur l'usage de l'IA dans le projet individuel.
+
+Réponses de l'étudiant reçues le 2026-10-20T22:01+02:00 → D-004 à D-007.
+
+## D-004 · 2026-10-20 · Données en français
+
+- **Décision** : corpus, requêtes et démo en français ; identifiants de code en anglais.
+- **Conséquence** : AMI, ICSI, QMSum et MeetingBank sont écartés comme corpus principal ; un encodeur multilingue est nécessaire.
+- **Statut** : validée par l'étudiant.
+
+## D-005 · 2026-10-20 · Calcul d'entraînement sur Google Colab
+
+- **Décision** : E2/E3 (et l'éventuel cross-encoder) s'exécutent sur Google Colab ; la VM cloud sert au code, aux tests et aux baselines.
+- **Conséquences** : notebooks fins qui appellent le paquet du dépôt ; commit et révision du modèle enregistrés dans chaque run ; checkpoints sauvegardés sur le Drive de l'étudiant, avec empreinte dans `runs/<id>/manifest.json`. GPU et durée de session Colab non garantis : runs courts et reprenables.
+- **Remplace** : D-003 (en attente) → appliquée sous cette forme.
+- **Statut** : validée par l'étudiant. Type de GPU obtenu : à relever au premier run.
+
+## D-006 · 2026-10-20 · Échéance « le plus vite possible »
+
+- **Décision** : pas de date imposée ; on garde le plan en 15 jours comme borne haute et on enchaîne les tickets sans attente. Les expériences E5–E7 restent conditionnelles.
+- **Statut** : validée.
+
+## D-007 · 2026-10-20 · Usage de l'IA
+
+- **Constat** : l'étudiant indique qu'aucune règle de l'école ne restreint l'assistance IA.
+- **Décision** : l'assistance reste documentée honnêtement (journal, routage). Les annotations produites par LLM sont marquées provisoires ; seul l'étudiant peut valider l'échantillon de contrôle manuel.
+- **Statut** : appliquée.
+
+## D-008 · 2026-10-20 · Corpus principal SUMM-RE, re-split par groupe d'expérience
+
+- **Décision proposée** : SUMM-RE (FR, CC BY-SA 4.0, révision `47cb4ec`) comme corpus réel ; test = réunions transcrites à la main, groupes d'expérience entiers non vus ; entraînement = synthétique contrôlé + groupes d'entraînement SUMM-RE ; PAWS-X fr en complément.
+- **Justification** : seul candidat français vérifié qui contient de vraies réunions de décision et de planification. Les splits officiels partagent 30 groupes d'expérience entre train et test (fuite).
+- **Alternatives** : FREDSum (débats, peu d'actions) ; benchmark 100 % synthétique (refusé : il mesurerait la reconnaissance de nos propres patrons).
+- **Statut** : à valider par l'étudiant (EL-004).

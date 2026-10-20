@@ -4,10 +4,10 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 
 | ID | Titre | Dépend de | Charge | Livrable | Fin | Statut |
 |---|---|---|---|---|---|---|
-| EL-001 | Cadrage, audit environnement, documents de suivi | — | 1 | matrice, roadmap, tickets, routing, journal, état | documents poussés sur une branche | en cours |
-| EL-002 | Réponses aux questions bloquantes (échéance, temps, langue, calcul) | EL-001 | ½ | décisions dans DECISIONS.md | réponses de l'étudiant enregistrées | bloqué (attente étudiant) |
-| EL-003 | Revue des datasets candidats (sources officielles, licences) | EL-001 | 2 | tableau comparatif dans DATA_CARD.md | licence et redistribution vérifiées pour chaque candidat retenu | prévu |
-| EL-004 | Choix du corpus principal + évaluation complémentaire | EL-002, EL-003 | ½ | décision D-xxx | choix justifié | prévu |
+| EL-001 | Cadrage, audit environnement, documents de suivi | — | 1 | matrice, roadmap, tickets, routing, journal, état | documents poussés sur une branche | validé |
+| EL-002 | Réponses aux questions bloquantes (échéance, temps, langue, calcul) | EL-001 | ½ | décisions dans DECISIONS.md | réponses de l'étudiant enregistrées | validé |
+| EL-003 | Revue des datasets candidats (sources officielles, licences) | EL-001 | 2 | tableau comparatif dans DATA_CARD.md | licence et redistribution vérifiées pour chaque candidat retenu | exécuté non validé (XNLI : licence non vérifiée) |
+| EL-004 | Choix du corpus principal + évaluation complémentaire | EL-002, EL-003 | ½ | décision D-008 | choix justifié et validé par l'étudiant | en cours (attente validation) |
 | EL-005 | Environnement reproductible (pyproject, verrou, CI légère) | EL-002 | 1 | `pyproject.toml`, lock, CI | installation propre Windows + Linux | prévu |
 | EL-006 | Schéma des unités/relations/intentions + guide d'annotation | EL-001 | 1 | `docs/ANNOTATION_GUIDE.md`, schémas JSON | exemples valides et invalides testés | prévu |
 | EL-007 | Corpus v0 : ingestion, unités sourcées avec offsets | EL-004, EL-006 | 2 | `data/` (hors Git) + script d'acquisition | empreintes enregistrées | prévu |
