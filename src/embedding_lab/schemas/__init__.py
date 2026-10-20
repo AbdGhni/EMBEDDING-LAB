@@ -81,13 +81,25 @@ def check_relation(
             return errors
         src, dst = units[rel["from_id"]], units[rel["to_id"]]
         if rel["relation"] == "supersedes":
-            if date.fromisoformat(src["source_date"]) < date.fromisoformat(dst["source_date"]):
+            older = _is_older(src, dst)
+            if older is None:
+                errors.append("supersedes : ordre chronologique invérifiable (ni dates ni rangs)")
+            elif older:
                 errors.append("supersedes : l'unité qui remplace doit être au moins aussi récente")
             if src.get("project") != dst.get("project"):
                 errors.append("supersedes : les deux unités doivent concerner le même projet")
         if rel["relation"] == "answers" and dst["type"] != "question":
             errors.append("answers : to_id doit être une question")
     return errors
+
+
+def _is_older(a: Mapping[str, Any], b: Mapping[str, Any]) -> bool | None:
+    """a est-elle strictement antérieure à b ? None si l'ordre est invérifiable."""
+    if a.get("source_date") and b.get("source_date"):
+        return date.fromisoformat(a["source_date"]) < date.fromisoformat(b["source_date"])
+    if a.get("source_order") is not None and b.get("source_order") is not None:
+        return a["source_order"] < b["source_order"]
+    return None
 
 
 def check_action(

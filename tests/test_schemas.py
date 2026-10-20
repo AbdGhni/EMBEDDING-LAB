@@ -150,6 +150,18 @@ def test_supersedes_direction_and_project():
     assert check_relation(rel, other)
 
 
+def test_supersedes_uses_order_when_dates_unknown():
+    old = make_unit(unit_id="u-006", source_date=None, source_order=0)
+    new = make_unit(source_date=None, source_order=2)
+    rel = {"from_id": "u-014", "to_id": "u-006", "relation": "supersedes",
+           "evidence_source_id": "004c", "justification": "réunion c revient sur a",
+           "origin": "human"}
+    assert check_relation(rel, {"u-006": old, "u-014": new}) == []
+    undated = {"u-006": make_unit(unit_id="u-006", source_date=None),
+               "u-014": make_unit(source_date=None)}
+    assert any("invérifiable" in e for e in check_relation(rel, undated))
+
+
 def test_answers_must_target_a_question():
     units = {"u-1": make_unit(unit_id="u-1", type="answer"), "u-2": make_unit(unit_id="u-2")}
     rel = {"from_id": "u-1", "to_id": "u-2", "relation": "answers",

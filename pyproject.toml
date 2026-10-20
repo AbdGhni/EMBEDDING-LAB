@@ -37,8 +37,8 @@ build-backend = "hatchling.build"
 packages = ["src/embedding_lab"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
-addopts = "-q"
+testpaths = ["tests", "src"]
+addopts = "-q --doctest-modules"
 
 [tool.ruff]
 line-length = 100

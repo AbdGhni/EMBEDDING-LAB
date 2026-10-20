@@ -8,7 +8,8 @@
   "properties": {
     "unit_id": {"type": "string", "pattern": "^u-[A-Za-z0-9_-]+$"},
     "source_id": {"type": "string", "minLength": 1},
-    "source_date": {"type": "string", "format": "date", "description": "Date de la réunion ou du document source"},
+    "source_date": {"type": ["string", "null"], "format": "date", "description": "Date calendaire de la source ; null si inconnue (jamais inventée)"},
+    "source_order": {"type": ["integer", "null"], "minimum": 0, "description": "Rang chronologique de la source dans son projet/groupe (ex. réunion a=0, b=1, c=2) quand la date est inconnue"},
     "project": {"type": ["string", "null"]},
     "type": {"enum": ["decision", "action", "commitment", "question", "answer", "fact", "risk", "idea"]},
     "statement": {"type": "string", "minLength": 1, "description": "Reformulation normalisée de l'unité"},
