@@ -8,14 +8,15 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-002 | Réponses aux questions bloquantes (échéance, temps, langue, calcul) | EL-001 | ½ | décisions dans DECISIONS.md | réponses de l'étudiant enregistrées | validé |
 | EL-003 | Revue des datasets candidats (sources officielles, licences) | EL-001 | 2 | tableau comparatif dans DATA_CARD.md | licence et redistribution vérifiées pour chaque candidat retenu | exécuté non validé (XNLI : licence non vérifiée) |
 | EL-004 | Choix du corpus principal + évaluation complémentaire | EL-002, EL-003 | ½ | décision D-008 | choix justifié et validé par l'étudiant | validé |
-| EL-005 | Environnement reproductible (pyproject, verrou, CI légère) | EL-002 | 1 | `pyproject.toml`, lock, CI | installation propre Windows + Linux | exécuté non validé (Linux OK localement ; CI Windows pas encore observée) |
+| EL-005 | Environnement reproductible (pyproject, verrou, CI légère) | EL-002 | 1 | `pyproject.toml`, lock, CI | installation propre Windows + Linux | validé (CI verte : Ubuntu et Windows, Python 3.10 et 3.12) |
 | EL-006 | Schéma des unités/relations/intentions + guide d'annotation | EL-001 | 1 | `docs/ANNOTATION_GUIDE.md`, schémas JSON | exemples valides et invalides testés | exécuté non validé (17 tests verts ; guide à relire par l'étudiant) |
-| EL-007 | Corpus v0 : ingestion, unités sourcées avec offsets | EL-004, EL-006 | 2 | `data/` (hors Git) + script d'acquisition | empreintes enregistrées | prévu |
+| EL-007 | Corpus v0 : ingestion SUMM-RE, texte canonique et tours avec offsets | EL-004, EL-006 | 1 | `data/` (hors Git) + `scripts/fetch_summre.py` | empreintes enregistrées, 0 erreur d'offset | validé |
+| EL-007b | Pré-annotation des unités (LLM provisoire) + échantillon de contrôle à relire par l'étudiant | EL-007, EL-008 | 2 | unités JSONL validées par `check_unit` | 100 % des unités valides ; échantillon de relecture préparé | prévu |
 | EL-008 | Splits par groupe + détection de doublons / fuites | EL-007 | 1 | script de split, rapport de fuites | 0 groupe partagé entre splits | prévu |
 | EL-009 | Protocole expérimental puis gel du test | EL-008 | 1 | `EXPERIMENT_PROTOCOL.md` | empreinte du test gelé dans le journal | prévu |
 | EL-010 | E0 : BM25 | EL-009 | ½ | `runs/E0-*` | métriques sur val et test | prévu |
 | EL-011 | E1 : encodeur pré-entraîné | EL-009 | 1 | `runs/E1-*` | métriques + révision du modèle | prévu |
-| EL-012 | Paires/triplets + mining de hard negatives (train uniquement) | EL-008 | 2 | jeu d'entraînement + inspection faux négatifs | aucun négatif issu de val/test | prévu |
+| EL-012 | Paires/triplets + mining de hard negatives (train uniquement) | EL-007b, EL-008 | 2 | jeu d'entraînement + inspection faux négatifs | aucun négatif issu de val/test | prévu |
 | EL-013 | E2 : fine-tuning contrastif | EL-011, EL-012 | 2 | checkpoint, logs, commande | checkpoint choisi sur validation | prévu |
 | EL-014 | E3 : ablation hard vs simples | EL-013 | 1 | `runs/E3-*` | budget égal documenté | prévu |
 | EL-015 | Classifieur de relations | EL-007 | 2 | `relations/` + métriques | macro-F1 et matrice de confusion | prévu |

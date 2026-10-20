@@ -93,3 +93,29 @@ Validation de D-008 par l'étudiant, puis EL-005 (environnement) et EL-006 (sch�
 ### Suite
 
 EL-007 : ingestion de SUMM-RE (texte seul, révision figée), reconstruction des tours de parole, empreintes.
+
+---
+
+## 2026-10-20 · Session S04 · EL-005 (validation), EL-007
+
+- **Début** : 2026-10-20T23:40+02:00 (message « Go ») · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-007-ingest` (base `el-005-006-env-schemas` @ `50f0837`)
+- **Exigences couvertes** : L-02, C-03 (préparation), D-06
+- **Agent / capacité** : orchestrateur seul.
+
+### Actions et résultats
+
+1. CI GitHub du commit `50f0837` : succès sur les 4 jobs (Ubuntu/Windows × Python 3.10/3.12) → EL-005 validé.
+2. Module `embedding_lab.ingest.summre` : interclassement des pistes par heure de début, fusion des segments d'un même locuteur séparés de 1 s au plus, texte canonique `locuteur: texte` avec offsets par tour, métadonnées de réunion décodées depuis l'identifiant (ordre a/b/c, type R/D/P, lieu — confirmé dans la fiche SUMM-RE).
+3. Schéma `unit` : `source_date` peut valoir null (SUMM-RE n'a pas de dates calendaires, on n'en invente pas) ; ajout de `source_order`. `supersedes` est vérifié par date, sinon par rang, sinon refusé comme invérifiable.
+4. Acquisition réelle : 938 pistes en 4 min 47 s (23:42:06 → 23:46:53), puis reconstruction de 283 réunions et 100 651 tours ; 0 erreur d'offset (détail et empreintes dans DATA_CARD § 2 bis).
+5. Constat : aucun groupe d'expérience n'est entièrement transcrit à la main (57 mixtes, 39 tout-ASR).
+6. 27 tests verts (dont doctests) ; `scripts/inspect_summre.py` supprimé (remplacé par `fetch_summre.py`).
+
+### Correction
+
+EL-007 ne couvrait pas l'extraction des unités : la pré-annotation devient un ticket séparé, EL-007b.
+
+### Suite
+
+EL-008 : split par groupe d'expérience (stratifié par type de réunion et part de transcription manuelle), contrôle des quasi-doublons, puis gel des identifiants du test.

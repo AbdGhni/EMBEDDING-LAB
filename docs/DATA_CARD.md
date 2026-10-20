@@ -36,7 +36,30 @@ L'identifiant `004c_PAPH` se lit : expérience `004`, réunion `c` (trois réuni
 
 Les trois réunions d'une même expérience réunissent vraisemblablement les mêmes personnes sur un projet suivi (hypothèse à confirmer dans l'article SUMM-RE). Utiliser les splits officiels mettrait donc les mêmes personnes, et probablement le même projet, en train et en test. **Nous redécouperons par groupe d'expérience** (EL-008).
 
-## 3. Stratégie proposée (à valider en EL-004)
+## 2 bis. Acquisition réalisée (EL-007, 2026-10-20)
+
+Commande : `uv run python -I scripts/fetch_summre.py` (révision `47cb4ec`, durée observée 23:42:06 → 23:46:53, Europe/Paris). Lit seulement les colonnes texte.
+
+| Fichier (hors Git) | Lignes | SHA-256 |
+|---|---|---|
+| `data/raw/summre/tracks_dev.jsonl` | 130 pistes | `0b422230…463525b` |
+| `data/raw/summre/tracks_test.jsonl` | 124 pistes | `7bf11019…a421eaca` |
+| `data/raw/summre/tracks_train.jsonl` | 684 pistes | `4e248e79…5616d56bad11` |
+| `data/processed/summre_meetings.jsonl` | 283 réunions, 100 651 tours, 6,32 M caractères | `05a46a7f…69665298` |
+
+Empreintes complètes : `data/raw/summre/manifest.json` et `data/processed/summre_meetings.manifest.json`. Une première version de `summre_meetings.jsonl` (`43c2c6a6…`), sans les métadonnées de réunion, a été remplacée.
+
+Contrôles :
+- 0 tour dont le texte ne correspond pas à ses offsets dans le texte canonique.
+- Types de réunion (code de la fiche) : manuelles = 25 décision, 26 planification, 22 reporting ; ASR = 69, 68 et 73.
+- 92 groupes de 3 réunions, 3 groupes de 2, 1 groupe d'une seule réunion.
+- **Aucun groupe n'est entièrement transcrit à la main** : 57 groupes mélangent réunions manuelles et ASR, 39 sont entièrement ASR.
+- Tours courts : 6 mots en médiane, 25 au 90e centile. Conventions de transcription : mots composés liés par `_` (`en_fait`, `il_y a`), marqueurs `+` et `*`, disfluences (« euh », « ben »). La tokenisation de BM25 devra en tenir compte.
+- Les marqueurs de décision réels existent bien (ex. « ben c'est gravé dans le marbre » dans `006b_EADH`).
+
+Conséquence pour les splits (EL-008) : un groupe de test contiendra aussi des réunions ASR. Proposition : on annote en priorité les réunions manuelles des groupes de test ; leurs réunions ASR restent dans le test comme contexte (évolution d'une décision d'une réunion à l'autre) et ne servent jamais à l'entraînement.
+
+## 3. Stratégie retenue (D-008)
 
 1. **Test réel indépendant** : réunions transcrites à la main de SUMM-RE, groupes d'expérience entiers, **jamais vus à l'entraînement**. Unités, requêtes et pertinences annotées (pré-annotation LLM provisoire + échantillon relu par l'étudiant).
 2. **Entraînement** : (a) conversations synthétiques françaises multi-réunions construites pour les cas difficiles (proposition/décision/annulation, réattribution, dates, montants), avec patrons, projets et entités séparés entre splits ; (b) unités extraites des réunions SUMM-RE des groupes d'entraînement.
