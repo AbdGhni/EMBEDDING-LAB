@@ -1,0 +1,31 @@
+# Environnements et caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+*.env
+
+# Données : jamais de corpus brut ni de dérivés non redistribuables dans Git
+data/raw/
+data/processed/
+data/cache/
+
+# Artefacts volumineux (poids, index) : référencés par empreinte dans runs/<run_id>/manifest.json
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.faiss
+checkpoints/
+runs/*/checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
