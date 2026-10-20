@@ -61,3 +61,35 @@ L'heure de fin estimée « 21:50 » était inexacte : l'horloge relevée au mome
 ### Suite
 
 Validation de D-008 par l'étudiant, puis EL-005 (environnement) et EL-006 (schéma et guide d'annotation), qui peuvent avancer en parallèle.
+
+---
+
+## 2026-10-20 · Session S03 · EL-004, EL-005, EL-006
+
+- **Début** : 2026-10-20T22:42+02:00 (message de l'étudiant) · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-005-006-env-schemas` (base `el-003-datasets` @ `4e19a61`)
+- **Exigences couvertes** : L-01, L-08 (amorce), C-01, C-02, D-08 (rôle vs mention), D-10
+- **Agent / capacité** : orchestrateur seul. EL-005 et EL-006 sont indépendants, mais trop petits pour justifier une délégation.
+
+### Actions
+
+1. D-008 marquée validée (réponse « Faut le mieux » interprétée comme acceptation ; à corriger sinon).
+2. `pyproject.toml` (socle léger + extras `data`, `ml`, `dev`), `uv.lock` (88 paquets résolus), CI GitHub Actions (Ubuntu + Windows, Python 3.10 et 3.12 ; lint et tests, sans entraînement).
+3. Schémas JSON `unit`, `relation`, `action` + module `embedding_lab.schemas` : validation structurelle et invariants sémantiques (offsets ↔ source, sens et projet de `supersedes`, cible de `answers`, adresse obligatoirement issue de l'annuaire de démo, clarification obligatoire si le destinataire n'est pas résolu, `executed` toujours `false`).
+4. `docs/ANNOTATION_GUIDE.md` v0.1.
+
+### Résultats
+
+- `pytest` : 17 tests verts (local, puis copie propre installée avec `uv sync --locked`).
+- `ruff` : aucune erreur après correction (une importation inutilisée, un `if` imbriqué, une ligne trop longue).
+- Le contrôle d'offsets a détecté une erreur dans ma propre donnée de test (début 9 au lieu de 10) : corrigée.
+
+### Limites
+
+- CI pas encore observée sur GitHub, Windows non testé.
+- Le format `date-time` n'est pas vérifié par jsonschema sans dépendance supplémentaire ; `date` et `email` le sont.
+- Le guide d'annotation n'a pas encore été relu par l'étudiant.
+
+### Suite
+
+EL-007 : ingestion de SUMM-RE (texte seul, révision figée), reconstruction des tours de parole, empreintes.

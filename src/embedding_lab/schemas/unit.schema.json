@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "embedding-lab/unit",
+  "title": "Unité sémantique sourcée",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["unit_id", "source_id", "source_date", "type", "statement", "evidence", "status", "assertion", "annotation"],
+  "properties": {
+    "unit_id": {"type": "string", "pattern": "^u-[A-Za-z0-9_-]+$"},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_date": {"type": "string", "format": "date", "description": "Date de la réunion ou du document source"},
+    "project": {"type": ["string", "null"]},
+    "type": {"enum": ["decision", "action", "commitment", "question", "answer", "fact", "risk", "idea"]},
+    "statement": {"type": "string", "minLength": 1, "description": "Reformulation normalisée de l'unité"},
+    "status": {
+      "enum": ["proposed", "conditional", "active", "rejected", "cancelled", "superseded", "open", "resolved", "unknown"],
+      "description": "Statut au moment de la source ; 'superseded' n'est posé que si une relation supersedes justifiée existe"
+    },
+    "assertion": {"enum": ["extracted", "inferred"], "description": "extracted = dit explicitement dans la source ; inferred = déduit"},
+    "speaker": {"type": ["string", "null"], "description": "Locuteur de l'extrait (identifiant de piste ou nom tel que transcrit)"},
+    "owner": {"type": ["string", "null"], "description": "Responsable explicitement désigné ; null si aucune attribution explicite"},
+    "mentioned_people": {"type": "array", "items": {"type": "string"}, "description": "Personnes citées sans responsabilité"},
+    "due_date": {"type": ["string", "null"], "format": "date", "description": "Échéance"},
+    "event_date": {"type": ["string", "null"], "format": "date", "description": "Date de l'événement décrit (ex. date de lancement)"},
+    "amount": {"type": ["string", "null"], "description": "Montant tel qu'énoncé, non converti"},
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "char_start", "char_end"],
+      "properties": {
+        "text": {"type": "string", "minLength": 1, "description": "Extrait exact de la transcription originale"},
+        "char_start": {"type": "integer", "minimum": 0},
+        "char_end": {"type": "integer", "minimum": 1},
+        "segment_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "annotation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin", "reviewed"],
+      "properties": {
+        "origin": {"enum": ["human", "llm_provisional", "rule", "synthetic_generator"]},
+        "annotator": {"type": ["string", "null"]},
+        "reviewed": {"type": "boolean", "description": "true seulement après relecture humaine réelle"},
+        "notes": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

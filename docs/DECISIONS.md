@@ -57,4 +57,4 @@ Réponses de l'étudiant reçues le 2026-10-20T22:01+02:00 → D-004 à D-007.
 - **Décision proposée** : SUMM-RE (FR, CC BY-SA 4.0, révision `47cb4ec`) comme corpus réel ; test = réunions transcrites à la main, groupes d'expérience entiers non vus ; entraînement = synthétique contrôlé + groupes d'entraînement SUMM-RE ; PAWS-X fr en complément.
 - **Justification** : seul candidat français vérifié qui contient de vraies réunions de décision et de planification. Les splits officiels partagent 30 groupes d'expérience entre train et test (fuite).
 - **Alternatives** : FREDSum (débats, peu d'actions) ; benchmark 100 % synthétique (refusé : il mesurerait la reconnaissance de nos propres patrons).
-- **Statut** : à valider par l'étudiant (EL-004).
+- **Statut** : validée le 2026-10-20T22:42+02:00 (réponse « Faut le mieux », interprétée comme acceptation de l'option recommandée ; à corriger si ce n'était pas l'intention).

@@ -18,7 +18,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | L-05 | S | Module de relations (au minimum pertinence, contradiction, remplacement) | `src/embedding_lab/relations/` | évaluation relations | macro-F1, matrice de confusion | prévu |
 | L-06 | S | Module d'intentions (réponse, dossier, préparation d'action) | `src/embedding_lab/intents/` | évaluation intentions | macro-F1, exactitude des slots | prévu |
 | L-07 | S | Mini-agent avec interface ou API, dossiers et brouillons sourcés | `src/embedding_lab/agent/`, CLI | 7 scénarios | transcriptions de démo | prévu |
-| L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | prévu |
+| L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | en cours (schémas + tests écrits ; connecteurs à venir) |
 | L-09 | S | Rapport : comparaisons, métriques, ablations, erreurs, coûts, limites | `docs/FINAL_REPORT.md` | relecture indépendante | rapport | prévu |
 | L-10 | S | Démonstration reproductible sur plusieurs conversations | `docs/DEMO.md`, commande de lancement | exécution sur machine propre | log de démo | prévu |
 

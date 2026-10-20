@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "embedding-lab/relation",
+  "title": "Relation orientée entre deux unités",
+  "description": "Sens de lecture : from_id <relation> to_id. Ex. u-014 supersedes u-006 = u-014 (plus récente) remplace u-006 ; u-020 answers u-019 = u-020 répond à la question u-019 ; u-030 supports u-031 = u-030 étaye u-031 ; u-040 creates_action u-041 = la décision u-040 donne lieu à l'action u-041.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["from_id", "to_id", "relation", "evidence_source_id", "justification", "origin"],
+  "properties": {
+    "from_id": {"type": "string", "pattern": "^u-"},
+    "to_id": {"type": "string", "pattern": "^u-"},
+    "relation": {"enum": ["supports", "contradicts", "supersedes", "creates_action", "answers", "unrelated"]},
+    "evidence_source_id": {"type": "string", "minLength": 1},
+    "justification": {"type": "string", "minLength": 1, "description": "Raison vérifiable : même projet, même objet, dates, statut, extrait"},
+    "origin": {"enum": ["human", "llm_provisional", "rule", "model", "synthetic_generator"]},
+    "score": {"type": ["number", "null"], "description": "Score du modèle si origin=model ; ce n'est pas une probabilité calibrée"}
+  }
+}

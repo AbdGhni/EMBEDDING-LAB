@@ -24,7 +24,15 @@ Phase de cadrage (semaine 1, jour 1). Aucun code exécutable, aucune donnée, au
 
 ## Installation
 
-À définir (ticket EL-005). Cible : Python 3.11+, environnement verrouillé, compatible Windows/PowerShell et Linux.
+Prérequis : Python ≥ 3.10 et [uv](https://docs.astral.sh/uv/).
+
+```bash
+uv sync --locked --extra dev          # socle + tests (Linux, macOS, Windows/PowerShell)
+uv sync --locked --extra dev --extra data   # + acquisition SUMM-RE (texte seul)
+uv run pytest
+```
+
+L'extra `ml` (torch, sentence-transformers) est destiné à Colab ou à une machine avec GPU.
 
 ## Limites
 

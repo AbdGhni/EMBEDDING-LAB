@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "embedding-lab/action",
+  "title": "Proposition d'action simulée",
+  "description": "Toute action reste une proposition : needs_confirmation=true et executed=false sont imposés par le schéma. Aucun connecteur réel n'existe.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["intent", "tool_candidate", "source_unit_ids", "clarification", "needs_confirmation", "executed"],
+  "properties": {
+    "intent": {"enum": ["draft_email", "create_task", "schedule_event", "clarify"]},
+    "tool_candidate": {"enum": ["email.create_draft", "tasks.create_draft", "calendar.create_draft", "none"]},
+    "recipient": {"$ref": "#/$defs/person"},
+    "assignee": {"$ref": "#/$defs/person"},
+    "subject": {"type": "string", "minLength": 1},
+    "body": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "due_date": {"type": ["string", "null"], "format": "date"},
+    "start": {"type": ["string", "null"], "format": "date-time"},
+    "reference_date": {"type": "string", "format": "date", "description": "Date de référence utilisée pour résoudre « vendredi », « jeudi »"},
+    "source_unit_ids": {"type": "array", "items": {"type": "string", "pattern": "^u-"}},
+    "clarification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["needed"],
+      "properties": {
+        "needed": {"type": "boolean"},
+        "reason": {"enum": ["owner_missing", "owner_ambiguous", "email_missing", "date_ambiguous", "insufficient_context", "conflict_unresolved"]},
+        "question": {"type": "string", "minLength": 1}
+      },
+      "if": {"properties": {"needed": {"const": true}}},
+      "then": {"required": ["reason", "question"]}
+    },
+    "needs_confirmation": {"const": true},
+    "executed": {"const": false}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"intent": {"const": "draft_email"}}},
+      "then": {"required": ["recipient", "subject", "body"], "properties": {"tool_candidate": {"const": "email.create_draft"}}}
+    },
+    {
+      "if": {"properties": {"intent": {"const": "create_task"}}},
+      "then": {"required": ["title"], "properties": {"tool_candidate": {"const": "tasks.create_draft"}}}
+    },
+    {
+      "if": {"properties": {"intent": {"const": "schedule_event"}}},
+      "then": {"required": ["title"], "properties": {"tool_candidate": {"const": "calendar.create_draft"}}}
+    },
+    {
+      "if": {"properties": {"intent": {"const": "clarify"}}},
+      "then": {"properties": {"tool_candidate": {"const": "none"}, "clarification": {"properties": {"needed": {"const": true}}}}}
+    }
+  ],
+  "$defs": {
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "email", "evidence_unit_ids", "resolution_status"],
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "email": {"type": ["string", "null"], "format": "email", "description": "Uniquement depuis l'annuaire fictif de démo ; jamais deviné"},
+        "evidence_unit_ids": {"type": "array", "items": {"type": "string", "pattern": "^u-"}},
+        "resolution_status": {"enum": ["resolved", "email_missing", "ambiguous", "not_found"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"resolution_status": {"const": "resolved"}}},
+         "then": {"properties": {"name": {"type": "string"}, "email": {"type": "string"}, "evidence_unit_ids": {"minItems": 1}}}},
+        {"if": {"properties": {"resolution_status": {"const": "email_missing"}}},
+         "then": {"properties": {"name": {"type": "string"}, "email": {"type": "null"}, "evidence_unit_ids": {"minItems": 1}}}},
+        {"if": {"properties": {"resolution_status": {"enum": ["ambiguous", "not_found"]}}},
+         "then": {"properties": {"email": {"type": "null"}}}}
+      ]
+    }
+  }
+}
