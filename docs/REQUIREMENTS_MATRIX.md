@@ -85,7 +85,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 |---|---|---|---|---|
 | C-01 | S | Aucun envoi / aucune modification de service externe ; toute action reste une proposition | test CI : tout contrat d'action a `executed: false`, aucun client réseau dans `tools/` | prévu |
 | C-02 | S | Aucune adresse, contact ou décision inventés | tests destinataires + schéma (`email` nul si inconnu) | prévu |
-| C-03 | S | Split par conversation / groupe de réunions ; test avec projets, formulations, personnes non vus si possible | script de contrôle des splits + détection de quasi-doublons | en cours (fuite des splits officiels SUMM-RE détectée) |
+| C-03 | S | Split par conversation / groupe de réunions ; test avec projets, formulations, personnes non vus si possible | script de contrôle des splits + détection de quasi-doublons | validé pour SUMM-RE (`splits/summre_v1.json` : 0 groupe/locuteur partagé ; thèmes partagés = limite documentée) ; à refaire pour le synthétique |
 | C-04 | S | Pas de données personnelles réelles sans autorisation ; contacts fictifs | DATA_CARD | prévu |
 | C-05 | S | Le LLM éventuel ne masque pas les erreurs du moteur : évaluation séparée des composants | protocole | prévu |
 | C-06 | S | Une relation temporelle n'est pas déduite de la seule similarité | tests relations (dates, projet, preuve) | prévu |

@@ -12,7 +12,7 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-006 | Schéma des unités/relations/intentions + guide d'annotation | EL-001 | 1 | `docs/ANNOTATION_GUIDE.md`, schémas JSON | exemples valides et invalides testés | exécuté non validé (17 tests verts ; guide à relire par l'étudiant) |
 | EL-007 | Corpus v0 : ingestion SUMM-RE, texte canonique et tours avec offsets | EL-004, EL-006 | 1 | `data/` (hors Git) + `scripts/fetch_summre.py` | empreintes enregistrées, 0 erreur d'offset | validé |
 | EL-007b | Pré-annotation des unités (LLM provisoire) + échantillon de contrôle à relire par l'étudiant | EL-007, EL-008 | 2 | unités JSONL validées par `check_unit` | 100 % des unités valides ; échantillon de relecture préparé | prévu |
-| EL-008 | Splits par groupe + détection de doublons / fuites | EL-007 | 1 | script de split, rapport de fuites | 0 groupe partagé entre splits | prévu |
+| EL-008 | Splits par composante de personnes + détection de doublons / fuites | EL-007 | 1 | `scripts/make_splits.py`, `splits/summre_v1.json` | 0 groupe et 0 locuteur partagés entre splits | validé |
 | EL-009 | Protocole expérimental puis gel du test | EL-008 | 1 | `EXPERIMENT_PROTOCOL.md` | empreinte du test gelé dans le journal | prévu |
 | EL-010 | E0 : BM25 | EL-009 | ½ | `runs/E0-*` | métriques sur val et test | prévu |
 | EL-011 | E1 : encodeur pré-entraîné | EL-009 | 1 | `runs/E1-*` | métriques + révision du modèle | prévu |

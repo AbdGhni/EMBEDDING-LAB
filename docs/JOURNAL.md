@@ -119,3 +119,29 @@ EL-007 ne couvrait pas l'extraction des unités : la pré-annotation devient un 
 ### Suite
 
 EL-008 : split par groupe d'expérience (stratifié par type de réunion et part de transcription manuelle), contrôle des quasi-doublons, puis gel des identifiants du test.
+
+---
+
+## 2026-10-20/21 · Session S05 · EL-008
+
+- **Début** : 2026-10-20T23:57+02:00 (message « Fonce ») · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-008-splits` (base `el-007-ingest` @ `0d471ab`)
+- **Exigences couvertes** : C-03, L-02
+- **Agent / capacité** : orchestrateur seul.
+
+### Actions et résultats
+
+1. Analyse : 5 scénarios (A–E) partagés par de nombreux groupes ; 91 groupes sur 96 suivent la séquence reporting / planification / décision.
+2. **Deuxième fuite détectée** : 80 identifiants de locuteurs sur 212 apparaissent dans plusieurs groupes. Union-find → 41 composantes, dont une de 27 groupes.
+3. `embedding_lab.data.splits` : composantes, affectation par tirages à graine fixe, rapport de fuites (groupes, locuteurs, recouvrement de 8-grammes). 6 nouveaux tests ; 33 tests verts.
+4. `scripts/make_splits.py` → `splits/summre_v1.json` (SHA-256 `d6992f5d…`) : train 178, val 60, test 45 réunions ; cibles manuelles atteintes exactement (val 11 dont 4 décision, test 15 dont 5 décision).
+5. Rapport : 0 groupe et 0 locuteur partagés ; recouvrement de 8-grammes ≤ 8,2 %, expliqué par des répétitions et des jetons `w_N`/`sil` (0,54 % des tours ASR, 0,12 % des tours manuels).
+
+### Limites
+
+- Identifiants de locuteurs traités comme des personnes : hypothèse prudente, non confirmée par la fiche.
+- Thèmes de scénario partagés entre train et test.
+
+### Suite
+
+EL-009 : protocole expérimental puis gel du test. EL-007b (pré-annotation des unités) et la génération des données synthétiques peuvent avancer en parallèle.

@@ -59,6 +59,27 @@ Contrôles :
 
 Conséquence pour les splits (EL-008) : un groupe de test contiendra aussi des réunions ASR. Proposition : on annote en priorité les réunions manuelles des groupes de test ; leurs réunions ASR restent dans le test comme contexte (évolution d'une décision d'une réunion à l'autre) et ne servent jamais à l'entraînement.
 
+## 2 ter. Splits `summre_v1` (EL-008)
+
+Fichier versionné : `splits/summre_v1.json` (identifiants uniquement), SHA-256 `d6992f5d7548a0b5e42c8f692f86c85ef4e511c16041150d2cf4bc6934f4109f`. Commande : `uv run python -I scripts/make_splits.py` (graine 13, 20 000 tirages, ~2 s). Entrée : `summre_meetings.jsonl` `05a46a7f…`.
+
+**Unité de découpage** : composante connexe de groupes d'expérience reliés par un identifiant de locuteur commun. 80 identifiants sur 212 apparaissent dans plusieurs groupes. Les identifiants sont numérotés de 001 à 212 pour tout le corpus, ce qui suggère des participants revenus pour plusieurs expériences ; la fiche ne le dit pas explicitement : **hypothèse prudente**. On obtient 41 composantes, dont une de 27 groupes (81 réunions), affectée d'office au train.
+
+| Split | Réunions | Manuelles (décision / planif. / reporting) | ASR | Scénarios |
+|---|---|---|---|---|
+| train | 178 | 47 (16 / 16 / 15) | 131 | A, B, C, D, E |
+| val | 60 | 11 (4 / 3 / 4) | 49 | A, B, D, E |
+| test | 45 | 15 (5 / 7 / 3) | 30 | A, B, D, E |
+
+Contrôles (`leakage` dans le fichier) :
+- 0 groupe et 0 identifiant de locuteur présents dans plusieurs splits.
+- Recouvrement de 8-grammes avec le train : médiane 0,09 %, maximum 8,2 % (`008a_EARH`). L'inspection montre que ce maximum vient de répétitions (« c'est c'est c'est ») et de jetons de remplacement, pas de contenu partagé.
+- **Limite** : les sujets de scénario A, B, D, E figurent à la fois en train et en test (seulement 5 scénarios pour tout le corpus). Les *personnes* et les *groupes* du test sont inédits, pas les *thèmes*. Les données synthétiques apporteront des projets entièrement inédits.
+
+### Artefact : jetons `w_N` / `sil`
+
+Des séquences comme `sil w_1 w_2 w_3 w_4 w_5 sil` (vraisemblablement des passages masqués ou inintelligibles) touchent 385 tours ASR sur 71 571 (0,54 %) et 34 tours manuels sur 29 080 (0,12 %), dans 9 réunions. Elles seront exclues des unités et des requêtes (EL-007b) et neutralisées pour BM25.
+
 ## 3. Stratégie retenue (D-008)
 
 1. **Test réel indépendant** : réunions transcrites à la main de SUMM-RE, groupes d'expérience entiers, **jamais vus à l'entraînement**. Unités, requêtes et pertinences annotées (pré-annotation LLM provisoire + échantillon relu par l'étudiant).

@@ -58,3 +58,15 @@ Réponses de l'étudiant reçues le 2026-10-20T22:01+02:00 → D-004 à D-007.
 - **Justification** : seul candidat français vérifié qui contient de vraies réunions de décision et de planification. Les splits officiels partagent 30 groupes d'expérience entre train et test (fuite).
 - **Alternatives** : FREDSum (débats, peu d'actions) ; benchmark 100 % synthétique (refusé : il mesurerait la reconnaissance de nos propres patrons).
 - **Statut** : validée le 2026-10-20T22:42+02:00 (réponse « Faut le mieux », interprétée comme acceptation de l'option recommandée ; à corriger si ce n'était pas l'intention).
+
+## D-009 · 2026-10-20 · Sources sans date : ordre relatif
+
+- **Décision** : SUMM-RE ne contient aucune date calendaire ; `source_date` = null et `source_order` = rang a/b/c (ordre confirmé par la fiche du dataset). Aucune date n'est inventée. Les questions du type « vendredi » ne s'appliquent qu'aux données synthétiques et à la démo, qui portent de vraies dates.
+- **Statut** : appliquée (schéma `unit`, `check_relation`).
+
+## D-010 · 2026-10-20 · Split par composante de personnes
+
+- **Décision** : l'unité de split est la composante connexe des groupes reliés par un identifiant de locuteur commun. La grosse composante (27 groupes) va en train. Cibles : 15 réunions manuelles en test (dont 5 de décision), 11 en validation (dont 4 de décision).
+- **Justification** : un découpage par groupe seul laisserait les mêmes personnes, et donc leurs tics de langage et leurs projets, en train et en test.
+- **Limite** : les identifiants pourraient ne pas désigner des personnes uniques (hypothèse non confirmée par la fiche) ; si c'est le cas, le split est simplement plus conservateur que nécessaire. Les thèmes de scénario restent partagés.
+- **Statut** : appliquée (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
