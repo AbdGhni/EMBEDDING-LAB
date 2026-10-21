@@ -1,0 +1,2217 @@
+{
+ "group_id": "019",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "019a_EARD",
+   "turn": "t0021",
+   "evidence": "c'est le seul réseau social que j utilise et je suis bien contente de pas en utiliser plus parce_que à mon avis il_y a beaucoup trop d informations et de désinformations",
+   "type": "fact",
+   "status": "active",
+   "statement": "La mère (059) n'utilise que Facebook et refuse d'autres réseaux, à cause du trop-plein d'informations et de la désinformation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "019a_EARD",
+   "turn": "t0055",
+   "evidence": "c'est snapchat et instagram",
+   "type": "answer",
+   "status": "resolved",
+   "statement": "Eva (060) utilise surtout Snapchat et Instagram.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à la question de 061 sur ses applications les plus utilisées (t0051-t0053)."
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "019a_EARD",
+   "turn": "t0059",
+   "evidence": "facebook je n utilise plus",
+   "type": "fact",
+   "status": "active",
+   "statement": "Eva (060) n'utilise plus Facebook.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "019a_EARD",
+   "turn": "t0065",
+   "evidence": "sur la mairie aussi pour avoir des informations sur_ce qui se passe dans la commune",
+   "type": "fact",
+   "status": "active",
+   "statement": "La mère (059) consulte la page Facebook de la mairie pour les informations de la commune.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "019a_EARD",
+   "turn": "t0072",
+   "evidence": "tout ce qui est jeune de notre âge c'est sur insta snap",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Eva, les jeunes de son âge sont sur Instagram et Snapchat, Facebook étant pour les générations plus âgées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "019a_EARD",
+   "turn": "t0074",
+   "evidence": "est-ce_que vous savez ce que ça veut dire gafam",
+   "type": "question",
+   "status": "resolved",
+   "statement": "La mère demande ce que signifie l'acronyme GAFAM.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "019a_EARD",
+   "turn": "t0101",
+   "evidence": "euh google amazon facebook",
+   "type": "answer",
+   "status": "resolved",
+   "statement": "GAFAM : Google, Amazon, Facebook, Apple, Microsoft (reconstitué collectivement).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse collective étalée sur t0078-t0106 (apple t0104, microsoft t0106) ; tour le plus synthétique retenu."
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "019a_EARD",
+   "turn": "t0111",
+   "evidence": "la seule application que moi j utilise vous le savez c'est euh comment elle s appelle c'est euh whatsapp",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le père (061) n'utilise que WhatsApp.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "019a_EARD",
+   "turn": "t0122",
+   "evidence": "j en ai créé un snap et insta mais je les ai je me suis de suite retiré",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le père (061) a créé des comptes Snapchat et Instagram mais s'en est retiré aussitôt.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "019a_EARD",
+   "turn": "t0168",
+   "evidence": "comme façon de communiquer je suis d'accord mais comme façon de s informer c'est là où ça me gêne",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour la mère, les réseaux sociaux conviennent pour communiquer, pas pour s'informer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Opinion."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "019a_EARD",
+   "turn": "t0039",
+   "evidence": "t as le monde qui est sur twitter et c'est un vrai compte",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie (062) cite le compte Twitter officiel du journal Le Monde comme source fiable sur les réseaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "019a_EARD",
+   "turn": "t0233",
+   "evidence": "c'est juste un divertissement ça c'est pas pour s informer",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour Eva, TikTok est un pur divertissement, pas une source d'information.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "019a_EARD",
+   "turn": "t0247",
+   "evidence": "il_y a des gens qui se s informent uniquement sur les réseaux sociaux et qui en ont déduit que euh se faire vacciner c'était c'était pas bien",
+   "type": "risk",
+   "status": "active",
+   "statement": "Selon la mère, pendant la pandémie les réseaux sociaux ont eu un rôle néfaste : des gens qui s'y informent exclusivement ont conclu que la vaccination était dangereuse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le jugement « rôle très négatif » est en t0242-t0243 ; l'explication en t0247."
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "019a_EARD",
+   "turn": "t0281",
+   "evidence": "sur internet moi je peux mettre demain une information complètement fausse et personne va dire t as pas le droit de le mettre",
+   "type": "risk",
+   "status": "active",
+   "statement": "Sur internet, n'importe qui peut publier une information fausse sans contrôle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "019a_EARD",
+   "turn": "t0286",
+   "evidence": "esprit critique c'est c'est ce que j apprends aux élèves au lycée",
+   "type": "fact",
+   "status": "active",
+   "statement": "La mère enseigne l'esprit critique à ses élèves du lycée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "019a_EARD",
+   "turn": "t0301",
+   "evidence": "si t es contre au départ et mais",
+   "type": "fact",
+   "status": "active",
+   "statement": "Si l'on penche d'un côté au départ, on ne trouve que des sites qui confirment son avis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Biais de confirmation ; idée exprimée sur tout le tour t0301."
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "019a_EARD",
+   "turn": "t0311",
+   "evidence": "si tu as un a_priori déjà négatif tu vas recevoir que des informations dans ce sens",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le père souligne que les plateformes sont paramétrées pour ne renvoyer que des informations allant dans le sens de ses a priori.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "019a_EARD",
+   "turn": "t0322",
+   "evidence": "est-ce_que vous comprenez le thème open source ça veut dire quoi les filles",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Le père demande ce que signifie « open source ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "019a_EARD",
+   "turn": "t0329",
+   "evidence": "open source c'est comme open office tout ça non c'est les euh logiciels libres d accès",
+   "type": "answer",
+   "status": "resolved",
+   "statement": "La mère répond : l'open source, ce sont les logiciels libres d'accès comme OpenOffice.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "019a_EARD",
+   "turn": "t0357",
+   "evidence": "pour moi il est très mal conçu",
+   "type": "fact",
+   "status": "active",
+   "statement": "La mère trouve le traitement de texte gratuit d'OpenOffice mal conçu, et Word, payant, plus facile.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "019a_EARD",
+   "turn": "t0377",
+   "evidence": "on a un compte gratuit quand on est à la fac",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie indique que les étudiants ont un compte gratuit (Word) à la fac.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Selon Eva (t0379), cela dépend des facs."
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "019a_EARD",
+   "turn": "t0390",
+   "evidence": "j' ai pas commandé sur amazon depuis deux ans",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie affirme ne pas avoir commandé sur Amazon depuis deux ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "019a_EARD",
+   "turn": "t0414",
+   "evidence": "quel est ton rythme de commande sur euh sur ces ces sites là",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Le père demande à quelle fréquence on commande sur les sites marchands.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "019a_EARD",
+   "turn": "t0418",
+   "evidence": "deux fois par an",
+   "type": "answer",
+   "status": "resolved",
+   "statement": "Eva commande en ligne environ deux fois par an, jamais sur Amazon (t0420).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "019a_EARD",
+   "turn": "t0444",
+   "evidence": "elle commande plus sur internet parce_que elle a pas forcément le temps de sortir et d' aller acheter les choses",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine commande davantage sur internet que Julie, faute de temps pour aller en magasin.",
+   "owner": null,
+   "mentioned_people": [
+    "delphine"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "019a_EARD",
+   "turn": "t0457",
+   "evidence": "moi ce qui me dérange de commander en ligne déjà c'est la sécurité par rapport",
+   "type": "risk",
+   "status": "active",
+   "statement": "La mère s'inquiète de la sécurité de sa carte bancaire quand elle commande en ligne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« à ma carte bleue » est en t0461."
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "019a_EARD",
+   "turn": "t0463",
+   "evidence": "je préfère aller dans un petit magasin même si c'est cavailleux à cavaillons que d aller sur amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "La mère préfère acheter dans un petit commerce plutôt que sur Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "019a_EARD",
+   "turn": "t0484",
+   "evidence": "regarde j ai vu ce mascara dans ce magazine voici trouve le moi je le veux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie rapporte que sa mère a voulu un mascara vu dans un magazine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "019a_EARD",
+   "turn": "t0542",
+   "evidence": "ça peut arriver aussi d être influencé par autre_chose que les réseaux sociaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie conclut qu'on peut être influencé par d'autres médias que les réseaux sociaux (magazines, pubs).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "019a_EARD",
+   "turn": "t0573",
+   "evidence": "quand tu commandes sur amazon automatiquement ça te fait comme si tu t abonnais à amazon prime",
+   "type": "risk",
+   "status": "active",
+   "statement": "Julie s'est fait abonner automatiquement à Amazon Prime lors d'une commande.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "019a_EARD",
+   "turn": "t0577",
+   "evidence": "ça m a prélevé quarante_neuf euros",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'abonnement Prime non voulu lui a été prélevé quarante-neuf euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quarante_neuf euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "019a_EARD",
+   "turn": "t0583",
+   "evidence": "après j ai fait annuler mon abonnement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie a fait annuler l'abonnement et a été remboursée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le remboursement est dit en t0573 et confirmé t0584-t0585."
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "019a_EARD",
+   "turn": "t0612",
+   "evidence": "pour moi c'est plus simple d échanger après dans un magasin que sur internet",
+   "type": "fact",
+   "status": "active",
+   "statement": "La mère trouve plus simple d'échanger un article en magasin qu'en ligne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "019a_EARD",
+   "turn": "t0621",
+   "evidence": "qui te poursuit dans tes consultations de site et qui te cible",
+   "type": "risk",
+   "status": "active",
+   "statement": "Google suit les consultations de sites et cible l'utilisateur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "019a_EARD",
+   "turn": "t0645",
+   "evidence": "la moitié des résultats que google te donne et du_coup j étais obligée de repasser par google",
+   "type": "fact",
+   "status": "active",
+   "statement": "Eva a essayé un moteur de recherche solidaire mais il ne donnait que la moitié des résultats de Google ; elle est revenue à Google.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le moteur alternatif est décrit en t0623-t0638 sans être nommé."
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "019a_EARD",
+   "turn": "t0662",
+   "evidence": "j en ai essayé deux autres et à chaque fois parce_que ça se mettait automatiquement et à chaque fois genre je trouvais pas facilement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie a essayé deux autres moteurs mais trouvait moins facilement qu'avec Google.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "019a_EARD",
+   "turn": "t0682",
+   "evidence": "ça m a sorti plein de pubs pour des bagues dior des sacs chanel",
+   "type": "fact",
+   "status": "active",
+   "statement": "Après une recherche Google de bague, Julie a reçu des publicités ciblées sur Instagram.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "019a_EARD",
+   "turn": "t0688",
+   "evidence": "comme c'était fermé parce_qu il_y avait le confinement ben je l ai pas acheté",
+   "type": "fact",
+   "status": "active",
+   "statement": "Julie n'a pas acheté la bague car elle voulait l'essayer en magasin et les magasins étaient fermés (confinement).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "019b_EADD",
+   "turn": "t0000",
+   "evidence": "il faut qu' on choisisse le thème définitif de l' événement",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut choisir le thème définitif de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "019b_EADD",
+   "turn": "t0014",
+   "evidence": "les limites d' utilisation ouais les dangers",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Orientation proposée : les limites d'utilisation et les dangers des réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "019b_EADD",
+   "turn": "t0015",
+   "evidence": "quel est le public qu' on pourrait viser",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel public viser ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "019b_EADD",
+   "turn": "t0032",
+   "evidence": "on fait une rencontre entre des jeunes et des vieux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : organiser une rencontre entre jeunes et personnes âgées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "019b_EADD",
+   "turn": "t0042",
+   "evidence": "soit c'est trois invités à bas soit c'est deux à moyen coût ou alors un à coût élevé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Contrainte budgétaire : trois invités à bas coût, ou deux à coût moyen, ou un à coût élevé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Barème : étudiant ou personne peu connue = bas coût ; scientifique/professeur = moyen (t0044) ; youtubeur/politicien connu = élevé (t0046)."
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "019b_EADD",
+   "turn": "t0059",
+   "evidence": "il y a des personnes par_exemple sur tiktok qui sont étudiants qui ne sont pas youtubeurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Julie propose d'inviter des étudiants connus sur TikTok sans être des stars (donc bas coût).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "019b_EADD",
+   "turn": "t0089",
+   "evidence": "échange sur la place des réseaux sociaux dans la dans nos vies aujourd'hui",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de thème : échange sur la place des réseaux sociaux dans nos vies aujourd'hui.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "019b_EADD",
+   "turn": "t0102",
+   "evidence": "on fait une information une note dans la gazette de du mois prochain",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Annoncer l'événement par une note dans la gazette (bulletin municipal).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le bulletin municipal est précisé en t0105."
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "019b_EADD",
+   "turn": "t0128",
+   "evidence": "on louera une salle des fêtes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eva propose de louer une salle des fêtes avec jardin et chapiteaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "019b_EADD",
+   "turn": "t0135",
+   "evidence": "moi je propose l' été prochain",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eva propose l'été prochain (mai-juin) pour pouvoir être dehors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "019b_EADD",
+   "turn": "t0143",
+   "evidence": "c'est la période des examens les jeunes ils vont pas",
+   "type": "risk",
+   "status": "active",
+   "statement": "Mai-juin tombe pendant les examens : les jeunes ne viendraient pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "019b_EADD",
+   "turn": "t0148",
+   "evidence": "moi je dirais ça en octobre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Julie propose octobre, car en juillet les gens partent en vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "019b_EADD",
+   "turn": "t0176",
+   "evidence": "moi je propose au_début de rentrée septembre dans un campus universitaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eva propose début septembre sur un campus universitaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "019b_EADD",
+   "turn": "t0155",
+   "evidence": "septembre les jeunes ils viennent de préparer leur rentrée",
+   "type": "risk",
+   "status": "active",
+   "statement": "En septembre les jeunes sont pris par la rentrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "019b_EADD",
+   "turn": "t0183",
+   "evidence": "vas mener les vieux de du village dans un campus universitaire",
+   "type": "risk",
+   "status": "active",
+   "statement": "Doute : faire venir les personnes âgées du village sur un campus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée en t0179."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "019b_EADD",
+   "turn": "t0242",
+   "evidence": "une personne jeune qui est sur les réseaux sociaux qui aura un avis positif",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Julie propose un jeune favorable aux réseaux et un chercheur plutôt critique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "019b_EADD",
+   "turn": "t0253",
+   "evidence": "ça fait trop jeune contre vieux",
+   "type": "risk",
+   "status": "active",
+   "statement": "La mère craint un débat trop « jeunes contre vieux » et suggère de croiser les profils.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "019b_EADD",
+   "turn": "t0293",
+   "evidence": "on a le droit de trois personnes vu qu' elles sont pas connues",
+   "type": "decision",
+   "status": "active",
+   "statement": "Trois invités peu connus, donc à bas coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord implicite (t0296 « alors elle c'est à bas coût »)."
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "019b_EADD",
+   "turn": "t0386",
+   "evidence": "on en a une qui est célia qui donne les avantages un qui donne les limites et un troisième qui donne aussi limite",
+   "type": "decision",
+   "status": "active",
+   "statement": "Composition des invités : Célia (avantages des réseaux), puis deux invités qui montrent les limites.",
+   "owner": null,
+   "mentioned_people": [
+    "célia"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "019b_EADD",
+   "turn": "t0435",
+   "evidence": "pour stimuler ses ventes pour euh faire connaître",
+   "type": "fact",
+   "status": "active",
+   "statement": "Célia, vendeuse, utilise de nombreux réseaux sociaux pour développer ses ventes et faire connaître ses produits.",
+   "owner": null,
+   "mentioned_people": [
+    "célia"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Description construite sur t0428-t0438."
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "019b_EADD",
+   "turn": "t0457",
+   "evidence": "il trouve pas d' utilité à aux réseaux sociaux dans sa vie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Yannis, étudiant, est choisi parce qu'il ne trouve pas d'utilité aux réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [
+    "yannis"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "019b_EADD",
+   "turn": "t0468",
+   "evidence": "il montre bien les limites",
+   "type": "fact",
+   "status": "active",
+   "statement": "Jules, étudiant auteur d'un livre, est retenu pour illustrer les limites des réseaux sociaux à partir de son vécu.",
+   "owner": null,
+   "mentioned_people": [
+    "jules"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Détails personnels sensibles sur Jules volontairement non annotés."
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "019b_EADD",
+   "turn": "t0498",
+   "evidence": "en octobre en octobre parce_que c'est une période",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : l'événement aura lieu en octobre (à l'automne, après la rentrée).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord en t0495-t0497 (« octobre ok »)."
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "019b_EADD",
+   "turn": "t0513",
+   "evidence": "faut faire ça sur une demi-journée je pense",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement dure une demi-journée (une matinée).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé t0517-t0519 et t0630-t0635 (matinée)."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "019b_EADD",
+   "turn": "t0579",
+   "evidence": "ce ferait sur le campus universitaire d' avignon centre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Lieu : le campus universitaire d'Avignon centre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "019b_EADD",
+   "turn": "t0576",
+   "evidence": "on peut faire une communication dans tous_les villages pour attirer des gens",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Communiquer dans tous les villages pour attirer du public à Avignon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "019b_EADD",
+   "turn": "t0590",
+   "evidence": "gratuit ça veut dire il faut trouver des subventions",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un buffet gratuit suppose de trouver des subventions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "019b_EADD",
+   "turn": "t0592",
+   "evidence": "c'est les élèves du lycée alexandre dumas qui vont faire le buffet",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La mère propose que les élèves du lycée Alexandre Dumas fassent le buffet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "019b_EADD",
+   "turn": "t0636",
+   "evidence": "donc ils arrivent à 9h30",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Arrivée proposée à 9h30.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "019b_EADD",
+   "turn": "t0641",
+   "evidence": "non 9h c'est bien ils arrivent à 9h",
+   "type": "decision",
+   "status": "active",
+   "statement": "Arrivée fixée à 9h avec un café d'accueil.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "019b_EADD",
+   "turn": "t0654",
+   "evidence": "toutes_les vingt minutes ou toutes_les trente minutes on doit changer de table",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Julie propose de changer de table toutes les 20 ou 30 minutes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Repris dans la synthèse (t0750-t0753)."
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "019b_EADD",
+   "turn": "t0671",
+   "evidence": "il vaut mieux que ce soit un samedi matin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Julie propose un samedi matin, car en semaine les gens travaillent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "019b_EADD",
+   "turn": "t0675",
+   "evidence": "le dix-huit octobre samedi dix-huit octobre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le père avance la date du samedi 18 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "019b_EADD",
+   "turn": "t0676",
+   "evidence": "il faut pas que ça soit un samedi les étudiants ils sont pas là",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le samedi, les étudiants ne sont pas là.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "019b_EADD",
+   "turn": "t0681",
+   "evidence": "mercredi matin mercredi matin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Julie propose finalement un mercredi matin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "La mère note que les retraités viendraient (t0682)."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "019b_EADD",
+   "turn": "t0687",
+   "evidence": "un échange avec des gens justement d' une maison de retraite",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée d'un échange avec des résidents de maison de retraite.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Reprise en t0755 (EHPAD du centre d'Avignon)."
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "019b_EADD",
+   "turn": "t0724",
+   "evidence": "accueil café les personnes se répartissent en table ronde buffet pour attirer les étudiants les profs et personnes extérieures",
+   "type": "decision",
+   "status": "active",
+   "statement": "Déroulé acté : accueil café, tables rondes, buffet pour attirer étudiants, profs et personnes extérieures.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lecture de la synthèse par Eva (t0722-t0741)."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "019b_EADD",
+   "turn": "t0732",
+   "evidence": "si tu le fais au départ les gens ils viennent et mangent ils s' en vont",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le buffet est placé en fin de matinée pour éviter que les gens mangent et partent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "019b_EADD",
+   "turn": "t0817",
+   "evidence": "tu mets échange intergénérationnel",
+   "type": "decision",
+   "status": "active",
+   "statement": "Titre retenu : « échange intergénérationnel » (sur les réseaux sociaux).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord inféré de t0820-t0821 (« c'est bon », « voilà »)."
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0010",
+   "evidence": "moi je veux bien m occuper du buffet",
+   "type": "commitment",
+   "status": "active",
+   "statement": "La mère (059) s'occupe du buffet.",
+   "owner": "059",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0012",
+   "evidence": "je paye pas je f- j établis les contacts",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Elle ne paie pas elle-même : elle établit les contacts.",
+   "owner": "059",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0015",
+   "evidence": "la comptable elle est d'accord",
+   "type": "fact",
+   "status": "active",
+   "statement": "La comptable a donné son accord.",
+   "owner": null,
+   "mentioned_people": [
+    "la comptable"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0018",
+   "evidence": "t as un budget de combien du_coup",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Eva demande le budget du buffet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse en t0019 (« cinq_mille euros ») non annotable : extrait de moins de 3 mots."
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0028",
+   "evidence": "accueil café et buffet",
+   "type": "commitment",
+   "status": "active",
+   "statement": "La mère prend en charge l'accueil café et le buffet.",
+   "owner": "059",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Voir t0023 « je m occupe de l accueil café »."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0029",
+   "evidence": "moi je m occuperai de la com",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Le père (061) s'occupe de la communication.",
+   "owner": "061",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0039",
+   "evidence": "on a dit euh on le faisait fin octobre",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel du père : l'événement a lieu fin octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Un mercredi (t0042)."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0052",
+   "evidence": "à la rentrée de septembre je contacte les profs de l hôtellerie",
+   "type": "commitment",
+   "status": "active",
+   "statement": "À la rentrée de septembre, la mère contacte les professeurs de l'école hôtelière.",
+   "owner": "059",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0063",
+   "evidence": "les élèves qui feront aussi les productions du buffet et euh et de l accueil café",
+   "type": "decision",
+   "status": "conditional",
+   "statement": "Les élèves de l'école hôtelière d'Avignon assureraient service et production du buffet et de l'accueil café, seule la matière première étant à payer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Conditionnel : il s'agit de les contacter pour savoir s'ils sont d'accord (t0074, t0078)."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0078",
+   "evidence": "c'est contacter c'est pas qu ils vont le faire c'est contacter pour savoir s ils sont d'accord",
+   "type": "fact",
+   "status": "active",
+   "statement": "Précision d'Eva : la tâche est de contacter l'école hôtelière pour obtenir son accord, rien n'est acquis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0084",
+   "evidence": "qu est ce_qu on avait dit pour la clôture des inscriptions",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Le père demande quelle date de clôture des inscriptions a été fixée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rien n'avait été fixé ; réponse : fin septembre."
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0094",
+   "evidence": "on a une capacité au campus combien de personnes à peu près",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle est la capacité d'accueil au campus ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0205",
+   "evidence": "maximum cent ils ont dit à la fac qu' on pouvait",
+   "type": "answer",
+   "status": "resolved",
+   "statement": "La fac autorise cent personnes au maximum.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cent",
+   "assertion": "extracted",
+   "notes": "Aussi t0097-t0098 (une centaine)."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0110",
+   "evidence": "communication du nombre de participations de participants",
+   "type": "action",
+   "status": "open",
+   "statement": "Fin septembre : communiquer le nombre exact de participants pour ajuster la commande du buffet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Finalité précisée en t0212."
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0132",
+   "evidence": "je vais pas donner l info maintenant tout_le monde est en vacances",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le père n'annoncera pas l'événement tout de suite, car tout le monde est en vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0156",
+   "evidence": "qu il fasse une une un petit spot euh publicitaire via la radio une radio locale sur avignon",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Le père fera passer un spot publicitaire par un ami travaillant à France Bleu Vaucluse.",
+   "owner": "061",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Radio nommée en t0154."
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0167",
+   "evidence": "mes collaboratrices là julie et eva vont euh vous allez vous vous vous occupez vous de ça",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Le père confie la communication sur les réseaux sociaux à Julie et Eva.",
+   "owner": null,
+   "mentioned_people": [
+    "062",
+    "060"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas d'acceptation explicite."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0173",
+   "evidence": "ils peuvent le publier aussi sur les groupes étudiants",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les élèves de l'association peuvent publier l'annonce dans les groupes étudiants ; annonce aussi sur le site de l'université (t0168).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0177",
+   "evidence": "une affiche euh sur le bulletin municipal de la ville",
+   "type": "action",
+   "status": "active",
+   "statement": "Affiche dans le bulletin municipal, affichage sur le campus (t0183) et flyers à la sortie de la fac (t0192).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0198",
+   "evidence": "faut pas que tout_le monde vienne non_plus",
+   "type": "risk",
+   "status": "active",
+   "statement": "Il ne faut pas trop de monde, vu la capacité limitée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0227",
+   "evidence": "moi je m occupe de réserver la salle t inquiètes",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Eva (060) réserve la salle, début septembre (t0271).",
+   "owner": "060",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0283",
+   "evidence": "pour obtenir son accord",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter le doyen (président) de l'université pour obtenir son accord.",
+   "owner": null,
+   "mentioned_people": [
+    "le doyen"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée formée sur t0236, t0275-t0283."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0236",
+   "evidence": "si tu fais des tables rondes c'est pas un amphi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les tables rondes ne peuvent pas se tenir dans un amphithéâtre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0246",
+   "evidence": "contacter les intervenants",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Julie (062) contacte les trois intervenants.",
+   "owner": "062",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Julie revendique cette tâche en t0219 (« non c'est moi ça »)."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0256",
+   "evidence": "c'est vraiment la date parfait mercredi dix-huit octobre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date de l'événement : le mercredi 18 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Juste avant les vacances de la Toussaint (t0258-t0260). En réunion b, le 18 octobre était évoqué comme un samedi."
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0501",
+   "evidence": "il faut qu on la propose",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Le père hésite : la date n'est peut-être pas arrêtée, il faut la proposer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contredit l'affirmation de t0256 ; statut incertain."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0318",
+   "evidence": "communication sur le respect des normes sanitaires",
+   "type": "action",
+   "status": "open",
+   "statement": "Ajouter une tâche de communication sur les normes sanitaires (covid).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0354",
+   "evidence": "on est obligé de demander les passes sanitaires à l entrée",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Julie pense qu'il faudra contrôler le pass sanitaire à l'entrée (plus de cinquante personnes).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Eva dit le contraire en t0325 ; non tranché."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0338",
+   "evidence": "achat de gel achat de gel hydroalcoolique",
+   "type": "action",
+   "status": "open",
+   "statement": "Acheter du gel hydroalcoolique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le père rappelle qu'il faut le budgéter (t0339)."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0392",
+   "evidence": "je peux donner un coup de main",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Le père aidera à préparer la salle la veille (le 17).",
+   "owner": "061",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "La veille = le 17 (t0380)."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0405",
+   "evidence": "installation la veille de dix tables rondes",
+   "type": "decision",
+   "status": "proposed",
+   "statement": "Installation la veille de dix tables rondes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0409",
+   "evidence": "faut prendre vingt tables vingt tables",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eva estime qu'il faut vingt tables.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0444",
+   "evidence": "tu demanderas au prof que tu connais l école hôtelier à voir si ils ont le matos",
+   "type": "action",
+   "status": "open",
+   "statement": "Demander au professeur de l'école hôtelière s'ils ont le matériel (frigorifique).",
+   "owner": null,
+   "mentioned_people": [
+    "059"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0491",
+   "evidence": "contacter euh dès le mois de euh mois d août",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter les intervenants dès le mois d'août pour vérifier leur disponibilité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0504",
+   "evidence": "j ai contacté le maire il m a dit non",
+   "type": "answer",
+   "status": "unknown",
+   "statement": "Julie dit que le maire a répondu qu'aucune autorisation n'est nécessaire.",
+   "owner": null,
+   "mentioned_people": [
+    "le maire"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ton plaisant (t0507) ; fiabilité incertaine."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0583",
+   "evidence": "je pense il vaut mieux les élèves de droit",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eva propose que les étudiants de droit fassent le bilan.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0598",
+   "evidence": "à_travers un questionnaire et des interviews auprès_des participants",
+   "type": "decision",
+   "status": "active",
+   "statement": "Une promo de licence communication, désignée début septembre, fera le bilan via questionnaire et interviews, publié ensuite sur le site de l'université.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée sur t0591-t0602 et t0648 (diffusion sur le site)."
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0563",
+   "evidence": "je le fais si tu veux je contacte le journaliste",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Eva contacte un journaliste début septembre pour qu'il couvre l'événement le 18 octobre.",
+   "owner": "060",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Échéance en t0566."
+  },
+  {
+   "key": "c-42",
+   "meeting_id": "019c_EAPD",
+   "turn": "t0699",
+   "evidence": "mais on n héberge personne ils sont de la fac ou ils sont d avignon",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pas d'hébergement à prévoir : les intervenants sont locaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-07",
+   "to": "a-06",
+   "relation": "answers",
+   "justification": "a-07 donne les mots de l'acronyme demandé en a-06."
+  },
+  {
+   "from": "a-19",
+   "to": "a-18",
+   "relation": "answers",
+   "justification": "a-19 définit l'open source demandé en a-18."
+  },
+  {
+   "from": "a-24",
+   "to": "a-23",
+   "relation": "answers",
+   "justification": "a-24 donne la fréquence de commande demandée en a-23."
+  },
+  {
+   "from": "a-31",
+   "to": "a-30",
+   "relation": "supports",
+   "justification": "Le prélèvement de 49 euros est la conséquence de l'abonnement automatique."
+  },
+  {
+   "from": "a-38",
+   "to": "a-37",
+   "relation": "supports",
+   "justification": "Suite de la même histoire de bague ciblée."
+  },
+  {
+   "from": "a-16",
+   "to": "a-17",
+   "relation": "supports",
+   "justification": "Même idée de bulle de confirmation."
+  },
+  {
+   "from": "b-04",
+   "to": "b-03",
+   "relation": "answers",
+   "justification": "La rencontre jeunes/vieux répond à la question du public visé."
+  },
+  {
+   "from": "b-18",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "Le choix de trois invités applique l'option bas coût du barème."
+  },
+  {
+   "from": "b-19",
+   "to": "b-16",
+   "relation": "supersedes",
+   "justification": "La composition retenue (Célia + deux invités « limites ») tranche la question des invités à laquelle b-16 proposait une réponse."
+  },
+  {
+   "from": "b-23",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "Décision octobre tranche la date ; l'été proposé est écarté."
+  },
+  {
+   "from": "b-23",
+   "to": "b-13",
+   "relation": "supersedes",
+   "justification": "Décision octobre tranche la date ; début septembre est écarté (t0494-t0497)."
+  },
+  {
+   "from": "b-23",
+   "to": "b-12",
+   "relation": "supports",
+   "justification": "La décision reprend la proposition d'octobre."
+  },
+  {
+   "from": "b-11",
+   "to": "b-10",
+   "relation": "supports",
+   "justification": "Risque d'examens qui pèse contre mai-juin."
+  },
+  {
+   "from": "b-25",
+   "to": "b-09",
+   "relation": "supersedes",
+   "justification": "Le campus d'Avignon tranche la question du lieu ; la salle des fêtes est écartée."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "supersedes",
+   "justification": "« non 9h c'est bien » corrige 9h30."
+  },
+  {
+   "from": "b-35",
+   "to": "b-32",
+   "relation": "supersedes",
+   "justification": "Après l'objection b-34, Julie propose le mercredi au lieu du samedi."
+  },
+  {
+   "from": "b-34",
+   "to": "b-32",
+   "relation": "contradicts",
+   "justification": "Objection au samedi : pas d'étudiants."
+  },
+  {
+   "from": "b-39",
+   "to": "b-07",
+   "relation": "supersedes",
+   "justification": "Le titre retenu remplace la formulation jugée trop longue (t0801)."
+  },
+  {
+   "from": "c-27",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Précise la date dans le mois d'octobre décidé en b."
+  },
+  {
+   "from": "c-27",
+   "to": "b-33",
+   "relation": "supersedes",
+   "justification": "Le 18 octobre est désormais un mercredi, non plus un samedi."
+  },
+  {
+   "from": "c-27",
+   "to": "b-35",
+   "relation": "supports",
+   "justification": "Le mercredi proposé en b est retenu."
+  },
+  {
+   "from": "c-27",
+   "to": "c-09",
+   "relation": "supersedes",
+   "justification": "La date précise (18 octobre) remplace « fin octobre »."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "contradicts",
+   "justification": "Le père doute que la date soit arrêtée."
+  },
+  {
+   "from": "c-15",
+   "to": "c-14",
+   "relation": "answers",
+   "justification": "Cent personnes maximum répond à la question de capacité."
+  },
+  {
+   "from": "c-16",
+   "to": "c-13",
+   "relation": "answers",
+   "justification": "Fin septembre comme échéance pour le nombre de participants."
+  },
+  {
+   "from": "c-07",
+   "to": "c-02",
+   "relation": "supports",
+   "justification": "Reformule l'engagement buffet et y ajoute l'accueil café."
+  },
+  {
+   "from": "c-02",
+   "to": "c-10",
+   "relation": "creates_action",
+   "justification": "La prise en charge du buffet donne lieu au contact des profs de l'école hôtelière."
+  },
+  {
+   "from": "c-11",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "L'école hôtelière d'Avignon tranche qui produit le buffet ; la piste lycée Alexandre Dumas est écartée."
+  },
+  {
+   "from": "c-12",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Précise le caractère conditionnel."
+  },
+  {
+   "from": "c-08",
+   "to": "c-18",
+   "relation": "creates_action",
+   "justification": "La prise en charge de la communication donne lieu au spot radio."
+  },
+  {
+   "from": "c-23",
+   "to": "c-24",
+   "relation": "creates_action",
+   "justification": "Réserver la salle implique de contacter le doyen pour son accord."
+  },
+  {
+   "from": "c-34",
+   "to": "c-33",
+   "relation": "contradicts",
+   "justification": "Vingt tables contre dix, sans issue tranchée."
+  },
+  {
+   "from": "c-40",
+   "to": "c-39",
+   "relation": "supersedes",
+   "justification": "La licence communication est retenue (t0591) au lieu des étudiants de droit."
+  },
+  {
+   "from": "c-26",
+   "to": "c-36",
+   "relation": "creates_action",
+   "justification": "Le contact des intervenants est à faire dès août."
+  },
+  {
+   "from": "c-22",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "La limite de capacité motive la prudence sur la diffusion."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "019a_EARD",
+   "text": "Quel est l'unique réseau social de la mère, et pourquoi refuse-t-elle d'en adopter davantage ?",
+   "answerable": true,
+   "qrels": {
+    "a-01": 2,
+    "a-04": 1,
+    "a-10": 1,
+    "a-03": 0,
+    "a-08": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "person"
+    },
+    {
+     "unit": "a-08",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "019a_EARD",
+   "text": "Combien Julie s'est-elle fait débiter à cause de l'abonnement Prime non désiré ?",
+   "answerable": true,
+   "qrels": {
+    "a-31": 2,
+    "a-30": 1,
+    "a-32": 1,
+    "a-22": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "019a_EARD",
+   "text": "Quelles applications Eva utilise-t-elle le plus en ce moment ?",
+   "answerable": true,
+   "qrels": {
+    "a-02": 2,
+    "a-03": 1,
+    "a-05": 1,
+    "a-08": 0,
+    "a-12": 0
+   },
+   "traps": [
+    {
+     "unit": "a-08",
+     "trap": "person"
+    },
+    {
+     "unit": "a-12",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "019a_EARD",
+   "text": "Pourquoi Eva a-t-elle laissé tomber le moteur de recherche solidaire pour revenir à Google ?",
+   "answerable": true,
+   "qrels": {
+    "a-35": 2,
+    "a-36": 0,
+    "a-34": 0
+   },
+   "traps": [
+    {
+     "unit": "a-36",
+     "trap": "person"
+    },
+    {
+     "unit": "a-34",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "019a_EARD",
+   "text": "D'après la mère, quel effet les réseaux sociaux ont-ils eu sur l'opinion vis-à-vis du vaccin pendant la crise sanitaire ?",
+   "answerable": true,
+   "qrels": {
+    "a-13": 2,
+    "a-14": 1,
+    "a-17": 1,
+    "c-30": 0,
+    "c-29": 0
+   },
+   "traps": [
+    {
+     "unit": "c-30",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "019a_EARD",
+   "text": "Qu'est-ce qui freine la mère quand il s'agit d'acheter sur internet plutôt qu'en boutique ?",
+   "answerable": true,
+   "qrels": {
+    "a-26": 2,
+    "a-27": 2,
+    "a-33": 1,
+    "a-25": 0,
+    "a-24": 0
+   },
+   "traps": [
+    {
+     "unit": "a-25",
+     "trap": "person"
+    },
+    {
+     "unit": "a-24",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "019a_EARD",
+   "text": "Pourquoi Julie n'a-t-elle pas cédé à l'achat de la bague Dior vue en publicité ?",
+   "answerable": true,
+   "qrels": {
+    "a-38": 2,
+    "a-37": 1,
+    "a-22": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "019a_EARD",
+   "text": "Quel réseau social open source la famille a-t-elle décidé d'adopter ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "019c_EAPD",
+   "text": "Qui gère la partie restauration de la rencontre, accueil café compris ?",
+   "answerable": true,
+   "qrels": {
+    "c-02": 2,
+    "c-07": 2,
+    "c-03": 1,
+    "c-10": 1,
+    "c-11": 1,
+    "b-28": 0,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "019c_EAPD",
+   "text": "Quel jour précis l'événement intergénérationnel est-il fixé ?",
+   "answerable": true,
+   "qrels": {
+    "c-27": 2,
+    "b-23": 1,
+    "b-35": 1,
+    "c-09": 0,
+    "b-33": 0,
+    "c-28": 0,
+    "b-10": 0
+   },
+   "traps": [
+    {
+     "unit": "c-09",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-33",
+     "trap": "date"
+    },
+    {
+     "unit": "c-28",
+     "trap": "status"
+    },
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "019c_EAPD",
+   "text": "Qui se charge de réserver la salle à l'université, et quelle autorisation faut-il obtenir ?",
+   "answerable": true,
+   "qrels": {
+    "c-23": 2,
+    "c-24": 2,
+    "c-25": 1,
+    "b-25": 1,
+    "b-09": 0,
+    "c-37": 0
+   },
+   "traps": [
+    {
+     "unit": "b-09",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "019c_EAPD",
+   "text": "Qui réalisera le bilan après l'événement, avec quelle méthode, et où sera-t-il publié ?",
+   "answerable": true,
+   "qrels": {
+    "c-40": 2,
+    "c-39": 0,
+    "c-41": 0
+   },
+   "traps": [
+    {
+     "unit": "c-39",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-41",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "019c_EAPD",
+   "text": "Combien de personnes au plus la fac accepte-t-elle d'accueillir pour la rencontre ?",
+   "answerable": true,
+   "qrels": {
+    "c-15": 2,
+    "c-14": 1,
+    "c-22": 1,
+    "c-33": 0,
+    "c-34": 0,
+    "b-18": 0
+   },
+   "traps": [
+    {
+     "unit": "c-33",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-34",
+     "trap": "amount"
+    },
+    {
+     "unit": "b-18",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "019c_EAPD",
+   "text": "Quand Eva doit-elle joindre la presse, et dans quel but ?",
+   "answerable": true,
+   "qrels": {
+    "c-41": 2,
+    "c-36": 0,
+    "c-18": 0,
+    "c-40": 0
+   },
+   "traps": [
+    {
+     "unit": "c-36",
+     "trap": "date"
+    },
+    {
+     "unit": "c-18",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-40",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "019c_EAPD",
+   "text": "Comment Eusebio prévoit-il de faire connaître l'événement au public ?",
+   "answerable": true,
+   "qrels": {
+    "c-18": 2,
+    "c-08": 1,
+    "c-21": 1,
+    "c-17": 1,
+    "b-08": 1,
+    "c-19": 0,
+    "c-20": 0
+   },
+   "traps": [
+    {
+     "unit": "c-19",
+     "trap": "person"
+    },
+    {
+     "unit": "c-20",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "019c_EAPD",
+   "text": "Quel cachet sera versé à chacun des intervenants ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "059": "mère de julie, enseignante/documentaliste au lycée (prénom non transcrit)",
+  "060": "eva (incertain)",
+  "061": "eusebio (incertain)",
+  "062": "julie"
+ },
+ "notes": "Groupe familial (mère 059, père 061, filles 060 et 062). Réunion a : discussion d'opinions sur les GAFAM, peu de décisions ; unités surtout de type fact/risk. Réunion b (ASR) très bruitée : extraits choisis sur les tours les plus lisibles. Ambiguïtés : jour de la semaine du 18 octobre (samedi en b t0675, mercredi en c t0256) ; « fin octobre » (c t0039) contre 18 octobre ; le père doute ensuite que la date soit arrêtée (c t0501) ; 10 ou 20 tables (non tranché) ; pass sanitaire obligatoire ou non (non tranché) ; réponse du maire sur un ton plaisant (fiabilité incertaine). Identités 060/061 déduites des adresses (« eva tu fais quoi toi », « eusebio s occupera de la communication »). Informations personnelles sensibles (orientation d'un invité, santé individuelle, âge) volontairement non annotées."
+}
