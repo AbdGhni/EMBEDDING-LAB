@@ -284,3 +284,31 @@ Tests sur le PC de l'étudiant (uv absent) ; la CI GitHub sous Windows reste la 
 - Écarts acceptés : 014 a 8 questions répondables (7 au plus prévues) ; plusieurs groupes dépassent 40 unités par réunion avant la consigne de plafond (008, 014, 015, 021).
 - Données sensibles : plusieurs annotateurs ont volontairement écarté des informations de santé ou personnelles ; consigne ajoutée aux mandats suivants.
 - **Interruption** : les tâches test 019, 024 et 033 ont été arrêtées vers 17 h par la limite d'usage de la session (HTTP 429, réinitialisation à 20 h). Reprises à 21:40 depuis leur contexte sauvegardé.
+
+---
+
+## 2026-10-21 · Session S08 fin · EL-007b : B-REAL complet et gel du test
+
+- **Fin** : voir l'horodatage du commit
+- **Agent / capacité** : 19 tâches d'annotation par sous-agents (pilote compris), contrôle de chaque fichier par l'orchestrateur (`check_breal_raw.py`) ; aucun fichier rejeté au contrôle final.
+
+### Résultats
+
+- Val : 10 groupes, 1 255 unités, 78 requêtes répondables, 262 triplets.
+- Test : 9 groupes, 975 unités, 105 requêtes répondables (15 sans réponse), 303 triplets ; 7 grappes.
+- Classeur de relecture (5 réunions tirées au sort, 197 unités, 35 requêtes répondables, 187 lignes de jugement) : `annotations/breal/review/relecture_v1.xlsx`.
+
+### Gel du test B-REAL (avant toute évaluation)
+
+| Fichier | SHA-256 |
+|---|---|
+| `data/breal/test/queries.jsonl` | `e099ccc2332a10172da8ed718d79af2c01a5e57abeb8189516a312030d7b0cb7` |
+| `data/breal/test/qrels.json` | `7fe031a8ede3b1d4298b9294e9fb460699c9ff8a7388e9e0237e563dfb956a29` |
+| `data/breal/test/triplets.jsonl` | `401a2b23ada81c39ae84d963636b76aa8cf4f9d36e8f5270348b566e8dc4de25` |
+| `data/breal/test/units.jsonl` | `0f9dc0d7faf6f266b0ed0be979d39f46ede5d12a86751914549629baa80383b0` |
+
+Les empreintes des 9 fichiers bruts de test sont dans `data/breal/manifest.json` (champ `raw_sha256`). Si la relecture humaine corrige des annotations de test, la version corrigée sera figée comme **v2**, avec ses propres empreintes, toujours avant toute évaluation ; la v1 reste consignée ici.
+
+### Suite
+
+Relecture par l'étudiant ; en parallèle, EL-010 (point d'entrée d'évaluation commun + BM25) sur val.

@@ -104,6 +104,24 @@ Limites :
 - Accords grammaticaux approximatifs possibles (prénoms sans genre).
 - Pendant la mise au point du générateur, l'orchestrateur a affiché les unités et requêtes d'un projet de test (`bs-test-000`) pour corriger deux bugs de rendu. Aucun modèle n'a été évalué et rien n'a été ajusté en fonction d'un score.
 
+## 2 quinquies. B-REAL (EL-007b)
+
+Annotation **provisoire** de SUMM-RE par des sous-agents Claude (mandat `docs/mandates/EL-007b-annotation.md` v2 ; pilote sur 015), une tâche par groupe d'expérience. Fichiers bruts versionnés : `annotations/breal/raw/<groupe>.json` (CC BY-SA 4.0, voir `annotations/breal/README.md`). Assemblage : `uv run python -I scripts/assemble_breal.py` → `data/breal/` (hors Git, régénérable depuis les fichiers bruts).
+
+| Split | Groupes | Unités | Requêtes (avec réponse) | Triplets à piège | Grappes (composantes) |
+|---|---|---|---|---|---|
+| val | 10 | 1 255 | 89 (78) | 262 | — |
+| test | 9 | 975 | 120 (105) | 303 | 7 (28, 21, 14, 14, 14, 7, 7 requêtes) |
+
+Pièges du test : topic_only 139, superseded 68, person 43, date 19, amount 13, status 12, condition 6, negation 3. Contrairement à B-SYN, les pièges réels sont surtout des propositions écartées et des voisins thématiques ; les pièges « statut » purs y sont rares.
+
+Écarts et limites :
+- Annotateur unique (Claude) pour val et test ; aucune relecture humaine à ce stade. Sous-ensemble de relecture : 5 réunions de test (35 requêtes répondables), classeur `annotations/breal/review/relecture_v1.xlsx`.
+- Quatre groupes de val (008, 014, 015, 021) ont été annotés avant la consigne « 40 unités au plus par réunion » ; 014 a 8 questions répondables au lieu de 7 au plus.
+- Identités des locuteurs déduites de la transcription (`speaker_names`), souvent incertaines ; transcription ASR très bruitée pour les réunions non manuelles.
+- Les annotateurs ont volontairement écarté des informations personnelles ou de santé sans rapport avec la tâche.
+- Interruption de trois tâches par la limite d'usage (reprises depuis leur contexte).
+
 ## 3. Stratégie retenue (D-008)
 
 1. **Test réel indépendant** : réunions transcrites à la main de SUMM-RE, groupes d'expérience entiers, **jamais vus à l'entraînement**. Unités, requêtes et pertinences annotées (pré-annotation LLM provisoire + échantillon relu par l'étudiant).
