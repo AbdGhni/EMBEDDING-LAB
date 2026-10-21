@@ -28,3 +28,17 @@
 | R6 | `test_access.py` non imposé | risque | confirmé | imposé par le point d'entrée commun d'évaluation (EL-010) |
 | R7 | Isolation E1/E2 non garantie par du code | risque | confirmé (code inexistant) | point d'entrée commun (EL-010) |
 | R8 | Doublons dans un classement non détectés | risque | confirmé | les métriques refusent un classement avec doublons ; test ajouté |
+
+## Points supplémentaires du rapport complet (traités en protocole v1.3)
+
+| Constat | Suite |
+|---|---|
+| Hypothèse « un identifiant = une personne » risquée dans les deux sens | limite ajoutée au § 9 |
+| Sélection du checkpoint sur B-SYN val seulement | B-REAL val journalisé comme garde-fou |
+| Composition des batchs E2/E3 à préciser | même règle pour E2 et E3 |
+| dtype et configuration d'évaluation à figer | même dtype fp32, empreinte de configuration, test d'égalité (EL-010) |
+| Pondération par requêtes dans le bootstrap | moyenne par grappe calculée en contrôle |
+| Recouvrement B-SYN / SUMM-RE test non contrôlé | mesuré : 0,36 % des 4-grammes ; prénoms communs signalés |
+| Ablation « patrons hors distribution » | satisfait par construction : la famille de test (3) n'apparaît jamais en train |
+| Contamination du préentraînement d'e5 | limite ajoutée |
+| Distracteurs ASR dans B-REAL | limite ajoutée |

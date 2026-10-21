@@ -243,3 +243,21 @@ EL-007b (B-REAL : unités et requêtes SUMM-RE) puis EL-010 (point d'entrée com
 ### Correction S07
 
 Le commit `15d31d0` contenait par erreur `data/bsyn/` (absent de `.gitignore`), en contradiction avec DATA_CARD. Les fichiers sont retirés du suivi par un nouveau commit (sans réécriture de l'historique : ils restent visibles dans `15d31d0`). Aucun risque de licence, ce sont des données fictives générées par notre code. `.gitignore` complété.
+
+---
+
+## 2026-10-21 · Session S07 suite · Rapport complet de relecture, protocole v1.3
+
+- **Début** : 2026-10-21T15:40+02:00 · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-007c-bsyn` ; fusion de `el-009-protocol` @ `76e2533` (rapport complet poussé par l'étudiant) → commit de fusion `a6f0eec`.
+- Dépôt renommé côté GitHub en `AbdGhni/EMBEDDING-LAB` : remote mis à jour dans la VM.
+
+### Actions
+
+1. Lecture intégrale de `docs/reviews/EL-009-mle-reviewer-full.md` (rapport sur l'état `088707a`).
+2. Mesure demandée : 4-grammes des unités B-SYN train présents dans SUMM-RE test = 19 / 5 321 (0,36 %), dont des prénoms communs.
+3. Protocole v1.3 (non post hoc) : garde-fou B-REAL val, règles de batch identiques E2/E3, dtype et empreinte de configuration d'évaluation, moyenne par grappe en contrôle, quatre limites ajoutées. Suites tracées dans `docs/reviews/EL-009-mle-reviewer.md`.
+
+### Non vérifié
+
+Tests sur le PC de l'étudiant (uv absent) ; la CI GitHub sous Windows reste la preuve d'exécution.

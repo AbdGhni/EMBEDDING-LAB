@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.2**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.3**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.3 | 2026-10-21 | garde-fou B-REAL val, mêmes règles de batch E2/E3, même dtype et empreinte de configuration d'évaluation, moyenne par grappe en contrôle, limites ajoutées (identifiants de locuteurs, préentraînement d'e5, distracteurs ASR, prénoms communs) | points du rapport complet `docs/reviews/EL-009-mle-reviewer-full.md` absents du résumé. Aucun modèle évalué : non post hoc. |
 | 1.2 | 2026-10-21 | texte indexé d'une unité B-SYN = titre de réunion + locuteur + extrait (`retrieval_text`) ; effectifs réels de B-SYN | sans contexte, une phrase comme « je me charge du dossier » ne dit ni le projet ni la personne : le piège « autre projet » était indiscernable. Aucun modèle évalué : non post hoc. |
 | 1.1 | 2026-10-21 | taille de B-SYN fixée ; H3 descriptive ; origine des pièges du test définie ; test de permutation par grappes ; règles graines, H5 et sous-ensemble relu | relecture indépendante `mle-reviewer` (ECC 2.2.3), `docs/reviews/EL-009-mle-reviewer.md`. Aucun accès au test n'avait eu lieu : modification **non** post hoc. |
 
@@ -65,6 +66,7 @@ Les métriques des modules aval (relations, intentions, destinataires, dossiers,
 - Grappes de B-REAL test : 8 composantes, dont 7 contiennent des réunions manuelles.
 - Graines d'entraînement : 3 graines (13, 42, 1234) si le budget Colab le permet. Le test confirmatoire utilise, pour chaque requête, la **moyenne des scores sur les 3 graines** ; les résultats de chaque graine sont aussi rapportés. **Aucune graine n'est sélectionnée.** Avec 1 seule graine, la variance d'entraînement n'est pas prise en compte, et c'est signalé comme limite.
 - Les effectifs (requêtes, grappes, triplets) sont toujours rapportés.
+- La moyenne sur requêtes donne plus de poids aux grappes riches en requêtes ; une moyenne **par grappe** (moyenne des moyennes) est calculée en contrôle et rapportée si elle diverge.
 
 ## 5. Expériences
 
@@ -81,15 +83,15 @@ Encodeur de référence : `intfloat/multilingual-e5-small`, révision `614241f62
 | E6 | e5-small vs `intfloat/multilingual-e5-base` (révision `d128750597153bb5987e10b1c3493a34e5a4502a`) | taille du modèle | B-SYN, B-REAL (conditionnel) |
 | E7 | fenêtres fixes de 64 mots vs tours vs unités | granularité | B-REAL, chemin brut (conditionnel) |
 
-Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même découpage, aucun reranker ni filtre. Cette isolation sera garantie par **un seul point d'entrée d'évaluation** commun à tous les systèmes (EL-010), qui ne diffère que par la fonction de score.
+Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même découpage, aucun reranker ni filtre. Cette isolation sera garantie par **un seul point d'entrée d'évaluation** commun à tous les systèmes (EL-010), qui ne diffère que par la fonction de score ou le chemin des poids. Chaque `metrics_*.json` contient l'empreinte de la configuration d'évaluation (longueur max, préfixes, dtype, taille de batch, empreintes du corpus et des qrels) ; E1 et E2 sont évalués dans le **même dtype** (fp32), et un test échoue si leurs configurations diffèrent autrement que par les poids.
 
 ## 6. Entraînement (E2, E3)
 
 - Perte : Multiple Negatives Ranking Loss (InfoNCE avec négatifs du batch) + un négatif difficile explicite par exemple ; échelle (inverse de la température) 20.
-- Faux négatifs : un batch ne contient jamais deux exemples du même projet ni deux exemples partageant un positif ; les négatifs difficiles candidats sont filtrés s'ils sont annotés pertinents pour la requête.
+- Faux négatifs : un batch ne contient jamais deux exemples du même projet ni deux exemples partageant un positif (règle identique pour E2 et E3, afin que seule l'origine des négatifs diffère) ; les négatifs difficiles candidats sont filtrés s'ils sont annotés pertinents pour la requête.
 - Données : uniquement B-SYN train + unités B-REAL train (réunions du split train, manuelles ou ASR). **Aucune donnée de val ou de test**, ni comme ancre, ni comme positif, ni comme négatif.
 - Négatifs difficiles **d'entraînement** : pièges étiquetés par le générateur, complétés par des négatifs extraits avec E1 **sur le train uniquement**. E3 remplace ces négatifs par des négatifs aléatoires.
-- Sélection du checkpoint : nDCG@10 sur **B-SYN val**, évalué toutes les 100 étapes ; arrêt anticipé après 3 évaluations sans amélioration ; au plus 3 epochs. Hyperparamètres de départ : lr 2e-5, warmup 10 %, batch 64, précision mixte si GPU.
+- Sélection du checkpoint : nDCG@10 sur **B-SYN val**, évalué toutes les 100 étapes ; nDCG@10 sur **B-REAL val** est journalisé à chaque évaluation comme garde-fou (une chute signale une sur-spécialisation sur le générateur et est rapportée) ; arrêt anticipé après 3 évaluations sans amélioration ; au plus 3 epochs. Hyperparamètres de départ : lr 2e-5, warmup 10 %, batch 64, précision mixte si GPU.
 - Recherche d'hyperparamètres : au plus 4 configurations, sur val uniquement.
 - Avant le run complet : test des dimensions, vérification de la perte sur un batch connu, sur-apprentissage volontaire d'un mini-lot (la perte doit tendre vers 0), mesure du temps par étape et de la mémoire. Ces diagnostics sont journalisés comme tels.
 - Chaque run produit `runs/<run_id>/` : `config.yaml`, `manifest.json` (commit, état dirty, versions, révision du modèle, empreintes des données, matériel, début/fin), `train_log.jsonl`, `metrics_val.json`, et `metrics_test.json` après l'évaluation finale seulement.
@@ -113,6 +115,10 @@ Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même décou
 ## 9. Ce que ce protocole ne permet pas de conclure
 
 - Un gain sur B-SYN montre une meilleure discrimination des pièges **sur nos propres constructions** : même générateur et mêmes types de pièges en train et en test, seuls les patrons, entités et dates changent. H1 ne démontre donc pas une généralisation au-delà du générateur ; seul B-REAL renseigne sur l'oral réel.
-- Les thèmes de scénario SUMM-RE sont partagés entre train et test : E3 est toujours rapporté à côté de E2.
+- Les thèmes de scénario SUMM-RE sont partagés entre train et test : E3 est toujours rapporté à côté de E2, et un gain sur B-REAL n'est jamais attribué aux pièges seuls.
+- Les identifiants de locuteurs SUMM-RE sont supposés désigner des personnes uniques. Si deux identifiants désignaient la même personne, une fuite de personne resterait possible ; ce cas n'est pas contrôlable.
+- Le corpus de préentraînement d'e5 n'est pas audité : la présence de SUMM-RE (public) n'est pas exclue. L'effet touche E1 et E2 de la même façon.
+- Le corpus de recherche de B-REAL contient aussi les unités des réunions ASR du split (distracteurs plus bruités) : cela change le niveau absolu des scores, pas la comparaison appariée.
+- Quelques prénoms du pool d'entraînement B-SYN (ex. Julie, Lucas, Camille) apparaissent dans les transcriptions SUMM-RE de test ; recouvrement global des 4-grammes B-SYN train / SUMM-RE test : 0,36 %.
 - Les annotations de B-REAL sont provisoires tant que l'étudiant ne les a pas relues ; les résultats B-REAL sont étiquetés selon la part relue.
 - La similarité ne prouve ni la validation ni la contradiction : ces relations sont évaluées par le module de relations, séparément.
