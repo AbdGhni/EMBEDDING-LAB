@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S07, 2026-10-21 (après-midi)
+Mis à jour : session S08, 2026-10-21 (soir)
 
 ## Git
 
@@ -10,8 +10,10 @@ Mis à jour : session S07, 2026-10-21 (après-midi)
 - `el-005-006-env-schemas` @ `50f0837` — poussé, CI verte.
 - `el-007-ingest` @ `0d471ab` — poussé.
 - `el-008-splits` @ `cd2fb38` — poussé.
-- `el-009-protocol` @ `ea08e61` (distant) ; l'étudiant a un commit local `76e2533` (rapport complet de relecture) à pousser.
-- `el-007c-bsyn` — basé sur `ea08e61`, voir son dernier commit. Branches empilées : 001 → 003 → 005-006 → 007 → 008 → 009 → 007c.
+- `el-009-protocol` @ `76e2533` — poussé (rapport complet de relecture).
+- `el-007c-bsyn` @ `15f0b16` — poussé (fusion de `76e2533`).
+- `el-007b-breal` — basé sur `el-007c-bsyn`, voir son dernier commit. Branches empilées : 001 → 003 → 005-006 → 007 → 008 → 009 → 007c → 007b.
+- Dépôt renommé `AbdGhni/EMBEDDING-LAB` ; remote mis à jour.
 
 ## Tickets
 
@@ -20,9 +22,9 @@ Mis à jour : session S07, 2026-10-21 (après-midi)
 - EL-004 : validé (D-008).
 - EL-005 : validé (CI verte Ubuntu + Windows).
 - EL-007 : validé (ingestion SUMM-RE, 283 réunions, empreintes).
-- EL-007b : prévu (pré-annotation des unités).
+- EL-007b : en cours — val annoté (10/10 groupes, 1 255 unités, 78 requêtes répondables) ; test 0/9 (019, 024, 033 en cours).
 - EL-008 : validé (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
-- EL-009 : validé (protocole **v1.1** `4dc2ec3a…` après relecture `mle-reviewer` ; test SUMM-RE `ddd19567…` ; sous-ensemble relu `7cc1bec7…`) ; qrels à figer à leur création.
+- EL-009 : validé (protocole **v1.4**, voir JOURNAL pour les empreintes ; v1.1 `4dc2ec3a…` après relecture `mle-reviewer` ; test SUMM-RE `ddd19567…` ; sous-ensemble relu `7cc1bec7…`) ; qrels à figer à leur création.
 - EL-007c : validé (B-SYN 240/32/48 projets, test figé par empreintes).
 - EL-006 : exécuté non validé (guide à relire).
 - Autres : prévus.
@@ -34,7 +36,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 57 tests verts.
+- Projet : `uv sync --locked --extra dev` ; 61 tests verts.
 
 ## Données locales (hors Git, dans la VM)
 
@@ -51,4 +53,4 @@ Aucun.
 
 ## Prochaine action
 
-EL-007b : unités et requêtes B-REAL sur SUMM-RE, puis EL-010 (évaluation commune + BM25) et EL-011 (e5 initial).
+Terminer l'annotation des 9 groupes de test (mandat v2), assembler, figer les empreintes du test B-REAL, préparer la relecture des 5 réunions par l'étudiant ; puis EL-010 (évaluation commune + BM25) et EL-011 (e5 initial).

@@ -277,3 +277,10 @@ Tests sur le PC de l'étudiant (uv absent) ; la CI GitHub sous Windows reste la 
 3. **Pilote** sur le groupe val 015 (6 min 53 s) : 101 unités, 28 relations, 8 requêtes, validateur OK. Contrôle par l'orchestrateur des 8 requêtes et de leurs pertinences : cohérentes ; q03 repose sur un accord hésitant (marqué `inferred`).
 4. Huit remarques du pilote sur les consignes → mandat v2 et guide v0.2 : pas de statut `superseded` dans les unités, `supersedes` possible vers une proposition explicitement écartée, `creates_action` depuis une idée retenue, format de `owner` et `speaker_names`, champ `amount`, réponses possibles dans une autre réunion du groupe, pas de pièges pour les questions sans réponse. Validateur renforcé en conséquence.
 5. Pilote relancé pour mettre 015 au format v2 ; annotation des groupes val 008 et 014 lancée.
+
+### Avancement S08 (2026-10-21, jusqu'à 21:40+02:00)
+
+- Val terminé : 10 groupes annotés et validés (008, 014, 015, 021, 025, 027, 051, 053, 093, 101). Assemblage `scripts/assemble_breal.py` : 1 255 unités, 89 requêtes dont 78 répondables, 262 triplets à piège.
+- Écarts acceptés : 014 a 8 questions répondables (7 au plus prévues) ; plusieurs groupes dépassent 40 unités par réunion avant la consigne de plafond (008, 014, 015, 021).
+- Données sensibles : plusieurs annotateurs ont volontairement écarté des informations de santé ou personnelles ; consigne ajoutée aux mandats suivants.
+- **Interruption** : les tâches test 019, 024 et 033 ont été arrêtées vers 17 h par la limite d'usage de la session (HTTP 429, réinitialisation à 20 h). Reprises à 21:40 depuis leur contexte sauvegardé.
