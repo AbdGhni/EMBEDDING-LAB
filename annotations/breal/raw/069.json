@@ -1,0 +1,1944 @@
+{
+ "group_id": "069",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "069a_EERL",
+   "turn": "t0002",
+   "evidence": "je pense qu' on va faire un petit tour de table pour que chacune propose son son sujet",
+   "type": "decision",
+   "status": "active",
+   "statement": "La réunion se déroule en tour de table : chaque membre propose son sujet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "069a_EERL",
+   "turn": "t0008",
+   "evidence": "je vais parler des euh les raisons de réchauffement climatique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jingyi propose comme sujet les causes du réchauffement climatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le prénom est transcrit « jeannie » par l'ASR."
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "069a_EERL",
+   "turn": "t0010",
+   "evidence": "chacun à à sa voiture hum donc hum les émissions de gaz",
+   "type": "fact",
+   "status": "active",
+   "statement": "La voiture individuelle est citée comme première cause des émissions de gaz.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "069a_EERL",
+   "turn": "t0064",
+   "evidence": "donc peut-être essayer de préserver la biodiversité à ce moment là",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faudrait plutôt chercher à préserver la biodiversité, en déclin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "069a_EERL",
+   "turn": "t0070",
+   "evidence": "mon sujet est le tri des déchets",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose le tri des déchets comme sujet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "069a_EERL",
+   "turn": "t0072",
+   "evidence": "on va je pense franchir les huit milliards ou bien dans quelques années ça va être dix",
+   "type": "fact",
+   "status": "active",
+   "statement": "La population mondiale va dépasser huit milliards, puis atteindre dix milliards.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "069a_EERL",
+   "turn": "t0083",
+   "evidence": "les personnes euh ne sont pas_assez sensibilisés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le tri n'est pas généralisé parce que les gens ne sont pas assez sensibilisés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "069a_EERL",
+   "turn": "t0085",
+   "evidence": "je pense qu' on doit sensibiliser la société",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut sensibiliser la société au tri, en commençant par les écoles primaires et les collèges.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "069a_EERL",
+   "turn": "t0090",
+   "evidence": "les animaux en voie de disparition et le déclin de la biodiversité",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Cyriel propose comme sujet les animaux en voie de disparition et le déclin de la biodiversité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "069a_EERL",
+   "turn": "t0092",
+   "evidence": "ils s' intéressent beaucoup à des espèces assez euh des espèces super stars",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les grandes associations comme le WWF se concentrent sur des espèces emblématiques (panda, ours polaire).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "069a_EERL",
+   "turn": "t0093",
+   "evidence": "on est une petite association comparé à wwf",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'équipe est une petite association comparée au WWF.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "069a_EERL",
+   "turn": "t0099",
+   "evidence": "le travail de pollinisation des abeilles et en_fait capitale",
+   "type": "fact",
+   "status": "active",
+   "statement": "La pollinisation par les abeilles est jugée indispensable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "069a_EERL",
+   "turn": "t0099",
+   "evidence": "rien que la différence entre une abeille une guêpe un bourdon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée d'action : apprendre aux enfants à distinguer abeille, guêpe et bourdon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "069a_EERL",
+   "turn": "t0104",
+   "evidence": "mon sujet qui est mieux consommé",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice propose comme sujet « mieux consommer ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "069a_EERL",
+   "turn": "t0104",
+   "evidence": "mieux consommer ça va limiter donc les déchets",
+   "type": "fact",
+   "status": "active",
+   "statement": "Mieux consommer réduirait déchets, gaz à effet de serre et impact sur la biodiversité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "069a_EERL",
+   "turn": "t0105",
+   "evidence": "limiter la la consommation de viande à une ou deux fois par semaine",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemple de geste : limiter la viande à une ou deux fois par semaine, progressivement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "069a_EERL",
+   "turn": "t0109",
+   "evidence": "ça commence par la sensibilisation par euh les enfants",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le changement passe d'abord par la sensibilisation des enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "069a_EERL",
+   "turn": "t0110",
+   "evidence": "essayer d' accompagner euh les adultes aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut aussi accompagner les adultes dans la transition, sans les brusquer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "069a_EERL",
+   "turn": "t0114",
+   "evidence": "on peut se retrouver euh pour une prochaine réunion",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Une prochaine réunion est envisagée pour la mise en place.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Tour tronqué en fin de transcription."
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0002",
+   "evidence": "préserver la la la biodiversité au niveau local",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pauline propose de préserver la biodiversité au niveau local, en commençant petit.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0002",
+   "evidence": "il_y a énormément de déchets sur les plages",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pauline propose aussi de sensibiliser aux déchets sur les plages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le tour mélange constat et proposition ; l'unité porte la proposition déchets/plages."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0004",
+   "evidence": "on doit commencer évidemment sur l' échelle locale parce_qu' on est un petit association",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina approuve de commencer à l'échelle locale vu la taille de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0006",
+   "evidence": "je pense qu' on doit lancer des campagnes de sensibilisation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose des campagnes de sensibilisation dans le département.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0008",
+   "evidence": "encourager les gens à prendre les transports communs au_lieu des voitures",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Sensibiliser à prendre les transports en commun plutôt que la voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0017",
+   "evidence": "aller dans des écoles c'est une bonne idée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Aller dans les écoles toucherait les enfants et, à travers eux, les familles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0019",
+   "evidence": "prendre des premiers contacts avec euh donc avec des écoles avec des classes",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Prendre de premiers contacts avec des écoles et des classes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0030",
+   "evidence": "essayer de développer un beau site internet",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Cyriel propose de créer un site internet pour que enseignants et parents découvrent l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0039",
+   "evidence": "nous aider à écrire des slogans à faire euh des affiches des vidéos",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Plus tard, faire participer les enfants aux campagnes (slogans, affiches, vidéos), avec l'accord des parents pour le droit à l'image.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "La condition du droit à l'image est au tour t0037."
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0044",
+   "evidence": "il faut peut-être commencer par une thématique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Commencer par une seule thématique plutôt que tout traiter à la fois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0046",
+   "evidence": "j' ai peur qu' on se perde en_fait avec ça",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de se disperser en abordant trop de sujets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0049",
+   "evidence": "peut-être que justement parler plus animaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour une première approche, parler des animaux plutôt que d'une collecte de déchets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0050",
+   "evidence": "enfiler les gants par ramasser des canettes sur la plage",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option évoquée : une collecte de déchets sur la plage avec les enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Option présentée comme moins attrayante, puis écartée au profit de la faune aquatique."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0054",
+   "evidence": "on doit juste avoir l' accord je pense de",
+   "type": "fact",
+   "status": "proposed",
+   "statement": "Lina pense qu'il faut l'accord du directeur de l'établissement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase complétée au tour t0056 (« directeur de l' établissement »)."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0058",
+   "evidence": "puis euh l' enseignant et les parents",
+   "type": "fact",
+   "status": "proposed",
+   "statement": "Selon Lina, il faudrait aussi l'accord de l'enseignant et des parents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0059",
+   "evidence": "y' a pas besoin de l' accord des parents",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pas besoin de l'accord des parents si l'intervention a lieu dans l'école.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0059",
+   "evidence": "on n' a pas encore eu beaucoup de dons",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'association a encore reçu peu de dons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0059",
+   "evidence": "niveau budget euh c'est faisable",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une intervention en classe avec affiches faites maison est faisable financièrement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0071",
+   "evidence": "on part sur quelque_chose euh sur la faune aquatique on est d'accord",
+   "type": "decision",
+   "status": "active",
+   "statement": "Accord pour partir sur la faune aquatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Pauline au tour suivant."
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0072",
+   "evidence": "tous_les gamins se rendent compte qu' on est au bord de la mer",
+   "type": "fact",
+   "status": "active",
+   "statement": "Thème jugé le plus accessible car les enfants vivent au bord de la mer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0077",
+   "evidence": "je propose comme thème officiel sensibilisation à la protection de la faune aquatique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Thème officiel retenu : sensibilisation à la protection de la faune aquatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptée (« ouais », « on va l'affiner par la suite »)."
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0085",
+   "evidence": "est-ce_que vous vous pensez à certaines villes en_particulier qu' on pourrait viser",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelles villes viser ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0093",
+   "evidence": "je pense marseille ouais marseille il_y a du travail",
+   "type": "answer",
+   "status": "proposed",
+   "statement": "Marseille est proposée comme ville cible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0099",
+   "evidence": "essayer d' envoyer des demandes au plus des d' établissements qu' on qu' on peut",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Envoyer des demandes au plus grand nombre d'établissements et voir qui répond.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0105",
+   "evidence": "on peut commencer par la ciotat",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Commencer par La Ciotat, où Pauline a de la famille.",
+   "owner": null,
+   "mentioned_people": [
+    "158"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0114",
+   "evidence": "notre seulnotre seul budget à considérer en_fait au final vraiment ça serait le prix de l' essence",
+   "type": "fact",
+   "status": "proposed",
+   "statement": "Le seul coût à prévoir serait l'essence pour les déplacements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0132",
+   "evidence": "ok donc vraiment un budget passe métropole quoi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Déplacements en transports en commun : le budget se limite à un pass Métropole (ou Zou).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le littoral est bien desservi (t0126-t0130), la voiture n'est pas nécessaire."
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0135",
+   "evidence": "c'est pas du tout au frais de l' association",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ces déplacements sont un budget individuel, pas à la charge de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0139",
+   "evidence": "d' octobre novembre par_exemple ça serait quelque_chose où vous imaginez déjà que ça serait possible",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Peut-on démarrer l'action en octobre ou novembre ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0144",
+   "evidence": "je pense novembre on sera prêts",
+   "type": "answer",
+   "status": "active",
+   "statement": "Lina pense être prête en novembre, le temps de préparer les fiches.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jingyi est d'accord (t0146)."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0149",
+   "evidence": "à voir ce qu' on vise d'ici novembre c'est possible mais peut-être pas pour toutes_les classes",
+   "type": "risk",
+   "status": "active",
+   "statement": "Novembre est faisable mais pas pour toutes les classes : les petites classes demandent des activités pédagogiques plus élaborées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0160",
+   "evidence": "powerpoint comme genre support additionnel mais pas comme support principal",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le PowerPoint sert de support additionnel, pas de support principal.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé par Pauline (« oui voilà »)."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0170",
+   "evidence": "on présente d'abord le sujet et tout euh euh les idées principaux causes conséquences avec le power point et puis on organise une sortie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Présenter d'abord le sujet en classe, puis organiser une sortie dans un second temps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0175",
+   "evidence": "on se met sur des élémentaires des collèges des lycéens",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel niveau scolaire viser pour la première intervention ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0177",
+   "evidence": "moi c'est purement personnel je préfère les primaires",
+   "type": "answer",
+   "status": "active",
+   "statement": "Pauline préfère les primaires ; Lina et Jingyi aussi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0191",
+   "evidence": "donc on vise une classe de primaire à définir avec le chef d' établissement",
+   "type": "decision",
+   "status": "active",
+   "statement": "On vise une classe de primaire, à préciser avec le chef d'établissement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0194",
+   "evidence": "une première action de sensibilisation à la protection de la faune aquatique histoire d' instaurer un premier contact avec les enfants du_coup de primaire dans la région d' aix marseille potentiellement à la ciotat",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif acté : première action de sensibilisation à la faune aquatique auprès de primaires de la région Aix-Marseille, peut-être à La Ciotat.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le même tour dit « je mets deux classes deux primaires comme ça c'est acté » : ambigu (une ou deux classes)."
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0195",
+   "evidence": "en novembre et euh + et après espérer euh pérenniser ça au final sur l' année",
+   "type": "decision",
+   "status": "active",
+   "statement": "Lancement en novembre, puis pérennisation sur l'année.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite du récapitulatif du tour t0194, approuvé (t0199-t0201)."
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "069b_EEDL",
+   "turn": "t0202",
+   "evidence": "je mets ça au propre j' envoie ça du_coup à la ciota et je vous tiens au_courant la semaine prochaine",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Cyriel met le récapitulatif au propre, l'envoie à La Ciotat et donne des nouvelles la semaine suivante.",
+   "owner": "157",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0004",
+   "evidence": "nous avons choisi un thème précis qui est la protection de la faune aquatique à marseille et ses alentours",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : le thème choisi est la protection de la faune aquatique à Marseille et alentours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0016",
+   "evidence": "est-ce que on a déjà pris contact avec une école déjà",
+   "type": "question",
+   "status": "resolved",
+   "statement": "A-t-on déjà contacté une école ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0017",
+   "evidence": "on a l' accord d' une école à à mer à marseille centreville au vieux port",
+   "type": "answer",
+   "status": "active",
+   "statement": "Une école du centre de Marseille, au Vieux-Port, a donné son accord.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0020",
+   "evidence": "qui c'est qui a pris contact avec l' école",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui a contacté l'école ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0023",
+   "evidence": "et euh j' ai pris contact l' enseignant est super gentil",
+   "type": "answer",
+   "status": "active",
+   "statement": "C'est Cyriel qui a pris contact avec l'enseignant.",
+   "owner": "157",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0023",
+   "evidence": "ça serait des ce2",
+   "type": "fact",
+   "status": "active",
+   "statement": "La classe concernée est un CE2.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0029",
+   "evidence": "j' ai déjà commencé à travailler sur euh euh fin des espèces de de notebooks",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pauline a commencé à préparer des cahiers d'activités sur la faune aquatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0030",
+   "evidence": "moi je veux bien être volontaire pour euh pour intervenir dans la classe",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Pauline se porte volontaire pour intervenir dans la classe.",
+   "owner": "158",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0045",
+   "evidence": "une ou deux semaines après le retour des vacances",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'enseignant propose une ou deux semaines après la rentrée, un mardi après-midi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le mardi après-midi est précisé au tour t0047."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0052",
+   "evidence": "c'est jusqu'au sept novembre",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les vacances de la zone B durent jusqu'au 7 novembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0055",
+   "evidence": "la semaine du quatorze novembre le mardi du_coup le quinze novembre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Première séance : mardi 15 novembre, l'après-midi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé par Pauline (« voilà »), après-midi précisé au tour t0057."
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0074",
+   "evidence": "je peux faire moi SPEAKER_0 le l' introduction",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Lina se charge de l'introduction : présentation de l'association et des activités.",
+   "owner": "156",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0080",
+   "evidence": "puis la deuxième tâche une prise de contact une prise de contact avec les élèves",
+   "type": "action",
+   "status": "active",
+   "statement": "Deuxième tâche : échange avec les élèves pour savoir ce qu'ils pensent de la faune aquatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0106",
+   "evidence": "je pense on peut introduire les cahiers un peu je sais pas leur donner un temps un peu tout seul pour les faire ou par binôme",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Troisième tâche : faire travailler les élèves sur les cahiers, seuls, en binôme ou en petits groupes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0130",
+   "evidence": "on peut faire le colloque pour aider",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jingyi évoque un colloque pour aider les enfants à comprendre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0132",
+   "evidence": "le colloque c'est c'est pas très très utile pour pour les enfants",
+   "type": "fact",
+   "status": "active",
+   "statement": "Un colloque n'est pas très utile pour des enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0143",
+   "evidence": "leur proposer euh un petit euh documentaire à regarder",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose de montrer un petit documentaire (mer riche puis vide).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0145",
+   "evidence": "faut pas que ce soit trop choquant non_plus ils ont vraiment huit ans",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : un documentaire trop choquant pour des enfants de huit ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0150",
+   "evidence": "le documentaire c'est une bonne idée mais le trouver à adapter",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Documentaire accepté à condition qu'il soit adapté à l'âge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0161",
+   "evidence": "à des images d' animation en_fait",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mêler images réelles et images d'animation pour rendre le film moins traumatisant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée au tour t0159 ; idée approuvée par Pauline (t0187)."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0216",
+   "evidence": "la cinquième tâche je pense ce serait réaliser le film d' animation",
+   "type": "action",
+   "status": "active",
+   "statement": "Cinquième tâche : réaliser le film d'animation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0218",
+   "evidence": "moi ça me dérange pas de m' en charger",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Cyriel se charge du film d'animation.",
+   "owner": "157",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0220",
+   "evidence": "j' ai des amis qui peuvent m' aider bénévolement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des amis de Cyriel peuvent l'aider bénévolement, sans coût pour le budget.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0226",
+   "evidence": "le budget impression des livres en_fait parce_que du_coup ça on n' en a pas du tout parlé",
+   "type": "action",
+   "status": "open",
+   "statement": "Sixième tâche : prévoir le budget d'impression des cahiers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0229",
+   "evidence": "essayer de chercher des financements régionaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Chercher des financements régionaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non repris : le budget restant suffit (t0236-t0238)."
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0236",
+   "evidence": "il nous reste encore du budget par_rapport_aux adhésions",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon la trésorière, il reste du budget issu des adhésions de la rentrée, de quoi couvrir l'impression.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0242",
+   "evidence": "on va en imprimer quarante",
+   "type": "decision",
+   "status": "active",
+   "statement": "On imprime quarante exemplaires (élèves, enseignant et membres).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0245",
+   "evidence": "ouais ben ça je peux m' en occuper hein",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Pauline s'occupe de l'impression des cahiers.",
+   "owner": "158",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0253",
+   "evidence": "j' ai des euh j' ai des contacts euh",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pauline a des contacts chez des imprimeurs, ce qui peut réduire le coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0261",
+   "evidence": "est-ce que à tout hasard ils ils ont du papier recyclé",
+   "type": "question",
+   "status": "open",
+   "statement": "L'imprimeur a-t-il du papier recyclé ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-42",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0262",
+   "evidence": "je sais pas mais je vais leur poser la question",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Pauline demandera à l'imprimeur s'il a du papier recyclé.",
+   "owner": "158",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-44",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0276",
+   "evidence": "peut-être on on va donner un exemplaire entre deux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina suggère un exemplaire pour deux élèves.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-45",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0281",
+   "evidence": "je trouvais ça cool justement que chacun à la fin ait son petit truc",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Cyriel préfère un exemplaire par enfant, pour qu'il puisse le montrer à ses parents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-46",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0287",
+   "evidence": "ça pourrait faire entre cent et deux_cent euros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Estimation du coût d'impression : entre cent et deux cents euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "entre cent et deux_cent euros",
+   "assertion": "extracted",
+   "notes": "Estimation donnée par Pauline."
+  },
+  {
+   "key": "c-47",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0290",
+   "evidence": "budget max de deux_cent euros niveau impression",
+   "type": "decision",
+   "status": "active",
+   "statement": "Budget d'impression plafonné à deux cents euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux_cent euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-48",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0292",
+   "evidence": "SPEAKER_2 s' occupe euh des négociations avec euh l' imprimeur",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pauline négocie avec l'imprimeur pour les quarante exemplaires.",
+   "owner": "158",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptée par Pauline (« ouais », t0295)."
+  },
+  {
+   "key": "c-49",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0300",
+   "evidence": "un petite euh scène de théâtre avec des euh des costumes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Septième tâche proposée : une petite scène de théâtre avec costumes ou peluches de poissons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-51",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0314",
+   "evidence": "on est pas obligé de le faire aux enfants parce_que bon effectivement c'est peut-être pas adapté à eux mais aux enseignants",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le colloque serait destiné non aux enfants mais aux enseignants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-52",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0316",
+   "evidence": "aux parents et aux enseignants par_exemple",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Neuvième tâche : une réunion pour les parents et les enseignants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lina propose d'inviter les parents (t0315)."
+  },
+  {
+   "key": "c-54",
+   "meeting_id": "069c_EEPL",
+   "turn": "t0333",
+   "evidence": "je pense que je peux déjà proposer l' idée à l' enseignant",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Cyriel propose l'idée de réunion à l'enseignant.",
+   "owner": "157",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-22",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "Le thème officiel tranche la question du sujet ; le réchauffement climatique proposé en a n'est pas retenu."
+  },
+  {
+   "from": "b-22",
+   "to": "a-05",
+   "relation": "supersedes",
+   "justification": "Le thème officiel tranche le choix du sujet ; le tri des déchets n'est pas retenu."
+  },
+  {
+   "from": "b-22",
+   "to": "a-14",
+   "relation": "supersedes",
+   "justification": "Le thème officiel tranche le choix du sujet ; « mieux consommer » n'est pas retenu."
+  },
+  {
+   "from": "b-22",
+   "to": "b-14",
+   "relation": "supersedes",
+   "justification": "La décision sur la faune aquatique écarte la collecte de déchets sur la plage comme première action."
+  },
+  {
+   "from": "b-22",
+   "to": "b-03",
+   "relation": "supersedes",
+   "justification": "Le thème retenu remplace la proposition déchets sur les plages."
+  },
+  {
+   "from": "b-22",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Formalisation officielle de l'accord sur la faune aquatique."
+  },
+  {
+   "from": "b-20",
+   "to": "b-13",
+   "relation": "supports",
+   "justification": "L'accord reprend l'idée de parler des animaux en premier."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Justification : les enfants vivent au bord de la mer."
+  },
+  {
+   "from": "b-22",
+   "to": "a-09",
+   "relation": "supports",
+   "justification": "Le thème retenu prolonge le sujet biodiversité/animaux proposé par Cyriel."
+  },
+  {
+   "from": "b-07",
+   "to": "a-08",
+   "relation": "supports",
+   "justification": "Intervenir dans les écoles reprend l'idée de sensibiliser dès le primaire."
+  },
+  {
+   "from": "b-17",
+   "to": "b-16",
+   "relation": "contradicts",
+   "justification": "Cyriel affirme que l'accord des parents n'est pas nécessaire, contrairement à Lina ; pas de conclusion explicite."
+  },
+  {
+   "from": "b-25",
+   "to": "b-23",
+   "relation": "answers",
+   "justification": "Marseille est proposée en réponse à la question des villes."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "supersedes",
+   "justification": "Le transport en commun (pass Métropole) remplace l'essence comme seul coût de déplacement."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Le pass est un budget individuel, donc hors frais de l'association."
+  },
+  {
+   "from": "b-33",
+   "to": "b-32",
+   "relation": "answers",
+   "justification": "Lina répond que novembre est possible."
+  },
+  {
+   "from": "b-34",
+   "to": "b-32",
+   "relation": "answers",
+   "justification": "Pauline répond novembre, mais pas pour toutes les classes."
+  },
+  {
+   "from": "b-38",
+   "to": "b-37",
+   "relation": "answers",
+   "justification": "Préférence pour les primaires."
+  },
+  {
+   "from": "b-39",
+   "to": "b-37",
+   "relation": "answers",
+   "justification": "Décision : une classe de primaire."
+  },
+  {
+   "from": "b-41",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Le récapitulatif acte le lancement en novembre."
+  },
+  {
+   "from": "b-40",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Le récapitulatif reprend le thème officiel."
+  },
+  {
+   "from": "b-40",
+   "to": "b-27",
+   "relation": "supports",
+   "justification": "Le récapitulatif mentionne La Ciotat comme lieu potentiel."
+  },
+  {
+   "from": "c-01",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Rappel du thème choisi en réunion b."
+  },
+  {
+   "from": "c-04",
+   "to": "c-03",
+   "relation": "answers",
+   "justification": "Une école au Vieux-Port a donné son accord."
+  },
+  {
+   "from": "c-06",
+   "to": "c-05",
+   "relation": "answers",
+   "justification": "Cyriel indique avoir pris contact."
+  },
+  {
+   "from": "c-07",
+   "to": "b-39",
+   "relation": "supports",
+   "justification": "La classe de primaire est précisée : un CE2."
+  },
+  {
+   "from": "c-14",
+   "to": "b-41",
+   "relation": "supports",
+   "justification": "La date du 15 novembre précise le lancement en novembre."
+  },
+  {
+   "from": "c-13",
+   "to": "c-14",
+   "relation": "supports",
+   "justification": "La fin des vacances le 7 novembre sert à calculer la date."
+  },
+  {
+   "from": "c-12",
+   "to": "c-14",
+   "relation": "supports",
+   "justification": "La préférence de l'enseignant (mardi, une à deux semaines après la rentrée) fonde la date."
+  },
+  {
+   "from": "c-26",
+   "to": "c-25",
+   "relation": "supports",
+   "justification": "Le risque nuance la proposition de documentaire."
+  },
+  {
+   "from": "c-27",
+   "to": "c-25",
+   "relation": "supports",
+   "justification": "Le documentaire est approuvé, sous condition d'adaptation."
+  },
+  {
+   "from": "c-28",
+   "to": "c-26",
+   "relation": "supports",
+   "justification": "L'animation répond au risque d'un film trop choquant."
+  },
+  {
+   "from": "c-28",
+   "to": "c-31",
+   "relation": "creates_action",
+   "justification": "L'idée d'animation retenue donne lieu à la tâche « réaliser le film d'animation »."
+  },
+  {
+   "from": "c-32",
+   "to": "c-31",
+   "relation": "supports",
+   "justification": "Cyriel prend en charge la tâche du film."
+  },
+  {
+   "from": "c-39",
+   "to": "c-34",
+   "relation": "supports",
+   "justification": "Pauline prend en charge l'impression."
+  },
+  {
+   "from": "c-45",
+   "to": "c-44",
+   "relation": "contradicts",
+   "justification": "Un exemplaire par enfant contre un pour deux ; pas de conclusion explicite, mais le nombre de quarante est maintenu."
+  },
+  {
+   "from": "c-46",
+   "to": "c-47",
+   "relation": "supports",
+   "justification": "L'estimation de 100 à 200 euros fonde le plafond de 200 euros."
+  },
+  {
+   "from": "c-42",
+   "to": "c-41",
+   "relation": "supports",
+   "justification": "Pauline se charge de trouver la réponse sur le papier recyclé."
+  },
+  {
+   "from": "c-51",
+   "to": "c-23",
+   "relation": "supersedes",
+   "justification": "Pauline réoriente explicitement le colloque : pas aux enfants mais aux enseignants."
+  },
+  {
+   "from": "c-51",
+   "to": "c-24",
+   "relation": "supports",
+   "justification": "Le colloque n'est pas adapté aux enfants."
+  },
+  {
+   "from": "c-52",
+   "to": "c-51",
+   "relation": "supports",
+   "justification": "La réunion vise parents et enseignants."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "069b_EEDL",
+   "text": "Sur quel thème l'association a-t-elle finalement décidé de faire sa première action ?",
+   "answerable": true,
+   "qrels": {
+    "b-22": 2,
+    "b-20": 2,
+    "c-01": 1,
+    "b-40": 1,
+    "b-13": 1,
+    "a-09": 1,
+    "b-14": 0,
+    "b-03": 0,
+    "a-05": 0,
+    "a-02": 0,
+    "a-14": 0,
+    "b-06": 0
+   },
+   "traps": [
+    {
+     "unit": "b-14",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-03",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "069b_EEDL",
+   "text": "Quel niveau de classe les bénévoles veulent-elles toucher en premier ?",
+   "answerable": true,
+   "qrels": {
+    "b-39": 2,
+    "c-07": 2,
+    "b-38": 1,
+    "b-37": 1,
+    "b-40": 1,
+    "b-35": 0,
+    "b-34": 0
+   },
+   "traps": [
+    {
+     "unit": "b-35",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-34",
+     "trap": "condition"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "069b_EEDL",
+   "text": "Comment les membres vont-elles se rendre dans les écoles, et est-ce que ça coûte quelque chose à l'association ?",
+   "answerable": true,
+   "qrels": {
+    "b-30": 2,
+    "b-31": 2,
+    "b-29": 0,
+    "b-19": 1
+   },
+   "traps": [
+    {
+     "unit": "b-29",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "069b_EEDL",
+   "text": "Qui se charge de mettre au propre le résumé de la réunion de décision et de l'envoyer ?",
+   "answerable": true,
+   "qrels": {
+    "b-42": 2,
+    "b-40": 1,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-27",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "069b_EEDL",
+   "text": "Faut-il obtenir l'autorisation des parents pour intervenir dans une classe ?",
+   "answerable": true,
+   "qrels": {
+    "b-17": 2,
+    "b-15": 1,
+    "b-16": 0
+   },
+   "traps": [
+    {
+     "unit": "b-16",
+     "trap": "negation"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "069b_EEDL",
+   "text": "Le démarrage en novembre a-t-il ensuite été fixé à un jour précis ?",
+   "answerable": true,
+   "qrels": {
+    "c-14": 2,
+    "b-41": 1,
+    "b-33": 1,
+    "c-13": 1,
+    "c-12": 1,
+    "b-32": 0
+   },
+   "traps": [
+    {
+     "unit": "b-32",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "069b_EEDL",
+   "text": "Quelle réserve a été émise sur la possibilité de commencer dès novembre ?",
+   "answerable": true,
+   "qrels": {
+    "b-34": 2,
+    "b-33": 0,
+    "b-41": 0
+   },
+   "traps": [
+    {
+     "unit": "b-33",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-41",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "069b_EEDL",
+   "text": "Quel nom de domaine a été retenu pour le site web de l'association ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "069c_EEPL",
+   "text": "Quand se tiendra exactement la première séance avec les élèves de CE2 ?",
+   "answerable": true,
+   "qrels": {
+    "c-14": 2,
+    "c-12": 1,
+    "c-13": 1,
+    "b-41": 1,
+    "b-33": 0
+   },
+   "traps": [
+    {
+     "unit": "b-33",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "069c_EEPL",
+   "text": "Qui s'occupe de faire imprimer les cahiers d'activités ?",
+   "answerable": true,
+   "qrels": {
+    "c-48": 2,
+    "c-39": 2,
+    "c-40": 1,
+    "c-09": 1,
+    "c-34": 1,
+    "c-32": 0,
+    "c-17": 0
+   },
+   "traps": [
+    {
+     "unit": "c-32",
+     "trap": "person"
+    },
+    {
+     "unit": "c-17",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "069c_EEPL",
+   "text": "Combien d'exemplaires du cahier seront imprimés pour la classe ?",
+   "answerable": true,
+   "qrels": {
+    "c-38": 2,
+    "c-45": 1,
+    "c-44": 0
+   },
+   "traps": [
+    {
+     "unit": "c-44",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "069c_EEPL",
+   "text": "Qui va fabriquer le petit film animé et qui pourra l'aider ?",
+   "answerable": true,
+   "qrels": {
+    "c-32": 2,
+    "c-33": 2,
+    "c-31": 1,
+    "c-28": 1,
+    "c-25": 0,
+    "c-17": 0
+   },
+   "traps": [
+    {
+     "unit": "c-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-17",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "069c_EEPL",
+   "text": "Quelle précaution a-t-on prise pour que la vidéo projetée ne fasse pas peur aux enfants ?",
+   "answerable": true,
+   "qrels": {
+    "c-27": 2,
+    "c-28": 2,
+    "c-26": 1,
+    "c-25": 0
+   },
+   "traps": [
+    {
+     "unit": "c-25",
+     "trap": "condition"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "069c_EEPL",
+   "text": "À qui est finalement destiné le colloque évoqué pendant la planification ?",
+   "answerable": true,
+   "qrels": {
+    "c-51": 2,
+    "c-52": 2,
+    "c-24": 1,
+    "c-54": 1,
+    "c-23": 0
+   },
+   "traps": [
+    {
+     "unit": "c-23",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "069c_EEPL",
+   "text": "Avec quel argent l'impression des cahiers sera-t-elle payée, et quel plafond a été fixé ?",
+   "answerable": true,
+   "qrels": {
+    "c-36": 2,
+    "c-47": 2,
+    "c-46": 1,
+    "c-40": 1,
+    "c-35": 0,
+    "b-18": 0
+   },
+   "traps": [
+    {
+     "unit": "c-35",
+     "trap": "status"
+    },
+    {
+     "unit": "b-18",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "069c_EEPL",
+   "text": "Quelle salle de l'école a été réservée pour la pièce de théâtre des élèves ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "156": "lina",
+  "157": "cyriel (incertain)",
+  "158": "pauline (incertain)",
+  "159": "jingyi"
+ },
+ "notes": "Réunion a en ASR : prénoms déduits des tours de parole (« jeannie » = jingyi, interpellée ainsi en b). 157 est appelée « cyriel » en a (ASR) et « wally » une fois en c : identité incertaine. 158 = pauline déduit de « les cousins de pauline » à la ciotat (b t0194). En c, SPEAKER_0/1/2 correspondent à 156/157/158. Ambiguïté b t0194 : « je mets deux classes deux primaires comme ça c'est acté » juste après « une classe de primaire » ; laissé en note sur b-40. Statut des questions : resolved si une réponse figure dans la même réunion. Détails personnels (expérience de nounou, métier du père, emplacement du domicile, garde-robe) volontairement non annotés."
+}
