@@ -1,0 +1,2202 @@
+{
+ "group_id": "027",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0003",
+   "evidence": "ce festival de cinéma qu' on a envie d' organiser dans notre ville",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'équipe veut organiser un festival de cinéma dans sa ville.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0003",
+   "evidence": "pour une date qu' on n' a pas encore fixée",
+   "type": "fact",
+   "status": "active",
+   "statement": "La date du festival n'est pas encore fixée lors de la première réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0003",
+   "evidence": "est-ce que vous avez quelque_chose à nous soumettre",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animateur (078) demande aux participantes quels thèmes elles proposent pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0004",
+   "evidence": "le premier c'est euh + c'est par_rapport_aux super héros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 (Christelle) propose comme premier thème les films de super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0006",
+   "evidence": "le deuxième c'est euh par rapport euh à des documentaires",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 (Christelle) propose comme second thème les documentaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0013",
+   "evidence": "ce type euh de film euh amène de l' espoir",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 025, les films de super-héros apportent de l'espoir dans un contexte de crise sanitaire et environnementale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0040",
+   "evidence": "le nouveau qui est sorti shang chi le film chinois",
+   "type": "fact",
+   "status": "active",
+   "statement": "025 cite Shang-Chi, le dernier Marvel sorti, comme exemple qui attire les adultes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0047",
+   "evidence": "je pense que ça peut intéresser un public de jeunes comme un public euh + de personnes euh plus âgées",
+   "type": "fact",
+   "status": "active",
+   "statement": "075 (Marie) estime que les super-héros peuvent intéresser aussi bien les jeunes que les seniors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0053",
+   "evidence": "moi j' ai pensé au à la comédie et aux romances",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "075 (Marie) propose comme premier thème la comédie romantique / les romances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0057",
+   "evidence": "pour tout genre de de public en_fait hein à part les les jeunes + les jeunes enfants",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 075, la romance convient à tous les publics sauf les jeunes enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0095",
+   "evidence": "oui dicaprio par_exemple + c'est vrai que",
+   "type": "fact",
+   "status": "active",
+   "statement": "DiCaprio (Titanic) est cité comme acteur emblématique des romances, ce qui pourrait attirer le public.",
+   "owner": null,
+   "mentioned_people": [
+    "dicaprio"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom suggéré par 025 (t0090) puis 078 (t0092) ; repris par 075 ici."
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0120",
+   "evidence": "il pourrait y avoir un choix de films où il_y a des personnages lgbt gays lesbiens",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 suggère d'inclure dans le thème romance des films avec des personnages LGBT ; 075 approuve.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0148",
+   "evidence": "susciter des débats dans les activités qu' on pourrait ensuite avoir autour_du festival",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose que le festival suscite des débats lors d'activités organisées autour des projections.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0150",
+   "evidence": "surtout en plus dans une ville comme aix",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival se tiendrait à Aix, ville jugée ouverte sur ces sujets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0152",
+   "evidence": "j' avais pensé au thème de ben au film d' horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 (l'animateur) propose le cinéma d'horreur comme thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0157",
+   "evidence": "le désavantage c'est que ceux que ça fait fuir ça les fait fuir vraiment",
+   "type": "risk",
+   "status": "active",
+   "statement": "Inconvénient de l'horreur selon 078 : le genre fait vraiment fuir une partie du public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0171",
+   "evidence": "peut-être qu' on pourrait avoir même pour ces occasions des intervenants pour tous ces thèmes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 suggère de faire venir des intervenants, par exemple des spécialistes de cinéma de la faculté, sur chaque thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0175",
+   "evidence": "le documentaire c'est important par rapport à notre situation sociétale euh pour que les personnes puissent être informées",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 025, le documentaire informe de façon plus approfondie que les médias d'actualité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0178",
+   "evidence": "je sais pas si vous avez vu le film euh snowden",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 cite Snowden comme exemple de documentaire à partager.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0181",
+   "evidence": "les inconvénients des documentaires c'est que c'est assez long",
+   "type": "risk",
+   "status": "active",
+   "statement": "Inconvénient des documentaires : ils sont longs (deux à trois heures), le public risque de décrocher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Durée précisée au tour t0184."
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0187",
+   "evidence": "il faudrait peut-être envisager dans ce cas là des fractionnements des temps de pause",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 suggère de fractionner les documentaires avec des pauses ; à réfléchir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0205",
+   "evidence": "des documentaires euh sur euh la société comme euh happiness",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 cite le documentaire Happiness, sur la construction du bonheur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0209",
+   "evidence": "trente ou quarante pourcents de notre bonheur était euh enfin était déjà écrit dans notre génétique",
+   "type": "fact",
+   "status": "active",
+   "statement": "D'après le documentaire Happiness, 30 à 40 % du bonheur serait déterminé par la génétique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0212",
+   "evidence": "l' amitié la famille l' amour etcetera ça représentait que dix pourcents",
+   "type": "fact",
+   "status": "active",
+   "statement": "D'après ce documentaire, amitié, famille et amour ne représenteraient que 10 % du bonheur, les choix une grosse part.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "025 précise qu'elle ne se souvient plus exactement des pourcentages."
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0240",
+   "evidence": "l' inconvénient c'est que ça pourrait pas intéressé euh",
+   "type": "risk",
+   "status": "active",
+   "statement": "Selon 025, les documentaires risquent de ne pas intéresser les enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Les enfants sont nommés au tour t0242."
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0248",
+   "evidence": "il_y a des documentaires je pense aussi axés sur euh la jeunesse",
+   "type": "fact",
+   "status": "active",
+   "statement": "078 objecte qu'il existe des documentaires bien faits destinés aux jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0258",
+   "evidence": "ben moi le deuxième thème c'est l' aventure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "075 (Marie) propose l'aventure comme second thème (évasion, rêve).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0275",
+   "evidence": "les films d' aventure qui m' ont le plus marqué c'est sont les films euh + qui ont été joués euh comme pour acteur jean-paul belmondo",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour 075, les films d'aventure les plus marquants sont ceux avec Jean-Paul Belmondo.",
+   "owner": null,
+   "mentioned_people": [
+    "jean-paul belmondo"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0290",
+   "evidence": "je parle des films comme les james bond",
+   "type": "fact",
+   "status": "active",
+   "statement": "075 cite aussi les James Bond comme films d'aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0294",
+   "evidence": "et puis harrison ford euh dans son",
+   "type": "fact",
+   "status": "active",
+   "statement": "078 ajoute Harrison Ford parmi les acteurs associés à l'aventure.",
+   "owner": null,
+   "mentioned_people": [
+    "harrison ford"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0315",
+   "evidence": "on peut aussi le regrouper avec l' horreur d'ailleurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 remarque que l'aventure est large et pourrait être regroupée avec l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0318",
+   "evidence": "les super héros aussi vont à l' aventure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 note que les films de super-héros relèvent aussi de l'aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0320",
+   "evidence": "j' avais pensé aussi en plus du cinéma d' horreur euh aux films historiques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose un second thème : les films historiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0322",
+   "evidence": "qui est sur la couronne d' angleterre euh the crown",
+   "type": "fact",
+   "status": "active",
+   "statement": "078 cite la série Netflix The Crown, sur la couronne d'Angleterre, comme succès historique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0327",
+   "evidence": "l avantage c'est que ça peut apporter là une connaissance une culture historique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avantage des films historiques : apporter une culture historique au public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0327",
+   "evidence": "le désavantage éventuel c'est que il faut peut-être pas toujours prendre pour argent comptant ce qui est dans le film",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque des films historiques : ils proposent une interprétation romancée qu'il ne faut pas prendre pour argent comptant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0348",
+   "evidence": "quand il_y a des historiens qui interviennent et qui parlent alors là je pense que bon on peut les quand même les croire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 075, l'intervention d'historiens rend un film historique plus crédible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0353",
+   "evidence": "qui est sorti et qui a été primé aux oscars",
+   "type": "fact",
+   "status": "active",
+   "statement": "025 cite Les Deux Papes, film historique primé aux Oscars.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le titre est donné au tour précédent t0351."
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "027a_EBRH",
+   "turn": "t0367",
+   "evidence": "on a pas mal débriefé là sur les sujets que vous aviez à nous proposer",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion se clôt sur un débrief des thèmes proposés, sans choix arrêté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0000",
+   "evidence": "faut choisir deux genres de cinéma",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion de décision doit retenir deux genres de cinéma pour l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0006",
+   "evidence": "alors moi j' avais choisi documentaire et héros super héros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : 025 avait proposé documentaire et super-héros (075 romance et aventure, 078 horreur et historique).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Les rappels de 075 (t0007) et 078 (t0008) sont résumés ici."
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0020",
+   "evidence": "j' irai peut-être vers un sujet que moi je connais pas très bien justement euh bah tous les comédies romantiques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 penche pour la romance proposée par Marie, genre qu'il connaît mal.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0023",
+   "evidence": "je vais plaider pour ma paroisse j aime bien le cinéma d' horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 défend aussi son propre thème, le cinéma d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0028",
+   "evidence": "il faut d'abord déterminer quel type de public on souhaite cibler avant de choisir le genre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le groupe convient de définir le public cible avant de choisir les genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Proposé par 025, approuvé par 075 et 078 (t0030, t0033) : traité comme principe acté."
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0033",
+   "evidence": "avec le cinéma d' horreur je pense qu' on risque d' éliminer les enfants",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le cinéma d'horreur risque d'exclure les enfants du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0038",
+   "evidence": "on en a pas encore décidé de combien de jours enfin combien de temps ça dure",
+   "type": "fact",
+   "status": "active",
+   "statement": "La durée du festival n'est pas encore décidée lors de la deuxième réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0044",
+   "evidence": "ça serait bien_qu' on ait au_moins une partie du festival où les enfants sont présents",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 souhaite qu'au moins une partie du festival soit accessible aux enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0049",
+   "evidence": "donc horreur faudrait plutôt l' exclure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 propose d'exclure l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0050",
+   "evidence": "ou l' exclure ou le réserver à peut-être un après-midi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose en alternative de réserver l'horreur à un après-midi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0059",
+   "evidence": "cas là le l' écarter oui oui tu as raison",
+   "type": "decision",
+   "status": "active",
+   "statement": "Comme on ne retient que deux thèmes, l'horreur est écartée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée étalée sur t0055-t0059 ; tour retenu : celui où 078 acte l'écart."
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0063",
+   "evidence": "et aussi quel est l' objectif pour ce festival",
+   "type": "question",
+   "status": "resolved",
+   "statement": "025 demande quel est l'objectif du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0068",
+   "evidence": "le divertissement déjà enfin il faut que ce soit un moment agréable",
+   "type": "answer",
+   "status": "active",
+   "statement": "Objectif du festival selon 078, approuvé : le divertissement, un moment agréable de détente.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0098",
+   "evidence": "vous vous en pensez quoi par_rapport_aux films historiques est-ce que vous pensez que c'est une bonne idée",
+   "type": "question",
+   "status": "resolved",
+   "statement": "025 demande si les films historiques sont une bonne idée, craignant qu'ils ennuient les enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0111",
+   "evidence": "faut déjà avoir une certaine connaissance je veux dire déjà dans ce domaine -là",
+   "type": "answer",
+   "status": "active",
+   "statement": "075 répond que les films historiques demandent des connaissances préalables du public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0123",
+   "evidence": "on peut aussi euh prendre un petit temps un temps bien sûr de d' une présentation d' une remise en contexte",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 suggère une courte remise en contexte (environ cinq minutes) avant un film historique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0147",
+   "evidence": "si on fait fait on organise un débat ou une rencontre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose un débat ou une rencontre autour des anti-héros et des valeurs des films de super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0171",
+   "evidence": "ça peut ça peut être le lien aventure et super héros en_fait",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 voit un lien entre aventure et super-héros permettant de réunir les deux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0192",
+   "evidence": "moi je valide l' idée en_tout_cas moi ça me plaît hein",
+   "type": "decision",
+   "status": "active",
+   "statement": "078 valide l'association aventure + super-héros ; 075 et 025 approuvent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Précisé au tour t0195 : « aventure et super héros ça me plaît bien »."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0197",
+   "evidence": "documentaire et historique on l' avait mis de côté mais on sait pas enfin du_coup on le on peut le remettre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 propose de reconsidérer documentaire et historique, mis de côté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0205",
+   "evidence": "qui sont intéressants euh autant pour les enfants que pour les adultes",
+   "type": "fact",
+   "status": "active",
+   "statement": "075 estime que les documentaires couvrent des domaines intéressants pour enfants comme adultes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0211",
+   "evidence": "ok donc euh pour premier choix on met super héros",
+   "type": "decision",
+   "status": "active",
+   "statement": "Premier choix acté : super-héros (avec l'aventure).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0232",
+   "evidence": "on choisit de réunir deux thèmes en un seul et comme ça ça nous en laisse un autre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Aventure et super-héros sont fusionnés en un seul thème, ce qui libère une place pour un autre genre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0235",
+   "evidence": "et euh et du_coup euh documentaire",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le documentaire est retenu comme autre thème, à côté d'aventure / super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 078 au tour t0226 (« un autre comme le documentaire »), approuvé par 075 et 025 ; transcription ASR hachée."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0237",
+   "evidence": "il faut ensuite euh choisir le cinéma drive ou le cinéma art déco ou le cinéma classique",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Il faut choisir le lieu : cinéma drive, cinéma art déco ou cinéma classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0247",
+   "evidence": "voilà oui mais est-ce_que c'est couvert parce que s'il pleut",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque du drive : il n'est pas couvert ; s'il pleut, il faudrait annuler.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Annulation en cas de mauvaise météo dite au tour t0269."
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0297",
+   "evidence": "le domaine de rockehaute à sainte-victoire ou les jardins d' albertas qui ont un très grand parking",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 suggère, pour un drive, le grand parking des jardins d'Albertas ou un domaine à Sainte-Victoire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Noms de lieux transcrits par ASR, orthographe incertaine."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0302",
+   "evidence": "ben tout_le monde n' a pas de voiture",
+   "type": "risk",
+   "status": "active",
+   "statement": "Autre inconvénient du drive : tout le monde n'a pas de voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0326",
+   "evidence": "donc je pense qu' on devrait écarter le cinéma dry",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le cinéma drive est écarté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Proposé par 025, acquiescement hésitant de 078 et 075 ; le groupe passe ensuite à l'option suivante."
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0332",
+   "evidence": "le nombre de places est limité à soixante_dix personnes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le cinéma art déco est agréable et original mais limité à 70 places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0357",
+   "evidence": "dans un cinéma classique euh on peut avoir euh combien peut -on avoir de personnes cent_cinquante",
+   "type": "fact",
+   "status": "active",
+   "statement": "Un cinéma classique peut accueillir environ 150 personnes, le double de l'art déco.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0367",
+   "evidence": "si on le fait dans un cinéma art déco je pense qu' il faudrait faire de la publicité",
+   "type": "risk",
+   "status": "active",
+   "statement": "Dans un cinéma art déco, il faudrait plus de publicité que dans une salle classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0378",
+   "evidence": "finalement faire un partenariat avec euh enfin directement dans une salle de cinéma",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se fera en partenariat avec une salle de cinéma classique de la ville ; tous votent pour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord aux tours t0392-t0394."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0403",
+   "evidence": "je sais pas si c'est pas interdit aux moins de seize ans quand même joker",
+   "type": "risk",
+   "status": "active",
+   "statement": "Joker est peut-être interdit aux moins de 16 ans (trop violent) ; 025 confirme une interdiction.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0437",
+   "evidence": "un batman un deadpool un joker mais joker avec peut-être les précautions à prendre autour",
+   "type": "decision",
+   "status": "active",
+   "statement": "Films de super-héros retenus : un Batman, Deadpool et un Joker (avec précautions pour ce dernier).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0443",
+   "evidence": "dans ce qui a trait à l' animalier euh je crois c'est la marche de l' empereur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose La Marche de l'empereur comme documentaire animalier, tout en le jugeant long et contemplatif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0473",
+   "evidence": "la seconde_guerre_mondiale en couleur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose un documentaire historique colorisé, La Seconde Guerre mondiale en couleur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0491",
+   "evidence": "ben sinon je mets films d' écologie hein documentaires",
+   "type": "decision",
+   "status": "active",
+   "statement": "025 inscrit au programme un documentaire d'écologie, titre non retrouvé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0535",
+   "evidence": "euh ouais je vais mettre spiderman",
+   "type": "decision",
+   "status": "active",
+   "statement": "025 ajoute un Spider-Man au programme.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "027b_EBDH",
+   "turn": "t0551",
+   "evidence": "ben je viens de mettre james bond",
+   "type": "decision",
+   "status": "active",
+   "statement": "Un James Bond est ajouté au programme, pour faire le lien avec l'aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0000",
+   "evidence": "maintenant que nous avons choisi les thèmes aventure et super héros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel en ouverture : les thèmes choisis sont aventure et super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le documentaire retenu en b n'est pas mentionné ici."
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0006",
+   "evidence": "les vacances scolaires non peut-être les vacances scolaires",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 propose de placer le festival pendant les vacances scolaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0012",
+   "evidence": "ouais d' une semaine peut-être sur une semaine",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 propose un festival sur une semaine ; 075 trouve sept jours un peu long.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0032",
+   "evidence": "en_tout_cas plusieurs jours on semble d'accord",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se déroulera sur plusieurs jours, sans journées surchargées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0036",
+   "evidence": "au dimanche oui bon je pense parce_qu' il_y a des gens qui travaillent pendant les vacances",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le week-end est inclus, par exemple du mercredi au dimanche, car certains travaillent pendant les vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord de 025 (t0034) et 075 ; pas de formule de décision explicite."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0045",
+   "evidence": "alors dans ce ce cas -là vacances de de toussaint ou vacances de noël",
+   "type": "question",
+   "status": "resolved",
+   "statement": "078 demande s'il vaut mieux les vacances de la Toussaint ou de Noël.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0048",
+   "evidence": "pense que ce serait la toussaint",
+   "type": "decision",
+   "status": "active",
+   "statement": "Choix des vacances de la Toussaint (à Noël les gens sont en famille).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 025 (t0049) et 078 (« plutôt toussaint », t0050)."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0077",
+   "evidence": "vais mettre mercredi trois novembre deux_mille_vingt-et-un",
+   "type": "decision",
+   "status": "active",
+   "statement": "Début du festival fixé au mercredi 3 novembre 2021.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0089",
+   "evidence": "ouais on est d'accord hein le cézanne",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu retenu est le cinéma Le Cézanne, le plus grand d'Aix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0094",
+   "evidence": "faire les démarches auprès_du cinéma cézanne pour pour expliquer notre événement et euh demander pour euh du trois au huit novembre",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter le Cézanne pour présenter l'événement et réserver des salles et horaires du 3 au 8 novembre, dès le lendemain.",
+   "owner": "025",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Christelle accepte au tour t0101 ; échéance « dès demain » au tour t0105."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0101",
+   "evidence": "moi je veux bien oui si euh c'est",
+   "type": "commitment",
+   "status": "active",
+   "statement": "025 (Christelle) se porte volontaire pour les démarches auprès du Cézanne.",
+   "owner": "025",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0110",
+   "evidence": "j' ai pas la somme à mettre euh",
+   "type": "question",
+   "status": "open",
+   "statement": "025 soulève la question du budget, dont le montant n'est pas connu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Le budget est évoqué (t0113) mais jamais chiffré."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0126",
+   "evidence": "il_y aurait un tarif pour plusieurs soit euh et enfin et éventuellement un tarif réduit de toute façon pour même une projection",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose un tarif festival : forfait pour plusieurs films et tarif réduit à la séance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0130",
+   "evidence": "de la place et le prix d' un forfait pour la semaine entière par_exemple pour une dizaine de films",
+   "type": "action",
+   "status": "open",
+   "statement": "Négocier avec le Cézanne le prix de la place et d'un forfait semaine (une dizaine de films), dans la même tâche que la réservation.",
+   "owner": "025",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté par 025 au tour t0129 (« oui sur le prix »)."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0137",
+   "evidence": "concevoir je pense il faut qu' on conçoive une affiche",
+   "type": "action",
+   "status": "open",
+   "statement": "Concevoir une affiche, en partenariat avec le Cézanne qui l'affichera aussi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0153",
+   "evidence": "on peut demander à des à des membres de l' association de nous proposer pour assez rapidement un",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 suggère de demander à des membres de l'association de proposer rapidement un visuel d'affiche et de flyers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0164",
+   "evidence": "non pas pas moi l' informatique c'est pas trop mon",
+   "type": "fact",
+   "status": "active",
+   "statement": "075 (Marie) indique qu'elle ne maîtrise pas les logiciels pour concevoir l'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0176",
+   "evidence": "christelle s' en charge super",
+   "type": "action",
+   "status": "open",
+   "statement": "Christelle (025) prend en charge la conception de l'affiche et des flyers, en pouvant se faire aider ; Marie lui donnera des idées.",
+   "owner": "025",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 025 au tour t0167 ; offre d'idées de 075 au tour t0172."
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0217",
+   "evidence": "une association à but non lucratif si on peut faire payer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Doute : une association à but non lucratif peut-elle faire payer un stand ? Sinon, participation libre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0223",
+   "evidence": "il faudra voir effectivement vérifier dans les règlements si on a bien le droit de",
+   "type": "action",
+   "status": "open",
+   "statement": "Vérifier dans les règlements si l'association a le droit de tenir un stand payant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0236",
+   "evidence": "oui oui à l' ouverture ou à la fermeture du festival quoi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Un buffet est organisé à l'ouverture et à la clôture du festival, pas à chaque séance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Repris par 078 aux tours t0242-t0245."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0248",
+   "evidence": "bah si vous voulez je m' en charge euh de voir de chercher",
+   "type": "commitment",
+   "status": "active",
+   "statement": "078 se charge de chercher des personnes pour aider au buffet.",
+   "owner": "078",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0260",
+   "evidence": "ah oui il faudra le mettre sur l' affiche",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose de mentionner le pass sanitaire sur l'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0261",
+   "evidence": "je pense que ça c'est pas nécessaire",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "025 juge cette mention inutile puisque tous les cinémas demandent déjà le pass.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Objection ; 025 se range ensuite à l'avis de 078 (t0266)."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0265",
+   "evidence": "selon les mesures en vigueur au moment du festival",
+   "type": "decision",
+   "status": "active",
+   "statement": "Une petite phrase sur le pass sanitaire, selon les mesures en vigueur, figurera en bas de l'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 025 (t0266, t0268) et 075."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0280",
+   "evidence": "ah moi je veux bien moi je veux bien m' en occuper oui",
+   "type": "commitment",
+   "status": "active",
+   "statement": "075 (Marie) s'engage à s'occuper des tickets.",
+   "owner": "075",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0276",
+   "evidence": "il faut être en partenariat permanent avec le césar parce_que s' ils vendent des tickets de leur côté et nous aussi il faut qu' on soit coordonné",
+   "type": "action",
+   "status": "open",
+   "statement": "Coordonner la vente et la prévente des tickets avec le cinéma.",
+   "owner": "075",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« le césar » = le Cézanne (ASR). Responsable désignée t0282-t0287 puis t0318."
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0294",
+   "evidence": "bah en ligne du_coup directement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "025 propose un paiement en ligne pour les tickets achetés auprès de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0306",
+   "evidence": "bon ben on met seulement au cinéma alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "Faute de temps, la vente des tickets se fera seulement au cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0325",
+   "evidence": "on a guy astique par_exemple qui est professeur de cinéma",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "078 propose d'inviter un professeur de cinéma de la fac d'Aix, Guy Astique, qui tient une librairie spécialisée.",
+   "owner": null,
+   "mentioned_people": [
+    "guy astique"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom transcrit par ASR, orthographe incertaine ; adresse de la librairie volontairement non reprise."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0347",
+   "evidence": "je veux bien m' en charger hum",
+   "type": "commitment",
+   "status": "active",
+   "statement": "075 (Marie) se charge d'inviter un spécialiste du cinéma, bénévolement si possible.",
+   "owner": "075",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par 078 (« donc marie », t0359)."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0365",
+   "evidence": "ça serait trop compliqué de les placer je pense",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le placement des spectateurs sera libre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Question de 078 en t0361 ; accord implicite (« très bien »)."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0370",
+   "evidence": "il faudrait organiser ce calendrier en partenariat avec le cinéma",
+   "type": "action",
+   "status": "open",
+   "statement": "Établir avec le cinéma le calendrier des projections et des événements, dans les prochains jours.",
+   "owner": "078",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "078 s'en charge (t0372, t0386)."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0386",
+   "evidence": "donc je vais voir ça avec eux là euh très très vite",
+   "type": "commitment",
+   "status": "active",
+   "statement": "078 s'engage à voir très vite le calendrier avec le cinéma.",
+   "owner": "078",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0400",
+   "evidence": "demander euh de communiquer avec la mairie pour qu' elle euh nous aide à communiquer sur l' événement",
+   "type": "action",
+   "status": "open",
+   "statement": "Demander à la mairie d'aider à communiquer sur le festival (site de l'office de tourisme, mensuel).",
+   "owner": "025 + 075",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0403",
+   "evidence": "ben je peux le faire hein oui",
+   "type": "commitment",
+   "status": "active",
+   "statement": "025 (Christelle) propose de contacter la mairie.",
+   "owner": "025",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0422",
+   "evidence": "oui ben ouais on peut le mettre tous_les deux ouais donc",
+   "type": "decision",
+   "status": "active",
+   "statement": "La démarche auprès de la mairie est confiée à Marie et Christelle ensemble.",
+   "owner": "025 + 075",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Demande de 075 au tour t0420 (« tu nous mets toutes les deux »)."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0417",
+   "evidence": "je peux le faire aussi",
+   "type": "commitment",
+   "status": "active",
+   "statement": "025 (Christelle) prend en charge la communication sur le site de l'association et Facebook.",
+   "owner": "025",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par 078 au tour t0435 ; à lancer dès que l'affiche existe (t0429)."
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0447",
+   "evidence": "faire des comment dire des flyers avec euh où ils pourront répondre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "075 propose un questionnaire pour recueillir l'avis du public à la sortie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "027c_EBPH",
+   "turn": "t0456",
+   "evidence": "questions ben moi je veux bien oui",
+   "type": "commitment",
+   "status": "active",
+   "statement": "075 (Marie) se charge de préparer les questionnaires pour le public.",
+   "owner": "075",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-04",
+   "to": "a-03",
+   "relation": "answers",
+   "justification": "025 répond à la demande de thèmes par les super-héros."
+  },
+  {
+   "from": "a-05",
+   "to": "a-03",
+   "relation": "answers",
+   "justification": "025 donne son second thème, les documentaires."
+  },
+  {
+   "from": "a-09",
+   "to": "a-03",
+   "relation": "answers",
+   "justification": "075 répond à la demande de thèmes par la romance."
+  },
+  {
+   "from": "a-08",
+   "to": "a-04",
+   "relation": "supports",
+   "justification": "075 appuie le thème super-héros en soulignant son public large."
+  },
+  {
+   "from": "a-26",
+   "to": "a-25",
+   "relation": "contradicts",
+   "justification": "078 objecte qu'il existe des documentaires pour les jeunes ; le désaccord n'est pas tranché."
+  },
+  {
+   "from": "b-21",
+   "to": "a-25",
+   "relation": "contradicts",
+   "justification": "075 affirme que les documentaires intéressent les enfants, contre le risque soulevé par 025."
+  },
+  {
+   "from": "b-11",
+   "to": "a-15",
+   "relation": "supersedes",
+   "justification": "La décision d'écarter l'horreur tranche la proposition de ce thème faite par 078."
+  },
+  {
+   "from": "b-11",
+   "to": "b-04",
+   "relation": "supersedes",
+   "justification": "078 plaidait pour l'horreur ; le groupe l'écarte."
+  },
+  {
+   "from": "b-11",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "L'option de réserver l'horreur à un après-midi est abandonnée au profit de l'écart."
+  },
+  {
+   "from": "b-11",
+   "to": "b-09",
+   "relation": "supports",
+   "justification": "La décision reprend la proposition d'exclure l'horreur."
+  },
+  {
+   "from": "b-06",
+   "to": "b-11",
+   "relation": "supports",
+   "justification": "Le risque d'exclure les enfants motive l'écart de l'horreur."
+  },
+  {
+   "from": "b-13",
+   "to": "b-12",
+   "relation": "answers",
+   "justification": "078 répond à la question sur l'objectif : le divertissement."
+  },
+  {
+   "from": "b-15",
+   "to": "b-14",
+   "relation": "answers",
+   "justification": "075 répond sur les films historiques : ils exigent des connaissances préalables."
+  },
+  {
+   "from": "b-18",
+   "to": "a-32",
+   "relation": "supports",
+   "justification": "Le lien aventure/super-héros reprend la remarque de 025 en réunion a."
+  },
+  {
+   "from": "b-19",
+   "to": "b-18",
+   "relation": "supports",
+   "justification": "078 valide l'idée de réunir aventure et super-héros."
+  },
+  {
+   "from": "b-23",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "La fusion des deux thèmes en un précise la validation."
+  },
+  {
+   "from": "b-22",
+   "to": "a-04",
+   "relation": "supports",
+   "justification": "Le premier choix acté retient le thème super-héros proposé en a."
+  },
+  {
+   "from": "b-24",
+   "to": "a-05",
+   "relation": "supports",
+   "justification": "Le documentaire proposé par 025 en a est retenu."
+  },
+  {
+   "from": "b-24",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "La proposition de réintégrer le documentaire est retenue."
+  },
+  {
+   "from": "b-24",
+   "to": "a-09",
+   "relation": "supersedes",
+   "justification": "Le choix des deux thèmes (aventure/super-héros + documentaire) tranche contre la romance proposée."
+  },
+  {
+   "from": "b-24",
+   "to": "b-03",
+   "relation": "supersedes",
+   "justification": "078 penchait pour la romance ; le second thème retenu est le documentaire."
+  },
+  {
+   "from": "b-24",
+   "to": "a-33",
+   "relation": "supersedes",
+   "justification": "Les films historiques proposés par 078 ne sont pas retenus parmi les deux thèmes."
+  },
+  {
+   "from": "b-26",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "L'absence de couverture en cas de pluie justifie l'écart du drive."
+  },
+  {
+   "from": "b-28",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "Le manque de voiture d'une partie du public justifie l'écart du drive."
+  },
+  {
+   "from": "b-29",
+   "to": "b-27",
+   "relation": "supersedes",
+   "justification": "Le drive étant écarté, la proposition de parking pour un drive tombe."
+  },
+  {
+   "from": "b-33",
+   "to": "b-25",
+   "relation": "answers",
+   "justification": "Le choix d'une salle de cinéma classique répond à la question du lieu."
+  },
+  {
+   "from": "b-31",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "La capacité supérieure du cinéma classique plaide pour ce choix."
+  },
+  {
+   "from": "b-32",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Le besoin de publicité accru pour l'art déco plaide pour la salle classique."
+  },
+  {
+   "from": "b-34",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Le risque d'interdiction aux moins de 16 ans explique les précautions autour du Joker."
+  },
+  {
+   "from": "b-17",
+   "to": "a-13",
+   "relation": "supports",
+   "justification": "Le débat autour des anti-héros reprend l'idée de débats autour du festival."
+  },
+  {
+   "from": "c-01",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Le rappel des thèmes aventure et super-héros confirme la décision de b."
+  },
+  {
+   "from": "c-07",
+   "to": "c-06",
+   "relation": "answers",
+   "justification": "La Toussaint est choisie en réponse à l'alternative Toussaint/Noël."
+  },
+  {
+   "from": "c-07",
+   "to": "c-02",
+   "relation": "supports",
+   "justification": "La Toussaint précise la proposition de vacances scolaires."
+  },
+  {
+   "from": "c-08",
+   "to": "c-07",
+   "relation": "supports",
+   "justification": "Le 3 novembre 2021 tombe pendant les vacances de la Toussaint."
+  },
+  {
+   "from": "c-09",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Le Cézanne concrétise le choix d'une salle de cinéma classique."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "creates_action",
+   "justification": "L'engagement de 025 donne lieu à la démarche auprès du Cézanne."
+  },
+  {
+   "from": "c-13",
+   "to": "c-14",
+   "relation": "creates_action",
+   "justification": "L'idée de tarif festival donne lieu à la négociation du prix avec le Cézanne."
+  },
+  {
+   "from": "c-18",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "La prise en charge par Christelle attribue la tâche de conception de l'affiche."
+  },
+  {
+   "from": "c-25",
+   "to": "c-24",
+   "relation": "supersedes",
+   "justification": "La décision de mettre la mention tranche l'objection de 025."
+  },
+  {
+   "from": "c-25",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "La décision retient la proposition de 078 en la précisant."
+  },
+  {
+   "from": "c-26",
+   "to": "c-27",
+   "relation": "creates_action",
+   "justification": "L'engagement de Marie donne lieu à la coordination des tickets."
+  },
+  {
+   "from": "c-29",
+   "to": "c-28",
+   "relation": "supersedes",
+   "justification": "Faute de temps, la vente se fait seulement au cinéma au lieu d'un paiement en ligne."
+  },
+  {
+   "from": "c-30",
+   "to": "a-17",
+   "relation": "supports",
+   "justification": "L'invitation d'un professeur de cinéma de la fac concrétise l'idée d'intervenants de la réunion a."
+  },
+  {
+   "from": "c-32",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "Marie se charge d'inviter le spécialiste proposé."
+  },
+  {
+   "from": "c-35",
+   "to": "c-34",
+   "relation": "creates_action",
+   "justification": "L'engagement de 078 porte la tâche du calendrier avec le cinéma."
+  },
+  {
+   "from": "c-38",
+   "to": "c-37",
+   "relation": "supersedes",
+   "justification": "La démarche mairie, d'abord prise par Christelle seule, est confiée aux deux."
+  },
+  {
+   "from": "c-38",
+   "to": "c-36",
+   "relation": "creates_action",
+   "justification": "La décision désigne Marie et Christelle pour la demande à la mairie."
+  },
+  {
+   "from": "c-41",
+   "to": "c-40",
+   "relation": "supports",
+   "justification": "Marie se charge du questionnaire qu'elle a proposé."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "Quels genres Christelle avait-elle mis en avant au départ pour le festival de cinéma ?",
+   "qrels": {
+    "a-04": 2,
+    "a-05": 2,
+    "b-02": 1,
+    "a-03": 1,
+    "a-09": 0,
+    "a-15": 0,
+    "a-27": 0,
+    "a-33": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "person"
+    },
+    {
+     "unit": "a-15",
+     "trap": "person"
+    },
+    {
+     "unit": "a-27",
+     "trap": "person"
+    },
+    {
+     "unit": "a-33",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "Le thème horreur suggéré par l'animateur a-t-il finalement été gardé pour le festival ?",
+   "qrels": {
+    "b-11": 2,
+    "a-15": 1,
+    "b-06": 1,
+    "b-09": 1,
+    "b-04": 0,
+    "b-10": 0,
+    "a-16": 0,
+    "a-31": 0
+   },
+   "traps": [
+    {
+     "unit": "b-04",
+     "trap": "status"
+    },
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-16",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-31",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "Parmi tous les genres proposés lors du premier échange, lesquels ont été retenus au bout du compte ?",
+   "qrels": {
+    "b-19": 2,
+    "b-23": 2,
+    "b-24": 2,
+    "b-22": 1,
+    "c-01": 1,
+    "b-18": 1,
+    "b-01": 1,
+    "a-09": 0,
+    "a-33": 0,
+    "b-03": 0,
+    "b-20": 0,
+    "a-15": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "status"
+    },
+    {
+     "unit": "a-33",
+     "trap": "status"
+    },
+    {
+     "unit": "b-03",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-20",
+     "trap": "status"
+    },
+    {
+     "unit": "a-15",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "Quels défauts a-t-on trouvés aux documentaires comme genre à projeter ?",
+   "qrels": {
+    "a-20": 2,
+    "a-25": 2,
+    "a-21": 1,
+    "a-26": 0,
+    "b-21": 0,
+    "a-18": 0,
+    "a-36": 0,
+    "b-37": 0
+   },
+   "traps": [
+    {
+     "unit": "a-26",
+     "trap": "negation"
+    },
+    {
+     "unit": "b-21",
+     "trap": "negation"
+    },
+    {
+     "unit": "a-18",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-36",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "Selon le film sur le bonheur cité par Christelle, quel pourcentage viendrait des gènes ?",
+   "qrels": {
+    "a-23": 2,
+    "a-22": 1,
+    "a-24": 0
+   },
+   "traps": [
+    {
+     "unit": "a-24",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "Quels acteurs ou héros ont été cités comme emblématiques des films d'aventure ?",
+   "qrels": {
+    "a-28": 2,
+    "a-29": 2,
+    "a-30": 2,
+    "b-42": 1,
+    "a-27": 1,
+    "a-11": 0,
+    "a-07": 0
+   },
+   "traps": [
+    {
+     "unit": "a-11",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-07",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "027a_EBRH",
+   "answerable": true,
+   "text": "L'idée de faire venir un spécialiste de cinéma : qui s'est chargé de trouver cet intervenant ?",
+   "qrels": {
+    "c-32": 2,
+    "c-30": 1,
+    "a-17": 1,
+    "c-22": 0,
+    "c-35": 0,
+    "c-11": 0
+   },
+   "traps": [
+    {
+     "unit": "c-22",
+     "trap": "person"
+    },
+    {
+     "unit": "c-35",
+     "trap": "person"
+    },
+    {
+     "unit": "c-11",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "027a_EBRH",
+   "answerable": false,
+   "text": "Combien d'euros l'association a-t-elle prévu de dépenser au total pour le festival ?",
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "025": "christelle",
+  "075": "marie"
+ },
+ "notes": "Annotation provisoire (llm_provisional). Locuteurs : 078 = animateur (prénom jamais dit) ; 025 = christelle et 075 = marie, déduits des apostrophes en c (t0101-t0102, t0318-t0320, t0435) et en b (t0020, t0267). Réunion a manuelle (questions écrites dessus) ; b et c en ASR, extraits fragmentés et noms propres déformés (cinéma « dry » = drive, « césar » = Cézanne, « flammeux » = flyers, lieux et nom du professeur incertains). Cas ambigus : en b, l'écart du drive (b-29) et le choix des thèmes (b-24) reposent sur des accords oraux hésitants ; b-24 retient le documentaire comme second thème mais c-01 ne rappelle que aventure et super-héros (pas de remplacement établi, simple omission possible) ; c-05 et c-33 sont des décisions inférées ; l'adresse de la librairie (c t0327) n'est pas reprise. Les montants : aucun chiffre en euros dans le groupe (budget jamais chiffré, d'où q08 sans réponse). Pourcentages et capacités (70/150 places) traités comme faits, amount laissé à null."
+}
