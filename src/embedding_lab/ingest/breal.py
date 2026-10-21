@@ -66,6 +66,8 @@ def validate_raw(raw: Mapping[str, Any], meetings: Mapping[str, Mapping[str, Any
         if turn is None:
             errs.append(f"{k}: tour inconnu {u.get('turn')}")
             continue
+        if u.get("status") == "superseded":
+            errs.append(f"{k}: statut superseded interdit (utiliser une relation supersedes)")
         ev = u.get("evidence", "")
         if not ev or ev not in turn["text"]:
             errs.append(f"{k}: l'extrait n'est pas une sous-chaîne exacte du tour {u.get('turn')}")
@@ -98,6 +100,8 @@ def validate_raw(raw: Mapping[str, Any], meetings: Mapping[str, Mapping[str, Any
         elif any(v >= 1 for v in qrels.values()):
             errs.append(f"{qk}: requête sans réponse mais avec unité pertinente")
         for t in q.get("traps", []):
+            if not q.get("answerable", True):
+                errs.append(f"{qk}: pas de pièges pour une question sans réponse")
             if t.get("trap") not in TRAPS:
                 errs.append(f"{qk}: type de piège inconnu {t.get('trap')}")
             if qrels.get(t.get("unit"), 0) != 0 or t.get("unit") not in known:

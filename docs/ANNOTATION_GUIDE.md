@@ -1,6 +1,6 @@
 # Guide d'annotation
 
-Version 0.1, 2026-10-20. Les contrats sont dans `src/embedding_lab/schemas/` ; ce guide explique comment les remplir. La vérification automatique se fait avec `check_unit`, `check_relation` et `check_action`.
+Version 0.2, 2026-10-21 (précisions issues du pilote B-REAL : statut au moment de la source, sens de `supersedes`, `creates_action`, format de `owner`). Les contrats sont dans `src/embedding_lab/schemas/` ; ce guide explique comment les remplir. La vérification automatique se fait avec `check_unit`, `check_relation` et `check_action`.
 
 ## 1. Principe
 
@@ -31,7 +31,7 @@ Version 0.1, 2026-10-20. Les contrats sont dans `src/embedding_lab/schemas/` ; c
 | active | décision, engagement ou fait en vigueur à la date de la source |
 | rejected | refusé explicitement |
 | cancelled | annulé après avoir été acté |
-| superseded | remplacé par une unité ultérieure ; seulement si une relation `supersedes` justifiée existe |
+| superseded | **ne pas utiliser à l'annotation** : le statut décrit le moment de la source ; le remplacement est porté par une relation `supersedes` (valeur conservée pour compatibilité du schéma) |
 | open | question ou action sans issue connue |
 | resolved | question qui a reçu une réponse |
 | unknown | impossible de trancher : le noter plutôt que deviner |
@@ -42,6 +42,7 @@ Version 0.1, 2026-10-20. Les contrats sont dans `src/embedding_lab/schemas/` ; c
 - `owner` : responsable **explicitement désigné** (« je m'en charge », « c'est Alexandre qui fait les slides » avec accord). Une personne seulement **proposée** (« moi je dis qu'Alexandre… ») n'est pas owner tant qu'elle n'a pas accepté : on la met dans `mentioned_people`, et l'unité a le statut `proposed`.
 - Une personne qui pose une question ou qui est citée n'est pas responsable.
 - Homonymes : si deux personnes peuvent correspondre, `owner: null` et une note.
+- Format : identifiant du locuteur quand il est connu, sinon prénom tel que transcrit ; plusieurs responsables séparés par « + ».
 
 ## 5. Dates et montants
 
@@ -57,8 +58,8 @@ Version 0.1, 2026-10-20. Les contrats sont dans `src/embedding_lab/schemas/` ; c
 |---|---|---|
 | supports | from étaye to | même objet |
 | contradicts | from et to incompatibles **dans le même contexte**, sans qu'un remplacement soit établi | même projet, même objet, aucun signe de mise à jour |
-| supersedes | from (plus récent) remplace to | même projet, même objet, from au moins aussi récent, indice explicite (« finalement », « on change », nouvelle valeur actée) |
-| creates_action | la décision ou l'engagement from donne lieu à l'action to | lien explicite |
+| supersedes | from (plus récent) remplace to | même projet, même objet, from au moins aussi récent, indice explicite (« finalement », « on change », nouvelle valeur actée) ou décision qui tranche explicitement la question à laquelle to proposait une réponse ; une reformulation = supports |
+| creates_action | la décision, l'engagement ou l'idée retenue from donne lieu à l'action to | lien explicite |
 | answers | from répond à la question to | to est de type question |
 | unrelated | aucun lien | paires de contrôle |
 

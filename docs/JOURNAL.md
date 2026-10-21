@@ -261,3 +261,19 @@ Le commit `15d31d0` contenait par erreur `data/bsyn/` (absent de `.gitignore`), 
 ### Non vérifié
 
 Tests sur le PC de l'étudiant (uv absent) ; la CI GitHub sous Windows reste la preuve d'exécution.
+
+---
+
+## 2026-10-21 · Session S08 · EL-007b (B-REAL), lancement
+
+- **Début** : 2026-10-21T15:45+02:00 (message « go ») · **Fin** : en cours
+- **Branche** : `el-007b-breal` (base `el-007c-bsyn` @ `15f0b16`)
+- **Agent / capacité** : orchestrateur (outillage, contrôle qualité) ; sous-agents `general-purpose` (Claude, modèle effectif non vérifié) pour l'annotation, au plus 3 en parallèle, une tâche = un groupe, mandat `docs/mandates/EL-007b-annotation.md`. Motif : 19 groupes (~1,35 M caractères) à lire intégralement, tâches indépendantes et fichiers de sortie disjoints.
+
+### Actions
+
+1. Périmètre : groupes val (10) et test (9) contenant au moins une réunion manuelle : 57 réunions. Portée de recherche B-REAL = groupe (protocole v1.4).
+2. Outillage : `ingest/breal.py` (tâche, validation, assemblage), `scripts/prepare_breal_tasks.py`, `scripts/check_breal_raw.py`, 4 tests (61 au total).
+3. **Pilote** sur le groupe val 015 (6 min 53 s) : 101 unités, 28 relations, 8 requêtes, validateur OK. Contrôle par l'orchestrateur des 8 requêtes et de leurs pertinences : cohérentes ; q03 repose sur un accord hésitant (marqué `inferred`).
+4. Huit remarques du pilote sur les consignes → mandat v2 et guide v0.2 : pas de statut `superseded` dans les unités, `supersedes` possible vers une proposition explicitement écartée, `creates_action` depuis une idée retenue, format de `owner` et `speaker_names`, champ `amount`, réponses possibles dans une autre réunion du groupe, pas de pièges pour les questions sans réponse. Validateur renforcé en conséquence.
+5. Pilote relancé pour mettre 015 au format v2 ; annotation des groupes val 008 et 014 lancée.
