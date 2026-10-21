@@ -1,0 +1,2266 @@
+{
+ "group_id": "033",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0000",
+   "evidence": "le but de notre réunion c'est d' essayer de trouver un genre pour notre festival de films",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objectif de la première réunion : choisir un genre pour le festival de films de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0000",
+   "evidence": "association cinéphile d' aix cinefaix",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival est organisé par l'association cinéphile aixoise Cinéfaix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0004",
+   "evidence": "moi j' ai pensé au + genre euh horror suspense euh parce_que je pense que ça touche un peu tout_le monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition du genre horreur/suspense, jugé fédérateur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0006",
+   "evidence": "des films classiques euh du genre comme euh l' exorciste qui a marqué les esprits",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'Exorciste est cité comme classique incontournable du genre horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0010",
+   "evidence": "il faut faire attention dans le choix qu' on fera si on choisit ce ce style -là parce_que il_y a aussi beaucoup de de navets",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : le genre horreur compte beaucoup de navets, il faudra bien choisir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0036",
+   "evidence": "je me dis que ça pourrait être pas mal ça du_coup",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "You're Next pourrait être un bon choix car il mélange suspense et slasher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le titre est donné aux tours t0023-t0034."
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0044",
+   "evidence": "un festival moi basé que sur l' horreur ben c'est un peu moins familial ça touche un public euh vraiment que d' adultes",
+   "type": "risk",
+   "status": "active",
+   "statement": "Objection : un festival uniquement horreur serait peu familial et réservé aux adultes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0046",
+   "evidence": "je pense que c'est un genre un peu clivant",
+   "type": "risk",
+   "status": "active",
+   "statement": "L'horreur est un genre clivant qui réduit le public potentiel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0059",
+   "evidence": "mon max c'est get out",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour une participante peu friande d'horreur, Get Out est la limite supportable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0077",
+   "evidence": "je proposais euh + de + d' inclure des documentaires dans notre + dans notre festival",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'inclure des documentaires dans le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0077",
+   "evidence": "la difficulté du_coup pour le festival ce serait de de choisir euh ben un sujet euh assez précis",
+   "type": "risk",
+   "status": "active",
+   "statement": "Difficulté du documentaire : il faudrait cadrer la sélection sur un thème précis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0093",
+   "evidence": "c'est peut-être parfois un petit peu plus court qu' un film",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les documentaires sont parfois plus courts qu'un film, il faudrait en programmer davantage.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0094",
+   "evidence": "il_y en a aussi en plusieurs parties des documentaires historiques",
+   "type": "fact",
+   "status": "active",
+   "statement": "Certains documentaires historiques existent en plusieurs parties.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0116",
+   "evidence": "il_y a la vietnam de la guerre du vietnam par ken burns",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le documentaire de Ken Burns sur la guerre du Vietnam (douze parties) est cité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0122",
+   "evidence": "faudrait essayer trouver un thème ouais bon on peut en reparler si on a du temps à la fin",
+   "type": "action",
+   "status": "open",
+   "statement": "Trouver un thème pour les documentaires, à rediscuter en fin de réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0125",
+   "evidence": "diffuser un des films historiques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de diffuser des films historiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0133",
+   "evidence": "il faut sauver le soldat ryan qui est un véritable classique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut sauver le soldat Ryan est proposé comme classique du film historique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0136",
+   "evidence": "c'est c'est l' inverse d' historique",
+   "type": "risk",
+   "status": "active",
+   "statement": "Objection : Pearl Harbor de Michael Bay n'est pas fidèle à l'histoire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0152",
+   "evidence": "ça nous permettrait quand même d' ouvrir à un public un peu plus large",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pearl Harbor permettrait d'élargir le public grâce à sa romance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0168",
+   "evidence": "je pense qu' on pourrait finir la soirée là-dessus parce_que c'est un film incroyable",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tu ne tueras point (Mel Gibson) est proposé pour clore la soirée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0208",
+   "evidence": "toi tu choisirais quoi comme période tu penses pour le festival",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle période historique choisir pour le festival ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0212",
+   "evidence": "on pourrait faire un un peu de chaque peut-être",
+   "type": "answer",
+   "status": "proposed",
+   "statement": "Réponse : un peu de chaque période.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0221",
+   "evidence": "le jour le plus long c'est pas mal",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le Jour le plus long est suggéré.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0223",
+   "evidence": "oui et puis trois trois heures je crois pas loin",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le Jour le plus long dure près de trois heures, trop long pour le grand public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0229",
+   "evidence": "non c'est vrai qu' il faut que ce soit court",
+   "type": "fact",
+   "status": "active",
+   "statement": "Contrainte retenue : les films doivent être courts.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0231",
+   "evidence": "pour la première_guerre_mondiale on pourrait choisir joyeux noël qui est un film quand même assez familial",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Joyeux Noël est proposé pour la Première Guerre mondiale, film familial.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0239",
+   "evidence": "c'est quand même malheureux qu on regarde pas les classiques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de l'animateur : programmer des classiques du cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0277",
+   "evidence": "mais toi tu mets quoi dans les films classiques du_coup",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qu'entend-on par film classique ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0278",
+   "evidence": "moi classique on va dire avant soixante_dix",
+   "type": "answer",
+   "status": "active",
+   "statement": "Définition de l'animateur : classique = film d'avant 1970.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0286",
+   "evidence": "un classique c'est c'est les films qu' ont marqué le cinéma",
+   "type": "fact",
+   "status": "active",
+   "statement": "Autre définition : un classique est un film qui a marqué le cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0312",
+   "evidence": "faut quand même garder un peu de mainstream pour pour attirer le public",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : sans films grand public, l'association n'attirera pas de spectateurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0315",
+   "evidence": "tu peux par_exemple faire une séance à part",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : une séance de classiques à part, en fin d'après-midi avant la séance principale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0327",
+   "evidence": "on part sur l' idée de classique et on prend après un classique de chaque style",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : partir sur les classiques, avec un classique de chaque style.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvée aux tours t0328-t0333."
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0380",
+   "evidence": "notre festival il va toucher des adultes parce_que c'est difficile d' inclure des enfants",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival visera des adultes, inclure les enfants étant difficile.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0401",
+   "evidence": "et si on fait euh séance surprise tu sais genre personne ne sait ce qu' il va voir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de séance surprise où personne ne sait quel film il va voir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0412",
+   "evidence": "tu peux cocher pas horreur + pas truc très explicite",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour la séance surprise, possibilité d'exclure l'horreur ou les contenus explicites.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0415",
+   "evidence": "des petits tickets euh en mode avec trois mots clé max",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tickets mystère portant au plus trois mots clés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0464",
+   "evidence": "on a choisi que c'était classique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Concept retenu en fin de première réunion : les classiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "L'animateur ajoute aussitôt « on a pas trop fait la décision » (t0470) ; la définition de classique reste ouverte."
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0473",
+   "evidence": "on prend la définition de classique en termes de film classique",
+   "type": "question",
+   "status": "open",
+   "statement": "Faut-il comprendre classique comme monument du cinéma ou comme critère de date ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Question reprise t0477 ; deux réponses divergentes sans arbitrage."
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "033a_EBRH",
+   "turn": "t0480",
+   "evidence": "on peut considérer les réalisateurs comme classiques aussi et prendre un film un peu pas connu de leur filmographie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : retenir des réalisateurs classiques et programmer un de leurs films moins connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0007",
+   "evidence": "deux genres sur les quatre",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut choisir deux genres parmi les quatre présentés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase répartie sur t0003-t0007 (ASR)."
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0013",
+   "evidence": "cinéma art déco ou cinéma classique",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut choisir un lieu : cinéma drive, cinéma art déco ou cinéma classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Liste commencée t0009-t0011."
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0016",
+   "evidence": "films qui font donc partie des deux genres",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut sélectionner dix films relevant des deux genres choisis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« dix » est au tour t0013."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0032",
+   "evidence": "faire un un festival basé enfin centré un peu sur les films d' horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de centrer le festival sur les films d'horreur, reprenant l'idée de Robin.",
+   "owner": null,
+   "mentioned_people": [
+    "robin"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0034",
+   "evidence": "le thème un peu du cinema drive serait un peu plus approprié",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le cinéma drive-in serait le lieu le plus adapté aux films d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0046",
+   "evidence": "on pourrait faire du_coup plusieurs soirées à différents thèmes notamment un premier sur l' horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : plusieurs soirées thématiques au drive-in, horreur puis classiques américains des années soixante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0056",
+   "evidence": "c'est mieux avec l' horreur plutôt que l' histoire",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Le drive-in convient-il mieux à l'horreur qu'à l'histoire ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0058",
+   "evidence": "rester 3h dans ta voiture c'est peut-être pas super confortable",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : rester trois heures en voiture n'est pas confortable (films historiques longs).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0071",
+   "evidence": "t as des chevrolets à louer pour pour quatre_cent dollars la soirée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Location de Chevrolet pour quatre cents dollars la soirée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quatre_cent dollars",
+   "assertion": "extracted",
+   "notes": "Ton plaisantin."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0078",
+   "evidence": "comment ça se construit un film d' horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un documentaire qui explique comment fonctionne la peur et se construit un film d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0103",
+   "evidence": "peut y avoir des faux documentaires comme punishment park",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les faux documentaires (Punishment Park) peuvent faire le lien entre horreur et documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0123",
+   "evidence": "ou on fait horreur et docu ou on fait horreur et classique",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Alternative : horreur + documentaire ou horreur + classique ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0126",
+   "evidence": "j' aime bien l' idée d' introduire un genre par un docu explicatif",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Préférence pour introduire un genre par un documentaire explicatif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0135",
+   "evidence": "c'était sa limite de public mais du_coup si on a une approche différente",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le documentaire contourne la limite de public reprochée à l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée t0133."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0157",
+   "evidence": "docu horreur je pense drive-in",
+   "type": "decision",
+   "status": "active",
+   "statement": "Choix : documentaire + horreur, au drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Tour ASR en écho de t0156/t0158 (locuteur 091)."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0182",
+   "evidence": "les voitures sont déjà là et c'est des voitures américaines des années soixante",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : les voitures américaines des années soixante sont fournies sur place.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0198",
+   "evidence": "ok donc on avait dit le drive-in on a choisi pour l' ambiance",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le drive-in est retenu pour l'ambiance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0212",
+   "evidence": "on va pas pouvoir faire des docus indéfiniment sur le genre",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : il y a peu de documentaires sur l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0239",
+   "evidence": "va dire cinq et cinq",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les dix films se répartissent en cinq d'horreur et cinq documentaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contexte t0235-t0242."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0285",
+   "evidence": "bon euh la gare du vietnam de ken burns il fait un peu euh",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La série de Ken Burns sur la guerre du Vietnam est envisagée comme pendant documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0302",
+   "evidence": "ouais donc punishment park et le euh le pendant en vrai documentaire hearts and minds",
+   "type": "decision",
+   "status": "active",
+   "statement": "Premier couple retenu : Punishment Park et le documentaire Hearts and Minds.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0310",
+   "evidence": "est-ce que vous considérez que les films d' hitchcock ils rentrent dans l' horaire",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Les films d'Hitchcock relèvent-ils de l'horreur ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0316",
+   "evidence": "ouais bah non mais y' a pas de date dans l' horreur hein",
+   "type": "answer",
+   "status": "active",
+   "statement": "Oui : l'horreur n'a pas de date, Hitchcock y a sa place.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0331",
+   "evidence": "c'est genre vingt_cinq minutes un truc comme ça ça peut faire une intro à hitchcock",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Un épisode de Blow Up (Arte, environ vingt-cinq minutes) servirait d'introduction à Hitchcock.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0342",
+   "evidence": "moi j' aime bien la connue du nord express",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'Inconnu du Nord-Express est proposé comme film d'Hitchcock.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0384",
+   "evidence": "on fait un un docus sur les exorcistes et les possessions dans la religion catholique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Associer L'Exorciste à un documentaire sur les exorcismes et possessions dans la religion catholique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0396",
+   "evidence": "ou alors un docus sur les exorcistes suivi de l' exorciste",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ordre proposé : le documentaire avant L'Exorciste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0403",
+   "evidence": "je pensais que le docu il serait après le film",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ordre proposé : le documentaire après le film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0473",
+   "evidence": "on peut prendre the witch film d' angoisse euh complet et trouver un docu soit sur les sorcières soit sur la colonisation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Associer The Witch à un documentaire sur les sorcières ou la colonisation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0536",
+   "evidence": "get out et i am not any girl moi je trouve que ça marche bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Associer Get Out au documentaire I Am Not Your Negro.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0553",
+   "evidence": "on a choisi donc horreur et docu parce_que c'est vrai que ça va bien ensemble",
+   "type": "decision",
+   "status": "active",
+   "statement": "Conclusion : les deux genres retenus sont l'horreur et le documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0559",
+   "evidence": "on a choisi cinéma drive-in",
+   "type": "decision",
+   "status": "active",
+   "statement": "Conclusion : le festival aura lieu dans un cinéma drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0591",
+   "evidence": "the witch et la colonisation c'est ce qu' on avait dit et salem et les trucs de sorcière",
+   "type": "decision",
+   "status": "active",
+   "statement": "Couple retenu : The Witch avec un documentaire sur Salem et la sorcellerie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0601",
+   "evidence": "en eudy psychose il me semble ouais",
+   "type": "decision",
+   "status": "active",
+   "statement": "Couple retenu : un épisode de Blow Up et Psychose d'Hitchcock.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contexte t0596-t0600."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0604",
+   "evidence": "et get out et i m not your negro",
+   "type": "decision",
+   "status": "active",
+   "statement": "Couple retenu : Get Out et I Am Not Your Negro.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0619",
+   "evidence": "donc ça fait cinq soirées donc on a une semaine quoi en gros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Cinq couples de films, donc cinq soirées : environ une semaine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0625",
+   "evidence": "dédé il peut pas bosser dans son champ la nuit donc on le fait en hiver",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : faire le festival en hiver, de nuit, dans le champ de Dédé.",
+   "owner": null,
+   "mentioned_people": [
+    "dédé"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0634",
+   "evidence": "qu on commence par le vietnam en premier le lundi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le couple Vietnam ouvre le festival le lundi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0655",
+   "evidence": "ok c'est jeudi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Salem et The Witch sont programmés le jeudi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition au tour t0647."
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "033b_EBDH",
+   "turn": "t0659",
+   "evidence": "on met on cale l' exorciste",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'Exorciste et son documentaire sont programmés le mardi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« le mardi » au tour t0657."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0006",
+   "evidence": "donc déjà printemps été ouais",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu au printemps ou en été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0007",
+   "evidence": "parce que l' hiver on va pas se geler dans les voitures",
+   "type": "risk",
+   "status": "active",
+   "statement": "En hiver on aurait trop froid dans les voitures.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0039",
+   "evidence": "quand est-ce_qu' il fait le plus chaud ici parce qu' il faudrait pas non_plus qu' il fasse trop chaud",
+   "type": "question",
+   "status": "resolved",
+   "statement": "À quel moment il fait chaud sans excès ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0042",
+   "evidence": "alors je mets juin déjà donc juin deux_mille_vingt_deux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival est fixé en juin 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0042",
+   "evidence": "ou alors on a peur du covid et on le met euh deux_mille_vingt_trois",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option de repousser à 2023 par crainte du covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0045",
+   "evidence": "ok ok deux_mille_vingt_deux très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Confirmation : 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0089",
+   "evidence": "donc du six jusqu'au jusqu'au onze",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : du 6 au 11 juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0095",
+   "evidence": "du six au dix ok donc le six juin parfait",
+   "type": "decision",
+   "status": "active",
+   "statement": "Dates retenues : du 6 au 10 juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0098",
+   "evidence": "qui va aller voir gg pour lui demander d' autoriser l' autorisation pour son champ",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui va demander l'autorisation d'utiliser le champ ?",
+   "owner": null,
+   "mentioned_people": [
+    "dédé"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0110",
+   "evidence": "je peux m' occuper d' aller voir dédé de réserver son champ",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Le locuteur 094 va voir Dédé pour réserver son champ.",
+   "owner": "094",
+   "mentioned_people": [
+    "dédé"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0115",
+   "evidence": "moi je pensais aller le voir dès la semaine prochaine",
+   "type": "commitment",
+   "status": "active",
+   "statement": "094 ira voir Dédé dès la semaine suivante.",
+   "owner": "094",
+   "mentioned_people": [
+    "dédé"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0134",
+   "evidence": "on lui donnera genre cinq pourcents des revenus de la buvette",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Reverser à Dédé cinq pour cent des revenus de la buvette.",
+   "owner": null,
+   "mentioned_people": [
+    "dédé"
+   ],
+   "amount": "cinq pourcents",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0138",
+   "evidence": "il faut ramener l' écran + qui s' occupe de la logistique",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui s'occupe de l'écran et de la logistique ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0139",
+   "evidence": "euh ça moi je m' en occupe",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Le locuteur 092 prend en charge l'écran et le son.",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0154",
+   "evidence": "je je sors de la réunion j' y vais là maintenant",
+   "type": "commitment",
+   "status": "active",
+   "statement": "092 s'y met dès la sortie de la réunion.",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0163",
+   "evidence": "est-ce_qu' on amène les voitures ou est-ce_que les gens viennent avec leurs caisses",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Fournit-on les voitures ou les spectateurs viennent-ils avec les leurs ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0173",
+   "evidence": "bon du_coup les gens ramènent leurs voitures",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les spectateurs viennent avec leur propre voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0190",
+   "evidence": "ouais ben je m' occupe du parking",
+   "type": "commitment",
+   "status": "active",
+   "statement": "094 s'occupe du parking.",
+   "owner": "094",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0216",
+   "evidence": "moi je veux bien m' occuper ouais de de de la restauration",
+   "type": "commitment",
+   "status": "active",
+   "statement": "093 s'occupe de la restauration.",
+   "owner": "093",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0218",
+   "evidence": "de recruter les gens euh enfin de former les gens au service",
+   "type": "commitment",
+   "status": "active",
+   "statement": "093 recrute et forme le personnel de service.",
+   "owner": "093",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0234",
+   "evidence": "je sais pas si on a on aura la licence pour vendre de l' alcool",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Aura-t-on la licence pour vendre de l'alcool ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0244",
+   "evidence": "ou alors on vend des éthylotest de la sortie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Vendre des éthylotests à la sortie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0251",
+   "evidence": "s'il y a une un écart notre cinéma il est fini",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un accident lié à l'alcool mettrait fin au festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0265",
+   "evidence": "ok donc pas d' alcool très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas d'alcool au festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0283",
+   "evidence": "un système de mise en place de + de de numérotation peut-être de place",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Numéroter les places de parking pour livrer les commandes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0351",
+   "evidence": "je peux peut-être m' en occuper du système de numérotation des places",
+   "type": "commitment",
+   "status": "active",
+   "statement": "092 s'occupe de la numérotation des places.",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0372",
+   "evidence": "est-ce qu' on fait billetterie sur place en ligne où comment",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Comment organiser la billetterie ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0380",
+   "evidence": "ils se prennent quinze pourcents",
+   "type": "risk",
+   "status": "active",
+   "statement": "La Fnac prélève quinze pour cent sur les billets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quinze pourcents",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0406",
+   "evidence": "donc billetterie euh + auprès_de nos partenaires et sur notre site de notre asso",
+   "type": "decision",
+   "status": "active",
+   "statement": "Billetterie chez les partenaires et sur le site de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0428",
+   "evidence": "allez SPEAKER_1 plus SPEAKER_3 + pas de jaloux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Parking et numérotation partagés entre 092 et 094.",
+   "owner": "092 + 094",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "SPEAKER_1 = 092, SPEAKER_3 = 094 d'après les adresses des tours t0003, t0353 et t0420."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0432",
+   "evidence": "je peux m' occuper de la billetterie si tu veux",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "093 propose de gérer la billetterie après le recrutement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0434",
+   "evidence": "non ça va ça va je vais le faire",
+   "type": "commitment",
+   "status": "active",
+   "statement": "091 garde la billetterie et le marketing.",
+   "owner": "091",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contexte t0414 « billetterie plus marketing »."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0478",
+   "evidence": "si je suis la drh je peux recruter je peux recruter",
+   "type": "commitment",
+   "status": "active",
+   "statement": "093 recrute aussi la sécurité (pompiers).",
+   "owner": "093",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Question de sécurité posée t0460."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0557",
+   "evidence": "ils nous donnent euh dix mille balles",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire sponsoriser par Coca-Cola pour dix mille euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "dix mille balles",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0615",
+   "evidence": "design je veux bien m' en occuper",
+   "type": "commitment",
+   "status": "active",
+   "statement": "092 s'occupe du design (affiche, décor).",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0625",
+   "evidence": "moi je veux bien faire les + les sponsors",
+   "type": "commitment",
+   "status": "active",
+   "statement": "091 cherche les sponsors, dès maintenant.",
+   "owner": "091",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Échéance « maintenant » t0633, « d'ici la fin de l'année » t0634."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0645",
+   "evidence": "ben déjà on va faire un bon la classique sénior + euh étudiants",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tarifs réduits seniors et étudiants, plus 12-18 ans et plein tarif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0717",
+   "evidence": "moi je dirais genre cinq six six balles la place ce serait pas mal",
+   "type": "decision",
+   "status": "active",
+   "statement": "Prix d'une place : cinq ou six euros pour la soirée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinq six six balles",
+   "assertion": "inferred",
+   "notes": "Accepté par 091 (« c'est raisonnable », t0719) ; le prix couvre la soirée (t0721)."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0700",
+   "evidence": "si tu es né à aix c'est plus cinquante pourcents",
+   "type": "idea",
+   "status": "unknown",
+   "statement": "Majoration de cinquante pour cent pour les Aixois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinquante pourcents",
+   "assertion": "extracted",
+   "notes": "Plaisanterie, pas une proposition sérieuse."
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "033c_EBPH",
+   "turn": "t0735",
+   "evidence": "notre festival se déroulera donc le six juin deux_mille_vingt_deux jusqu'au dix",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : festival du 6 au 10 juin 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-31",
+   "to": "a-38",
+   "relation": "supersedes",
+   "justification": "En réunion b, « on a choisi donc horreur et docu » tranche la question du genre que la réunion a avait laissée sur « classique »."
+  },
+  {
+   "from": "b-15",
+   "to": "a-38",
+   "relation": "supersedes",
+   "justification": "Le choix docu + horreur remplace le concept des classiques retenu en a."
+  },
+  {
+   "from": "b-31",
+   "to": "b-15",
+   "relation": "supports",
+   "justification": "La conclusion redit le choix horreur + documentaire."
+  },
+  {
+   "from": "b-32",
+   "to": "b-17",
+   "relation": "supports",
+   "justification": "La conclusion redit le choix du drive-in."
+  },
+  {
+   "from": "b-17",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "Le drive-in proposé est acté."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "supersedes",
+   "justification": "Hearts and Minds est retenu comme pendant documentaire à la place de la série de Ken Burns, trop longue."
+  },
+  {
+   "from": "b-21",
+   "to": "a-14",
+   "relation": "supersedes",
+   "justification": "Même objet (documentaire sur le Vietnam) : Hearts and Minds est choisi."
+  },
+  {
+   "from": "b-08",
+   "to": "b-07",
+   "relation": "answers",
+   "justification": "Rester trois heures en voiture est l'argument contre l'histoire au drive-in."
+  },
+  {
+   "from": "b-15",
+   "to": "b-12",
+   "relation": "answers",
+   "justification": "« on est sur docu » tranche l'alternative docu ou classique."
+  },
+  {
+   "from": "b-23",
+   "to": "b-22",
+   "relation": "answers",
+   "justification": "« pas de date dans l'horreur » répond que Hitchcock rentre dans l'horreur."
+  },
+  {
+   "from": "b-27",
+   "to": "b-28",
+   "relation": "contradicts",
+   "justification": "Ordre documentaire/film inverse, non tranché (« c'est pas problématique »)."
+  },
+  {
+   "from": "b-34",
+   "to": "b-25",
+   "relation": "supersedes",
+   "justification": "Psychose est retenu comme film d'Hitchcock à la place des autres titres proposés."
+  },
+  {
+   "from": "b-35",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Le couple Get Out / I Am Not Your Negro est acté dans le récapitulatif."
+  },
+  {
+   "from": "b-33",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "Le couple The Witch / sorcellerie est acté."
+  },
+  {
+   "from": "b-14",
+   "to": "a-07",
+   "relation": "supports",
+   "justification": "Le documentaire est vu comme réponse à la limite de public de l'horreur évoquée en a."
+  },
+  {
+   "from": "b-36",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Cinq couples de films donnent cinq soirées."
+  },
+  {
+   "from": "a-22",
+   "to": "a-21",
+   "relation": "answers",
+   "justification": "« un peu de chaque » répond à la question de la période."
+  },
+  {
+   "from": "a-29",
+   "to": "a-28",
+   "relation": "answers",
+   "justification": "Définition par la date (avant 1970)."
+  },
+  {
+   "from": "a-30",
+   "to": "a-29",
+   "relation": "contradicts",
+   "justification": "Deux définitions de classique concurrentes, non arbitrées."
+  },
+  {
+   "from": "a-38",
+   "to": "a-33",
+   "relation": "supports",
+   "justification": "Le concept classique retenu prolonge la proposition « un classique de chaque style »."
+  },
+  {
+   "from": "c-01",
+   "to": "b-37",
+   "relation": "supersedes",
+   "justification": "En réunion c, le printemps/été est choisi parce qu'en hiver on gèlerait dans les voitures."
+  },
+  {
+   "from": "c-04",
+   "to": "c-03",
+   "relation": "answers",
+   "justification": "Juin répond à la question du moment où il fait chaud sans excès."
+  },
+  {
+   "from": "c-06",
+   "to": "c-05",
+   "relation": "supersedes",
+   "justification": "2022 est confirmé, l'option 2023 écartée."
+  },
+  {
+   "from": "c-08",
+   "to": "c-07",
+   "relation": "supersedes",
+   "justification": "Correction : « du six au dix » remplace « du six jusqu'au onze »."
+  },
+  {
+   "from": "c-40",
+   "to": "c-08",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit du 6 au 10 juin 2022."
+  },
+  {
+   "from": "c-10",
+   "to": "c-09",
+   "relation": "answers",
+   "justification": "094 se propose pour aller voir Dédé."
+  },
+  {
+   "from": "c-14",
+   "to": "c-13",
+   "relation": "answers",
+   "justification": "092 prend la logistique écran/son."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "answers",
+   "justification": "Les gens ramènent leurs voitures."
+  },
+  {
+   "from": "c-17",
+   "to": "b-16",
+   "relation": "supersedes",
+   "justification": "Les spectateurs viennent avec leur voiture au lieu de voitures fournies sur place."
+  },
+  {
+   "from": "c-24",
+   "to": "c-21",
+   "relation": "answers",
+   "justification": "Pas d'alcool, donc pas de licence."
+  },
+  {
+   "from": "c-23",
+   "to": "c-24",
+   "relation": "supports",
+   "justification": "Le risque d'accident justifie l'absence d'alcool."
+  },
+  {
+   "from": "c-29",
+   "to": "c-27",
+   "relation": "answers",
+   "justification": "Billetterie chez les partenaires et sur le site."
+  },
+  {
+   "from": "c-32",
+   "to": "c-31",
+   "relation": "supersedes",
+   "justification": "091 refuse l'offre de 093 et garde la billetterie."
+  },
+  {
+   "from": "c-30",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Le parking reste à 094, partagé avec 092."
+  },
+  {
+   "from": "c-26",
+   "to": "c-25",
+   "relation": "supports",
+   "justification": "092 prend en charge la numérotation qu'il a proposée."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "033a_EBRH",
+   "text": "Après une première réunion qui penchait pour les classiques, quels genres l'équipe a-t-elle finalement arrêtés pour le festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-31": 2,
+    "b-15": 2,
+    "a-38": 1,
+    "a-33": 1,
+    "b-12": 1,
+    "a-03": 0,
+    "a-10": 0,
+    "b-06": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "status"
+    },
+    {
+     "unit": "a-10",
+     "trap": "status"
+    },
+    {
+     "unit": "b-06",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "033a_EBRH",
+   "text": "Selon l'animateur, jusqu'à quelle décennie un film peut-il être rangé parmi les classiques ?",
+   "answerable": true,
+   "qrels": {
+    "a-29": 2,
+    "a-28": 1,
+    "a-39": 1,
+    "a-30": 0,
+    "a-40": 0
+   },
+   "traps": [
+    {
+     "unit": "a-30",
+     "trap": "person"
+    },
+    {
+     "unit": "a-40",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "033a_EBRH",
+   "text": "Quelle objection a-t-on opposée à un festival entièrement consacré aux films qui font peur ?",
+   "answerable": true,
+   "qrels": {
+    "a-07": 2,
+    "a-08": 2,
+    "b-14": 1,
+    "a-34": 1,
+    "a-05": 0,
+    "a-03": 0
+   },
+   "traps": [
+    {
+     "unit": "a-05",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-03",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "033a_EBRH",
+   "text": "Quel film sur la guerre de 14-18 a été suggéré pour rassembler un public familial ?",
+   "answerable": true,
+   "qrels": {
+    "a-26": 2,
+    "a-17": 0,
+    "a-23": 0,
+    "a-20": 0
+   },
+   "traps": [
+    {
+     "unit": "a-17",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-23",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "033a_EBRH",
+   "text": "Pourquoi le film sur le Débarquement en noir et blanc ne convenait-il pas au grand public ?",
+   "answerable": true,
+   "qrels": {
+    "a-24": 2,
+    "a-25": 2,
+    "a-23": 1,
+    "a-17": 0,
+    "b-08": 0
+   },
+   "traps": [
+    {
+     "unit": "a-17",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-08",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "033a_EBRH",
+   "text": "Quelle formule de projection où le spectateur découvre le film sans le connaître à l'avance a été imaginée ?",
+   "answerable": true,
+   "qrels": {
+    "a-35": 2,
+    "a-36": 1,
+    "a-37": 1,
+    "a-32": 0
+   },
+   "traps": [
+    {
+     "unit": "a-32",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "033a_EBRH",
+   "text": "Qui a suggéré d'ajouter des films documentaires à la programmation ?",
+   "answerable": true,
+   "qrels": {
+    "a-10": 2,
+    "a-11": 1,
+    "b-10": 1,
+    "a-03": 0,
+    "a-16": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "person"
+    },
+    {
+     "unit": "a-16",
+     "trap": "person"
+    },
+    {
+     "unit": "a-27",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "033a_EBRH",
+   "text": "Quel budget l'association a-t-elle réservé à l'achat des droits de diffusion des films classiques ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "033c_EBPH",
+   "text": "Quelles sont les dates exactes du festival en plein air ?",
+   "answerable": true,
+   "qrels": {
+    "c-08": 2,
+    "c-40": 2,
+    "c-04": 1,
+    "c-06": 1,
+    "c-07": 0,
+    "c-05": 0,
+    "b-37": 0
+   },
+   "traps": [
+    {
+     "unit": "c-07",
+     "trap": "date"
+    },
+    {
+     "unit": "c-05",
+     "trap": "date"
+    },
+    {
+     "unit": "b-37",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "033c_EBPH",
+   "text": "Qui se charge d'obtenir le terrain agricole auprès de son propriétaire, et à partir de quand ?",
+   "answerable": true,
+   "qrels": {
+    "c-10": 2,
+    "c-11": 2,
+    "c-09": 1,
+    "c-18": 0,
+    "c-12": 0
+   },
+   "traps": [
+    {
+     "unit": "c-18",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-12",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "033c_EBPH",
+   "text": "Qui gère l'écran et la sonorisation, et quand compte-t-il s'y mettre ?",
+   "answerable": true,
+   "qrels": {
+    "c-14": 2,
+    "c-15": 2,
+    "c-13": 1,
+    "c-35": 0,
+    "c-19": 0
+   },
+   "traps": [
+    {
+     "unit": "c-35",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-19",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "033c_EBPH",
+   "text": "Pourra-t-on acheter des boissons alcoolisées sur place ?",
+   "answerable": true,
+   "qrels": {
+    "c-24": 2,
+    "c-21": 1,
+    "c-23": 1,
+    "c-22": 0
+   },
+   "traps": [
+    {
+     "unit": "c-22",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "033c_EBPH",
+   "text": "Les spectateurs viendront-ils avec leur propre véhicule ou l'organisation en fournira-t-elle ?",
+   "answerable": true,
+   "qrels": {
+    "c-17": 2,
+    "c-16": 1,
+    "b-16": 0,
+    "b-09": 0
+   },
+   "traps": [
+    {
+     "unit": "b-16",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-09",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "033c_EBPH",
+   "text": "Combien coûtera une entrée pour la soirée ?",
+   "answerable": true,
+   "qrels": {
+    "c-38": 2,
+    "c-37": 1,
+    "c-39": 0,
+    "c-28": 0,
+    "c-34": 0
+   },
+   "traps": [
+    {
+     "unit": "c-39",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-28",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-34",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "033c_EBPH",
+   "text": "Où les billets seront-ils vendus et qui en a la charge ?",
+   "answerable": true,
+   "qrels": {
+    "c-29": 2,
+    "c-32": 2,
+    "c-27": 1,
+    "c-31": 0,
+    "c-28": 0
+   },
+   "traps": [
+    {
+     "unit": "c-31",
+     "trap": "person"
+    },
+    {
+     "unit": "c-28",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "033c_EBPH",
+   "text": "Quelle compagnie d'assurance couvrira le festival en cas d'accident ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "091": "animateur de l'association (SPEAKER_0)",
+  "092": "marius (incertain)",
+  "094": "robin (incertain)"
+ },
+ "notes": "Réunion b en ASR avec des tours dédoublés (092 répète souvent 091) : extraits choisis dans le tour le plus complet. Turn ids propres à chaque réunion. 092 = marius (t0046 b, incertain), 094 = robin (t0026 b, incertain) ; autres prénoms (paul, enzo, zinedine, alex) non attribuables. SPEAKER_0..3 = 091..094 d'après les adresses directes. Cas ambigus : décision « classique » en a (aussitôt nuancée t0470) ; ordre docu/film pour l'Exorciste non tranché ; prix 5-6 euros accepté implicitement ; nombreuses plaisanteries (Chevrolet à 400 dollars, +50 % pour les Aixois, 2025) annotées comme pièges. Détails personnels (anniversaire, âge d'un proche, sensibilité à l'horreur) non annotés."
+}
