@@ -592,20 +592,6 @@
   {
    "key": "b-06",
    "meeting_id": "097b_EBDH",
-   "turn": "t0056",
-   "evidence": "ce serait bien de les faire le soir",
-   "type": "idea",
-   "status": "proposed",
-   "statement": "Johan propose de programmer les films d'horreur le soir.",
-   "owner": null,
-   "mentioned_people": [],
-   "amount": null,
-   "assertion": "extracted",
-   "notes": ""
-  },
-  {
-   "key": "b-07",
-   "meeting_id": "097b_EBDH",
    "turn": "t0058",
    "evidence": "aventure et fantastique c'est presque la même chose donc faut ouais ça fait doublon faut en enlever un",
    "type": "idea",
@@ -618,7 +604,7 @@
    "notes": ""
   },
   {
-   "key": "b-08",
+   "key": "b-07",
    "meeting_id": "097b_EBDH",
    "turn": "t0064",
    "evidence": "on on veut seulement deux thèmes",
@@ -632,7 +618,7 @@
    "notes": ""
   },
   {
-   "key": "b-09",
+   "key": "b-08",
    "meeting_id": "097b_EBDH",
    "turn": "t0069",
    "evidence": "moi je partirais plus sur fantastique horreur",
@@ -646,7 +632,7 @@
    "notes": ""
   },
   {
-   "key": "b-10",
+   "key": "b-09",
    "meeting_id": "097b_EBDH",
    "turn": "t0072",
    "evidence": "moi je partirais plus sur aventure et fantastique",
@@ -660,7 +646,7 @@
    "notes": ""
   },
   {
-   "key": "b-11",
+   "key": "b-10",
    "meeting_id": "097b_EBDH",
    "turn": "t0126",
    "evidence": "mixer les deux ou prendre",
@@ -674,7 +660,7 @@
    "notes": "Suite au tour t0128 « un film de chaque »."
   },
   {
-   "key": "b-12",
+   "key": "b-11",
    "meeting_id": "097b_EBDH",
    "turn": "t0140",
    "evidence": "on peut très bien faire des deux on n' est pas obligé de ne mettre que des films où ils sont",
@@ -688,7 +674,7 @@
    "notes": ""
   },
   {
-   "key": "b-13",
+   "key": "b-12",
    "meeting_id": "097b_EBDH",
    "turn": "t0145",
    "evidence": "donc on laisse tomber l' aventure",
@@ -702,7 +688,7 @@
    "notes": "Accord de Malo (t0147 « entendu »)."
   },
   {
-   "key": "b-14",
+   "key": "b-13",
    "meeting_id": "097b_EBDH",
    "turn": "t0154",
    "evidence": "est-ce qu' on fait un drive-in",
@@ -716,7 +702,7 @@
    "notes": "Options complétées au tour t0156."
   },
   {
-   "key": "b-15",
+   "key": "b-14",
    "meeting_id": "097b_EBDH",
    "turn": "t0181",
    "evidence": "soixante_dix personnes ça pourrait suffire en vrai",
@@ -730,7 +716,7 @@
    "notes": ""
   },
   {
-   "key": "b-16",
+   "key": "b-15",
    "meeting_id": "097b_EBDH",
    "turn": "t0198",
    "evidence": "moi je défendrais le art déco personnellement",
@@ -744,7 +730,7 @@
    "notes": ""
   },
   {
-   "key": "b-17",
+   "key": "b-16",
    "meeting_id": "097b_EBDH",
    "turn": "t0224",
    "evidence": "on peut accepter les piétons s' ils se mettent avec une petite serviette dans l' herbe",
@@ -758,7 +744,7 @@
    "notes": ""
   },
   {
-   "key": "b-18",
+   "key": "b-17",
    "meeting_id": "097b_EBDH",
    "turn": "t0231",
    "evidence": "faudrait une grande toile par_contre",
@@ -772,7 +758,7 @@
    "notes": ""
   },
   {
-   "key": "b-19",
+   "key": "b-18",
    "meeting_id": "097b_EBDH",
    "turn": "t0234",
    "evidence": "donc on partirait plus sur du drive-in",
@@ -786,7 +772,7 @@
    "notes": ""
   },
   {
-   "key": "b-20",
+   "key": "b-19",
    "meeting_id": "097b_EBDH",
    "turn": "t0251",
    "evidence": "je maintiens que nanterre c'est très beau",
@@ -800,7 +786,7 @@
    "notes": "Eléa objecte que personne ne viendra (t0252)."
   },
   {
-   "key": "b-21",
+   "key": "b-20",
    "meeting_id": "097b_EBDH",
    "turn": "t0254",
    "evidence": "on fait un drive-in donc il faudrait trouver surtout un terrain",
@@ -814,7 +800,7 @@
    "notes": ""
   },
   {
-   "key": "b-22",
+   "key": "b-21",
    "meeting_id": "097b_EBDH",
    "turn": "t0278",
    "evidence": "c'est un problème avec paris c'est que très peu de monde utilise la voiture justement",
@@ -828,7 +814,7 @@
    "notes": ""
   },
   {
-   "key": "b-23",
+   "key": "b-22",
    "meeting_id": "097b_EBDH",
    "turn": "t0302",
    "evidence": "on abandonne paris c'est ça qui est c'est dommage mais s'il n' y a pas de terrain",
@@ -842,7 +828,7 @@
    "notes": ""
   },
   {
-   "key": "b-24",
+   "key": "b-23",
    "meeting_id": "097b_EBDH",
    "turn": "t0306",
    "evidence": "sinon on reste à aix",
@@ -856,7 +842,7 @@
    "notes": ""
   },
   {
-   "key": "b-25",
+   "key": "b-24",
    "meeting_id": "097b_EBDH",
    "turn": "t0334",
    "evidence": "dans ce cas moi je vais défendre avignon",
@@ -870,7 +856,7 @@
    "notes": ""
   },
   {
-   "key": "b-26",
+   "key": "b-25",
    "meeting_id": "097b_EBDH",
    "turn": "t0336",
    "evidence": "qui possède le parc des expositions et qui possède un très très grand parking",
@@ -884,7 +870,7 @@
    "notes": ""
   },
   {
-   "key": "b-27",
+   "key": "b-26",
    "meeting_id": "097b_EBDH",
    "turn": "t0343",
    "evidence": "mais qui va aller à avignon",
@@ -898,7 +884,7 @@
    "notes": ""
   },
   {
-   "key": "b-28",
+   "key": "b-27",
    "meeting_id": "097b_EBDH",
    "turn": "t0436",
    "evidence": "non vraiment on reste sur agroparc hein même si c'est pourri au_moins personne n' y va a part pour le festival",
@@ -912,7 +898,7 @@
    "notes": "Consensus aux tours t0438-t0441 (« allez avignon ») et t0457 (« nous sommes tombés d'accord »)."
   },
   {
-   "key": "b-29",
+   "key": "b-28",
    "meeting_id": "097b_EBDH",
    "turn": "t0463",
    "evidence": "à déjà noter the last of us",
@@ -926,7 +912,7 @@
    "notes": ""
   },
   {
-   "key": "b-30",
+   "key": "b-29",
    "meeting_id": "097b_EBDH",
    "turn": "t0481",
    "evidence": "et on vire the last of us du_coup",
@@ -940,7 +926,7 @@
    "notes": "Proposé par Johan ; la série n'apparaît plus dans le récapitulatif du tour t0552."
   },
   {
-   "key": "b-31",
+   "key": "b-30",
    "meeting_id": "097b_EBDH",
    "turn": "t0482",
    "evidence": "the walking dead c'est pas dix épisodes c'est dix saisons",
@@ -954,7 +940,7 @@
    "notes": ""
   },
   {
-   "key": "b-32",
+   "key": "b-31",
    "meeting_id": "097b_EBDH",
    "turn": "t0497",
    "evidence": "shining c'est obligé qu' on le mette",
@@ -968,7 +954,7 @@
    "notes": ""
   },
   {
-   "key": "b-33",
+   "key": "b-32",
    "meeting_id": "097b_EBDH",
    "turn": "t0498",
    "evidence": "on peut dire aussi vendredi treize qu' on avait vu",
@@ -982,7 +968,7 @@
    "notes": "Johan approuve (t0499) mais le film n'est pas cité dans le récapitulatif du tour t0552 ; statut ambigu."
   },
   {
-   "key": "b-34",
+   "key": "b-33",
    "meeting_id": "097b_EBDH",
    "turn": "t0502",
    "evidence": "on met cinq horreurs cinq euh cinq fantastiques",
@@ -996,7 +982,7 @@
    "notes": "Malo approuve (t0503)."
   },
   {
-   "key": "b-35",
+   "key": "b-34",
    "meeting_id": "097b_EBDH",
    "turn": "t0552",
    "evidence": "shining the birds le royaume de narnia harry potter et l' ecole des sorciers",
@@ -1010,7 +996,7 @@
    "notes": "Florian annonce cinq films (t0547) mais n'en cite que quatre."
   },
   {
-   "key": "b-36",
+   "key": "b-35",
    "meeting_id": "097b_EBDH",
    "turn": "t0571",
    "evidence": "avatar le deux vient de sortir tout_le monde l' a déjà vu ça sert à rien",
@@ -1024,7 +1010,7 @@
    "notes": ""
   },
   {
-   "key": "b-37",
+   "key": "b-36",
    "meeting_id": "097b_EBDH",
    "turn": "t0631",
    "evidence": "si mais on met que le premier",
@@ -1038,7 +1024,7 @@
    "notes": "Film identifié aux tours t0625-t0627 (« dragon ») ; Florian approuve (t0635)."
   },
   {
-   "key": "b-38",
+   "key": "b-37",
    "meeting_id": "097b_EBDH",
    "turn": "t0650",
    "evidence": "j' ai écrit griffes de la nuit tout simplement",
@@ -1052,7 +1038,7 @@
    "notes": ""
   },
   {
-   "key": "b-39",
+   "key": "b-38",
    "meeting_id": "097b_EBDH",
    "turn": "t0655",
    "evidence": "chucky c'est noté aussi",
@@ -1066,7 +1052,7 @@
    "notes": ""
   },
   {
-   "key": "b-40",
+   "key": "b-39",
    "meeting_id": "097b_EBDH",
    "turn": "t0688",
    "evidence": "je veux bien_que tu passes le voyage du chirou franchement",
@@ -1080,7 +1066,7 @@
    "notes": "Johan approuve (t0690)."
   },
   {
-   "key": "b-41",
+   "key": "b-40",
    "meeting_id": "097b_EBDH",
    "turn": "t0696",
    "evidence": "si on a vraiment pas d' idée on met avatar c'est pas grave",
@@ -1709,122 +1695,122 @@
    "justification": "L'été reste la période prévue."
   },
   {
-   "from": "b-07",
-   "to": "b-13",
+   "from": "b-06",
+   "to": "b-12",
    "relation": "supports",
    "justification": "L'argument du doublon justifie l'abandon d'un des deux thèmes."
   },
   {
-   "from": "b-12",
-   "to": "b-11",
+   "from": "b-11",
+   "to": "b-10",
    "relation": "answers",
    "justification": "Florian répond à la question soumise au vote."
   },
   {
-   "from": "b-13",
+   "from": "b-12",
    "to": "a-05",
    "relation": "supersedes",
    "justification": "L'abandon de l'aventure écarte la proposition de thème aventure."
   },
   {
-   "from": "b-13",
+   "from": "b-12",
    "to": "a-08",
    "relation": "supersedes",
    "justification": "L'abandon de l'aventure écarte la fusion aventure-fantastique."
   },
   {
-   "from": "b-13",
-   "to": "b-10",
+   "from": "b-12",
+   "to": "b-09",
    "relation": "supersedes",
    "justification": "La décision tranche contre le couple aventure-fantastique défendu par Malo."
   },
   {
-   "from": "b-13",
-   "to": "b-09",
+   "from": "b-12",
+   "to": "b-08",
    "relation": "supports",
    "justification": "En retirant l'aventure, il reste le couple fantastique-horreur proposé par Eléa."
   },
   {
-   "from": "b-19",
-   "to": "b-14",
+   "from": "b-18",
+   "to": "b-13",
    "relation": "answers",
    "justification": "Le drive-in répond à la question du type de cinéma."
   },
   {
-   "from": "b-19",
-   "to": "b-16",
+   "from": "b-18",
+   "to": "b-15",
    "relation": "supersedes",
    "justification": "Le choix du drive-in tranche contre la salle art déco."
   },
   {
-   "from": "b-17",
-   "to": "b-19",
+   "from": "b-16",
+   "to": "b-18",
    "relation": "supports",
    "justification": "Accepter les piétons lève l'objection qui freinait le drive-in."
   },
   {
-   "from": "b-19",
-   "to": "b-21",
+   "from": "b-18",
+   "to": "b-20",
    "relation": "creates_action",
    "justification": "« on fait un drive-in donc il faudrait trouver un terrain »."
   },
   {
-   "from": "b-22",
-   "to": "b-23",
+   "from": "b-21",
+   "to": "b-22",
    "relation": "supports",
    "justification": "Le manque de voitures à Paris motive l'abandon de Paris."
   },
   {
-   "from": "b-20",
+   "from": "b-19",
    "to": "a-37",
    "relation": "supports",
    "justification": "Malo reprend sa proposition de Nanterre."
   },
   {
-   "from": "b-28",
+   "from": "b-27",
    "to": "a-24",
    "relation": "supersedes",
    "justification": "Le lieu passe de Paris à Agroparc (Avignon)."
   },
   {
-   "from": "b-28",
-   "to": "b-24",
+   "from": "b-27",
+   "to": "b-23",
    "relation": "supersedes",
    "justification": "Le choix d'Agroparc tranche la question du lieu contre Aix."
   },
   {
-   "from": "b-28",
-   "to": "b-20",
+   "from": "b-27",
+   "to": "b-19",
    "relation": "supersedes",
    "justification": "Le choix d'Agroparc tranche la question du lieu contre Nanterre."
   },
   {
-   "from": "b-28",
+   "from": "b-27",
    "to": "a-36",
    "relation": "supersedes",
    "justification": "Le choix d'Agroparc écarte le jardin du Luxembourg."
   },
   {
-   "from": "b-26",
-   "to": "b-25",
+   "from": "b-25",
+   "to": "b-24",
    "relation": "supports",
    "justification": "Le grand parking du parc des expositions étaye le choix d'Avignon."
   },
   {
-   "from": "b-28",
-   "to": "b-25",
+   "from": "b-27",
+   "to": "b-24",
    "relation": "supports",
    "justification": "La décision retient la proposition d'Avignon."
   },
   {
-   "from": "b-30",
-   "to": "b-29",
+   "from": "b-29",
+   "to": "b-28",
    "relation": "supersedes",
    "justification": "« on vire the last of us » retire la série notée par Florian."
   },
   {
-   "from": "b-35",
-   "to": "b-32",
+   "from": "b-34",
+   "to": "b-31",
    "relation": "supports",
    "justification": "Shining figure dans la liste récapitulée."
   },
@@ -1974,19 +1960,19 @@
    "text": "Quels genres de films restent au programme une fois les thèmes départagés ?",
    "answerable": true,
    "qrels": {
-    "b-13": 2,
-    "b-09": 1,
+    "b-12": 2,
+    "b-08": 1,
     "b-04": 1,
-    "b-07": 1,
-    "b-34": 1,
-    "b-10": 0,
+    "b-06": 1,
+    "b-33": 1,
+    "b-09": 0,
     "a-08": 0,
     "a-02": 0,
     "a-05": 0
    },
    "traps": [
     {
-     "unit": "b-10",
+     "unit": "b-09",
      "trap": "superseded"
     },
     {
@@ -2005,19 +1991,19 @@
    "text": "Pour la forme du cinéma, entre plein air avec voitures, salle classique et salle intimiste, qu'a-t-on choisi ?",
    "answerable": true,
    "qrels": {
-    "b-19": 2,
-    "b-14": 1,
-    "b-17": 1,
-    "b-16": 0,
-    "b-15": 0
+    "b-18": 2,
+    "b-13": 1,
+    "b-16": 1,
+    "b-15": 0,
+    "b-14": 0
    },
    "traps": [
     {
-     "unit": "b-16",
+     "unit": "b-15",
      "trap": "superseded"
     },
     {
-     "unit": "b-15",
+     "unit": "b-14",
      "trap": "topic_only"
     }
    ]
@@ -2028,14 +2014,14 @@
    "text": "Où se tiendra finalement le festival, puisque Paris ne convenait plus ?",
    "answerable": true,
    "qrels": {
-    "b-28": 2,
+    "b-27": 2,
+    "b-24": 1,
     "b-25": 1,
-    "b-26": 1,
-    "b-23": 1,
     "b-22": 1,
+    "b-21": 1,
     "a-24": 0,
-    "b-24": 0,
-    "b-20": 0,
+    "b-23": 0,
+    "b-19": 0,
     "a-25": 0,
     "a-36": 0
    },
@@ -2045,11 +2031,11 @@
      "trap": "superseded"
     },
     {
-     "unit": "b-24",
+     "unit": "b-23",
      "trap": "superseded"
     },
     {
-     "unit": "b-20",
+     "unit": "b-19",
      "trap": "superseded"
     },
     {
@@ -2064,19 +2050,19 @@
    "text": "Pourquoi organiser le drive-in dans la capitale semblait-il compliqué ?",
    "answerable": true,
    "qrels": {
-    "b-22": 2,
-    "b-23": 1,
-    "b-21": 1,
-    "b-19": 0,
-    "b-27": 0
+    "b-21": 2,
+    "b-22": 1,
+    "b-20": 1,
+    "b-18": 0,
+    "b-26": 0
    },
    "traps": [
     {
-     "unit": "b-19",
+     "unit": "b-18",
      "trap": "topic_only"
     },
     {
-     "unit": "b-27",
+     "unit": "b-26",
      "trap": "topic_only"
     }
    ]
@@ -2087,10 +2073,10 @@
    "text": "Combien de films sont prévus au total et comment se répartissent-ils par genre ?",
    "answerable": true,
    "qrels": {
-    "b-34": 2,
-    "b-35": 1,
-    "b-13": 1,
-    "b-08": 1
+    "b-33": 2,
+    "b-34": 1,
+    "b-12": 1,
+    "b-07": 1
    },
    "traps": []
   },
@@ -2100,15 +2086,15 @@
    "text": "La série The Last of Us est-elle encore dans la sélection ?",
    "answerable": true,
    "qrels": {
-    "b-30": 2,
-    "b-29": 0,
+    "b-29": 2,
+    "b-28": 0,
     "a-10": 0,
     "a-18": 0,
-    "b-31": 0
+    "b-30": 0
    },
    "traps": [
     {
-     "unit": "b-29",
+     "unit": "b-28",
      "trap": "superseded"
     },
     {
@@ -2120,7 +2106,7 @@
      "trap": "topic_only"
     },
     {
-     "unit": "b-31",
+     "unit": "b-30",
      "trap": "topic_only"
     }
    ]
@@ -2131,23 +2117,23 @@
    "text": "Quel film d'Hitchcock et quels autres titres figurent dans la liste récapitulée par Florian ?",
    "answerable": true,
    "qrels": {
-    "b-35": 2,
-    "b-32": 1,
+    "b-34": 2,
+    "b-31": 1,
+    "b-37": 0,
     "b-38": 0,
-    "b-39": 0,
-    "b-36": 0
+    "b-35": 0
    },
    "traps": [
+    {
+     "unit": "b-37",
+     "trap": "topic_only"
+    },
     {
      "unit": "b-38",
      "trap": "topic_only"
     },
     {
-     "unit": "b-39",
-     "trap": "topic_only"
-    },
-    {
-     "unit": "b-36",
+     "unit": "b-35",
      "trap": "topic_only"
     }
    ]
@@ -2335,5 +2321,5 @@
   "215": "eléa",
   "216": "florian"
  },
- "notes": ""
+ "notes": "097a est une transcription ASR très bruitée (fantastic, lanterre, emma lowe) ; unités limitées aux propositions et récapitulatifs lisibles. Identités : 215 = eléa et 216 = florian (tours d'appel 097a t0002-t0008), 214 = johan (097b t0042/t0053), 213 = malo (ASR) ou malaurie (097b t0004), incertain. Cas ambigus : Vendredi 13 approuvé en 097b (t0499) mais absent du récapitulatif t0552 (« cinq » films annoncés, quatre cités) ; retrait de The Last of Us inféré ; répartition affichage (214 + 215) et installation (216 + 213) inférée des « vous » ; répartition des ateliers poupées/maquillage imprécise ; premier film du festival non établi. Non annotés : plaisanteries (lion, sosie, tromperie sur le lieu, diplôme falsifié), détails personnels (bourse, emploi, famille au-delà de l'aide proposée), nom de la maire d'Aix."
 }
