@@ -1,0 +1,7 @@
+# B-REAL test : sous-ensemble à relire par l'étudiant, tiré avant toute annotation et toute évaluation
+# tirage : random.Random(20261021).sample(réunions manuelles du test triées, 5)
+019a_EARD
+036c_EAPH
+047c_EDPH
+069b_EEDL
+097c_EBPH

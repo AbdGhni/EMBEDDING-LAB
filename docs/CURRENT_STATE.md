@@ -21,7 +21,7 @@ Mis à jour : session S06, 2026-10-21 (après-midi)
 - EL-007 : validé (ingestion SUMM-RE, 283 réunions, empreintes).
 - EL-007b : prévu (pré-annotation des unités).
 - EL-008 : validé (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
-- EL-009 : validé pour le périmètre (protocole v1.0 `1c595028…`, test SUMM-RE `ddd19567…`) ; qrels à figer à leur création.
+- EL-009 : validé (protocole **v1.1** `4dc2ec3a…` après relecture `mle-reviewer` ; test SUMM-RE `ddd19567…` ; sous-ensemble relu `7cc1bec7…`) ; qrels à figer à leur création.
 - EL-007c : prévu (générateur B-SYN).
 - EL-006 : exécuté non validé (guide à relire).
 - Autres : prévus.
@@ -33,7 +33,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 44 tests verts.
+- Projet : `uv sync --locked --extra dev` ; 49 tests verts.
 
 ## Données locales (hors Git, dans la VM)
 
@@ -45,7 +45,7 @@ Aucun.
 
 ## Blocages
 
-- ECC non vérifiable depuis la VM.
+- ECC 2.2.3 installé sur le PC, invocable seulement là-bas (relectures déléguées via `docs/mandates/`).
 
 ## Prochaine action
 

@@ -13,10 +13,6 @@ Dernière vérification : 2026-10-20T21:45+02:00 (Europe/Paris).
 | ECC sur le PC Windows | **installé, version 2.2.3** ; invocable seulement depuis Claude Code sur le PC | listing PowerShell de l'étudiant (2026-10-21) |
 | Accès GitHub | push sur `AbdGhni/embedding-lab` fonctionnel ; `gh` CLI non authentifié (pas d'ouverture de PR en ligne de commande) | push réussi de `main` ; `gh auth status` |
 
-Mise à jour 2026-10-21T15:07+02:00 : session ouverte depuis le PC. Le PC est joignable, mais aucun dossier n'est partagé et le dossier `~/.claude` (où vivent les plugins) est un dossier Claude protégé, invisible depuis cette session cloud. ECC reste **non vérifié**.
-
-Conséquence : tant qu'ECC n'est pas visible, aucune délégation n'est attribuée à un agent ECC. Si tu travailles depuis Claude Code sous Windows avec ECC, ce document devra être complété là-bas avec les noms exacts listés par l'installation.
-
 ## ECC sur le PC (vérifié le 2026-10-21T15:12+02:00)
 
 Preuve : listing PowerShell fourni par l'étudiant (`C:\Users\abdul\.claude\plugins\cache\ecc\ecc\2.2.3`) et lecture des définitions d'agents à la source amont (`affaan-m/ECC`, fichier `VERSION` = 2.2.3, commit `90606c8`).
@@ -62,4 +58,4 @@ Aucun spécialiste ML dédié n'est disponible : l'orchestrateur assume la revue
 
 | Date | Ticket | Agent | Mandat | Résultat |
 |---|---|---|---|---|
-| 2026-10-21 | EL-008/EL-009 | `mle-reviewer` (ECC, PC de l'étudiant) | `docs/mandates/EL-009-review.md` | en attente d'exécution par l'étudiant |
+| 2026-10-21 | EL-008/EL-009 | `mle-reviewer` (ECC, PC de l'étudiant) | `docs/mandates/EL-009-review.md` | exécuté (3 min 25 s) : 0 bloquant dans le code, 3 corrections de protocole, 8 risques → tous traités, voir `docs/reviews/EL-009-mle-reviewer.md` |

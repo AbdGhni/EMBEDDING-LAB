@@ -26,9 +26,12 @@ from collections import defaultdict
 from collections.abc import Callable, Mapping, Sequence
 
 
-def _check(qrels: Mapping[str, int]) -> None:
+def _check(qrels: Mapping[str, int], ranking: Sequence[str] | None = None) -> None:
     if not any(r >= 1 for r in qrels.values()):
         raise ValueError("requête sans unité pertinente : à exclure des métriques de recherche")
+    if ranking is not None and len(set(ranking)) != len(ranking):
+        # un doublon compterait deux fois le même gain (nDCG > 1 possible)
+        raise ValueError("classement avec doublons")
 
 
 def dcg_at_k(ranking: Sequence[str], qrels: Mapping[str, int], k: int) -> float:
@@ -36,31 +39,39 @@ def dcg_at_k(ranking: Sequence[str], qrels: Mapping[str, int], k: int) -> float:
 
 
 def ndcg_at_k(ranking: Sequence[str], qrels: Mapping[str, int], k: int = 10) -> float:
-    _check(qrels)
+    _check(qrels, ranking)
     ideal = sorted(qrels.values(), reverse=True)[:k]
     idcg = sum((2 ** r - 1) / math.log2(i + 2) for i, r in enumerate(ideal))
     return dcg_at_k(ranking, qrels, k) / idcg
 
 
 def recall_at_k(ranking: Sequence[str], qrels: Mapping[str, int], k: int) -> float:
-    _check(qrels)
+    _check(qrels, ranking)
     relevant = {u for u, r in qrels.items() if r >= 1}
     return len(relevant & set(ranking[:k])) / len(relevant)
 
 
 def mrr_at_k(ranking: Sequence[str], qrels: Mapping[str, int], k: int = 10) -> float:
-    _check(qrels)
+    _check(qrels, ranking)
     for i, u in enumerate(ranking[:k]):
         if qrels.get(u, 0) >= 1:
             return 1.0 / (i + 1)
     return 0.0
 
 
+def pairwise_win(pos_score: float, neg_score: float) -> float:
+    """Score d'un triplet : 1 si le positif passe devant le piège, 0,5 si ex æquo, 0 sinon.
+
+    Donne un score par triplet, utilisable tel quel dans les tests appariés par grappes (H2, H4).
+    """
+    return 1.0 if pos_score > neg_score else 0.5 if pos_score == neg_score else 0.0
+
+
 def pairwise_accuracy(pairs: Sequence[tuple[float, float]]) -> float:
     """(score_positif, score_négatif) -> proportion de victoires ; ex æquo = 0,5."""
     if not pairs:
         raise ValueError("aucun triplet")
-    return sum(1.0 if p > n else 0.5 if p == n else 0.0 for p, n in pairs) / len(pairs)
+    return sum(pairwise_win(p, n) for p, n in pairs) / len(pairs)
 
 
 def evaluate_run(
@@ -117,3 +128,50 @@ def paired_cluster_bootstrap(
     hi = stats[min(n_resamples - 1, int(math.ceil((1 - alpha / 2) * n_resamples)) - 1)]
     return {"diff": observed, "ci_low": lo, "ci_high": hi,
             "n_queries": len(a), "n_clusters": len(clusters)}
+
+
+def paired_cluster_permutation_test(
+    a: Mapping[str, float],
+    b: Mapping[str, float],
+    cluster_of: Mapping[str, str],
+    n_resamples: int = 10_000,
+    seed: int = 0,
+    exact_max_clusters: int = 16,
+) -> dict[str, float]:
+    """Test de randomisation apparié par grappes (inversion de signe), bilatéral.
+
+    Sous H0 (aucune différence entre systèmes), le signe de la différence moyenne de chaque
+    grappe est arbitraire. On compare la différence observée (moyenne sur requêtes) à la
+    distribution obtenue en inversant les signes grappe par grappe. Énumération exacte
+    jusqu'à ``exact_max_clusters`` grappes, Monte-Carlo au-delà. Recommandé par la relecture
+    EL-009 car le bootstrap percentile est trop optimiste avec peu de grappes.
+    """
+    if set(a) != set(b):
+        raise ValueError("les deux systèmes doivent être évalués sur les mêmes requêtes")
+    sums: dict[str, float] = defaultdict(float)
+    counts: dict[str, int] = defaultdict(int)
+    for q in a:
+        sums[cluster_of[q]] += a[q] - b[q]
+        counts[cluster_of[q]] += 1
+    clusters = sorted(sums)
+    total = sum(counts.values())
+    observed = sum(sums.values()) / total
+
+    def stat(signs: Sequence[int]) -> float:
+        return sum(s * sums[c] for s, c in zip(signs, clusters, strict=True)) / total
+
+    n = len(clusters)
+    if n <= exact_max_clusters:
+        stats = [stat([1 if (mask >> i) & 1 else -1 for i in range(n)]) for mask in range(2 ** n)]
+        method = "exact"
+    else:
+        rng = random.Random(seed)
+        stats = [stat([rng.choice((1, -1)) for _ in range(n)]) for _ in range(n_resamples)]
+        stats.append(observed)  # correction de Monte-Carlo : la statistique observée compte
+        method = "monte_carlo"
+    eps = 1e-12
+    p = sum(1 for s in stats if abs(s) >= abs(observed) - eps) / len(stats)
+    return {"diff": observed, "p_value": p, "n_clusters": n, "n_queries": total,
+            "method": method, "min_attainable_p": 2 / (2 ** n) if n <= exact_max_clusters
+            else 1 / len(stats)}
+

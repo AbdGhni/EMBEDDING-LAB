@@ -181,3 +181,31 @@ EL-007c (générateur B-SYN) puis EL-007b (annotation B-REAL), puis E0 et E1.
 
 - ECC vérifié : version 2.2.3 installée sur le PC (listing PowerShell de l'étudiant), définitions d'agents lues à la source amont (`affaan-m/ECC` @ `90606c8`, VERSION 2.2.3).
 - ECC n'est pas invocable depuis la session cloud. Première délégation préparée : relecture indépendante du protocole et des splits par `mle-reviewer`, mandat `docs/mandates/EL-009-review.md`, à exécuter par l'étudiant. Statut : en attente.
+
+---
+
+## 2026-10-21 · Session S06 suite · Relecture EL-009 et protocole v1.1
+
+- **Début** : 2026-10-21T15:22+02:00 (rapport transmis par l'étudiant) · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-009-protocol`
+- **Agent / capacité** : `mle-reviewer` (ECC 2.2.3, exécuté par l'étudiant sur son PC, 3 min 25 s) comme relecteur ; orchestrateur pour la vérification et les corrections.
+
+### Résultats de la relecture
+
+0 bloquant dans le code des splits ; 3 corrections de protocole exigées avant gel ; 8 risques de gain illusoire. Détail et suites : `docs/reviews/EL-009-mle-reviewer.md`.
+
+### Vérifications de l'orchestrateur
+
+- 0 réunion sans locuteur dans les vraies données.
+- B-REAL test : 8 composantes, dont **7** avec réunions manuelles (moins que les 12–15 de la simulation du relecteur) → H3 descriptive.
+
+### Corrections
+
+1. Code : refus des réunions sans locuteur ; refus des classements avec doublons ; `pairwise_win` (score par triplet) ; `paired_cluster_permutation_test` (exact jusqu'à 16 grappes). 49 tests verts.
+2. Splits régénérés : empreinte inchangée `d6992f5d…`.
+3. Sous-ensemble de relecture humaine tiré avant annotation : `splits/summre_v1_test_human_review.txt` (SHA-256 `7cc1bec7385708dca4a1144a977b1fb37e8b7bcfc191f4d381425fc71ac0c77b`).
+4. Protocole v1.1 (SHA-256 `4dc2ec3a40950bfcce29a1394e77f36620a0b3aad53846a4fd980db35be97571`) : B-SYN 240/32/48 projets ; H3 descriptive ; pièges du test par construction ou annotation ; décision par permutation ; graines moyennées sans sélection ; comparateur H5 désigné sur val ; accès au test et isolation E1/E2 imposés par un point d'entrée commun (EL-010). Aucun accès au test n'avait eu lieu : changement non post hoc.
+
+### Suite
+
+EL-007c : générateur B-SYN selon le protocole v1.1.

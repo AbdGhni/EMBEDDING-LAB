@@ -1,30 +1,39 @@
 # Protocole expérimental
 
-Version **1.0**, figée le 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.1**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+
+| Version | Date | Changement | Raison |
+|---|---|---|---|
+| 1.0 | 2026-10-21 | version initiale | — |
+| 1.1 | 2026-10-21 | taille de B-SYN fixée ; H3 descriptive ; origine des pièges du test définie ; test de permutation par grappes ; règles graines, H5 et sous-ensemble relu | relecture indépendante `mle-reviewer` (ECC 2.2.3), `docs/reviews/EL-009-mle-reviewer.md`. Aucun accès au test n'avait eu lieu : modification **non** post hoc. |
 
 ## 1. Question et hypothèses falsifiables
 
 Question : un encodeur adapté par apprentissage contrastif avec négatifs difficiles retrouve-t-il mieux la preuve correcte qu'un encodeur générique et que BM25, en particulier face aux pièges de statut, de personne, de date et de négation ?
 
-| ID | Hypothèse | Réfutée si |
-|---|---|---|
-| H1 | E2 (fine-tuné) > E1 (initial) sur B-SYN test, métrique principale | IC 95 % de la différence nDCG@10 (E2 − E1) contient 0 ou est négatif |
-| H2 | Le gain de H1 se concentre sur les pièges : précision par paires sur négatifs difficiles E2 > E1 | IC 95 % de la différence contient 0 |
-| H3 | E2 ne dégrade pas la recherche sur données réelles : nDCG@10 (E2 − E1) sur B-REAL test ≥ −0,02 | borne inférieure de l'IC 95 % < −0,02 |
-| H4 | À budget égal, des négatifs difficiles > des négatifs simples (E3) sur le sous-ensemble pièges | IC 95 % de la différence contient 0 |
-| H5 | Hybride (BM25 + dense) ≥ meilleur des deux seuls (E4) | différence négative avec IC excluant 0 |
+| ID | Hypothèse | Statut | Règle de décision |
+|---|---|---|---|
+| H1 | E2 (fine-tuné) > E1 (initial) sur B-SYN test, nDCG@10 | confirmatoire | confirmée si différence > 0 **et** p < 0,05 (test de permutation apparié par grappes, bilatéral, correction de Holm sur H1–H2) ; l'IC bootstrap est rapporté à côté |
+| H2 | Gain sur les pièges : précision par paires E2 > E1 sur B-SYN test | confirmatoire | même règle que H1 |
+| H3 | Effet de E2 sur données réelles (B-REAL test) | **descriptive** | on rapporte la différence nDCG@10, son IC et la p-valeur exacte, **sans verdict** : 7 grappes seulement (p minimale atteignable 2/128), puissance insuffisante pour un test de non-dégradation |
+| H4 | À budget égal, négatifs difficiles > négatifs aléatoires (E3) sur les pièges de B-SYN test | secondaire | différence, IC et p rapportés, sans correction |
+| H5 | Hybride ≥ meilleur système seul (E4) | secondaire | le « meilleur système seul » est désigné **sur val**, puis comparé sur test |
 
-H1 et H2 sont les hypothèses confirmatoires. H3 à H5 et E5 à E7 sont secondaires : leurs résultats sont rapportés sans correction pour comparaisons multiples et présentés comme indicatifs.
+H3 à H5 et E5 à E7 sont présentés comme indicatifs. Les sous-ensembles relus à la main sont rapportés séparément.
 
 ## 2. Benchmarks
 
 | ID | Contenu | Rôle | Construction |
 |---|---|---|---|
-| **B-SYN** | Projets fictifs français multi-réunions (3 réunions par projet) avec dates, montants, responsables, propositions, validations, annulations, réattributions | principal (H1, H2, H4) | générateur à graine fixe ; familles de patrons, noms de projets, personnes et plages de dates **disjoints** entre train, val et test |
+| **B-SYN** | Projets fictifs français multi-réunions (3 réunions par projet) avec dates, montants, responsables, propositions, validations, annulations, réattributions | principal (H1, H2, H4) | générateur à graine fixe ; **240 projets train, 32 val, 48 test**, environ 8 requêtes par projet (≈ 384 requêtes de test, 48 grappes) ; familles de patrons, noms de projets, personnes et plages de dates **disjoints** entre train, val et test |
 | **B-REAL** | Unités extraites des réunions SUMM-RE (`splits/summre_v1.json`) + requêtes en langage naturel | validité externe (H3) | pré-annotation par Claude (`llm_provisional`), échantillon relu par l'étudiant ; uniquement réunions manuelles pour val/test |
 | **B-PAWS** | PAWS-X fr (dev pour le seuil, test pour la mesure) | robustesse aux reformulations adversariales | données officielles, sans modification |
 
 Les requêtes de B-SYN test sont écrites avec des familles de formulations **distinctes** de celles du train. Limite : un seul auteur (Claude) écrit toutes les familles, donc un biais de style commun est possible ; B-REAL sert de contrôle.
+
+**Origine des pièges d'évaluation.** Dans B-SYN val et test, les négatifs difficiles sont définis **par construction** (le générateur sait quelle unité est une proposition, une annulation, la mauvaise personne…). Dans B-REAL, ils sont définis **par annotation**. Ils ne sont jamais extraits à l'aide d'un modèle évalué (E1, E2, BM25) : sinon les pièges seraient choisis pour piéger E1, et le gain de E2 serait acquis d'avance.
+
+**Sous-ensemble relu.** Cinq réunions manuelles de B-REAL test sont tirées **avant** toute annotation (`splits/summre_v1_test_human_review.txt`, graine 20261021) : 019a_EARD, 036c_EAPH, 047c_EDPH, 069b_EEDL, 097c_EBPH. L'étudiant relit leurs annotations ; les résultats sur ce sous-ensemble sont rapportés à part de ceux du reste du test (annoté par Claude seul).
 
 ### Unités de recherche et corpus de recherche
 
@@ -50,8 +59,10 @@ Les métriques des modules aval (relations, intentions, destinataires, dossiers,
 ## 4. Statistiques
 
 - Différences appariées (même requêtes, mêmes corpus).
-- IC 95 % par **bootstrap par grappes** : on rééchantillonne des grappes (projet pour B-SYN, composante de personnes pour B-REAL) avec remise, 10 000 tirages, graine 0. Les requêtes d'une même grappe ne sont pas traitées comme indépendantes.
-- Graines d'entraînement : 3 graines (13, 42, 1234) pour E1 → E2 si le budget Colab le permet ; sinon 1, et la limite est signalée. La variance entre graines est rapportée à côté de l'IC bootstrap.
+- **Décision** : test de permutation apparié par grappes (inversion des signes grappe par grappe ; énumération exacte jusqu'à 16 grappes, 10 000 tirages Monte-Carlo au-delà, graine 0). Implémentation : `paired_cluster_permutation_test`.
+- **Estimation** : IC 95 % par bootstrap par grappes (projet pour B-SYN, composante de personnes pour B-REAL), 10 000 tirages, graine 0. La relecture a montré qu'avec peu de grappes cet intervalle est trop étroit (environ 4 % d'erreur de chaque côté au lieu de 2,5 % pour 12 grappes) : il sert à estimer, pas à décider.
+- Grappes de B-REAL test : 8 composantes, dont 7 contiennent des réunions manuelles.
+- Graines d'entraînement : 3 graines (13, 42, 1234) si le budget Colab le permet. Le test confirmatoire utilise, pour chaque requête, la **moyenne des scores sur les 3 graines** ; les résultats de chaque graine sont aussi rapportés. **Aucune graine n'est sélectionnée.** Avec 1 seule graine, la variance d'entraînement n'est pas prise en compte, et c'est signalé comme limite.
 - Les effectifs (requêtes, grappes, triplets) sont toujours rapportés.
 
 ## 5. Expériences
@@ -64,18 +75,19 @@ Encodeur de référence : `intfloat/multilingual-e5-small`, révision `614241f62
 | E1 | e5-small sans adaptation | — | toutes |
 | E2 | e5-small fine-tuné, négatifs difficiles | poids de l'encodeur | toutes, + courbes |
 | E3 | E2 avec négatifs aléatoires du même split à la place des négatifs difficiles | origine des négatifs (même nombre de pas, même taille de batch, même graine) | sous-ensemble pièges |
-| E4 | BM25 / dense / fusion RRF (k = 60) ; filtres type / statut ; reranking cross-encoder si le temps le permet | composant ajouté | B-SYN, B-REAL |
+| E4 | BM25 / dense / fusion RRF (k = 60) ; filtres type / statut ; reranking cross-encoder si le temps le permet. Le meilleur système seul (pour H5) est désigné sur val | composant ajouté | B-SYN, B-REAL |
 | E5 | unité seule vs unité + tour précédent | texte encodé | B-REAL (conditionnel) |
 | E6 | e5-small vs `intfloat/multilingual-e5-base` (révision `d128750597153bb5987e10b1c3493a34e5a4502a`) | taille du modèle | B-SYN, B-REAL (conditionnel) |
 | E7 | fenêtres fixes de 64 mots vs tours vs unités | granularité | B-REAL, chemin brut (conditionnel) |
 
-Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même découpage, aucun reranker ni filtre.
+Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même découpage, aucun reranker ni filtre. Cette isolation sera garantie par **un seul point d'entrée d'évaluation** commun à tous les systèmes (EL-010), qui ne diffère que par la fonction de score.
 
 ## 6. Entraînement (E2, E3)
 
 - Perte : Multiple Negatives Ranking Loss (InfoNCE avec négatifs du batch) + un négatif difficile explicite par exemple ; échelle (inverse de la température) 20.
 - Faux négatifs : un batch ne contient jamais deux exemples du même projet ni deux exemples partageant un positif ; les négatifs difficiles candidats sont filtrés s'ils sont annotés pertinents pour la requête.
 - Données : uniquement B-SYN train + unités B-REAL train (réunions du split train, manuelles ou ASR). **Aucune donnée de val ou de test**, ni comme ancre, ni comme positif, ni comme négatif.
+- Négatifs difficiles **d'entraînement** : pièges étiquetés par le générateur, complétés par des négatifs extraits avec E1 **sur le train uniquement**. E3 remplace ces négatifs par des négatifs aléatoires.
 - Sélection du checkpoint : nDCG@10 sur **B-SYN val**, évalué toutes les 100 étapes ; arrêt anticipé après 3 évaluations sans amélioration ; au plus 3 epochs. Hyperparamètres de départ : lr 2e-5, warmup 10 %, batch 64, précision mixte si GPU.
 - Recherche d'hyperparamètres : au plus 4 configurations, sur val uniquement.
 - Avant le run complet : test des dimensions, vérification de la perte sur un batch connu, sur-apprentissage volontaire d'un mini-lot (la perte doit tendre vers 0), mesure du temps par étape et de la mémoire. Ces diagnostics sont journalisés comme tels.
@@ -87,7 +99,7 @@ Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même décou
 
 1. Le **périmètre** du test est figé : réunions listées dans `splits/summre_v1.json` (`test`) et, pour B-SYN, les projets de graine test (définis à la génération).
 2. Les requêtes et pertinences de test sont figées **dès leur création**, avant toute évaluation : leur SHA-256 est inscrit dans `JOURNAL.md`.
-3. Le test n'est évalué qu'avec une configuration finale choisie sur val. Chaque accès est consigné dans `runs/TEST_ACCESS.log` (horodatage, run, motif).
+3. Le test n'est évalué qu'avec une configuration finale choisie sur val. Chaque accès est consigné dans `runs/TEST_ACCESS.log` (horodatage, run, motif). L'obligation sera **imposée par le code** : le point d'entrée commun d'évaluation (EL-010) refusera le split test sans écriture préalable dans ce journal.
 4. L'analyse d'erreurs sur le test est autorisée **après** les mesures finales, et ne sert pas à modifier le système. Si une modification est faite ensuite, le nouveau résultat est étiqueté post hoc ; un nouveau holdout est créé si les données le permettent.
 5. Les seuils (abstention, classification, PAWS) sont fixés sur val ou dev.
 
@@ -99,6 +111,7 @@ Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même décou
 
 ## 9. Ce que ce protocole ne permet pas de conclure
 
-- Un gain sur B-SYN montre une meilleure discrimination des pièges **sur nos propres constructions** ; seul B-REAL renseigne sur la généralisation à de l'oral réel.
+- Un gain sur B-SYN montre une meilleure discrimination des pièges **sur nos propres constructions** : même générateur et mêmes types de pièges en train et en test, seuls les patrons, entités et dates changent. H1 ne démontre donc pas une généralisation au-delà du générateur ; seul B-REAL renseigne sur l'oral réel.
+- Les thèmes de scénario SUMM-RE sont partagés entre train et test : E3 est toujours rapporté à côté de E2.
 - Les annotations de B-REAL sont provisoires tant que l'étudiant ne les a pas relues ; les résultats B-REAL sont étiquetés selon la part relue.
 - La similarité ne prouve ni la validation ni la contradiction : ces relations sont évaluées par le module de relations, séparément.

@@ -38,6 +38,9 @@ def group_components(meetings: Iterable[Mapping[str, Any]]) -> list[set[str]]:
 
     by_speaker: dict[str, set[str]] = defaultdict(set)
     for m in meetings:
+        if not m["speakers"]:
+            # une réunion sans locuteur échapperait au contrôle des personnes partagées
+            raise ValueError(f"réunion sans locuteur : {m['meeting_id']}")
         parent.setdefault(m["group_id"], m["group_id"])
         for s in m["speakers"]:
             by_speaker[s].add(m["group_id"])

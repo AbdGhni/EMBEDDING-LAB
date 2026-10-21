@@ -8,7 +8,9 @@ from embedding_lab.eval.metrics import (
     mrr_at_k,
     ndcg_at_k,
     paired_cluster_bootstrap,
+    paired_cluster_permutation_test,
     pairwise_accuracy,
+    pairwise_win,
     recall_at_k,
 )
 from embedding_lab.eval.test_access import log_test_access
@@ -79,3 +81,31 @@ def test_test_access_requires_reason(tmp_path):
     entry = log_test_access("E1-x", "évaluation finale", "B-SYN", log)
     assert entry["time"].endswith("+02:00") or entry["time"].endswith("+01:00")
     assert log.read_text(encoding="utf-8").count("\n") == 1
+
+
+def test_duplicate_in_ranking_rejected():
+    with pytest.raises(ValueError, match="doublons"):
+        ndcg_at_k(["a", "a"], {"a": 2})
+
+
+def test_pairwise_win_per_triplet():
+    assert [pairwise_win(0.9, 0.1), pairwise_win(0.5, 0.5), pairwise_win(0.1, 0.9)] == [1, 0.5, 0]
+
+
+def test_permutation_exact_with_few_clusters():
+    # 7 grappes (cas réel de B-REAL test) : p minimal atteignable = 2/128
+    clusters = {f"q{i}": f"c{i}" for i in range(7)}
+    a = {q: 1.0 for q in clusters}
+    b = {q: 0.0 for q in clusters}
+    res = paired_cluster_permutation_test(a, b, clusters)
+    assert res["method"] == "exact"
+    assert res["p_value"] == pytest.approx(2 / 128)
+    assert res["min_attainable_p"] == pytest.approx(2 / 128)
+
+
+def test_permutation_no_effect_gives_large_p():
+    clusters = {f"q{i}": f"c{i // 2}" for i in range(40)}
+    a = {q: (0.6 if i % 4 < 2 else 0.4) for i, q in enumerate(clusters)}
+    b = {q: 0.5 for q in clusters}
+    res = paired_cluster_permutation_test(a, b, clusters, n_resamples=2000)
+    assert res["method"] == "monte_carlo" and res["p_value"] > 0.5

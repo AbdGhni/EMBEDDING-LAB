@@ -53,3 +53,9 @@ def test_ngram_overlap_detects_copied_text():
     ms = [m("001a_X", "001", ["a"], text=shared), m("002a_X", "002", ["b"], text=shared)]
     rep = leakage_report(ms, {"001a_X": "train", "002a_X": "test"})
     assert rep["8gram_overlap_with_train"]["max"] == 1.0
+
+
+def test_meeting_without_speaker_is_rejected():
+    import pytest
+    with pytest.raises(ValueError, match="sans locuteur"):
+        group_components([m("001a_X", "001", [])])
