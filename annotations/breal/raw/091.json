@@ -1,0 +1,1779 @@
+{
+  "group_id": "091",
+  "units": [
+    {
+      "key": "a-01",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0001",
+      "evidence": "nous nous retrouvons aujourd'hui pour euh parler euh des sujets des films",
+      "type": "fact",
+      "status": "active",
+      "statement": "La réunion sert à présenter les genres de films à utiliser pour l'exposé ou le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Idée prolongée au tour t0002 (« utiliser et présenter … dans notre festival »)."
+    },
+    {
+      "key": "a-02",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0009",
+      "evidence": "les deux genres de films que j' ai choisi de vous présenter sont le genre plutôt classique",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le locuteur 200 présente deux genres : le classique et la science-fiction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "La science-fiction est nommée au tour suivant t0010."
+    },
+    {
+      "key": "a-03",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0013",
+      "evidence": "il doit y avoir un film classique par genre qui en pose les bases",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pour 200, le classique est une sous-catégorie : chaque genre a ses films classiques qui en posent les bases.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-04",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0017",
+      "evidence": "on a vu un film de spielberg qui s' appelle ready player one et on a vu l' année précédente en première interstellar",
+      "type": "fact",
+      "status": "active",
+      "statement": "En cours de cinéma au lycée, 200 a vu Ready Player One (Spielberg) et Interstellar comme exemples de science-fiction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-05",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0035",
+      "evidence": "ready player one ça se passe aussi dans le futur c'est une dystopie",
+      "type": "fact",
+      "status": "active",
+      "statement": "Ready Player One est une dystopie futuriste centrée sur le jeu vidéo et le monde virtuel ; Interstellar est aussi décrit comme une dystopie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-06",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0037",
+      "evidence": "j' ai choisi les genres fantaisique et horror suspense",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le locuteur 199 présente les genres fantastique et horreur/suspense.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « fantaisique » corrigé en « fantastique » par le locuteur au tour t0038."
+    },
+    {
+      "key": "a-07",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0041",
+      "evidence": "le film que je pense directement en lisant fantastique c'est les animaux fantastiques",
+      "type": "fact",
+      "status": "active",
+      "statement": "Exemples de films fantastiques cités par 199 : Les Animaux fantastiques, Harry Potter, Charlie et la chocolaterie, Arthur et les Minimoys.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Liste répartie sur t0041-t0047."
+    },
+    {
+      "key": "a-08",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0055",
+      "evidence": "j' adore les films de stephen king d' horreur",
+      "type": "fact",
+      "status": "active",
+      "statement": "199 cite les adaptations de Stephen King (Dans les hautes herbes, Dolores Claiborne) comme exemples d'horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-09",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0061",
+      "evidence": "peux tu peux me donner un exemple genre de film à suspens",
+      "type": "question",
+      "status": "resolved",
+      "statement": "200 demande un exemple de film à suspense.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-10",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0069",
+      "evidence": "non moi je pensais plus à get out",
+      "type": "answer",
+      "status": "active",
+      "statement": "200 donne Get Out comme exemple de film à suspense (199 avait proposé Scary Movie, Scream, Shining).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-11",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0075",
+      "evidence": "pour moi un film à suspens c'est un film qui te tend en_fait",
+      "type": "fact",
+      "status": "active",
+      "statement": "Définition de 200 : un film à suspense est un film qui crée de la tension.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-12",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0094",
+      "evidence": "on est censé tenir vingt minutes",
+      "type": "fact",
+      "status": "active",
+      "statement": "La réunion est censée durer vingt minutes (on en est à dix).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-13",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0097",
+      "evidence": "le compte_rendu tu le fais à la fin",
+      "type": "action",
+      "status": "proposed",
+      "statement": "200 suggère que 199 rédige le compte rendu à la fin de la réunion.",
+      "owner": null,
+      "mentioned_people": [
+        "199"
+      ],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Pas d'acceptation explicite de 199 ; owner laissé vide."
+    },
+    {
+      "key": "a-14",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0099",
+      "evidence": "tu préfères quoi entre le fantastique l' horreur la science-fiction ou le classique",
+      "type": "question",
+      "status": "resolved",
+      "statement": "200 demande à 199 quel genre il préfère.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-15",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0101",
+      "evidence": "euh ben je dirais la fantastique",
+      "type": "answer",
+      "status": "active",
+      "statement": "199 préfère le fantastique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-16",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0109",
+      "evidence": "je n' ai jamais vu star wars je n' aime pas star wars",
+      "type": "fact",
+      "status": "active",
+      "statement": "199 dit ne pas aimer Star Wars sans l'avoir vu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-17",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0120",
+      "evidence": "j' hésite entre horreur et c'est une spence parce_que j' aime bien me faire peur ou euh science fiction",
+      "type": "answer",
+      "status": "active",
+      "statement": "200 hésite entre horreur/suspense et science-fiction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « c'est une spence » = suspense."
+    },
+    {
+      "key": "a-18",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0127",
+      "evidence": "le film que je veux qu' on voit le labyrinthe de pan c'est un mélange parfait entre fantastique et horreur",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose Le Labyrinthe de Pan, mélange de fantastique et d'horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-19",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0200",
+      "evidence": "mon film d' horreur préféré c'est je dirais que c'est hereditary de harry haster",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le film d'horreur préféré de 200 est Hereditary d'Ari Aster.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « harry haster » = Ari Aster."
+    },
+    {
+      "key": "a-20",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0221",
+      "evidence": "et du_coup toi ton film d' horreur préféré c'est ça",
+      "type": "question",
+      "status": "resolved",
+      "statement": "200 demande à 199 son film d'horreur préféré.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-21",
+      "meeting_id": "091a_EBRH",
+      "turn": "t0222",
+      "evidence": "je l' ai vu une fois quand j' étais petit c'est le labyrinthe de pan",
+      "type": "answer",
+      "status": "active",
+      "statement": "Le film d'horreur préféré de 199 est Le Labyrinthe de Pan.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-01",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0000",
+      "evidence": "organiser euh un * un * festival si on peut dire euh donc avec des conférences des projections",
+      "type": "decision",
+      "status": "active",
+      "statement": "L'équipe a décidé d'organiser un festival de cinéma avec conférences et projections.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Décision rapportée comme déjà prise (« on s'est dit que ça serait sympa »)."
+    },
+    {
+      "key": "b-02",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0000",
+      "evidence": "la question qu' on se pose actuellement c'est + de quel genre on va parler",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Question ouverte : quels genres de cinéma le festival traitera-t-il ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-03",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0000",
+      "evidence": "ça serait euh vachement mieux euh d' utiliser deux genres de cinéma",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "201 suggère de construire le festival autour de deux genres de cinéma, opposés ou qui se mélangent bien.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Alternative opposés/mélange détaillée au tour t0002."
+    },
+    {
+      "key": "b-04",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0003",
+      "evidence": "on pourrait prendre science fiction + et soit f- + enfin ben moi je me dis fantaisie c'est opposition + et horreur",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose la science-fiction associée soit à la fantaisie (opposition), soit à l'horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-05",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0044",
+      "evidence": "prendre des exemples qui sont à la frontière des deux comme par_exemple alien",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "201 propose, si l'on retient science-fiction et horreur, de montrer aussi des films à la frontière des deux, comme Alien.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-06",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0061",
+      "evidence": "on peut penser à star trek sachant que c'est vachement connu",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "201 propose Star Trek comme œuvre purement science-fiction, en diffusant les premiers épisodes (t0064).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-07",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0071",
+      "evidence": "une soirée euh à des films star wars ou euh à star trek ou voilà et euh une une autre soirée à des films de science-fiction autre que star wars",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 propose des soirées thématiques : une consacrée à Star Wars ou Star Trek, une autre à d'autres films de SF (Interstellar, Ready Player One).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-08",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0100",
+      "evidence": "on avait pensé au labyrinthe + non mais non le labyrinthe de pan c'est plus fantastique euh horreur",
+      "type": "idea",
+      "status": "rejected",
+      "statement": "199 écarte lui-même Le Labyrinthe de Pan, jugé plus fantastique-horreur que science-fiction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-09",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0116",
+      "evidence": "le lieu donc on a le choix entre euh alors euh un un drive-in",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Question du lieu : drive-in, cinéma art déco ou cinéma classique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-10",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0119",
+      "evidence": "en discuter présenter c'est vraiment pas pratique",
+      "type": "risk",
+      "status": "active",
+      "statement": "Le drive-in convient à la diffusion mais rend difficile le contact et la discussion avec le public.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Argument commencé au tour t0116."
+    },
+    {
+      "key": "b-11",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0120",
+      "evidence": "en vrai ce serait mieux un un cinéma artistique théâtral",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 préfère un cinéma artistique/théâtral (art déco) pour faire une présentation en introduction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-12",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0124",
+      "evidence": "si y' a que soixante_dix personnes c'est plus pratique niveau contact",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le cinéma art déco n'accueille que 70 personnes, ce qui facilite le contact.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-13",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0131",
+      "evidence": "je me dis cent_cinquante en_général y' a pas tout_le monde qui parle mais tu peux quand même essayer d' avoir une interaction",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pour 201, une salle classique d'environ 150 personnes permet encore l'interaction ; il préfère le cinéma classique (t0134-t0136).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-14",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0145",
+      "evidence": "j' ai peur que vu que c'est dans un endroit qui est entre guillemets classique",
+      "type": "risk",
+      "status": "active",
+      "statement": "200 craint qu'un lieu classique rende le festival banal (« un énième festival ») ; un lieu original attirerait la curiosité.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-15",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0149",
+      "evidence": "je pense que le truc des voitures c'est bien",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 reste favorable au drive-in, malgré la communication difficile et la dépendance à la météo.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-16",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0150",
+      "evidence": "c'est vraiment un truc que tu peux pas prévoir à part dans les deux semaines qui suivent",
+      "type": "risk",
+      "status": "active",
+      "statement": "La météo n'est prévisible que deux semaines avant, or on ne peut pas préparer un festival en deux semaines (t0152).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-17",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0158",
+      "evidence": "si il se met à pleuvoir des cordes tout tombe à l' eau",
+      "type": "risk",
+      "status": "active",
+      "statement": "En cas de forte pluie, le drive-in en plein air tombe à l'eau.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-18",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0182",
+      "evidence": "le drap avec la pluie il va s' endommager et puis il faut qu' on pense aussi au son",
+      "type": "risk",
+      "status": "active",
+      "statement": "La pluie abîmerait l'écran-drap et les enceintes du drive-in.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-19",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0188",
+      "evidence": "donc euh le drive-in c'est non",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le drive-in est écarté.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-20",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0200",
+      "evidence": "en vrai le lieu importe peu c'est surtout le en_général les gens viennent voir + tel film telle personne",
+      "type": "fact",
+      "status": "active",
+      "statement": "Argument de 201 : le lieu importe peu, le public vient pour un film ou un artiste.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-21",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0202",
+      "evidence": "bon cinéma normal du_coup",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le festival se tiendra dans un cinéma classique (normal) ; 201 confirme (t0203).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-22",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0207",
+      "evidence": "du_coup science fiction et horreur suspense",
+      "type": "decision",
+      "status": "active",
+      "statement": "Les genres retenus sont la science-fiction et l'horreur/suspense.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Récapitulatif accepté implicitement ; la discussion porte ensuite sur la sélection."
+    },
+    {
+      "key": "b-23",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0208",
+      "evidence": "est-ce qu' on reste sur l' idée de genre dédié une mi science-fiction une mi horreur",
+      "type": "question",
+      "status": "resolved",
+      "statement": "200 demande si l'on garde la répartition science-fiction / horreur / mélange.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-24",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0212",
+      "evidence": "dix films et ou épisodes de séries ce qui fait qu' en vrai on pourrait faire euh trois science fiction quatre euh mix + et trois horreur",
+      "type": "decision",
+      "status": "active",
+      "statement": "Programme de dix films ou épisodes : trois science-fiction, quatre mélange, trois horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Formulé au conditionnel ; acceptation implicite (mh), 200 enchaîne sur les quatre « mix ». Le nombre de dix vient de 199 (t0211, « je crois »)."
+    },
+    {
+      "key": "b-25",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0215",
+      "evidence": "pour quatre mix je propose le premier épisode de stranger things",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 propose le premier épisode de Stranger Things et Alien pour la catégorie mélange.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-26",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0219",
+      "evidence": "je vais dire interstellar c'est du suspense",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose Interstellar comme film mélange, au titre du suspense.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-27",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0221",
+      "evidence": "y' a beaucoup moins ce coté horreur dans interstellar",
+      "type": "fact",
+      "status": "active",
+      "statement": "201 objecte qu'Interstellar n'a guère de dimension horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-28",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0225",
+      "evidence": "j' ai pensé à love death and robot où il_y a des épisodes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose des épisodes de Love, Death & Robots qui se passent dans l'espace.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-29",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0232",
+      "evidence": "est-ce_qu' on partirait sur science-fiction classique et science-fiction un peu plus méconnue",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 propose de mêler science-fiction classique et science-fiction moins connue ; 201 approuve l'idée de faire découvrir (t0233).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-30",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0278",
+      "evidence": "sortir des films de la trilogie originale ça attirera plus de monde",
+      "type": "fact",
+      "status": "active",
+      "statement": "Selon 200, la trilogie originale de Star Wars attirera plus de monde que la prélogie ou la trilogie récente.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-31",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0287",
+      "evidence": "star wars épisode quatre un nouvel espoir c'est le premier qui est sorti",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 propose Star Wars épisode IV, Un nouvel espoir, premier film sorti.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-32",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0292",
+      "evidence": "donc j' ai mis star wars un nouvel espoir",
+      "type": "decision",
+      "status": "active",
+      "statement": "Star Wars : Un nouvel espoir est inscrit dans la sélection science-fiction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-33",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0295",
+      "evidence": "le premier épisode de la série star trek",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le premier épisode de Star Trek est ajouté à la sélection science-fiction ; 200 approuve (« oui pourquoi pas »).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "201 tient la liste (« je vais mettre », t0286) ; inscription déduite."
+    },
+    {
+      "key": "b-35",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0304",
+      "evidence": "on a rien qui ne soit que horreur",
+      "type": "fact",
+      "status": "active",
+      "statement": "201 remarque qu'aucun film purement horreur n'est encore sélectionné.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-36",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0312",
+      "evidence": "shining + qui est la base le classique du_coup des films d' horreur",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose Shining comme classique de l'horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-37",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0314",
+      "evidence": "je pensais à mettre un film de ari aster genre genre soit midsommar soit hérédité",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 propose un film d'Ari Aster plus récent : Midsommar ou Hérédité.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-38",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0319",
+      "evidence": "on a pas parlé de dessins animés",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 remarque qu'on n'a pas envisagé de films d'animation d'horreur ou de science-fiction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-39",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0336",
+      "evidence": "on peut mettre des films de tim burton en dessin_animé d' horreur",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "200 propose des films d'animation de Tim Burton, par exemple Les Noces funèbres.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-40",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0347",
+      "evidence": "je suis d'accord pour les noces",
+      "type": "decision",
+      "status": "active",
+      "statement": "201 accepte Les Noces funèbres (plutôt que Frankenweenie).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-41",
+      "meeting_id": "091b_EBDH",
+      "turn": "t0373",
+      "evidence": "on en a deux de chaque catégorie",
+      "type": "fact",
+      "status": "active",
+      "statement": "En fin de réunion, la sélection compte deux titres par catégorie, jugée suffisante pour commencer (t0374).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-01",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0004",
+      "evidence": "propose fin juin",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "201 propose fin juin (ou début juillet) pour la date du festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-02",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0009",
+      "evidence": "oui c'est fin juin deux_mille_vingt_trois",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le festival aura lieu fin juin 2023.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-03",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0011",
+      "evidence": "on a dit qu' on allait dans un cinéma classique",
+      "type": "fact",
+      "status": "active",
+      "statement": "Rappel : il a été convenu que le festival se tiendrait dans un cinéma classique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-04",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0012",
+      "evidence": "quel cinéma classique",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Dans quelle ville / quel cinéma classique ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-05",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0013",
+      "evidence": "surex à marseille",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 évoque Marseille (puis Paris).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « surex » non identifiable."
+    },
+    {
+      "key": "c-06",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0015",
+      "evidence": "je propose lyon",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "201 propose Lyon, grande ville « mais pas trop », d'une autre atmosphère que Marseille.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-07",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0021",
+      "evidence": "j' aurais bien dit cannes mais il_y a déjà donc non",
+      "type": "idea",
+      "status": "rejected",
+      "statement": "Cannes est écartée car il y a déjà un festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-08",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0024",
+      "evidence": "je marque cinéma classique à lyon",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le lieu retenu est un cinéma classique à Lyon.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-09",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0030",
+      "evidence": "mieux serait de trouver un cinéma entre guillemets public à la mairie",
+      "type": "idea",
+      "status": "active",
+      "statement": "Mieux vaut un cinéma public dépendant de la mairie, qui aide souvent ce genre d'événement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Idée retenue : la tâche « contacter la mairie » en découle."
+    },
+    {
+      "key": "c-10",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0032",
+      "evidence": "il faudrait contacter la mairie ensuite",
+      "type": "action",
+      "status": "open",
+      "statement": "Contacter la mairie pour louer le cinéma.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-11",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0035",
+      "evidence": "pour cette tâche euh ben je veux bien la faire",
+      "type": "commitment",
+      "status": "active",
+      "statement": "199 se charge de contacter la mairie / le cinéma pour la location.",
+      "owner": "199",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-12",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0037",
+      "evidence": "il faut payer les droits pour la diffusion de films non",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Faut-il payer des droits pour diffuser les films ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-13",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0039",
+      "evidence": "tu dois contacter une institution particulière qui gère ça en france",
+      "type": "answer",
+      "status": "active",
+      "statement": "Oui : il faut contacter et payer l'organisme qui gère les droits d'auteur en France.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-14",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0045",
+      "evidence": "du_coup tu le fais",
+      "type": "action",
+      "status": "active",
+      "statement": "201 s'occupe de contacter l'organisme des droits d'auteur.",
+      "owner": "201",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Attribution par 199, acceptée par 201 (« ok », t0046)."
+    },
+    {
+      "key": "c-15",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0051",
+      "evidence": "est-ce qu' on diffuse nous-mêmes enfin on gère la projection ou est-ce_qu' on paie quelqu'un pour le faire",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Gère-t-on la projection nous-mêmes ou paie-t-on quelqu'un ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-16",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0052",
+      "evidence": "je préfère payer un professionnel pour le faire",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "201 préfère payer un projectionniste professionnel ; il faudra voir avec le cinéma s'il fournit le matériel.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-17",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0070",
+      "evidence": "je vais gérer en même temps que quand j' appelle le cinéma pour le louer",
+      "type": "commitment",
+      "status": "active",
+      "statement": "199 gère la location du matériel en même temps que l'appel au cinéma.",
+      "owner": "199",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-18",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0079",
+      "evidence": "il faut louer les films parce que tu payes les droits d' auteur mais après il faut quand même louer les films à coté",
+      "type": "fact",
+      "status": "active",
+      "statement": "En plus des droits d'auteur, il faut louer les films (et épisodes) séparément.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-19",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0094",
+      "evidence": "est la personne qui parle pour présenter euh le festival le présentateur",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Qui présentera le festival ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-20",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0095",
+      "evidence": "ah je m' en charge",
+      "type": "commitment",
+      "status": "active",
+      "statement": "201 se charge de présenter le festival.",
+      "owner": "201",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-21",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0104",
+      "evidence": "je peux gérer l' accueil des",
+      "type": "commitment",
+      "status": "active",
+      "statement": "199 gère l'accueil des spectateurs.",
+      "owner": "199",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-22",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0110",
+      "evidence": "je pense que c'est bien le cinéma de base",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 pense que la sécurité peut être celle du cinéma loué (option clé en main évoquée par 201 en t0109).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-23",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0115",
+      "evidence": "dernière tâche qu' on va remettre à luc hein",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose de confier la dernière tâche à Lucas, absent.",
+      "owner": null,
+      "mentioned_people": [
+        "lucas"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-24",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0125",
+      "evidence": "la dernière tâche c'est genre juste entre guillemets de tout ranger",
+      "type": "action",
+      "status": "open",
+      "statement": "Dernière tâche envisagée : tout ranger après l'événement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "199 juge ensuite (t0140) que le cinéma peut s'en charger ; la dixième tâche devient « interagir avec les participants »."
+    },
+    {
+      "key": "c-25",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0166",
+      "evidence": "on va louer un cinéma euh classique à lyon euh vers fin juin en deux_mille_vingt_trois",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : cinéma classique à Lyon, fin juin 2023.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-26",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0166",
+      "evidence": "je gère de contacter l' amérique pour louer euh le cinéma et les services euh compris",
+      "type": "commitment",
+      "status": "active",
+      "statement": "199 contacte la mairie pour louer le cinéma, services compris.",
+      "owner": "199",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « l' amérique » = la mairie."
+    },
+    {
+      "key": "c-27",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0167",
+      "evidence": "toi tu gères l' appel de l' institution de droit d' auteur",
+      "type": "action",
+      "status": "active",
+      "statement": "201 appelle l'organisme des droits d'auteur.",
+      "owner": "201",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Récapitulatif validé par 201 (« c'est bon », t0173)."
+    },
+    {
+      "key": "c-28",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0169",
+      "evidence": "lucas en profite pour louer des films suite_à tes appels",
+      "type": "action",
+      "status": "proposed",
+      "statement": "Lucas, absent, louerait les films après les appels sur les droits.",
+      "owner": null,
+      "mentioned_people": [
+        "lucas"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Lucas n'est pas présent pour accepter : owner vide."
+    },
+    {
+      "key": "c-29",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0169",
+      "evidence": "je contacte le cinéma pour savoir s' ils fournissent le matériel",
+      "type": "commitment",
+      "status": "active",
+      "statement": "199 demande au cinéma s'il fournit le matériel de projection.",
+      "owner": "199",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-30",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0171",
+      "evidence": "toi tu gères la communication de l' événement",
+      "type": "action",
+      "status": "active",
+      "statement": "201 gère la communication de l'événement.",
+      "owner": "201",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Validé par 201 (« c'est bon », t0173)."
+    },
+    {
+      "key": "c-31",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0172",
+      "evidence": "enfin ouais et la présentation et la conclusion",
+      "type": "action",
+      "status": "active",
+      "statement": "201 assure aussi la présentation et la clôture du festival.",
+      "owner": "201",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-32",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0172",
+      "evidence": "moi je gère l' accueil et la sortie des spectateurs",
+      "type": "commitment",
+      "status": "active",
+      "statement": "199 gère l'accueil et la sortie des spectateurs.",
+      "owner": "199",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-33",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0172",
+      "evidence": "lucas gère la prise de parole et l' interaction des participants à la fin des diffusions",
+      "type": "action",
+      "status": "proposed",
+      "statement": "Lucas gérerait la prise de parole et l'interaction avec les participants après les diffusions.",
+      "owner": null,
+      "mentioned_people": [
+        "lucas"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Attribué en son absence."
+    },
+    {
+      "key": "c-34",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0176",
+      "evidence": "je pense qu' on va directement diffuser les films et épisodes à la suite sans montage",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "199 propose de diffuser films et épisodes à la suite, sans montage.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-35",
+      "meeting_id": "091c_EBPH",
+      "turn": "t0182",
+      "evidence": "tu diffuses un film tu débriefes avec les gens t' en discutes et ensuite tu annonces le prochain film",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "201 décrit le déroulé : diffusion, débrief avec le public, puis annonce du film suivant ; pas de musique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    }
+  ],
+  "relations": [
+    {
+      "from": "a-10",
+      "to": "a-09",
+      "relation": "answers",
+      "justification": "Get Out est donné en réponse à la demande d'exemple de film à suspense."
+    },
+    {
+      "from": "a-15",
+      "to": "a-14",
+      "relation": "answers",
+      "justification": "199 répond « la fantastique » à la question sur son genre préféré."
+    },
+    {
+      "from": "a-17",
+      "to": "a-14",
+      "relation": "answers",
+      "justification": "200 répond à sa propre question sur le genre préféré (horreur ou SF)."
+    },
+    {
+      "from": "a-21",
+      "to": "a-20",
+      "relation": "answers",
+      "justification": "Réponse directe : Le Labyrinthe de Pan."
+    },
+    {
+      "from": "b-08",
+      "to": "a-18",
+      "relation": "supersedes",
+      "justification": "199 écarte explicitement (« non mais non ») Le Labyrinthe de Pan qu'il avait proposé à la réunion a."
+    },
+    {
+      "from": "b-19",
+      "to": "b-15",
+      "relation": "supersedes",
+      "justification": "« le drive-in c'est non » tranche contre la proposition de garder le drive-in."
+    },
+    {
+      "from": "b-17",
+      "to": "b-19",
+      "relation": "supports",
+      "justification": "Le risque de pluie motive le rejet du drive-in."
+    },
+    {
+      "from": "b-16",
+      "to": "b-19",
+      "relation": "supports",
+      "justification": "L'imprévisibilité de la météo motive le rejet du drive-in."
+    },
+    {
+      "from": "b-18",
+      "to": "b-19",
+      "relation": "supports",
+      "justification": "Les dégâts de la pluie sur l'écran et le son motivent le rejet."
+    },
+    {
+      "from": "b-10",
+      "to": "b-19",
+      "relation": "supports",
+      "justification": "Le manque de contact avec le public est un argument contre le drive-in."
+    },
+    {
+      "from": "b-21",
+      "to": "b-09",
+      "relation": "answers",
+      "justification": "Le cinéma normal est la réponse à la question du lieu."
+    },
+    {
+      "from": "b-21",
+      "to": "b-11",
+      "relation": "supersedes",
+      "justification": "La décision « cinéma normal » tranche contre la proposition de cinéma artistique / art déco."
+    },
+    {
+      "from": "b-20",
+      "to": "b-21",
+      "relation": "supports",
+      "justification": "L'argument « le lieu importe peu » soutient le choix du cinéma normal."
+    },
+    {
+      "from": "b-14",
+      "to": "b-21",
+      "relation": "contradicts",
+      "justification": "Le risque de banalité d'un lieu classique s'oppose au choix du cinéma normal ; il n'est pas réfuté."
+    },
+    {
+      "from": "b-22",
+      "to": "b-02",
+      "relation": "answers",
+      "justification": "Science-fiction et horreur/suspense répondent à la question des genres."
+    },
+    {
+      "from": "b-22",
+      "to": "b-04",
+      "relation": "supersedes",
+      "justification": "La décision tranche entre SF+fantaisie et SF+horreur proposées par 199."
+    },
+    {
+      "from": "b-24",
+      "to": "b-23",
+      "relation": "answers",
+      "justification": "La répartition 3/4/3 répond à la question de la répartition par genre."
+    },
+    {
+      "from": "b-27",
+      "to": "b-26",
+      "relation": "contradicts",
+      "justification": "201 conteste la dimension horreur d'Interstellar proposé pour le mélange."
+    },
+    {
+      "from": "b-32",
+      "to": "b-31",
+      "relation": "supports",
+      "justification": "201 inscrit Un nouvel espoir proposé par 200."
+    },
+    {
+      "from": "b-30",
+      "to": "b-31",
+      "relation": "supports",
+      "justification": "L'attrait de la trilogie originale justifie le choix de l'épisode IV."
+    },
+    {
+      "from": "b-33",
+      "to": "b-06",
+      "relation": "supports",
+      "justification": "L'inscription du premier épisode de Star Trek concrétise l'idée de 201."
+    },
+    {
+      "from": "b-40",
+      "to": "b-39",
+      "relation": "supports",
+      "justification": "201 accepte Les Noces funèbres proposées dans les films de Tim Burton."
+    },
+    {
+      "from": "c-02",
+      "to": "c-01",
+      "relation": "supports",
+      "justification": "La date fin juin 2023 confirme la proposition de fin juin."
+    },
+    {
+      "from": "c-03",
+      "to": "b-21",
+      "relation": "supports",
+      "justification": "Rappel en réunion c du choix du cinéma classique fait en réunion b."
+    },
+    {
+      "from": "c-08",
+      "to": "c-04",
+      "relation": "answers",
+      "justification": "Lyon répond à la question du cinéma classique à choisir."
+    },
+    {
+      "from": "c-08",
+      "to": "c-05",
+      "relation": "supersedes",
+      "justification": "Le choix de Lyon tranche contre Marseille évoquée par 199."
+    },
+    {
+      "from": "c-08",
+      "to": "c-06",
+      "relation": "supports",
+      "justification": "La décision reprend la proposition Lyon de 201."
+    },
+    {
+      "from": "c-08",
+      "to": "b-21",
+      "relation": "supports",
+      "justification": "Précise le lieu décidé en réunion b (cinéma classique) en ajoutant la ville."
+    },
+    {
+      "from": "c-25",
+      "to": "c-08",
+      "relation": "supports",
+      "justification": "Récapitulatif du lieu."
+    },
+    {
+      "from": "c-25",
+      "to": "c-02",
+      "relation": "supports",
+      "justification": "Récapitulatif de la date."
+    },
+    {
+      "from": "c-09",
+      "to": "c-10",
+      "relation": "creates_action",
+      "justification": "« du coup il faudrait contacter la mairie » découle de l'idée d'un cinéma municipal."
+    },
+    {
+      "from": "c-13",
+      "to": "c-12",
+      "relation": "answers",
+      "justification": "Il faut contacter l'organisme des droits d'auteur : réponse à la question sur les droits."
+    },
+    {
+      "from": "c-16",
+      "to": "c-15",
+      "relation": "answers",
+      "justification": "201 répond préférer payer un professionnel."
+    },
+    {
+      "from": "c-20",
+      "to": "c-19",
+      "relation": "answers",
+      "justification": "201 se propose comme présentateur."
+    },
+    {
+      "from": "c-26",
+      "to": "c-11",
+      "relation": "supports",
+      "justification": "Le récapitulatif confirme l'engagement de 199 sur la location."
+    },
+    {
+      "from": "c-27",
+      "to": "c-14",
+      "relation": "supports",
+      "justification": "Le récapitulatif confirme que 201 appelle l'organisme des droits."
+    },
+    {
+      "from": "c-31",
+      "to": "c-20",
+      "relation": "supports",
+      "justification": "Le récapitulatif confirme que 201 présente le festival."
+    },
+    {
+      "from": "c-32",
+      "to": "c-21",
+      "relation": "supports",
+      "justification": "Le récapitulatif confirme l'accueil par 199."
+    }
+  ],
+  "queries": [
+    {
+      "key": "q01",
+      "about_meeting": "091b_EBDH",
+      "text": "Quels genres l'équipe a-t-elle finalement retenus pour la programmation du festival ?",
+      "answerable": true,
+      "qrels": {
+        "b-22": 2,
+        "b-03": 1,
+        "b-02": 1,
+        "b-05": 1,
+        "b-04": 0,
+        "a-02": 0,
+        "a-06": 0
+      },
+      "traps": [
+        {
+          "unit": "b-04",
+          "trap": "superseded"
+        },
+        {
+          "unit": "a-02",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "a-06",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q02",
+      "about_meeting": "091b_EBDH",
+      "text": "Le festival se fera-t-il dans un drive-in, une salle art déco ou une salle de cinéma ordinaire ?",
+      "answerable": true,
+      "qrels": {
+        "b-21": 2,
+        "c-08": 2,
+        "c-25": 1,
+        "c-03": 1,
+        "b-19": 1,
+        "b-13": 1,
+        "b-15": 0,
+        "b-11": 0,
+        "b-09": 0
+      },
+      "traps": [
+        {
+          "unit": "b-15",
+          "trap": "superseded"
+        },
+        {
+          "unit": "b-11",
+          "trap": "superseded"
+        },
+        {
+          "unit": "b-09",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q03",
+      "about_meeting": "091b_EBDH",
+      "text": "Quelles raisons ont conduit à abandonner l'option des voitures en plein air ?",
+      "answerable": true,
+      "qrels": {
+        "b-17": 2,
+        "b-16": 2,
+        "b-18": 2,
+        "b-10": 2,
+        "b-19": 1,
+        "b-15": 0
+      },
+      "traps": [
+        {
+          "unit": "b-15",
+          "trap": "status"
+        }
+      ]
+    },
+    {
+      "key": "q04",
+      "about_meeting": "091b_EBDH",
+      "text": "Combien de titres faut-il sélectionner au total, et combien pour chaque catégorie ?",
+      "answerable": true,
+      "qrels": {
+        "b-24": 2,
+        "b-23": 1,
+        "b-41": 0,
+        "b-35": 0
+      },
+      "traps": [
+        {
+          "unit": "b-41",
+          "trap": "amount"
+        },
+        {
+          "unit": "b-35",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q05",
+      "about_meeting": "091b_EBDH",
+      "text": "Quel épisode de la saga Star Wars a été mis dans la sélection, et pour quelle raison ?",
+      "answerable": true,
+      "qrels": {
+        "b-32": 2,
+        "b-31": 2,
+        "b-30": 2,
+        "b-07": 0,
+        "a-16": 0,
+        "b-33": 0
+      },
+      "traps": [
+        {
+          "unit": "b-07",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "a-16",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-33",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q06",
+      "about_meeting": "091b_EBDH",
+      "text": "Après le choix d'une salle classique, dans quelle ville le festival a-t-il été fixé ensuite ?",
+      "answerable": true,
+      "qrels": {
+        "c-08": 2,
+        "c-25": 2,
+        "c-06": 1,
+        "c-03": 1,
+        "b-21": 1,
+        "c-05": 0,
+        "c-07": 0
+      },
+      "traps": [
+        {
+          "unit": "c-05",
+          "trap": "superseded"
+        },
+        {
+          "unit": "c-07",
+          "trap": "negation"
+        }
+      ]
+    },
+    {
+      "key": "q07",
+      "about_meeting": "091b_EBDH",
+      "text": "Quel film d'animation de Tim Burton a été accepté pour la partie horreur ?",
+      "answerable": true,
+      "qrels": {
+        "b-40": 2,
+        "b-39": 1,
+        "b-38": 1,
+        "b-36": 0,
+        "b-37": 0
+      },
+      "traps": [
+        {
+          "unit": "b-36",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-37",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q08",
+      "about_meeting": "091b_EBDH",
+      "text": "Quel budget a été prévu pour louer la salle et payer les droits de diffusion ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    }
+  ],
+  "speaker_names": {
+    "200": "lucas (incertain)"
+  },
+  "notes": "Réunions a et c en ASR (bruit : « fantaisique », « l' amérique » = la mairie, « harry haster » = Ari Aster). 200 rapproché de Lucas : en a, 199 dit « lucas a parlé » après la présentation de 200 ; en c, seuls 199 et 201 parlent et Lucas, absent, reçoit des tâches (location des films, interaction) sans les accepter, d'où owner vide et mentioned_people. Le genre grammatical de 200 varie dans l'ASR, d'où « incertain ». b-24 (répartition 3/4/3) est au conditionnel mais suivie sans objection : décision inférée. b-14 (risque de banalité du lieu classique) reste non résolu, annoté contradicts. Échanges personnels de la réunion a (séries, Hannibal, taquineries) laissés de côté. q08 sans réponse : aucun montant n'est jamais cité dans le groupe."
+}
