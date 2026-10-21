@@ -90,7 +90,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | C-05 | S | Le LLM éventuel ne masque pas les erreurs du moteur : évaluation séparée des composants | protocole | prévu |
 | C-06 | S | Une relation temporelle n'est pas déduite de la seule similarité | tests relations (dates, projet, preuve) | prévu |
 | C-07 | O | Contenu ingéré = donnée non fiable (injection dans une transcription) | test dédié | prévu |
-| C-08 | O | Test gelé après validation du protocole | empreinte du test enregistrée dans JOURNAL | prévu |
+| C-08 | O | Test gelé après validation du protocole | empreinte du test enregistrée dans JOURNAL | en cours (protocole et périmètre figés ; `runs/TEST_ACCESS.log` obligatoire ; qrels à figer) |
 | C-09 | O | Annotations LLM = provisoires ; échantillon de contrôle relu par l'étudiant | fichier d'échantillon + statut de relecture | prévu |
 
 ## 7. Extensions facultatives (hors socle)

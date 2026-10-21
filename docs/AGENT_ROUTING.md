@@ -13,6 +13,8 @@ Dernière vérification : 2026-10-20T21:45+02:00 (Europe/Paris).
 | ECC sur le PC Windows | **non vérifié** : PC relié mais aucun dossier partagé, pas de shell distant | `get_device_info` |
 | Accès GitHub | push sur `AbdGhni/embedding-lab` fonctionnel ; `gh` CLI non authentifié (pas d'ouverture de PR en ligne de commande) | push réussi de `main` ; `gh auth status` |
 
+Mise à jour 2026-10-21T15:07+02:00 : session ouverte depuis le PC. Le PC est joignable, mais aucun dossier n'est partagé et le dossier `~/.claude` (où vivent les plugins) est un dossier Claude protégé, invisible depuis cette session cloud. ECC reste **non vérifié**.
+
 Conséquence : tant qu'ECC n'est pas visible, aucune délégation n'est attribuée à un agent ECC. Si tu travailles depuis Claude Code sous Windows avec ECC, ce document devra être complété là-bas avec les noms exacts listés par l'installation.
 
 ## Capacités réellement disponibles dans cette session
