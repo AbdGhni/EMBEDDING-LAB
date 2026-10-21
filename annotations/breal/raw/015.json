@@ -1,0 +1,1843 @@
+{
+ "group_id": "015",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0010",
+   "evidence": "le pont de la rivière kwaï",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "050 propose le film Le Pont de la rivière Kwaï.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0012",
+   "evidence": "et toi moi camping paradis",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "051 propose Camping Paradis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0013",
+   "evidence": "écoute moi je proposais oscar",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "047 propose le film Oscar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0087",
+   "evidence": "c'était la marche de l' empereur c'était au cinéma",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "049 propose La Marche de l'empereur, vu au cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition du locuteur 049 (prénommé daniel/danielle par les autres)."
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0151",
+   "evidence": "nous faisons la réunion que pour ça pour savoir quel film euh on va choisir",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion sert à choisir le film de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0146",
+   "evidence": "un des films un des quatre films",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut choisir un des quatre films proposés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse de 047 à « il faut choisir quoi » (t0143)."
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0159",
+   "evidence": "les vingt minutes c'est sur tout ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les vingt minutes de réunion portent sur ce choix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ASR : formulation fragmentaire."
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0165",
+   "evidence": "le choix définitif du thème",
+   "type": "action",
+   "status": "open",
+   "statement": "La réunion doit aboutir au choix définitif du thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "049 relit la consigne."
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0025",
+   "evidence": "il m' a pas déçu je veux dire pour moi il avait pas vieilli",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour 050, Le Pont de la rivière Kwaï n'a pas vieilli.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0039",
+   "evidence": "pendant on a été confiné il me semble qu' il était passé une fois",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "047 croit que le film est passé à la télé pendant le confinement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "047 ajoute « je l'affirmerai pas » (t0043) : incertain."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0047",
+   "evidence": "c'est pas prise de tête c'est rigolo j' aime bien les acteurs ils sont sympas",
+   "type": "fact",
+   "status": "active",
+   "statement": "051 aime Camping Paradis : pas prise de tête, acteurs sympathiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0073",
+   "evidence": "parce que la couronne dépend de martigues et j' étais en camping",
+   "type": "fact",
+   "status": "active",
+   "statement": "049 a vu un site de tournage de Camping Paradis à La Couronne (Martigues).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0099",
+   "evidence": "c'était presque plus documentaire que mais c'était voilà mais c'était film",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour 051, La Marche de l'empereur est presque un documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0130",
+   "evidence": "qui protégeaient les oeufs tous ensemble c'est ça ce qui me plaisait",
+   "type": "fact",
+   "status": "active",
+   "statement": "049 a aimé voir les manchots protéger les oeufs ensemble.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0169",
+   "evidence": "j' ai dû le voir trois ou quatre fois quatre fois",
+   "type": "fact",
+   "status": "active",
+   "statement": "050 a vu Le Pont de la rivière Kwaï trois ou quatre fois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0199",
+   "evidence": "ouais donc il existe plus il a été démonté",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le pont réel n'existe plus, il a été démonté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0213",
+   "evidence": "c'était c'était les américains et",
+   "type": "fact",
+   "status": "active",
+   "statement": "050 dit que le film oppose les Américains aux Japonais.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0290",
+   "evidence": "des anglais qui sont emprisonnés dans un camp japonais",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le film parle d'Anglais emprisonnés dans un camp japonais.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "050 dit aussi « c'est des anglais » (t0289)."
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0222",
+   "evidence": "parce que nous c'était en thaïlande et ça s' appelle la rivière kwe",
+   "type": "fact",
+   "status": "active",
+   "statement": "047 a visité la rivière Kwaï en Thaïlande.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0244",
+   "evidence": "nous l' avons remonté croyez -moi pour le remonter mais avec des pirogues",
+   "type": "fact",
+   "status": "active",
+   "statement": "047 a remonté la rivière en pirogue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0251",
+   "evidence": "c'est un film qui doit avoir au_moins soixante ans",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le Pont de la rivière Kwaï a au moins soixante ans selon 050.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "051 donne ensuite « cinquante_sept » (t0268/t0270)."
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0364",
+   "evidence": "c'est avec de funès ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Oscar est un film avec de Funès.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0371",
+   "evidence": "ah non non tous les gros comiques tu vois",
+   "type": "fact",
+   "status": "active",
+   "statement": "049 n'aime pas les gros comiques comme de Funès.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0392",
+   "evidence": "oui mais c'est une pièce à la base",
+   "type": "fact",
+   "status": "active",
+   "statement": "Oscar est à l'origine une pièce de théâtre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "015a_EBRD",
+   "turn": "t0423",
+   "evidence": "c'est un comique justement d' une certaine finesse",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour 047, Oscar est un comique de situation fin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0003",
+   "evidence": "il faut que il faut quelque_chose que tout_le monde ait vu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut choisir un film que tout le monde a vu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Critère repris ensuite dans la justification du choix (t0354)."
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0013",
+   "evidence": "et puis vous appréciez pas toutes donc bon on va éliminer mon oscar",
+   "type": "decision",
+   "status": "active",
+   "statement": "Oscar est éliminé car tout le monde ne l'apprécie pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "047 retire sa propre proposition."
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0019",
+   "evidence": "y' a qu' à prendre le la marche l' empereur hein je crois que c'est le seul qu' on ait vu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "050 suggère La Marche de l'empereur, seul film vu par toutes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0021",
+   "evidence": "ou le ou la rivière kwaï",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "049 évoque aussi Le Pont de la rivière Kwaï.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0022",
+   "evidence": "non mais il_y en qui l' ont pas vu la rivière kwaï",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 050, certaines n'ont pas vu La Rivière Kwaï.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0024",
+   "evidence": "si mais c'est vieux mais si j' ai vu mais c'est vieux",
+   "type": "fact",
+   "status": "active",
+   "statement": "051 a vu La Rivière Kwaï, mais il y a longtemps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0032",
+   "evidence": "est-ce_qu' on ferait la projection du du film ou uniquement des commentaires ou + que des images avec commentaires",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il projeter le film entier ou seulement des images commentées ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0039",
+   "evidence": "je dirige rien du tout j' écris moi",
+   "type": "fact",
+   "status": "active",
+   "statement": "049 ne dirige pas la réunion mais rédige les notes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0069",
+   "evidence": "je crois que c'est deux très longs films",
+   "type": "fact",
+   "status": "active",
+   "statement": "050 croit que La Marche de l'empereur et La Rivière Kwaï sont très longs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Corrigé ensuite par la durée trouvée (t0095), voir relation supersedes."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0073",
+   "evidence": "je crois que le pont de la rivière kwaï est extrêmement long hein",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le Pont de la rivière Kwaï est extrêmement long.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0095",
+   "evidence": "oh ben non 1h 1h 1h26",
+   "type": "fact",
+   "status": "active",
+   "statement": "La Marche de l'empereur dure 1h26.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "050 ajoute « c'est dans les normes » (t0097)."
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0099",
+   "evidence": "il peut y avoir suivi d' une conférence ou d' une discussion sur la vie des",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le film pourrait être suivi d'une conférence ou d'une discussion sur les manchots.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0168",
+   "evidence": "donc peut-être que c'est le film de daniel serait le plus intéressant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "047 pense que le film de Daniel serait le plus intéressant.",
+   "owner": null,
+   "mentioned_people": [
+    "daniel"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« film de daniel » = La Marche de l'empereur, proposé par 049."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0192",
+   "evidence": "ben on prend la marche de l' empereur apparemment tout on est toutes d'accord là-dessus",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le film retenu est La Marche de l'empereur, accord de toutes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "050 confirme « oui oui oui » (t0193)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0203",
+   "evidence": "projection plus conférence",
+   "type": "decision",
+   "status": "active",
+   "statement": "049 note : type d'événement = projection plus conférence.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Note de rédaction remplacée quelques tours plus loin (t0217), voir relation supersedes."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0217",
+   "evidence": "projection plus discussion",
+   "type": "decision",
+   "status": "active",
+   "statement": "Type d'événement retenu : projection suivie d'une discussion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Formulation notée par 049 et reprise par 047 (t0216)."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0206",
+   "evidence": "est-ce_qu' une présentation serait pas bien",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Une présentation avant le film serait-elle bien ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0207",
+   "evidence": "oui présentation d'abord ouais",
+   "type": "answer",
+   "status": "active",
+   "statement": "050 approuve une présentation d'abord.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Remis en cause ensuite (t0280-t0288)."
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0219",
+   "evidence": "peut-être que ce serait bien si on trouvait quelqu'un",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il serait bien de trouver quelqu'un qui connaît le Grand Nord pour en parler.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "L'idée continue au tour t0222 « qui connaît le grand nord »."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0225",
+   "evidence": "parce_qu' on est quatre euh + sur quatre à l' avoir vu",
+   "type": "fact",
+   "status": "active",
+   "statement": "Raison du choix : les quatre participantes ont vu le film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0266",
+   "evidence": "tu vois odile est en_train de faire des recherches",
+   "type": "fact",
+   "status": "active",
+   "statement": "Odile fait des recherches pendant la réunion.",
+   "owner": null,
+   "mentioned_people": [
+    "odile"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0274",
+   "evidence": "ben il peut y avoir une partie avant euh pour montrer la différence entre le pingouin et le manchot",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "050 propose une partie avant le film sur la différence pingouin/manchot.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0280",
+   "evidence": "une explication euh plus scientifique avant le film on va perdre un peu enfin il semble hein la magie du film",
+   "type": "risk",
+   "status": "active",
+   "statement": "Une explication scientifique avant le film ferait perdre sa magie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Avis personnel de 049."
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0285",
+   "evidence": "peut-être qu' elle a raison effectivement ça serait mieux de de de regarder",
+   "type": "decision",
+   "status": "active",
+   "statement": "Mieux vaut regarder le film d'abord, sans présentation avant.",
+   "owner": null,
+   "mentioned_people": [
+    "danielle"
+   ],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord hésitant (« peut-être ») de 047 avec 049, sans objection ; 050 enchaîne « et après on décortique le film »."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0288",
+   "evidence": "et après on décortique le film",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "On analyse le film après la projection.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0294",
+   "evidence": "ça va être euh le plus compliqué parce_que souvent ces gens -là ils se font payer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Faire venir un spécialiste sera compliqué car ces gens se font payer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0300",
+   "evidence": "mon avocat il m' a demandé quatre_cent euros",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'avocat de 050 lui a demandé 400 euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quatre_cent euros",
+   "assertion": "extracted",
+   "notes": "Digression personnelle, hors sujet de l'événement."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0314",
+   "evidence": "les gens alors ils te disent il faut payer manger le déplacement",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les intervenants demandent repas et déplacement payés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0340",
+   "evidence": "en_tant_que bibliothème il pourrait y avoir projection discussion et présentation de livres",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ajouter une présentation de livres à la projection-discussion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "047 répond « ah ouais ce serait sympa » (t0341)."
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0396",
+   "evidence": "il faut rajouter la recherche des livres",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut ajouter la recherche de livres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0354",
+   "evidence": "bon explication du choix de l' événement donc j' ai mis bon on est quatre sur quatre à l' avoir vu thème intéressant culturel instructif",
+   "type": "fact",
+   "status": "active",
+   "statement": "Justification notée : toutes l'ont vu, thème intéressant, culturel, instructif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0507",
+   "evidence": "le thème le thème euh disons plaira à tout_le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le thème plaira à tout le monde, tous âges.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Précisé t0517 : enfants, adolescents, adultes."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0550",
+   "evidence": "il faudra pas le présenter comme film",
+   "type": "decision",
+   "status": "active",
+   "statement": "Il faudra le présenter comme un film documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "047 seule, sans objection ; « c'est film documentaire » (t0552)."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0573",
+   "evidence": "réalisé en deux_mille_quatre par luc jacquet sorti en deux_mille_cinq",
+   "type": "fact",
+   "status": "active",
+   "statement": "Réalisé en 2004 par Luc Jacquet, sorti en 2005.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lu par 051 sur son téléphone."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0581",
+   "evidence": "obtenu de nombreuses distinctions dont l' oscar du meilleur film documentaire en deux_mille_six",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le film a reçu l'Oscar du meilleur documentaire en 2006.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0454",
+   "evidence": "je savais pas qu' il_y avait eu la suite en deux_mille_dix-sept",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une suite est sortie en 2017.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0659",
+   "evidence": "ah peut-être qu' un gars comme ça ça serait sympa",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire venir un animateur comme celui du jeu sur l'écologie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Renvoie à l'animateur d'un jeu à la salle des fêtes (t0652-t0662)."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "015b_EBDD",
+   "turn": "t0692",
+   "evidence": "on peut faire un euh oui un genre de quiz après on fait un truc",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire une sorte de quiz après le film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0001",
+   "evidence": "je pense que je ferai des affiches",
+   "type": "commitment",
+   "status": "active",
+   "statement": "050 fera les affiches.",
+   "owner": "050",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0151",
+   "evidence": "il_y a que deux cent euh deux cent euros de disponibles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Seuls 200 euros sont disponibles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux cent euros",
+   "assertion": "extracted",
+   "notes": "Information attribuée à la trésorière ; budget aussi énoncé t0007."
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0037",
+   "evidence": "il y a la salle des assos qui est fermée",
+   "type": "fact",
+   "status": "active",
+   "statement": "La salle des associations est fermée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "t0043 : elle devient la cantine des enfants."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0110",
+   "evidence": "ben le lieu c'est donc la salle rené tramier",
+   "type": "decision",
+   "status": "active",
+   "statement": "Lieu retenu : la salle René Tramier (salle des fêtes).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom transcrit de façons variables (tramiel, tramier, pramier) par l'ASR."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0112",
+   "evidence": "ce qu' elle a de bien c'est qu' il_y tout_le matériel dedans",
+   "type": "fact",
+   "status": "active",
+   "statement": "La salle René Tramier dispose de tout le matériel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Micros et écran cités t0162-t0167."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0086",
+   "evidence": "à la toussaint ça risque d' être bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La Toussaint serait une bonne période.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0100",
+   "evidence": "moi je veux bien m' en charger de ça si vous voulez je connais un peu la mairie",
+   "type": "commitment",
+   "status": "active",
+   "statement": "047 se charge de réserver auprès de la mairie.",
+   "owner": "047",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« ça » = retenir la salle pour la Toussaint (t0096-t0098)."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0127",
+   "evidence": "ça je je peux essayer de trouver",
+   "type": "commitment",
+   "status": "active",
+   "statement": "047 essaie de trouver l'organisme pour pouvoir passer le film.",
+   "owner": "047",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Engagement prudent (« essayer »)."
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0131",
+   "evidence": "il faut le il faut le déclarer quand on passe c'est comme la musique",
+   "type": "action",
+   "status": "active",
+   "statement": "Il faut déclarer la diffusion du film, comme pour la musique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0171",
+   "evidence": "qu' on fait payer quelque_chose ou non",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il faire payer l'entrée ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0193",
+   "evidence": "je dis une boîte parce_que ça reste secret les gens ils glissent dedans",
+   "type": "decision",
+   "status": "active",
+   "statement": "Une boîte (cagnotte libre) où chacun met ce qu'il veut.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "t0177 « où chacun mettra ce qu'il voudra »."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0208",
+   "evidence": "monique et odile on dit qu' elle se chargait de",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Monique et Odile se chargent des affiches et flyers.",
+   "owner": "050 + 051",
+   "mentioned_people": [
+    "monique",
+    "odile"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite aux tours t0209-t0211 (« faire les affiches et flyers »). 050 s'est engagée elle-même (t0001) ; l'accord de 051 est rapporté par 047 (t0103 « elles ont dit que toutes_les deux elles feraient les affiches »)."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0224",
+   "evidence": "faut l' attaquer qu' un début octobre il faut pas trop tôt parce_que les gens ils oublient",
+   "type": "decision",
+   "status": "active",
+   "statement": "La communication commence début octobre, pas trop tôt.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "047 approuve (t0229)."
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0276",
+   "evidence": "les vacances commencent le samedi vingt-trois octobre",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les vacances de Toussaint commencent le samedi 23 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Fin le 8 novembre (t0256)."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0285",
+   "evidence": "vingt_neuf octobre vendredi vingt_neuf octobre en soirée on le fait alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu le vendredi 29 octobre en soirée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "050 : « oui ce serait bien » (t0286)."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0297",
+   "evidence": "on retient en juillet et voilà pour le film",
+   "type": "action",
+   "status": "active",
+   "statement": "Réserver en juillet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0336",
+   "evidence": "daniel est-ce_que tu t' occupais d' un sponsor",
+   "type": "question",
+   "status": "open",
+   "statement": "Daniel s'occupe-t-il d'un sponsor ?",
+   "owner": null,
+   "mentioned_people": [
+    "daniel"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas de réponse claire."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0337",
+   "evidence": "il faut trouver des sponsors il va falloir qu' on s' y mette toutes hein",
+   "type": "action",
+   "status": "active",
+   "statement": "Toutes doivent chercher des sponsors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0350",
+   "evidence": "déjà moi je vais essayer d' avoir la salle gratuite",
+   "type": "commitment",
+   "status": "active",
+   "statement": "047 essaie d'obtenir la salle gratuitement.",
+   "owner": "047",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0360",
+   "evidence": "qui fait le film du ventoux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Piste : la personne qui a fait le film sur le Ventoux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom incertain (« jacques… c'est pas jacques », t0367)."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0393",
+   "evidence": "demander à denis fournet",
+   "type": "action",
+   "status": "active",
+   "statement": "Demander à Denis Fournet de trouver un intervenant.",
+   "owner": null,
+   "mentioned_people": [
+    "denis fournet"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "049 le note comme tâche (t0395)."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0413",
+   "evidence": "trouver un un intervenant qualifié si possible bénévole par l' intermédiaire de de",
+   "type": "action",
+   "status": "active",
+   "statement": "Trouver un intervenant qualifié, bénévole si possible, par un intermédiaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0403",
+   "evidence": "daniel tu tu tu le contacte denis",
+   "type": "action",
+   "status": "proposed",
+   "statement": "047 demande à Daniel de contacter Denis.",
+   "owner": null,
+   "mentioned_people": [
+    "daniel",
+    "denis"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« oui oui » de 049 (t0405-t0406) ambigu : pas d'owner."
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0414",
+   "evidence": "de ne mettez pas le nom de",
+   "type": "idea",
+   "status": "unknown",
+   "statement": "050 demande de ne pas écrire le nom (de l'intervenant) dans les notes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase à l'impératif : donnée annotée, sans effet sur l'annotation ; objet du « nom » incertain."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0422",
+   "evidence": "ah tu as raison on peut prévoir des boissons",
+   "type": "decision",
+   "status": "active",
+   "statement": "On prévoit des boissons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« pas cher » (t0423), « pas de de l' alcool » (t0425)."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0443",
+   "evidence": "est-ce qu' on le fait sous forme de quiz ou non",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Fait-on l'échange sous forme de quiz ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0445",
+   "evidence": "forme de quiz bon_ben ça au dernier moment",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le quiz se décidera au dernier moment.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0449",
+   "evidence": "ça fait ça mais ça fait trop hein",
+   "type": "risk",
+   "status": "active",
+   "statement": "Film, intervenant et quiz : ça fait trop.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "047 approuve « non c'est vrai » (t0450)."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0460",
+   "evidence": "c'est à peu près vingt heures vingt heures",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement commence vers 20 heures.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0485",
+   "evidence": "vingt-neuf octobre salle des associations euh je récapitule hein",
+   "type": "fact",
+   "status": "active",
+   "statement": "Récapitulatif : 29 octobre, salle des associations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Incompatible avec la salle René Tramier ; possible erreur ASR ou lapsus."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0496",
+   "evidence": "suivi d' un débat",
+   "type": "decision",
+   "status": "active",
+   "statement": "Projection suivie d'un débat avec intervenant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Récapitulatif de 049 t0490-t0495."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0499",
+   "evidence": "bien si on commence à vingt heures il faut qu' à dix-neuf heures nous",
+   "type": "action",
+   "status": "active",
+   "statement": "Être là à 19 h pour installer les sièges.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite t0500 « soit là pour mettre les sièges »."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0531",
+   "evidence": "ben on va faire avec deux_cent euros et on verra la cagnotte",
+   "type": "decision",
+   "status": "active",
+   "statement": "On fait avec 200 euros, on verra la cagnotte ensuite.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux_cent euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0545",
+   "evidence": "eux je sais pas combien ils vont nous prendre hein",
+   "type": "risk",
+   "status": "active",
+   "statement": "Coût inconnu des droits (SACEM).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0548",
+   "evidence": "la cagnotte elle pourrait passer pour le pour l' intervenant éventuel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La cagnotte pourrait payer l'intervenant éventuel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0559",
+   "evidence": "lorsque je verrai le maire je lui poserai la question",
+   "type": "commitment",
+   "status": "active",
+   "statement": "047 demandera au maire d'imprimer les flyers.",
+   "owner": "047",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0589",
+   "evidence": "il faudra le sortir dans celui de septembre",
+   "type": "action",
+   "status": "active",
+   "statement": "Annonce à faire paraître dans l'Écho alténois de septembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le journal paraît tous les deux mois (t0587)."
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "015c_EBPD",
+   "turn": "t0594",
+   "evidence": "moi je te dis je me charge de la mairie parce_que je connais un peu le maire",
+   "type": "commitment",
+   "status": "active",
+   "statement": "047 se charge des démarches avec la mairie.",
+   "owner": "047",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-20",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "La raison « quatre sur quatre à l'avoir vu » justifie le choix de La Marche de l'empereur."
+  },
+  {
+   "from": "b-31",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "La justification notée par 049 porte sur le choix du film."
+  },
+  {
+   "from": "b-03",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "050 suggère ce film parce que c'est le seul vu par toutes ; il est retenu ensuite."
+  },
+  {
+   "from": "b-06",
+   "to": "b-05",
+   "relation": "contradicts",
+   "justification": "051 dit avoir vu La Rivière Kwaï, contre « il y en a qui l'ont pas vu »."
+  },
+  {
+   "from": "b-11",
+   "to": "b-09",
+   "relation": "supersedes",
+   "justification": "« oh ben non » puis durée trouvée (1h26, « dans les normes ») qui corrige « très longs »."
+  },
+  {
+   "from": "b-16",
+   "to": "b-15",
+   "relation": "supersedes",
+   "justification": "049 réécrit le type d'événement : « projection plus discussion » remplace « projection plus conférence »."
+  },
+  {
+   "from": "b-18",
+   "to": "b-17",
+   "relation": "answers",
+   "justification": "050 répond « oui présentation d'abord » à la question de 047."
+  },
+  {
+   "from": "b-23",
+   "to": "b-22",
+   "relation": "contradicts",
+   "justification": "049 objecte qu'une explication avant le film en casserait la magie."
+  },
+  {
+   "from": "b-23",
+   "to": "b-24",
+   "relation": "supports",
+   "justification": "L'argument de 049 est celui que 047 reprend (« elle a raison »)."
+  },
+  {
+   "from": "b-24",
+   "to": "b-18",
+   "relation": "contradicts",
+   "justification": "Regarder d'abord s'oppose à « présentation d'abord » ; accord hésitant, remplacement non établi."
+  },
+  {
+   "from": "b-25",
+   "to": "b-24",
+   "relation": "supports",
+   "justification": "« et après on décortique le film » complète le choix de regarder d'abord."
+  },
+  {
+   "from": "a-23",
+   "to": "b-02",
+   "relation": "supports",
+   "justification": "049 dit ne pas aimer les gros comiques (Oscar) ; en b, Oscar est éliminé car tout le monde ne l'apprécie pas."
+  },
+  {
+   "from": "a-18",
+   "to": "a-17",
+   "relation": "contradicts",
+   "justification": "Américains contre Anglais prisonniers des Japonais : versions incompatibles sans correction établie."
+  },
+  {
+   "from": "a-13",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Déjà en a, 051 dit que c'est presque un documentaire ; en b, on le présentera comme documentaire."
+  },
+  {
+   "from": "c-31",
+   "to": "b-16",
+   "relation": "supports",
+   "justification": "Le récapitulatif de c (projection suivie d'un débat) reprend la formule décidée en b."
+  },
+  {
+   "from": "c-30",
+   "to": "c-04",
+   "relation": "contradicts",
+   "justification": "Le récapitulatif dit « salle des associations » alors que le lieu retenu est la salle René Tramier et que la salle des assos est fermée."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "answers",
+   "justification": "La boîte où chacun met ce qu'il veut répond à « fait-on payer ou non »."
+  },
+  {
+   "from": "c-27",
+   "to": "c-26",
+   "relation": "answers",
+   "justification": "049 répond que la forme quiz se décidera au dernier moment."
+  },
+  {
+   "from": "c-28",
+   "to": "b-38",
+   "relation": "contradicts",
+   "justification": "En c, quiz en plus du film et de l'intervenant « ça fait trop », contre l'idée de quiz de b."
+  },
+  {
+   "from": "b-19",
+   "to": "c-22",
+   "relation": "creates_action",
+   "justification": "L'idée de b (trouver quelqu'un pour en parler) est reprise explicitement en c : « il va falloir trouver ce fameux gars » (t0356) puis la tâche « trouver un intervenant qualifié »."
+  },
+  {
+   "from": "b-29",
+   "to": "b-30",
+   "relation": "creates_action",
+   "justification": "Idée retenue (« ce serait sympa », t0341) qui donne lieu à « il faut rajouter la recherche des livres »."
+  },
+  {
+   "from": "b-14",
+   "to": "a-01",
+   "relation": "supersedes",
+   "justification": "La décision « on prend la marche de l'empereur » tranche le choix du film auquel cette proposition répondait."
+  },
+  {
+   "from": "b-14",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "La décision sur le film tranche le choix ; Camping Paradis n'est pas retenu."
+  },
+  {
+   "from": "b-14",
+   "to": "a-03",
+   "relation": "supersedes",
+   "justification": "La décision sur le film tranche le choix ; Oscar n'est pas retenu."
+  },
+  {
+   "from": "b-14",
+   "to": "b-04",
+   "relation": "supersedes",
+   "justification": "La décision sur le film écarte La Rivière Kwaï évoquée par 049 (t0021)."
+  },
+  {
+   "from": "b-02",
+   "to": "a-03",
+   "relation": "supersedes",
+   "justification": "« on va éliminer mon oscar » écarte explicitement la proposition de 047 en a."
+  },
+  {
+   "from": "b-14",
+   "to": "a-04",
+   "relation": "supports",
+   "justification": "La décision de b retient le film proposé par 049 en a."
+  },
+  {
+   "from": "c-15",
+   "to": "c-16",
+   "relation": "creates_action",
+   "justification": "Une fois la date du 29 octobre posée, il faut réserver en juillet (t0294-t0297)."
+  },
+  {
+   "from": "c-07",
+   "to": "c-16",
+   "relation": "creates_action",
+   "justification": "047 se charge de la réservation auprès de la mairie ; 049 note « retenir en juillet »."
+  },
+  {
+   "from": "c-29",
+   "to": "c-32",
+   "relation": "creates_action",
+   "justification": "« si on commence à vingt heures il faut qu'à dix-neuf heures » on soit là."
+  },
+  {
+   "from": "c-02",
+   "to": "c-33",
+   "relation": "supports",
+   "justification": "Les 200 euros disponibles fondent la décision de faire avec ce budget."
+  },
+  {
+   "from": "c-01",
+   "to": "c-12",
+   "relation": "supports",
+   "justification": "050 (Monique) s'est engagée sur les affiches, repris dans la répartition Monique et Odile."
+  },
+  {
+   "from": "c-14",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "Les vacances commencent le samedi 23 : le vendredi suivant, 29 octobre, est retenu."
+  },
+  {
+   "from": "c-06",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "L'idée de la Toussaint aboutit à la date du 29 octobre, pendant ces vacances."
+  },
+  {
+   "from": "c-03",
+   "to": "c-04",
+   "relation": "supports",
+   "justification": "La salle des assos fermée explique le choix de la salle René Tramier."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "015b_EBDD",
+   "text": "Quel film a finalement été retenu pour l'événement de l'association ?",
+   "answerable": true,
+   "qrels": {
+    "b-14": 2,
+    "b-03": 1,
+    "b-13": 1,
+    "a-04": 1,
+    "b-20": 1,
+    "b-31": 1,
+    "b-02": 0,
+    "a-01": 0,
+    "a-02": 0,
+    "a-03": 0,
+    "b-04": 0
+   },
+   "traps": [
+    {
+     "unit": "b-02",
+     "trap": "negation"
+    },
+    {
+     "unit": "a-01",
+     "trap": "status"
+    },
+    {
+     "unit": "a-02",
+     "trap": "status"
+    },
+    {
+     "unit": "a-03",
+     "trap": "status"
+    },
+    {
+     "unit": "b-04",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "015b_EBDD",
+   "text": "Après la projection, sous quelle forme doit se faire l'échange avec le public ?",
+   "answerable": true,
+   "qrels": {
+    "b-16": 2,
+    "c-31": 2,
+    "b-12": 1,
+    "b-25": 1,
+    "b-15": 0,
+    "b-29": 0,
+    "b-38": 0,
+    "b-07": 0
+   },
+   "traps": [
+    {
+     "unit": "b-15",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-29",
+     "trap": "status"
+    },
+    {
+     "unit": "b-38",
+     "trap": "status"
+    },
+    {
+     "unit": "b-07",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "015b_EBDD",
+   "text": "Est-il prévu d'expliquer la différence entre manchots et pingouins avant de lancer le film ?",
+   "answerable": true,
+   "qrels": {
+    "b-24": 2,
+    "b-23": 1,
+    "b-25": 1,
+    "b-22": 0,
+    "b-18": 0,
+    "b-17": 0
+   },
+   "traps": [
+    {
+     "unit": "b-22",
+     "trap": "status"
+    },
+    {
+     "unit": "b-18",
+     "trap": "status"
+    },
+    {
+     "unit": "b-17",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "015b_EBDD",
+   "text": "Combien de temps dure le documentaire sur les manchots empereurs ?",
+   "answerable": true,
+   "qrels": {
+    "b-11": 2,
+    "b-09": 0,
+    "b-10": 0
+   },
+   "traps": [
+    {
+     "unit": "b-09",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-10",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "015b_EBDD",
+   "text": "Pourquoi sera-t-il difficile de faire venir un spécialiste pour parler du film ?",
+   "answerable": true,
+   "qrels": {
+    "b-26": 2,
+    "b-28": 1,
+    "b-19": 1,
+    "c-35": 1,
+    "c-22": 1,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-27",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "015b_EBDD",
+   "text": "Qui prend les notes et rédige pendant la réunion où le film a été choisi ?",
+   "answerable": true,
+   "qrels": {
+    "b-08": 2,
+    "b-21": 0
+   },
+   "traps": [
+    {
+     "unit": "b-21",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "015b_EBDD",
+   "text": "Par rapport à l'idée d'un connaisseur du Grand Nord, vers qui s'est-on tourné ensuite pour trouver l'intervenant ?",
+   "answerable": true,
+   "qrels": {
+    "c-21": 2,
+    "c-22": 2,
+    "b-19": 1,
+    "b-37": 1,
+    "c-23": 1,
+    "c-20": 0
+   },
+   "traps": [
+    {
+     "unit": "c-20",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "015b_EBDD",
+   "text": "Quelle est la capacité d'accueil de la salle prévue pour la séance ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "049": "daniel / danielle (incertain)",
+  "050": "monique (incertain)",
+  "051": "odile (incertain)"
+ },
+ "notes": "Annotation provisoire (llm_provisional). Locuteurs : 049 est appelé daniel/danielle et rédige ; 050 = monique ; 051 = odile (recherches sur téléphone) ; 047 a un mari bernard. Ces correspondances sont déduites des apostrophes, pas certaines ; 047 non identifié (voir speaker_names). Mandat v2 appliqué : aucun statut superseded, remplacements portés par les relations. Réunions a et c en ASR : extraits fragmentaires, noms propres déformés (rené tramier/tramiel/pramier, kwaï/kwe/coué). Cas ambigus : présentation avant le film (b) avec accord hésitant, annotée decision inferred + contradicts ; récapitulatif « salle des associations » (c t0485) incompatible avec la salle René Tramier, annoté contradicts ; accord d'Odile pour les affiches non explicite ; phrase impérative « ne mettez pas le nom » (c t0414) annotée comme donnée. Les films proposés en a et b sont reliés à la décision de b par supersedes (décision qui tranche)."
+}
