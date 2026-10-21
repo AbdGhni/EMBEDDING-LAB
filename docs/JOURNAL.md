@@ -176,3 +176,8 @@ L'exemple du doctest de nDCG annonçait 0,6045 (mon calcul manuel) ; la valeur e
 ### Suite
 
 EL-007c (générateur B-SYN) puis EL-007b (annotation B-REAL), puis E0 et E1.
+
+### Complément S06 (2026-10-21T15:12+02:00)
+
+- ECC vérifié : version 2.2.3 installée sur le PC (listing PowerShell de l'étudiant), définitions d'agents lues à la source amont (`affaan-m/ECC` @ `90606c8`, VERSION 2.2.3).
+- ECC n'est pas invocable depuis la session cloud. Première délégation préparée : relecture indépendante du protocole et des splits par `mle-reviewer`, mandat `docs/mandates/EL-009-review.md`, à exécuter par l'étudiant. Statut : en attente.
