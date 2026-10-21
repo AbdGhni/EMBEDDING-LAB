@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.3**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.4**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.4 | 2026-10-21 | B-REAL : portée de recherche = groupe d'expérience de la requête ; annotation des groupes val/test contenant une réunion manuelle (10 + 9 groupes) ; texte indexé B-REAL | 5 scénarios partagés par de nombreux groupes : une question posée sur tout le split aurait de vraies réponses non jugées dans d'autres groupes. Aucune annotation ni évaluation B-REAL faite : non post hoc. |
 | 1.3 | 2026-10-21 | garde-fou B-REAL val, mêmes règles de batch E2/E3, même dtype et empreinte de configuration d'évaluation, moyenne par grappe en contrôle, limites ajoutées (identifiants de locuteurs, préentraînement d'e5, distracteurs ASR, prénoms communs) | points du rapport complet `docs/reviews/EL-009-mle-reviewer-full.md` absents du résumé. Aucun modèle évalué : non post hoc. |
 | 1.2 | 2026-10-21 | texte indexé d'une unité B-SYN = titre de réunion + locuteur + extrait (`retrieval_text`) ; effectifs réels de B-SYN | sans contexte, une phrase comme « je me charge du dossier » ne dit ni le projet ni la personne : le piège « autre projet » était indiscernable. Aucun modèle évalué : non post hoc. |
 | 1.1 | 2026-10-21 | taille de B-SYN fixée ; H3 descriptive ; origine des pièges du test définie ; test de permutation par grappes ; règles graines, H5 et sous-ensemble relu | relecture indépendante `mle-reviewer` (ECC 2.2.3), `docs/reviews/EL-009-mle-reviewer.md`. Aucun accès au test n'avait eu lieu : modification **non** post hoc. |
@@ -28,7 +29,7 @@ H3 à H5 et E5 à E7 sont présentés comme indicatifs. Les sous-ensembles relus
 | ID | Contenu | Rôle | Construction |
 |---|---|---|---|
 | **B-SYN** | Projets fictifs français multi-réunions (3 réunions par projet) avec dates, montants, responsables, propositions, validations, annulations, réattributions | principal (H1, H2, H4) | générateur à graine fixe ; **240 projets train, 32 val, 48 test**, environ 8 requêtes par projet (≈ 384 requêtes de test, 48 grappes) ; familles de patrons, noms de projets, personnes et plages de dates **disjoints** entre train, val et test |
-| **B-REAL** | Unités extraites des réunions SUMM-RE (`splits/summre_v1.json`) + requêtes en langage naturel | validité externe (H3) | pré-annotation par Claude (`llm_provisional`), échantillon relu par l'étudiant ; uniquement réunions manuelles pour val/test |
+| **B-REAL** | Unités extraites des réunions SUMM-RE (`splits/summre_v1.json`) + requêtes en langage naturel | validité externe (H3) | pré-annotation par des sous-agents Claude (`llm_provisional`, mandat `docs/mandates/EL-007b-annotation.md`), échantillon relu par l'étudiant ; groupes val/test contenant une réunion manuelle (10 et 9 groupes) ; requêtes uniquement sur les réunions manuelles |
 | **B-PAWS** | PAWS-X fr (dev pour le seuil, test pour la mesure) | robustesse aux reformulations adversariales | données officielles, sans modification |
 
 Les requêtes de B-SYN test sont écrites avec des familles de formulations **distinctes** de celles du train. Limite : un seul auteur (Claude) écrit toutes les familles, donc un biais de style commun est possible ; B-REAL sert de contrôle.
@@ -39,8 +40,8 @@ Les requêtes de B-SYN test sont écrites avec des familles de formulations **di
 
 ### Unités de recherche et corpus de recherche
 
-- Unité de recherche (« document ») : une unité sémantique (`unit.schema.json`) représentée par `retrieval_text` si présent, sinon `evidence.text`. Pour B-SYN : `Point projet <nom> — <locuteur> : <extrait>`. Pour B-REAL : à définir en EL-007b sur le même principe (identifiant de réunion + locuteur + extrait), E5 testant l'ajout du tour précédent.
-- Corpus de recherche d'une requête : **toutes** les unités du split concerné (tous projets confondus pour B-SYN, toutes réunions du split pour B-REAL). Les autres projets servent donc de distracteurs.
+- Unité de recherche (« document ») : une unité sémantique (`unit.schema.json`) représentée par `retrieval_text` si présent, sinon `evidence.text`. Pour B-SYN : `Point projet <nom> — <locuteur> : <extrait>`. Pour B-REAL : `Réunion <rang>/3 (<type>) — locuteur <id> : <extrait>` ; E5 teste l'ajout du tour précédent.
+- Corpus de recherche d'une requête : pour B-SYN, **toutes** les unités du split (les autres projets servent de distracteurs, le nom de projet figure dans le texte indexé) ; pour B-REAL, **les unités du groupe d'expérience de la requête** (réunions a/b/c, manuelles et ASR), car les scénarios sont partagés entre groupes et les unités d'autres groupes ne sont pas jugées.
 - Pertinence graduée : 2 = preuve directe et en vigueur ; 1 = utile mais incomplète ou historique (ex. décision remplacée pour une question « historique ») ; 0 = non pertinente, y compris les pièges.
 - Requêtes multi-positives autorisées. Les requêtes **sans réponse** sont exclues des métriques de recherche et mesurées séparément (abstention).
 
