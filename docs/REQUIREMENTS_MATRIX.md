@@ -58,8 +58,8 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 
 | ID | Composant | Métriques | Dénominateur à préciser dans le protocole | Statut |
 |---|---|---|---|---|
-| M-01 | Retrieval | Recall@K, MRR, nDCG@K | requêtes du test ayant ≥ 1 pertinent annoté | prévu |
-| M-02 | Embeddings | gain absolu/relatif vs E1 ; score sur sous-ensemble hard negatives | mêmes requêtes que M-01 | prévu |
+| M-01 | Retrieval | Recall@K, MRR, nDCG@K | requêtes du test ayant ≥ 1 pertinent annoté | en cours (définies dans le protocole v1.0, implémentées et testées dans `eval/metrics.py`) |
+| M-02 | Embeddings | gain absolu/relatif vs E1 ; score sur sous-ensemble hard negatives | mêmes requêtes que M-01 | en cours (précision par paires + bootstrap par grappes implémentés) |
 | M-03 | Relations | macro-F1, P/R par classe, matrice de confusion | paires annotées du test | prévu |
 | M-04 | Intentions / slots | macro-F1 ; exact match / F1 slots ; taux de clarification appropriée | requêtes du test d'intentions | prévu |
 | M-05 | Destinataires | Precision@1 (cas choisis), faux destinataires, couverture, abstentions justifiées / incorrectes | demandes d'action du test | prévu |

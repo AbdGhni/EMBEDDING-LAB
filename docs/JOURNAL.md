@@ -145,3 +145,34 @@ EL-008 : split par groupe d'expérience (stratifié par type de réunion et part
 ### Suite
 
 EL-009 : protocole expérimental puis gel du test. EL-007b (pré-annotation des unités) et la génération des données synthétiques peuvent avancer en parallèle.
+
+---
+
+## 2026-10-21 · Session S06 · EL-009
+
+- **Début** : 2026-10-21T15:07+02:00 (message « go », session depuis le PC) · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-009-protocol` (base `el-008-splits` @ `cd2fb38`)
+- **Exigences couvertes** : M-01, M-02, C-08, X-E0 à X-E7 (planification)
+- **Agent / capacité** : orchestrateur seul ; sources primaires : fiche du modèle e5 à révision figée.
+
+### Actions et résultats
+
+1. PC : joignable, aucun dossier partagé ; `~/.claude` protégé → ECC non vérifiable (AGENT_ROUTING mis à jour).
+2. Vérifié sur la fiche du modèle à révision figée : `intfloat/multilingual-e5-small` @ `614241f6…`, MIT, 12 couches, dim. 384, pooling moyen, préfixes « query: » / « passage: » obligatoires, 512 tokens max. `multilingual-e5-base` @ `d1287505…`, MIT.
+3. `docs/EXPERIMENT_PROTOCOL.md` v1.0 (SHA-256 `1c595028aaa5c2ea5358eb8d5472a0e14b86850dbc17375f301bfd1f3dc4e5ce`) : H1–H5, B-SYN / B-REAL / B-PAWS, métrique principale nDCG@10, bootstrap par grappes, règles d'entraînement et d'accès au test.
+4. **Gel du périmètre du test SUMM-RE** : `splits/summre_v1_test_meetings.txt`, 45 réunions, SHA-256 `ddd195673ac7a4f9be368df8b3513ef763b33909657afd659b31268557e2ded8`.
+5. `eval/metrics.py` (nDCG, MRR, Recall, précision par paires, bootstrap par grappes) et `eval/test_access.py` (journal obligatoire). 44 tests verts.
+6. Dépendance `tzdata` ajoutée pour Windows (zoneinfo), verrou régénéré.
+
+### Erreur corrigée
+
+L'exemple du doctest de nDCG annonçait 0,6045 (mon calcul manuel) ; la valeur exacte est 0,659. Le test unitaire, écrit à partir de la formule, était juste.
+
+### Limites
+
+- Les requêtes et pertinences de test n'existent pas encore : elles seront figées à leur création (EL-007b, EL-007c), avant toute évaluation.
+- Ticket manquant ajouté : EL-007c (générateur B-SYN).
+
+### Suite
+
+EL-007c (générateur B-SYN) puis EL-007b (annotation B-REAL), puis E0 et E1.

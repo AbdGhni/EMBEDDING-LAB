@@ -11,12 +11,13 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-005 | Environnement reproductible (pyproject, verrou, CI légère) | EL-002 | 1 | `pyproject.toml`, lock, CI | installation propre Windows + Linux | validé (CI verte : Ubuntu et Windows, Python 3.10 et 3.12) |
 | EL-006 | Schéma des unités/relations/intentions + guide d'annotation | EL-001 | 1 | `docs/ANNOTATION_GUIDE.md`, schémas JSON | exemples valides et invalides testés | exécuté non validé (17 tests verts ; guide à relire par l'étudiant) |
 | EL-007 | Corpus v0 : ingestion SUMM-RE, texte canonique et tours avec offsets | EL-004, EL-006 | 1 | `data/` (hors Git) + `scripts/fetch_summre.py` | empreintes enregistrées, 0 erreur d'offset | validé |
-| EL-007b | Pré-annotation des unités (LLM provisoire) + échantillon de contrôle à relire par l'étudiant | EL-007, EL-008 | 2 | unités JSONL validées par `check_unit` | 100 % des unités valides ; échantillon de relecture préparé | prévu |
+| EL-007b | B-REAL : pré-annotation des unités et requêtes SUMM-RE (LLM provisoire) + échantillon de contrôle à relire par l'étudiant | EL-007, EL-008, EL-009 | 2 | unités et qrels JSONL validés par `check_unit` | 100 % des unités valides ; qrels test figés (SHA-256) ; échantillon de relecture préparé | prévu |
+| EL-007c | B-SYN : générateur de projets synthétiques (familles de patrons, entités et dates disjointes par split) | EL-006, EL-009 | 2 | `scripts/make_bsyn.py`, données hors Git | 0 entité, patron ou projet partagé entre splits ; qrels test figés | prévu |
 | EL-008 | Splits par composante de personnes + détection de doublons / fuites | EL-007 | 1 | `scripts/make_splits.py`, `splits/summre_v1.json` | 0 groupe et 0 locuteur partagés entre splits | validé |
-| EL-009 | Protocole expérimental puis gel du test | EL-008 | 1 | `EXPERIMENT_PROTOCOL.md` | empreinte du test gelé dans le journal | prévu |
-| EL-010 | E0 : BM25 | EL-009 | ½ | `runs/E0-*` | métriques sur val et test | prévu |
-| EL-011 | E1 : encodeur pré-entraîné | EL-009 | 1 | `runs/E1-*` | métriques + révision du modèle | prévu |
-| EL-012 | Paires/triplets + mining de hard negatives (train uniquement) | EL-007b, EL-008 | 2 | jeu d'entraînement + inspection faux négatifs | aucun négatif issu de val/test | prévu |
+| EL-009 | Protocole expérimental puis gel du test | EL-008 | 1 | `EXPERIMENT_PROTOCOL.md` v1.0, `eval/metrics.py`, `splits/summre_v1_test_meetings.txt` | protocole et périmètre du test figés avec empreintes ; qrels figés à leur création (EL-007b/c) | validé (périmètre) |
+| EL-010 | E0 : BM25 | EL-007b, EL-007c | ½ | `runs/E0-*` | métriques sur val et test | prévu |
+| EL-011 | E1 : encodeur pré-entraîné | EL-007b, EL-007c | 1 | `runs/E1-*` | métriques + révision du modèle | prévu |
+| EL-012 | Paires/triplets + mining de hard negatives (train uniquement) | EL-007b, EL-007c, EL-008 | 2 | jeu d'entraînement + inspection faux négatifs | aucun négatif issu de val/test | prévu |
 | EL-013 | E2 : fine-tuning contrastif | EL-011, EL-012 | 2 | checkpoint, logs, commande | checkpoint choisi sur validation | prévu |
 | EL-014 | E3 : ablation hard vs simples | EL-013 | 1 | `runs/E3-*` | budget égal documenté | prévu |
 | EL-015 | Classifieur de relations | EL-007 | 2 | `relations/` + métriques | macro-F1 et matrice de confusion | prévu |

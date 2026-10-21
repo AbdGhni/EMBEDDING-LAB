@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S05, 2026-10-21 (nuit)
+Mis à jour : session S06, 2026-10-21 (après-midi)
 
 ## Git
 
@@ -9,7 +9,8 @@ Mis à jour : session S05, 2026-10-21 (nuit)
 - `el-003-datasets` @ `4e19a61` — poussé.
 - `el-005-006-env-schemas` @ `50f0837` — poussé, CI verte.
 - `el-007-ingest` @ `0d471ab` — poussé.
-- `el-008-splits` — basé sur `el-007-ingest`, voir son dernier commit. Branches empilées : fusionner dans l'ordre 001 → 003 → 005-006 → 007 → 008.
+- `el-008-splits` @ `cd2fb38` — poussé.
+- `el-009-protocol` — basé sur `el-008-splits`, voir son dernier commit. Branches empilées : fusionner dans l'ordre 001 → 003 → 005-006 → 007 → 008 → 009.
 
 ## Tickets
 
@@ -20,6 +21,8 @@ Mis à jour : session S05, 2026-10-21 (nuit)
 - EL-007 : validé (ingestion SUMM-RE, 283 réunions, empreintes).
 - EL-007b : prévu (pré-annotation des unités).
 - EL-008 : validé (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
+- EL-009 : validé pour le périmètre (protocole v1.0 `1c595028…`, test SUMM-RE `ddd19567…`) ; qrels à figer à leur création.
+- EL-007c : prévu (générateur B-SYN).
 - EL-006 : exécuté non validé (guide à relire).
 - Autres : prévus.
 
@@ -30,7 +33,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 33 tests verts.
+- Projet : `uv sync --locked --extra dev` ; 44 tests verts.
 
 ## Données locales (hors Git, dans la VM)
 
@@ -46,4 +49,4 @@ Aucun.
 
 ## Prochaine action
 
-EL-009 : `docs/EXPERIMENT_PROTOCOL.md` (hypothèses, métriques, K, dénominateurs), puis gel du test. En parallèle : EL-007b (unités) et générateur synthétique.
+EL-007c : générateur B-SYN (`scripts/make_bsyn.py`), puis EL-007b (annotation B-REAL), puis E0/E1.

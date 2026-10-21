@@ -72,3 +72,27 @@ Comment saurons-nous qu'il a marché ? Recall@K / MRR / nDCG sur un test **indé
 | Cosinus | mesure d'angle entre deux vecteurs, de −1 à 1 |
 | Hard negative | exemple faux mais très proche de la requête par le thème |
 | Recall@K | proportion des éléments pertinents retrouvés parmi les K premiers |
+
+## Leçon 2 — Mesurer une recherche : nDCG, MRR, Recall et bootstrap par grappes
+
+### Explication simple
+
+Le système rend une liste classée. On veut savoir si les bonnes preuves sont en haut. Recall@5 : « parmi les bonnes preuves, combien sont dans les 5 premières ? ». MRR : « à quel rang arrive la première bonne preuve ? » (rang 2 → 0,5). nDCG : comme une note qui donne plus de points aux bonnes preuves placées tôt, et plus encore aux preuves très pertinentes.
+
+### Explication technique
+
+nDCG@K = DCG@K / IDCG@K, avec DCG@K = Σᵢ (2^relᵢ − 1) / log₂(i + 1) sur les K premiers rangs i = 1…K, et IDCG le DCG du classement idéal.
+
+Exemple calculé (test `test_ndcg_hand_computed`) : pertinences {a: 2, b: 1}, classement [x, a, b].
+DCG = 3 / log₂3 + 1 / log₂4 = 1,893 + 0,5 = 2,393 ; IDCG = 3 / log₂2 + 1 / log₂3 = 3 + 0,631 = 3,631 ; nDCG = 0,659.
+
+Un piège classé premier (pertinence 0) ne rapporte rien et repousse la vraie décision : c'est exactement ce que le fine-tuning doit corriger.
+
+### Pourquoi un bootstrap *par grappes* ?
+
+Les requêtes d'un même projet se ressemblent : si le modèle comprend mal le projet Atlas, il rate toutes ses requêtes ensemble. Les traiter comme indépendantes donnerait un intervalle de confiance trop étroit. On rééchantillonne donc des **projets entiers** (ou des familles de personnes pour SUMM-RE), 10 000 fois, et on regarde l'intervalle des différences E2 − E1. Si cet intervalle contient 0, on ne peut pas affirmer que le fine-tuning aide.
+
+### Questions de compréhension
+
+1. Pourquoi exclut-on des métriques de recherche les questions sans réponse, et où les mesure-t-on ?
+2. Avec 9 projets de test, que devient la largeur de l'intervalle de confiance par rapport à 200 requêtes supposées indépendantes ?
