@@ -239,3 +239,7 @@ EL-007c : générateur B-SYN selon le protocole v1.1.
 ### Suite
 
 EL-007b (B-REAL : unités et requêtes SUMM-RE) puis EL-010 (point d'entrée commun d'évaluation + BM25).
+
+### Correction S07
+
+Le commit `15d31d0` contenait par erreur `data/bsyn/` (absent de `.gitignore`), en contradiction avec DATA_CARD. Les fichiers sont retirés du suivi par un nouveau commit (sans réécriture de l'historique : ils restent visibles dans `15d31d0`). Aucun risque de licence, ce sont des données fictives générées par notre code. `.gitignore` complété.
