@@ -1,0 +1,1926 @@
+{
+ "group_id": "053",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0005",
+   "evidence": "aborder d'abord ton sujet à toi sujet de madame guéla ensuite nous allons passer passer à monsieur dave",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ordre des exposés : d'abord madame Guéla, puis monsieur Dave, l'animateur en dernier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0011",
+   "evidence": "le r n' b c'est un style de musique qui mélange en_fait plusieurs styles de musique donc ça mélange le hip hop le soul le pop et le funk",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le R'n'B mélange hip-hop, soul, pop et funk.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0017",
+   "evidence": "moi je suis plus r n' b à l' ancienne donc du_coup je dirais plus euh nelly ou disney child",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'intervenante préfère le R'n'B à l'ancienne : Nelly, Destiny's Child.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« disney child » = Destiny's Child (ASR)."
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0042",
+   "evidence": "généralement on utilise un synthétiseur un clavier ben une voix",
+   "type": "fact",
+   "status": "active",
+   "statement": "Instruments du R'n'B : synthétiseur, clavier, voix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0044",
+   "evidence": "si les paroles euh ne sont pas réellement pertinentes je vais pas vraiment l' écouter",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour l'intervenante, les paroles comptent : sans paroles pertinentes elle n'écoute pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0060",
+   "evidence": "si on vous propose un artiste avec qui vous aurez l' occasion d' en faire vous choisirez qui",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Avec quel artiste aimeriez-vous faire du R'n'B ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0065",
+   "evidence": "offshore euh peut-être offshore ouais",
+   "type": "answer",
+   "status": "active",
+   "statement": "Elle choisirait peut-être Offshore (ou Nelly).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nelly cité en t0061."
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0069",
+   "evidence": "est-ce que tu te souviens de la première musique de r n' b que t' as écouté",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle est la première chanson R'n'B qui t'a marquée ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0072",
+   "evidence": "ben dilemma hein de nelly franchement c'est vraiment une de mes musiques de r n' b préférées",
+   "type": "answer",
+   "status": "active",
+   "statement": "Dilemma de Nelly, un de ses morceaux R'n'B préférés ; elle aime aussi Chris Brown.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0087",
+   "evidence": "au départ c'est ça ça a été utilisé beaucoup pour euh décrire les les conditions de vie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le rap est né pour décrire des conditions de vie difficiles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0088",
+   "evidence": "y a eu aussi euh le rap conscient",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il existe aussi un courant de rap conscient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0091",
+   "evidence": "qui dans le domaine euh souvent euh fait ce style de du rap",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui fait du rap conscient ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0093",
+   "evidence": "on a par_exemple booba il faisait ce ce style de rappe avant",
+   "type": "answer",
+   "status": "active",
+   "statement": "Booba faisait ce style de rap auparavant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0102",
+   "evidence": "le trap c'est c'est c'est un peu plus agressif",
+   "type": "fact",
+   "status": "active",
+   "statement": "La trap est une dérive plus agressive du rap.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0122",
+   "evidence": "d' exprimer sa colère et aussi de sensibiliser les gens par_rapport_à ces conditions de vie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le rap sert à exprimer sa colère et à sensibiliser aux conditions de vie difficiles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0129",
+   "evidence": "un autre rappeur que j' ai envie d' évoquer qui s' appelle kerry james",
+   "type": "fact",
+   "status": "active",
+   "statement": "Kery James est cité comme rappeur conscient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0131",
+   "evidence": "je pense que le rap actuellement il ça devient surtout musical",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon l'intervenant, le rap actuel devient surtout musical et compte peu de rap conscient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0163",
+   "evidence": "on va rester sur cardi b un truc à faire j' aime bien get up dix",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'intervenant aime Cardi B, titre cité « get up dix ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Titre probablement mal transcrit (ASR)."
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0177",
+   "evidence": "c'est né dans les banlieues américaines",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le hip-hop est né dans les banlieues américaines.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0184",
+   "evidence": "tupac est aussi un géant de l' industrie il_y a biggie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tupac et Biggie sont cités comme figures du hip-hop.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0194",
+   "evidence": "quelle différence auriez vous entre le hip hop et le rap",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle différence entre hip-hop et rap ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0199",
+   "evidence": "le rap c'était un style un peu plus lent euh plus euh plus comment dire plus cru",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le rap était plus lent et plus cru, pour dénoncer ; le hip-hop se distingue par l'instrumental.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0220",
+   "evidence": "ce n' est plus vu comme euh une musique de délinquant",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le hip-hop n'est plus vu comme une musique de délinquant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "053a_EDRH",
+   "turn": "t0257",
+   "evidence": "la musique déjà ça ça traverse les continents des pays donc ça rassemble",
+   "type": "fact",
+   "status": "active",
+   "statement": "La musique traverse les frontières et rassemble.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0001",
+   "evidence": "j aimerais savoir quel genre déjà de musique on va",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quels genres de musique pour l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0003",
+   "evidence": "ben tout genre hein tout genre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : tous les genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0008",
+   "evidence": "genre rap rnb and and hip hop",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : rap, R'n'B et hip-hop.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0011",
+   "evidence": "deux style de genre ben je sais pas rnb rap c'est tout",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les deux genres retenus sont le R'n'B et le rap.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par 125 (t0013, t0015) et 127 (t0014)."
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0019",
+   "evidence": "j' ai un petit faible pour los_angeles",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de lieu : Los Angeles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0020",
+   "evidence": "ben on fait ça à marseille hein",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de lieu : Marseille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0023",
+   "evidence": "on fait dans un parc un grand festival",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : un grand festival dans un parc.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0024",
+   "evidence": "vous pensez pas qu il_y ait des risques de de casse",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de casse dans un parc.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0029",
+   "evidence": "on peut pas faire ça euh à cannes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de lieu : Cannes (ou Nice, t0031).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0038",
+   "evidence": "ça peut être un problème pour euh pour la météo",
+   "type": "risk",
+   "status": "active",
+   "statement": "La météo peut poser problème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0044",
+   "evidence": "il peut pleuvoir en été hein oui il faut prévoir",
+   "type": "risk",
+   "status": "active",
+   "statement": "Il peut pleuvoir même en été, il faut prévoir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0050",
+   "evidence": "si on fait ça en plein air on va juste juger la météo c'est tout",
+   "type": "decision",
+   "status": "active",
+   "statement": "On reste en plein air et on surveillera la météo.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté par 125 (t0051)."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0054",
+   "evidence": "donc euh à marseille",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se fera à Marseille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "126 accepte malgré réserve (t0055)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0069",
+   "evidence": "parc borely euh parc borely",
+   "type": "decision",
+   "status": "active",
+   "statement": "Lieu retenu : le parc Borély.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 127 (t0027, t0061)."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0071",
+   "evidence": "c'est déjà un parc qui accueille beaucoup d événements euh musicaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le parc Borély accueille déjà beaucoup d'événements musicaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Justification du choix demandée en t0070."
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0084",
+   "evidence": "on peut faire ça hum pendant la fête de la musique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : pendant la fête de la musique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0092",
+   "evidence": "sinon le onze hein",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de date : le onze.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Mois non précisé."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0094",
+   "evidence": "le vingt et un juin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de date : le 21 juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0097",
+   "evidence": "on est tous d'accord pour pour le mettre euh en juin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu en juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0104",
+   "evidence": "soit on invite deux artistes connus internationalement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option A : deux artistes internationaux (avec quatre peu connus).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0106",
+   "evidence": "soit trois artistes connus nationalement et trois artistes peu connus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option B : trois artistes nationaux et trois peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0107",
+   "evidence": "ou soit six artistes connus régionalement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option C : six artistes régionaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0108",
+   "evidence": "je pense qu on va miser sur deux artistes bien connus",
+   "type": "decision",
+   "status": "active",
+   "statement": "Choix de l'option : deux artistes internationaux et quatre peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Précisé par 125 en t0110 et t0116."
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0129",
+   "evidence": "dans le milieu du rap on peut inviter damso",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : Damso.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0160",
+   "evidence": "y a nekfeu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : Nekfeu comme deuxième artiste connu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0177",
+   "evidence": "pas maître gims quelqu'un d'autre cherche quelqu'un d'autre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "126 refuse Maître Gims et demande quelqu'un d'autre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0190",
+   "evidence": "non c'est bon mets maitre gims",
+   "type": "decision",
+   "status": "active",
+   "statement": "Maître Gims est retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0236",
+   "evidence": "mwaka moon il est à à deux_cent_quatre_vingt_dix millions et quelques",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le titre Mwaka Moon est à environ 290 millions de vues.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0265",
+   "evidence": "non elle est internationale elle a fait le milliard",
+   "type": "fact",
+   "status": "active",
+   "statement": "Aya Nakamura est jugée internationale, donc pas « peu connue ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Aya Nakamura proposée par 126 en t0259."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0276",
+   "evidence": "bigflo et oli",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : Bigflo et Oli comme artistes peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jugés trop connus (t0277)."
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0310",
+   "evidence": "on on on j' ai mis oboy c'est bon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "125 inscrit Oboy parmi les artistes peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "127 conteste (t0311) ; absent de la liste finale."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0341",
+   "evidence": "on va prendre un un artiste en martinique et on va prendre euh hum saaturn allez saaturn",
+   "type": "decision",
+   "status": "active",
+   "statement": "Saaturn, artiste martiniquais, est retenu comme artiste peu connu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lybro et Gazi notés en t0321."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0348",
+   "evidence": "quel thème quel thème général euh que notre festival va aborder",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel thème général pour le festival ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0349",
+   "evidence": "la fête de la musique la promotion de la musique",
+   "type": "answer",
+   "status": "active",
+   "statement": "Thème : la fête de la musique, la promotion de la musique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0376",
+   "evidence": "qui sera notre public",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel public ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0389",
+   "evidence": "il_y aura majoritairement plus de jeunes",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le public sera majoritairement jeune.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "127 : « il faut juste mettre jeunes » (t0383)."
+  },
+  {
+   "key": "b-43",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0392",
+   "evidence": "dans quel ordre devrions nous présenter les artistes",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Dans quel ordre présenter les artistes ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-44",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0396",
+   "evidence": "moins connus donc larry lybro gazi saaturn",
+   "type": "decision",
+   "status": "active",
+   "statement": "On commence par les moins connus : Larry, Lybro, Gazi, Saaturn.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 126 (t0393), accepté par tous."
+  },
+  {
+   "key": "b-45",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0399",
+   "evidence": "ouais et finir par damso et maitre gims",
+   "type": "decision",
+   "status": "active",
+   "statement": "On termine par les deux têtes d'affiche, Damso et Maître Gims.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-46",
+   "meeting_id": "053b_EDDH",
+   "turn": "t0422",
+   "evidence": "on pourrait leur demander de chant- peut-être de chanter une chanson particulière",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : demander aux artistes une chanson particulière pour diversifier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0005",
+   "evidence": "est-ce_qu' on maintient la date du vingt-et-un juin",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Maintient-on le 21 juin ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0006",
+   "evidence": "oui oui effectivement",
+   "type": "answer",
+   "status": "active",
+   "statement": "Oui, la date du 21 juin est maintenue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0017",
+   "evidence": "contacter le maire",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter le maire pour l'occupation du lieu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0025",
+   "evidence": "vous voulez que je m' en charge",
+   "type": "commitment",
+   "status": "active",
+   "statement": "126 se charge de contacter le maire.",
+   "owner": "126",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté par 125 (t0026), confirmé t0027."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0032",
+   "evidence": "on maintient le lieu c'est ça c'est c'est sûr",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu est maintenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0033",
+   "evidence": "je me charge d' avance de de la location du tout_le matériel",
+   "type": "commitment",
+   "status": "active",
+   "statement": "127 se charge de la location du matériel (podium, sono, éclairage).",
+   "owner": "127",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Détaillé t0072-t0082."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0041",
+   "evidence": "je contacterai le le manager",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Dave contactera le manager des artistes.",
+   "owner": "125",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Sollicité en t0036 ; rappelé en t0058 (« monsieur dave »)."
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0051",
+   "evidence": "il faudrait aussi euh organiser un budget pour certains artistes qui sont pas forcément sur le territoire français",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir un budget de déplacement pour les artistes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0059",
+   "evidence": "à ma gauche et organisation du transport",
+   "type": "action",
+   "status": "active",
+   "statement": "Dave s'occupe aussi de l'organisation du transport des artistes.",
+   "owner": "125",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Attribution déduite de t0058-t0068 (« t'en charger aussi » / « ouais » de 125)."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0085",
+   "evidence": "donc voilà je me charge de la billetterie",
+   "type": "commitment",
+   "status": "active",
+   "statement": "127 se charge de la billetterie.",
+   "owner": "127",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0093",
+   "evidence": "et la décoration puisque même si il faut bien une décoration",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de prévoir une décoration.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0100",
+   "evidence": "pas de décoration on met pas de décoration",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas de décoration : podium et éclairage suffisent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0106",
+   "evidence": "je vais me charger de la sécurité",
+   "type": "commitment",
+   "status": "active",
+   "statement": "126 se charge de la sécurité.",
+   "owner": "126",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "125 lui laisse la tâche (t0111)."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0121",
+   "evidence": "faudra qu' on passe une réunion avec euh les artistes hein pour euh leur expliquer le déroulé",
+   "type": "action",
+   "status": "open",
+   "statement": "Organiser une réunion avec les artistes pour expliquer le déroulé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0126",
+   "evidence": "l' événement il va commencer à quelle heure il va finir à quelle heure",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Horaires de l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0128",
+   "evidence": "en gros ça commence à 18h voilà ça finit à 23h",
+   "type": "answer",
+   "status": "active",
+   "statement": "L'événement va de 18 h à 23 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé t0131."
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0144",
+   "evidence": "les quatre artistes vont prendre environ une heure chacun et du_coup les les les deux artistes plus connus ils prendront trente minutes",
+   "type": "decision",
+   "status": "active",
+   "statement": "Chacun des quatre peu connus joue environ une heure, les deux têtes d'affiche trente minutes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0154",
+   "evidence": "qui se charge de ouais du logement de l' hôtellerie",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui gère le logement des artistes ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0158",
+   "evidence": "si tu veux",
+   "type": "commitment",
+   "status": "active",
+   "statement": "127 accepte de gérer le logement.",
+   "owner": "127",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation faible (« si tu veux ») en réponse à « c'est toi » (t0157)."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0162",
+   "evidence": "sauf qu' on reçoit damso et maître gims",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival reçoit Damso et Maître Gims.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0189",
+   "evidence": "nous trois et autres ouais ouais c'est très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'organisation : les trois membres plus d'autres organisateurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0235",
+   "evidence": "quarante euros ok pour vous quarante euros ok pour vous",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Prix du billet proposé : quarante euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quarante euros",
+   "assertion": "extracted",
+   "notes": "Proposé par 127 (t0234)."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0237",
+   "evidence": "combien de personnes l' endroit pourra",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle capacité pour le parc ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0240",
+   "evidence": "quatre_cent quatre_cent cinq_cent",
+   "type": "answer",
+   "status": "unknown",
+   "statement": "Le parc accueillerait 400 à 500 personnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Estimation incertaine (« je sais pas peut-être »)."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0255",
+   "evidence": "il faudrait soit augmenter la la capacité enfin c'est à dire accueillir plus de monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : augmenter la capacité d'accueil.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0256",
+   "evidence": "plus augmenter les billets cinquante euros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : passer le billet à cinquante euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinquante euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0259",
+   "evidence": "un artiste déjà pour un showcase il peut prendre dix mille euros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Un artiste peut demander dix mille euros pour un showcase.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "dix mille euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0260",
+   "evidence": "on est à on est à vingt mille euros avec euh pour cinquante euros et quatre cents personnes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Recette estimée : vingt mille euros (400 personnes à 50 euros).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "vingt mille euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0267",
+   "evidence": "gims c'est plus 10 000 euros c'est ça le problème",
+   "type": "risk",
+   "status": "active",
+   "statement": "Maître Gims coûte plus de 10 000 euros, c'est le problème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "10 000 euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0274",
+   "evidence": "mais cinquante c'est bon cinquante c'est bon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le billet est fixé à cinquante euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinquante",
+   "assertion": "extracted",
+   "notes": "Confirmé par 126 (t0275)."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0283",
+   "evidence": "plus de billets ok d'accord très bien ok on fera ça",
+   "type": "decision",
+   "status": "active",
+   "statement": "On accueillera plus de monde et on vendra plus de billets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0289",
+   "evidence": "les transports qui peuvent qui peuvent en revenir cher aussi",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les transports des artistes peuvent coûter cher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0297",
+   "evidence": "ils ne seront pas payés énormément énormément c'est des artistes peu connus",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les artistes peu connus ne seront pas beaucoup payés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0317",
+   "evidence": "je dis deux mois",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Préparer l'événement deux mois à l'avance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0324",
+   "evidence": "qu' on arrive à contacter les artistes qui sont pas toujours disponibles",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les artistes ne sont pas toujours disponibles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0332",
+   "evidence": "cinq mois ouais non si cinq mois c'est raisonnable",
+   "type": "decision",
+   "status": "active",
+   "statement": "On prépare l'événement cinq mois à l'avance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 125/127 (t0322, t0326)."
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0333",
+   "evidence": "actuellement on est en janvier donc on a le temps",
+   "type": "fact",
+   "status": "active",
+   "statement": "On est en janvier, il y a le temps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-42",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0343",
+   "evidence": "comment on va soulever les les thèmes",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel message faire passer au festival ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-43",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0362",
+   "evidence": "la musique c'est pour se libérer en gros",
+   "type": "answer",
+   "status": "active",
+   "statement": "Message : la musique pour se libérer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-44",
+   "meeting_id": "053c_EDPH",
+   "turn": "t0371",
+   "evidence": "pour se libérer je trouve que c'est un très bon thème",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le thème « se libérer » est retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« on prend ça » en t0365."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-07",
+   "to": "a-06",
+   "relation": "answers",
+   "justification": "Offshore est la réponse à la question sur l'artiste avec qui collaborer."
+  },
+  {
+   "from": "a-09",
+   "to": "a-08",
+   "relation": "answers",
+   "justification": "Dilemma de Nelly répond à la question sur le premier morceau marquant."
+  },
+  {
+   "from": "a-13",
+   "to": "a-12",
+   "relation": "answers",
+   "justification": "Booba est cité en réponse à « qui fait ce style de rap »."
+  },
+  {
+   "from": "a-22",
+   "to": "a-21",
+   "relation": "answers",
+   "justification": "Réponse directe sur la différence entre rap et hip-hop."
+  },
+  {
+   "from": "b-05",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "Le R'n'B et le rap répondent à la question des genres."
+  },
+  {
+   "from": "b-05",
+   "to": "b-02",
+   "relation": "supersedes",
+   "justification": "Le choix de deux genres tranche la proposition « tous les genres »."
+  },
+  {
+   "from": "b-05",
+   "to": "b-03",
+   "relation": "supersedes",
+   "justification": "Le choix rnb + rap écarte le hip-hop proposé par 126."
+  },
+  {
+   "from": "b-14",
+   "to": "b-06",
+   "relation": "supersedes",
+   "justification": "Marseille est acté, Los Angeles est écarté."
+  },
+  {
+   "from": "b-14",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "Marseille est acté, Cannes/Nice sont écartés."
+  },
+  {
+   "from": "b-14",
+   "to": "b-07",
+   "relation": "supports",
+   "justification": "Valide la proposition Marseille de 127."
+  },
+  {
+   "from": "b-15",
+   "to": "b-08",
+   "relation": "supports",
+   "justification": "Le parc Borély confirme l'idée d'un festival dans un parc."
+  },
+  {
+   "from": "b-16",
+   "to": "b-15",
+   "relation": "supports",
+   "justification": "Justifie le choix du parc Borély."
+  },
+  {
+   "from": "b-21",
+   "to": "b-18",
+   "relation": "supports",
+   "justification": "Juin correspond à la fête de la musique proposée."
+  },
+  {
+   "from": "c-02",
+   "to": "b-19",
+   "relation": "supersedes",
+   "justification": "Le 21 juin, maintenu en réunion c, tranche la date et écarte « le onze »."
+  },
+  {
+   "from": "c-02",
+   "to": "c-01",
+   "relation": "answers",
+   "justification": "Réponse au maintien de la date."
+  },
+  {
+   "from": "c-02",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Confirme le 21 juin proposé en réunion b."
+  },
+  {
+   "from": "c-02",
+   "to": "b-21",
+   "relation": "supports",
+   "justification": "Précise et confirme la décision « en juin »."
+  },
+  {
+   "from": "b-26",
+   "to": "b-24",
+   "relation": "supersedes",
+   "justification": "Choix de l'option A, l'option B est écartée."
+  },
+  {
+   "from": "b-26",
+   "to": "b-25",
+   "relation": "supersedes",
+   "justification": "Choix de l'option A, l'option C est écartée."
+  },
+  {
+   "from": "b-26",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Retient l'option A."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "supersedes",
+   "justification": "126 renonce à son refus : « non c'est bon mets maitre gims »."
+  },
+  {
+   "from": "b-45",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "Les têtes d'affiche finales sont Damso et Gims, Nekfeu n'est pas retenu."
+  },
+  {
+   "from": "b-45",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Gims figure parmi les têtes d'affiche finales."
+  },
+  {
+   "from": "b-45",
+   "to": "b-27",
+   "relation": "supports",
+   "justification": "Damso figure parmi les têtes d'affiche finales."
+  },
+  {
+   "from": "b-44",
+   "to": "b-37",
+   "relation": "supersedes",
+   "justification": "La liste finale des peu connus ne contient pas Oboy."
+  },
+  {
+   "from": "b-44",
+   "to": "b-35",
+   "relation": "supersedes",
+   "justification": "La liste finale des peu connus ne contient pas Bigflo et Oli."
+  },
+  {
+   "from": "b-44",
+   "to": "b-38",
+   "relation": "supports",
+   "justification": "Saaturn figure dans la liste finale."
+  },
+  {
+   "from": "b-40",
+   "to": "b-39",
+   "relation": "answers",
+   "justification": "Promotion de la musique répond à la question du thème."
+  },
+  {
+   "from": "b-42",
+   "to": "b-41",
+   "relation": "answers",
+   "justification": "Public majoritairement jeune."
+  },
+  {
+   "from": "b-44",
+   "to": "b-43",
+   "relation": "answers",
+   "justification": "Ordre de passage : les moins connus d'abord."
+  },
+  {
+   "from": "b-45",
+   "to": "b-43",
+   "relation": "answers",
+   "justification": "Ordre de passage : les têtes d'affiche en dernier."
+  },
+  {
+   "from": "c-06",
+   "to": "b-15",
+   "relation": "supports",
+   "justification": "Le lieu (parc Borély) est maintenu en réunion c."
+  },
+  {
+   "from": "c-22",
+   "to": "b-45",
+   "relation": "supports",
+   "justification": "Damso et Gims confirmés en réunion c."
+  },
+  {
+   "from": "c-05",
+   "to": "c-04",
+   "relation": "supports",
+   "justification": "126 prend en charge le contact avec le maire."
+  },
+  {
+   "from": "c-13",
+   "to": "c-12",
+   "relation": "supersedes",
+   "justification": "« pas de décoration » tranche la proposition de décoration."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "answers",
+   "justification": "18 h - 23 h répond aux horaires."
+  },
+  {
+   "from": "c-21",
+   "to": "c-20",
+   "relation": "answers",
+   "justification": "127 accepte le logement."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "answers",
+   "justification": "Capacité estimée du parc."
+  },
+  {
+   "from": "c-34",
+   "to": "c-26",
+   "relation": "supersedes",
+   "justification": "Le billet passe de quarante à cinquante euros."
+  },
+  {
+   "from": "c-34",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "Retient la proposition à cinquante euros."
+  },
+  {
+   "from": "c-35",
+   "to": "c-29",
+   "relation": "supports",
+   "justification": "Retient l'idée d'accueillir plus de monde."
+  },
+  {
+   "from": "c-40",
+   "to": "c-38",
+   "relation": "supersedes",
+   "justification": "Cinq mois de préparation au lieu de deux."
+  },
+  {
+   "from": "c-43",
+   "to": "c-42",
+   "relation": "answers",
+   "justification": "Message « se libérer » en réponse à la question du thème."
+  },
+  {
+   "from": "c-44",
+   "to": "c-43",
+   "relation": "supports",
+   "justification": "Le thème proposé est retenu."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "053b_EDDH",
+   "text": "Quels styles musicaux ont finalement été gardés pour le festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-05": 2,
+    "b-02": 0,
+    "b-03": 0,
+    "b-01": 0
+   },
+   "traps": [
+    {
+     "unit": "b-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-03",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-01",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "053b_EDDH",
+   "text": "Dans quelle ville et dans quel lieu exact se tiendra le festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-15": 2,
+    "b-14": 2,
+    "c-06": 1,
+    "b-07": 1,
+    "b-08": 1,
+    "b-16": 1,
+    "b-06": 0,
+    "b-10": 0,
+    "b-09": 0
+   },
+   "traps": [
+    {
+     "unit": "b-06",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-09",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "053b_EDDH",
+   "text": "Quel jour précis le festival est-il prévu, et cette date a-t-elle été confirmée ensuite ?",
+   "answerable": true,
+   "qrels": {
+    "c-02": 2,
+    "c-01": 1,
+    "b-21": 1,
+    "b-20": 1,
+    "b-18": 1,
+    "b-19": 0,
+    "c-41": 0
+   },
+   "traps": [
+    {
+     "unit": "b-19",
+     "trap": "date"
+    },
+    {
+     "unit": "c-41",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "053b_EDDH",
+   "text": "Combien d'artistes, et de quelle notoriété, l'équipe a-t-elle choisi de programmer ?",
+   "answerable": true,
+   "qrels": {
+    "b-26": 2,
+    "b-23": 1,
+    "b-24": 0,
+    "b-25": 0
+   },
+   "traps": [
+    {
+     "unit": "b-24",
+     "trap": "status"
+    },
+    {
+     "unit": "b-25",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "053b_EDDH",
+   "text": "Qui seront les deux têtes d'affiche qui clôtureront la soirée ?",
+   "answerable": true,
+   "qrels": {
+    "b-45": 2,
+    "c-22": 2,
+    "b-30": 1,
+    "b-27": 1,
+    "b-44": 1,
+    "b-28": 0,
+    "b-29": 0,
+    "b-34": 0,
+    "c-19": 0
+   },
+   "traps": [
+    {
+     "unit": "b-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-29",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-34",
+     "trap": "person"
+    },
+    {
+     "unit": "c-19",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "053b_EDDH",
+   "text": "Quelles craintes ont été exprimées sur le fait d'organiser l'événement en extérieur, dans un parc ?",
+   "answerable": true,
+   "qrels": {
+    "b-09": 2,
+    "b-11": 2,
+    "b-12": 2,
+    "b-13": 1,
+    "b-08": 0,
+    "b-16": 0
+   },
+   "traps": [
+    {
+     "unit": "b-08",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-16",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "053b_EDDH",
+   "text": "Quel type de spectateurs l'équipe s'attend-elle à voir surtout au festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-42": 2,
+    "b-41": 0,
+    "b-40": 0
+   },
+   "traps": [
+    {
+     "unit": "b-41",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-40",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "053b_EDDH",
+   "text": "Quel nom a été donné au festival ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "125": "dave (incertain)",
+  "126": "guéla (incertain)"
+ },
+ "notes": "Réunion a : exposés sur R'n'B, rap et hip-hop, sans décision ; seuls faits et Q/R annotés. Identités : 127 annonce « madame guéla » puis « monsieur dave » ; 126 présente le R'n'B et 125 le rap, d'où 126 = guéla, 125 = dave (incertain, attribution ASR fragile en c, ex. t0008 où 127 cite « monsieur dave »). Proposition « en août » (b t0081) non annotée : extrait de 2 mots. « le onze » sans mois. Transport (c-10) attribué à 125 par inférence. Logement (c-21) : acceptation faible « si tu veux ». Têtes d'affiche : Nekfeu remplacé par Maître Gims, refus de 126 levé en t0190. Oboy et Bigflo et Oli absents de la liste finale des peu connus (Larry, Lybro, Gazi, Saaturn). Aucun passage relevant de la santé ou de données sensibles."
+}
