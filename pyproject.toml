@@ -16,6 +16,7 @@ dependencies = [
 # Acquisition des données (lecture colonne par colonne des parquets distants)
 data = [
     "huggingface_hub>=0.25",
+    "openpyxl>=3.1",
     "pyarrow>=16",
 ]
 # Entraînement et inférence des encodeurs (Colab ou machine avec GPU)
