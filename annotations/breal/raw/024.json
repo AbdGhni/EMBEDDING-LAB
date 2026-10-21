@@ -1,0 +1,1787 @@
+{
+  "group_id": "024",
+  "units": [
+    {
+      "key": "a-01",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0006",
+      "evidence": "nous nous retrouvons euh aujourd'hui pour euh l' organisation de d' un festival de cinéma",
+      "type": "fact",
+      "status": "active",
+      "statement": "La réunion porte sur l'organisation d'un festival de cinéma.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-02",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0008",
+      "evidence": "le genre l' univers de cinéma que je propose c'est l' univers des super héros",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Laetitia (069) propose le genre super-héros pour le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-03",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0011",
+      "evidence": "film pour moi le plus emblématique c'est captain america",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pour 069, le film de super-héros le plus emblématique est Captain America.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-04",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0014",
+      "evidence": "ça peut intéresser euh tout type de personnes hommes femmes",
+      "type": "fact",
+      "status": "active",
+      "statement": "Selon 069, le genre super-héros peut intéresser tous les publics.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-05",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0017",
+      "evidence": "je suis responsable du genre historique euh j' ai choisi ce genre de film",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Melvin (068), responsable du genre historique, propose ce genre pour le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-06",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0021",
+      "evidence": "on retrouve aussi des séries iconiques je dirais comme game of thrones",
+      "type": "fact",
+      "status": "active",
+      "statement": "068 cite Game of Thrones comme série iconique rattachée au genre historique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-07",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0025",
+      "evidence": "ce genre de film peut plaire finalement à toute catégorie",
+      "type": "fact",
+      "status": "active",
+      "statement": "Selon 068, le genre historique peut plaire à tous les âges, des enfants aux plus âgés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-08",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0026",
+      "evidence": "est-ce_que vous pensez que les nouvelles technologies auront un qu' il_y a un impact sur_ce genre",
+      "type": "question",
+      "status": "resolved",
+      "statement": "070 demande si les nouvelles technologies auront un impact sur le genre historique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-09",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0032",
+      "evidence": "notamment euh ben à_travers la réalité virtuelle par_exemple",
+      "type": "answer",
+      "status": "active",
+      "statement": "068 répond que la réalité virtuelle permettrait de revivre des faits historiques.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Réponse étalée sur t0028-t0036 ; t0032 est le tour le plus informatif."
+    },
+    {
+      "key": "a-10",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0051",
+      "evidence": "je trouve que ce serait c'est très intéressant de l' ajouter au festival",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose d'ajouter le genre horreur au festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Le genre horreur est présenté à partir de t0039 ; l'extrait ne nomme pas le genre."
+    },
+    {
+      "key": "a-11",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0045",
+      "evidence": "je citerai par_exemple les conjuring les insidious annabelle",
+      "type": "fact",
+      "status": "active",
+      "statement": "070 cite Conjuring, Insidious et Annabelle comme films d'horreur emblématiques.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-12",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0050",
+      "evidence": "les fins d' adolescence jeune adulte parce_que bon pour les enfants euh on comprend bien_que c'est pas possible",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le public visé par l'horreur serait les fins d'adolescence et jeunes adultes, pas les enfants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-13",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0075",
+      "evidence": "essayer de rajouter un genre par_exemple comme la comédie",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose d'ajouter un genre supplémentaire, la comédie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-14",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0089",
+      "evidence": "des romances bon qui rentrent pas dans la catégorie comédie",
+      "type": "fact",
+      "status": "active",
+      "statement": "070 cite Titanic comme grande romance, tout en notant que ce n'est pas une comédie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-15",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0092",
+      "evidence": "qu' on a fait au bon dieu qui est pas mal oui",
+      "type": "fact",
+      "status": "active",
+      "statement": "« Qu'est-ce qu'on a fait au bon Dieu » est cité comme exemple de comédie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-16",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0101",
+      "evidence": "qui est un film à base médiévale mais en_fait ce sont des personnages qui se retrouvent",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pour 070, le film de comédie le plus emblématique est Les Visiteurs (personnages médiévaux dans le monde actuel).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le titre est donné en t0099."
+    },
+    {
+      "key": "a-17",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0109",
+      "evidence": "ce genre ce serait euh ben les familles je pense",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le public visé par la comédie serait les familles.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-18",
+      "meeting_id": "024a_EBRH",
+      "turn": "t0115",
+      "evidence": "il_y aura certainement un humour prépondéant qui sera différent de l' humour qui se fait aujourd'hui",
+      "type": "fact",
+      "status": "active",
+      "statement": "068 estime que l'humour des comédies évoluera avec la société.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-01",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0006",
+      "evidence": "un cinéma driving serait euh vraiment euh adapté",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 suggère qu'un cinéma drive-in conviendrait pour viser un public jeune adulte (horreur).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« driving » = drive-in (ASR)."
+    },
+    {
+      "key": "b-02",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0006",
+      "evidence": "une petite salle vraiment un peu voilà familiale euh en intérieur",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Pour des genres familiaux, 070 suggère plutôt une petite salle familiale en intérieur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-03",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0011",
+      "evidence": "sachant que ça touchera qu' une partie de la population",
+      "type": "risk",
+      "status": "active",
+      "statement": "Le genre horreur ne toucherait qu'une partie de la population.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-04",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0015",
+      "evidence": "si on veut toucher un plus large public il faut axer sur des genres tels que comédie ou historique",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose d'axer sur comédie ou historique pour toucher un large public.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-05",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0017",
+      "evidence": "ça peut être pas forcément non_plus euh au goût de tout_le monde parce que ça manquera peut-être de",
+      "type": "risk",
+      "status": "active",
+      "statement": "Combiner comédie et historique risque de manquer d'action et de ne pas plaire à tous.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-06",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0021",
+      "evidence": "ce qu' on pourrait faire c'est combiner par_exemple historique et euh le super héros",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose de combiner les genres historique et super-héros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-07",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0023",
+      "evidence": "je pense que je partirais plus sur euh alors comédie romance avec super héros",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose de combiner comédie-romance et super-héros, l'historique touchant moins la jeunesse.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-08",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0029",
+      "evidence": "donc les genres on se met d'accord sur comédie et romance",
+      "type": "decision",
+      "status": "proposed",
+      "statement": "068 formule un accord sur « comédie et romance », aussitôt corrigé par les autres.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Reformulation erronée corrigée en t0032-t0035."
+    },
+    {
+      "key": "b-09",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0035",
+      "evidence": "comédie super héros ok c'est bon",
+      "type": "decision",
+      "status": "active",
+      "statement": "Genres retenus : comédie et super-héros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-10",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0041",
+      "evidence": "où il_y a environ cent_cinquante personnes qui peuvent assister",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le cinéma classique accueille environ cent cinquante personnes mais manque d'originalité.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-11",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0043",
+      "evidence": "je trouve que le cinéma en plein air euh enfin c'est plus c'est plus convivial",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "069 préfère le cinéma en plein air, plus convivial.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-12",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0051",
+      "evidence": "plus partant de covid ça pourrait être un bon atout",
+      "type": "fact",
+      "status": "active",
+      "statement": "En période de covid, le drive-in serait un atout.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Transcription ASR approximative (« en temps de covid »)."
+    },
+    {
+      "key": "b-13",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0056",
+      "evidence": "le cinéma art déco qui me paraissait être un bon atout",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 défend le cinéma art déco, plus familial, pour les comédies.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-14",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0073",
+      "evidence": "on se met d'accord sur le choix du cinéma drive-in",
+      "type": "decision",
+      "status": "active",
+      "statement": "Lieu retenu : le cinéma drive-in.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-15",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0079",
+      "evidence": "il en faut dix en tout c'est ça donc on fait cinq de chaque",
+      "type": "decision",
+      "status": "active",
+      "statement": "Dix films au total : cinq par genre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Formulé en question par 069, confirmé par 068 (t0080) et 070 (t0082)."
+    },
+    {
+      "key": "b-16",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0086",
+      "evidence": "les les visiteurs qu' est-ce_qu' on a fait au bon dieu qui sont vraiment euh sympa",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposition de comédies : Les Visiteurs et Qu'est-ce qu'on a fait au bon Dieu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-17",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0098",
+      "evidence": "après ben on avait dit on peut mettre titanic",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose de mettre Titanic dans la liste comédie/romance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-18",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0104",
+      "evidence": "oui les babysitting les euh nicky larson qui est pas mal aussi",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposition des films de Philippe Lacheau (Babysitting, Nicky Larson).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-19",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0125",
+      "evidence": "spider man aussi pour les enfants vu qu' ils adorent",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "069 propose Spider-Man, apprécié des enfants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-20",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0142",
+      "evidence": "je crois que c'est les animaux fantastiques",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 évoque Les Animaux fantastiques comme film hors Marvel, moins « super-héros ».",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-21",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0161",
+      "evidence": "oui ce sera que les premiers parce_que pour ceux qui l' ont pas vu forcément",
+      "type": "decision",
+      "status": "active",
+      "statement": "Pour les sagas, seuls les premiers films seront projetés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-22",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0167",
+      "evidence": "qui reprend un peu tout et qui est vraiment apprécié de d' un grand public",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose Avengers, apprécié du grand public.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Titre en t0165."
+    },
+    {
+      "key": "b-23",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0180",
+      "evidence": "comédie il_y en a un qui me vient c'est les pitch perfect",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose Pitch Perfect en comédie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-24",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0191",
+      "evidence": "en mode six films comédie et quatre films super héros",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 envisage d'ajouter Pitch Perfect en passant à six comédies et quatre super-héros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-25",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0202",
+      "evidence": "ouais à la place de titanic",
+      "type": "decision",
+      "status": "active",
+      "statement": "Pitch Perfect remplace Titanic dans les comédies.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 069 (t0200) et 068 (t0201) ; motif en t0198/t0204."
+    },
+    {
+      "key": "b-26",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0212",
+      "evidence": "on peut le rajouter mais du coup c'est peut-être moins axé famille",
+      "type": "risk",
+      "status": "active",
+      "statement": "La comédie américaine proposée (American Pie) est moins adaptée aux familles.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Titre identifié par le récapitulatif t0289 ; t0210 est mal transcrit."
+    },
+    {
+      "key": "b-27",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0217",
+      "evidence": "après on peut le mettre à une heure un peu plus tardive",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Programmer cette comédie américaine plus tard dans la soirée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-28",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0226",
+      "evidence": "je dirais qu' on le rajoute",
+      "type": "decision",
+      "status": "active",
+      "statement": "La comédie américaine (American Pie) est ajoutée à la liste.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Confirmé par 068 en t0227."
+    },
+    {
+      "key": "b-29",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0230",
+      "evidence": "je pensais peut-être en changer un des deux parce que c'est quand même les mêmes acteurs",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "069 propose de retirer Babysitting ou Alibi.com, trop similaires (mêmes acteurs).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-30",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0238",
+      "evidence": "donc on garde le seating et du_coup",
+      "type": "decision",
+      "status": "active",
+      "statement": "Babysitting est conservé.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« le seating » = Babysitting (ASR)."
+    },
+    {
+      "key": "b-31",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0251",
+      "evidence": "qui m' a marqué c'est doctor strange",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose Doctor Strange ; les autres approuvent (t0255-t0256).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-32",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0271",
+      "evidence": "en marvel ce qui serait pas mal c'est euh wonder woman",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose Wonder Woman pour casser le mythe du super-héros masculin.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-33",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0288",
+      "evidence": "on a sélectionné deux genres comédie et super héros le cinéma on s'est mis d'accord sur le cinéma driving",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : genres comédie et super-héros, lieu drive-in.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-34",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0289",
+      "evidence": "les visiteurs qu' on a fait au bon dieu peach perfect babysitting american pie spiderman iron man avengers doctor strange et wonder woman",
+      "type": "decision",
+      "status": "active",
+      "statement": "Liste finale des dix films retenus.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-35",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0290",
+      "evidence": "quel temps on devrait prévoir euh pour euh pour l' événement est-ce qu' on fait ça sur plusieurs jours",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Sur combien de temps étaler l'événement ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-36",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0292",
+      "evidence": "je dirais sur deux trois jours ça pourrait être intéressant",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "070 propose deux ou trois jours, sur des après-midi et soirées.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-37",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0299",
+      "evidence": "plus tard dans la soirée les films un peu moins accessibles",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Films familiaux d'abord, films moins accessibles aux enfants plus tard le soir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Approuvé par 070 (t0298, t0302)."
+    },
+    {
+      "key": "b-38",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0305",
+      "evidence": "que on ferait payer les entrées ou est-ce_que ce serait un festival",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Entrée payante ou gratuite ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-39",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0309",
+      "evidence": "une entrée euh voilà pas excessive mais euh",
+      "type": "answer",
+      "status": "active",
+      "statement": "Entrée payante mais à prix modéré.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« une entrée payante » complété par 069 en t0308."
+    },
+    {
+      "key": "b-40",
+      "meeting_id": "024b_EBDH",
+      "turn": "t0311",
+      "evidence": "on pourrait euh essayer de trouver des invités des acteurs",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose d'inviter des acteurs ou réalisateurs pour attirer le public.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-01",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0008",
+      "evidence": "on peut peut-être même l étendre sur une semaine",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 envisage d'étendre le festival sur une semaine.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-02",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0018",
+      "evidence": "après on pourrait partir sur cinq jours ça ferait deux films par jour",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose cinq jours avec deux films par jour.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-03",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0019",
+      "evidence": "mettre euh peut-être un romance en un romance comédie en premier pour euh le jeune public",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Chaque jour : une comédie d'abord pour le jeune public et les familles, puis un super-héros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-04",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0026",
+      "evidence": "vous voulez faire les cinq jours sur la même semaine ou l étale sur deux semaines",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Les cinq jours sur une même semaine ou étalés sur deux ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-05",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0028",
+      "evidence": "je pense que ce serait plus simple au niveau de l organisation que ce soit la même semaine",
+      "type": "answer",
+      "status": "active",
+      "statement": "068 juge plus simple de tout faire sur une même semaine.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-06",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0034",
+      "evidence": "d'accord donc cinq jours sur la même semaine",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le festival dure cinq jours sur une même semaine.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-07",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0042",
+      "evidence": "juin peut-être juin il fait pas non_plus",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose juin, avant les fortes chaleurs.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-08",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0054",
+      "evidence": "il_y aura forcément des jours d école",
+      "type": "risk",
+      "status": "active",
+      "statement": "En juin, cinq jours d'affilée tomberaient sur des jours d'école, ce qui exclut les familles.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-09",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0059",
+      "evidence": "donc on part sur mi-juillet comme ça c'est un compromis",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le festival aura lieu mi-juillet.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-10",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0063",
+      "evidence": "que ce soit du quinze au vingt",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 évoque des dates du quinze au vingt (juillet).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-11",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0083",
+      "evidence": "mardi au samedi ça peut être euh pas mal",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose du mardi au samedi, laissant le dimanche libre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Dernière option évoquée (après lundi-vendredi et mercredi-dimanche), approuvée mollement (t0082, t0085) ; non actée explicitement."
+    },
+    {
+      "key": "c-12",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0095",
+      "evidence": "peut-être dix-huit heures quelque_chose comme ça",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose de lancer le premier film vers 18 h.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-13",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0097",
+      "evidence": "ou même 17h qui dure jusqu'à 19h après il_y a une petite pause manger",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose 17 h-19 h, pause repas avec stands, puis seconde séance 21 h-23 h.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-14",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0106",
+      "evidence": "dix-sept heures et le deuxième",
+      "type": "decision",
+      "status": "active",
+      "statement": "Horaires retenus : premier film à 17 h, second vers 21 h.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Suite en t0107 (« vingt et un heures à peu près d'accord ») ; accord de 070 en t0101/t0104."
+    },
+    {
+      "key": "c-15",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0126",
+      "evidence": "faut se mettre d'accord déjà avec les intervenants si euh les dates ça les convient",
+      "type": "action",
+      "status": "open",
+      "statement": "Anticiper : vérifier les dates avec les intervenants et réserver leurs food trucks.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-16",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0127",
+      "evidence": "faudra réserver le lieu",
+      "type": "action",
+      "status": "open",
+      "statement": "Il faudra réserver le lieu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-17",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0128",
+      "evidence": "il faudrait aussi penser à un un coin médical",
+      "type": "action",
+      "status": "open",
+      "statement": "Prévoir un coin médical sur le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-18",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0150",
+      "evidence": "il faudrait trouver un grand espace en plein air",
+      "type": "action",
+      "status": "open",
+      "statement": "Trouver un grand espace en plein air permettant d'installer l'écran.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-21",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0184",
+      "evidence": "qui s occupe de quoi et comment vous voulez euh euh promouvoir",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Répartition des rôles et façon de promouvoir l'événement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-22",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0198",
+      "evidence": "personnellement ça ne me dérange pas de contacter tout ce qui peut être les intervenants",
+      "type": "commitment",
+      "status": "active",
+      "statement": "Melvin (068) se charge de contacter les intervenants et prestataires extérieurs.",
+      "owner": "068",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Précisé en t0202 (prestataires extérieurs) ; repris par 069 en t0222."
+    },
+    {
+      "key": "c-23",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0204",
+      "evidence": "après je peux m occuper du du côté euh publicité",
+      "type": "commitment",
+      "status": "active",
+      "statement": "070 se charge de la publicité.",
+      "owner": "070",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accepté par 069 en t0207."
+    },
+    {
+      "key": "c-24",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0208",
+      "evidence": "faire une une affiche euh numérique",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Affiche numérique diffusée sur Instagram et Facebook pour toucher les jeunes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-26",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0222",
+      "evidence": "moi je vais m occuper de tout ce qui est réserver matériel",
+      "type": "commitment",
+      "status": "active",
+      "statement": "Laetitia (069) se charge de réserver le matériel.",
+      "owner": "069",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Validé par 068 (t0224)."
+    },
+    {
+      "key": "c-27",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0227",
+      "evidence": "américain ça risque d être compliqué",
+      "type": "risk",
+      "status": "active",
+      "statement": "Inviter des acteurs américains risque d'être compliqué ; plutôt des acteurs français.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-28",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0234",
+      "evidence": "moi je dirais euh l acteur d iron man",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose d'inviter l'acteur d'Iron Man (Robert Downey Jr, nom à vérifier).",
+      "owner": null,
+      "mentioned_people": [
+        "robert downey junior"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-29",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0257",
+      "evidence": "bon on va mettre philippe lacheau c'est déjà bien",
+      "type": "decision",
+      "status": "active",
+      "statement": "Philippe Lacheau est inscrit sur la liste des invités.",
+      "owner": null,
+      "mentioned_people": [
+        "philippe lacheau"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-30",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0258",
+      "evidence": "pourquoi pas euh euh christian clavier ou jean reno",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose aussi Christian Clavier ou Jean Reno comme invités.",
+      "owner": null,
+      "mentioned_people": [
+        "christian clavier",
+        "jean reno"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-31",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0272",
+      "evidence": "combien de temps on prévoit avant l événement",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Combien de temps de préparation avant l'événement ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-32",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0275",
+      "evidence": "il faut au_moins prévoir un ou deux mois à l avance",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "068 propose un à deux mois de préparation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-33",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0278",
+      "evidence": "moi je partirais sur du six sept mois",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "070 propose six à sept mois de préparation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-34",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0300",
+      "evidence": "on vous relance dans par_exemple deux trois mois pour que vous nous donniez une date butoir",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Contacter les prestataires tôt puis les relancer deux-trois mois après avec une date butoir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accepté en t0305-t0306."
+    },
+    {
+      "key": "c-35",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0307",
+      "evidence": "donc on prévoit à peu près six sept mois",
+      "type": "decision",
+      "status": "active",
+      "statement": "Préparation lancée environ six à sept mois avant (vers décembre-janvier pour juillet).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-36",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0311",
+      "evidence": "il faut je pense une semaine ou deux semaines avant",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "068 propose de lancer la publicité une à deux semaines avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-37",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0319",
+      "evidence": "trois quatre semaines je pense quand même le temps que ça fasse le tour",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "070 propose trois à quatre semaines de publicité.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-38",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0323",
+      "evidence": "trois oui trois semaines ça ça me semble correct",
+      "type": "decision",
+      "status": "active",
+      "statement": "La publicité démarre trois semaines avant le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-39",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0351",
+      "evidence": "une réservation euh en ligne qu on peut euh qu on peut effectuer",
+      "type": "decision",
+      "status": "active",
+      "statement": "Billetterie : réservation en ligne trois semaines avant, plus un stand à l'entrée pour payer sur place.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Synthèse de 070 sans accord formel, mais reprise par 069 (t0334, t0349)."
+    },
+    {
+      "key": "c-40",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0364",
+      "evidence": "un contrôle des passes sanitaires peut-être et à_la_fois euh un plan vigipirate",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Sécurité : contrôle des passes sanitaires et plan Vigipirate, via des prestataires (vigiles).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-41",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0378",
+      "evidence": "secouriste avec euh quand même un ou deux médecins pour les cas graves",
+      "type": "action",
+      "status": "open",
+      "statement": "Prévoir des secouristes et un ou deux médecins.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-42",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0380",
+      "evidence": "on engage quelqu'un pour euh créer une billetterie en ligne",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Qui crée la billetterie en ligne : les organisateurs ou un prestataire ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-43",
+      "meeting_id": "024c_EBPH",
+      "turn": "t0383",
+      "evidence": "on peut s en occuper ça nous permet de limiter les frais",
+      "type": "answer",
+      "status": "active",
+      "statement": "Les organisateurs créeront eux-mêmes la billetterie pour limiter les frais ; 068 se porte volontaire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    }
+  ],
+  "relations": [
+    {
+      "from": "a-09",
+      "to": "a-08",
+      "relation": "answers",
+      "justification": "068 répond à la question de 070 sur l'impact des technologies."
+    },
+    {
+      "from": "b-09",
+      "to": "b-08",
+      "relation": "supersedes",
+      "justification": "Correction immédiate (« ah oui non ») : comédie et super-héros au lieu de comédie et romance."
+    },
+    {
+      "from": "b-09",
+      "to": "b-06",
+      "relation": "supersedes",
+      "justification": "La décision sur les genres écarte la combinaison historique + super-héros."
+    },
+    {
+      "from": "b-09",
+      "to": "a-10",
+      "relation": "supersedes",
+      "justification": "La décision sur les genres écarte l'horreur proposée en réunion a."
+    },
+    {
+      "from": "b-09",
+      "to": "a-05",
+      "relation": "supersedes",
+      "justification": "La décision sur les genres écarte le genre historique proposé en réunion a."
+    },
+    {
+      "from": "b-07",
+      "to": "b-09",
+      "relation": "supports",
+      "justification": "La proposition comédie-romance + super-héros est celle retenue."
+    },
+    {
+      "from": "b-14",
+      "to": "b-13",
+      "relation": "supersedes",
+      "justification": "Le choix du drive-in tranche la question du lieu face à l'art déco."
+    },
+    {
+      "from": "b-14",
+      "to": "b-02",
+      "relation": "supersedes",
+      "justification": "Le choix du drive-in écarte la petite salle familiale."
+    },
+    {
+      "from": "b-11",
+      "to": "b-14",
+      "relation": "supports",
+      "justification": "La préférence pour le plein air étaye le choix du drive-in."
+    },
+    {
+      "from": "b-12",
+      "to": "b-14",
+      "relation": "supports",
+      "justification": "L'argument covid étaye le choix du drive-in."
+    },
+    {
+      "from": "b-25",
+      "to": "b-17",
+      "relation": "supersedes",
+      "justification": "Pitch Perfect prend la place de Titanic."
+    },
+    {
+      "from": "b-25",
+      "to": "b-24",
+      "relation": "supersedes",
+      "justification": "On remplace Titanic au lieu de passer à six comédies / quatre super-héros."
+    },
+    {
+      "from": "b-30",
+      "to": "b-29",
+      "relation": "supersedes",
+      "justification": "Décision de garder Babysitting en réponse à l'idée d'en retirer un."
+    },
+    {
+      "from": "b-33",
+      "to": "b-09",
+      "relation": "supports",
+      "justification": "Le récapitulatif confirme les genres."
+    },
+    {
+      "from": "b-33",
+      "to": "b-14",
+      "relation": "supports",
+      "justification": "Le récapitulatif confirme le drive-in."
+    },
+    {
+      "from": "b-34",
+      "to": "b-15",
+      "relation": "supports",
+      "justification": "La liste finale compte cinq comédies et cinq super-héros."
+    },
+    {
+      "from": "b-36",
+      "to": "b-35",
+      "relation": "answers",
+      "justification": "Deux ou trois jours répond à la question de durée."
+    },
+    {
+      "from": "b-39",
+      "to": "b-38",
+      "relation": "answers",
+      "justification": "Entrée payante modérée répond à la question payant/gratuit."
+    },
+    {
+      "from": "c-06",
+      "to": "b-36",
+      "relation": "supersedes",
+      "justification": "Durée tranchée à cinq jours au lieu de deux-trois (évoqués en t0006)."
+    },
+    {
+      "from": "c-06",
+      "to": "c-01",
+      "relation": "supersedes",
+      "justification": "Cinq jours plutôt qu'une semaine complète."
+    },
+    {
+      "from": "c-02",
+      "to": "c-06",
+      "relation": "supports",
+      "justification": "La proposition de cinq jours est celle actée."
+    },
+    {
+      "from": "c-05",
+      "to": "c-04",
+      "relation": "answers",
+      "justification": "068 répond : même semaine."
+    },
+    {
+      "from": "c-09",
+      "to": "c-07",
+      "relation": "supersedes",
+      "justification": "Mi-juillet retenu à la place de juin."
+    },
+    {
+      "from": "c-08",
+      "to": "c-09",
+      "relation": "supports",
+      "justification": "Le risque des jours d'école motive le choix de juillet."
+    },
+    {
+      "from": "c-14",
+      "to": "c-12",
+      "relation": "supersedes",
+      "justification": "17 h retenu au lieu de 18 h."
+    },
+    {
+      "from": "c-13",
+      "to": "c-14",
+      "relation": "supports",
+      "justification": "La proposition 17 h / 21 h est celle retenue."
+    },
+    {
+      "from": "c-03",
+      "to": "b-37",
+      "relation": "supports",
+      "justification": "Même principe : film familial d'abord, puis film pour plus âgés."
+    },
+    {
+      "from": "c-18",
+      "to": "c-16",
+      "relation": "supports",
+      "justification": "Le lieu à réserver doit être un grand espace en plein air."
+    },
+    {
+      "from": "c-41",
+      "to": "c-17",
+      "relation": "supports",
+      "justification": "Secouristes et médecins précisent le coin médical."
+    },
+    {
+      "from": "c-22",
+      "to": "c-21",
+      "relation": "answers",
+      "justification": "068 prend les intervenants et prestataires."
+    },
+    {
+      "from": "c-23",
+      "to": "c-21",
+      "relation": "answers",
+      "justification": "070 prend la publicité."
+    },
+    {
+      "from": "c-26",
+      "to": "c-21",
+      "relation": "answers",
+      "justification": "069 prend la réservation du matériel."
+    },
+    {
+      "from": "c-29",
+      "to": "b-40",
+      "relation": "supports",
+      "justification": "Choix concret d'un invité, suite à l'idée d'inviter des acteurs."
+    },
+    {
+      "from": "c-32",
+      "to": "c-31",
+      "relation": "answers",
+      "justification": "Un à deux mois proposé."
+    },
+    {
+      "from": "c-33",
+      "to": "c-31",
+      "relation": "answers",
+      "justification": "Six à sept mois proposé."
+    },
+    {
+      "from": "c-35",
+      "to": "c-32",
+      "relation": "supersedes",
+      "justification": "Six à sept mois retenu au lieu d'un à deux mois."
+    },
+    {
+      "from": "c-34",
+      "to": "c-35",
+      "relation": "supports",
+      "justification": "La relance avec date butoir lève l'objection et mène à l'accord sur six-sept mois."
+    },
+    {
+      "from": "c-38",
+      "to": "c-36",
+      "relation": "supersedes",
+      "justification": "Trois semaines retenues au lieu d'une ou deux."
+    },
+    {
+      "from": "c-38",
+      "to": "c-37",
+      "relation": "supersedes",
+      "justification": "Trois semaines retenues au lieu de trois-quatre."
+    },
+    {
+      "from": "c-43",
+      "to": "c-42",
+      "relation": "answers",
+      "justification": "Les organisateurs créent la billetterie eux-mêmes."
+    }
+  ],
+  "queries": [
+    {
+      "key": "q01",
+      "about_meeting": "024c_EBPH",
+      "text": "Sur la durée du festival, qu'est-ce qui a évolué par rapport à l'estimation faite lors de la réunion sur le choix des films ?",
+      "answerable": true,
+      "qrels": {
+        "c-06": 2,
+        "b-36": 1,
+        "c-02": 1,
+        "c-05": 1,
+        "b-35": 1,
+        "c-01": 0
+      },
+      "traps": [
+        {
+          "unit": "c-01",
+          "trap": "superseded"
+        }
+      ]
+    },
+    {
+      "key": "q02",
+      "about_meeting": "024c_EBPH",
+      "text": "À quelle période de l'année le festival a-t-il été programmé ?",
+      "answerable": true,
+      "qrels": {
+        "c-09": 2,
+        "c-10": 1,
+        "c-08": 1,
+        "c-07": 0
+      },
+      "traps": [
+        {
+          "unit": "c-07",
+          "trap": "superseded"
+        }
+      ]
+    },
+    {
+      "key": "q03",
+      "about_meeting": "024c_EBPH",
+      "text": "Qui est chargé de faire la promotion de l'événement ?",
+      "answerable": true,
+      "qrels": {
+        "c-23": 2,
+        "c-21": 1,
+        "c-24": 1,
+        "c-22": 0,
+        "c-26": 0
+      },
+      "traps": [
+        {
+          "unit": "c-22",
+          "trap": "person"
+        },
+        {
+          "unit": "c-26",
+          "trap": "person"
+        }
+      ]
+    },
+    {
+      "key": "q04",
+      "about_meeting": "024c_EBPH",
+      "text": "À quelle heure débutent les projections chaque jour ?",
+      "answerable": true,
+      "qrels": {
+        "c-14": 2,
+        "c-13": 1,
+        "c-03": 1,
+        "c-12": 0
+      },
+      "traps": [
+        {
+          "unit": "c-12",
+          "trap": "superseded"
+        }
+      ]
+    },
+    {
+      "key": "q05",
+      "about_meeting": "024c_EBPH",
+      "text": "Combien de mois avant le festival faut-il commencer à démarcher les prestataires ?",
+      "answerable": true,
+      "qrels": {
+        "c-35": 2,
+        "c-33": 1,
+        "c-34": 1,
+        "c-31": 1,
+        "c-32": 0,
+        "c-38": 0
+      },
+      "traps": [
+        {
+          "unit": "c-32",
+          "trap": "superseded"
+        },
+        {
+          "unit": "c-38",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q06",
+      "about_meeting": "024c_EBPH",
+      "text": "Quelle difficulté a été soulevée concernant les célébrités à inviter ?",
+      "answerable": true,
+      "qrels": {
+        "c-27": 2,
+        "c-28": 1,
+        "c-29": 1,
+        "c-30": 1,
+        "b-40": 0
+      },
+      "traps": [
+        {
+          "unit": "b-40",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q07",
+      "about_meeting": "024c_EBPH",
+      "text": "Comment les spectateurs pourront-ils acheter leurs places ?",
+      "answerable": true,
+      "qrels": {
+        "c-39": 2,
+        "b-39": 1,
+        "b-38": 1,
+        "c-43": 0,
+        "c-42": 0
+      },
+      "traps": [
+        {
+          "unit": "c-43",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-42",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q08",
+      "about_meeting": "024c_EBPH",
+      "text": "Quel budget a été prévu pour louer le terrain du drive-in ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    }
+  ],
+  "speaker_names": {
+    "068": "melvin",
+    "069": "laetitia",
+    "070": "inconnu (non nommée)"
+  },
+  "notes": "Réunions a et b en ASR : titres déformés (« driving » = drive-in, « le seating » = Babysitting, « peach perfect » = Pitch Perfect, « caplenay » non interprété). Passage « on a les toilettes » (b t0088, film surnaturel écarté) non annoté car illisible. Identités : 069 = laetitia et 068 = melvin d'après les tours de parole annoncés (a t0007, t0016, t0037 ; b t0042). Jours de la semaine (c t0065-t0087) : plusieurs options sans décision nette, seule la dernière (mardi-samedi) est annotée en proposed. Coin médical, secouristes et passes sanitaires sont de la logistique, pas des données de santé personnelles. La remarque finale « du moment que ça reste fictif » (c t0384) n'est pas annotée."
+}
