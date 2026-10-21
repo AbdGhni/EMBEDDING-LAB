@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.1**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.2**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.2 | 2026-10-21 | texte indexé d'une unité B-SYN = titre de réunion + locuteur + extrait (`retrieval_text`) ; effectifs réels de B-SYN | sans contexte, une phrase comme « je me charge du dossier » ne dit ni le projet ni la personne : le piège « autre projet » était indiscernable. Aucun modèle évalué : non post hoc. |
 | 1.1 | 2026-10-21 | taille de B-SYN fixée ; H3 descriptive ; origine des pièges du test définie ; test de permutation par grappes ; règles graines, H5 et sous-ensemble relu | relecture indépendante `mle-reviewer` (ECC 2.2.3), `docs/reviews/EL-009-mle-reviewer.md`. Aucun accès au test n'avait eu lieu : modification **non** post hoc. |
 
 ## 1. Question et hypothèses falsifiables
@@ -37,7 +38,7 @@ Les requêtes de B-SYN test sont écrites avec des familles de formulations **di
 
 ### Unités de recherche et corpus de recherche
 
-- Unité de recherche (« document ») : une unité sémantique (`unit.schema.json`) représentée par `evidence.text`, éventuellement avec contexte (E5).
+- Unité de recherche (« document ») : une unité sémantique (`unit.schema.json`) représentée par `retrieval_text` si présent, sinon `evidence.text`. Pour B-SYN : `Point projet <nom> — <locuteur> : <extrait>`. Pour B-REAL : à définir en EL-007b sur le même principe (identifiant de réunion + locuteur + extrait), E5 testant l'ajout du tour précédent.
 - Corpus de recherche d'une requête : **toutes** les unités du split concerné (tous projets confondus pour B-SYN, toutes réunions du split pour B-REAL). Les autres projets servent donc de distracteurs.
 - Pertinence graduée : 2 = preuve directe et en vigueur ; 1 = utile mais incomplète ou historique (ex. décision remplacée pour une question « historique ») ; 0 = non pertinente, y compris les pièges.
 - Requêtes multi-positives autorisées. Les requêtes **sans réponse** sont exclues des métriques de recherche et mesurées séparément (abstention).

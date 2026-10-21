@@ -209,3 +209,33 @@ EL-007c (générateur B-SYN) puis EL-007b (annotation B-REAL), puis E0 et E1.
 ### Suite
 
 EL-007c : générateur B-SYN selon le protocole v1.1.
+
+---
+
+## 2026-10-21 · Session S07 · EL-007c (B-SYN)
+
+- **Début** : 2026-10-21T15:30+02:00 · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-007c-bsyn` (base `el-009-protocol` @ `ea08e61` ; le commit `76e2533` de l'étudiant, qui ajoute le rapport complet de relecture, n'est pas encore poussé)
+- **Exigences couvertes** : D-02 à D-08, D-11, D-12 (cas difficiles construits), X-E1/E2/E3 (préparation)
+- **Agent / capacité** : orchestrateur seul.
+
+### Actions et résultats
+
+1. Générateur `embedding_lab.synth` (patrons, scénarios, pièges par construction) + `scripts/make_bsyn.py` + 8 tests. 57 tests verts.
+2. Bugs trouvés pendant la mise au point (sur le projet `bs-test-000`, voir DATA_CARD § 2 quater) : montant et date non substitués dans les phrases « validé » des scénarios S4/T3 ; accord « est déchargé ». Corrigés ; contrôle automatique ajouté (le montant des métadonnées doit apparaître dans le texte).
+3. Défaut de conception corrigé : sans titre de réunion ni locuteur, le piège « autre projet » était indiscernable → `retrieval_text` ; protocole v1.2.
+4. Génération : 320 projets, 2 529 unités, 2 638 requêtes, 3 961 triplets ; 0 contrat invalide ; 0 entité partagée ; 4-grammes test/train : unités 0 %, requêtes 1,8 %. Deuxième génération identique à l'octet près.
+
+### Gel du test B-SYN (avant toute évaluation)
+
+| Fichier | SHA-256 |
+|---|---|
+| `data/bsyn/test/queries.jsonl` | `7c669b293e017b569bc65d8a0015a3ab350776a74cf8b554ceff2fe319dd7c8e` |
+| `data/bsyn/test/qrels.json` | `ecb0e5b06ef155ec39cefecd0e48e0d0af9b5cebecf2ac8de7189cb6bcac76e6` |
+| `data/bsyn/test/triplets.jsonl` | `c48ba6a7c986b1071c58918fa82f648b90a70b0d3a292136d2e3eddc529cb37f` |
+| `data/bsyn/test/units.jsonl` | `596ddafe559641e45a48c954c0bc1945e8a08119e76a07b5a8ddb912db7d9eff` |
+| `data/bsyn/manifest.json` | `050f8e7d43861a0e81a968339b4816fd81bb25165cbf24f3e093448c3dcd7dae` |
+
+### Suite
+
+EL-007b (B-REAL : unités et requêtes SUMM-RE) puis EL-010 (point d'entrée commun d'évaluation + BM25).

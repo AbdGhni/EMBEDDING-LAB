@@ -24,6 +24,7 @@
     "due_date": {"type": ["string", "null"], "format": "date", "description": "Échéance"},
     "event_date": {"type": ["string", "null"], "format": "date", "description": "Date de l'événement décrit (ex. date de lancement)"},
     "amount": {"type": ["string", "null"], "description": "Montant tel qu'énoncé, non converti"},
+    "retrieval_text": {"type": "string", "minLength": 1, "description": "Texte indexé pour la recherche : extrait + contexte de la source (ex. titre de réunion). Absent = evidence.text"},
     "evidence": {
       "type": "object",
       "additionalProperties": false,

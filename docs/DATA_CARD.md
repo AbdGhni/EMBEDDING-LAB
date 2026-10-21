@@ -80,6 +80,30 @@ Contrôles (`leakage` dans le fichier) :
 
 Des séquences comme `sil w_1 w_2 w_3 w_4 w_5 sil` (vraisemblablement des passages masqués ou inintelligibles) touchent 385 tours ASR sur 71 571 (0,54 %) et 34 tours manuels sur 29 080 (0,12 %), dans 9 réunions. Elles seront exclues des unités et des requêtes (EL-007b) et neutralisées pour BM25.
 
+## 2 quater. B-SYN (EL-007c)
+
+Générateur : `src/embedding_lab/synth/` ; commande `uv run python -I scripts/make_bsyn.py --out data/bsyn` (graines 2024 / 2025 / 2026). Données entièrement fictives produites par notre code : aucune contrainte de licence tierce ; elles restent hors Git car régénérables à l'identique (vérifié : deuxième génération identique à l'octet près). Manifeste : `data/bsyn/manifest.json` (SHA-256 `050f8e7d…`).
+
+| Split | Projets | Réunions | Unités | Requêtes (avec réponse) | Triplets à piège |
+|---|---|---|---|---|---|
+| train | 240 | 720 | 1 897 | 2 049 (1 920) | 3 104 |
+| val | 32 | 96 | 255 | 175 (160) | 235 |
+| test | 48 | 144 | 377 | 414 (384) | 622 |
+
+Pièges du test, par type : status 172, topic_only 196 (dont 48 d'un autre projet), superseded 82, person 54, negation 52, date 48, condition 18.
+
+Construction :
+- Trois objets par projet (budget, date de lancement, dossier), chacun avec un scénario tiré au sort (5, 4 et 3 scénarios). Relations générées : `supersedes`, `contradicts` (conflit non résolu), `answers`, `unrelated`.
+- 16 types d'unités × 4 familles de formulations : familles 0–1 en train, 2 en val, 3 en test. 6 types de requêtes × 5 familles : 0–1 train, 2 val, 3–4 test. Montants disjoints (milliers ≡ 0, 1, 2 mod 3), années disjointes (2024, 2025, 2026), prénoms et noms de projets disjoints ; « Atlas » réservé à la démo.
+- Contrôles : 0 prénom et 0 projet partagés entre splits ; 4-grammes des unités de test présents dans le train (entités et nombres retirés) : **0 %** ; requêtes : 1,8 %.
+- Pertinence : 2 = réponse en vigueur, 1 = utile (historique, conflit non résolu à signaler), 0 = piège. Requêtes sans réponse : marquées `answerable: false`, sans pertinences.
+
+Limites :
+- Texte écrit, assez court et régulier : bien plus facile que l'oral de SUMM-RE.
+- Un seul auteur (Claude) pour toutes les familles ; les types de pièges sont identiques entre train et test.
+- Accords grammaticaux approximatifs possibles (prénoms sans genre).
+- Pendant la mise au point du générateur, l'orchestrateur a affiché les unités et requêtes d'un projet de test (`bs-test-000`) pour corriger deux bugs de rendu. Aucun modèle n'a été évalué et rien n'a été ajusté en fonction d'un score.
+
 ## 3. Stratégie retenue (D-008)
 
 1. **Test réel indépendant** : réunions transcrites à la main de SUMM-RE, groupes d'expérience entiers, **jamais vus à l'entraînement**. Unités, requêtes et pertinences annotées (pré-annotation LLM provisoire + échantillon relu par l'étudiant).
