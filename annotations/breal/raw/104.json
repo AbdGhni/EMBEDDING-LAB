@@ -1,0 +1,1898 @@
+{
+ "group_id": "104",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "104a_EARH",
+   "turn": "t0006",
+   "evidence": "mon sujet porte sur les intelligences artificielles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Mallory présente le sujet des intelligences artificielles et de leurs usages (art, jeux, travail).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "104a_EARH",
+   "turn": "t0006",
+   "evidence": "kasparov s' était fait battre par une intelligence artificielle",
+   "type": "fact",
+   "status": "active",
+   "statement": "Exemple cité : Kasparov a été battu aux échecs par une intelligence artificielle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "104a_EARH",
+   "turn": "t0009",
+   "evidence": "les influenceurs et les influenceuses alors du_coup c'est le nouveau terme qui est utilisé pour parler des personnes de notoriété publique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ezi présente le sujet des influenceurs, personnes de notoriété publique qui ont une communauté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "104a_EARH",
+   "turn": "t0012",
+   "evidence": "en france je pense que ça serait squeezie mcfly carlito",
+   "type": "fact",
+   "status": "active",
+   "statement": "Influenceurs français cités en exemple : Squeezie, McFly et Carlito.",
+   "owner": null,
+   "mentioned_people": [
+    "squeezie",
+    "mcfly",
+    "carlito"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "104a_EARH",
+   "turn": "t0019",
+   "evidence": "moi je vais vous parler des réseaux sociaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Elia présente le sujet des réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "104a_EARH",
+   "turn": "t0030",
+   "evidence": "le thème que je voulais aborder c'est c'est moi c'est plutôt les vidéos sur internet",
+   "type": "fact",
+   "status": "active",
+   "statement": "Florent présente le sujet des vidéos sur internet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "104a_EARH",
+   "turn": "t0040",
+   "evidence": "dailymotion qui est français d'ailleurs",
+   "type": "fact",
+   "status": "active",
+   "statement": "Dailymotion est une plateforme vidéo française, en recul.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "104a_EARH",
+   "turn": "t0072",
+   "evidence": "ben meta meta racheté par elon musk y' a pas si longtemps",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Affirmation selon laquelle Meta aurait été racheté par Elon Musk.",
+   "owner": null,
+   "mentioned_people": [
+    "elon musk"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Affirmation erronée, corrigée dans la même réunion (a-09)."
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "104a_EARH",
+   "turn": "t0087",
+   "evidence": "j ai vérifié elon musk en_effet n' a pas du tout racheté méta",
+   "type": "fact",
+   "status": "active",
+   "statement": "Après vérification : Elon Musk n'a pas racheté Meta (il a racheté Twitter).",
+   "owner": null,
+   "mentioned_people": [
+    "elon musk"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "104a_EARH",
+   "turn": "t0084",
+   "evidence": "tiktok voilà même si c'est interdit au_moins de treize ans",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les enfants utilisent TikTok bien que ce soit interdit aux moins de treize ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "104a_EARH",
+   "turn": "t0111",
+   "evidence": "tiktok va peut-être remplacer youtube un jour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Hypothèse : TikTok pourrait un jour remplacer YouTube.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "104a_EARH",
+   "turn": "t0112",
+   "evidence": "tiktok c'est spécialisé dans les vidéos courtes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objection : TikTok est spécialisé dans les vidéos courtes, contrairement à YouTube (10 s à plus d'une heure).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "104a_EARH",
+   "turn": "t0137",
+   "evidence": "le problème va être du_coup sur le manque de crédit et de sollicitation des artistes dans lesquels les dessins sont puisés",
+   "type": "risk",
+   "status": "active",
+   "statement": "Problème moral des IA de dessin : les artistes dont les œuvres servent à l'entraînement ne sont ni crédités ni sollicités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "104a_EARH",
+   "turn": "t0156",
+   "evidence": "un credit roll finalement ou euh une compensation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : créditer les artistes (credit roll) ou les compenser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "104a_EARH",
+   "turn": "t0165",
+   "evidence": "et comment on est censé l' accréditer c'est ça que je demande",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : comment créditer concrètement l'auteur d'une image utilisée par une IA ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "104a_EARH",
+   "turn": "t0166",
+   "evidence": "ben quand c'est pris depuis artstation et deviantart où il_y a les crédits directement des gens",
+   "type": "answer",
+   "status": "active",
+   "statement": "Réponse : sur ArtStation et DeviantArt, le créateur est indiqué directement avec l'image.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "104a_EARH",
+   "turn": "t0174",
+   "evidence": "sans réseaux sociaux y' aurait pas d' influenceurs",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avis d'Elia : sans réseaux sociaux il n'y aurait pas d'influenceurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "104a_EARH",
+   "turn": "t0176",
+   "evidence": "qu' on pourrait considérer les personnalités télé comme des influenceurs aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les personnalités de télévision (ex. Michel Drucker) peuvent aussi être vues comme des influenceurs.",
+   "owner": null,
+   "mentioned_people": [
+    "michel drucker"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "104a_EARH",
+   "turn": "t0182",
+   "evidence": "il faudrait qu' il_y ait plus de contrôle parental",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faudrait davantage de contrôle parental sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "104a_EARH",
+   "turn": "t0199",
+   "evidence": "une ia pourrait vérifier l' âge de ses utilisateurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : une IA pourrait vérifier l'âge des utilisateurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "104a_EARH",
+   "turn": "t0200",
+   "evidence": "faudrait juste mettre notre carte d' identité",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : demander la carte d'identité pour vérifier l'âge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "104a_EARH",
+   "turn": "t0213",
+   "evidence": "les gens ont remarqué que faire des vidéos avec elsa de la reine des neiges et de spiderman ça faisait des vues",
+   "type": "fact",
+   "status": "active",
+   "statement": "Elsagate : des vidéos avec Elsa et Spiderman inadaptées aux enfants ont fini sur YouTube Kids.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "104a_EARH",
+   "turn": "t0215",
+   "evidence": "quand youtube s'est fait lâcher par beaucoup de sponsors",
+   "type": "fact",
+   "status": "active",
+   "statement": "Conséquence (« adpocalypse ») : YouTube a été lâché par beaucoup de sponsors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "104b_EADH",
+   "turn": "t0012",
+   "evidence": "qui est-ce_qu' il faudrait + inviter et par_rapport_à quel sujet",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question d'ouverture : qui inviter à l'événement et sur quel sujet ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "104b_EADH",
+   "turn": "t0020",
+   "evidence": "on a un budget un petit peu ric-rac",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le budget de l'événement est serré.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "104b_EADH",
+   "turn": "t0020",
+   "evidence": "prendre deux trois personnes pas très connues par exemple de notre entourage",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option simple : inviter deux ou trois personnes peu connues de l'entourage (par ex. amis artistes).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "104b_EADH",
+   "turn": "t0022",
+   "evidence": "peut-être des youtubers qui sont tombés en en déséitude + donc par_exemple frigiel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option : inviter de jeunes youtubeurs ou des youtubeurs tombés en désuétude, comme Frigiel.",
+   "owner": null,
+   "mentioned_people": [
+    "frigiel"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "104b_EADH",
+   "turn": "t0034",
+   "evidence": "ben elon musk",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'inviter Elon Musk.",
+   "owner": null,
+   "mentioned_people": [
+    "elon musk"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "104b_EADH",
+   "turn": "t0038",
+   "evidence": "ça coûterait très très très cher et il sait pas de quoi il parle",
+   "type": "risk",
+   "status": "active",
+   "statement": "Objection : Elon Musk coûterait très cher et n'est pas spécialiste du sujet.",
+   "owner": null,
+   "mentioned_people": [
+    "elon musk"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "104b_EADH",
+   "turn": "t0042",
+   "evidence": "notre but c'est ça serait plus de faire quelque_chose de culturel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ezi propose que l'événement ait un but plutôt culturel que lucratif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "104b_EADH",
+   "turn": "t0051",
+   "evidence": "moi je propose d' être voilà un petit peu lucratif sans être dans dans l' abus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose un événement un peu lucratif, sans abus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "104b_EADH",
+   "turn": "t0073",
+   "evidence": "si sinon on va en amérique et on fait mister beast",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition alternative : organiser l'événement en Amérique avec MrBeast.",
+   "owner": null,
+   "mentioned_people": [
+    "mrbeast"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "104b_EADH",
+   "turn": "t0098",
+   "evidence": "je proposerais euh pour ma part d' inviter le joueur du grenier",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose d'inviter le Joueur du Grenier.",
+   "owner": null,
+   "mentioned_people": [
+    "joueur du grenier"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "104b_EADH",
+   "turn": "t0115",
+   "evidence": "on reste en france",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement se fera en France (pas en Amérique), faute de moyens.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 215 au tour suivant (« ouais ») ; justification aux tours t0109-t0114."
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "104b_EADH",
+   "turn": "t0130",
+   "evidence": "lucrative squeezie ouais meilleure tête d' affiche",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Squeezie serait la meilleure tête d'affiche pour un événement lucratif.",
+   "owner": null,
+   "mentioned_people": [
+    "squeezie"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "104b_EADH",
+   "turn": "t0134",
+   "evidence": "vous savez qu' il a une marque de vêtements + yoko",
+   "type": "fact",
+   "status": "active",
+   "statement": "Squeezie possède une marque de vêtements (Yoko).",
+   "owner": null,
+   "mentioned_people": [
+    "squeezie"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "104b_EADH",
+   "turn": "t0137",
+   "evidence": "suffirait d' en faire une venue artistique un espèce de défilé de mode",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : faire de l'événement un défilé de mode de la marque de Squeezie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "104b_EADH",
+   "turn": "t0145",
+   "evidence": "l évènement c'est quoi en soi",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : en quoi consiste concrètement l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "104b_EADH",
+   "turn": "t0156",
+   "evidence": "c'est pour ça que je propose que ce soit en même temps un défilé de mode comme ça les gens viendraient voir ce défilé voir la nouvelle collection",
+   "type": "answer",
+   "status": "active",
+   "statement": "Réponse : un défilé de mode où le public vient voir la nouvelle collection et acheter des vêtements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "104b_EADH",
+   "turn": "t0200",
+   "evidence": "l' événement serait un défilé et une personne",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement sera un défilé avec un seul invité principal.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé par 223 (« oui on est dedans »)."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "104b_EADH",
+   "turn": "t0209",
+   "evidence": "oui du_coup on a choisi un seul thème c'est influenceurs",
+   "type": "decision",
+   "status": "active",
+   "statement": "Thème unique retenu : les influenceurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "104b_EADH",
+   "turn": "t0216",
+   "evidence": "d' inviter squeezie donc déjà parce_que c'est le plus connu",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : inviter Squeezie, parce que c'est l'influenceur le plus connu en France.",
+   "owner": null,
+   "mentioned_people": [
+    "squeezie"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "104b_EADH",
+   "turn": "t0252",
+   "evidence": "il faudrait décider d' une date pour notre événement",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : à quelle date ou période organiser l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "104b_EADH",
+   "turn": "t0283",
+   "evidence": "ouais printemps c'est mieux + pendant les vacances d' avril",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elia propose le printemps, pendant les vacances d'avril.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "104b_EADH",
+   "turn": "t0304",
+   "evidence": "ceux qui ont des allergies voudront pas sortir",
+   "type": "risk",
+   "status": "active",
+   "statement": "Argument contre le printemps : les personnes allergiques au pollen sortiront moins.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "104b_EADH",
+   "turn": "t0309",
+   "evidence": "sortir pourquoi pas des pulls basés sur ces threads horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : vendre des pulls basés sur les threads horreur de Squeezie, à l'approche d'Halloween.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "104b_EADH",
+   "turn": "t0311",
+   "evidence": "on pourrait faire des lectures de threads horreur en live",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : lectures de threads horreur en direct.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "104b_EADH",
+   "turn": "t0317",
+   "evidence": "je proposerais que ce soit en intérieur plutôt qu' en extérieur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mallory propose un événement en intérieur à cause de la température.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "104b_EADH",
+   "turn": "t0321",
+   "evidence": "tous d'accord pour ça",
+   "type": "decision",
+   "status": "active",
+   "statement": "Accord : l'événement aura lieu en intérieur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "« ça » renvoie à la proposition d'intérieur de t0317 (b-27)."
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "104b_EADH",
+   "turn": "t0324",
+   "evidence": "donc on garde automne + plutôt de quel mois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : l'événement aura lieu en automne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "104b_EADH",
+   "turn": "t0325",
+   "evidence": "vacances de la toussaint",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elia propose les vacances de la Toussaint.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "104b_EADH",
+   "turn": "t0337",
+   "evidence": "on fait ça dans quelle partie de la france",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : dans quelle ville française organiser l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "104b_EADH",
+   "turn": "t0338",
+   "evidence": "paris + c'est le moment c'est l' endroit où il_y a le plus de monde",
+   "type": "answer",
+   "status": "active",
+   "statement": "Réponse : Paris, là où il y a le plus de monde (et où vit Squeezie, pas de déplacement à payer).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "104b_EADH",
+   "turn": "t0347",
+   "evidence": "aux accords hôtel arena",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elia propose l'Accor Hotel Arena comme salle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "104b_EADH",
+   "turn": "t0348",
+   "evidence": "nous avions décidé donc + défilé de mode euh dédicaces",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif des activités décidées : défilé de mode et dédicaces (plus lecture de threads horreur en live ajoutée par Ezi).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "104b_EADH",
+   "turn": "t0392",
+   "evidence": "on est pas là pour la bienveillance on est là pour la thune",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le but assumé de l'événement est de gagner de l'argent, pas de faire du caritatif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par 215 et 223 (« oui ») en réponse à « est-ce qu'on est tous d'accord » (t0401). Ton de jeu de rôle."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "104b_EADH",
+   "turn": "t0412",
+   "evidence": "on peut mettre un tattoo shop",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un stand de tatouage (et tatouages temporaires) sur l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "104b_EADH",
+   "turn": "t0440",
+   "evidence": "le sushi et la nourriture japonaise",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de restauration : sushis et nourriture japonaise, peu chers à produire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "104b_EADH",
+   "turn": "t0492",
+   "evidence": "on pourrait avoir un parc à chiens",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un parc à chiens à côté de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "104b_EADH",
+   "turn": "t0503",
+   "evidence": "donc on oublie l' idée du chien",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'idée du parc à chiens est abandonnée (nettoyage, événement en intérieur).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "104b_EADH",
+   "turn": "t0550",
+   "evidence": "enfin je pense qu' on est d'accord",
+   "type": "decision",
+   "status": "active",
+   "statement": "Accord sur l'Accor Hotel Arena comme lieu de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "L'objet de l'accord se déduit des tours t0545-t0548 (« l'accord hôtel arena c'est pas mal »)."
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "104b_EADH",
+   "turn": "t0576",
+   "evidence": "ouais à un euro",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire payer l'accès aux toilettes, à un euro.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "un euro",
+   "assertion": "extracted",
+   "notes": "Mallory évoque ensuite cinquante centimes (t0577)."
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "104b_EADH",
+   "turn": "t0611",
+   "evidence": "c'est illégal tu peux pas dire tu rentres pas là si t' as un sac",
+   "type": "risk",
+   "status": "active",
+   "statement": "Elia objecte qu'interdire l'entrée aux personnes avec un sac serait illégal.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0010",
+   "evidence": "on a décidé de l' événement on a décidé de ce qu' on allait faire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : l'événement et son contenu ont été décidés globalement à la réunion précédente.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0018",
+   "evidence": "je propose que ce soit elea qui qui appelle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose qu'Elia appelle Squeezie.",
+   "owner": null,
+   "mentioned_people": [
+    "elea"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0025",
+   "evidence": "au_moins je peux essayer",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Elia accepte d'essayer de contacter Squeezie.",
+   "owner": "215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé en t0483-t0484 (« c'était elia qui appelait la prod » / « ouais je relance »)."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0034",
+   "evidence": "voilà donc à la boîte de production au final",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le contact se fera auprès de la boîte de production de Squeezie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0041",
+   "evidence": "à corotel arena",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel du lieu choisi : l'Accor Hotel Arena, à Paris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR déformée de « Accor Hotel Arena »."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0093",
+   "evidence": "tout ce qui est euh street food etcetera tu devras t' en occuper",
+   "type": "action",
+   "status": "active",
+   "statement": "Mallory s'occupe de la street food.",
+   "owner": "213",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 223 (« monsieur mallory devrait s'en occuper »), accepté par 213 (« d'accord »)."
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0113",
+   "evidence": "on doit quand même dire à quoi on veut que ça ressemble",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut préciser l'aménagement de la salle (toile, gradins) même si ce n'est pas l'équipe qui installe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0117",
+   "evidence": "je pense mettre quelqu'un sur le terrain pour représenter",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : mettre quelqu'un sur place pour représenter l'association et superviser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0151",
+   "evidence": "eddy mannequin pour le défilé",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose qu'Eddy soit mannequin pour le défilé.",
+   "owner": null,
+   "mentioned_people": [
+    "eddy"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0340",
+   "evidence": "et dit il est mannequin je rappelle",
+   "type": "decision",
+   "status": "active",
+   "statement": "Rappel : Eddy est mannequin pour le défilé.",
+   "owner": "223",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Eddy = 223 (incertain) ; il avait accepté (« veux bien être en 1m85 »)."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0342",
+   "evidence": "et il doit aussi appeler l' hôtel",
+   "type": "action",
+   "status": "active",
+   "statement": "Eddy doit aussi appeler l'hôtel (la salle).",
+   "owner": "223",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "223 avait dit « je vais bien appeler l'hôtel » (t0065) ; attribution à 223 incertaine."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0199",
+   "evidence": "comment est-ce_qu' on fait connaître l' événement est-ce qu' on fait tout par internet",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : comment faire connaître l'événement, tout par internet ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0203",
+   "evidence": "génial moi je ferais tout sur internet",
+   "type": "answer",
+   "status": "active",
+   "statement": "Elia ferait toute la communication sur internet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0204",
+   "evidence": "on peut par_exemple prendre l' exemple de mc donald",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose une campagne sur tous les supports (affiches, télé, internet) comme McDonald's.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0207",
+   "evidence": "c'est beaucoup trop cher",
+   "type": "risk",
+   "status": "active",
+   "statement": "Objection : une campagne publicitaire serait beaucoup trop chère.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0212",
+   "evidence": "autant tout miser sur lui qu il le mette sur twitter instagram sur sa chaîne youtube",
+   "type": "decision",
+   "status": "active",
+   "statement": "La promotion reposera sur Squeezie lui-même (Twitter, Instagram, YouTube).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par 215 et 216."
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0216",
+   "evidence": "d'ailleurs on fait quel pourcentage pour lui sept pourcents",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mallory propose de reverser sept pour cent (de l'entrée) à Squeezie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "sept pourcents",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0229",
+   "evidence": "sept pourcents c'est très peu",
+   "type": "risk",
+   "status": "active",
+   "statement": "Objection : sept pour cent c'est très peu, l'événement reposant sur sa présence.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0240",
+   "evidence": "on peut prendre soixante_dix au_moins sur les sushis",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ezi propose de prendre au moins soixante-dix pour cent sur les ventes de sushis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "soixante_dix",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0245",
+   "evidence": "je rappelle qu' on est une association donc à but non lucratif",
+   "type": "fact",
+   "status": "active",
+   "statement": "Florent rappelle que l'organisateur est une association à but non lucratif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0255",
+   "evidence": "on lui laisse cent pourcents sur les vêtements on prend cent pourcents sur l' entrée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Partage proposé : 100 % des vêtements pour Squeezie, 100 % de l'entrée pour l'équipe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cent pourcents",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0269",
+   "evidence": "on peut faire payer le stand mais ça sera pas un pourcentage ça sera un montant fixe",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire payer l'emplacement du stand de vêtements à un montant fixe plutôt qu'un pourcentage.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0285",
+   "evidence": "on peut faire une loterie certains vêtements collecteurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : une loterie pour gagner des vêtements collector.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0288",
+   "evidence": "cinq euros pour jouer à un loto",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Participation à la loterie fixée à cinq euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinq euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0296",
+   "evidence": "dix pourcents de gens qui jouent ça nous fait quand même déjà 20 000 euros",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Estimation : si dix pour cent des visiteurs jouent, la loterie rapporterait 20 000 euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "20 000 euros",
+   "assertion": "extracted",
+   "notes": "Calcul fondé sur un nombre de places mal transcrit (« 40 000 000 ») ; estimation non fiable."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0323",
+   "evidence": "on disait création d' une tombola l'un d' entre nous qui s' occupe du tirage au sort",
+   "type": "decision",
+   "status": "active",
+   "statement": "Création d'une tombola, avec un membre de l'équipe chargé du tirage au sort.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0637",
+   "evidence": "moi je suis la main qui va tirer au sort",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Elia s'occupe du tirage au sort de la tombola.",
+   "owner": "215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Elle s'était déjà désignée en t0322-t0324 (« c'est moi »)."
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0363",
+   "evidence": "et il faut réserver la salle maintenant",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut réserver la salle dès maintenant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0374",
+   "evidence": "mais le plus urgent c'est la salle surtout",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réservation de la salle est la priorité, avant l'appel à la production.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0381",
+   "evidence": "toussaint deux_mille_vingt_quatre ou on se laisse un_peu_plus_de temps",
+   "type": "question",
+   "status": "open",
+   "statement": "Question : l'événement aura-t-il lieu à la Toussaint 2023 ou 2024 ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas de réponse tranchée : 2023 et 2024 restent en concurrence."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0382",
+   "evidence": "oui non c'est deux_mille_vingt_trois",
+   "type": "answer",
+   "status": "active",
+   "statement": "Elia répond que c'est la Toussaint 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0387",
+   "evidence": "il_y a moyen que ce soit deux_mille_vingt_quatre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mallory estime que ce pourrait être 2024, Squeezie ayant peut-être déjà un événement en 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0402",
+   "evidence": "ce sera le vingt_six c'est un samedi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date retenue : le samedi 26 octobre, le week-end avant Halloween.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord d'Ezi (« ça ça peut le faire oui ») ; l'année reste ambiguë (c-30)."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0430",
+   "evidence": "on pourra jamais booker squeezie sur deux jours",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : impossible de réserver Squeezie sur deux jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0463",
+   "evidence": "une demi journée donc de 11h à 23h",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Horaires envisagés : de 11 h à 23 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas d'accord explicite des autres participants."
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0486",
+   "evidence": "prevoir deux trois deux trois semaines peut-être avant voir différent street food",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir deux ou trois semaines avant de rencontrer et goûter différentes street foods.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0500",
+   "evidence": "je peux je peux les contacter",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Ezi s'engage à contacter les tatoueurs.",
+   "owner": "223",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0544",
+   "evidence": "est-ce qu' on aura un événement d' ouverture à proposer",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : faut-il un événement d'ouverture ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0553",
+   "evidence": "happening avec bigflo et oli c'est trop cher",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un happening d'ouverture avec Bigflo et Oli serait trop cher.",
+   "owner": null,
+   "mentioned_people": [
+    "bigflo et oli"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "104c_EAPH",
+   "turn": "t0558",
+   "evidence": "un feu d' artifice c'est raisonnable",
+   "type": "answer",
+   "status": "active",
+   "statement": "Mallory juge qu'un feu d'artifice d'ouverture est raisonnable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-09",
+   "to": "a-08",
+   "relation": "supersedes",
+   "justification": "Correction explicite après vérification (« j'ai vérifié ... n'a pas du tout racheté méta »)."
+  },
+  {
+   "from": "a-16",
+   "to": "a-15",
+   "relation": "answers",
+   "justification": "ArtStation/DeviantArt donnent le créateur : réponse à « comment on est censé l'accréditer »."
+  },
+  {
+   "from": "a-12",
+   "to": "a-11",
+   "relation": "contradicts",
+   "justification": "TikTok spécialisé dans le court s'oppose à l'idée qu'il remplace YouTube (« tu compares l'incomparable »)."
+  },
+  {
+   "from": "a-21",
+   "to": "a-20",
+   "relation": "supports",
+   "justification": "La carte d'identité précise le moyen de vérifier l'âge."
+  },
+  {
+   "from": "b-12",
+   "to": "b-09",
+   "relation": "supersedes",
+   "justification": "« on reste en france » tranche la question France/Amérique ouverte par la proposition MrBeast."
+  },
+  {
+   "from": "b-21",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "La décision d'inviter Squeezie tranche la question de l'invité (Joueur du Grenier écarté)."
+  },
+  {
+   "from": "b-21",
+   "to": "b-05",
+   "relation": "supersedes",
+   "justification": "La décision d'inviter Squeezie tranche la question de l'invité (Elon Musk écarté)."
+  },
+  {
+   "from": "b-21",
+   "to": "b-04",
+   "relation": "supersedes",
+   "justification": "La décision d'inviter Squeezie tranche la question de l'invité (youtubeurs en désuétude écartés)."
+  },
+  {
+   "from": "b-21",
+   "to": "b-03",
+   "relation": "supersedes",
+   "justification": "La décision d'inviter une personnalité très connue écarte l'option de personnes peu connues."
+  },
+  {
+   "from": "b-21",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "La décision d'inviter Squeezie répond à « qui faudrait-il inviter »."
+  },
+  {
+   "from": "b-21",
+   "to": "b-13",
+   "relation": "supports",
+   "justification": "Confirme la proposition de Squeezie comme tête d'affiche."
+  },
+  {
+   "from": "b-06",
+   "to": "b-05",
+   "relation": "contradicts",
+   "justification": "Objection de coût et de compétence opposée à la proposition Elon Musk."
+  },
+  {
+   "from": "b-17",
+   "to": "b-16",
+   "relation": "answers",
+   "justification": "Le défilé de mode répond à « l'événement c'est quoi en soi »."
+  },
+  {
+   "from": "b-19",
+   "to": "b-17",
+   "relation": "supports",
+   "justification": "La décision « un défilé et une personne » confirme la réponse sur le défilé."
+  },
+  {
+   "from": "b-20",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "Le thème « influenceurs » répond au volet « par rapport à quel sujet »."
+  },
+  {
+   "from": "b-28",
+   "to": "b-27",
+   "relation": "supports",
+   "justification": "Accord explicite (« tous d'accord pour ça ») sur l'intérieur."
+  },
+  {
+   "from": "b-29",
+   "to": "b-23",
+   "relation": "supersedes",
+   "justification": "« on garde automne » tranche la question de la saison contre le printemps proposé."
+  },
+  {
+   "from": "b-29",
+   "to": "b-22",
+   "relation": "answers",
+   "justification": "L'automne répond à la question de la date."
+  },
+  {
+   "from": "b-24",
+   "to": "b-23",
+   "relation": "contradicts",
+   "justification": "Argument des allergies opposé au printemps."
+  },
+  {
+   "from": "b-32",
+   "to": "b-31",
+   "relation": "answers",
+   "justification": "Paris répond à « dans quelle partie de la France »."
+  },
+  {
+   "from": "b-40",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "L'accord final confirme la proposition de l'Accor Hotel Arena."
+  },
+  {
+   "from": "b-34",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Le récapitulatif des activités confirme le défilé et les dédicaces."
+  },
+  {
+   "from": "b-35",
+   "to": "b-07",
+   "relation": "supersedes",
+   "justification": "La décision « on est là pour la thune », approuvée par tous, tranche contre le but culturel."
+  },
+  {
+   "from": "b-35",
+   "to": "b-08",
+   "relation": "supports",
+   "justification": "Va dans le sens d'un événement lucratif."
+  },
+  {
+   "from": "b-39",
+   "to": "b-38",
+   "relation": "supersedes",
+   "justification": "« on oublie l'idée du chien » abandonne explicitement le parc à chiens."
+  },
+  {
+   "from": "c-03",
+   "to": "c-02",
+   "relation": "supports",
+   "justification": "Elia accepte la proposition de Florent qu'elle appelle."
+  },
+  {
+   "from": "c-05",
+   "to": "b-40",
+   "relation": "supports",
+   "justification": "Le lieu rappelé en réunion c est celui décidé en réunion b."
+  },
+  {
+   "from": "c-10",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "Le rappel « il est mannequin » confirme la proposition."
+  },
+  {
+   "from": "c-13",
+   "to": "c-12",
+   "relation": "answers",
+   "justification": "« je ferais tout sur internet » répond à la question sur la promotion."
+  },
+  {
+   "from": "c-15",
+   "to": "c-14",
+   "relation": "contradicts",
+   "justification": "Objection de coût contre une campagne multi-supports."
+  },
+  {
+   "from": "c-16",
+   "to": "c-14",
+   "relation": "supersedes",
+   "justification": "Décision de tout miser sur Squeezie qui tranche la question de la promotion, à la place des pubs multi-supports."
+  },
+  {
+   "from": "c-18",
+   "to": "c-17",
+   "relation": "contradicts",
+   "justification": "Objection : sept pour cent est jugé trop peu."
+  },
+  {
+   "from": "c-20",
+   "to": "b-35",
+   "relation": "contradicts",
+   "justification": "Association à but non lucratif incompatible avec « on est là pour la thune », sans mise à jour établie."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Précise le prix de participation à la loterie."
+  },
+  {
+   "from": "c-26",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "La tombola formalise l'idée de loterie."
+  },
+  {
+   "from": "c-29",
+   "to": "c-28",
+   "relation": "supports",
+   "justification": "La salle est la priorité : justifie de la réserver maintenant."
+  },
+  {
+   "from": "c-31",
+   "to": "c-30",
+   "relation": "answers",
+   "justification": "« c'est deux mille vingt trois » répond à la question de l'année."
+  },
+  {
+   "from": "c-32",
+   "to": "c-31",
+   "relation": "contradicts",
+   "justification": "2024 contre 2023, sans tranchage."
+  },
+  {
+   "from": "c-33",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Le 26 octobre se situe pendant les vacances de la Toussaint."
+  },
+  {
+   "from": "c-33",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "Date en automne, conforme à la décision de la réunion b."
+  },
+  {
+   "from": "c-40",
+   "to": "c-38",
+   "relation": "answers",
+   "justification": "Le feu d'artifice répond à la question de l'ouverture."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "104b_EADH",
+   "text": "Quelle star du web a finalement été choisie comme invité principal de l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-21": 2,
+    "b-13": 1,
+    "b-19": 1,
+    "b-01": 1,
+    "b-10": 0,
+    "b-05": 0,
+    "b-04": 0,
+    "b-03": 0,
+    "b-09": 0,
+    "a-04": 0
+   },
+   "traps": [
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-09",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-04",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "104b_EADH",
+   "text": "En quelle saison l'équipe a-t-elle tranché pour organiser l'événement après le vote ?",
+   "answerable": true,
+   "qrels": {
+    "b-29": 2,
+    "b-30": 1,
+    "c-33": 1,
+    "b-24": 1,
+    "b-22": 1,
+    "b-23": 0
+   },
+   "traps": [
+    {
+     "unit": "b-23",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "104b_EADH",
+   "text": "Qui s'est chargé de contacter Squeezie ou sa production pour l'inviter ?",
+   "answerable": true,
+   "qrels": {
+    "c-03": 2,
+    "c-02": 1,
+    "c-04": 1,
+    "b-21": 0,
+    "c-37": 0,
+    "c-11": 0
+   },
+   "traps": [
+    {
+     "unit": "c-37",
+     "trap": "person"
+    },
+    {
+     "unit": "c-11",
+     "trap": "person"
+    },
+    {
+     "unit": "b-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "104b_EADH",
+   "text": "L'événement doit-il rapporter de l'argent ou avoir une vocation culturelle ?",
+   "answerable": true,
+   "qrels": {
+    "b-35": 2,
+    "b-08": 1,
+    "c-20": 1,
+    "b-07": 0
+   },
+   "traps": [
+    {
+     "unit": "b-07",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "104b_EADH",
+   "text": "Dans quelle salle à Paris le défilé de Squeezie aura-t-il lieu ?",
+   "answerable": true,
+   "qrels": {
+    "b-40": 2,
+    "b-33": 1,
+    "c-05": 1,
+    "b-32": 1,
+    "b-28": 1,
+    "c-28": 0
+   },
+   "traps": [
+    {
+     "unit": "c-28",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "104b_EADH",
+   "text": "Qu'est-il advenu de la proposition d'un espace pour les chiens à côté de la convention ?",
+   "answerable": true,
+   "qrels": {
+    "b-39": 2,
+    "b-38": 0
+   },
+   "traps": [
+    {
+     "unit": "b-38",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "104b_EADH",
+   "text": "Quel problème légal a été soulevé à propos de l'interdiction des sacs à l'entrée ?",
+   "answerable": true,
+   "qrels": {
+    "b-42": 2,
+    "b-41": 0
+   },
+   "traps": [
+    {
+     "unit": "b-41",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "104b_EADH",
+   "text": "Combien coûte la location de l'Accor Hotel Arena pour la journée ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "213": "mallory (incertain)",
+  "215": "elia / léa (incertain)",
+  "216": "florent / florian (incertain)",
+  "223": "eddy / ezi (incertain)"
+ },
+ "notes": "Groupe de jeu de rôle (organisation d'un événement autour d'influenceurs). Réunion a : tour de table de sujets sans décision, unités surtout fact/idea. Identités : 216 anime et prend les notes (« florent », « florian ») ; 215 est désignée « elia/elea/léa » ; 213 « mallory » (se présente « d'ambra malory ») ; 223 se fait appeler « ezi », probablement « eddy » en ASR (mannequin, préfère le printemps). Correspondances incertaines. Cas ambigus : b-28 et b-40 sont des accords dont l'objet se déduit du contexte (assertion inferred) ; c-10 et c-11 attribuées à 223 par déduction ; année 2023/2024 non tranchée (c-30/c-31/c-32, contradicts) ; contradiction ouverte entre « on est là pour la thune » (b-35) et « association à but non lucratif » (c-20). Horaires 11h-23h laissés proposed faute d'accord explicite. Passages exclus : plaisanteries, remarques personnelles (taille, régime), allusions sensibles (forêt d'Aokigahara, combats de chiens) sans intérêt pour la tâche."
+}
