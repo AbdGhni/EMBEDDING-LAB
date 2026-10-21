@@ -1,0 +1,2339 @@
+{
+ "group_id": "097",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0000",
+   "evidence": "nous nous retrouvons aujourd'hui pour parler du_coup du thème du film du prochain festival",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion porte sur le choix du thème des films du prochain festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0004",
+   "evidence": "j' aimerais bien parler de des films comédies et romances parce_que ça passe bien de partout",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose un thème comédie et romance, jugé consensuel auprès du public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0004",
+   "evidence": "on peut aussi diffuser des classiques comme titanic",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa suggère de diffuser des classiques comme Titanic, ressorti au cinéma cette année.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0008",
+   "evidence": "alors moi j' ai plutôt choisi fantastic",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian propose le genre fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« fantastic » : transcription ASR de « fantastique »."
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0013",
+   "evidence": "moi j' ai choisi le thème aventure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose le thème aventure, centré sur le développement des personnages (exemple : The Last of Us).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0016",
+   "evidence": "je vais vous proposer du_coup euh l' horreur et du_coup le suspense",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Johan propose l'horreur et le suspense (classiques : Shining, Vendredi 13).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0019",
+   "evidence": "je pense que horreur ce serait peut-être pas très adapté à un festival",
+   "type": "risk",
+   "status": "open",
+   "statement": "Florian craint que l'horreur soit peu adaptée à un festival, ce genre se regardant plutôt en petit comité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0067",
+   "evidence": "un thème plus ou moins aventure fantastique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian propose de fusionner les thèmes aventure et fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée amorcée au tour t0065 (« on pourrait se mettre tous_les deux d'accord »)."
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0077",
+   "evidence": "on pourrait combiner les deux genres",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo se dit favorable à la combinaison aventure et fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0080",
+   "evidence": "the last of us est une aventure fantastique dans laquelle il_y a de la romance",
+   "type": "fact",
+   "status": "active",
+   "statement": "The Last of Us mêle aventure, fantastique, romance et horreur, ce qui couvre plusieurs thèmes proposés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "L'horreur est ajoutée par les autres aux tours t0081-t0084."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0085",
+   "evidence": "c'est netflix pour avoir les droits",
+   "type": "risk",
+   "status": "open",
+   "statement": "Il faudrait obtenir les droits de diffusion de la série ; l'ayant droit est discuté (Netflix, HBO).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ASR bruitée ; l'identité de l'ayant droit est contestée aux tours t0086-t0092."
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0094",
+   "evidence": "moi je propose qu' on fasse des pubs pour le festival",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Johan propose de faire de la publicité pour le festival afin d'attirer du monde et financer les films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0095",
+   "evidence": "ouais mais faut payer les pubs",
+   "type": "risk",
+   "status": "open",
+   "statement": "Eléa objecte que la publicité a un coût : c'est une question de budget.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0054",
+   "evidence": "on peut aussi vendre des objets venant des séries",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose de vendre des produits dérivés (mugs, objets des séries).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Florian objecte au tour t0055 que ce n'est pas le principe d'une association."
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0130",
+   "evidence": "est-ce qu' on pourrait avoir un acteur de la série ou pas",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : peut-on faire venir un acteur de la série ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Réponse « non » au tour t0131 (trop courte pour une unité) ; statut résolu par inférence."
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0141",
+   "evidence": "faudrait faire ça un samedi comme ça les gens il_y a plus de gens qui viennent",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose d'organiser le festival un samedi pour attirer plus de monde (la Saint-Valentin tombe un mardi).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0195",
+   "evidence": "ça serait mieux peut-être de démarrer localement",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le premier festival se fera localement, en France.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 215 (t0196) et de 214 (t0197 « pour le premier festival »)."
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0214",
+   "evidence": "prendre une semaine de vacances et faire deux épisodes par jour un le midi et un le soir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose un festival sur une semaine de vacances avec deux épisodes de la série par jour, le midi et le soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0223",
+   "evidence": "on peut faire un film de chaque genre titanic",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Johan propose de diffuser un film de chaque genre entre les épisodes (Titanic, Shining…).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0241",
+   "evidence": "soirée vendredi treize",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée d'une soirée Vendredi 13 en nocturne pour finir sur l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0258",
+   "evidence": "ça attirera des gens en plus y en a ils aiment pas les films mais ils aiment les feux d' artifices",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose un feu d'artifice, tiré au loin, pour attirer aussi un public non cinéphile.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0267",
+   "evidence": "il faut des films jeunesse",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa estime qu'il faut aussi des films pour la jeunesse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0269",
+   "evidence": "moi je propose miraculous ladybug romance aventure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose Miraculous Ladybug pour les enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Johan approuve (t0270)."
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0293",
+   "evidence": "ça sera à paris",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : le festival aura lieu à Paris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0297",
+   "evidence": "moi je dirais sur le champ de mars",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose le Champ de Mars comme lieu à Paris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0309",
+   "evidence": "ben pas sur le champ de mars alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "Après un vote, le Champ de Mars est écarté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Vote évoqué aux tours t0303-t0307."
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0310",
+   "evidence": "bon on trouvera un endroit à paris",
+   "type": "action",
+   "status": "open",
+   "statement": "Il reste à trouver un lieu précis dans Paris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0313",
+   "evidence": "pendant une semaine de vacances scolaires de la zone correspondante à celle de paris",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se tiendra pendant une semaine de vacances scolaires de la zone de Paris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par 214 (t0316 « idée oui »)."
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0317",
+   "evidence": "ça sera pendant cinq jours de lundi à vendredi le midi et le soir ça sera la série",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : festival de cinq jours, du lundi au vendredi, avec la série le midi et le soir et un film de chaque genre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0330",
+   "evidence": "donc on continue comme ça toute_la semaine et vendredi nuit on termine",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le vendredi soir clôturerait le festival avec Shining puis le feu d'artifice.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Shining et le feu d'artifice sont cités aux tours t0332-t0334."
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0336",
+   "evidence": "c'est dommage que ce soit en semaine parce_que les gens ils ont pas forcément les vacances scolaires genre les adultes",
+   "type": "risk",
+   "status": "open",
+   "statement": "Eléa craint qu'un festival en semaine exclue les adultes qui ne sont pas en vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0346",
+   "evidence": "peut-être la semaine entre juillet et août tout le monde prend cette semaine",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose la semaine à cheval entre juillet et août, où beaucoup prennent des congés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0349",
+   "evidence": "noël ça va être bof",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "La période de Noël est jugée peu adaptée et écartée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Eléa et Malo approuvent (t0350-t0351)."
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0355",
+   "evidence": "l été ça peut être bien la nuit il fait chaud si on diffuse les films",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Johan préfère l'été : les nuits chaudes permettent des projections en extérieur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0356",
+   "evidence": "peut diffuser shining en plein air et comme ça il_y a le feu d' artifice à la toute fin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose de projeter Shining en plein air, suivi du feu d'artifice.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0359",
+   "evidence": "au jardin du luxembourg",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose le jardin du Luxembourg pour la projection en plein air.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "097a_EBRH",
+   "turn": "t0363",
+   "evidence": "lanterre c'est beau",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose Nanterre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« lanterre » : transcription ASR probable de « nanterre » ; Eléa objecte que c'est trop loin de Paris (t0364)."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0007",
+   "evidence": "c'est bof généralement dans les films d' horreur la romance elle dure quoi dix secondes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo juge peu intéressant de mêler romance et horreur, la romance n'occupant que quelques secondes dans un film d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0023",
+   "evidence": "enlevons la romance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose de retirer le thème romance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0040",
+   "evidence": "moi je pense que on peut éliminer romance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian se range à l'avis de retirer la romance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0050",
+   "evidence": "donc on enlève la romance très bien continuons comme cela",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le thème romance est éliminé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Johan ne défend pas la romance (t0043-t0048)."
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0054",
+   "evidence": "vu qu' on était + partis sur le faire en été je pense que c'est toujours prévu",
+   "type": "decision",
+   "status": "active",
+   "statement": "Rappel : le festival reste prévu en été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0056",
+   "evidence": "ce serait bien de les faire le soir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Johan propose de programmer les films d'horreur le soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0058",
+   "evidence": "aventure et fantastique c'est presque la même chose donc faut ouais ça fait doublon faut en enlever un",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa estime qu'aventure et fantastique font doublon et qu'il faut en retirer un.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0064",
+   "evidence": "on on veut seulement deux thèmes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le groupe ne veut garder que deux thèmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0069",
+   "evidence": "moi je partirais plus sur fantastique horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa préfère le couple fantastique et horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0072",
+   "evidence": "moi je partirais plus sur aventure et fantastique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo préfère le couple aventure et fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0126",
+   "evidence": "mixer les deux ou prendre",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question soumise au vote : mélanger les deux genres dans chaque film ou prendre un film de chaque genre ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite au tour t0128 « un film de chaque »."
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0140",
+   "evidence": "on peut très bien faire des deux on n' est pas obligé de ne mettre que des films où ils sont",
+   "type": "answer",
+   "status": "active",
+   "statement": "Florian tranche : on peut faire les deux, sans imposer des films où les deux thèmes sont liés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0145",
+   "evidence": "donc on laisse tomber l' aventure",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le thème aventure est abandonné ; restent l'horreur et le fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Malo (t0147 « entendu »)."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0154",
+   "evidence": "est-ce qu' on fait un drive-in",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : quel type de cinéma adopter, drive-in, classique ou art déco ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Options complétées au tour t0156."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0181",
+   "evidence": "soixante_dix personnes ça pourrait suffire en vrai",
+   "type": "fact",
+   "status": "active",
+   "statement": "Malo estime qu'une salle intimiste de soixante-dix personnes pourrait suffire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0198",
+   "evidence": "moi je défendrais le art déco personnellement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian défend une salle art déco intimiste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0224",
+   "evidence": "on peut accepter les piétons s' ils se mettent avec une petite serviette dans l' herbe",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose d'accepter aussi les piétons au drive-in, installés dans l'herbe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0231",
+   "evidence": "faudrait une grande toile par_contre",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faudra une très grande toile pour le drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0234",
+   "evidence": "donc on partirait plus sur du drive-in",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le festival se fera sous forme de drive-in en plein air.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0251",
+   "evidence": "je maintiens que nanterre c'est très beau",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose de nouveau Nanterre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Eléa objecte que personne ne viendra (t0252)."
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0254",
+   "evidence": "on fait un drive-in donc il faudrait trouver surtout un terrain",
+   "type": "action",
+   "status": "open",
+   "statement": "Le drive-in impose de trouver un terrain.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0278",
+   "evidence": "c'est un problème avec paris c'est que très peu de monde utilise la voiture justement",
+   "type": "risk",
+   "status": "open",
+   "statement": "À Paris très peu de gens utilisent la voiture, ce qui compromet un drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0302",
+   "evidence": "on abandonne paris c'est ça qui est c'est dommage mais s'il n' y a pas de terrain",
+   "type": "decision",
+   "status": "conditional",
+   "statement": "Paris est abandonné, faute de terrain disponible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0306",
+   "evidence": "sinon on reste à aix",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo propose Aix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0334",
+   "evidence": "dans ce cas moi je vais défendre avignon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian propose Avignon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0336",
+   "evidence": "qui possède le parc des expositions et qui possède un très très grand parking",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avignon dispose du parc des expositions (Agroparc) avec un très grand parking.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0343",
+   "evidence": "mais qui va aller à avignon",
+   "type": "risk",
+   "status": "open",
+   "statement": "Malo doute que le public se déplace à Avignon pour un festival nouveau.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0436",
+   "evidence": "non vraiment on reste sur agroparc hein même si c'est pourri au_moins personne n' y va a part pour le festival",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le festival aura lieu à Agroparc, à Avignon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Consensus aux tours t0438-t0441 (« allez avignon ») et t0457 (« nous sommes tombés d'accord »)."
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0463",
+   "evidence": "à déjà noter the last of us",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian a noté The Last of Us dans la liste des films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0481",
+   "evidence": "et on vire the last of us du_coup",
+   "type": "decision",
+   "status": "active",
+   "statement": "The Last of Us est retiré de la sélection, jugé surtout aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Proposé par Johan ; la série n'apparaît plus dans le récapitulatif du tour t0552."
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0482",
+   "evidence": "the walking dead c'est pas dix épisodes c'est dix saisons",
+   "type": "risk",
+   "status": "open",
+   "statement": "The Walking Dead est jugé trop long (une dizaine de saisons) pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0497",
+   "evidence": "shining c'est obligé qu' on le mette",
+   "type": "decision",
+   "status": "active",
+   "statement": "Shining est retenu dans la sélection.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0498",
+   "evidence": "on peut dire aussi vendredi treize qu' on avait vu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian propose d'ajouter Vendredi 13.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Johan approuve (t0499) mais le film n'est pas cité dans le récapitulatif du tour t0552 ; statut ambigu."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0502",
+   "evidence": "on met cinq horreurs cinq euh cinq fantastiques",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : dix films, cinq d'horreur et cinq fantastiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Malo approuve (t0503)."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0552",
+   "evidence": "shining the birds le royaume de narnia harry potter et l' ecole des sorciers",
+   "type": "decision",
+   "status": "active",
+   "statement": "Liste provisoire : Shining, Les Oiseaux, Le Monde de Narnia et Harry Potter à l'école des sorciers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Florian annonce cinq films (t0547) mais n'en cite que quatre."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0571",
+   "evidence": "avatar le deux vient de sortir tout_le monde l' a déjà vu ça sert à rien",
+   "type": "risk",
+   "status": "open",
+   "statement": "Malo juge Avatar inutile : tout le monde a déjà vu le deuxième volet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0631",
+   "evidence": "si mais on met que le premier",
+   "type": "decision",
+   "status": "active",
+   "statement": "Dragons (DreamWorks) est retenu, seulement le premier film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Film identifié aux tours t0625-t0627 (« dragon ») ; Florian approuve (t0635)."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0650",
+   "evidence": "j' ai écrit griffes de la nuit tout simplement",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les Griffes de la nuit (Freddy Krueger) est noté dans la liste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0655",
+   "evidence": "chucky c'est noté aussi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Chucky est noté dans la liste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0688",
+   "evidence": "je veux bien_que tu passes le voyage du chirou franchement",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le Voyage de Chihiro (Ghibli) est accepté comme film fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Johan approuve (t0690)."
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "097b_EBDH",
+   "turn": "t0696",
+   "evidence": "si on a vraiment pas d' idée on met avatar c'est pas grave",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "À défaut d'autre idée, Avatar serait programmé à un créneau creux (15 h).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0013",
+   "evidence": "faut récolter des fonds",
+   "type": "action",
+   "status": "open",
+   "statement": "Première tâche : récolter des fonds.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par 213 et 214 (t0014-t0015)."
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0020",
+   "evidence": "peut-être faire une cagnotte litchi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose une cagnotte en ligne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« litchi » : probablement Leetchi."
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0050",
+   "evidence": "demander si ça les intéresserait de éventuellement sponsoriser un événement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Chacun pourrait démarcher sa propre banque pour sponsoriser l'événement culturel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0077",
+   "evidence": "quand commencerais la récolte de fonds car il me faut des dates à transmettre",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question de Florian : quand commencer la collecte de fonds ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0079",
+   "evidence": "faut commencer maintenant même si c'est pour dans six mois",
+   "type": "answer",
+   "status": "active",
+   "statement": "La collecte doit commencer dès maintenant, même si le festival est dans six mois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Malo approuve (t0080 « le plus tôt possible »)."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0081",
+   "evidence": "il commence quand le festival",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : quand commence le festival ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0087",
+   "evidence": "moi j' aimerais bien la semaine qui fait juillet août",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa souhaite la semaine à cheval entre juillet et août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0093",
+   "evidence": "le festival de avignon se déroulera entre le cinq et le vingt_cinq juillet",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival d'Avignon a lieu du 5 au 25 juillet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0099",
+   "evidence": "le vingt_cinq juillet sera un mardi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le 25 juillet tombe un mardi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0102",
+   "evidence": "mon idée c'était de faire un festival juste avant la fête nationale",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Malo proposait de placer le festival juste avant le 14 juillet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Écarté à cause du festival d'Avignon (t0115-t0116)."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0165",
+   "evidence": "on commence le trente-et-un juillet et on finit en août",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le festival commence le lundi 31 juillet et se termine en août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé (t0168-t0169)."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0171",
+   "evidence": "du trente-et-un au quatre lundi au vendredi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se tient du lundi 31 juillet au vendredi 4 août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0189",
+   "evidence": "premier jour yu mets avatar",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose de programmer Avatar le premier jour, jugé moins fréquenté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0198",
+   "evidence": "je demandais quel film on avait mis en premier de base",
+   "type": "question",
+   "status": "open",
+   "statement": "Question : quel film devait ouvrir le festival ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas de réponse sûre ; Florian renvoie à la liste (t0205)."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0204",
+   "evidence": "c'était vendredi treize il me semble",
+   "type": "answer",
+   "status": "unknown",
+   "statement": "Malo croit se souvenir que le premier film prévu était Vendredi 13.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse incertaine (« il me semble »), contestée (t0207-t0208)."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0217",
+   "evidence": "si vous voulez je peux appeler mon père",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose de faire appel à son père, bricoleur, pour l'installation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0220",
+   "evidence": "il faut que ce soit un de nous quatre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Florian pose que l'installation doit être assurée par l'un des quatre organisateurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Florian concède ensuite que le père pourrait transporter le matériel (t0223)."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0259",
+   "evidence": "étant d' avignon je pourrais peut-être plus facilement me rendre moi que vous à la mairie essayer de négocier des tarifs des dates etcetera",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Florian, originaire d'Avignon, se charge d'aller négocier tarifs et dates à la mairie.",
+   "owner": "216",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord des autres (t0260-t0265) ; confirmé au tour t0298."
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0271",
+   "evidence": "venir des food trucks indépendants et on prend genre cinq dix pourcents et ça suffit",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Eléa propose de faire venir des food trucks indépendants en prélevant cinq à dix pour cent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinq dix pourcents",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0643",
+   "evidence": "on prend cinq à dix pourcents et c'est bon hein",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les food trucks indépendants paient l'emplacement : l'équipe prélève cinq à dix pour cent de leur recette.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cinq à dix pourcents",
+   "assertion": "extracted",
+   "notes": "Formulation complète au tour t0641 ; Johan approuve (t0642 « on va pas travailler dedans »)."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0272",
+   "evidence": "on peut mettre l'un de nous quatre aussi au food truck",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florian propose qu'un des organisateurs tienne le food truck.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0333",
+   "evidence": "il faudra aussi quelqu'un qui distribue les tracts",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faudra quelqu'un pour distribuer les tracts.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0338",
+   "evidence": "non je peux le faire j' ai rien à faire là",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Johan se propose pour distribuer les tracts.",
+   "owner": "214",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0358",
+   "evidence": "les tracts ça pollue j' aime pas tu peux pas faire un truc électronique comme tout_le monde",
+   "type": "risk",
+   "status": "open",
+   "statement": "Eléa objecte que les tracts papier polluent et préfère un support électronique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Malo propose des tracts biodégradables (t0359), Florian « les deux » (t0360)."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0425",
+   "evidence": "c'est la mairie lors_d' un événement c'est bien la mairie qui qui surveille",
+   "type": "answer",
+   "status": "active",
+   "statement": "La sécurité de l'événement relève de la mairie et de la police municipale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0418",
+   "evidence": "et bah qui qui va s' en occuper si c'est pas nous",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : qui assure la sécurité du festival ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contexte : sécurité, tours t0412-t0416."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0482",
+   "evidence": "qui se sentirait d' appeler des personnalités alors ou au_moins les boîtes de production",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : qui appelle les personnalités ou les sociétés de production ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0541",
+   "evidence": "on va le faire à deux l' appel",
+   "type": "decision",
+   "status": "active",
+   "statement": "Malo et Johan se partagent d'abord les appels aux invités.",
+   "owner": "213 + 214",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Johan s'était déclaré à l'aise (t0499)."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0668",
+   "evidence": "parfait je m' occupe de la bouffe ça va parfait",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Johan s'occupe des food trucks (la nourriture).",
+   "owner": "214",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé au tour t0698 (« moi c'est les fast foods »)."
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0760",
+   "evidence": "contacter des célébrités",
+   "type": "decision",
+   "status": "active",
+   "statement": "Malo est chargé de contacter les célébrités et les sociétés de production par internet.",
+   "owner": "213",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase répartie sur t0759-t0762 ; Malo accepte (t0761 « oui »)."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0664",
+   "evidence": "qui se sent d' appeler du_coup le food truck",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : qui appelle les food trucks ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0769",
+   "evidence": "une campagne très forte sur le net par vous elia",
+   "type": "decision",
+   "status": "active",
+   "statement": "Eléa mène la campagne de communication sur internet (réseaux sociaux).",
+   "owner": "215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Eléa confirme (t0770 « c'est moi ») ; elle s'était proposée au tour t0562."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0749",
+   "evidence": "les affichages où vous répartirez la tâche entre vous deux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Affichage : une personne distribue, l'autre fait le design, à répartir entre Johan et Eléa.",
+   "owner": "214 + 215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "« vous deux » rattaché à 214 et 215 d'après t0508 et t0530-t0531."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0531",
+   "evidence": "moi je veux bien faire le design",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Eléa accepte de faire le design des affiches.",
+   "owner": "215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0750",
+   "evidence": "je veux pas être distribution ça pollue trop et c'est trop cher",
+   "type": "commitment",
+   "status": "rejected",
+   "statement": "Eléa refuse de distribuer les tracts, jugés polluants et trop chers.",
+   "owner": null,
+   "mentioned_people": [
+    "215"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0731",
+   "evidence": "nous avons déjà la récolte de fonds par eléa",
+   "type": "decision",
+   "status": "active",
+   "statement": "Eléa est chargée de la récolte de fonds (cagnotte ou banque).",
+   "owner": "215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Eléa précise « juste une cagnotte litchi » (t0732) ; Florian a noté « banque ou cagnotte » (t0734)."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0745",
+   "evidence": "négociation avec la mairie je vais essayer de me renseigner pour savoir",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Récapitulatif : Florian se renseigne et négocie avec la mairie.",
+   "owner": "216",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0774",
+   "evidence": "il_y aura différents ateliers comme la confection de poupées etcetera et le maquillage",
+   "type": "decision",
+   "status": "active",
+   "statement": "Des ateliers sont prévus, dont confection de poupées et maquillage, partagés entre deux personnes.",
+   "owner": null,
+   "mentioned_people": [
+    "214",
+    "215"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répartition imprécise (« vous partagerez tous_les deux ») ; Eléa vise le maquillage."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0623",
+   "evidence": "ah moi je veux bien faire l' atelier maquillage",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Eléa se propose pour l'atelier maquillage.",
+   "owner": "215",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "097c_EBPH",
+   "turn": "t0743",
+   "evidence": "la mise en place donc la toile les haut-parleurs ce sera vous et moi très cher",
+   "type": "decision",
+   "status": "active",
+   "statement": "Installation (toile, haut-parleurs) : Florian et Malo.",
+   "owner": "216 + 213",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "« vous » rattaché à 213 d'après t0293 et t0501."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-09",
+   "to": "a-08",
+   "relation": "supports",
+   "justification": "Malo approuve la fusion aventure-fantastique proposée par Florian."
+  },
+  {
+   "from": "a-26",
+   "to": "a-25",
+   "relation": "supersedes",
+   "justification": "Après le vote, le Champ de Mars proposé est explicitement écarté."
+  },
+  {
+   "from": "a-27",
+   "to": "a-24",
+   "relation": "supports",
+   "justification": "Il reste à trouver un lieu, toujours à Paris."
+  },
+  {
+   "from": "a-34",
+   "to": "a-32",
+   "relation": "supports",
+   "justification": "Même période estivale défendue."
+  },
+  {
+   "from": "a-35",
+   "to": "a-21",
+   "relation": "supports",
+   "justification": "Le feu d'artifice est placé à la fin de la projection de Shining."
+  },
+  {
+   "from": "b-03",
+   "to": "b-02",
+   "relation": "supports",
+   "justification": "Florian rejoint la proposition de retirer la romance."
+  },
+  {
+   "from": "b-04",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "La décision d'éliminer la romance tranche la proposition romance-comédie d'Eléa."
+  },
+  {
+   "from": "b-05",
+   "to": "a-34",
+   "relation": "supports",
+   "justification": "L'été reste la période prévue."
+  },
+  {
+   "from": "b-07",
+   "to": "b-13",
+   "relation": "supports",
+   "justification": "L'argument du doublon justifie l'abandon d'un des deux thèmes."
+  },
+  {
+   "from": "b-12",
+   "to": "b-11",
+   "relation": "answers",
+   "justification": "Florian répond à la question soumise au vote."
+  },
+  {
+   "from": "b-13",
+   "to": "a-05",
+   "relation": "supersedes",
+   "justification": "L'abandon de l'aventure écarte la proposition de thème aventure."
+  },
+  {
+   "from": "b-13",
+   "to": "a-08",
+   "relation": "supersedes",
+   "justification": "L'abandon de l'aventure écarte la fusion aventure-fantastique."
+  },
+  {
+   "from": "b-13",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "La décision tranche contre le couple aventure-fantastique défendu par Malo."
+  },
+  {
+   "from": "b-13",
+   "to": "b-09",
+   "relation": "supports",
+   "justification": "En retirant l'aventure, il reste le couple fantastique-horreur proposé par Eléa."
+  },
+  {
+   "from": "b-19",
+   "to": "b-14",
+   "relation": "answers",
+   "justification": "Le drive-in répond à la question du type de cinéma."
+  },
+  {
+   "from": "b-19",
+   "to": "b-16",
+   "relation": "supersedes",
+   "justification": "Le choix du drive-in tranche contre la salle art déco."
+  },
+  {
+   "from": "b-17",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Accepter les piétons lève l'objection qui freinait le drive-in."
+  },
+  {
+   "from": "b-19",
+   "to": "b-21",
+   "relation": "creates_action",
+   "justification": "« on fait un drive-in donc il faudrait trouver un terrain »."
+  },
+  {
+   "from": "b-22",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Le manque de voitures à Paris motive l'abandon de Paris."
+  },
+  {
+   "from": "b-20",
+   "to": "a-37",
+   "relation": "supports",
+   "justification": "Malo reprend sa proposition de Nanterre."
+  },
+  {
+   "from": "b-28",
+   "to": "a-24",
+   "relation": "supersedes",
+   "justification": "Le lieu passe de Paris à Agroparc (Avignon)."
+  },
+  {
+   "from": "b-28",
+   "to": "b-24",
+   "relation": "supersedes",
+   "justification": "Le choix d'Agroparc tranche la question du lieu contre Aix."
+  },
+  {
+   "from": "b-28",
+   "to": "b-20",
+   "relation": "supersedes",
+   "justification": "Le choix d'Agroparc tranche la question du lieu contre Nanterre."
+  },
+  {
+   "from": "b-28",
+   "to": "a-36",
+   "relation": "supersedes",
+   "justification": "Le choix d'Agroparc écarte le jardin du Luxembourg."
+  },
+  {
+   "from": "b-26",
+   "to": "b-25",
+   "relation": "supports",
+   "justification": "Le grand parking du parc des expositions étaye le choix d'Avignon."
+  },
+  {
+   "from": "b-28",
+   "to": "b-25",
+   "relation": "supports",
+   "justification": "La décision retient la proposition d'Avignon."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "supersedes",
+   "justification": "« on vire the last of us » retire la série notée par Florian."
+  },
+  {
+   "from": "b-35",
+   "to": "b-32",
+   "relation": "supports",
+   "justification": "Shining figure dans la liste récapitulée."
+  },
+  {
+   "from": "c-05",
+   "to": "c-04",
+   "relation": "answers",
+   "justification": "Réponse sur le début de la collecte."
+  },
+  {
+   "from": "c-11",
+   "to": "c-06",
+   "relation": "answers",
+   "justification": "Le 31 juillet répond à la question de la date de début."
+  },
+  {
+   "from": "c-12",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Précise la période du 31 juillet au 4 août."
+  },
+  {
+   "from": "c-11",
+   "to": "c-07",
+   "relation": "supports",
+   "justification": "Les dates retenues correspondent à la semaine à cheval sur juillet et août."
+  },
+  {
+   "from": "c-08",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Le festival d'Avignon finissant le 25 juillet, il faut se placer après."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "supersedes",
+   "justification": "La date choisie tranche contre l'idée d'un festival avant le 14 juillet."
+  },
+  {
+   "from": "c-07",
+   "to": "a-32",
+   "relation": "supports",
+   "justification": "Même proposition de semaine entre juillet et août qu'à la première réunion."
+  },
+  {
+   "from": "c-12",
+   "to": "a-29",
+   "relation": "supports",
+   "justification": "Le format de cinq jours du lundi au vendredi est conservé."
+  },
+  {
+   "from": "c-15",
+   "to": "c-14",
+   "relation": "answers",
+   "justification": "Réponse incertaine à la question du premier film."
+  },
+  {
+   "from": "c-20",
+   "to": "c-19",
+   "relation": "supports",
+   "justification": "Confirme le prélèvement de cinq à dix pour cent sur les food trucks indépendants."
+  },
+  {
+   "from": "c-20",
+   "to": "c-21",
+   "relation": "supersedes",
+   "justification": "« on va pas travailler dedans » : les organisateurs ne tiendront pas le food truck."
+  },
+  {
+   "from": "c-25",
+   "to": "c-26",
+   "relation": "answers",
+   "justification": "La mairie assure la sécurité."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "answers",
+   "justification": "Malo et Johan se proposent pour les appels."
+  },
+  {
+   "from": "c-30",
+   "to": "c-28",
+   "relation": "supersedes",
+   "justification": "La répartition est corrigée : Malo contacte les célébrités, Johan prend la nourriture."
+  },
+  {
+   "from": "c-29",
+   "to": "c-31",
+   "relation": "answers",
+   "justification": "Johan prend les appels aux food trucks."
+  },
+  {
+   "from": "c-33",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Johan, volontaire pour les tracts, fait partie du binôme d'affichage."
+  },
+  {
+   "from": "c-34",
+   "to": "c-33",
+   "relation": "supports",
+   "justification": "Eléa accepte la partie design de l'affichage."
+  },
+  {
+   "from": "c-35",
+   "to": "c-33",
+   "relation": "contradicts",
+   "justification": "Eléa refuse la distribution qui lui serait attribuée ; le conflit reste ouvert."
+  },
+  {
+   "from": "c-24",
+   "to": "c-35",
+   "relation": "supports",
+   "justification": "L'argument écologique fonde le refus d'Eléa."
+  },
+  {
+   "from": "c-36",
+   "to": "c-01",
+   "relation": "supports",
+   "justification": "Eléa est désignée pour la tâche de collecte de fonds."
+  },
+  {
+   "from": "c-36",
+   "to": "c-02",
+   "relation": "supports",
+   "justification": "La collecte se fera par la cagnotte proposée par Eléa."
+  },
+  {
+   "from": "c-37",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Récapitulatif de l'engagement de Florian auprès de la mairie."
+  },
+  {
+   "from": "c-39",
+   "to": "c-38",
+   "relation": "supports",
+   "justification": "Eléa se positionne sur l'atelier maquillage."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "097b_EBDH",
+   "text": "Quels genres de films restent au programme une fois les thèmes départagés ?",
+   "answerable": true,
+   "qrels": {
+    "b-13": 2,
+    "b-09": 1,
+    "b-04": 1,
+    "b-07": 1,
+    "b-34": 1,
+    "b-10": 0,
+    "a-08": 0,
+    "a-02": 0,
+    "a-05": 0
+   },
+   "traps": [
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-08",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-02",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "097b_EBDH",
+   "text": "Pour la forme du cinéma, entre plein air avec voitures, salle classique et salle intimiste, qu'a-t-on choisi ?",
+   "answerable": true,
+   "qrels": {
+    "b-19": 2,
+    "b-14": 1,
+    "b-17": 1,
+    "b-16": 0,
+    "b-15": 0
+   },
+   "traps": [
+    {
+     "unit": "b-16",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-15",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "097b_EBDH",
+   "text": "Où se tiendra finalement le festival, puisque Paris ne convenait plus ?",
+   "answerable": true,
+   "qrels": {
+    "b-28": 2,
+    "b-25": 1,
+    "b-26": 1,
+    "b-23": 1,
+    "b-22": 1,
+    "a-24": 0,
+    "b-24": 0,
+    "b-20": 0,
+    "a-25": 0,
+    "a-36": 0
+   },
+   "traps": [
+    {
+     "unit": "a-24",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-24",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-20",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-36",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "097b_EBDH",
+   "text": "Pourquoi organiser le drive-in dans la capitale semblait-il compliqué ?",
+   "answerable": true,
+   "qrels": {
+    "b-22": 2,
+    "b-23": 1,
+    "b-21": 1,
+    "b-19": 0,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-19",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "097b_EBDH",
+   "text": "Combien de films sont prévus au total et comment se répartissent-ils par genre ?",
+   "answerable": true,
+   "qrels": {
+    "b-34": 2,
+    "b-35": 1,
+    "b-13": 1,
+    "b-08": 1
+   },
+   "traps": []
+  },
+  {
+   "key": "q06",
+   "about_meeting": "097b_EBDH",
+   "text": "La série The Last of Us est-elle encore dans la sélection ?",
+   "answerable": true,
+   "qrels": {
+    "b-30": 2,
+    "b-29": 0,
+    "a-10": 0,
+    "a-18": 0,
+    "b-31": 0
+   },
+   "traps": [
+    {
+     "unit": "b-29",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-10",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-18",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-31",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "097b_EBDH",
+   "text": "Quel film d'Hitchcock et quels autres titres figurent dans la liste récapitulée par Florian ?",
+   "answerable": true,
+   "qrels": {
+    "b-35": 2,
+    "b-32": 1,
+    "b-38": 0,
+    "b-39": 0,
+    "b-36": 0
+   },
+   "traps": [
+    {
+     "unit": "b-38",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-39",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-36",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "097b_EBDH",
+   "text": "Quel budget a été prévu pour louer la toile et le terrain du drive-in ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "097c_EBPH",
+   "text": "À quelles dates exactes le festival se déroulera-t-il ?",
+   "answerable": true,
+   "qrels": {
+    "c-12": 2,
+    "c-11": 2,
+    "c-09": 1,
+    "c-08": 1,
+    "c-07": 1,
+    "a-32": 1,
+    "a-29": 1,
+    "a-28": 1,
+    "c-10": 0,
+    "a-33": 0
+   },
+   "traps": [
+    {
+     "unit": "c-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-33",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "097c_EBPH",
+   "text": "Qui ira discuter des tarifs avec la municipalité d'Avignon ?",
+   "answerable": true,
+   "qrels": {
+    "c-18": 2,
+    "c-37": 2,
+    "c-25": 0,
+    "c-26": 0
+   },
+   "traps": [
+    {
+     "unit": "c-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-26",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "097c_EBPH",
+   "text": "Au final, qui appelle les stars et les boîtes de production, et qui gère les camions de nourriture ?",
+   "answerable": true,
+   "qrels": {
+    "c-30": 2,
+    "c-29": 2,
+    "c-27": 1,
+    "c-31": 1,
+    "c-28": 0,
+    "c-21": 0
+   },
+   "traps": [
+    {
+     "unit": "c-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-21",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "097c_EBPH",
+   "text": "Quel pourcentage l'équipe compte-t-elle prendre sur les ventes des restaurateurs ambulants ?",
+   "answerable": true,
+   "qrels": {
+    "c-20": 2,
+    "c-19": 1,
+    "c-21": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "097c_EBPH",
+   "text": "Quelle objection Eléa fait-elle à la distribution de prospectus papier ?",
+   "answerable": true,
+   "qrels": {
+    "c-24": 2,
+    "c-35": 2,
+    "c-33": 1,
+    "c-22": 0,
+    "c-23": 0
+   },
+   "traps": [
+    {
+     "unit": "c-22",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-23",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "097c_EBPH",
+   "text": "Qui est responsable de trouver l'argent du festival et par quel moyen ?",
+   "answerable": true,
+   "qrels": {
+    "c-36": 2,
+    "c-02": 1,
+    "c-01": 1,
+    "c-03": 1,
+    "c-04": 0,
+    "c-05": 0
+   },
+   "traps": [
+    {
+     "unit": "c-04",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-05",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "097c_EBPH",
+   "text": "À partir de quand faut-il lancer la collecte d'argent ?",
+   "answerable": true,
+   "qrels": {
+    "c-05": 2,
+    "c-04": 1,
+    "c-11": 0,
+    "c-12": 0
+   },
+   "traps": [
+    {
+     "unit": "c-11",
+     "trap": "date"
+    },
+    {
+     "unit": "c-12",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "097c_EBPH",
+   "text": "Quelle entreprise de sonorisation fournira les haut-parleurs ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "213": "malo ou malaurie (incertain)",
+  "214": "johan",
+  "215": "eléa",
+  "216": "florian"
+ },
+ "notes": ""
+}
