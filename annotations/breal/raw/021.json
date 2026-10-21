@@ -1,0 +1,3418 @@
+{
+ "group_id": "021",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "021a_EARD",
+   "turn": "t0000",
+   "evidence": "nous sommes ici pour une réunion qui va durer vingt minutes",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion de reporting doit durer vingt minutes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "021a_EARD",
+   "turn": "t0001",
+   "evidence": "nous sommes donc dans l' association euh pour un changement culturel important",
+   "type": "fact",
+   "status": "active",
+   "statement": "Bastien présente l'association comme tournée vers un changement culturel important.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "021a_EARD",
+   "turn": "t0003",
+   "evidence": "je ferai un petit reporting sur sur tout ce qui est au sujet au_sujet_des des réseaux sociaux",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Nelly s'engage à faire le reporting sur les réseaux sociaux.",
+   "owner": "067",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "021a_EARD",
+   "turn": "t0008",
+   "evidence": "quel est le sujet de la réunion",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Jean-Marc demande quel est le sujet de la réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "021a_EARD",
+   "turn": "t0009",
+   "evidence": "c'est le reporting + oui oui c'est le reporting",
+   "type": "answer",
+   "status": "active",
+   "statement": "Nelly répond que la réunion est un reporting.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "021a_EARD",
+   "turn": "t0032",
+   "evidence": "quel sujet vous avez pris",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Véronique demande à Jean-Marc quel sujet il a choisi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "021a_EARD",
+   "turn": "t0041",
+   "evidence": "ah transition numérique",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le sujet de Jean-Marc est la transition numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Sujet soufflé par Nelly (t0039) et Bastien (t0040) ; Jean-Marc ne s'en souvenait pas."
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "021a_EARD",
+   "turn": "t0049",
+   "evidence": "je parlerai d' amazon et d' un d' un reporting sur amazon",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Véronique s'engage à présenter un reporting sur Amazon.",
+   "owner": "064",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "021a_EARD",
+   "turn": "t0052",
+   "evidence": "on a de_plus en plus d' influenceurs qui sont intéressés par notre association",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Nelly, de plus en plus d'influenceurs s'intéressent à l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "021a_EARD",
+   "turn": "t0052",
+   "evidence": "j ai essayé de les contacter pour leur parler justement de l' association",
+   "type": "fact",
+   "status": "active",
+   "statement": "Nelly a tenté de contacter des influenceurs pour leur présenter l'association et obtenir leur promotion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "021a_EARD",
+   "turn": "t0052",
+   "evidence": "malgré qu' il_y a un minimum de douze ans y a énormément de jeunes sur le tik tok",
+   "type": "fact",
+   "status": "active",
+   "statement": "TikTok impose un âge minimum de douze ans mais compte énormément de jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "021a_EARD",
+   "turn": "t0060",
+   "evidence": "les intelligences artificielles à l' heure actuelle n' ont pas encore atteint une certaine totale autonomie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Bastien, les IA n'ont pas encore atteint une autonomie totale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "021a_EARD",
+   "turn": "t0060",
+   "evidence": "on pourrait créer en_quelque_sorte des monstres",
+   "type": "risk",
+   "status": "active",
+   "statement": "Bastien craint qu'une IA totalement autonome (ex. drone armé) devienne un monstre décidant sans humain.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "021a_EARD",
+   "turn": "t0065",
+   "evidence": "dans notre association on s' occupe de personnes âgées",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'association s'occupe de personnes âgées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "021a_EARD",
+   "turn": "t0065",
+   "evidence": "il_y avait euh cinquante pourcents trente quarante pourcents de la population qui avait plus de soixante ans en france",
+   "type": "fact",
+   "status": "active",
+   "statement": "Jean-Marc affirme que 30 à 50 % de la population française a plus de soixante ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Chiffre hésitant (cinquante, puis trente quarante pour cent)."
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "021a_EARD",
+   "turn": "t0065",
+   "evidence": "nous allons faire un chiffre d' affaires mais pas de bénéfices",
+   "type": "fact",
+   "status": "active",
+   "statement": "Jean-Marc rappelle que l'association fera du chiffre d'affaires mais pas de bénéfices.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "021a_EARD",
+   "turn": "t0065",
+   "evidence": "il faut absolument que qu' on aide ces personnes à avoir un accès à internet",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut aider les personnes âgées à accéder à internet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "021a_EARD",
+   "turn": "t0068",
+   "evidence": "ces personnes âgées font un blocage quand vous leur parlez de facebook ou de tiktok",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les personnes âgées rejettent Facebook ou TikTok et n'en voient que le côté négatif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "021a_EARD",
+   "turn": "t0069",
+   "evidence": "il faudra peut-être pas amener notre notre positionnement là-dessus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc suggère de ne pas positionner l'association sur les réseaux sociaux auprès des seniors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "021a_EARD",
+   "turn": "t0072",
+   "evidence": "ça on pourra les aider mais n' oubliez pas qu' on doit vendre nos produits quand même",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "On pourra aider les seniors pour l'administratif, mais il faut quand même vendre les produits.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répond à la suggestion de Véronique sur l'aspect administratif (t0070)."
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "021a_EARD",
+   "turn": "t0076",
+   "evidence": "c'était une association association au départ pour les jeunes",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Véronique demande si l'association était au départ destinée aux jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "021a_EARD",
+   "turn": "t0077",
+   "evidence": "mais on est une association déjà actuellement là",
+   "type": "answer",
+   "status": "active",
+   "statement": "Bastien répond que l'association existe déjà.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "021a_EARD",
+   "turn": "t0082",
+   "evidence": "il faudrait penser justement aux intelligences artificielles parce_que je vois qu' il_y a quand même des grosses pertes de mémoire parmi nos membres",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien suggère d'intégrer l'IA à cause des pertes de mémoire des membres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "021a_EARD",
+   "turn": "t0086",
+   "evidence": "nous avons reçu euh une convocation où il n' y avait pas le thème de la réunion",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Jean-Marc reproche que la convocation ne mentionnait pas le thème de la réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contesté par Bastien en t0089."
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "021a_EARD",
+   "turn": "t0089",
+   "evidence": "non non on vous l' a dit mais vous l' avez oublié",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien affirme que le thème avait été communiqué et que Jean-Marc l'a oublié.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "021a_EARD",
+   "turn": "t0090",
+   "evidence": "je vous rappelle que je suis le président quand même",
+   "type": "fact",
+   "status": "active",
+   "statement": "Jean-Marc est le président de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "021a_EARD",
+   "turn": "t0095",
+   "evidence": "il_y a un problème euh parce_que au niveau de l' environnement",
+   "type": "risk",
+   "status": "active",
+   "statement": "Véronique estime que les camions de livraison Amazon posent un problème environnemental.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "021a_EARD",
+   "turn": "t0095",
+   "evidence": "de quelle manière on pourraît par les réseaux euh influencer euh les gens pour qu' ils ne ils n' achètent plus sur amazon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique propose d'utiliser les réseaux pour dissuader les gens d'acheter sur Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "021a_EARD",
+   "turn": "t0097",
+   "evidence": "si nous pouvions avoir un un partenariat avec amazon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc souhaiterait au contraire un partenariat avec Amazon pour développer l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "021a_EARD",
+   "turn": "t0102",
+   "evidence": "je vous propose de voter",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose de voter pour trancher la divergence sur Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "021a_EARD",
+   "turn": "t0107",
+   "evidence": "on a évoqué les thèmes on peut ne_pas être d'accord mais ce n' est pas le sujet actuel",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas de vote ni de débat : la réunion est un simple reporting.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Recadrage de Bastien (t0103) accepté par Nelly, Véronique et Jean-Marc (t0104-t0108)."
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "021a_EARD",
+   "turn": "t0124",
+   "evidence": "j' en prends note et je vous exclue immédiatement de la",
+   "type": "decision",
+   "status": "unknown",
+   "statement": "Jean-Marc déclare exclure Bastien (de la réunion ou de l'association).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Boutade non suivie d'effet : Bastien continue de participer."
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "021a_EARD",
+   "turn": "t0129",
+   "evidence": "vous êtes pas l' animateur de cette réunion hein c'est c'est c'est véronique",
+   "type": "fact",
+   "status": "active",
+   "statement": "C'est Véronique qui anime la réunion, pas Jean-Marc.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "021a_EARD",
+   "turn": "t0144",
+   "evidence": "qui écouterait ce qu' on dit et la retranscrirait immédiatement sur l' ordinateur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose une IA qui transcrirait la réunion en direct.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée en t0142."
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "021a_EARD",
+   "turn": "t0157",
+   "evidence": "je ne suis pas d'accord avec vous sur le fait qu' amazon pollue",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien conteste qu'Amazon pollue : un livreur remplace plusieurs trajets en voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "021a_EARD",
+   "turn": "t0163",
+   "evidence": "ils se font renvoyer gratuitement euh tout_le reste",
+   "type": "risk",
+   "status": "active",
+   "statement": "Jean-Marc pointe les retours gratuits massifs de vêtements commandés en surplus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "021a_EARD",
+   "turn": "t0169",
+   "evidence": "ils envoient des des camions quasiment vides",
+   "type": "risk",
+   "status": "active",
+   "statement": "Nelly signale qu'Amazon envoie des camions quasiment vides.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "021a_EARD",
+   "turn": "t0172",
+   "evidence": "ils vous ils vous garantissent que vous êtes livré un jour après",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Selon Jean-Marc, Amazon garantit une livraison en un jour, ce qu'il ne devrait pas faire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "021a_EARD",
+   "turn": "t0174",
+   "evidence": "tous_les produits ne sont pas comme ça c'est que certains produits qui sont dispo dans les plateformes",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien répond que seuls certains produits en plateforme sont livrés en un jour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "021a_EARD",
+   "turn": "t0181",
+   "evidence": "il faudrait que le consommateur accepte de recevoir son colis un peu plus tard pour justement laisser le temps à amazon d' optimiser",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose que les consommateurs acceptent des délais plus longs pour qu'Amazon remplisse ses camions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-41",
+   "meeting_id": "021a_EARD",
+   "turn": "t0183",
+   "evidence": "on peut s' en servir pour communiquer sur ça rentabiliser ses achats",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Utiliser les réseaux sociaux pour sensibiliser à ce sujet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-42",
+   "meeting_id": "021a_EARD",
+   "turn": "t0195",
+   "evidence": "une petite pièce à l' intérieur euh il_y a des choses à revoir aussi à ce niveau là",
+   "type": "risk",
+   "status": "active",
+   "statement": "Véronique pointe le suremballage : de petites pièces dans d'énormes colis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-43",
+   "meeting_id": "021a_EARD",
+   "turn": "t0196",
+   "evidence": "des machines qui analysent le colis et fend du_coup son son emballage à à taille",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Selon Nelly, des machines à IA découpent l'emballage à la taille du colis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-44",
+   "meeting_id": "021a_EARD",
+   "turn": "t0197",
+   "evidence": "aujourd'hui ça ça commence à exister mais c'est très très cher",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Nelly précise que cela commence à exister mais coûte très cher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-45",
+   "meeting_id": "021a_EARD",
+   "turn": "t0202",
+   "evidence": "faire un colis pour un produit c'est beaucoup plus cher que de fabriquer des centaines des milliers voire des centaines de milliers de colis similaires",
+   "type": "fact",
+   "status": "active",
+   "statement": "Bastien : un colis sur mesure coûte bien plus cher que des cartons standard en masse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-46",
+   "meeting_id": "021a_EARD",
+   "turn": "t0212",
+   "evidence": "à l' heure actuelle la technologie ça ne peut pas fonctionner",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien affirme que la technologie de carton sur mesure ne fonctionne pas encore.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-47",
+   "meeting_id": "021a_EARD",
+   "turn": "t0216",
+   "evidence": "oui mais c'était chez cédis",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien pense que l'émission montrait Cdiscount.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-48",
+   "meeting_id": "021a_EARD",
+   "turn": "t0221",
+   "evidence": "non c'était chez amazon je crois",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Jean-Marc pense que c'était chez Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-49",
+   "meeting_id": "021a_EARD",
+   "turn": "t0226",
+   "evidence": "elle avait cinq ou six cartons différents et du_coup elle mettait dans le bon carton",
+   "type": "fact",
+   "status": "active",
+   "statement": "La machine vue choisissait parmi cinq ou six tailles de cartons, sans fabriquer sur mesure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-50",
+   "meeting_id": "021a_EARD",
+   "turn": "t0234",
+   "evidence": "voir les gens le nombre de gens qui retournent les colis pour quels motifs faire une synthèse",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique suggère une synthèse des retours de colis et de leurs motifs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-51",
+   "meeting_id": "021a_EARD",
+   "turn": "t0239",
+   "evidence": "vous nous proposez de travailler sur quoi pour le prochain reporting",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Nelly demande sur quoi travailler pour le prochain reporting.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-52",
+   "meeting_id": "021a_EARD",
+   "turn": "t0247",
+   "evidence": "pour pour réduire euh + le nombre de colis euh l' impact que ça a sur l' environnement + c'est une c'est une idée",
+   "type": "answer",
+   "status": "proposed",
+   "statement": "Véronique propose d'utiliser réseaux sociaux et IA pour réduire le nombre de colis et leur impact environnemental.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse étalée sur t0240-t0247."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "021b_EADD",
+   "turn": "t0002",
+   "evidence": "il va falloir qu' on se mette d'accord sur quel thème on va choisir",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Bastien demande de choisir le thème de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "021b_EADD",
+   "turn": "t0003",
+   "evidence": "moi je pense que + traiter amazon enfin tout ce que ça impacte",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique défend le thème Amazon et son impact environnemental.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "021b_EADD",
+   "turn": "t0007",
+   "evidence": "il est important que la transition numérique se fasse à tous_les niveaux dans le pays",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc défend son thème, la transition numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "021b_EADD",
+   "turn": "t0011",
+   "evidence": "moi je propose euh de voir tous_les thèmes proposez plusieurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose de traiter tous les thèmes lors de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "021b_EADD",
+   "turn": "t0012",
+   "evidence": "nous n' aurons pas les fonds financiers pour pouvoir le",
+   "type": "risk",
+   "status": "active",
+   "statement": "Bastien objecte qu'il n'y aura pas les fonds pour plusieurs thèmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "021b_EADD",
+   "turn": "t0035",
+   "evidence": "donc on vote à main levée qui veut plusieurs thèmes",
+   "type": "decision",
+   "status": "active",
+   "statement": "Vote à main levée sur le choix d'un ou plusieurs thèmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "021b_EADD",
+   "turn": "t0038",
+   "evidence": "nous te ferons donc plusieurs thèmes",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : l'événement traitera plusieurs thèmes (vote trois contre un).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Résultat du vote en t0036-t0037."
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "021b_EADD",
+   "turn": "t0039",
+   "evidence": "on peut trouver une une ligne rouge après un fil rouge après un fil conducteur qui réunit en_fait tous_les tous_les sujets",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose un fil conducteur réunissant tous les sujets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "021b_EADD",
+   "turn": "t0043",
+   "evidence": "c'est internet le fil conducteur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose internet comme fil conducteur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "021b_EADD",
+   "turn": "t0047",
+   "evidence": "sous quelle forme on ferait ça sous une forme de conférence",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Bastien demande sous quelle forme organiser l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "021b_EADD",
+   "turn": "t0048",
+   "evidence": "moi je voudrais bien une kermesse",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose une kermesse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "021b_EADD",
+   "turn": "t0107",
+   "evidence": "donc on partirait sur une kermesse",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement prendra la forme d'une kermesse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par Jean-Marc (t0108) et Bastien (t0109)."
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "021b_EADD",
+   "turn": "t0053",
+   "evidence": "le caramentran qui serait sous forme de jeff bezos",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose un caramentran (effigie brûlée) à l'image de Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "021b_EADD",
+   "turn": "t0069",
+   "evidence": "ça serait à la fin de la de la kermesse évidemment",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le caramentran serait brûlé à la fin de la kermesse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Bastien en t0070."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "021b_EADD",
+   "turn": "t0074",
+   "evidence": "moi je serais pour un jeu de quilles avec euh les différents réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose un jeu de quilles à l'effigie des réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "021b_EADD",
+   "turn": "t0080",
+   "evidence": "des petits canards mais à l' intérieur des intelligences artificielles qui du_coup se déplacent pour éviter de se faire capturer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose une pêche aux canards équipés d'IA qui esquivent la capture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "021b_EADD",
+   "turn": "t0083",
+   "evidence": "ça va être technique ça demande beaucoup de fonds",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les canards à IA seraient techniques et coûteux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "021b_EADD",
+   "turn": "t0095",
+   "evidence": "je propose qu' on fasse venir la la maison de retraite euh de roquemaure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose de faire venir la maison de retraite de Roquemaure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "021b_EADD",
+   "turn": "t0097",
+   "evidence": "on essaye de leur faire une espèce de petite formation sur internet",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposer aux résidents une petite formation à internet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "021b_EADD",
+   "turn": "t0100",
+   "evidence": "je propose qu' on initie ces personnes âgées au jeu vidéo notamment call of duty",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose d'initier les seniors au jeu vidéo en streaming face à des joueurs professionnels comme Gotaga.",
+   "owner": null,
+   "mentioned_people": [
+    "gotaga"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "021b_EADD",
+   "turn": "t0113",
+   "evidence": "du coup on invite jeff bezos quand même ou pas",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Bastien demande si on invite Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "021b_EADD",
+   "turn": "t0119",
+   "evidence": "ouais donc on va éviter on va éviter",
+   "type": "answer",
+   "status": "active",
+   "statement": "Jean-Marc conclut qu'on n'invitera pas Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "021b_EADD",
+   "turn": "t0122",
+   "evidence": "donc il va falloir contacter un peu tous tous_les influenceurs",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faudra contacter les influenceurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "021b_EADD",
+   "turn": "t0137",
+   "evidence": "on peut aussi brûler un de ses entrepôts",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien suggère (par provocation) de brûler un entrepôt Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "021b_EADD",
+   "turn": "t0145",
+   "evidence": "j' ai peur qu' il_y ait des poursuites",
+   "type": "risk",
+   "status": "active",
+   "statement": "Jean-Marc craint des poursuites judiciaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "021b_EADD",
+   "turn": "t0152",
+   "evidence": "on peut faire un jeu de rapidité on leur donne des points a points b",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose une course de livraison d'un point A à un point B.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "021b_EADD",
+   "turn": "t0158",
+   "evidence": "un pentathlon amazon ils vont devoir livrer des colis",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose un pentathlon Amazon de livraison de colis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "021b_EADD",
+   "turn": "t0167",
+   "evidence": "peut être pas un pentathlon mais à la limite un triathlon tout simplement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien réduit l'idée à un triathlon (nage, vélo, course) avec un colis sur le dos.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "021b_EADD",
+   "turn": "t0180",
+   "evidence": "j' ai peur qu' on explose le budget",
+   "type": "risk",
+   "status": "active",
+   "statement": "Nelly craint qu'on explose le budget avec ces épreuves.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "021b_EADD",
+   "turn": "t0185",
+   "evidence": "autour_du village c'est-à-dire qu' on donne des adresses de livraison",
+   "type": "decision",
+   "status": "active",
+   "statement": "La course se fera autour du village : livraisons à vélo, en patins ou en roulettes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord implicite (« oui », « très bien », « on progresse ») en t0186-t0189."
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "021b_EADD",
+   "turn": "t0193",
+   "evidence": "ah on met quelques livreurs d' amazon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Quelques livreurs Amazon participeront.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "021b_EADD",
+   "turn": "t0233",
+   "evidence": "on peut sélectionner un village je sais pas roquemaure qui est plus grand",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique suggère Roquemaure comme village.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "021b_EADD",
+   "turn": "t0238",
+   "evidence": "on peut le faire à montfaucon",
+   "type": "decision",
+   "status": "active",
+   "statement": "La kermesse se fera à Montfaucon, où vivent beaucoup de personnes âgées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord en t0239-t0241 ; Montfaucon repris ensuite (t0345)."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "021b_EADD",
+   "turn": "t0243",
+   "evidence": "moi je proposerais au deux janvier",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose le 2 janvier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "021b_EADD",
+   "turn": "t0263",
+   "evidence": "au printemps c'est mieux",
+   "type": "decision",
+   "status": "active",
+   "statement": "La kermesse aura lieu au printemps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Véronique et Bastien (t0264-t0266)."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "021b_EADD",
+   "turn": "t0267",
+   "evidence": "le le le le dix mai par_exemple",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien suggère le 10 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "021b_EADD",
+   "turn": "t0272",
+   "evidence": "faut regarder euh un samedi quoi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc veut un samedi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "021b_EADD",
+   "turn": "t0274",
+   "evidence": "le huit mai c'est un dimanche",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le 8 mai tombe un dimanche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "021b_EADD",
+   "turn": "t0281",
+   "evidence": "l' objectif principal est de faire de l' argent avec cette kermesse",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Jean-Marc affirme que l'objectif principal de la kermesse est de faire de l'argent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "021b_EADD",
+   "turn": "t0282",
+   "evidence": "on est une association à but non lucratif",
+   "type": "fact",
+   "status": "active",
+   "statement": "Bastien rappelle que l'association est à but non lucratif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "021b_EADD",
+   "turn": "t0290",
+   "evidence": "est-ce qu' on fait payer l' entrée",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Bastien demande si l'entrée sera payante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "021b_EADD",
+   "turn": "t0296",
+   "evidence": "je dirais deux euros",
+   "type": "answer",
+   "status": "active",
+   "statement": "Nelly propose deux euros l'entrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-43",
+   "meeting_id": "021b_EADD",
+   "turn": "t0297",
+   "evidence": "deux euros deux euros très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'entrée est fixée à deux euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux euros",
+   "assertion": "extracted",
+   "notes": "Accord de Nelly et Jean-Marc (t0298-t0299)."
+  },
+  {
+   "key": "b-44",
+   "meeting_id": "021b_EADD",
+   "turn": "t0303",
+   "evidence": "deux_mille_cinq_cent à six_cent euros un peu plus",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien estime la recette à environ 2 500-2 600 euros si la moitié du village vient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux_mille_cinq_cent à six_cent euros",
+   "assertion": "extracted",
+   "notes": "Estimation, calcul confus."
+  },
+  {
+   "key": "b-45",
+   "meeting_id": "021b_EADD",
+   "turn": "t0309",
+   "evidence": "ça coûterait dans les 100 000 euros",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Faire venir un influenceur connu coûterait environ 100 000 euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "100 000 euros",
+   "assertion": "extracted",
+   "notes": "Aucun devis fait (t0317)."
+  },
+  {
+   "key": "b-46",
+   "meeting_id": "021b_EADD",
+   "turn": "t0327",
+   "evidence": "on va pas prendre gotaga mais il_y a un petit streamer là qui a une centaine d' abonnés",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose un petit streamer local d'une centaine d'abonnés plutôt que Gotaga.",
+   "owner": null,
+   "mentioned_people": [
+    "gotaga"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-47",
+   "meeting_id": "021b_EADD",
+   "turn": "t0337",
+   "evidence": "donc on fait payer l' entrée",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'entrée sera payante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-48",
+   "meeting_id": "021b_EADD",
+   "turn": "t0340",
+   "evidence": "une kermesse c'est sur une journée une journée",
+   "type": "decision",
+   "status": "active",
+   "statement": "La kermesse durera une journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord général t0341-t0343."
+  },
+  {
+   "key": "b-49",
+   "meeting_id": "021b_EADD",
+   "turn": "t0344",
+   "evidence": "on on monte un bar quand même",
+   "type": "decision",
+   "status": "active",
+   "statement": "On montera un bar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord appuyé de Jean-Marc (t0345, t0347)."
+  },
+  {
+   "key": "b-50",
+   "meeting_id": "021b_EADD",
+   "turn": "t0348",
+   "evidence": "on peut faire venir des foodtrucks par_exemple",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose des foodtrucks.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-51",
+   "meeting_id": "021b_EADD",
+   "turn": "t0356",
+   "evidence": "à la place du foodtruck voilà soupe au pistou pour tout_le monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose une soupe au pistou à la place des foodtrucks.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jean-Marc dit qu'on peut faire les deux (t0355) : pas de décision nette."
+  },
+  {
+   "key": "b-52",
+   "meeting_id": "021b_EADD",
+   "turn": "t0359",
+   "evidence": "les produits locaux euh + et on les fait venir euh les producteurs locaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique propose de faire goûter des produits locaux et venir des producteurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-53",
+   "meeting_id": "021b_EADD",
+   "turn": "t0376",
+   "evidence": "on brûle jeff bezos en fin de journée",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pour le thème Amazon, on brûle l'effigie de Jeff Bezos en fin de journée.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-54",
+   "meeting_id": "021b_EADD",
+   "turn": "t0381",
+   "evidence": "les réseaux sociaux on fait le chamboule tout aux réseaux sociaux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pour les réseaux sociaux : un chamboule-tout.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-55",
+   "meeting_id": "021b_EADD",
+   "turn": "t0389",
+   "evidence": "on a laissé tomber hein l' idée des petits canards",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'idée des canards à IA est abandonnée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Raison : coût (t0388), confirmé par Jean-Marc (t0390)."
+  },
+  {
+   "key": "b-56",
+   "meeting_id": "021b_EADD",
+   "turn": "t0395",
+   "evidence": "on peut faire de des une démonstration de drones",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose une démonstration de drones pour le thème IA.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-57",
+   "meeting_id": "021b_EADD",
+   "turn": "t0404",
+   "evidence": "se sert d' alexa qui est l' intelligence artificielle de d' amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "Alexa est l'intelligence artificielle d'Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Corrige t0402 qui l'attribuait à Google."
+  },
+  {
+   "key": "b-58",
+   "meeting_id": "021b_EADD",
+   "turn": "t0406",
+   "evidence": "pour animer tout simplement la journée avec de temps en temps des interventions d' alexa qui lance de la musique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose qu'Alexa anime la journée en lançant de la musique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accueil favorable (t0423, t0425) sans décision formelle."
+  },
+  {
+   "key": "b-59",
+   "meeting_id": "021b_EADD",
+   "turn": "t0416",
+   "evidence": "ça faut avoir une maison connectée pour que ça fonctionne",
+   "type": "risk",
+   "status": "active",
+   "statement": "Nelly note qu'Alexa nécessite une maison connectée pour fonctionner.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-60",
+   "meeting_id": "021b_EADD",
+   "turn": "t0420",
+   "evidence": "on demandera aux voisins un petit un petit cable de dix mètres ça devrait suffire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Demander aux voisins un câble de dix mètres pour brancher Alexa.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-61",
+   "meeting_id": "021b_EADD",
+   "turn": "t0441",
+   "evidence": "la date est fixée euh on a dit donc le huit mai",
+   "type": "decision",
+   "status": "active",
+   "statement": "La date est fixée au 8 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-62",
+   "meeting_id": "021b_EADD",
+   "turn": "t0442",
+   "evidence": "l' association il faut la + la déclarer",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Véronique pense qu'il faut d'abord déclarer l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-63",
+   "meeting_id": "021b_EADD",
+   "turn": "t0443",
+   "evidence": "non mais on est déjà une association",
+   "type": "fact",
+   "status": "active",
+   "statement": "Bastien répond que l'association existe déjà.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Véronique accepte (« ah d'accord », t0445)."
+  },
+  {
+   "key": "b-64",
+   "meeting_id": "021b_EADD",
+   "turn": "t0454",
+   "evidence": "depuis que vous êtes d'ailleurs le trésorier euh je trouve que l' argent vient à manquer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Jean-Marc reproche au trésorier (Bastien) que l'argent vienne à manquer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-65",
+   "meeting_id": "021b_EADD",
+   "turn": "t0466",
+   "evidence": "on va leur prendre en 3d le cimetière et pour le visiter depuis là",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose une visite en réalité virtuelle du cimetière en 3D pour les seniors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée de réalité virtuelle lancée par Véronique (t0459-t0463) ; approuvée par Jean-Marc (t0468)."
+  },
+  {
+   "key": "b-66",
+   "meeting_id": "021b_EADD",
+   "turn": "t0469",
+   "evidence": "on peut enlever le streamer et gagner beaucoup beaucoup de place",
+   "type": "decision",
+   "status": "active",
+   "statement": "On retire le streamer du programme.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Jean-Marc et Nelly (t0470-t0471)."
+  },
+  {
+   "key": "b-67",
+   "meeting_id": "021b_EADD",
+   "turn": "t0479",
+   "evidence": "il faut demander des aides à la mairie",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut demander des aides publiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-68",
+   "meeting_id": "021b_EADD",
+   "turn": "t0481",
+   "evidence": "au département à la mairie de la région et de l' europe",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Demander des subventions au département, à la mairie, à la région et à l'Europe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0003",
+   "evidence": "est-ce qu' on garde toujours cette date du huit mai",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Bastien demande si l'on garde la date du 8 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0009",
+   "evidence": "je pense que nous garderons du coup la kermesse digitale",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement s'appellera « kermesse digitale ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord t0010-t0012 ; nom proposé par Jean-Marc (t0004)."
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0014",
+   "evidence": "comme c'est le huit mai c'est l' armistice",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le 8 mai est l'armistice, ce qui pose problème (mairie).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0018",
+   "evidence": "a nous prévoir le sept mai ou le quatorze ou le quinze",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose le 7, le 14 ou le 15 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0019",
+   "evidence": "qu' à faire le samedi c'est mieux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc préfère un samedi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0024",
+   "evidence": "et ben nous modifions pour le sept mai très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "La date est modifiée : la kermesse aura lieu le 7 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0025",
+   "evidence": "on a besoin de définir une on va dire un premier budget",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Bastien veut définir un premier budget.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0027",
+   "evidence": "on a largement assez dessus on a largement assez",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien affirme que la trésorerie est largement suffisante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0034",
+   "evidence": "je vais m' occuper de contacter la mairie le département",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Jean-Marc s'occupe de contacter mairie, département et région pour les subventions.",
+   "owner": "065",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "La région est ajoutée en t0037."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0039",
+   "evidence": "je vous avais proposé l' europe ça ne sera pas possible",
+   "type": "fact",
+   "status": "active",
+   "statement": "Jean-Marc indique que la demande à l'Europe ne sera pas possible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0041",
+   "evidence": "l europe va être dissoute",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Jean-Marc prétend que l'Europe sera dissoute l'année prochaine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Affirmation fantaisiste, ton de jeu de rôle."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0054",
+   "evidence": "comment on peut s' organiser pour euh contacter des livreurs d' amazon",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Véronique demande comment contacter des livreurs Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0056",
+   "evidence": "ce qu' on peut c'est par euh justement par les réseaux",
+   "type": "answer",
+   "status": "active",
+   "statement": "Véronique propose de passer par les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0060",
+   "evidence": "il faut que celui qui gagne la course euh il a un prix intéressant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc veut un prix intéressant pour le gagnant de la course.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0066",
+   "evidence": "une place à la maison de retraite",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nelly propose comme prix une place en maison de retraite.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0072",
+   "evidence": "lui il fait tout simplement gagner la petite truc à alexa",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose de faire gagner l'enceinte Alexa.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0079",
+   "evidence": "une centaine d' euros",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'enceinte Alexa coûte une centaine d'euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "une centaine d' euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0081",
+   "evidence": "donc euh on part sur ça du coup alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le prix de la course sera l'enceinte Alexa.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Dit « voté à l'unanimité » (t0083)."
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0088",
+   "evidence": "on aura deux bonne d' achat alors bonne d' achat amazon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le prix devient un bon d'achat Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Après l'objection de Nelly (t0086, le gagnant l'a peut-être déjà) ; confirmé par Jean-Marc (t0089). ASR : « deux bonne » probablement « des bons »."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0097",
+   "evidence": "donc je m' en occupe euh",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Bastien s'occupe de contacter les livreurs et d'acheter le prix.",
+   "owner": "066",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contenu de la tâche précisé en t0098."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0134",
+   "evidence": "je vous ferai une petite liste de tout_le matériel",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Nelly fournira la liste du matériel nécessaire au jeu de quilles.",
+   "owner": "067",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0134",
+   "evidence": "il faut compter dans le budget bien sûr un achat de quilles",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir au budget l'achat de quilles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0154",
+   "evidence": "faut prévoir un petit budget pour le procès du_coup",
+   "type": "risk",
+   "status": "active",
+   "statement": "Nelly évoque un risque de procès à cause de l'effigie de Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0155",
+   "evidence": "faire une caricature une caricature de jeff bezos très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le caramentran sera une caricature de Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0165",
+   "evidence": "alors oui alors ça je peux m' en occuper moi",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Jean-Marc se propose pour aller chercher le bois / le matériel du caramentran.",
+   "owner": null,
+   "mentioned_people": [
+    "065"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non retenu : Bastien attribue la fabrication à toute l'équipe (t0168)."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0168",
+   "evidence": "on va on va mettre fabrication du carmentrant euh l' équipe",
+   "type": "decision",
+   "status": "active",
+   "statement": "La fabrication du caramentran est confiée à toute l'équipe.",
+   "owner": "064 + 065 + 066 + 067",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« l'équipe » = les quatre participants ; accord t0169-t0170."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0174",
+   "evidence": "moi ça je peux ça je peux le le faire à la mairie",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Véronique s'occupe de réserver l'emplacement (salle) auprès de la mairie.",
+   "owner": "064",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0181",
+   "evidence": "moi je peux contacter la maison de l' ehpad",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Véronique contactera l'Ehpad pour recruter des participants.",
+   "owner": "064",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0183",
+   "evidence": "est-ce_qu' on fait des des petits flyers",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Véronique demande si l'on fait des flyers papier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0185",
+   "evidence": "non on fait que digital",
+   "type": "answer",
+   "status": "active",
+   "statement": "Pas de flyers : communication uniquement numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0189",
+   "evidence": "se rapprocher de la mairie et leur demander de passer dans le butin municipal",
+   "type": "decision",
+   "status": "active",
+   "statement": "Demander à la mairie une annonce dans le bulletin municipal (et sur son site).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« butin » = bulletin (ASR) ; site internet ajouté t0192-t0195."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0199",
+   "evidence": "ou alors on change de date et on la fait coïncider",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc suggère de faire coïncider la kermesse avec la fête des associations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0201",
+   "evidence": "non on peut pas tout_le mélanger",
+   "type": "decision",
+   "status": "active",
+   "statement": "On ne fusionne pas avec la fête des associations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Appuyé par Bastien (t0203-t0205)."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0209",
+   "evidence": "faut louer les casques virtuels du coup",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut louer les casques de réalité virtuelle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0217",
+   "evidence": "va quand même falloir aller du_coup filmer entièrement le cimetière",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faudra filmer entièrement le cimetière pour la visite VR.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0240",
+   "evidence": "d'ici mai on est en septembre",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion a lieu en septembre, il reste du temps jusqu'en mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0245",
+   "evidence": "au mois de mai il_y a des mariages tout ça",
+   "type": "risk",
+   "status": "active",
+   "statement": "En mai, les salles sont prises par les mariages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0249",
+   "evidence": "là euh là au_début fin septembre là",
+   "type": "action",
+   "status": "open",
+   "statement": "Réserver la salle tôt, dès fin septembre.",
+   "owner": "064",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Véronique : « je m'y prendrai assez tôt » (t0243)."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0251",
+   "evidence": "de contacter tous_les influenceurs qui vont pouvoir venir sur euh pour notre événement",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Nelly s'occupe de contacter les influenceurs pour l'événement.",
+   "owner": "067",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0254",
+   "evidence": "il y avait budget pour 2000 3000 euros il_y a pas pour 10 000",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Bastien précise que le budget permet 2 000-3 000 euros, pas 10 000.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "2000 3000 euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0256",
+   "evidence": "vous avez pas parlé de 2 000 3 000 euros vous avez dit le budget on en a assez",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Nelly conteste : Bastien avait seulement dit que le budget suffisait.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-42",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0265",
+   "evidence": "ils viendront gratuitement pour notre association",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Nelly affirme que les influenceurs viendront gratuitement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-43",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0269",
+   "evidence": "moi je pense faut mettre pas plus de un_mille euros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Bastien propose de plafonner le budget de la kermesse à 1 000 euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "un_mille euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-44",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0304",
+   "evidence": "donc moi je passe euh normalement euh en mars mars avril",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Véronique passera à l'Ehpad en mars-avril, pas trop tôt pour éviter les désistements.",
+   "owner": "064",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-45",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0305",
+   "evidence": "attention qu' il n' y ait pas une reconnaissance de cas de covid",
+   "type": "risk",
+   "status": "active",
+   "statement": "Nelly signale un risque de cas de covid à l'Ehpad.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-46",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0314",
+   "evidence": "c'est bien de se donner des deadlines mais je pense qu' il est important aussi qu' on se laisse le temps de vivre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas d'échéances strictes : on avance au feeling.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Véronique (t0315)."
+  },
+  {
+   "key": "c-47",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0324",
+   "evidence": "on peut faire un concours euh demander au",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique propose un concours de soupe plutôt qu'un traiteur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-48",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0330",
+   "evidence": "il va falloir suffisamment de monde pour préparer cette soupe au pistou donc on prend un risque",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de manquer de participants pour préparer la soupe au pistou.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-49",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0335",
+   "evidence": "peut-être pas que de soupes au pissou il faut changer notre fusil d' épaule",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Jean-Marc propose d'élargir à plusieurs sortes de soupes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-50",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0343",
+   "evidence": "on va se faire une concours de soupes euh complètes",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : concours de soupes variées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-51",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0344",
+   "evidence": "soupe froide par_exemple l' été au mois de mai",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Véronique suggère des soupes froides, de saison en mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Repris par Bastien (t0345)."
+  },
+  {
+   "key": "c-52",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0355",
+   "evidence": "à une certaine date s'il n' y a pas grand monde d' inscrits ben on annule",
+   "type": "decision",
+   "status": "conditional",
+   "statement": "Le concours de soupe sera annulé s'il y a trop peu d'inscrits à une date donnée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-53",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0364",
+   "evidence": "le problème du bar c'est que là nous sommes que quatre",
+   "type": "risk",
+   "status": "active",
+   "statement": "Ils ne sont que quatre, trop peu pour tenir le bar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-54",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0367",
+   "evidence": "on va contacter nos nos adhérents",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter les adhérents pour tenir le bar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-55",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0378",
+   "evidence": "il est important de conserver ce bar",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le bar est maintenu (source d'argent).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-56",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0438",
+   "evidence": "c'est moi qui m' occuperai avec la mairie",
+   "type": "commitment",
+   "status": "unknown",
+   "statement": "Véronique dit qu'elle s'occupera du concours avec la mairie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contredit la répartition de Bastien qui attribue le concours de soupe à Jean-Marc (t0434, t0442)."
+  },
+  {
+   "key": "c-57",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0442",
+   "evidence": "cherchez des financements et le concours de soupe",
+   "type": "action",
+   "status": "unknown",
+   "statement": "Selon la liste de Bastien, Jean-Marc doit chercher des financements et préparer le concours de soupe.",
+   "owner": null,
+   "mentioned_people": [
+    "065"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Attribution contestée (t0438-t0439) puis « si oui » de Jean-Marc (t0445) : responsable incertain."
+  },
+  {
+   "key": "c-58",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0446",
+   "evidence": "moi je dois m' occuper de l' avr et de contacter les les euh",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Bastien s'occupe de la réalité virtuelle et de contacter les livreurs.",
+   "owner": "066",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« l'avr » = la VR (ASR) ; « les livreurs » en t0449."
+  },
+  {
+   "key": "c-59",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0452",
+   "evidence": "il faut que je communique sur les réseaux sociaux pour notre événement",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Nelly communique sur les réseaux sociaux (en plus du jeu de quilles et des influenceurs).",
+   "owner": "067",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-60",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0456",
+   "evidence": "partir de quelle heure on fait flamber",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Nelly demande à quelle heure brûler le caramentran.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-61",
+   "meeting_id": "021c_EAPD",
+   "turn": "t0463",
+   "evidence": "c'est généralement euh dix-neuf heures",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le caramentran sera brûlé vers 19 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par Véronique (t0464)."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-05",
+   "to": "a-04",
+   "relation": "answers",
+   "justification": "Nelly répond que le sujet est le reporting."
+  },
+  {
+   "from": "a-07",
+   "to": "a-06",
+   "relation": "answers",
+   "justification": "Jean-Marc retrouve son sujet : la transition numérique."
+  },
+  {
+   "from": "a-22",
+   "to": "a-21",
+   "relation": "answers",
+   "justification": "Bastien répond que l'association existe déjà."
+  },
+  {
+   "from": "a-52",
+   "to": "a-51",
+   "relation": "answers",
+   "justification": "Véronique propose le sujet du prochain reporting (t0240-t0247)."
+  },
+  {
+   "from": "a-25",
+   "to": "a-24",
+   "relation": "contradicts",
+   "justification": "Bastien soutient que le thème avait été communiqué ; le désaccord n'est pas tranché."
+  },
+  {
+   "from": "a-29",
+   "to": "a-28",
+   "relation": "contradicts",
+   "justification": "Partenariat avec Amazon contre boycott d'Amazon ; Jean-Marc constate « une divergence » (t0101)."
+  },
+  {
+   "from": "a-31",
+   "to": "a-30",
+   "relation": "supersedes",
+   "justification": "Le groupe accepte qu'il n'y ait pas de vote, la réunion n'étant qu'un reporting."
+  },
+  {
+   "from": "a-35",
+   "to": "a-27",
+   "relation": "contradicts",
+   "justification": "Bastien conteste explicitement qu'Amazon pollue."
+  },
+  {
+   "from": "a-37",
+   "to": "a-27",
+   "relation": "supports",
+   "justification": "Les camions quasi vides étayent le problème environnemental."
+  },
+  {
+   "from": "a-39",
+   "to": "a-38",
+   "relation": "contradicts",
+   "justification": "Bastien conteste la garantie de livraison en un jour pour tous les produits."
+  },
+  {
+   "from": "a-41",
+   "to": "a-40",
+   "relation": "supports",
+   "justification": "Les réseaux sociaux serviraient à faire accepter des délais plus longs."
+  },
+  {
+   "from": "a-45",
+   "to": "a-44",
+   "relation": "supports",
+   "justification": "Bastien confirme que le colis sur mesure n'est pas rentable."
+  },
+  {
+   "from": "a-46",
+   "to": "a-43",
+   "relation": "contradicts",
+   "justification": "Bastien affirme que la technologie décrite par Nelly n'existe pas encore."
+  },
+  {
+   "from": "a-48",
+   "to": "a-47",
+   "relation": "contradicts",
+   "justification": "Désaccord non tranché sur l'enseigne vue dans l'émission."
+  },
+  {
+   "from": "b-07",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "Le vote tranche : plusieurs thèmes."
+  },
+  {
+   "from": "b-07",
+   "to": "b-02",
+   "relation": "supersedes",
+   "justification": "La décision « plusieurs thèmes » tranche la question du thème unique proposé par Véronique."
+  },
+  {
+   "from": "b-07",
+   "to": "b-03",
+   "relation": "supersedes",
+   "justification": "La décision « plusieurs thèmes » tranche la question du thème unique défendu par Jean-Marc."
+  },
+  {
+   "from": "b-07",
+   "to": "b-04",
+   "relation": "supports",
+   "justification": "La décision adopte la proposition de Nelly."
+  },
+  {
+   "from": "b-09",
+   "to": "b-08",
+   "relation": "supports",
+   "justification": "Jean-Marc propose internet comme fil conducteur."
+  },
+  {
+   "from": "b-11",
+   "to": "b-10",
+   "relation": "answers",
+   "justification": "Jean-Marc répond « une kermesse » à la question de la forme."
+  },
+  {
+   "from": "b-12",
+   "to": "b-11",
+   "relation": "supports",
+   "justification": "La kermesse proposée est actée."
+  },
+  {
+   "from": "b-14",
+   "to": "b-13",
+   "relation": "supports",
+   "justification": "Précise le moment où brûler le caramentran."
+  },
+  {
+   "from": "b-53",
+   "to": "b-13",
+   "relation": "supports",
+   "justification": "Récapitulatif : on brûle Jeff Bezos en fin de journée."
+  },
+  {
+   "from": "b-54",
+   "to": "b-15",
+   "relation": "supports",
+   "justification": "Le chamboule-tout aux réseaux sociaux reprend le jeu de quilles."
+  },
+  {
+   "from": "b-55",
+   "to": "b-16",
+   "relation": "supersedes",
+   "justification": "« On a laissé tomber l'idée des petits canards »."
+  },
+  {
+   "from": "b-17",
+   "to": "b-55",
+   "relation": "supports",
+   "justification": "Le coût motive l'abandon."
+  },
+  {
+   "from": "b-22",
+   "to": "b-21",
+   "relation": "answers",
+   "justification": "Jean-Marc répond qu'on évitera d'inviter Jeff Bezos."
+  },
+  {
+   "from": "b-25",
+   "to": "b-24",
+   "relation": "contradicts",
+   "justification": "Jean-Marc s'inquiète des poursuites ; l'idée reste en suspens (« on va y réfléchir »)."
+  },
+  {
+   "from": "b-28",
+   "to": "b-27",
+   "relation": "supersedes",
+   "justification": "« peut-être pas un pentathlon mais un triathlon » : correction explicite."
+  },
+  {
+   "from": "b-30",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "Nelly propose de se contenter du tour du village pour le budget ; le groupe adopte le tour du village."
+  },
+  {
+   "from": "b-29",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Le risque budgétaire justifie le tour du village."
+  },
+  {
+   "from": "b-33",
+   "to": "b-32",
+   "relation": "supersedes",
+   "justification": "Le groupe retient Montfaucon plutôt que Roquemaure."
+  },
+  {
+   "from": "b-35",
+   "to": "b-34",
+   "relation": "supersedes",
+   "justification": "Le froid exclut le 2 janvier ; le printemps est retenu."
+  },
+  {
+   "from": "b-61",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "La date fixée est le 8 mai et non le 10 mai."
+  },
+  {
+   "from": "b-61",
+   "to": "b-35",
+   "relation": "supports",
+   "justification": "Le 8 mai est au printemps."
+  },
+  {
+   "from": "b-40",
+   "to": "b-39",
+   "relation": "contradicts",
+   "justification": "But non lucratif contre objectif de faire de l'argent."
+  },
+  {
+   "from": "a-16",
+   "to": "b-39",
+   "relation": "contradicts",
+   "justification": "En a, Jean-Marc disait « pas de bénéfices » ; en b il fait de l'argent l'objectif principal."
+  },
+  {
+   "from": "b-43",
+   "to": "b-42",
+   "relation": "supports",
+   "justification": "Bastien valide les deux euros proposés par Nelly."
+  },
+  {
+   "from": "b-47",
+   "to": "b-41",
+   "relation": "answers",
+   "justification": "L'entrée sera payante."
+  },
+  {
+   "from": "b-66",
+   "to": "b-20",
+   "relation": "supersedes",
+   "justification": "On retire explicitement le streamer au profit de la VR."
+  },
+  {
+   "from": "b-66",
+   "to": "b-46",
+   "relation": "supersedes",
+   "justification": "Le streamer, quel qu'il soit, est retiré."
+  },
+  {
+   "from": "b-51",
+   "to": "b-50",
+   "relation": "contradicts",
+   "justification": "Soupe « à la place du foodtruck », mais Jean-Marc propose les deux : pas de décision."
+  },
+  {
+   "from": "b-60",
+   "to": "b-59",
+   "relation": "supports",
+   "justification": "Le câble des voisins répond au besoin de connexion."
+  },
+  {
+   "from": "b-60",
+   "to": "b-58",
+   "relation": "supports",
+   "justification": "Le câble rend possible l'animation par Alexa."
+  },
+  {
+   "from": "b-63",
+   "to": "b-62",
+   "relation": "supersedes",
+   "justification": "Correction acceptée : l'association existe déjà, pas besoin de la déclarer."
+  },
+  {
+   "from": "a-22",
+   "to": "b-63",
+   "relation": "supports",
+   "justification": "Même affirmation en réunion a."
+  },
+  {
+   "from": "c-06",
+   "to": "b-61",
+   "relation": "supersedes",
+   "justification": "« nous modifions pour le sept mai » remplace le 8 mai."
+  },
+  {
+   "from": "c-06",
+   "to": "c-01",
+   "relation": "answers",
+   "justification": "La date n'est pas gardée : 7 mai."
+  },
+  {
+   "from": "c-03",
+   "to": "c-06",
+   "relation": "supports",
+   "justification": "L'armistice du 8 mai motive le changement."
+  },
+  {
+   "from": "c-05",
+   "to": "c-06",
+   "relation": "supports",
+   "justification": "Le 7 mai est retenu parce que c'est un samedi."
+  },
+  {
+   "from": "b-37",
+   "to": "c-06",
+   "relation": "supports",
+   "justification": "Jean-Marc voulait déjà un samedi en réunion b."
+  },
+  {
+   "from": "c-08",
+   "to": "c-07",
+   "relation": "answers",
+   "justification": "Bastien répond qu'il y a largement assez."
+  },
+  {
+   "from": "c-10",
+   "to": "b-68",
+   "relation": "supersedes",
+   "justification": "Jean-Marc indique que la piste de l'Europe ne sera pas possible."
+  },
+  {
+   "from": "c-09",
+   "to": "b-67",
+   "relation": "supports",
+   "justification": "Jean-Marc prend en charge les demandes d'aides évoquées en b."
+  },
+  {
+   "from": "c-13",
+   "to": "c-12",
+   "relation": "answers",
+   "justification": "Passer par les réseaux sociaux pour contacter les livreurs."
+  },
+  {
+   "from": "c-18",
+   "to": "c-15",
+   "relation": "supersedes",
+   "justification": "Le prix retenu est l'enceinte Alexa, pas la place en maison de retraite."
+  },
+  {
+   "from": "c-18",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Décision d'adopter l'idée de Bastien."
+  },
+  {
+   "from": "c-19",
+   "to": "c-18",
+   "relation": "supersedes",
+   "justification": "Le prix devient un bon d'achat Amazon après l'objection de Nelly."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Coût de l'enceinte (une centaine d'euros) jugé acceptable."
+  },
+  {
+   "from": "c-24",
+   "to": "b-53",
+   "relation": "supports",
+   "justification": "Le caramentran Jeff Bezos sera une caricature."
+  },
+  {
+   "from": "c-26",
+   "to": "c-25",
+   "relation": "supersedes",
+   "justification": "« non… on va mettre fabrication du carmentrant : l'équipe »."
+  },
+  {
+   "from": "c-38",
+   "to": "c-27",
+   "relation": "supports",
+   "justification": "Précise quand réserver la salle."
+  },
+  {
+   "from": "c-37",
+   "to": "c-38",
+   "relation": "supports",
+   "justification": "Les mariages de mai justifient de réserver tôt."
+  },
+  {
+   "from": "c-30",
+   "to": "c-29",
+   "relation": "answers",
+   "justification": "Pas de flyers, uniquement du numérique."
+  },
+  {
+   "from": "c-31",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "Diffusion par le bulletin municipal et le site de la mairie."
+  },
+  {
+   "from": "c-33",
+   "to": "c-32",
+   "relation": "supersedes",
+   "justification": "Refus explicite de mélanger avec la fête des associations."
+  },
+  {
+   "from": "b-65",
+   "to": "c-34",
+   "relation": "creates_action",
+   "justification": "La visite VR du cimetière implique de louer des casques."
+  },
+  {
+   "from": "b-65",
+   "to": "c-35",
+   "relation": "creates_action",
+   "justification": "La visite VR implique de filmer le cimetière."
+  },
+  {
+   "from": "b-54",
+   "to": "c-22",
+   "relation": "creates_action",
+   "justification": "Le chamboule-tout implique d'acheter des quilles."
+  },
+  {
+   "from": "c-39",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Nelly prend en charge le contact des influenceurs annoncé en b."
+  },
+  {
+   "from": "c-59",
+   "to": "c-39",
+   "relation": "supports",
+   "justification": "Récapitulatif des tâches de Nelly."
+  },
+  {
+   "from": "c-41",
+   "to": "c-40",
+   "relation": "contradicts",
+   "justification": "Nelly conteste le montant de 2 000-3 000 euros."
+  },
+  {
+   "from": "c-50",
+   "to": "b-51",
+   "relation": "supersedes",
+   "justification": "« il faut changer notre fusil d'épaule » : concours de soupes variées au lieu de la soupe au pistou pour tous."
+  },
+  {
+   "from": "c-49",
+   "to": "c-50",
+   "relation": "supports",
+   "justification": "Jean-Marc propose d'élargir aux soupes variées."
+  },
+  {
+   "from": "c-47",
+   "to": "c-50",
+   "relation": "supports",
+   "justification": "L'idée de concours est à l'origine de la décision."
+  },
+  {
+   "from": "c-51",
+   "to": "c-50",
+   "relation": "supports",
+   "justification": "Précise le type de soupes."
+  },
+  {
+   "from": "c-48",
+   "to": "c-49",
+   "relation": "supports",
+   "justification": "Le risque motive le changement."
+  },
+  {
+   "from": "c-55",
+   "to": "b-49",
+   "relation": "supports",
+   "justification": "Le bar décidé en b est maintenu."
+  },
+  {
+   "from": "c-56",
+   "to": "c-57",
+   "relation": "contradicts",
+   "justification": "Véronique et Bastien divergent sur qui prépare le concours de soupe."
+  },
+  {
+   "from": "c-61",
+   "to": "c-60",
+   "relation": "answers",
+   "justification": "Réponse : vers dix-neuf heures."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "021a_EARD",
+   "text": "Sur quelle entreprise porte la présentation que Véronique devait faire au point d'avancement ?",
+   "answerable": true,
+   "qrels": {
+    "a-08": 2,
+    "a-27": 1,
+    "a-28": 1,
+    "a-03": 0,
+    "a-07": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "person"
+    },
+    {
+     "unit": "a-07",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "021a_EARD",
+   "text": "D'après Jean-Marc, quelle proportion des Français dépasse la soixantaine ?",
+   "answerable": true,
+   "qrels": {
+    "a-15": 2,
+    "a-14": 1,
+    "a-11": 0,
+    "a-01": 0
+   },
+   "traps": [
+    {
+     "unit": "a-11",
+     "trap": "amount"
+    },
+    {
+     "unit": "a-01",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "021a_EARD",
+   "text": "Pour quelle raison Jean-Marc déconseille-t-il de miser sur Facebook et TikTok auprès des seniors ?",
+   "answerable": true,
+   "qrels": {
+    "a-18": 2,
+    "a-19": 1,
+    "a-09": 0,
+    "a-11": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-11",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "021a_EARD",
+   "text": "Bastien partage-t-il l'idée que les livraisons d'Amazon nuisent à l'environnement ?",
+   "answerable": true,
+   "qrels": {
+    "a-35": 2,
+    "a-27": 0,
+    "a-37": 0,
+    "a-36": 0
+   },
+   "traps": [
+    {
+     "unit": "a-27",
+     "trap": "person"
+    },
+    {
+     "unit": "a-37",
+     "trap": "person"
+    },
+    {
+     "unit": "a-36",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "021a_EARD",
+   "text": "Le désaccord sur Amazon pendant le reporting a-t-il été tranché par un vote ?",
+   "answerable": true,
+   "qrels": {
+    "a-31": 2,
+    "a-29": 1,
+    "a-28": 1,
+    "a-30": 0,
+    "b-06": 0
+   },
+   "traps": [
+    {
+     "unit": "a-30",
+     "trap": "status"
+    },
+    {
+     "unit": "b-06",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "021a_EARD",
+   "text": "Après le tour des sujets présentés, l'événement portera-t-il sur un seul d'entre eux ou sur tous ?",
+   "answerable": true,
+   "qrels": {
+    "b-07": 2,
+    "b-04": 1,
+    "b-08": 1,
+    "b-06": 1,
+    "b-02": 0,
+    "b-03": 0,
+    "b-05": 0
+   },
+   "traps": [
+    {
+     "unit": "b-02",
+     "trap": "status"
+    },
+    {
+     "unit": "b-03",
+     "trap": "status"
+    },
+    {
+     "unit": "b-05",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "021a_EARD",
+   "text": "Selon Bastien, sait-on déjà fabriquer à la demande un carton aux dimensions exactes du produit ?",
+   "answerable": true,
+   "qrels": {
+    "a-46": 2,
+    "a-45": 1,
+    "a-49": 1,
+    "a-43": 0,
+    "a-44": 0
+   },
+   "traps": [
+    {
+     "unit": "a-43",
+     "trap": "person"
+    },
+    {
+     "unit": "a-44",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "021a_EARD",
+   "text": "Quelle date a été fixée pour le prochain reporting de l'association ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "021b_EADD",
+   "text": "Quel jour la kermesse doit-elle finalement se tenir ?",
+   "answerable": true,
+   "qrels": {
+    "c-06": 2,
+    "b-61": 1,
+    "c-04": 1,
+    "c-03": 1,
+    "b-35": 1,
+    "b-36": 0,
+    "b-34": 0,
+    "b-38": 0
+   },
+   "traps": [
+    {
+     "unit": "b-36",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-34",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-38",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "021b_EADD",
+   "text": "Quel tarif d'entrée a été retenu pour la kermesse ?",
+   "answerable": true,
+   "qrels": {
+    "b-43": 2,
+    "b-42": 1,
+    "b-47": 1,
+    "b-44": 0,
+    "b-45": 0,
+    "c-17": 0
+   },
+   "traps": [
+    {
+     "unit": "b-44",
+     "trap": "amount"
+    },
+    {
+     "unit": "b-45",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-17",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "021b_EADD",
+   "text": "Qui se charge de joindre les influenceurs pour faire venir du monde à la kermesse ?",
+   "answerable": true,
+   "qrels": {
+    "c-39": 2,
+    "c-59": 1,
+    "b-23": 1,
+    "c-42": 1,
+    "c-20": 0,
+    "c-58": 0,
+    "b-46": 0
+   },
+   "traps": [
+    {
+     "unit": "c-20",
+     "trap": "person"
+    },
+    {
+     "unit": "c-58",
+     "trap": "person"
+    },
+    {
+     "unit": "b-46",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "021b_EADD",
+   "text": "Les canards robotisés imaginés par Bastien font-ils encore partie des animations ?",
+   "answerable": true,
+   "qrels": {
+    "b-55": 2,
+    "b-17": 1,
+    "b-16": 0
+   },
+   "traps": [
+    {
+     "unit": "b-16",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "021b_EADD",
+   "text": "Quel obstacle technique empêche de brancher simplement l'enceinte d'Amazon, et quelle parade a été trouvée ?",
+   "answerable": true,
+   "qrels": {
+    "b-59": 2,
+    "b-60": 2,
+    "b-58": 1,
+    "b-57": 0,
+    "b-56": 0,
+    "c-16": 0
+   },
+   "traps": [
+    {
+     "unit": "b-57",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-56",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-16",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "021b_EADD",
+   "text": "La course de livraison prendra-t-elle la forme d'un triathlon ?",
+   "answerable": true,
+   "qrels": {
+    "b-30": 2,
+    "b-26": 1,
+    "b-29": 1,
+    "b-31": 1,
+    "b-28": 0,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-27",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "021b_EADD",
+   "text": "Qu'est-ce qui sera proposé à manger aux visiteurs de la kermesse ?",
+   "answerable": true,
+   "qrels": {
+    "c-50": 2,
+    "c-51": 1,
+    "c-49": 1,
+    "c-52": 1,
+    "c-47": 1,
+    "b-51": 1,
+    "b-52": 1,
+    "b-50": 0,
+    "b-49": 0,
+    "c-55": 0
+   },
+   "traps": [
+    {
+     "unit": "b-50",
+     "trap": "status"
+    },
+    {
+     "unit": "b-49",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-55",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "021b_EADD",
+   "text": "Combien de pensionnaires de l'Ehpad ont déjà confirmé leur venue ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "064": "véronique",
+  "065": "jean-marc",
+  "066": "bastien",
+  "067": "nelly"
+ },
+ "notes": "Annotation provisoire (llm_provisional), mandat v2. Locuteurs identifiés par leurs présentations en a (t0001 bastien, t0003 nelly, t0006 jean-marc, t0049 véronique) ; rôles : Jean-Marc président, Véronique animatrice, Bastien trésorier. Réunions longues (a 254 tours, b 482, c 481) et très riches en propositions : le nombre d'unités dépasse la fourchette indicative pour b et c. Ton de jeu de rôle humoristique (brûler Jeff Bezos ou un entrepôt, Europe dissoute, exclusion de Bastien) : annoté comme donnée, statuts unknown quand l'affirmation est fantaisiste. Cas ambigus : date 10 mai puis 8 mai (b, fixée t0441) puis 7 mai (c) ; soupe au pistou contre foodtrucks sans décision en b (contradicts), remplacée en c par un concours de soupes ; prix de la course Alexa puis bon d'achat Amazon ; responsable du concours de soupe contesté en fin de c (owner null) ; accords implicites pour le tour du village et Montfaucon. Réunion c en ASR : déformations (butin = bulletin, carmentran/carpentrain, l'avr = la VR, manon zelnély = Nelly). Une remarque sur le statut vaccinal d'une participante (c t0309) n'a pas été annotée (donnée de santé, sans valeur pour la tâche)."
+}
