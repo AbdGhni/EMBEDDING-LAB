@@ -1,0 +1,1770 @@
+{
+ "group_id": "004",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "004a_PARH",
+   "turn": "t0003",
+   "evidence": "c'est un peu eux qui ont la main sur l' économie et puis sur les données personnelles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les GAFAM (Google, Amazon, Facebook, Apple, Microsoft) contrôlent l'économie et les données personnelles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Liste des GAFAM donnée aux tours t0000-t0002."
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "004a_PARH",
+   "turn": "t0005",
+   "evidence": "qui aide aussi à nous rediriger vers certaines publicités",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les données collectées par les GAFAM servent à la publicité personnalisée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "004a_PARH",
+   "turn": "t0006",
+   "evidence": "on est envahis et on ne sait même plus comment s' en débarrasser",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les sollicitations publicitaires deviennent envahissantes et difficiles à éliminer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "004a_PARH",
+   "turn": "t0014",
+   "evidence": "en contrepartie on n' est plus propriétaire de nos données personnelles",
+   "type": "risk",
+   "status": "active",
+   "statement": "En échange d'outils pratiques, on perd la propriété de ses données personnelles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "004a_PARH",
+   "turn": "t0015",
+   "evidence": "je sais même pas ce qu' ils mesurent en_fait et je sais même pas à combien ils les vendent",
+   "type": "risk",
+   "status": "active",
+   "statement": "On ignore quelles données sont mesurées et à quel prix elles sont revendues.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "004a_PARH",
+   "turn": "t0016",
+   "evidence": "amazon aujourd'hui vous livre en vingt_quatre heures ce que vous voulez",
+   "type": "fact",
+   "status": "active",
+   "statement": "Amazon livre n'importe quel produit en 24 heures.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "004a_PARH",
+   "turn": "t0017",
+   "evidence": "ils bossent dans des conditions pas possibles",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les employés d'Amazon travaillent dans de mauvaises conditions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "004a_PARH",
+   "turn": "t0024",
+   "evidence": "que la population se rende compte qu' on peut avoir euh quelque_chose mais pas forcément en vingt-quatre heures",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faudrait que les gens acceptent d'attendre plus longtemps qu'une livraison en 24 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "004a_PARH",
+   "turn": "t0025",
+   "evidence": "on a vu des des libraires proposer des nouveaux services en click and collect",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pendant le confinement, des libraires ont lancé le click and collect.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "004a_PARH",
+   "turn": "t0035",
+   "evidence": "la livraison euh quand on n' est pas pressé justement un petit peu différé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Amazon propose aussi une livraison différée quand on n'est pas pressé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "004a_PARH",
+   "turn": "t0046",
+   "evidence": "moi les réseaux sociaux je les fuis en courant sauf un linkedin parce_que que c'est professionnel",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le locuteur 016 évite les réseaux sociaux, sauf LinkedIn pour le travail.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "004a_PARH",
+   "turn": "t0059",
+   "evidence": "j' utilise surtout euh instagram pour le côté euh image",
+   "type": "fact",
+   "status": "active",
+   "statement": "La locutrice 015 utilise surtout Instagram pour publier des photos.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "004a_PARH",
+   "turn": "t0069",
+   "evidence": "dans le milieu professionnel ça gêne de pas s' y connaître",
+   "type": "risk",
+   "status": "active",
+   "statement": "Ne pas maîtriser les réseaux sociaux devient gênant dans le milieu professionnel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "004a_PARH",
+   "turn": "t0072",
+   "evidence": "la période actuelle fait que il_y a quand même une perte de de sociabilité euh physique",
+   "type": "risk",
+   "status": "active",
+   "statement": "La période actuelle entraîne une perte de sociabilité physique chez les adolescents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "004a_PARH",
+   "turn": "t0078",
+   "evidence": "moi je trouve qu' il_y a un côté un peu dangereux quand même c'est un peu intrusif",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les réseaux sociaux sont jugés dangereux et intrusifs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "004a_PARH",
+   "turn": "t0087",
+   "evidence": "open source pour moi c'est tout ce qui est en libre-échange par_exemple des programmes informatiques",
+   "type": "fact",
+   "status": "active",
+   "statement": "Définition proposée : l'open source désigne des programmes informatiques en libre accès.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "004a_PARH",
+   "turn": "t0097",
+   "evidence": "on le met en open source en ligne et là on en_fait profiter tout_le monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Plutôt que breveter une innovation, on peut la publier en open source pour en faire profiter tout le monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Alternative au brevet évoquée en t0096."
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "004a_PARH",
+   "turn": "t0098",
+   "evidence": "ça devient une obligation européenne hein de de rendre ouverte euh tout la connaissance",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rendre la connaissance de la recherche ouverte devient une obligation européenne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "004a_PARH",
+   "turn": "t0102",
+   "evidence": "l' information n' est pas forcément vérifiée",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les contenus open source ne sont pas forcément vérifiés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "004a_PARH",
+   "turn": "t0103",
+   "evidence": "à l' intérieur y a quelque_chose de caché qui nous espionne",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un code open source pourrait cacher un mouchard ou un logiciel espion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "004b_PADH",
+   "turn": "t0006",
+   "evidence": "on peut dire qu' on invite didier raoult parce_qu' il parle à tout_le monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'inviter Didier Raoult comme invité de l'événement.",
+   "owner": null,
+   "mentioned_people": [
+    "didier raoult"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "004b_PADH",
+   "turn": "t0009",
+   "evidence": "ou carole tardif si on veut faire la lèche",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Alternative évoquée : inviter Carole Tardif.",
+   "owner": null,
+   "mentioned_people": [
+    "carole tardif"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition sur le ton de la plaisanterie."
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "004b_PADH",
+   "turn": "t0012",
+   "evidence": "donc didier raoult parfait",
+   "type": "decision",
+   "status": "active",
+   "statement": "Didier Raoult est retenu comme invité principal.",
+   "owner": null,
+   "mentioned_people": [
+    "didier raoult"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "004b_PADH",
+   "turn": "t0013",
+   "evidence": "la thématique euh de de de notre actualité sur euh le covid",
+   "type": "decision",
+   "status": "active",
+   "statement": "La thématique de l'événement est l'actualité du covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "004b_PADH",
+   "turn": "t0017",
+   "evidence": "c'est pour promouvoir le vaccin pour pour euh faire la promotion de l' ihu",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question sur l'objectif de l'événement : promouvoir le vaccin ou l'IHU ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "004b_PADH",
+   "turn": "t0019",
+   "evidence": "de trouver la controverse c'est-à-dire euh vraiment des opposants",
+   "type": "answer",
+   "status": "active",
+   "statement": "L'objectif est de créer la controverse en invitant des opposants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "004b_PADH",
+   "turn": "t0038",
+   "evidence": "avec des directeurs de de de d' hôpitaux de bretagne de paris de marseille",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée d'une table ronde réunissant des directeurs d'hôpitaux de plusieurs régions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "004b_PADH",
+   "turn": "t0043",
+   "evidence": "uniquement on se focalise sur le sujet santé",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement se concentre uniquement sur le volet santé/médical, pas politique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "004b_PADH",
+   "turn": "t0054",
+   "evidence": "pour respecter votre budget vous devez vous pouvez choisir soit trois invités à bas coût",
+   "type": "fact",
+   "status": "active",
+   "statement": "Contrainte budgétaire du document : trois invités à bas coût, deux à coût moyen ou un à coût élevé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite de la règle en t0057."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "004b_PADH",
+   "turn": "t0057",
+   "evidence": "si on cible raoult on peut le considérer comme un invité à coût élevé",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Raoult pourrait être classé comme invité à coût élevé.",
+   "owner": null,
+   "mentioned_people": [
+    "didier raoult"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "004b_PADH",
+   "turn": "t0065",
+   "evidence": "il est à marseille donc il n' y a pas de frais de déplacement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Raoult est à Marseille, donc pas de frais de déplacement.",
+   "owner": null,
+   "mentioned_people": [
+    "didier raoult"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "004b_PADH",
+   "turn": "t0067",
+   "evidence": "l' invitation pour moi c'est vraiment un coût moyen",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Selon 013, inviter Raoult relève plutôt d'un coût moyen.",
+   "owner": null,
+   "mentioned_people": [
+    "didier raoult"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "004b_PADH",
+   "turn": "t0075",
+   "evidence": "quand tu parles de directeur d' hôpitaux tu attends quoi comme réaction de leur part",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question sur ce qu'on attend des directeurs d'hôpitaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "004b_PADH",
+   "turn": "t0076",
+   "evidence": "des informations sur la gestion de crise dans les hôpitaux",
+   "type": "answer",
+   "status": "active",
+   "statement": "On attend d'eux des retours sur la gestion de crise à l'hôpital et sur les traitements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "004b_PADH",
+   "turn": "t0095",
+   "evidence": "on reste pour moi trois personnes ces trois personnes à coups coups faibles ou moyens",
+   "type": "decision",
+   "status": "active",
+   "statement": "On part sur trois intervenants à coût faible ou moyen.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 016 en t0096 (« bon on peut imaginer ça »)."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "004b_PADH",
+   "turn": "t0097",
+   "evidence": "je vois bien aussi une un virologue",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée d'inviter aussi un virologue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "004b_PADH",
+   "turn": "t0099",
+   "evidence": "on peut cibler par_exemple le grand est parce_que c'est là que ça a pété au départ la région_parisienne et notre bassin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Cibler trois régions : Grand Est, région parisienne et la région locale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "004b_PADH",
+   "turn": "t0115",
+   "evidence": "si on veut un démarrage de format euh conférencier ça veut dire qu' on les fait parler sur une même thématique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Commencer par un format conférence où chacun donne son point de vue sur un même thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "004b_PADH",
+   "turn": "t0127",
+   "evidence": "la gestion de crise je sens que ça peut être épineux ben les les traitements aussi",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les thèmes de la gestion de crise et des traitements risquent d'être épineux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "004b_PADH",
+   "turn": "t0140",
+   "evidence": "on parle des vaccins les différents centres vaccins les différentes classes d' âge",
+   "type": "decision",
+   "status": "active",
+   "statement": "Premier thème : les vaccins (centres, classes d'âge).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Progression crescendo validée par 015 en t0145."
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "004b_PADH",
+   "turn": "t0142",
+   "evidence": "la gestion de la crise et puis et puis trois les différents traitements",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deuxième thème la gestion de crise, troisième les traitements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Progression crescendo validée par 015 en t0145."
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "004b_PADH",
+   "turn": "t0147",
+   "evidence": "une matinée serait suffisante avec ce format là",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Une matinée suffirait avec ce format en trois parties.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "004b_PADH",
+   "turn": "t0166",
+   "evidence": "on peut peut euh faire éventuellement en format hybride",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Possibilité d'un format hybride (public sur place et à distance).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "004b_PADH",
+   "turn": "t0170",
+   "evidence": "un comité scientifique qui recueille les questions qui les trie parce_qu' il_y aura forcément des questions pas pertinentes",
+   "type": "decision",
+   "status": "active",
+   "statement": "Un comité scientifique recueille et trie les questions du public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acquiescement de 015 (t0169, t0172) ; statut active par inférence de l'accord."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "004b_PADH",
+   "turn": "t0170",
+   "evidence": "le reste c'est un public en visio qui suit l' événement en numérique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le reste du public suit l'événement en visio.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "004b_PADH",
+   "turn": "t0179",
+   "evidence": "il faut faire un peu de rabattage quand même hein ça c'est essentiel",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut faire du rabattage pour attirer le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "004b_PADH",
+   "turn": "t0185",
+   "evidence": "à l' automne deux_mille_vingt-et-un ça serait pas mal",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'organiser l'événement à l'automne 2021.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "004b_PADH",
+   "turn": "t0193",
+   "evidence": "à l' automne les gens seront pas un peu blasés",
+   "type": "risk",
+   "status": "active",
+   "statement": "À l'automne le public risque d'être lassé du sujet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "004b_PADH",
+   "turn": "t0203",
+   "evidence": "on focalise davantage sur les vaccins les différences des vaccins",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Se concentrer davantage sur les différences entre vaccins.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "004b_PADH",
+   "turn": "t0215",
+   "evidence": "fin mai pour fin mai ou un truc comme ça",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de viser fin mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "004b_PADH",
+   "turn": "t0217",
+   "evidence": "je mets mai juin",
+   "type": "decision",
+   "status": "active",
+   "statement": "La période retenue devient mai-juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Fait suite à « on avance tout » (013, t0212) ; acquiescements t0218-t0219."
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "004b_PADH",
+   "turn": "t0226",
+   "evidence": "serait une bonne thématique pour un vendredi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'une fin d'après-midi ou soirée un vendredi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "004b_PADH",
+   "turn": "t0227",
+   "evidence": "le vendredi soir je crois pas parce_que t' es en week-end tu penses plus euh tu débranches un peu peut-être le jeudi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Plutôt le jeudi que le vendredi soir, où les gens sont déjà en week-end.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "004b_PADH",
+   "turn": "t0236",
+   "evidence": "donc euh pareil euh droit à l' image",
+   "type": "action",
+   "status": "open",
+   "statement": "Régler en amont l'enregistrement et le droit à l'image.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite en t0238 (« réglé en amont »)."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "004b_PADH",
+   "turn": "t0247",
+   "evidence": "on est sur un événement une demi-journée",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement dure une demi-journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Après « on est d'accord avec ça » (016, t0246)."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "004b_PADH",
+   "turn": "t0250",
+   "evidence": "il va falloir prendre un technicien",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut engager un technicien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "004b_PADH",
+   "turn": "t0264",
+   "evidence": "en live euh sur twitter euh c'est ça peut bien fonctionner",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Diffuser en direct sur Twitter pour la visibilité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "004b_PADH",
+   "turn": "t0275",
+   "evidence": "les questions on les a déjà avant l' événement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les questions doivent être collectées avant l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "004b_PADH",
+   "turn": "t0282",
+   "evidence": "les trois scientifiques euh en présentiel un régisseur euh son euh euh sûrement un vidéaste",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Équipe sur place : trois scientifiques, un régisseur son, un vidéaste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "004b_PADH",
+   "turn": "t0291",
+   "evidence": "six personnes à peu près",
+   "type": "decision",
+   "status": "active",
+   "statement": "Environ six personnes nécessaires, présentateur compris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Présentateur ajouté par 016 en t0285."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0000",
+   "evidence": "j' ai besoin que l'on confirme la date de l' événement",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Il faut confirmer la date de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0006",
+   "evidence": "y a jour férié là lundi de pentecôte",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le lundi de Pentecôte (24 mai) est férié.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Date précisée par 014 en t0007."
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0011",
+   "evidence": "on bascule en début juin",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement est déplacé début juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0013",
+   "evidence": "donc on garde l' idée du jeudi",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu un jeudi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0040",
+   "evidence": "parce_que on fixe le trois juin",
+   "type": "decision",
+   "status": "active",
+   "statement": "La date fixée est le 3 juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le 10 juin est gardé comme date de repli pour le doodle (même tour)."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0018",
+   "evidence": "ça nous fait deux mois ça on a moins de deux mois",
+   "type": "risk",
+   "status": "active",
+   "statement": "Il reste moins de deux mois de préparation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0027",
+   "evidence": "si on a des refus sur les trois protagonistes on est morts",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un refus des trois intervenants ferait échouer le projet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0028",
+   "evidence": "moi je dis qu' alexandre non tu voudrais pas prendre cette tâche là",
+   "type": "question",
+   "status": "resolved",
+   "statement": "013 propose à Alexandre de se charger des invitations.",
+   "owner": null,
+   "mentioned_people": [
+    "alexandre"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0031",
+   "evidence": "oui je peux me contacter trois intervenants",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Alexandre (016) se charge de contacter les trois intervenants.",
+   "owner": "016",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Il ajoute le comité scientifique en t0035."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0036",
+   "evidence": "le comité scientifique je veux dire il_y a il_y a + on peut faire local hein",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le comité scientifique sera recruté localement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 014 et 016 (t0037-t0038, la Timone)."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0070",
+   "evidence": "on se donne maximum quinze jours",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Se donner au maximum quinze jours pour obtenir les réponses des intervenants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0089",
+   "evidence": "prise de contact là la semaine prochaine avec la deadline au vingt_six avril",
+   "type": "decision",
+   "status": "active",
+   "statement": "Contact des intervenants la semaine suivante, réponse exigée au 26 avril.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0089",
+   "evidence": "la seconde tâche ça va être de voir la disponibilité des salles",
+   "type": "action",
+   "status": "open",
+   "statement": "Deuxième tâche : vérifier la disponibilité des salles ; Laure (014) s'en charge.",
+   "owner": "014",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Prise en charge acceptée par 014 en t0092 (« ça moi je te le fais »), extrait trop pauvre pour une unité séparée."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0115",
+   "evidence": "quatorze au soir c'est fini hein deadline",
+   "type": "decision",
+   "status": "active",
+   "statement": "Salle et techniciens doivent être réservés du 12 au 14 avril au soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0119",
+   "evidence": "tout ce qui est boissons euh + les petits déjeuners quand ils arrivent et peut-être les repas",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'enchaîner tout de suite avec boissons, petits déjeuners et repas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0127",
+   "evidence": "il faut qu' on le fasse trois jours avant + pour le repas et pour le petit déj",
+   "type": "decision",
+   "status": "active",
+   "statement": "Repas et petit déjeuner se commandent trois jours avant, donc plus tard.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "016 conclut « c'est plus tard » en t0130."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0145",
+   "evidence": "à_partir_du vingt_six avril on est sûr euh d' avoir euh nos trois euh + euh invités + donc là on peut lancer une communication",
+   "type": "decision",
+   "status": "active",
+   "statement": "La communication est lancée à partir du 26 avril, une fois les invités confirmés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0173",
+   "evidence": "envisager les actions de communication je veux bien le faire",
+   "type": "commitment",
+   "status": "active",
+   "statement": "015 prépare les actions de communication.",
+   "owner": "015",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0181",
+   "evidence": "on fait appel aux graphistes internes là de chez nous",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le visuel sera réalisé par la graphiste interne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé implicitement par la suite (t0192, t0230)."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0201",
+   "evidence": "solliciter euh raoult pour voir s'il y a pas il aurait pas une idée une envie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de demander à Raoult ses envies pour le visuel.",
+   "owner": null,
+   "mentioned_people": [
+    "didier raoult"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0204",
+   "evidence": "si on le sollicite lui ou un des deux des trois ou les trois ils sont un peu juge et partie",
+   "type": "decision",
+   "status": "active",
+   "statement": "On ne sollicite pas les intervenants pour le visuel : ils seraient juge et partie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "013 se range à cet avis en t0208."
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0241",
+   "evidence": "on veut une affiche enfin un visuel euh fin avril",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le visuel doit être prêt fin avril.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0245",
+   "evidence": "j' ai besoin de savoir qui fait le relais avec euh la graphiste",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui assure le relais avec la graphiste ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "013 répond « moi ça me va » en t0247 (extrait trop pauvre pour une unité)."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0276",
+   "evidence": "l' ensemble des des questions + je peux peut-être euh déjà commencer un peu à classer",
+   "type": "commitment",
+   "status": "active",
+   "statement": "013 collecte les questions transmises et commence à les classer.",
+   "owner": "013",
+   "mentioned_people": [
+    "rebecca"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rebecca, chargée des réseaux, transmettrait les questions (t0271)."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0283",
+   "evidence": "on laisse combien de combien de temps au public pour nous poser les questions",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Combien de temps laisse-t-on au public pour poser ses questions ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0284",
+   "evidence": "ces questions on les pose en live ou est-ce_qu' elles sont soumises aux trois intervenants en amont",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Les questions sont-elles posées en direct ou transmises aux intervenants à l'avance ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0293",
+   "evidence": "dire il_y en a quelques-unes et puis après on + on en pose en live",
+   "type": "decision",
+   "status": "active",
+   "statement": "Formule mixte : quelques questions transmises à l'avance, d'autres posées en direct.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé par 016 (« donc ouais un mixt », t0304)."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0311",
+   "evidence": "il faut laisser quinze jours mais euh pas plus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Laisser quinze jours au public pour poser ses questions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0316",
+   "evidence": "je dirais dix jours",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Contre-proposition : dix jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0331",
+   "evidence": "dix mai retour des questions",
+   "type": "decision",
+   "status": "active",
+   "statement": "Retour des questions du public le 10 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Calcul de 014 à partir du 27 avril (t0328)."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0337",
+   "evidence": "le onze on soumet tout au comité scientifique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le 11 mai, tout est soumis au comité scientifique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0349",
+   "evidence": "le comité scientifique doit valider les questions jusqu'au vingt_sept mai",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le comité scientifique valide les questions au plus tard le 27 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0355",
+   "evidence": "moi je je disais que je ferais le relais avec avec eux",
+   "type": "commitment",
+   "status": "active",
+   "statement": "013 assure le suivi et le relais avec le comité scientifique.",
+   "owner": "013",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répond à la question de 015 (t0354) sur le suivi du comité."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0377",
+   "evidence": "on prévoit quarante_cinq minutes par thématique",
+   "type": "decision",
+   "status": "active",
+   "statement": "45 minutes sont prévues par thématique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0397",
+   "evidence": "c'est peut-être plus à l' animateur de gérer ça plutôt qu' au comité scientifique",
+   "type": "decision",
+   "status": "active",
+   "statement": "C'est l'animateur, pas le comité scientifique, qui gère les temps de parole.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "013 acquiesce en t0401."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0450",
+   "evidence": "fin fin avril ça veut dire traiteur euh et euh + prise de contact avec les intervenants pour prendre leurs billets",
+   "type": "decision",
+   "status": "active",
+   "statement": "Fin avril : traiteur et billets de transport des intervenants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Hôtel ajouté par 014 en t0453."
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0458",
+   "evidence": "les techniciens on les a réservés mi-avril",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les techniciens sont réservés à la mi-avril (dans le planning).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rappel du planning plutôt que constat d'une réservation effective."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0471",
+   "evidence": "on a des licences zoom webinaire",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'organisation dispose de licences Zoom Webinar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "004c_PAPH",
+   "turn": "t0480",
+   "evidence": "il_y en a une qui existe à cinq_mille",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une licence Zoom Webinar permet jusqu'à 5000 participants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-03",
+   "to": "b-02",
+   "relation": "supersedes",
+   "justification": "« donc didier raoult parfait » tranche entre Raoult et l'alternative Carole Tardif."
+  },
+  {
+   "from": "b-03",
+   "to": "b-01",
+   "relation": "supports",
+   "justification": "La décision reprend la proposition d'inviter Raoult."
+  },
+  {
+   "from": "b-06",
+   "to": "b-05",
+   "relation": "answers",
+   "justification": "013 répond à la question sur ce que l'événement cible : la controverse."
+  },
+  {
+   "from": "b-14",
+   "to": "b-13",
+   "relation": "answers",
+   "justification": "016 répond à ce qu'on attend des directeurs d'hôpitaux."
+  },
+  {
+   "from": "b-12",
+   "to": "b-10",
+   "relation": "contradicts",
+   "justification": "Coût moyen contre coût élevé pour Raoult, sans tranchage à ce stade."
+  },
+  {
+   "from": "b-15",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "On retient trois intervenants à coût faible ou moyen au lieu d'un seul invité à coût élevé."
+  },
+  {
+   "from": "b-15",
+   "to": "b-12",
+   "relation": "supports",
+   "justification": "Le classement de Raoult en coût moyen fonde la formule à trois intervenants."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Suite de la même progression en trois thèmes."
+  },
+  {
+   "from": "b-35",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Demi-journée confirmée, compatible avec la matinée proposée."
+  },
+  {
+   "from": "b-31",
+   "to": "b-27",
+   "relation": "supersedes",
+   "justification": "« on avance tout » : la période passe de l'automne 2021 à mai-juin."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Fin mai est inclus dans la période mai-juin."
+  },
+  {
+   "from": "c-03",
+   "to": "b-31",
+   "relation": "supersedes",
+   "justification": "« on bascule en début juin » à cause de la Pentecôte : la période mai-juin est précisée."
+  },
+  {
+   "from": "c-03",
+   "to": "b-30",
+   "relation": "supersedes",
+   "justification": "Fin mai est abandonné au profit de début juin."
+  },
+  {
+   "from": "c-02",
+   "to": "c-03",
+   "relation": "supports",
+   "justification": "Le jour férié de Pentecôte motive le passage à début juin."
+  },
+  {
+   "from": "c-05",
+   "to": "c-03",
+   "relation": "supports",
+   "justification": "Le 3 juin concrétise le début juin."
+  },
+  {
+   "from": "c-04",
+   "to": "b-32",
+   "relation": "supersedes",
+   "justification": "« on garde l'idée du jeudi » écarte le vendredi proposé."
+  },
+  {
+   "from": "c-04",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Reprend la proposition du jeudi."
+  },
+  {
+   "from": "c-09",
+   "to": "c-08",
+   "relation": "answers",
+   "justification": "Alexandre accepte de contacter les intervenants."
+  },
+  {
+   "from": "c-12",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "La deadline du 26 avril correspond à environ quinze jours après le 12."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "supersedes",
+   "justification": "Le traiteur se fera trois jours avant, « bien plus tard », et non tout de suite."
+  },
+  {
+   "from": "c-22",
+   "to": "c-21",
+   "relation": "supersedes",
+   "justification": "016 refuse de solliciter Raoult (juge et partie), 013 se range à cet avis."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "answers",
+   "justification": "Réponse : un mix de questions en amont et en direct."
+  },
+  {
+   "from": "c-31",
+   "to": "c-26",
+   "relation": "answers",
+   "justification": "Le public a jusqu'au 10 mai pour envoyer ses questions."
+  },
+  {
+   "from": "c-31",
+   "to": "c-29",
+   "relation": "supersedes",
+   "justification": "Dix jours retenus au lieu de quinze, avec retour le 10 mai."
+  },
+  {
+   "from": "c-31",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "Le 10 mai applique les dix jours proposés."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "004c_PAPH",
+   "text": "Quel jour exact a-t-on fixé pour tenir l'événement avec les trois intervenants ?",
+   "answerable": true,
+   "qrels": {
+    "c-05": 2,
+    "c-03": 1,
+    "c-04": 1,
+    "b-31": 0,
+    "b-27": 0,
+    "b-30": 0,
+    "c-02": 0,
+    "c-01": 0
+   },
+   "traps": [
+    {
+     "unit": "b-31",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-27",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-30",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-02",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "004c_PAPH",
+   "text": "Pour quelle raison a-t-on renoncé à faire l'événement à la fin du mois de mai ?",
+   "answerable": true,
+   "qrels": {
+    "c-02": 2,
+    "c-03": 1,
+    "b-30": 0,
+    "b-31": 0,
+    "b-28": 0
+   },
+   "traps": [
+    {
+     "unit": "b-30",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-28",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "004c_PAPH",
+   "text": "Qui a pris en charge la prise de contact avec Raoult et les autres invités ?",
+   "answerable": true,
+   "qrels": {
+    "c-09": 2,
+    "c-08": 1,
+    "c-12": 0,
+    "c-13": 0,
+    "c-19": 0,
+    "c-34": 0
+   },
+   "traps": [
+    {
+     "unit": "c-13",
+     "trap": "person"
+    },
+    {
+     "unit": "c-19",
+     "trap": "person"
+    },
+    {
+     "unit": "c-34",
+     "trap": "person"
+    },
+    {
+     "unit": "c-12",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "004c_PAPH",
+   "text": "Combien de minutes de débat sont prévues pour chaque thème de la demi-journée ?",
+   "answerable": true,
+   "qrels": {
+    "c-35": 2,
+    "b-35": 0,
+    "b-22": 0,
+    "b-20": 0,
+    "b-21": 0
+   },
+   "traps": [
+    {
+     "unit": "b-35",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-22",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "004c_PAPH",
+   "text": "Est-ce qu'on va demander à Didier Raoult son avis sur l'affiche ?",
+   "answerable": true,
+   "qrels": {
+    "c-22": 2,
+    "c-21": 0,
+    "c-20": 0,
+    "c-23": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "status"
+    },
+    {
+     "unit": "c-20",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-23",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "004c_PAPH",
+   "text": "Jusqu'à quand le public peut-il envoyer ses questions pour la séance ?",
+   "answerable": true,
+   "qrels": {
+    "c-31": 2,
+    "c-30": 1,
+    "c-32": 1,
+    "c-29": 0,
+    "c-33": 0,
+    "c-26": 0,
+    "b-38": 0
+   },
+   "traps": [
+    {
+     "unit": "c-29",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-33",
+     "trap": "date"
+    },
+    {
+     "unit": "b-38",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "004c_PAPH",
+   "text": "Combien de spectateurs maximum peut accueillir la licence de visioconférence utilisée pour retransmettre ?",
+   "answerable": true,
+   "qrels": {
+    "c-40": 2,
+    "c-39": 1,
+    "b-25": 0,
+    "b-37": 0
+   },
+   "traps": [
+    {
+     "unit": "b-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "004c_PAPH",
+   "text": "Quel montant en euros a été prévu pour le traiteur de l'événement ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "016": "alexandre",
+  "014": "laure (incertain)",
+  "015": "rebecca (incertain)"
+ },
+ "notes": "Identifiants de tours propres à chaque réunion. 016 = alexandre (cité en 004a t0005 et 004c t0028/t0290). 014 = laure : 013 interpelle « laure » en t0091 et 014 répond. 015 = rebecca incertain (« rebecca qui est sur les réseaux », t0271). Réunions a et b en ASR très bruitées (tours dupliqués par 014 en b) ; en a, les détails personnels (âge, enfants, naissance) ne sont pas annotés. Cas ambigus : « allez c'est moi » (016, c t0108) non annoté faute d'objet clair ; engagement de 013 en c t0264 (« je veux bien m'en occuper ») non annoté car « ça » est ambigu (médecins ou campagne) ; relais graphiste (c t0247) réduit à la question c-24 ; « nautilus » (c t0446) plaisanterie non annotée ; statut des décisions par acquiescement (b-15, b-24, c-20, c-22, c-36) noté dans les unités."
+}
