@@ -1,0 +1,2080 @@
+{
+  "group_id": "072",
+  "units": [
+    {
+      "key": "a-01",
+      "meeting_id": "072a_EERH",
+      "turn": "t0001",
+      "evidence": "on est réunis plutôt aujourd'hui euh afin_de parler de l' écologie",
+      "type": "fact",
+      "status": "active",
+      "statement": "La réunion a pour objet l'écologie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-02",
+      "meeting_id": "072a_EERH",
+      "turn": "t0003",
+      "evidence": "je suis membre de cette association depuis quatre ans",
+      "type": "fact",
+      "status": "active",
+      "statement": "122 est membre de l'association depuis quatre ans.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-03",
+      "meeting_id": "072a_EERH",
+      "turn": "t0008",
+      "evidence": "deux qui me tiennent à coeur donc d'abord le tri des déchets",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose comme premier sujet le tri des déchets.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-04",
+      "meeting_id": "072a_EERH",
+      "turn": "t0010",
+      "evidence": "on peut apprendre ça au tout petit dès l' école",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Le tri pourrait être enseigné dès l'école aux plus petits.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-05",
+      "meeting_id": "072a_EERH",
+      "turn": "t0013",
+      "evidence": "et aussi les moyens de transport qui sont des moyens assez polluants",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose comme second sujet les moyens de transport polluants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-06",
+      "meeting_id": "072a_EERH",
+      "turn": "t0017",
+      "evidence": "jets privés pour tout et pour rien",
+      "type": "fact",
+      "status": "active",
+      "statement": "Selon un reportage télé, des sportifs de l'équipe de France utilisent des jets privés pour tout.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Idée commencée au tour t0015 ; t0017 porte l'objet."
+    },
+    {
+      "key": "a-07",
+      "meeting_id": "072a_EERH",
+      "turn": "t0022",
+      "evidence": "pendant qu' ils prennent le jet privé les bus fait le trajet à à vide",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pendant que les joueurs parisiens prennent le jet privé, leur bus fait le trajet à vide.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-08",
+      "meeting_id": "072a_EERH",
+      "turn": "t0031",
+      "evidence": "on devrait limiter leurs accès puisque le jet privé est utilisé à tout bout de champ",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose de limiter l'accès aux jets privés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-09",
+      "meeting_id": "072a_EERH",
+      "turn": "t0039",
+      "evidence": "j' avais choisi le le sujet de déforestation",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose comme sujet la déforestation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-10",
+      "meeting_id": "072a_EERH",
+      "turn": "t0043",
+      "evidence": "feux de forêt tout_le temps maintenant avec la le réchauffement climatique",
+      "type": "fact",
+      "status": "active",
+      "statement": "Les feux de forêt sont désormais fréquents avec le réchauffement climatique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-11",
+      "meeting_id": "072a_EERH",
+      "turn": "t0050",
+      "evidence": "la déforestation volontaire pour les produits pour les pour l' agriculture",
+      "type": "fact",
+      "status": "active",
+      "statement": "Une partie de la déforestation est volontaire, pour l'agriculture et la surproduction.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-12",
+      "meeting_id": "072a_EERH",
+      "turn": "t0061",
+      "evidence": "mon deuxième sujet c'est euh mieux consommer",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose comme second sujet « mieux consommer ».",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-13",
+      "meeting_id": "072a_EERH",
+      "turn": "t0072",
+      "evidence": "ce serait une bonne idée de sensibiliser les personnes sur les consommations de grandes entreprises telles que mcdo",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Sensibiliser le public à la consommation liée aux grandes entreprises (McDo, Coca-Cola).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-14",
+      "meeting_id": "072a_EERH",
+      "turn": "t0097",
+      "evidence": "au final il n' y a pas du tout de tri de déchets",
+      "type": "fact",
+      "status": "active",
+      "statement": "Chez McDo, malgré les compartiments de tri, les déchets ne sont pas triés au final.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Contexte au tour t0095."
+    },
+    {
+      "key": "a-15",
+      "meeting_id": "072a_EERH",
+      "turn": "t0099",
+      "evidence": "des poubelles de tri sélectif et et le camion arrivé il prenait et il déchargeait tout dans le même truc",
+      "type": "fact",
+      "status": "active",
+      "statement": "À Marseille, le camion vidait les poubelles de tri sélectif dans un seul conteneur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-16",
+      "meeting_id": "072a_EERH",
+      "turn": "t0113",
+      "evidence": "ceux qui ne le respectent pas se prennent une amende donc je pense que ça devrait être ce la solution",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose l'amende pour ceux qui ne trient pas.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-17",
+      "meeting_id": "072a_EERH",
+      "turn": "t0115",
+      "evidence": "peut-être commencer ça sur les lieux de travail et dans les dans les lieux commerciaux",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose de commencer l'obligation de tri par les lieux de travail et commerciaux.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-18",
+      "meeting_id": "072a_EERH",
+      "turn": "t0128",
+      "evidence": "même les voitures électriques qui pensent qu' on pense être le sauveur de cette situation et en_fait pas du tout_le cas parce_que la production ouais est extrêmement polluante",
+      "type": "fact",
+      "status": "active",
+      "statement": "La production des voitures électriques est très polluante.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-19",
+      "meeting_id": "072a_EERH",
+      "turn": "t0143",
+      "evidence": "c'est du greenwashing c'est que les grandes entreprises qui essaient de nettoyer leur façade",
+      "type": "fact",
+      "status": "active",
+      "statement": "Les grandes entreprises font du greenwashing.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-20",
+      "meeting_id": "072a_EERH",
+      "turn": "t0163",
+      "evidence": "c'est à cinq euros mais ça représente treize euros d' article",
+      "type": "fact",
+      "status": "active",
+      "statement": "Les paniers anti-gaspillage coûtent cinq euros pour treize euros d'articles.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "cinq euros",
+      "assertion": "extracted",
+      "notes": "Montant secondaire : treize euros."
+    },
+    {
+      "key": "a-21",
+      "meeting_id": "072a_EERH",
+      "turn": "t0201",
+      "evidence": "c'est les quatre sujets je pense majeurs après il_y en a d'autres mais je pense que c'est les quatre qu' on pourrait amener",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 retient quatre sujets majeurs à porter (tri, transports, déforestation, surconsommation).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Liste des quatre sujets déduite de t0206."
+    },
+    {
+      "key": "a-22",
+      "meeting_id": "072a_EERH",
+      "turn": "t0211",
+      "evidence": "pense qu' il faudrait même militer pour que ça soit appris et respecté tout_au_long de la scolarité",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Militer pour que le tri soit appris tout au long de la scolarité.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-23",
+      "meeting_id": "072a_EERH",
+      "turn": "t0226",
+      "evidence": "quitte à faire un compost commun par petit village ou quelque_chose comme ça",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Créer un compost commun par village.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-24",
+      "meeting_id": "072a_EERH",
+      "turn": "t0257",
+      "evidence": "j ai vu juste les poubelles flotter à la surface",
+      "type": "fact",
+      "status": "active",
+      "statement": "167 a vu des déchets flotter sur le Vieux-Port.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-25",
+      "meeting_id": "072a_EERH",
+      "turn": "t0274",
+      "evidence": "à chaque fois il trouve un moyen de décrédibiliser nos associations",
+      "type": "risk",
+      "status": "active",
+      "statement": "Les associations écologistes sont régulièrement décrédibilisées.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-26",
+      "meeting_id": "072a_EERH",
+      "turn": "t0293",
+      "evidence": "ronaldo qui a dit euh pas de coca juste de l' eau et ça a fait chuter de quatorze milliard",
+      "type": "fact",
+      "status": "active",
+      "statement": "La déclaration de Ronaldo aurait fait chuter Coca-Cola de quatorze milliards.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "quatorze milliard",
+      "assertion": "extracted",
+      "notes": "Chiffre tel qu'énoncé, non vérifié."
+    },
+    {
+      "key": "a-27",
+      "meeting_id": "072a_EERH",
+      "turn": "t0313",
+      "evidence": "pendant la sécheresse ils ont interdit les lavages automatiques de voitures",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pendant la sécheresse, les lavages automatiques de voitures ont été interdits.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-28",
+      "meeting_id": "072a_EERH",
+      "turn": "t0322",
+      "evidence": "l' arrosage automatique était interdit de 8h à 20h il me semble",
+      "type": "fact",
+      "status": "unknown",
+      "statement": "L'arrosage automatique aurait été interdit de 8h à 20h.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Incertitude explicite (« il me semble »)."
+    },
+    {
+      "key": "b-01",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0004",
+      "evidence": "si il faudrait choisir un de ces quatre sujets où il_y en a un autre qui devient en tête",
+      "type": "question",
+      "status": "resolved",
+      "statement": "122 demande s'il faut choisir l'un des quatre sujets ou un autre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Réponse immédiate au tour t0005."
+    },
+    {
+      "key": "b-02",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0005",
+      "evidence": "moi je pense que c'était euh le tri était le meilleur choix",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "167 estime que le tri est le meilleur sujet.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-03",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0010",
+      "evidence": "faire une présentation que ce soit dans les écoles collèges et un peu essayer de sensibiliser les élèves",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose une présentation dans les écoles et collèges.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-04",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0025",
+      "evidence": "l intervention scolaire ça serait du_coup le le plus pratique pour que ça ait réellement un impact",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le format retenu est une intervention en milieu scolaire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0026."
+    },
+    {
+      "key": "b-05",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0038",
+      "evidence": "si on essaie de faire une conférence ça va augmenter l empreinte carbone avec le déplacement",
+      "type": "risk",
+      "status": "active",
+      "statement": "Une conférence augmenterait l'empreinte carbone à cause des déplacements.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-06",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0047",
+      "evidence": "participer à une émission de télé pour euh sensibiliser directement via la télé",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 envisage de passer dans une émission de télévision.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-07",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0062",
+      "evidence": "c'est pas forcément c'est pas forcément la bonne solution",
+      "type": "decision",
+      "status": "active",
+      "statement": "La télévision n'est pas retenue : les gens zappent ce type de programme.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Rejet formulé avec réserve ; justification aux tours t0049 et t0059."
+    },
+    {
+      "key": "b-08",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0069",
+      "evidence": "une intervention euh ce serait vers quelle date",
+      "type": "question",
+      "status": "resolved",
+      "statement": "122 demande à quelle date faire l'intervention.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-09",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0073",
+      "evidence": "je sais qu il_y a énormément de gens qui disparaissent au_cours_de l année scolaire",
+      "type": "risk",
+      "status": "active",
+      "statement": "À la fac, beaucoup d'étudiants abandonnent en cours d'année.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-10",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0075",
+      "evidence": "ça dépend quel niveau on touche niveau scolaire mais lequel",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Quel niveau scolaire viser ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-11",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0088",
+      "evidence": "donc ouais on part sur l universitaire",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le public visé est l'université.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0089."
+    },
+    {
+      "key": "b-12",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0092",
+      "evidence": "dans le courant d année de septembre octobre",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose septembre-octobre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-13",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0104",
+      "evidence": "je dirais vraiment tout début d année ou vraiment la semaine d adaptation",
+      "type": "answer",
+      "status": "active",
+      "statement": "L'intervention aura lieu tout début d'année, à la rentrée (semaine d'adaptation).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "122 conclut « donc la rentrée » (t0106)."
+    },
+    {
+      "key": "b-14",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0111",
+      "evidence": "on pourrait faire un petit stand euh on met euh à côté de des présentations euh par_exemple sportives",
+      "type": "decision",
+      "status": "active",
+      "statement": "Tenir un petit stand à côté des autres présentations de rentrée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0112."
+    },
+    {
+      "key": "b-15",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0113",
+      "evidence": "ça agace les profs quand on em- on em- on empiète",
+      "type": "risk",
+      "status": "active",
+      "statement": "Les enseignants n'aiment pas qu'on empiète sur leurs cours.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-16",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0117",
+      "evidence": "ça serait du_coup à l université sur le campus",
+      "type": "decision",
+      "status": "active",
+      "statement": "L'action se tiendra sur le campus universitaire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0118."
+    },
+    {
+      "key": "b-17",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0124",
+      "evidence": "je veux dire distribuer des tracts mais euh",
+      "type": "idea",
+      "status": "rejected",
+      "statement": "Distribuer des tracts : idée aussitôt écartée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "167 se reprend (t0122, t0127)."
+    },
+    {
+      "key": "b-18",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0131",
+      "evidence": "la moitié du temps ils finissent par terre ou dans la poubelle juste à côté",
+      "type": "risk",
+      "status": "active",
+      "statement": "Les prospectus finissent la plupart du temps par terre ou à la poubelle.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-19",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0138",
+      "evidence": "il faudrait vraiment axer euh toute l intervention dans dans ce côté euh euh respect de l environnement",
+      "type": "decision",
+      "status": "active",
+      "statement": "Toute l'intervention doit respecter l'environnement (sensibiliser sans polluer).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Reformulé par 167 au tour t0140."
+    },
+    {
+      "key": "b-20",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0148",
+      "evidence": "au sujet ben moi il me va parfaitement",
+      "type": "decision",
+      "status": "active",
+      "statement": "122 approuve le tri des déchets comme sujet retenu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le sujet (« le tri ») est précisé par 167 au tour t0149."
+    },
+    {
+      "key": "b-21",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0159",
+      "evidence": "la fac a déjà mis en place des des poubelles pour le tri sélectif",
+      "type": "fact",
+      "status": "active",
+      "statement": "La fac a déjà des poubelles de tri sélectif.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-22",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0162",
+      "evidence": "est-ce qu il est respecté",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Le tri au restaurant universitaire est-il respecté ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-23",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0163",
+      "evidence": "y a deux personnes à côté et c'est leur job du_coup de prendre du plateau",
+      "type": "answer",
+      "status": "active",
+      "statement": "Au restaurant universitaire, deux personnes trient les plateaux.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-24",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0180",
+      "evidence": "peut-être qu on pourrait tourner et montrer un peu les",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Filmer les gestes de tri sur le campus pour la présentation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Objet complété au tour t0182 ; 167 approuve (t0185)."
+    },
+    {
+      "key": "b-25",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0188",
+      "evidence": "essayer de sensibiliser à justement les supprimer et à faire le tri parce_que on s en rend pas compte mais les mails c'est extrêmement polluant",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Sensibiliser les étudiants à supprimer leurs mails, qui polluent.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-26",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0198",
+      "evidence": "combien de temps à l intervention sur quelle durée",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Quelle durée pour l'intervention ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-27",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0204",
+      "evidence": "ah donc une durée moins que vingt minutes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose une intervention de moins de vingt minutes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Proposition de 167 au tour t0201, reformulée par 122."
+    },
+    {
+      "key": "b-28",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0208",
+      "evidence": "je pense qu une petite demi-heure ça peut être euh",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose une demi-heure.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-29",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0224",
+      "evidence": "et peut-être dix minutes de questions réponses",
+      "type": "decision",
+      "status": "active",
+      "statement": "Format retenu : vingt minutes de présentation et dix minutes de questions-réponses.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Vingt minutes de présentation dites par 122 au tour t0223 ; total de trente minutes confirmé au tour t0228."
+    },
+    {
+      "key": "b-30",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0228",
+      "evidence": "pendant les trente minutes on présenterait quoi exactement",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Que présenter pendant les trente minutes ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-31",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0230",
+      "evidence": "on pourrait faire un mélange de deux sujets le tri sélectif et mieux consommer",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Mélanger les sujets tri sélectif et mieux consommer.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-32",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0234",
+      "evidence": "pendant dix minutes on leur présenterait du_coup l impact de la surconsommation",
+      "type": "decision",
+      "status": "active",
+      "statement": "Dix minutes sur l'impact de la surconsommation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0235."
+    },
+    {
+      "key": "b-33",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0236",
+      "evidence": "les dix autres minutes euh comment trier",
+      "type": "decision",
+      "status": "active",
+      "statement": "Dix minutes sur comment trier et mieux consommer.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Complété par 167 au tour t0239."
+    },
+    {
+      "key": "b-34",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0242",
+      "evidence": "quitte à avoir une taupe dans la salle juste pour poser des questions à leur place",
+      "type": "decision",
+      "status": "active",
+      "statement": "Placer un complice dans la salle pour poser des questions.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Approuvé par 167 au tour t0243."
+    },
+    {
+      "key": "b-35",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0245",
+      "evidence": "on irait du_coup dans les amphis",
+      "type": "decision",
+      "status": "active",
+      "statement": "L'intervention se fera dans les amphithéâtres.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "167 répond « je pense pas » (t0246) mais justifie les amphis ; 122 conclut « en amphis » (t0251). Cas ambigu."
+    },
+    {
+      "key": "b-36",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0252",
+      "evidence": "faire justement la pub dans notre association pour euh si si ils veulent la rejoindre",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Profiter de l'intervention pour recruter dans l'association.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-37",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0262",
+      "evidence": "une petite vidéo d une minute peut-être un peu plus vite ou même un peu moins",
+      "type": "decision",
+      "status": "active",
+      "statement": "Une courte vidéo d'environ une minute présentera l'association.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 122 au tour t0263."
+    },
+    {
+      "key": "b-38",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0269",
+      "evidence": "visualisation de à l usine par_exemple comment le tri est fait",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Plus tard, visiter une usine pour voir comment le tri est fait.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "122 précise que ce n'est pas pour cette réunion (t0267)."
+    },
+    {
+      "key": "b-39",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0285",
+      "evidence": "proposer justement euh à tous_les élèves qui sont curieux de savoir euh comment ça marche euh de participer",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposer une excursion à tous les étudiants curieux.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le mot « excursion » est au tour t0286."
+    },
+    {
+      "key": "b-40",
+      "meeting_id": "072b_EEDH",
+      "turn": "t0289",
+      "evidence": "on pourrait euh louer des vélos",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Louer des vélos pour l'excursion.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-01",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0001",
+      "evidence": "concrétiser davantage notre réunion de la semaine dernière",
+      "type": "fact",
+      "status": "active",
+      "statement": "La réunion sert à concrétiser celle de la semaine précédente.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-02",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0003",
+      "evidence": "on avait parlé d un du_coup d un stand dans le cadre universitaire",
+      "type": "fact",
+      "status": "active",
+      "statement": "Rappel : un stand à l'université avait été prévu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-03",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0005",
+      "evidence": "une intervention également dans les amphis",
+      "type": "fact",
+      "status": "active",
+      "statement": "Rappel : une intervention dans les amphis était prévue.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-04",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0005",
+      "evidence": "la communication avec euh l université et donc euh la demande de passer le mot à aux enseignants à la rentrée",
+      "type": "action",
+      "status": "active",
+      "statement": "Tâche 1 : communiquer avec l'université et demander aux enseignants de prévenir les étudiants.",
+      "owner": "122",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Responsabilité prise par 122 (t0016) et confirmée par 167 (t0024)."
+    },
+    {
+      "key": "c-05",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0016",
+      "evidence": "je pense que je peux être responsable de cette tâche",
+      "type": "commitment",
+      "status": "active",
+      "statement": "122 se charge de la communication.",
+      "owner": "122",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-06",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0022",
+      "evidence": "donner euh le mail vers courant de fin août début septembre tout début septembre à euh à l ensemble des des professeurs",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Envoyer le mail aux professeurs fin août ou tout début septembre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-07",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0024",
+      "evidence": "vous vous prenez en charge donc la communication avec l université et avec les étudiants",
+      "type": "decision",
+      "status": "active",
+      "statement": "167 confirme que 122 prend en charge la communication.",
+      "owner": "122",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-08",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0044",
+      "evidence": "si on a l autorisation justement on essaie de trouver euh euh ben le moyen d agir de savoir quand est ce_qu on peut poser notre stand",
+      "type": "action",
+      "status": "conditional",
+      "statement": "Si l'autorisation est obtenue, fixer quand poser le stand.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-09",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0054",
+      "evidence": "demander justement aux écoles si ils acceptent de faire ces pancartes pour nous",
+      "type": "action",
+      "status": "active",
+      "statement": "Tâche 2 : demander à des écoles de fabriquer les pancartes.",
+      "owner": "167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "167 accepte la tâche au tour t0060."
+    },
+    {
+      "key": "c-10",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0059",
+      "evidence": "je sais pas si tu vas être responsable de cette tâche ou je le fais avec euh jean david",
+      "type": "question",
+      "status": "resolved",
+      "statement": "122 demande qui prend la tâche des pancartes, elle-même avec Jean David ou 167.",
+      "owner": null,
+      "mentioned_people": [
+        "jean david"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-11",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0060",
+      "evidence": "je pense que je pourrais m en charger moi",
+      "type": "commitment",
+      "status": "active",
+      "statement": "167 se charge des pancartes.",
+      "owner": "167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-12",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0063",
+      "evidence": "ça fait un peu exploiter les petits enfants pour",
+      "type": "risk",
+      "status": "active",
+      "statement": "Faire faire les pancartes aux enfants ressemble à de l'exploitation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Dit sur le ton de la plaisanterie."
+    },
+    {
+      "key": "c-13",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0070",
+      "evidence": "il faudrait pas trop qu on s étale plus qu on reste sur le cadre de l affiche",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Se limiter à la fabrication de l'affiche.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-14",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0085",
+      "evidence": "qu on prépare avec du_coup certains membres euh qui ont la volonté de s exprimer euh devant un large public",
+      "type": "action",
+      "status": "proposed",
+      "statement": "Préparer les discours avec des membres prêts à parler en public.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-15",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0089",
+      "evidence": "c'est moi qui vais aller essayer de négocier avec les écoles donc j ai mis proposer à des écoles des activités afin_de réaliser nos pancartes",
+      "type": "commitment",
+      "status": "active",
+      "statement": "167 négociera avec les écoles des activités pour réaliser les pancartes.",
+      "owner": "167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-16",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0092",
+      "evidence": "avec des produits recyclés seulement",
+      "type": "decision",
+      "status": "active",
+      "statement": "Les pancartes seront faites uniquement avec des produits recyclés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Déjà évoqué par 122 aux tours t0058 et t0071."
+    },
+    {
+      "key": "c-17",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0098",
+      "evidence": "en réunissant tous_les membres de l association comme on le fait tous_les mercredis soir",
+      "type": "fact",
+      "status": "active",
+      "statement": "L'association se réunit tous les mercredis soir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-18",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0104",
+      "evidence": "donc euh recherche de volontaire pour l intervention à la fac",
+      "type": "action",
+      "status": "active",
+      "statement": "Tâche 3 : rechercher des volontaires pour l'intervention à la fac.",
+      "owner": "122",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Attribuée à 122 (t0101, confirmé t0265)."
+    },
+    {
+      "key": "c-19",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0119",
+      "evidence": "la préparation de la vidéo de présentation justement le montage la préparation",
+      "type": "action",
+      "status": "active",
+      "statement": "Tâche 4 : préparer et monter la vidéo de présentation.",
+      "owner": "122 + 167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Faite à deux (t0125, t0267)."
+    },
+    {
+      "key": "c-20",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0125",
+      "evidence": "on pourrait le faire toutes_les deux alors",
+      "type": "commitment",
+      "status": "active",
+      "statement": "122 et 167 prépareront la vidéo ensemble.",
+      "owner": "122 + 167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-21",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0137",
+      "evidence": "on ferait une première intervention du_coup en en juin",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose un premier contact avec l'université en juin.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-22",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0139",
+      "evidence": "c'est la fac c'est fini en mai et après une autre en août par par euh mail",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "La fac finissant en mai, 122 se reprend : contact par mail en août.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-23",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0146",
+      "evidence": "la communication on l' a fait du_coup avant la rentrée vers euh",
+      "type": "decision",
+      "status": "active",
+      "statement": "La communication se fait avant la rentrée, vers fin août.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« fin août » complété aux tours t0147-t0148."
+    },
+    {
+      "key": "c-24",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0154",
+      "evidence": "et ça on le fait dans la semaine",
+      "type": "decision",
+      "status": "active",
+      "statement": "La tâche 2 (pancartes) se fait dans la semaine.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 122 au tour t0155."
+    },
+    {
+      "key": "c-25",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0165",
+      "evidence": "recherche des volontaires pour l intervention à la fac ça on va le faire euh ben quelques quelques jours avant notre",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "167 propose de chercher les volontaires quelques jours avant l'intervention.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-26",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0174",
+      "evidence": "euh du_coup je pense euh août hein",
+      "type": "decision",
+      "status": "active",
+      "statement": "La recherche de volontaires se fera en août, pour préparer le discours à temps.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Justification aux tours t0168-t0170 ; accord de 167 au tour t0175."
+    },
+    {
+      "key": "c-27",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0181",
+      "evidence": "la préparation de la vidéo on peut la faire euh et aujourd'hui",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Commencer la vidéo dès aujourd'hui.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-28",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0190",
+      "evidence": "donc euh dans dans le cours de l année",
+      "type": "decision",
+      "status": "active",
+      "statement": "La vidéo sera préparée tout au long de l'année (« en permanence »).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Noté « en permanence » aux tours t0194-t0195."
+    },
+    {
+      "key": "c-29",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0202",
+      "evidence": "on pourrait le promouvoir dans la vidéo",
+      "type": "decision",
+      "status": "active",
+      "statement": "La sortie sera annoncée dans la vidéo.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0203."
+    },
+    {
+      "key": "c-30",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0205",
+      "evidence": "on pourrait organiser euh en avance euh par_exemple prendre contact avec des usines",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Contacter des usines à l'avance pour la sortie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-31",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0208",
+      "evidence": "peut-être voir avec marseille si les vélibs peuvent pas être disponibles",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Demander à Marseille des vélos en libre-service gratuits pour les étudiants ce jour-là.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "QR code évoqué au tour t0210."
+    },
+    {
+      "key": "c-32",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0214",
+      "evidence": "on pourrait on pourrait programmer une nouvelle réunion euh",
+      "type": "decision",
+      "status": "active",
+      "statement": "La sortie sera traitée dans une nouvelle réunion.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 167 au tour t0215."
+    },
+    {
+      "key": "c-33",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0224",
+      "evidence": "on se retrouve à payer pour une vingtaine alors_qu en_fait au final ils sont que dix",
+      "type": "risk",
+      "status": "active",
+      "statement": "Risque de payer pour vingt étudiants alors que seuls dix viennent.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-34",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0228",
+      "evidence": "ah ouais mais combien de mois après",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Combien de temps après l'intervention organiser la sortie ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-35",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0234",
+      "evidence": "au_bout de trois jours après on commence à faire les démarches",
+      "type": "answer",
+      "status": "active",
+      "statement": "Les démarches commencent quelques jours (trois) après l'intervention.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-36",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0240",
+      "evidence": "il faudrait faire une autre réunion je pense dans le courant de",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "122 propose la nouvelle réunion en juin.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« juin » au tour t0241."
+    },
+    {
+      "key": "c-37",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0242",
+      "evidence": "j aurais pu mettre juste après euh l intervention et puis on verra à ce moment là",
+      "type": "decision",
+      "status": "active",
+      "statement": "La réunion sur la sortie aura lieu juste après l'intervention.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 122 aux tours t0243-t0244."
+    },
+    {
+      "key": "c-38",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0247",
+      "evidence": "ça on s en chargera en même temps parce_qu on est les",
+      "type": "commitment",
+      "status": "active",
+      "statement": "Les deux organisatrices s'occuperont ensemble de la réunion sur la sortie.",
+      "owner": "122 + 167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-39",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0265",
+      "evidence": "la communication vous avez vous avez aussi le recherche de volontaires pour l intervention",
+      "type": "fact",
+      "status": "active",
+      "statement": "Récapitulatif : 122 a la communication et la recherche de volontaires.",
+      "owner": "122",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-40",
+      "meeting_id": "072c_EEPH",
+      "turn": "t0269",
+      "evidence": "je pense que je pourrais euh ben programmer",
+      "type": "commitment",
+      "status": "active",
+      "statement": "167 programmera seule la réunion sur la sortie.",
+      "owner": "167",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "122 lui laisse cette tâche (t0268)."
+    }
+  ],
+  "relations": [
+    {
+      "from": "b-02",
+      "to": "b-01",
+      "relation": "answers",
+      "justification": "167 répond à la question du choix du sujet."
+    },
+    {
+      "from": "b-02",
+      "to": "a-03",
+      "relation": "supports",
+      "justification": "167 reprend le tri des déchets proposé par 122 en réunion a."
+    },
+    {
+      "from": "b-20",
+      "to": "b-02",
+      "relation": "supports",
+      "justification": "122 approuve le tri proposé par 167."
+    },
+    {
+      "from": "b-20",
+      "to": "a-05",
+      "relation": "supersedes",
+      "justification": "Le choix du tri tranche entre les quatre sujets de la réunion a."
+    },
+    {
+      "from": "b-20",
+      "to": "a-09",
+      "relation": "supersedes",
+      "justification": "Le choix du tri tranche entre les quatre sujets de la réunion a."
+    },
+    {
+      "from": "b-11",
+      "to": "b-10",
+      "relation": "answers",
+      "justification": "« on part sur l'universitaire » répond à « lequel » niveau."
+    },
+    {
+      "from": "b-11",
+      "to": "b-03",
+      "relation": "supersedes",
+      "justification": "La décision sur le niveau remplace la piste écoles et collèges."
+    },
+    {
+      "from": "b-07",
+      "to": "b-06",
+      "relation": "supersedes",
+      "justification": "122 juge la télévision « pas la bonne solution »."
+    },
+    {
+      "from": "b-13",
+      "to": "b-08",
+      "relation": "answers",
+      "justification": "Répond à la question de la date de l'intervention."
+    },
+    {
+      "from": "b-23",
+      "to": "b-22",
+      "relation": "answers",
+      "justification": "Répond à la question du respect du tri au restaurant universitaire."
+    },
+    {
+      "from": "b-29",
+      "to": "b-26",
+      "relation": "answers",
+      "justification": "Fixe la durée de l'intervention."
+    },
+    {
+      "from": "b-29",
+      "to": "b-27",
+      "relation": "supersedes",
+      "justification": "Nouvelle valeur actée (20+10 min) au lieu de moins de vingt minutes."
+    },
+    {
+      "from": "b-29",
+      "to": "b-28",
+      "relation": "supports",
+      "justification": "Le total de trente minutes correspond à la demi-heure proposée."
+    },
+    {
+      "from": "b-32",
+      "to": "b-30",
+      "relation": "answers",
+      "justification": "Indique le contenu des dix premières minutes."
+    },
+    {
+      "from": "b-33",
+      "to": "b-30",
+      "relation": "answers",
+      "justification": "Indique le contenu des dix autres minutes."
+    },
+    {
+      "from": "b-32",
+      "to": "b-31",
+      "relation": "supports",
+      "justification": "Met en œuvre le mélange surconsommation / tri."
+    },
+    {
+      "from": "c-02",
+      "to": "b-14",
+      "relation": "supports",
+      "justification": "Rappel du stand décidé en réunion b."
+    },
+    {
+      "from": "c-03",
+      "to": "b-35",
+      "relation": "supports",
+      "justification": "Rappel de l'intervention en amphis décidée en réunion b."
+    },
+    {
+      "from": "b-37",
+      "to": "c-19",
+      "relation": "creates_action",
+      "justification": "La vidéo décidée en b donne lieu à la tâche de préparation en c."
+    },
+    {
+      "from": "b-14",
+      "to": "c-08",
+      "relation": "creates_action",
+      "justification": "Le stand décidé en b donne lieu à l'action de fixer sa date."
+    },
+    {
+      "from": "c-07",
+      "to": "c-05",
+      "relation": "supports",
+      "justification": "167 confirme l'engagement de 122."
+    },
+    {
+      "from": "c-11",
+      "to": "c-10",
+      "relation": "answers",
+      "justification": "167 répond qu'elle prend la tâche."
+    },
+    {
+      "from": "c-15",
+      "to": "c-11",
+      "relation": "supports",
+      "justification": "167 confirme et note la tâche des pancartes à son nom."
+    },
+    {
+      "from": "c-23",
+      "to": "c-21",
+      "relation": "supersedes",
+      "justification": "122 se reprend (« non c'est la fac c'est fini en mai ») ; date actée fin août."
+    },
+    {
+      "from": "c-23",
+      "to": "c-06",
+      "relation": "supports",
+      "justification": "Fin août confirme la date proposée pour le mail."
+    },
+    {
+      "from": "c-26",
+      "to": "c-25",
+      "relation": "supersedes",
+      "justification": "Août remplace « quelques jours avant » pour préparer le discours à temps."
+    },
+    {
+      "from": "c-35",
+      "to": "c-34",
+      "relation": "answers",
+      "justification": "Répond au délai avant les démarches de la sortie."
+    },
+    {
+      "from": "c-37",
+      "to": "c-36",
+      "relation": "supersedes",
+      "justification": "La réunion est placée juste après l'intervention au lieu de juin."
+    },
+    {
+      "from": "c-40",
+      "to": "c-38",
+      "relation": "supersedes",
+      "justification": "122 laisse explicitement la tâche à 167 seule (t0268)."
+    },
+    {
+      "from": "c-39",
+      "to": "c-18",
+      "relation": "supports",
+      "justification": "Le récapitulatif attribue la recherche de volontaires à 122."
+    },
+    {
+      "from": "c-39",
+      "to": "c-05",
+      "relation": "supports",
+      "justification": "Le récapitulatif attribue la communication à 122."
+    }
+  ],
+  "queries": [
+    {
+      "key": "q01",
+      "about_meeting": "072b_EEDH",
+      "text": "Quel niveau d'études l'association a-t-elle finalement choisi de cibler pour son action de sensibilisation ?",
+      "answerable": true,
+      "qrels": {
+        "b-11": 2,
+        "b-16": 1,
+        "c-02": 1,
+        "b-03": 0,
+        "a-04": 0,
+        "b-04": 0,
+        "b-09": 0
+      },
+      "traps": [
+        {
+          "unit": "b-03",
+          "trap": "superseded"
+        },
+        {
+          "unit": "a-04",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-04",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q02",
+      "about_meeting": "072b_EEDH",
+      "text": "Combien de temps doit durer l'intervention, temps d'échange avec le public inclus ?",
+      "answerable": true,
+      "qrels": {
+        "b-29": 2,
+        "b-28": 1,
+        "b-30": 1,
+        "b-32": 1,
+        "b-33": 1,
+        "b-27": 0,
+        "b-26": 0
+      },
+      "traps": [
+        {
+          "unit": "b-27",
+          "trap": "superseded"
+        },
+        {
+          "unit": "b-26",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q03",
+      "about_meeting": "072b_EEDH",
+      "text": "Quels thèmes seront abordés pendant la présentation et combien de minutes pour chacun ?",
+      "answerable": true,
+      "qrels": {
+        "b-32": 2,
+        "b-33": 2,
+        "b-31": 1,
+        "b-29": 1,
+        "a-12": 0,
+        "b-25": 0,
+        "b-30": 0
+      },
+      "traps": [
+        {
+          "unit": "a-12",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-25",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q04",
+      "about_meeting": "072b_EEDH",
+      "text": "Pourquoi a-t-on renoncé à distribuer des prospectus aux étudiants ?",
+      "answerable": true,
+      "qrels": {
+        "b-18": 2,
+        "b-17": 1,
+        "b-21": 0,
+        "b-19": 0
+      },
+      "traps": [
+        {
+          "unit": "b-21",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-19",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q05",
+      "about_meeting": "072b_EEDH",
+      "text": "À quelle période de l'année l'intervention auprès des étudiants est-elle prévue ?",
+      "answerable": true,
+      "qrels": {
+        "b-13": 2,
+        "b-12": 1,
+        "b-08": 0,
+        "c-23": 0,
+        "c-26": 0,
+        "b-09": 0
+      },
+      "traps": [
+        {
+          "unit": "b-08",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-23",
+          "trap": "date"
+        },
+        {
+          "unit": "c-26",
+          "trap": "date"
+        }
+      ]
+    },
+    {
+      "key": "q06",
+      "about_meeting": "072b_EEDH",
+      "text": "Quel support doit présenter l'association aux étudiants et qui est chargé de le préparer ?",
+      "answerable": true,
+      "qrels": {
+        "b-37": 2,
+        "c-19": 2,
+        "c-20": 1,
+        "c-27": 1,
+        "c-28": 0,
+        "b-36": 0,
+        "c-29": 0
+      },
+      "traps": [
+        {
+          "unit": "c-28",
+          "trap": "date"
+        },
+        {
+          "unit": "b-36",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-29",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q07",
+      "about_meeting": "072b_EEDH",
+      "text": "Quelle astuce a été retenue pour qu'il y ait des questions du public pendant la séance ?",
+      "answerable": true,
+      "qrels": {
+        "b-34": 2,
+        "b-29": 0
+      },
+      "traps": [
+        {
+          "unit": "b-29",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q08",
+      "about_meeting": "072b_EEDH",
+      "text": "Quel budget l'association a-t-elle prévu pour le stand sur le campus ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    },
+    {
+      "key": "q09",
+      "about_meeting": "072c_EEPH",
+      "text": "Qui est chargé de prendre contact avec l'université et les enseignants ?",
+      "answerable": true,
+      "qrels": {
+        "c-04": 2,
+        "c-05": 2,
+        "c-07": 2,
+        "c-39": 2,
+        "c-23": 0,
+        "c-18": 0,
+        "c-10": 0
+      },
+      "traps": [
+        {
+          "unit": "c-23",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-18",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-10",
+          "trap": "person"
+        }
+      ]
+    },
+    {
+      "key": "q10",
+      "about_meeting": "072c_EEPH",
+      "text": "Qui s'occupe d'obtenir que des écoles fabriquent les pancartes ?",
+      "answerable": true,
+      "qrels": {
+        "c-11": 2,
+        "c-15": 2,
+        "c-09": 1,
+        "c-10": 0,
+        "c-16": 0,
+        "c-24": 0
+      },
+      "traps": [
+        {
+          "unit": "c-10",
+          "trap": "person"
+        },
+        {
+          "unit": "c-16",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-24",
+          "trap": "date"
+        }
+      ]
+    },
+    {
+      "key": "q11",
+      "about_meeting": "072c_EEPH",
+      "text": "À quel moment faut-il trouver les membres qui prendront la parole devant les étudiants ?",
+      "answerable": true,
+      "qrels": {
+        "c-26": 2,
+        "c-25": 0,
+        "c-18": 0,
+        "c-23": 0
+      },
+      "traps": [
+        {
+          "unit": "c-25",
+          "trap": "superseded"
+        },
+        {
+          "unit": "c-18",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-23",
+          "trap": "date"
+        }
+      ]
+    },
+    {
+      "key": "q12",
+      "about_meeting": "072c_EEPH",
+      "text": "Qui organisera finalement la réunion consacrée à la sortie, et quand doit-elle avoir lieu ?",
+      "answerable": true,
+      "qrels": {
+        "c-40": 2,
+        "c-37": 2,
+        "c-32": 1,
+        "c-38": 0,
+        "c-36": 0,
+        "c-35": 0
+      },
+      "traps": [
+        {
+          "unit": "c-38",
+          "trap": "superseded"
+        },
+        {
+          "unit": "c-36",
+          "trap": "superseded"
+        },
+        {
+          "unit": "c-35",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q13",
+      "about_meeting": "072c_EEPH",
+      "text": "Quel risque financier a été soulevé à propos de l'organisation de la sortie ?",
+      "answerable": true,
+      "qrels": {
+        "c-33": 2,
+        "b-40": 0,
+        "c-31": 0
+      },
+      "traps": [
+        {
+          "unit": "b-40",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-31",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q14",
+      "about_meeting": "072c_EEPH",
+      "text": "Quand les professeurs doivent-ils recevoir le mail annonçant l'action de l'association ?",
+      "answerable": true,
+      "qrels": {
+        "c-23": 2,
+        "c-06": 1,
+        "c-22": 1,
+        "c-21": 0,
+        "c-04": 0
+      },
+      "traps": [
+        {
+          "unit": "c-21",
+          "trap": "superseded"
+        },
+        {
+          "unit": "c-04",
+          "trap": "date"
+        }
+      ]
+    },
+    {
+      "key": "q15",
+      "about_meeting": "072c_EEPH",
+      "text": "Avec quels matériaux les pancartes du stand doivent-elles être fabriquées ?",
+      "answerable": true,
+      "qrels": {
+        "c-16": 2,
+        "c-15": 0,
+        "c-09": 0
+      },
+      "traps": [
+        {
+          "unit": "c-15",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-09",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q16",
+      "about_meeting": "072c_EEPH",
+      "text": "Combien d'écoles ont déjà accepté de fabriquer les pancartes ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    }
+  ],
+  "speaker_names": {
+    "122": "cléo (incertain)",
+    "167": "pervine (incertain)"
+  },
+  "notes": "Réunion a en ASR (bruitée), sans questions. Cas ambigus : b t0246 (« je pense pas » suivi d'une justification des amphis, 122 conclut « en amphis ») ; rejet de la télévision formulé avec réserve (b t0062) ; choix du sujet tri implicite (b t0005, t0148-t0149). Unités supersédées notées 0 et marquées comme pièges « superseded ». Âge et anecdotes personnelles (plongée, nombre de mails) non annotés. Identités : 122 se présente en a t0003 (ASR) ; 167 appelée « pervine » en b t0004."
+}
