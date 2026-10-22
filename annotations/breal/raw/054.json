@@ -1,0 +1,2124 @@
+{
+ "group_id": "054",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "054a_EARH",
+   "turn": "t0000",
+   "evidence": "on est à cette réunion pour discuter des sujets qu on va mettre en place pour notre association",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion sert à discuter des sujets que l'association va mettre en place.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "054a_EARH",
+   "turn": "t0001",
+   "evidence": "moi c'est le sujet donc je suis responsable de l intelligence artificielle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "128 présente l'intelligence artificielle comme sujet proposé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Formulation ambiguë (« responsable » du sujet IA) ; lu comme proposition de sujet."
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "054a_EARH",
+   "turn": "t0006",
+   "evidence": "j' ai choisi l open source euh il s agit de pouvoir accéder à des logiciels euh gratuitement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "129 propose le sujet de l'open source : accéder gratuitement à des logiciels.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "054a_EARH",
+   "turn": "t0006",
+   "evidence": "jasp par_exemple qui est un logiciel de traitement statistique",
+   "type": "fact",
+   "status": "active",
+   "statement": "JASP est cité comme logiciel libre de traitement statistique (anova, ancova).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "054a_EARH",
+   "turn": "t0009",
+   "evidence": "il me semble que r aussi il est libre",
+   "type": "fact",
+   "status": "active",
+   "statement": "R est aussi un logiciel libre utile au traitement statistique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "054a_EARH",
+   "turn": "t0011",
+   "evidence": "développer ses compétences numériques et pouvoir mener à terme leur projet",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'open source permet de développer ses compétences numériques et de mener ses projets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée au tour t0010."
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "054a_EARH",
+   "turn": "t0016",
+   "evidence": "l impact négatif euh moi j en vois pas",
+   "type": "fact",
+   "status": "active",
+   "statement": "129 ne voit pas d'impact négatif à l'open source.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "054a_EARH",
+   "turn": "t0018",
+   "evidence": "je pense que l open source en_tout_cas en science ça va beaucoup beaucoup se développer",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 129, l'open source va beaucoup se développer en science.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "054a_EARH",
+   "turn": "t0022",
+   "evidence": "google data studio qui est gratuit donc oui c'est très facile d utiliser google data studio mais il n y a pas d algorithmes d intelligence artificielle qui y sont associés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Google Data Studio est gratuit et simple mais sans algorithmes d'IA associés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "054a_EARH",
+   "turn": "t0022",
+   "evidence": "une autre solution data style datorama là il_y a des solutions d intelligence artificielle connectées",
+   "type": "fact",
+   "status": "active",
+   "statement": "Datorama propose des solutions d'IA connectées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "054a_EARH",
+   "turn": "t0023",
+   "evidence": "l impact négatif bien sûr c'est ça remplace un petit peu ce ce besoin d avoir autant de personnes qui travaillent",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : l'IA réduit le besoin de personnel humain.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "054a_EARH",
+   "turn": "t0024",
+   "evidence": "leurs algorithmes ils marchent bien voilà tout simplement",
+   "type": "fact",
+   "status": "active",
+   "statement": "128 cite Datorama parce que ses algorithmes fonctionnent bien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite du tour t0023 (« j ai cité datorama parce_que je sais que »)."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "054a_EARH",
+   "turn": "t0028",
+   "evidence": "j ai choisi les réseaux sociaux puisque c'est ce qui est à l air du temps",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "109 propose le sujet des réseaux sociaux, très actuel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "054a_EARH",
+   "turn": "t0029",
+   "evidence": "c'est aussi une manière de pouvoir communiquer notre événement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les réseaux sociaux peuvent servir à communiquer sur l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "054a_EARH",
+   "turn": "t0030",
+   "evidence": "on apprend de des des choses nouvelles on peut s informer sur euh ce qui se passe dans le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Impact positif des réseaux sociaux : apprendre et s'informer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "054a_EARH",
+   "turn": "t0030",
+   "evidence": "les impacts négatifs ça ça nous renferme dans dans le devant un écran",
+   "type": "risk",
+   "status": "active",
+   "statement": "Impact négatif : on reste enfermé devant un écran au lieu de communiquer réellement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "054a_EARH",
+   "turn": "t0049",
+   "evidence": "je pense qu il faut pas non_plus diaboliser euh tout quoi",
+   "type": "fact",
+   "status": "active",
+   "statement": "129 estime qu'il ne faut pas diaboliser les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "054a_EARH",
+   "turn": "t0102",
+   "evidence": "maintenant c'est vraiment plus instagram quand même",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le réseau dominant aujourd'hui est Instagram plutôt que Facebook.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "054a_EARH",
+   "turn": "t0104",
+   "evidence": "il_y a plein plein d applications maintenant qui permettent de modifier les photos",
+   "type": "fact",
+   "status": "active",
+   "statement": "De nombreuses applications permettent de retoucher les photos.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "054a_EARH",
+   "turn": "t0109",
+   "evidence": "trafiqué une image comme ça",
+   "type": "question",
+   "status": "resolved",
+   "statement": "128 demande aux deux autres s'ils ont déjà retouché une photo.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Question commencée au tour t0108."
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "054a_EARH",
+   "turn": "t0115",
+   "evidence": "ben oui moi je l ai fait hein évidemment",
+   "type": "answer",
+   "status": "active",
+   "statement": "129 répond qu'elle a déjà retouché des photos ; 109 répond non (t0111, trop court pour une unité).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "054a_EARH",
+   "turn": "t0146",
+   "evidence": "c'est pas dur en plus hein ça prend dix minutes même pas",
+   "type": "fact",
+   "status": "active",
+   "statement": "Maquiller quelqu'un sur une photo retouchée prend moins de dix minutes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "054a_EARH",
+   "turn": "t0151",
+   "evidence": "ça nous isole un peu dans une illusion que notre vie elle est moins bien_que celle des autres",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : l'illusion que sa vie est moins bien que celle des autres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "054a_EARH",
+   "turn": "t0166",
+   "evidence": "pour moi c'est pas un phénomène nouveau",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour 129, soigner les apparences n'est pas nouveau, seul le médium change.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "054a_EARH",
+   "turn": "t0190",
+   "evidence": "pour partager des événements des choses comme ça on peut créer des des groupes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Côté positif : créer des groupes pour partager des événements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "054a_EARH",
+   "turn": "t0193",
+   "evidence": "c'est via facebook que j ai créé un groupe sur whatsapp genre il_y a un an et demi",
+   "type": "fact",
+   "status": "active",
+   "statement": "128 a créé un groupe WhatsApp via Facebook il y a un an et demi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "054a_EARH",
+   "turn": "t0197",
+   "evidence": "favorise aussi la possibilité de se faire des contacts un peu partout dans le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les réseaux favorisent les contacts dans le monde entier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "054a_EARH",
+   "turn": "t0204",
+   "evidence": "dans un groupe facebook on est mille_quatre_cent dedans alors_qu on est une promo de huit_cent",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le groupe Facebook de la promo de 129 compte 1 400 membres pour une promo de 800.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "054a_EARH",
+   "turn": "t0209",
+   "evidence": "je crois qu il_y a quatorze mille personnes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le groupe Facebook local d'Aix-en-Provence compte environ 14 000 personnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "054a_EARH",
+   "turn": "t0221",
+   "evidence": "et sur vos deux autres sujets vous avez des choses à rajouter",
+   "type": "question",
+   "status": "resolved",
+   "statement": "109 demande s'il reste des choses à dire sur les deux autres sujets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "054a_EARH",
+   "turn": "t0222",
+   "evidence": "je pense que le sujet qui rassemble le plus c'est quand même les réseaux sociaux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le sujet retenu est celui des réseaux sociaux, qui rassemble le plus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Consensus informel (128 « ouais ouais c'est quand même oui », 109 « ouais ») ; confirmé en b-01."
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "054a_EARH",
+   "turn": "t0232",
+   "evidence": "responsable d' une solution euh une technologie data qui utilisait l' intelligence artificielle",
+   "type": "fact",
+   "status": "active",
+   "statement": "128 a été responsable d'une solution data utilisant l'IA, sans créer les algorithmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "054b_EADH",
+   "turn": "t0002",
+   "evidence": "parler des réseaux sociaux enfin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le sujet de l'événement est les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Phrase répartie sur t0000-t0002 (« je pense que dans tant que sujet on peut parler des réseaux sociaux ») ; ASR."
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "054b_EADH",
+   "turn": "t0003",
+   "evidence": "la date quelle date est-ce_que vous voulez choisir",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle date choisir pour l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "054b_EADH",
+   "turn": "t0004",
+   "evidence": "si l' événement il est à l' intérieur en soi n'importe quelle saison conviendra",
+   "type": "answer",
+   "status": "active",
+   "statement": "Si l'événement est en intérieur, n'importe quelle saison convient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "054b_EADH",
+   "turn": "t0007",
+   "evidence": "quelle est la population visée",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel public vise-t-on ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "054b_EADH",
+   "turn": "t0009",
+   "evidence": "si on est sur les réseaux sociaux on va peut-être être sur une population un peu plus jeune entre ados et jeunes adultes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Public visé : plutôt adolescents et jeunes adultes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "054b_EADH",
+   "turn": "t0012",
+   "evidence": "l' invité c'est mark zuckerberg a mon avis on aura des gens un peu plus âgés",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemple : avec Mark Zuckerberg comme invité, le public serait plus âgé.",
+   "owner": null,
+   "mentioned_people": [
+    "mark zuckerberg"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "054b_EADH",
+   "turn": "t0020",
+   "evidence": "est-ce qu' on a une liste de de spécifique d' un type d' invité qu' on peut avoir ou est-ce_que c'est libre",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Y a-t-il une liste imposée d'invités ou est-ce libre ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "054b_EADH",
+   "turn": "t0021",
+   "evidence": "faut mettre nom pseudo métier coût bas moyen ou élevé",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le choix est libre : il faut indiquer nom, pseudo, métier et coût (bas, moyen ou élevé).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "054b_EADH",
+   "turn": "t0022",
+   "evidence": "parce_que zuckerberg ça va être ça va être cher",
+   "type": "risk",
+   "status": "active",
+   "statement": "Inviter Zuckerberg coûterait cher.",
+   "owner": null,
+   "mentioned_people": [
+    "zuckerberg"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "054b_EADH",
+   "turn": "t0033",
+   "evidence": "avant l' été ou pendant l' été justement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de date : avant ou pendant l'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "054b_EADH",
+   "turn": "t0034",
+   "evidence": "si c'est des étudiants qu' on vise pendant pendant l' année scolaire c'est pas mal",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Si on vise les étudiants, mieux vaut l'année scolaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "054b_EADH",
+   "turn": "t0045",
+   "evidence": "l été c'est délicat parce_que tout_le monde se barre en vacances",
+   "type": "risk",
+   "status": "active",
+   "statement": "L'été est risqué car tout le monde part en vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "054b_EADH",
+   "turn": "t0039",
+   "evidence": "on a dix mille dix mille nouveaux étudiants",
+   "type": "fact",
+   "status": "active",
+   "statement": "En septembre-octobre il y a des milliers de nouveaux étudiants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "054b_EADH",
+   "turn": "t0048",
+   "evidence": "si on choisit un coup élevé y' en a qu' un seul",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avec un invité à coût élevé, on n'a droit qu'à un seul invité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« coup » = coût (ASR)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "054b_EADH",
+   "turn": "t0052",
+   "evidence": "j ai mis septembre deux_mille_vingt_deux",
+   "type": "decision",
+   "status": "active",
+   "statement": "128 inscrit septembre 2022 comme date.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "054b_EADH",
+   "turn": "t0056",
+   "evidence": "si on prend le temps de mettre tout en un événement c'est on peut pas le faire euh en quelques mois",
+   "type": "risk",
+   "status": "active",
+   "statement": "Organiser l'événement en quelques mois n'est pas réaliste, d'où 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suit « deux_mille_vingt_trois » (t0054, 109) ; accord de 128 et 129."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "054b_EADH",
+   "turn": "t0065",
+   "evidence": "moi j' aurais dit fin septembre parce_que début septembre c'est la rentrée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "129 propose fin septembre / début octobre, début septembre étant la rentrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "054b_EADH",
+   "turn": "t0066",
+   "evidence": "au début octobre c'est bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "109 approuve début octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "054b_EADH",
+   "turn": "t0070",
+   "evidence": "septembre ou octobre je peux mettre octobre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le mois retenu est octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "129 confirme t0071 (« octobre à la limite ... avant noël après la rentrée »)."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "054b_EADH",
+   "turn": "t0074",
+   "evidence": "on a la possibilité de choisir où on le fait ou pas",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Peut-on choisir la ville du lieu ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "054b_EADH",
+   "turn": "t0077",
+   "evidence": "que ce sera dans la 3ème réunion ça mais en_tout_cas là",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le lieu sera traité à la troisième réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "054b_EADH",
+   "turn": "t0083",
+   "evidence": "le thème définitif de l' événement j' ai juste mis un réseau sociaux je pense qu' on pourrait peut-être trouver",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le thème noté est « réseaux sociaux » ; 128 propose de trouver plus pointu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "054b_EADH",
+   "turn": "t0091",
+   "evidence": "en vrai un youtubeur ça peut être pas mal",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "109 propose d'inviter un youtubeur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "054b_EADH",
+   "turn": "t0097",
+   "evidence": "moi j' aurais dit lena manouf",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "129 propose la youtubeuse Léna (« lena manouf », pseudo Léna Situation).",
+   "owner": null,
+   "mentioned_people": [
+    "lena manouf"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom transcrit de plusieurs façons (manouf, malouf, malhoff, l' ena situation)."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "054b_EADH",
+   "turn": "t0130",
+   "evidence": "moi je trouve que c'est un super choix",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'invitée retenue est Léna (Léna Situation).",
+   "owner": null,
+   "mentioned_people": [
+    "lena manouf"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 129 (t0129 « c'est un bon choix ») et 128 ; confirmé en c."
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "054b_EADH",
+   "turn": "t0130",
+   "evidence": "je dirais le thème de l' événement on pourrait mettre développement personnel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Thème proposé : le développement personnel avec les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite t0131 « avec les réseaux sociaux » ; acté en c-01."
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "054b_EADH",
+   "turn": "t0137",
+   "evidence": "pourquoi est-ce_qu' on choisit l' ena situation l' ena malhoff pourquoi est-ce_qu' on l' a choisi elle",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Pourquoi avoir choisi Léna Situation ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "054b_EADH",
+   "turn": "t0138",
+   "evidence": "elle est très connue et qu' elle touche elle est française mais elle est aussi beaucoup connectée aux us",
+   "type": "answer",
+   "status": "active",
+   "statement": "Elle est très connue, française et liée aux États-Unis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "054b_EADH",
+   "turn": "t0158",
+   "evidence": "elle a beaucoup beaucoup d' abonnés donc elle va amener beaucoup beaucoup",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ses nombreux abonnés apporteront beaucoup de monde et de visibilité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite t0160."
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "054b_EADH",
+   "turn": "t0174",
+   "evidence": "ah un jour je pense fin après euh pour un seul invité et plusieurs jours ça fait beaucoup",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "109 propose une durée d'un jour, plusieurs jours étant trop pour un seul invité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "054b_EADH",
+   "turn": "t0179",
+   "evidence": "on fait une durée la durée sur deux jours",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement dure deux jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 129 (t0183) et 109 (t0194 « c'est pas mal »)."
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "054b_EADH",
+   "turn": "t0180",
+   "evidence": "ces invités c'est pas des gens qu' on paye on va demander on va dire aux élèves",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : des élèves non payés s'inscrivent pour présenter leurs idées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "054b_EADH",
+   "turn": "t0183",
+   "evidence": "l' idée de faire venir l' invité le deuxième jour et le premier jour en_fait de faire un espèce d' événement autour_de ce thème",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'invitée vient le deuxième jour ; le premier jour est un événement autour du thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 109 et 128 (t0186-t0194)."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "054b_EADH",
+   "turn": "t0205",
+   "evidence": "une lecture de son livre le premier jour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : une lecture de son livre le premier jour, dans un cadre cosy avec collations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "054b_EADH",
+   "turn": "t0209",
+   "evidence": "le lendemain elle vient elle fait son truc elle fait des dédicaces de bouquins",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le lendemain, l'invitée intervient et dédicace ses livres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "054b_EADH",
+   "turn": "t0221",
+   "evidence": "cette personne elle toucherait les étudiants en psycho",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'invitée toucherait les étudiants en psychologie (et aussi droit, business).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "054b_EADH",
+   "turn": "t0236",
+   "evidence": "aix-en-provence en vrai ce serait un bon endroit pour le faire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "129 propose Aix-en-Provence comme lieu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "054b_EADH",
+   "turn": "t0252",
+   "evidence": "c'est vrai que l' ena situation c'est mieux parce que c'est son pseudo",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mieux vaut inscrire le pseudo « Léna Situation ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "054b_EADH",
+   "turn": "t0259",
+   "evidence": "à léna si elle a envie de faire cet événement aux etats-unis",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Si l'événement réussit, proposer à Léna de le refaire aux États-Unis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0000",
+   "evidence": "pour parler de la réunion sur euh le développement personnel dans les réseaux sociaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le thème de l'événement est le développement personnel dans les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0006",
+   "evidence": "le trois octobre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "109 propose le 3 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0008",
+   "evidence": "alors faudrait que ce soit pendant le week-end",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement doit avoir lieu un week-end.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 109 et 128."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0011",
+   "evidence": "donc ce serait le sept huit",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu le week-end des 7 et 8 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "128 confirme t0012."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0013",
+   "evidence": "on a le droit de mettre qu une date donc on met le sept pour dire que c'est le début",
+   "type": "decision",
+   "status": "active",
+   "statement": "On inscrit le 7 octobre comme date de début.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Année 2023 (t0244, t0329)."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0020",
+   "evidence": "ben déjà faire la communication euh du_coup par les réseaux sociaux",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Tâche proposée : communiquer sur l'événement via les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0024",
+   "evidence": "combien de temps avant l événement on commence à faire ça",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Combien de temps avant l'événement commencer la communication ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0040",
+   "evidence": "donc plus juin enfin c'est un peu tard mais moi je pense plus juin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "129 propose de communiquer à partir de juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0049",
+   "evidence": "pour moi je dirais la communication la commence en mai",
+   "type": "answer",
+   "status": "active",
+   "statement": "128 : la communication commence en mai, avant les vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0062",
+   "evidence": "faire la communication par les réseaux sociaux à_partir_de mai deux mille vingt-trois ça c'est la première tâche",
+   "type": "action",
+   "status": "active",
+   "statement": "Première tâche : communication sur les réseaux sociaux à partir de mai 2023.",
+   "owner": "109",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "109 accepte la tâche en t0065."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0065",
+   "evidence": "euh allez je m y mets",
+   "type": "commitment",
+   "status": "active",
+   "statement": "109 se charge de la communication sur les réseaux sociaux.",
+   "owner": "109",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0076",
+   "evidence": "tu t occuperas de créer le visuel pour euh pour la communication le texte euh vidéos",
+   "type": "action",
+   "status": "active",
+   "statement": "109 crée les visuels, textes et vidéos de la communication.",
+   "owner": "109",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "109 accepte (t0077 « oui », t0080 « absolument »)."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0084",
+   "evidence": "pour moi aussi faut créer le rétro planning",
+   "type": "action",
+   "status": "proposed",
+   "statement": "128 ajoute qu'il faut un rétroplanning des publications.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0098",
+   "evidence": "planification des postes",
+   "type": "decision",
+   "status": "active",
+   "statement": "La planification des posts est ajoutée (entre parenthèses) à la tâche de communication.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rattachement à la tâche de 109 déduit de t0092-t0093 ; responsable non répété."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0127",
+   "evidence": "qui est en charge du site et de la récolte des différents participants",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui s'occupe du site et du recensement des participants ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0143",
+   "evidence": "sur le site on va créer une page dédiée à l événement",
+   "type": "decision",
+   "status": "active",
+   "statement": "On crée une page dédiée à l'événement sur le site existant de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0148",
+   "evidence": "léna elle sera là le deuxième jour le premier jour ce sera une lecture de son bouquin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Programme : lecture du livre le premier jour, Léna présente le deuxième jour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "128 « exactement »."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0160",
+   "evidence": "enfin je veux bien le faire mais à mon avis je vais quand même je suis sûr qu on a un webmaster et je vais travailler avec lui",
+   "type": "commitment",
+   "status": "active",
+   "statement": "128 se charge de la page, avec le webmaster de l'association.",
+   "owner": "128",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0163",
+   "evidence": "création de la page et description de l événement sur la page pour pouvoir le communiquer ensuite",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche : créer la page et décrire l'événement, puis recueillir les inscriptions.",
+   "owner": "128",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Responsable confirmé t0233 (« c'est edouard »)."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0179",
+   "evidence": "moi je veux bien être en charge de choisir le lieu",
+   "type": "commitment",
+   "status": "active",
+   "statement": "129 se charge du choix du lieu.",
+   "owner": "129",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0208",
+   "evidence": "donc choisir le lieu pasino grand aix en provence",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu retenu est le Pasino Grand d'Aix-en-Provence.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé en t0179, approuvé par 128 et 109."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0327",
+   "evidence": "il suffit que le premier qu on appelle il nous dise non il faut chercher d'autres",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : le premier traiteur peut refuser, il faut prévoir de la marge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0192",
+   "evidence": "il faut vous présinscrire parce_qu il n y aura pas enfin parce_qu il_y a des places limitées",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Imposer une préinscription car les places sont limitées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0199",
+   "evidence": "on a une capacité de cinquante cinquante personnes pour cette journée alors_que la vraie capacité elle est de quarante-cinq",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemple de surréservation : annoncer 50 places pour une capacité réelle de 45.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Chiffres donnés « par exemple »."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0235",
+   "evidence": "il va y avoir une version papier qui n est pas web",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "128 ajoute une communication papier (flyers).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0244",
+   "evidence": "on peut peut-être booker le lieu un an à l avance",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu doit être réservé un an à l'avance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 128 et 109."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0251",
+   "evidence": "c'est clair que oui oui septembre deux_mille_vingt_deux",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réservation du lieu se fait vers septembre 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0263",
+   "evidence": "janvier à mars deux_mille_vingt_trois",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "128 propose de faire la page web de janvier à mars 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0264",
+   "evidence": "bon je laisse comme ça à_partir_de janvier vingt_trois",
+   "type": "decision",
+   "status": "active",
+   "statement": "La page web est faite à partir de janvier 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0283",
+   "evidence": "ouais mars mai mars avril",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "128 propose mars-avril pour lancer les flyers et posters.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0285",
+   "evidence": "je pense que ouais mai c'est pas mal allez on va dire ça donc deux_mille_vingt_trois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les flyers et posters sont lancés en mai 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0290",
+   "evidence": "un mois à l avance",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les flyers sont distribués un mois avant l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« distrib » noté en t0288-t0289."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0302",
+   "evidence": "moi je pense que ça peut être moi puisque moi je suis moi j ai rien à faire en_fait",
+   "type": "commitment",
+   "status": "active",
+   "statement": "129 supervise les flyers et posters avec les bénévoles.",
+   "owner": "129",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 109 et 128 ; confirmé t0305 (« ça c'est andréa »)."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0306",
+   "evidence": "l espèce de dédicace de ces bouquins parce_que j ai l impression que ça c'est quand même un truc vachement important",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "128 propose d'organiser la séance de dédicace.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0307",
+   "evidence": "pour moi ce qui est important c'est d organiser les bouteilles d eau collations",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "129 juge plus important d'organiser eau et collations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0315",
+   "evidence": "contactez traiteur pour devis",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche : contacter des traiteurs pour un devis (sandwichs, snacks).",
+   "owner": "128",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "128 accepte t0338-t0340."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0334",
+   "evidence": "il faut contacter différents traiteurs ok il nous reste une minute trente donc ça ce sera en février",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les traiteurs sont contactés en février 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Année en t0336."
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0340",
+   "evidence": "je suis je m y connais en traiteur",
+   "type": "commitment",
+   "status": "active",
+   "statement": "128 se charge du traiteur.",
+   "owner": "128",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite de t0338 (« moi je veux bien ») ; 129 confirme t0339."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0329",
+   "evidence": "on a bien fait de choisir deux_mille_vingt_trois parce_que c'est vrai que si on avait choisi deux_mille_vingt_deux ça aurait été infaisable",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le choix de 2023 plutôt que 2022 était nécessaire pour être faisable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "054c_EAPH",
+   "turn": "t0373",
+   "evidence": "moi j ai juste rajouté engager décorateur événement à_partir_d avril",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche ajoutée : engager un décorateur à partir d'avril.",
+   "owner": "109",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Attribuée à « elena » (t0375), acceptée par 109 (t0377 « ok »)."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-31",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "Le choix des réseaux sociaux tranche la question du sujet ; l'IA est écartée."
+  },
+  {
+   "from": "a-31",
+   "to": "a-03",
+   "relation": "supersedes",
+   "justification": "Le choix des réseaux sociaux tranche la question du sujet ; l'open source est écarté (t0227)."
+  },
+  {
+   "from": "a-31",
+   "to": "a-13",
+   "relation": "supports",
+   "justification": "Retient la proposition de 109."
+  },
+  {
+   "from": "a-21",
+   "to": "a-20",
+   "relation": "answers",
+   "justification": "Réponse directe à la question sur la retouche d'images."
+  },
+  {
+   "from": "b-01",
+   "to": "a-31",
+   "relation": "supports",
+   "justification": "La réunion b repart du sujet réseaux sociaux."
+  },
+  {
+   "from": "b-03",
+   "to": "b-02",
+   "relation": "answers",
+   "justification": "Réponse sur la saison."
+  },
+  {
+   "from": "b-05",
+   "to": "b-04",
+   "relation": "answers",
+   "justification": "Réponse sur le public visé."
+  },
+  {
+   "from": "b-08",
+   "to": "b-07",
+   "relation": "answers",
+   "justification": "Précise que le choix d'invité est libre avec un formulaire."
+  },
+  {
+   "from": "b-19",
+   "to": "b-15",
+   "relation": "supersedes",
+   "justification": "Octobre remplace septembre sur le formulaire (« je peux mettre octobre »)."
+  },
+  {
+   "from": "b-19",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "La date d'automne tranche la proposition d'été."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "answers",
+   "justification": "Le lieu est renvoyé à la troisième réunion."
+  },
+  {
+   "from": "b-25",
+   "to": "b-24",
+   "relation": "supports",
+   "justification": "Valide la proposition de Léna."
+  },
+  {
+   "from": "b-25",
+   "to": "b-06",
+   "relation": "supersedes",
+   "justification": "Le choix de Léna tranche la question de l'invité (Zuckerberg évoqué)."
+  },
+  {
+   "from": "b-25",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Léna est une youtubeuse."
+  },
+  {
+   "from": "b-28",
+   "to": "b-27",
+   "relation": "answers",
+   "justification": "Explique pourquoi Léna a été choisie."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "supersedes",
+   "justification": "La durée de deux jours tranche la proposition d'un jour."
+  },
+  {
+   "from": "c-01",
+   "to": "b-26",
+   "relation": "supports",
+   "justification": "Le thème développement personnel dans les réseaux sociaux est repris comme acquis."
+  },
+  {
+   "from": "c-04",
+   "to": "c-02",
+   "relation": "supersedes",
+   "justification": "Le week-end des 7-8 octobre remplace le 3 octobre."
+  },
+  {
+   "from": "c-04",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Précise le mois d'octobre retenu en b."
+  },
+  {
+   "from": "c-05",
+   "to": "c-04",
+   "relation": "supports",
+   "justification": "Fixe le 7 comme date de début."
+  },
+  {
+   "from": "c-09",
+   "to": "c-07",
+   "relation": "answers",
+   "justification": "Répond : à partir de mai."
+  },
+  {
+   "from": "c-10",
+   "to": "c-08",
+   "relation": "supersedes",
+   "justification": "Mai est acté à la place de juin."
+  },
+  {
+   "from": "c-10",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "Acte la proposition de mai."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "supports",
+   "justification": "109 accepte la tâche de communication."
+  },
+  {
+   "from": "c-14",
+   "to": "c-13",
+   "relation": "supports",
+   "justification": "Le rétroplanning est intégré comme planification des posts."
+  },
+  {
+   "from": "c-18",
+   "to": "c-15",
+   "relation": "answers",
+   "justification": "128 se propose pour la page et la récolte des participants."
+  },
+  {
+   "from": "c-16",
+   "to": "c-19",
+   "relation": "creates_action",
+   "justification": "La décision de créer une page dédiée donne lieu à la tâche de création."
+  },
+  {
+   "from": "c-17",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Reprend le programme sur deux jours avec l'invitée le deuxième jour."
+  },
+  {
+   "from": "c-17",
+   "to": "b-34",
+   "relation": "supports",
+   "justification": "Reprend la lecture du livre le premier jour."
+  },
+  {
+   "from": "c-21",
+   "to": "b-37",
+   "relation": "supports",
+   "justification": "Le Pasino Grand est à Aix-en-Provence."
+  },
+  {
+   "from": "c-27",
+   "to": "c-26",
+   "relation": "supports",
+   "justification": "Septembre 2022 = un an avant l'événement."
+  },
+  {
+   "from": "c-29",
+   "to": "c-28",
+   "relation": "supersedes",
+   "justification": "« je laisse comme ça à partir de janvier » tranche la proposition janvier-mars."
+  },
+  {
+   "from": "c-31",
+   "to": "c-30",
+   "relation": "supersedes",
+   "justification": "Mai est retenu pour les flyers au lieu de mars-avril."
+  },
+  {
+   "from": "c-35",
+   "to": "c-34",
+   "relation": "contradicts",
+   "justification": "Désaccord sur l'importance de la dédicace, non tranché explicitement."
+  },
+  {
+   "from": "c-38",
+   "to": "c-36",
+   "relation": "supports",
+   "justification": "128 accepte la tâche traiteur."
+  },
+  {
+   "from": "c-39",
+   "to": "b-15",
+   "relation": "supersedes",
+   "justification": "2023 remplace septembre 2022 (« si on avait choisi 2022 ça aurait été infaisable »)."
+  },
+  {
+   "from": "c-39",
+   "to": "b-16",
+   "relation": "supports",
+   "justification": "Confirme que 2022 était trop court."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "054a_EARH",
+   "text": "Finalement, quel thème l'association a-t-elle retenu parmi les trois sujets présentés ?",
+   "answerable": true,
+   "qrels": {
+    "a-31": 2,
+    "b-01": 2,
+    "a-13": 1,
+    "c-01": 1,
+    "a-02": 0,
+    "a-03": 0
+   },
+   "traps": [
+    {
+     "unit": "a-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-03",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "054a_EARH",
+   "text": "Quel effet négatif de l'IA sur l'emploi a été mentionné ?",
+   "answerable": true,
+   "qrels": {
+    "a-11": 2,
+    "a-10": 0,
+    "a-02": 0,
+    "a-16": 0
+   },
+   "traps": [
+    {
+     "unit": "a-10",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-16",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "054a_EARH",
+   "text": "Quel outil d'analyse marketing avec de l'IA intégrée a été recommandé à la place de l'offre gratuite de Google ?",
+   "answerable": true,
+   "qrels": {
+    "a-10": 2,
+    "a-12": 1,
+    "a-09": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "054a_EARH",
+   "text": "Avec quel logiciel libre peut-on faire facilement des anovas ?",
+   "answerable": true,
+   "qrels": {
+    "a-04": 2,
+    "a-05": 0,
+    "a-03": 0
+   },
+   "traps": [
+    {
+     "unit": "a-05",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "054a_EARH",
+   "text": "Combien de membres a le groupe Facebook de la promo de l'étudiante, par rapport au nombre d'étudiants ?",
+   "answerable": true,
+   "qrels": {
+    "a-28": 2,
+    "a-29": 0,
+    "a-26": 0
+   },
+   "traps": [
+    {
+     "unit": "a-29",
+     "trap": "amount"
+    },
+    {
+     "unit": "a-26",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "054a_EARH",
+   "text": "Qui a reconnu avoir déjà retouché ses photos ?",
+   "answerable": true,
+   "qrels": {
+    "a-21": 2,
+    "a-20": 1,
+    "a-19": 0
+   },
+   "traps": [
+    {
+     "unit": "a-19",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "054a_EARH",
+   "text": "Quel danger lié à la comparaison avec les autres a été soulevé à propos d'Instagram ?",
+   "answerable": true,
+   "qrels": {
+    "a-23": 2,
+    "a-16": 0,
+    "a-19": 0
+   },
+   "traps": [
+    {
+     "unit": "a-16",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "054a_EARH",
+   "text": "Quel budget en euros a été prévu pour un abonnement à Datorama ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "054c_EAPH",
+   "text": "Quel jour exactement l'événement commence-t-il ?",
+   "answerable": true,
+   "qrels": {
+    "c-05": 2,
+    "c-04": 2,
+    "c-39": 1,
+    "b-19": 1,
+    "c-02": 0,
+    "b-15": 0,
+    "c-27": 0
+   },
+   "traps": [
+    {
+     "unit": "c-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-15",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-27",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "054c_EAPH",
+   "text": "Qui s'occupe de trouver la salle ?",
+   "answerable": true,
+   "qrels": {
+    "c-20": 2,
+    "c-21": 0,
+    "c-18": 0,
+    "c-33": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-18",
+     "trap": "person"
+    },
+    {
+     "unit": "c-33",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "054c_EAPH",
+   "text": "Combien de temps avant l'événement faut-il réserver le Pasino ?",
+   "answerable": true,
+   "qrels": {
+    "c-26": 2,
+    "c-27": 1,
+    "c-32": 0,
+    "c-21": 0
+   },
+   "traps": [
+    {
+     "unit": "c-32",
+     "trap": "date"
+    },
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "054c_EAPH",
+   "text": "Quand démarre la promotion de l'événement sur Instagram et les autres plateformes ?",
+   "answerable": true,
+   "qrels": {
+    "c-10": 2,
+    "c-09": 1,
+    "c-08": 0,
+    "c-31": 0,
+    "c-29": 0,
+    "c-06": 0
+   },
+   "traps": [
+    {
+     "unit": "c-08",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-31",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-29",
+     "trap": "date"
+    },
+    {
+     "unit": "c-06",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "054c_EAPH",
+   "text": "Qui s'est porté volontaire pour gérer le traiteur ?",
+   "answerable": true,
+   "qrels": {
+    "c-38": 2,
+    "c-36": 1,
+    "c-11": 0,
+    "c-35": 0
+   },
+   "traps": [
+    {
+     "unit": "c-11",
+     "trap": "person"
+    },
+    {
+     "unit": "c-35",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "054c_EAPH",
+   "text": "Pourquoi l'événement n'a-t-il pas été fixé en 2022 ?",
+   "answerable": true,
+   "qrels": {
+    "c-39": 2,
+    "b-16": 2,
+    "b-15": 0,
+    "c-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-15",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-27",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "054c_EAPH",
+   "text": "Quelle difficulté peut se poser au moment de solliciter les traiteurs ?",
+   "answerable": true,
+   "qrels": {
+    "c-22": 2,
+    "c-36": 0,
+    "c-37": 0
+   },
+   "traps": [
+    {
+     "unit": "c-36",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-37",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "054c_EAPH",
+   "text": "Comment s'appelle le webmaster de l'association avec qui la page sera créée ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "109": "hélèna (incertain)",
+  "128": "edouard",
+  "129": "andréa (incertain)"
+ },
+ "notes": "Réunion b en ASR (noms déformés : léna manouf/malouf/situation). Années : septembre 2022 noté en b puis 2023 (repris en c). Unités en c limitées à 40 : non annotés le débat sur les liens Instagram, les créneaux d'accueil, la mise en place du matériel. Non annotés car données personnelles sans intérêt : demande de dermatologue pour un proche (a t0211), origine de l'invitée (b t0141), âge des parents, nationalité. Responsable du rétroplanning ambigu (c-14). Métadonnées SUMM-RE : a et c en split officiel test, b en train."
+}
