@@ -1,2385 +1,2360 @@
 {
-  "group_id": "047",
-  "units": [
-    {
-      "key": "a-01",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0001",
-      "evidence": "je me disais qu on pouvait inviter des des artistes qui ne sont pas très connus euh mais qui sont quand même très très talentueux",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna propose d'inviter des artistes rock peu connus mais talentueux, repérés sur YouTube ou d'autres plateformes vidéo.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-02",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0001",
-      "evidence": "si cela vous plaît je pourrais éventuellement créer une liste avec quelques articles que je quelques artistes que je connais",
-      "type": "commitment",
-      "status": "proposed",
-      "statement": "Anna offre, si les autres sont d'accord, de dresser une liste d'artistes rock qu'elle connaît pour qu'on choisisse ensemble.",
-      "owner": null,
-      "mentioned_people": [
-        "101"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Offre conditionnelle sans acceptation explicite : owner laissé vide."
-    },
-    {
-      "key": "a-03",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0003",
-      "evidence": "ça serait bien d inviter pas mal des gens de la fac qui qui font du jazz",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Miguel propose d'inviter des musiciens de jazz de la fac.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-04",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0003",
-      "evidence": "je sais pas si la la tarif de concert ça sera plutôt une tarif étudiant un tarif réduit",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Miguel demande si le tarif sera étudiant/réduit ou différencié selon l'âge (plus de 26 ans).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Réponse partielle au t0213 (plusieurs tarifs) ; reste débattu en réunion c."
-    },
-    {
-      "key": "a-05",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0015",
-      "evidence": "on pourrait déjà mettre la batterie le piano le synthétiseur euh les deux types des guitares tantot acoustique comme électrique aussi",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Liste d'instruments de base proposée : batterie, piano, synthétiseur, guitares acoustique et électrique (plus des vents pour le jazz).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-06",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0025",
-      "evidence": "j ai choisi d inviter des artistes assez connus justement pour faire des un peu des têtes d affiches",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose des artistes pop connus comme têtes d'affiche pour attirer du monde.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-07",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0028",
-      "evidence": "euh donc j ai pensé à inviter adèle",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose d'inviter Adèle.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-08",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0038",
-      "evidence": "elle pourrait soit ouvrir le concert ou le cloturer tu penses quoi",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Miguel demande si Adèle doit ouvrir ou clôturer le concert.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-09",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0039",
-      "evidence": "on peut réfléchir à plutôt le clôturer pour que les gens restent jusqu'au bout",
-      "type": "answer",
-      "status": "proposed",
-      "statement": "Camille suggère qu'Adèle clôture le concert pour que le public reste jusqu'à la fin (les festivaliers vont et viennent).",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Approuvé par Miguel au t0040."
-    },
-    {
-      "key": "a-10",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0047",
-      "evidence": "après il faut vraiment que les artistes moins connus soient quand même bons",
-      "type": "risk",
-      "status": "active",
-      "statement": "Risque : les artistes moins connus doivent être de bonne qualité, sinon le festival perd son intérêt.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-11",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0049",
-      "evidence": "je pense qu on devrait commencer par le jazz",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Miguel propose de commencer la soirée par le jazz.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-12",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0054",
-      "evidence": "le jazz pour commencer plus doucement le rock ça va un peu on va dire ambiancer tout_le monde et ensuite à la fin la pop",
-      "type": "decision",
-      "status": "active",
-      "statement": "Ordre retenu : jazz en ouverture, puis rock pour l'ambiance, et pop (Adèle) en clôture.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Miguel aux t0055-t0057."
-    },
-    {
-      "key": "a-13",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0060",
-      "evidence": "je propose qu elle chante plusieurs chansons",
-      "type": "decision",
-      "status": "active",
-      "statement": "S'il n'y a qu'Adèle en pop, elle chantera plusieurs chansons.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Proposition acceptée par Miguel et Anna (t0061-t0063)."
-    },
-    {
-      "key": "a-14",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0065",
-      "evidence": "la salle des spectacles de aix elle est assez grande",
-      "type": "fact",
-      "status": "active",
-      "statement": "Miguel estime que la salle des spectacles d'Aix est assez grande.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-15",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0066",
-      "evidence": "et pour la date vous pensez que ça serait plutôt convenable l été ou",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Question : le festival doit-il avoir lieu en été ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-16",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0068",
-      "evidence": "ben plutôt l été déjà parce_que que il fait plus chaud",
-      "type": "answer",
-      "status": "active",
-      "statement": "Plutôt l'été : il fait plus chaud, c'est agréable le soir et il y a moins de risque de pluie.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-17",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0071",
-      "evidence": "après en cas de pluie qu est ce_qu on fait quoi",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Question : que faire en cas de pluie ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-18",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0073",
-      "evidence": "elle est protégée en cas de pluie oui",
-      "type": "answer",
-      "status": "active",
-      "statement": "L'arène d'Aix serait protégée en cas de pluie, donc pas d'inquiétude.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Phrase commencée par Miguel au t0072 (« l'arène à aix elle est »), avec réserve « il me semble » au t0074."
-    },
-    {
-      "key": "a-19",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0108",
-      "evidence": "pour le budget vous pensez qu il va falloir prévoir aussi des bubettes un petit snack",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Miguel demande s'il faut prévoir buvettes et snack pour financer le festival.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-20",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0110",
-      "evidence": "pour rapporter de l argent c'est sûr qu il va falloir prévoir une buvette",
-      "type": "answer",
-      "status": "active",
-      "statement": "Une buvette (et un coin snack) conséquente est nécessaire pour rapporter de l'argent.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-21",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0119",
-      "evidence": "pourquoi pas mettre deux coins buvettes d une part et d'autre de la salle",
-      "type": "decision",
-      "status": "active",
-      "statement": "Deux coins buvette de part et d'autre de la salle pour un accès facile, ce qui aidera aussi à financer le concert.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accepté par Miguel au t0121 (« c'est une bonne idée »)."
-    },
-    {
-      "key": "a-22",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0131",
-      "evidence": "on pourra du_coup augmenter le prix des billets vu que vu qu il_y aura adèle",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "La présence d'Adèle justifierait d'augmenter le prix des billets.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-23",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0146",
-      "evidence": "pour la faire venir il faudra un prix important",
-      "type": "risk",
-      "status": "active",
-      "statement": "Faire venir Adèle coûtera cher, et il faudra la convaincre.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Aucun montant énoncé."
-    },
-    {
-      "key": "a-24",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0150",
-      "evidence": "et on doit envisager un plan b au_cas_où elle l accepte pas",
-      "type": "action",
-      "status": "open",
-      "statement": "Prévoir un plan B au cas où Adèle refuse.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-25",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0154",
-      "evidence": "je propose qu on prenne peut-être un artiste pop mais alors plutôt français",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Plan B : un artiste pop plutôt français, jugé plus accessible pour ce festival.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Aucun nom retenu (juré de The Voice évoqué sans nom)."
-    },
-    {
-      "key": "a-26",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0191",
-      "evidence": "on peut acheter en pré vente ou laisser toute_la la billetterie à la fin",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Question : vendre les billets en prévente ou seulement le jour même ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-27",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0192",
-      "evidence": "moi je pense que c'est mieux en pré vente",
-      "type": "answer",
-      "status": "active",
-      "statement": "Anna préfère la prévente, pour que les gens voient les places et les prix à l'avance.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-28",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0195",
-      "evidence": "mais il faut aussi mettre une billet- une billetterie sur place le jour j",
-      "type": "decision",
-      "status": "active",
-      "statement": "En plus de la prévente, une billetterie sur place le jour J pour les retardataires.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord d'Anna au t0196."
-    },
-    {
-      "key": "a-29",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0199",
-      "evidence": "vous voulez qu on se qu' on s' en occupe des pubs ou quoi sur le réseau",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Miguel demande s'il faut s'occuper de la publicité sur les réseaux.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-30",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0200",
-      "evidence": "faudrait qu on fasse de la pub donc sur les réseaux sociaux euh tous_les réseaux je pense facebook instagram tiktok",
-      "type": "action",
-      "status": "open",
-      "statement": "Faire de la publicité sur tous les réseaux sociaux (Facebook, Instagram, surtout TikTok).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-31",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0213",
-      "evidence": "pourquoi pas faire euh plusieurs tarifs de billets donc euh par_exemple un billet euh euh vip",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose plusieurs tarifs : VIP mieux placé, moins cher au fond, tarif étudiant.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-32",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0221",
-      "evidence": "une sorte de précommande de la chanson tu vois de playlist",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Miguel propose que le public choisisse à l'avance les chansons jouées (playlist par sondage).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Idée exposée aux t0216-t0223."
-    },
-    {
-      "key": "a-33",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0225",
-      "evidence": "on devrait d'abord demander aux gens peut-être de dire quels artistes ils voudraient euh voir",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna propose de demander d'abord au public quels artistes il veut voir, puis de vérifier leur disponibilité.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-34",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0248",
-      "evidence": "donc on part sur des sondages pour savoir quels artistes et quels euh quels morceaux",
-      "type": "decision",
-      "status": "active",
-      "statement": "On part sur des sondages pour choisir artistes et morceaux.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-35",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0249",
-      "evidence": "avant de proposer un sondage je pense qu il faut vraiment qu' on qu' on soit sûre qu on puisse ramener ces artistes là",
-      "type": "risk",
-      "status": "active",
-      "statement": "Avant tout sondage, il faut être sûr de pouvoir faire venir les artistes, sinon le public sera déçu.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-36",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0255",
-      "evidence": "notre le festival à des artistes d'abord et voir quels artistes seraient disponibles pour ensuite que les gens puissent voter",
-      "type": "decision",
-      "status": "active",
-      "statement": "Présenter d'abord le festival aux artistes, voir lesquels sont disponibles, puis faire voter le public parmi eux.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Approuvé par Camille (t0256) et Miguel (t0257)."
-    },
-    {
-      "key": "a-37",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0258",
-      "evidence": "il faudrait d'abord contacter en priorité euh adèle",
-      "type": "action",
-      "status": "open",
-      "statement": "Contacter Adèle en priorité.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-38",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0267",
-      "evidence": "je pense que ça peut ça peut bien marcher s'il n y a pas de nouvelles vagues",
-      "type": "risk",
-      "status": "conditional",
-      "statement": "Le festival cet été peut marcher s'il n'y a pas de nouvelle vague de covid.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-39",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0268",
-      "evidence": "on contacte en priorité les artistes les plus connus et après on va vers les artistes les moins connus",
-      "type": "decision",
-      "status": "active",
-      "statement": "Contacter d'abord les artistes les plus connus, puis les moins connus en leur annonçant la présence d'Adèle.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Miguel au t0271."
-    },
-    {
-      "key": "a-40",
-      "meeting_id": "047a_EDRH",
-      "turn": "t0273",
-      "evidence": "est-ce_que vous voulez que j envoie le message le le courrier",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Miguel propose d'envoyer le courrier / contacter l'agence d'Adèle ; Camille accepte.",
-      "owner": "103",
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Offre acceptée au t0274 (« oui »)."
-    },
-    {
-      "key": "b-01",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0001",
-      "evidence": "on pourrait pas inclure plus de deux genres différents",
-      "type": "fact",
-      "status": "active",
-      "statement": "D'après l'expérience d'autres collègues, le festival ne peut pas inclure plus de deux genres.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-02",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0016",
-      "evidence": "dans une première partie on fasse d'abord beaucoup de jazz",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna évoque une première partie jazz puis une partie rock, au risque que le public parte ou arrive tard.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-03",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0017",
-      "evidence": "non je pars sur le principe qu' on enlève le jazz",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le jazz est retiré de la programmation.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Camille au t0021 ; déjà amorcé au t0012."
-    },
-    {
-      "key": "b-04",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0019",
-      "evidence": "et on fait un concert avec le rock et le pop",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le concert se fera avec le rock et la pop.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-05",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0024",
-      "evidence": "on a plusieurs choix possibles hein on a euh en plein air euh dans un champ",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Choix du lieu : plein air (champ), salle art déco ou salle de spectacle ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-06",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0025",
-      "evidence": "moi le la salle art déco ça me semble un peu compliqué",
-      "type": "answer",
-      "status": "active",
-      "statement": "La salle art déco est écartée : trop petite et peu adaptée au pop-rock.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Miguel propose aussi de l'écarter (t0028)."
-    },
-    {
-      "key": "b-07",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0047",
-      "evidence": "ça serait plutôt une bonne idée d' utiliser soit comme tu l' as dit un terrain ouvert",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Miguel propose un terrain ouvert, avec beaucoup d'accès.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-08",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0049",
-      "evidence": "soit envisager peut-être la possibilité si on trouve pas un terrain terrain ben la salle de spectacle",
-      "type": "idea",
-      "status": "conditional",
-      "statement": "Repli : la salle de spectacle si aucun terrain n'est trouvé.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-09",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0051",
-      "evidence": "en sachant que la salle de spectacle va coûter plus cher",
-      "type": "risk",
-      "status": "active",
-      "statement": "La salle de spectacle coûterait plus cher et mangerait une partie du budget et des bénéfices.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-10",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0060",
-      "evidence": "il_y a aussi des des agences qui qui permettent d' éluer des mobil hommes avec des buvettes et des toilettes compris",
-      "type": "fact",
-      "status": "active",
-      "statement": "Des agences louent des modules avec buvettes et toilettes pour un terrain.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "« éluer des mobil hommes » = transcription ASR de « louer des mobil-homes »."
-    },
-    {
-      "key": "b-11",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0067",
-      "evidence": "il_y a même une journée en juin qui ça dure jusqu'à minuit",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Miguel propose de viser la journée la plus longue de juin.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-12",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0072",
-      "evidence": "ouais c'est le vingt et un jour il me semble",
-      "type": "fact",
-      "status": "active",
-      "statement": "La fête de la musique / le solstice tombe le 21 juin.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-13",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0080",
-      "evidence": "on pourrait intituler notre festival jusqu'au bout de la nuit",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna propose d'appeler le festival « Jusqu'au bout de la nuit » (référence au solstice).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Approuvé par Miguel (t0084) mais non repris dans le résumé final."
-    },
-    {
-      "key": "b-14",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0085",
-      "evidence": "donc on partirait plus sur un spectacle en plein air",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le festival se fera en plein air.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Confirmé dans le résumé final (t0315)."
-    },
-    {
-      "key": "b-15",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0093",
-      "evidence": "dans une salle climatisée ça peut déjà revenir plus cher c'est pas bon pour la planète",
-      "type": "fact",
-      "status": "active",
-      "statement": "Une salle climatisée coûterait plus cher et serait mauvaise pour la planète.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-16",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0096",
-      "evidence": "quand on fera la promotion de notre festival on pourra peut-être justement peut-être insister là-dessus",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Mettre en avant le côté écologique du plein air dans la promotion.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-17",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0116",
-      "evidence": "s'il se met à pleuvoir ça risque d' être un peu embêtant pour eux",
-      "type": "risk",
-      "status": "active",
-      "statement": "La pluie ou le vent pourraient gêner les artistes et leurs instruments.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-18",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0118",
-      "evidence": "la scène sera protégée ça au niveau des instruments il_y aura pas ce problème là",
-      "type": "fact",
-      "status": "active",
-      "statement": "La scène sera protégée : pas de problème pour les instruments.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-19",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0137",
-      "evidence": "c'est bien de mettre le festival en fin de journée",
-      "type": "decision",
-      "status": "active",
-      "statement": "À cause de la chaleur, le festival aura lieu en fin de journée.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Camille (t0138)."
-    },
-    {
-      "key": "b-20",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0144",
-      "evidence": "on peut faire euh rentrer les gens à dix-huit heures",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose de faire entrer le public à 18 h.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-21",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0146",
-      "evidence": "et que ça commence à dix-neuf heures",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le concert commence à 19 h.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord tacite ; non remis en cause."
-    },
-    {
-      "key": "b-22",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0149",
-      "evidence": "il va falloir aussi de ne_pas oublier de mettre en place un dispositif anti",
-      "type": "action",
-      "status": "open",
-      "statement": "Mettre en place un dispositif de sécurité (type Vigipirate) pour un site ouvert.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-23",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0153",
-      "evidence": "les sacs seront fouillés",
-      "type": "fact",
-      "status": "active",
-      "statement": "Les sacs seront fouillés et les objets interdits (bouteilles, couteaux) refusés à l'entrée ; il y aura des agents de sécurité.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-24",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0164",
-      "evidence": "ben 17h30 17h30 oui ça commence à être assez raisonnable",
-      "type": "decision",
-      "status": "active",
-      "statement": "L'ouverture des portes est avancée à 17 h 30 à cause de la fouille.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Proposé par Miguel au t0163, justifié au t0161."
-    },
-    {
-      "key": "b-25",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0173",
-      "evidence": "soit on invite deux artistes connus internationalement et quatre artistes peu connus",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Options de programmation : 2 internationaux + 4 peu connus, 3 nationaux + 3 peu connus, ou 6 régionaux.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-26",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0187",
-      "evidence": "les artistes connus régionalement je pense qu' on oublie",
-      "type": "decision",
-      "status": "active",
-      "statement": "L'option six artistes régionaux est abandonnée.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-27",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0189",
-      "evidence": "partirait sur l' idée d' amener deux connus c'est ça et quatre pas trop connus",
-      "type": "decision",
-      "status": "active",
-      "statement": "Formule retenue : deux artistes connus internationalement et quatre peu connus.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Confirmé par Camille (t0190) et dans le résumé (t0316)."
-    },
-    {
-      "key": "b-28",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0195",
-      "evidence": "on pourrait déjà faire adèle pour pour le pop et une figure de rock",
-      "type": "decision",
-      "status": "active",
-      "statement": "Adèle pour la pop et une figure internationale du rock.",
-      "owner": null,
-      "mentioned_people": [
-        "adèle"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Anna note Adèle au t0199."
-    },
-    {
-      "key": "b-29",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0202",
-      "evidence": "est-ce_qu' on note déjà les musiques qu' on aimerait qu' elle présente ou est-ce_qu' on attend de faire les sondages d'abord",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Faut-il déjà choisir les chansons d'Adèle ou attendre les sondages ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-30",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0203",
-      "evidence": "sondage à mon avis",
-      "type": "answer",
-      "status": "active",
-      "statement": "On attend les sondages pour choisir les chansons.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Camille (t0205)."
-    },
-    {
-      "key": "b-31",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0225",
-      "evidence": "coldplay je pense pas bad queen malheureusement ils sont plus là",
-      "type": "idea",
-      "status": "rejected",
-      "statement": "Coldplay est écarté (jugé plus pop) ; Queen n'est plus en activité.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-32",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0246",
-      "evidence": "ah oui ben écoutez euh on peut partir sur eux",
-      "type": "decision",
-      "status": "active",
-      "statement": "Maneskin, groupe italien vainqueur de l'Eurovision, est retenu comme figure rock.",
-      "owner": null,
-      "mentioned_people": [
-        "maneskin"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Nom donné au t0237 (« maneskin ou quelque_chose comme ça »)."
-    },
-    {
-      "key": "b-33",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0264",
-      "evidence": "je vous invite à chercher dans vos répertoires si vous connaissez des amis qui font de la musique",
-      "type": "action",
-      "status": "open",
-      "statement": "Chacun cherche des musiciens peu connus parmi ses connaissances.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-34",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0267",
-      "evidence": "ils sont pas top donc j' ai peur de des descendre l' ambiance",
-      "type": "risk",
-      "status": "active",
-      "statement": "Les groupes rock vus dans les pubs ne sont pas bons et risquent de faire retomber l'ambiance.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-35",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0271",
-      "evidence": "pourquoi pas chercher des artistes sur les réseaux sociaux",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Chercher des artistes peu connus sur les réseaux (chaînes de covers YouTube, TikTok).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-36",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0285",
-      "evidence": "sur l' affiche on mettra les gros noms enfin les noms les plus connus en grosses lettres",
-      "type": "decision",
-      "status": "active",
-      "statement": "Sur l'affiche, les noms les plus connus seront en grosses lettres.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-37",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0298",
-      "evidence": "ce sera eux qui qui chanteront le plus longtemps",
-      "type": "decision",
-      "status": "active",
-      "statement": "Les têtes d'affiche auront le temps de passage le plus long.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-38",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0306",
-      "evidence": "artistes trois et quatre j' ai marqué les réseaux sociaux",
-      "type": "decision",
-      "status": "active",
-      "statement": "Programme noté : 1 Adèle, 2 Maneskin, 3 et 4 à chercher sur les réseaux sociaux, 5 et 6 à venir.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-39",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0314",
-      "evidence": "le festival aura lieu le vingt-et-un juin cet été",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le festival aura lieu le 21 juin, jour le plus long de l'année et fête de la musique.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Résumé final."
-    },
-    {
-      "key": "b-40",
-      "meeting_id": "047b_EDDH",
-      "turn": "t0316",
-      "evidence": "on en a choisi deux très connus et quatre moins connus même si les quatre sont à venir",
-      "type": "decision",
-      "status": "active",
-      "statement": "Résumé : deux artistes très connus (Adèle, Maneskin) et quatre moins connus encore à trouver.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-01",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0010",
-      "evidence": "est-ce_que quelqu'un de vous se sent à l aise par_rapport_à contacter ou aux agences",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Miguel, mal à l'aise avec les artistes, demande qui peut contacter artistes et agences.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-02",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0013",
-      "evidence": "est-ce_que tu peux t en charger par rapport de des deux groupes qu on avait dit tout à l heure et de les contacter",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Anna se charge de contacter les deux têtes d'affiche au sujet de la date.",
-      "owner": "101",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Demande de Miguel acceptée par Anna au t0014."
-    },
-    {
-      "key": "c-03",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0018",
-      "evidence": "on peut dire que toi tu contactes par_exemple euh manskin et moi je contacte adèle",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose de partager : Anna contacte Maneskin, Camille contacte Adèle.",
-      "owner": null,
-      "mentioned_people": [
-        "101",
-        "121"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Anna répond « voilà » ; le récapitulatif final attribue tous les contacts artistes à Anna."
-    },
-    {
-      "key": "c-04",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0026",
-      "evidence": "je pense que l anglais euh",
-      "type": "answer",
-      "status": "active",
-      "statement": "Pour Maneskin, l'anglais suffira (pas besoin de parler italien).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Répond à la remarque d'Anna au t0025 ; phrase achevée aux t0028-t0032."
-    },
-    {
-      "key": "c-05",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0037",
-      "evidence": "je m en occupe de réserver euh un terrain",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Miguel, qui connaît la mairie, se charge de réserver le terrain.",
-      "owner": "103",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-06",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0037",
-      "evidence": "j aimerais prendre la rotonde",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Miguel aimerait utiliser la Rotonde (place à Aix).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-07",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0046",
-      "evidence": "la rotonde c'est assez limitée aussi niveau place",
-      "type": "risk",
-      "status": "active",
-      "statement": "La Rotonde est limitée en place ; il faudrait bloquer la circulation pour s'étendre.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-08",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0056",
-      "evidence": "juste à côté d aix il_y a l aréna du pays d aix",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose l'Aréna du Pays d'Aix, en extérieur, plus adaptée.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Lieu supposé dans la suite (t0185) mais jamais acté formellement."
-    },
-    {
-      "key": "c-09",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0060",
-      "evidence": "ce serait peut-être un budget un peu plus un peu plus important",
-      "type": "risk",
-      "status": "active",
-      "statement": "L'Aréna coûterait plus cher.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Miguel juge que le budget ne posera pas problème vu les artistes (t0063)."
-    },
-    {
-      "key": "c-10",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0072",
-      "evidence": "j aimerais bien le local en_fait",
-      "type": "answer",
-      "status": "active",
-      "statement": "Pour la buvette, on préfère des brasseurs locaux d'Aix plutôt que des grandes marques.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Répond à la question de Miguel au t0070 ; accord de Camille au t0073."
-    },
-    {
-      "key": "c-11",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0074",
-      "evidence": "ok je m en je m' en occupe de ça",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Miguel s'occupe des brasseurs locaux pour la buvette.",
-      "owner": "103",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-12",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0088",
-      "evidence": "c'est moi qui me charge de les de les promouvoir euh euh sur les réseaux sociaux",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Camille se charge de la promotion sur les réseaux sociaux.",
-      "owner": "121",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-13",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0090",
-      "evidence": "ben je te propose de te passer les on va dire les croquis les dessins",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Miguel fait les croquis/visuels et les envoie à Camille qui les publie.",
-      "owner": "103",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accepté par Camille au t0093."
-    },
-    {
-      "key": "c-14",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0104",
-      "evidence": "peut-être faire un tarif unique pas très élevé en_fait",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna propose un tarif unique peu élevé, Aix étant très étudiante.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-15",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0110",
-      "evidence": "j essaierai peut-être de voir dans ce sondage ben quel genre de public serait intéressé",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Anna fera un sondage sur le public intéressé, diffusé dans les lycées et collèges.",
-      "owner": "101",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Confié par Miguel au t0109, confirmé au t0306."
-    },
-    {
-      "key": "c-16",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0120",
-      "evidence": "vous pensez qu il vaut mieux prendre une une agence ou plutôt des bénévolats",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Sécurité et staff : agence ou bénévoles ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-17",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0125",
-      "evidence": "mettre des agents de sécurité euh vraiment euh qualifiés",
-      "type": "answer",
-      "status": "active",
-      "statement": "Des agents de sécurité qualifiés devant la scène et à l'entrée.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-18",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0125",
-      "evidence": "faire euh travailler ben sur la base du volontariat euh des étudiants par_exemple au niveau de la buvette",
-      "type": "answer",
-      "status": "active",
-      "statement": "Des étudiants volontaires pour la buvette et l'accueil.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-19",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0127",
-      "evidence": "est-ce_que tu pourrais t en occuper de regarder une agence qui ne soit pas non_plus excessive niveau prix",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Camille cherche une agence de sécurité à prix raisonnable.",
-      "owner": "121",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Acceptation faible au t0128 (« mh »), confirmée au t0308."
-    },
-    {
-      "key": "c-20",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0129",
-      "evidence": "par_rapport_au vip une euh un mini euh échange avec des artistes si eux ils sont d'accord",
-      "type": "idea",
-      "status": "conditional",
-      "statement": "Pour les VIP, une courte rencontre avec les artistes s'ils l'acceptent, à faire payer plus cher.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Supplément de prix évoqué aux t0132-t0134."
-    },
-    {
-      "key": "c-21",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0138",
-      "evidence": "je pense qu on peut commencer dès maintenant à prospecter",
-      "type": "answer",
-      "status": "active",
-      "statement": "Commencer dès maintenant à démarcher, plutôt qu'en avril.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Répond à la question de Miguel au t0136."
-    },
-    {
-      "key": "c-22",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0143",
-      "evidence": "le plus urgent c'est les artistes c'est ce qu on doit faire en premier",
-      "type": "answer",
-      "status": "active",
-      "statement": "Priorité aux artistes ; la sécurité peut venir plus tard.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-23",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0155",
-      "evidence": "il_y a un dj qui vient et qui met des musiques",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Une première partie assurée par un DJ local pour faire patienter le public.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Approuvé par Miguel (t0156)."
-    },
-    {
-      "key": "c-24",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0162",
-      "evidence": "je pense que je vais regarder sur les réseaux sociaux voir s'il n y a pas des dj",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Camille cherche un DJ d'Aix ou de Marseille sur les réseaux sociaux.",
-      "owner": "121",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-25",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0176",
-      "evidence": "il faut que ça reste dans cette euh dans la même lignée pop rock",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le DJ doit rester dans la lignée pop-rock, musique dansante et estivale.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-26",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0187",
-      "evidence": "elle est adaptée parce_que y a des y a des gradins",
-      "type": "fact",
-      "status": "active",
-      "statement": "L'Aréna serait adaptée : gradins pour s'asseoir et accès fauteuil roulant.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Camille le suppose (« je pense »)."
-    },
-    {
-      "key": "c-27",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0200",
-      "evidence": "c'est bien peut-être de proposer des bouchons d' oreilles",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna propose de sensibiliser au bruit et de proposer des bouchons d'oreilles.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-28",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0208",
-      "evidence": "deux ou trois verres d alcool par personne",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Camille propose des bracelets tamponnés limitant à deux ou trois verres d'alcool par personne.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Système introduit au t0204."
-    },
-    {
-      "key": "c-29",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0261",
-      "evidence": "l idée des bracelets pourquoi pas pour un peu garder le compte du moins sans forcément les vraiment donner un compte rond",
-      "type": "decision",
-      "status": "active",
-      "statement": "Les bracelets servent seulement à suivre sa consommation, sans plafond imposé.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Camille au t0262."
-    },
-    {
-      "key": "c-30",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0263",
-      "evidence": "on pourrait les mettre à disposition mais on les gens ne seraient pas obligés de les prendre",
-      "type": "decision",
-      "status": "active",
-      "statement": "Les bouchons d'oreilles seront à disposition, sans obligation.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-31",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0285",
-      "evidence": "ouais je me renseignerai mh",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Camille se renseigne sur les secouristes/bénévoles de premiers secours à prévoir.",
-      "owner": "121",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Demande de Miguel au t0284."
-    },
-    {
-      "key": "c-32",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0301",
-      "evidence": "les contacts avec les artistes c'est toi anna",
-      "type": "decision",
-      "status": "active",
-      "statement": "Récapitulatif : Anna gère les contacts avec les artistes.",
-      "owner": "101",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-33",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0303",
-      "evidence": "la réservation du terrain c'est moi qui s' en occupe pareil pour la buvette et le snacking",
-      "type": "decision",
-      "status": "active",
-      "statement": "Récapitulatif : Miguel gère la réservation du terrain, la buvette et le snacking.",
-      "owner": "103",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-34",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0303",
-      "evidence": "la publicité et les réseaux sociaux camille c'est toi qui s' en occupe",
-      "type": "decision",
-      "status": "active",
-      "statement": "Récapitulatif : Camille gère publicité et réseaux sociaux (avec les croquis de Miguel).",
-      "owner": "121",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-35",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0307",
-      "evidence": "l agence de sécurité et le staff pareil que pour les bénévoles",
-      "type": "decision",
-      "status": "active",
-      "statement": "Récapitulatif : Camille gère l'agence de sécurité, le staff et les bénévoles.",
-      "owner": "121",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Confirmé par Camille au t0308."
-    },
-    {
-      "key": "c-36",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0309",
-      "evidence": "la sensibilisation par_rapport_au au bruit c'est-à-dire les bouchons et les bracelets",
-      "type": "decision",
-      "status": "active",
-      "statement": "Récapitulatif : la sensibilisation (bouchons, bracelets) est confiée à Anna.",
-      "owner": "101",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "inferred",
-      "notes": "Destinataire non nommé ; c'est Anna qui répond « ok oui ça c'est bon » (t0310-t0311)."
-    },
-    {
-      "key": "c-37",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0320",
-      "evidence": "que le dj puisse euh comme on dit euh participer tout_au_long de la soirée",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le DJ assure aussi les pauses entre artistes tout au long de la soirée.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Camille au t0321."
-    },
-    {
-      "key": "c-38",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0329",
-      "evidence": "peut-être qu un changement de genre pour quelque_chose de_plus doux",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Anna suggère que le DJ change de genre (plus doux) pendant les entractes.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Question finalement renvoyée au DJ (t0336)."
-    },
-    {
-      "key": "c-39",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0345",
-      "evidence": "ben pourquoi pas des t-shirts avec euh le logo du festival",
-      "type": "decision",
-      "status": "active",
-      "statement": "Des t-shirts avec le logo du festival (logo estival à créer).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "« c'est une bonne idée » (t0346)."
-    },
-    {
-      "key": "c-40",
-      "meeting_id": "047c_EDPH",
-      "turn": "t0370",
-      "evidence": "je vais juste rajouter ça sur la même tâche de publicité",
-      "type": "action",
-      "status": "active",
-      "statement": "Les confettis de fin de concert sont ajoutés à la tâche publicité.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Responsable non désigné explicitement (tâche publicité = Camille)."
-    }
-  ],
-  "relations": [
-    {
-      "from": "a-09",
-      "to": "a-08",
-      "relation": "answers",
-      "justification": "Camille répond à la question ouvrir/clôturer : clôturer."
-    },
-    {
-      "from": "a-12",
-      "to": "a-09",
-      "relation": "supports",
-      "justification": "L'ordre retenu place la pop d'Adèle en fin de soirée."
-    },
-    {
-      "from": "a-12",
-      "to": "a-11",
-      "relation": "supports",
-      "justification": "L'ordre retenu commence bien par le jazz."
-    },
-    {
-      "from": "a-16",
-      "to": "a-15",
-      "relation": "answers",
-      "justification": "Réponse directe : plutôt l'été."
-    },
-    {
-      "from": "a-18",
-      "to": "a-17",
-      "relation": "answers",
-      "justification": "Réponse à la question de la pluie : l'arène est protégée."
-    },
-    {
-      "from": "a-20",
-      "to": "a-19",
-      "relation": "answers",
-      "justification": "Réponse : il faut une buvette pour rapporter de l'argent."
-    },
-    {
-      "from": "a-21",
-      "to": "a-20",
-      "relation": "supports",
-      "justification": "Précise l'organisation de la buvette (deux coins)."
-    },
-    {
-      "from": "a-27",
-      "to": "a-26",
-      "relation": "answers",
-      "justification": "Anna répond : prévente."
-    },
-    {
-      "from": "a-30",
-      "to": "a-29",
-      "relation": "answers",
-      "justification": "Camille répond : pub sur tous les réseaux sociaux."
-    },
-    {
-      "from": "a-31",
-      "to": "a-04",
-      "relation": "answers",
-      "justification": "Plusieurs tarifs dont un tarif étudiant répondent à la question du tarif."
-    },
-    {
-      "from": "a-34",
-      "to": "a-32",
-      "relation": "supports",
-      "justification": "La décision des sondages reprend l'idée de faire choisir les morceaux."
-    },
-    {
-      "from": "a-36",
-      "to": "a-33",
-      "relation": "supersedes",
-      "justification": "« d'abord » les artistes disponibles, puis le vote : inverse l'ordre proposé (vote d'abord, disponibilité ensuite)."
-    },
-    {
-      "from": "a-35",
-      "to": "a-36",
-      "relation": "supports",
-      "justification": "La réserve de Camille motive la décision de vérifier la disponibilité avant le vote."
-    },
-    {
-      "from": "b-03",
-      "to": "a-12",
-      "relation": "supersedes",
-      "justification": "Limite à deux genres : le jazz est retiré, l'ordre jazz-rock-pop de la réunion a ne tient plus."
-    },
-    {
-      "from": "b-03",
-      "to": "b-02",
-      "relation": "supersedes",
-      "justification": "La décision de retirer le jazz tranche contre la première partie jazz évoquée."
-    },
-    {
-      "from": "b-01",
-      "to": "b-03",
-      "relation": "supports",
-      "justification": "La contrainte de deux genres justifie le retrait du jazz."
-    },
-    {
-      "from": "b-04",
-      "to": "b-03",
-      "relation": "supports",
-      "justification": "Conséquence directe : concert rock + pop."
-    },
-    {
-      "from": "b-14",
-      "to": "b-05",
-      "relation": "answers",
-      "justification": "La décision plein air répond au choix de lieu."
-    },
-    {
-      "from": "b-06",
-      "to": "b-05",
-      "relation": "answers",
-      "justification": "Camille écarte l'option art déco."
-    },
-    {
-      "from": "b-39",
-      "to": "b-11",
-      "relation": "supports",
-      "justification": "Le résumé confirme la date du jour le plus long de juin."
-    },
-    {
-      "from": "b-24",
-      "to": "b-20",
-      "relation": "supersedes",
-      "justification": "Ouverture avancée à 17h30 à cause de la fouille, au lieu de 18h."
-    },
-    {
-      "from": "b-21",
-      "to": "b-19",
-      "relation": "supports",
-      "justification": "Début à 19h = fin de journée."
-    },
-    {
-      "from": "b-27",
-      "to": "b-25",
-      "relation": "answers",
-      "justification": "Formule retenue parmi les options."
-    },
-    {
-      "from": "b-26",
-      "to": "b-25",
-      "relation": "answers",
-      "justification": "Écarte l'option des artistes régionaux."
-    },
-    {
-      "from": "b-40",
-      "to": "b-27",
-      "relation": "supports",
-      "justification": "Le résumé redit la formule 2 + 4."
-    },
-    {
-      "from": "b-28",
-      "to": "a-07",
-      "relation": "supports",
-      "justification": "Adèle est confirmée comme figure pop."
-    },
-    {
-      "from": "b-32",
-      "to": "b-28",
-      "relation": "supports",
-      "justification": "Maneskin occupe la place de la figure rock."
-    },
-    {
-      "from": "b-30",
-      "to": "b-29",
-      "relation": "answers",
-      "justification": "Réponse : attendre le sondage."
-    },
-    {
-      "from": "b-30",
-      "to": "a-34",
-      "relation": "supports",
-      "justification": "Confirme le recours aux sondages pour les morceaux."
-    },
-    {
-      "from": "b-37",
-      "to": "a-13",
-      "relation": "supports",
-      "justification": "Les têtes d'affiche chanteront longtemps, pas une seule chanson."
-    },
-    {
-      "from": "b-38",
-      "to": "b-35",
-      "relation": "supports",
-      "justification": "Les artistes 3 et 4 seront cherchés sur les réseaux sociaux."
-    },
-    {
-      "from": "c-02",
-      "to": "c-01",
-      "relation": "answers",
-      "justification": "Anna accepte de contacter les artistes."
-    },
-    {
-      "from": "c-02",
-      "to": "a-40",
-      "relation": "supersedes",
-      "justification": "Miguel, qui s'était proposé en réunion a, confie explicitement le contact des artistes à Anna."
-    },
-    {
-      "from": "c-32",
-      "to": "c-02",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme Anna."
-    },
-    {
-      "from": "c-32",
-      "to": "c-03",
-      "relation": "contradicts",
-      "justification": "Le récapitulatif attribue tous les contacts à Anna alors que le partage proposait Adèle pour Camille ; pas d'abandon explicite du partage."
-    },
-    {
-      "from": "c-33",
-      "to": "c-05",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme Miguel pour le terrain."
-    },
-    {
-      "from": "c-33",
-      "to": "c-11",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme Miguel pour la buvette."
-    },
-    {
-      "from": "c-11",
-      "to": "c-10",
-      "relation": "supports",
-      "justification": "Miguel prend en charge l'option locale retenue."
-    },
-    {
-      "from": "c-34",
-      "to": "c-12",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme Camille pour la publicité."
-    },
-    {
-      "from": "c-34",
-      "to": "a-30",
-      "relation": "supports",
-      "justification": "La publicité sur les réseaux décidée en a est attribuée à Camille."
-    },
-    {
-      "from": "c-17",
-      "to": "c-16",
-      "relation": "answers",
-      "justification": "Réponse : agents qualifiés."
-    },
-    {
-      "from": "c-18",
-      "to": "c-16",
-      "relation": "answers",
-      "justification": "Réponse : étudiants volontaires pour la buvette et l'accueil."
-    },
-    {
-      "from": "c-35",
-      "to": "c-19",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme Camille pour l'agence de sécurité."
-    },
-    {
-      "from": "c-14",
-      "to": "a-31",
-      "relation": "contradicts",
-      "justification": "Tarif unique contre plusieurs tarifs : question non tranchée (sondage confié à Anna)."
-    },
-    {
-      "from": "c-24",
-      "to": "c-23",
-      "relation": "supports",
-      "justification": "Camille s'engage à trouver le DJ proposé."
-    },
-    {
-      "from": "c-37",
-      "to": "c-23",
-      "relation": "supports",
-      "justification": "Le rôle du DJ est étendu à toute la soirée."
-    },
-    {
-      "from": "c-38",
-      "to": "c-25",
-      "relation": "contradicts",
-      "justification": "Genre plus doux contre lignée pop-rock pour le DJ ; laissé ouvert (« voir avec le dj »)."
-    },
-    {
-      "from": "c-29",
-      "to": "c-28",
-      "relation": "supersedes",
-      "justification": "« sans forcément ... un compte rond » : les bracelets comptent sans plafonner à deux ou trois verres."
-    },
-    {
-      "from": "c-30",
-      "to": "c-27",
-      "relation": "supports",
-      "justification": "Précise que les bouchons sont proposés sans obligation."
-    },
-    {
-      "from": "c-26",
-      "to": "c-08",
-      "relation": "supports",
-      "justification": "Avantage d'accessibilité de l'Aréna."
-    }
-  ],
-  "queries": [
-    {
-      "key": "q01",
-      "about_meeting": "047a_EDRH",
-      "text": "Le jazz fait-il toujours partie de la programmation du festival ?",
-      "answerable": true,
-      "qrels": {
-        "b-03": 2,
-        "b-04": 2,
-        "b-01": 1,
-        "a-12": 1,
-        "a-11": 0,
-        "b-02": 0,
-        "a-03": 0
-      },
-      "traps": [
-        {
-          "unit": "a-11",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-02",
-          "trap": "superseded"
-        },
-        {
-          "unit": "a-03",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q02",
-      "about_meeting": "047a_EDRH",
-      "text": "Pourquoi veut-on faire passer Adèle en toute fin de soirée ?",
-      "answerable": true,
-      "qrels": {
-        "a-09": 2,
-        "a-12": 1,
-        "a-08": 1,
-        "a-07": 0,
-        "b-37": 0,
-        "a-13": 0
-      },
-      "traps": [
-        {
-          "unit": "a-07",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "b-37",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "a-13",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q03",
-      "about_meeting": "047a_EDRH",
-      "text": "Qui avait proposé d'écrire à l'agence d'Adèle, et est-ce toujours cette personne qui s'occupe des artistes ?",
-      "answerable": true,
-      "qrels": {
-        "c-02": 2,
-        "c-32": 2,
-        "a-40": 1,
-        "c-01": 1,
-        "c-03": 0,
-        "a-37": 0
-      },
-      "traps": [
-        {
-          "unit": "c-03",
-          "trap": "person"
-        },
-        {
-          "unit": "a-37",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q04",
-      "about_meeting": "047a_EDRH",
-      "text": "Les places seront-elles vendues seulement à l'avance ou pourra-t-on aussi en acheter en arrivant ?",
-      "answerable": true,
-      "qrels": {
-        "a-27": 2,
-        "a-28": 2,
-        "a-26": 1,
-        "a-22": 0,
-        "a-31": 0
-      },
-      "traps": [
-        {
-          "unit": "a-22",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "a-31",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q05",
-      "about_meeting": "047a_EDRH",
-      "text": "Le public votera-t-il sur les artistes avant ou après qu'on ait vérifié qui peut venir ?",
-      "answerable": true,
-      "qrels": {
-        "a-36": 2,
-        "a-35": 1,
-        "a-34": 1,
-        "a-33": 0,
-        "a-32": 0,
-        "b-30": 0
-      },
-      "traps": [
-        {
-          "unit": "a-33",
-          "trap": "superseded"
-        },
-        {
-          "unit": "a-32",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "b-30",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q06",
-      "about_meeting": "047a_EDRH",
-      "text": "Que fera-t-on si la chanteuse vedette refuse l'invitation ?",
-      "answerable": true,
-      "qrels": {
-        "a-24": 2,
-        "a-25": 2,
-        "a-23": 1,
-        "a-07": 0,
-        "a-37": 0
-      },
-      "traps": [
-        {
-          "unit": "a-07",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "a-37",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q07",
-      "about_meeting": "047a_EDRH",
-      "text": "Comment compte-t-on rentabiliser l'événement grâce à la restauration, et où seront placés les bars ?",
-      "answerable": true,
-      "qrels": {
-        "a-20": 2,
-        "a-21": 2,
-        "a-19": 1,
-        "c-10": 1,
-        "c-33": 1,
-        "a-22": 0,
-        "b-10": 0
-      },
-      "traps": [
-        {
-          "unit": "a-22",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "b-10",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q08",
-      "about_meeting": "047a_EDRH",
-      "text": "Combien de spectateurs au maximum le festival pourra-t-il accueillir ?",
-      "answerable": false,
-      "qrels": {},
-      "traps": []
-    },
-    {
-      "key": "q09",
-      "about_meeting": "047c_EDPH",
-      "text": "Qui doit trouver la société de gardiennage et recruter les volontaires ?",
-      "answerable": true,
-      "qrels": {
-        "c-19": 2,
-        "c-35": 2,
-        "c-17": 1,
-        "c-18": 1,
-        "c-16": 1,
-        "b-23": 0,
-        "c-31": 0,
-        "b-22": 0
-      },
-      "traps": [
-        {
-          "unit": "b-23",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "c-31",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "b-22",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q10",
-      "about_meeting": "047c_EDPH",
-      "text": "Le concert aura-t-il lieu dehors ou en salle, et quel site est envisagé à Aix ?",
-      "answerable": true,
-      "qrels": {
-        "b-14": 2,
-        "c-08": 2,
-        "c-06": 1,
-        "c-26": 1,
-        "c-09": 1,
-        "c-07": 1,
-        "b-08": 0,
-        "b-06": 0,
-        "a-14": 0
-      },
-      "traps": [
-        {
-          "unit": "b-08",
-          "trap": "condition"
-        },
-        {
-          "unit": "b-06",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "a-14",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q11",
-      "about_meeting": "047c_EDPH",
-      "text": "Les bracelets limiteront-ils le nombre de boissons alcoolisées par personne ?",
-      "answerable": true,
-      "qrels": {
-        "c-29": 2,
-        "c-36": 1,
-        "c-28": 0,
-        "c-30": 0
-      },
-      "traps": [
-        {
-          "unit": "c-28",
-          "trap": "superseded"
-        },
-        {
-          "unit": "c-30",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q12",
-      "about_meeting": "047c_EDPH",
-      "text": "Quel genre de musique le DJ passera-t-il pendant les pauses entre les groupes ?",
-      "answerable": true,
-      "qrels": {
-        "c-25": 2,
-        "c-38": 2,
-        "c-37": 1,
-        "c-23": 0,
-        "c-24": 0
-      },
-      "traps": [
-        {
-          "unit": "c-23",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "c-24",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q13",
-      "about_meeting": "047c_EDPH",
-      "text": "Dans quelle langue s'adressera-t-on aux représentants du groupe italien ?",
-      "answerable": true,
-      "qrels": {
-        "c-04": 2,
-        "b-32": 0,
-        "c-02": 0
-      },
-      "traps": [
-        {
-          "unit": "b-32",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "c-02",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q14",
-      "about_meeting": "047c_EDPH",
-      "text": "Le prix d'entrée sera-t-il identique pour tous ou variera-t-il selon les spectateurs ?",
-      "answerable": true,
-      "qrels": {
-        "c-14": 2,
-        "a-31": 1,
-        "c-20": 1,
-        "c-15": 1,
-        "a-04": 1,
-        "a-22": 0
-      },
-      "traps": [
-        {
-          "unit": "a-22",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q15",
-      "about_meeting": "047c_EDPH",
-      "text": "Faut-il attendre le printemps pour démarcher les prestataires ou s'y mettre tout de suite ?",
-      "answerable": true,
-      "qrels": {
-        "c-21": 2,
-        "c-22": 1,
-        "a-37": 0,
-        "a-39": 0
-      },
-      "traps": [
-        {
-          "unit": "a-37",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "a-39",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q16",
-      "about_meeting": "047c_EDPH",
-      "text": "Quelle somme a-t-on budgétée pour louer l'Aréna du Pays d'Aix ?",
-      "answerable": false,
-      "qrels": {},
-      "traps": []
-    }
-  ],
-  "speaker_names": {
-    "101": "anna",
-    "103": "miguel",
-    "121": "camille"
+ "group_id": "047",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0001",
+   "evidence": "je me disais qu on pouvait inviter des des artistes qui ne sont pas très connus euh mais qui sont quand même très très talentueux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna propose d'inviter des artistes rock peu connus mais talentueux, repérés sur YouTube ou d'autres plateformes vidéo.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
   },
-  "notes": "Identités : 101 = anna (annoncée en premier en a t0000, interpellée en c t0094), 103 = miguel (a t0002), 121 = camille (interpellée en b t0024, récapitulatif c t0303). Réunion b en ASR (disfluences, « manskin »/« maneski » pour Maneskin). Cas ambigus : partage des contacts artistes en c (Camille pour Adèle) contredit par le récapitulatif qui attribue tout à Anna -> relation contradicts ; lieu final (Aréna du Pays d'Aix) proposé mais jamais acté ; genre du DJ pendant les pauses resté ouvert ; tarif unique contre tarifs multiples non tranché ; attribution de la sensibilisation à Anna inférée. Aucun montant chiffré dans le groupe."
+  {
+   "key": "a-02",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0001",
+   "evidence": "si cela vous plaît je pourrais éventuellement créer une liste avec quelques articles que je quelques artistes que je connais",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Anna offre, si les autres sont d'accord, de dresser une liste d'artistes rock qu'elle connaît pour qu'on choisisse ensemble.",
+   "owner": null,
+   "mentioned_people": [
+    "101"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Offre conditionnelle sans acceptation explicite : owner laissé vide."
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0003",
+   "evidence": "ça serait bien d inviter pas mal des gens de la fac qui qui font du jazz",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Miguel propose d'inviter des musiciens de jazz de la fac.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0003",
+   "evidence": "je sais pas si la la tarif de concert ça sera plutôt une tarif étudiant un tarif réduit",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Miguel demande si le tarif sera étudiant/réduit ou différencié selon l'âge (plus de 26 ans).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse partielle au t0213 (plusieurs tarifs) ; reste débattu en réunion c."
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0015",
+   "evidence": "on pourrait déjà mettre la batterie le piano le synthétiseur euh les deux types des guitares tantot acoustique comme électrique aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Liste d'instruments de base proposée : batterie, piano, synthétiseur, guitares acoustique et électrique (plus des vents pour le jazz).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0025",
+   "evidence": "j ai choisi d inviter des artistes assez connus justement pour faire des un peu des têtes d affiches",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose des artistes pop connus comme têtes d'affiche pour attirer du monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0028",
+   "evidence": "euh donc j ai pensé à inviter adèle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose d'inviter Adèle.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0038",
+   "evidence": "elle pourrait soit ouvrir le concert ou le cloturer tu penses quoi",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Miguel demande si Adèle doit ouvrir ou clôturer le concert.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0039",
+   "evidence": "on peut réfléchir à plutôt le clôturer pour que les gens restent jusqu'au bout",
+   "type": "answer",
+   "status": "proposed",
+   "statement": "Camille suggère qu'Adèle clôture le concert pour que le public reste jusqu'à la fin (les festivaliers vont et viennent).",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Miguel au t0040."
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0047",
+   "evidence": "après il faut vraiment que les artistes moins connus soient quand même bons",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : les artistes moins connus doivent être de bonne qualité, sinon le festival perd son intérêt.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0049",
+   "evidence": "je pense qu on devrait commencer par le jazz",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Miguel propose de commencer la soirée par le jazz.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0054",
+   "evidence": "le jazz pour commencer plus doucement le rock ça va un peu on va dire ambiancer tout_le monde et ensuite à la fin la pop",
+   "type": "decision",
+   "status": "active",
+   "statement": "Ordre retenu : jazz en ouverture, puis rock pour l'ambiance, et pop (Adèle) en clôture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Miguel aux t0055-t0057."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0060",
+   "evidence": "je propose qu elle chante plusieurs chansons",
+   "type": "decision",
+   "status": "active",
+   "statement": "S'il n'y a qu'Adèle en pop, elle chantera plusieurs chansons.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition acceptée par Miguel et Anna (t0061-t0063)."
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0065",
+   "evidence": "la salle des spectacles de aix elle est assez grande",
+   "type": "fact",
+   "status": "active",
+   "statement": "Miguel estime que la salle des spectacles d'Aix est assez grande.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0066",
+   "evidence": "et pour la date vous pensez que ça serait plutôt convenable l été ou",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : le festival doit-il avoir lieu en été ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0068",
+   "evidence": "ben plutôt l été déjà parce_que que il fait plus chaud",
+   "type": "answer",
+   "status": "active",
+   "statement": "Plutôt l'été : il fait plus chaud, c'est agréable le soir et il y a moins de risque de pluie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0071",
+   "evidence": "après en cas de pluie qu est ce_qu on fait quoi",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : que faire en cas de pluie ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0073",
+   "evidence": "elle est protégée en cas de pluie oui",
+   "type": "answer",
+   "status": "active",
+   "statement": "L'arène d'Aix serait protégée en cas de pluie, donc pas d'inquiétude.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée par Miguel au t0072 (« l'arène à aix elle est »), avec réserve « il me semble » au t0074."
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0108",
+   "evidence": "pour le budget vous pensez qu il va falloir prévoir aussi des bubettes un petit snack",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Miguel demande s'il faut prévoir buvettes et snack pour financer le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0110",
+   "evidence": "pour rapporter de l argent c'est sûr qu il va falloir prévoir une buvette",
+   "type": "answer",
+   "status": "active",
+   "statement": "Une buvette (et un coin snack) conséquente est nécessaire pour rapporter de l'argent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0119",
+   "evidence": "pourquoi pas mettre deux coins buvettes d une part et d'autre de la salle",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deux coins buvette de part et d'autre de la salle pour un accès facile, ce qui aidera aussi à financer le concert.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté par Miguel au t0121 (« c'est une bonne idée »)."
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0131",
+   "evidence": "on pourra du_coup augmenter le prix des billets vu que vu qu il_y aura adèle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La présence d'Adèle justifierait d'augmenter le prix des billets.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0146",
+   "evidence": "pour la faire venir il faudra un prix important",
+   "type": "risk",
+   "status": "active",
+   "statement": "Faire venir Adèle coûtera cher, et il faudra la convaincre.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Aucun montant énoncé."
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0150",
+   "evidence": "et on doit envisager un plan b au_cas_où elle l accepte pas",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir un plan B au cas où Adèle refuse.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0154",
+   "evidence": "je propose qu on prenne peut-être un artiste pop mais alors plutôt français",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Plan B : un artiste pop plutôt français, jugé plus accessible pour ce festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Aucun nom retenu (juré de The Voice évoqué sans nom)."
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0191",
+   "evidence": "on peut acheter en pré vente ou laisser toute_la la billetterie à la fin",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : vendre les billets en prévente ou seulement le jour même ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0192",
+   "evidence": "moi je pense que c'est mieux en pré vente",
+   "type": "answer",
+   "status": "active",
+   "statement": "Anna préfère la prévente, pour que les gens voient les places et les prix à l'avance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0195",
+   "evidence": "mais il faut aussi mettre une billet- une billetterie sur place le jour j",
+   "type": "decision",
+   "status": "active",
+   "statement": "En plus de la prévente, une billetterie sur place le jour J pour les retardataires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord d'Anna au t0196."
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0199",
+   "evidence": "vous voulez qu on se qu' on s' en occupe des pubs ou quoi sur le réseau",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Miguel demande s'il faut s'occuper de la publicité sur les réseaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0200",
+   "evidence": "faudrait qu on fasse de la pub donc sur les réseaux sociaux euh tous_les réseaux je pense facebook instagram tiktok",
+   "type": "action",
+   "status": "open",
+   "statement": "Faire de la publicité sur tous les réseaux sociaux (Facebook, Instagram, surtout TikTok).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0213",
+   "evidence": "pourquoi pas faire euh plusieurs tarifs de billets donc euh par_exemple un billet euh euh vip",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose plusieurs tarifs : VIP mieux placé, moins cher au fond, tarif étudiant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0221",
+   "evidence": "une sorte de précommande de la chanson tu vois de playlist",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Miguel propose que le public choisisse à l'avance les chansons jouées (playlist par sondage).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée exposée aux t0216-t0223."
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0225",
+   "evidence": "on devrait d'abord demander aux gens peut-être de dire quels artistes ils voudraient euh voir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna propose de demander d'abord au public quels artistes il veut voir, puis de vérifier leur disponibilité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0248",
+   "evidence": "donc on part sur des sondages pour savoir quels artistes et quels euh quels morceaux",
+   "type": "decision",
+   "status": "active",
+   "statement": "On part sur des sondages pour choisir artistes et morceaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0249",
+   "evidence": "avant de proposer un sondage je pense qu il faut vraiment qu' on qu' on soit sûre qu on puisse ramener ces artistes là",
+   "type": "risk",
+   "status": "active",
+   "statement": "Avant tout sondage, il faut être sûr de pouvoir faire venir les artistes, sinon le public sera déçu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0255",
+   "evidence": "notre le festival à des artistes d'abord et voir quels artistes seraient disponibles pour ensuite que les gens puissent voter",
+   "type": "decision",
+   "status": "active",
+   "statement": "Présenter d'abord le festival aux artistes, voir lesquels sont disponibles, puis faire voter le public parmi eux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Camille (t0256) et Miguel (t0257)."
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0258",
+   "evidence": "il faudrait d'abord contacter en priorité euh adèle",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter Adèle en priorité.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0267",
+   "evidence": "je pense que ça peut ça peut bien marcher s'il n y a pas de nouvelles vagues",
+   "type": "risk",
+   "status": "conditional",
+   "statement": "Le festival cet été peut marcher s'il n'y a pas de nouvelle vague de covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0268",
+   "evidence": "on contacte en priorité les artistes les plus connus et après on va vers les artistes les moins connus",
+   "type": "decision",
+   "status": "active",
+   "statement": "Contacter d'abord les artistes les plus connus, puis les moins connus en leur annonçant la présence d'Adèle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Miguel au t0271."
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "047a_EDRH",
+   "turn": "t0273",
+   "evidence": "est-ce_que vous voulez que j envoie le message le le courrier",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Miguel propose d'envoyer le courrier / contacter l'agence d'Adèle ; Camille accepte.",
+   "owner": "103",
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Offre acceptée au t0274 (« oui »)."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0001",
+   "evidence": "on pourrait pas inclure plus de deux genres différents",
+   "type": "fact",
+   "status": "active",
+   "statement": "D'après l'expérience d'autres collègues, le festival ne peut pas inclure plus de deux genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0016",
+   "evidence": "dans une première partie on fasse d'abord beaucoup de jazz",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna évoque une première partie jazz puis une partie rock, au risque que le public parte ou arrive tard.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0017",
+   "evidence": "non je pars sur le principe qu' on enlève le jazz",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le jazz est retiré de la programmation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Camille au t0021 ; déjà amorcé au t0012."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0019",
+   "evidence": "et on fait un concert avec le rock et le pop",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le concert se fera avec le rock et la pop.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0024",
+   "evidence": "on a plusieurs choix possibles hein on a euh en plein air euh dans un champ",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Choix du lieu : plein air (champ), salle art déco ou salle de spectacle ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0025",
+   "evidence": "moi le la salle art déco ça me semble un peu compliqué",
+   "type": "answer",
+   "status": "active",
+   "statement": "La salle art déco est écartée : trop petite et peu adaptée au pop-rock.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Miguel propose aussi de l'écarter (t0028)."
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0047",
+   "evidence": "ça serait plutôt une bonne idée d' utiliser soit comme tu l' as dit un terrain ouvert",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Miguel propose un terrain ouvert, avec beaucoup d'accès.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0049",
+   "evidence": "soit envisager peut-être la possibilité si on trouve pas un terrain terrain ben la salle de spectacle",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Repli : la salle de spectacle si aucun terrain n'est trouvé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0051",
+   "evidence": "en sachant que la salle de spectacle va coûter plus cher",
+   "type": "risk",
+   "status": "active",
+   "statement": "La salle de spectacle coûterait plus cher et mangerait une partie du budget et des bénéfices.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0060",
+   "evidence": "il_y a aussi des des agences qui qui permettent d' éluer des mobil hommes avec des buvettes et des toilettes compris",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des agences louent des modules avec buvettes et toilettes pour un terrain.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« éluer des mobil hommes » = transcription ASR de « louer des mobil-homes »."
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0067",
+   "evidence": "il_y a même une journée en juin qui ça dure jusqu'à minuit",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Miguel propose de viser la journée la plus longue de juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0072",
+   "evidence": "ouais c'est le vingt et un jour il me semble",
+   "type": "fact",
+   "status": "active",
+   "statement": "La fête de la musique / le solstice tombe le 21 juin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0080",
+   "evidence": "on pourrait intituler notre festival jusqu'au bout de la nuit",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna propose d'appeler le festival « Jusqu'au bout de la nuit » (référence au solstice).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Miguel (t0084) mais non repris dans le résumé final."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0085",
+   "evidence": "donc on partirait plus sur un spectacle en plein air",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se fera en plein air.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé dans le résumé final (t0315)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0093",
+   "evidence": "dans une salle climatisée ça peut déjà revenir plus cher c'est pas bon pour la planète",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une salle climatisée coûterait plus cher et serait mauvaise pour la planète.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0096",
+   "evidence": "quand on fera la promotion de notre festival on pourra peut-être justement peut-être insister là-dessus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mettre en avant le côté écologique du plein air dans la promotion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0116",
+   "evidence": "s'il se met à pleuvoir ça risque d' être un peu embêtant pour eux",
+   "type": "risk",
+   "status": "active",
+   "statement": "La pluie ou le vent pourraient gêner les artistes et leurs instruments.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0118",
+   "evidence": "la scène sera protégée ça au niveau des instruments il_y aura pas ce problème là",
+   "type": "fact",
+   "status": "active",
+   "statement": "La scène sera protégée : pas de problème pour les instruments.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0137",
+   "evidence": "c'est bien de mettre le festival en fin de journée",
+   "type": "decision",
+   "status": "active",
+   "statement": "À cause de la chaleur, le festival aura lieu en fin de journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Camille (t0138)."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0144",
+   "evidence": "on peut faire euh rentrer les gens à dix-huit heures",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose de faire entrer le public à 18 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0146",
+   "evidence": "et que ça commence à dix-neuf heures",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le concert commence à 19 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord tacite ; non remis en cause."
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0149",
+   "evidence": "il va falloir aussi de ne_pas oublier de mettre en place un dispositif anti",
+   "type": "action",
+   "status": "open",
+   "statement": "Mettre en place un dispositif de sécurité (type Vigipirate) pour un site ouvert.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0153",
+   "evidence": "les sacs seront fouillés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les sacs seront fouillés et les objets interdits (bouteilles, couteaux) refusés à l'entrée ; il y aura des agents de sécurité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0164",
+   "evidence": "ben 17h30 17h30 oui ça commence à être assez raisonnable",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'ouverture des portes est avancée à 17 h 30 à cause de la fouille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par Miguel au t0163, justifié au t0161."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0173",
+   "evidence": "soit on invite deux artistes connus internationalement et quatre artistes peu connus",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Options de programmation : 2 internationaux + 4 peu connus, 3 nationaux + 3 peu connus, ou 6 régionaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0187",
+   "evidence": "les artistes connus régionalement je pense qu' on oublie",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'option six artistes régionaux est abandonnée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0189",
+   "evidence": "partirait sur l' idée d' amener deux connus c'est ça et quatre pas trop connus",
+   "type": "decision",
+   "status": "active",
+   "statement": "Formule retenue : deux artistes connus internationalement et quatre peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par Camille (t0190) et dans le résumé (t0316)."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0195",
+   "evidence": "on pourrait déjà faire adèle pour pour le pop et une figure de rock",
+   "type": "decision",
+   "status": "active",
+   "statement": "Adèle pour la pop et une figure internationale du rock.",
+   "owner": null,
+   "mentioned_people": [
+    "adèle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Anna note Adèle au t0199."
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0202",
+   "evidence": "est-ce_qu' on note déjà les musiques qu' on aimerait qu' elle présente ou est-ce_qu' on attend de faire les sondages d'abord",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il déjà choisir les chansons d'Adèle ou attendre les sondages ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0203",
+   "evidence": "sondage à mon avis",
+   "type": "answer",
+   "status": "active",
+   "statement": "On attend les sondages pour choisir les chansons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Camille (t0205)."
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0225",
+   "evidence": "coldplay je pense pas bad queen malheureusement ils sont plus là",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Coldplay est écarté (jugé plus pop) ; Queen n'est plus en activité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0246",
+   "evidence": "ah oui ben écoutez euh on peut partir sur eux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Maneskin, groupe italien vainqueur de l'Eurovision, est retenu comme figure rock.",
+   "owner": null,
+   "mentioned_people": [
+    "maneskin"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom donné au t0237 (« maneskin ou quelque_chose comme ça »)."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0264",
+   "evidence": "je vous invite à chercher dans vos répertoires si vous connaissez des amis qui font de la musique",
+   "type": "action",
+   "status": "open",
+   "statement": "Chacun cherche des musiciens peu connus parmi ses connaissances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0267",
+   "evidence": "ils sont pas top donc j' ai peur de des descendre l' ambiance",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les groupes rock vus dans les pubs ne sont pas bons et risquent de faire retomber l'ambiance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0271",
+   "evidence": "pourquoi pas chercher des artistes sur les réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Chercher des artistes peu connus sur les réseaux (chaînes de covers YouTube, TikTok).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0285",
+   "evidence": "sur l' affiche on mettra les gros noms enfin les noms les plus connus en grosses lettres",
+   "type": "decision",
+   "status": "active",
+   "statement": "Sur l'affiche, les noms les plus connus seront en grosses lettres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0298",
+   "evidence": "ce sera eux qui qui chanteront le plus longtemps",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les têtes d'affiche auront le temps de passage le plus long.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0306",
+   "evidence": "artistes trois et quatre j' ai marqué les réseaux sociaux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Programme noté : 1 Adèle, 2 Maneskin, 3 et 4 à chercher sur les réseaux sociaux, 5 et 6 à venir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0314",
+   "evidence": "le festival aura lieu le vingt-et-un juin cet été",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu le 21 juin, jour le plus long de l'année et fête de la musique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Résumé final."
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "047b_EDDH",
+   "turn": "t0316",
+   "evidence": "on en a choisi deux très connus et quatre moins connus même si les quatre sont à venir",
+   "type": "decision",
+   "status": "active",
+   "statement": "Résumé : deux artistes très connus (Adèle, Maneskin) et quatre moins connus encore à trouver.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0010",
+   "evidence": "est-ce_que quelqu'un de vous se sent à l aise par_rapport_à contacter ou aux agences",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Miguel, mal à l'aise avec les artistes, demande qui peut contacter artistes et agences.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0013",
+   "evidence": "est-ce_que tu peux t en charger par rapport de des deux groupes qu on avait dit tout à l heure et de les contacter",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Anna se charge de contacter les deux têtes d'affiche au sujet de la date.",
+   "owner": "101",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Demande de Miguel acceptée par Anna au t0014."
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0018",
+   "evidence": "on peut dire que toi tu contactes par_exemple euh manskin et moi je contacte adèle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose de partager : Anna contacte Maneskin, Camille contacte Adèle.",
+   "owner": null,
+   "mentioned_people": [
+    "101",
+    "121"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Anna répond « voilà » ; le récapitulatif final attribue tous les contacts artistes à Anna."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0026",
+   "evidence": "je pense que l anglais euh",
+   "type": "answer",
+   "status": "active",
+   "statement": "Pour Maneskin, l'anglais suffira (pas besoin de parler italien).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répond à la remarque d'Anna au t0025 ; phrase achevée aux t0028-t0032."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0037",
+   "evidence": "je m en occupe de réserver euh un terrain",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Miguel, qui connaît la mairie, se charge de réserver le terrain.",
+   "owner": "103",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0037",
+   "evidence": "j aimerais prendre la rotonde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Miguel aimerait utiliser la Rotonde (place à Aix).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0046",
+   "evidence": "la rotonde c'est assez limitée aussi niveau place",
+   "type": "risk",
+   "status": "active",
+   "statement": "La Rotonde est limitée en place ; il faudrait bloquer la circulation pour s'étendre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0056",
+   "evidence": "juste à côté d aix il_y a l aréna du pays d aix",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose l'Aréna du Pays d'Aix, en extérieur, plus adaptée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lieu supposé dans la suite (t0185) mais jamais acté formellement."
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0060",
+   "evidence": "ce serait peut-être un budget un peu plus un peu plus important",
+   "type": "risk",
+   "status": "active",
+   "statement": "L'Aréna coûterait plus cher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Miguel juge que le budget ne posera pas problème vu les artistes (t0063)."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0072",
+   "evidence": "j aimerais bien le local en_fait",
+   "type": "answer",
+   "status": "active",
+   "statement": "Pour la buvette, on préfère des brasseurs locaux d'Aix plutôt que des grandes marques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répond à la question de Miguel au t0070 ; accord de Camille au t0073."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0074",
+   "evidence": "ok je m en je m' en occupe de ça",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Miguel s'occupe des brasseurs locaux pour la buvette.",
+   "owner": "103",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0088",
+   "evidence": "c'est moi qui me charge de les de les promouvoir euh euh sur les réseaux sociaux",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Camille se charge de la promotion sur les réseaux sociaux.",
+   "owner": "121",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0090",
+   "evidence": "ben je te propose de te passer les on va dire les croquis les dessins",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Miguel fait les croquis/visuels et les envoie à Camille qui les publie.",
+   "owner": "103",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté par Camille au t0093."
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0104",
+   "evidence": "peut-être faire un tarif unique pas très élevé en_fait",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna propose un tarif unique peu élevé, Aix étant très étudiante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0110",
+   "evidence": "j essaierai peut-être de voir dans ce sondage ben quel genre de public serait intéressé",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Anna fera un sondage sur le public intéressé, diffusé dans les lycées et collèges.",
+   "owner": "101",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confié par Miguel au t0109, confirmé au t0306."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0120",
+   "evidence": "vous pensez qu il vaut mieux prendre une une agence ou plutôt des bénévolats",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Sécurité et staff : agence ou bénévoles ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0125",
+   "evidence": "mettre des agents de sécurité euh vraiment euh qualifiés",
+   "type": "answer",
+   "status": "active",
+   "statement": "Des agents de sécurité qualifiés devant la scène et à l'entrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0125",
+   "evidence": "faire euh travailler ben sur la base du volontariat euh des étudiants par_exemple au niveau de la buvette",
+   "type": "answer",
+   "status": "active",
+   "statement": "Des étudiants volontaires pour la buvette et l'accueil.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0127",
+   "evidence": "est-ce_que tu pourrais t en occuper de regarder une agence qui ne soit pas non_plus excessive niveau prix",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Camille cherche une agence de sécurité à prix raisonnable.",
+   "owner": "121",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation faible au t0128 (« mh »), confirmée au t0308."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0129",
+   "evidence": "par_rapport_au vip une euh un mini euh échange avec des artistes si eux ils sont d'accord",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Pour les VIP, une courte rencontre avec les artistes s'ils l'acceptent, à faire payer plus cher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Supplément de prix évoqué aux t0132-t0134."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0138",
+   "evidence": "je pense qu on peut commencer dès maintenant à prospecter",
+   "type": "answer",
+   "status": "active",
+   "statement": "Commencer dès maintenant à démarcher, plutôt qu'en avril.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répond à la question de Miguel au t0136."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0143",
+   "evidence": "le plus urgent c'est les artistes c'est ce qu on doit faire en premier",
+   "type": "answer",
+   "status": "active",
+   "statement": "Priorité aux artistes ; la sécurité peut venir plus tard.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0155",
+   "evidence": "il_y a un dj qui vient et qui met des musiques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Une première partie assurée par un DJ local pour faire patienter le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Miguel (t0156)."
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0162",
+   "evidence": "je pense que je vais regarder sur les réseaux sociaux voir s'il n y a pas des dj",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Camille cherche un DJ d'Aix ou de Marseille sur les réseaux sociaux.",
+   "owner": "121",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0176",
+   "evidence": "il faut que ça reste dans cette euh dans la même lignée pop rock",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le DJ doit rester dans la lignée pop-rock, musique dansante et estivale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0187",
+   "evidence": "elle est adaptée parce_que y a des y a des gradins",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'Aréna serait adaptée : gradins pour s'asseoir et accès fauteuil roulant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Camille le suppose (« je pense »)."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0200",
+   "evidence": "c'est bien peut-être de proposer des bouchons d' oreilles",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna propose de sensibiliser au bruit et de proposer des bouchons d'oreilles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0208",
+   "evidence": "deux ou trois verres d alcool par personne",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Camille propose des bracelets tamponnés limitant à deux ou trois verres d'alcool par personne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Système introduit au t0204."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0261",
+   "evidence": "l idée des bracelets pourquoi pas pour un peu garder le compte du moins sans forcément les vraiment donner un compte rond",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les bracelets servent seulement à suivre sa consommation, sans plafond imposé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Camille au t0262."
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0263",
+   "evidence": "on pourrait les mettre à disposition mais on les gens ne seraient pas obligés de les prendre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les bouchons d'oreilles seront à disposition, sans obligation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0285",
+   "evidence": "ouais je me renseignerai mh",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Camille se renseigne sur les secouristes/bénévoles de premiers secours à prévoir.",
+   "owner": "121",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Demande de Miguel au t0284."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0301",
+   "evidence": "les contacts avec les artistes c'est toi anna",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Anna gère les contacts avec les artistes.",
+   "owner": "101",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0303",
+   "evidence": "la réservation du terrain c'est moi qui s' en occupe pareil pour la buvette et le snacking",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Miguel gère la réservation du terrain, la buvette et le snacking.",
+   "owner": "103",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0303",
+   "evidence": "la publicité et les réseaux sociaux camille c'est toi qui s' en occupe",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Camille gère publicité et réseaux sociaux (avec les croquis de Miguel).",
+   "owner": "121",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0307",
+   "evidence": "l agence de sécurité et le staff pareil que pour les bénévoles",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Camille gère l'agence de sécurité, le staff et les bénévoles.",
+   "owner": "121",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par Camille au t0308."
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0309",
+   "evidence": "la sensibilisation par_rapport_au au bruit c'est-à-dire les bouchons et les bracelets",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : la sensibilisation (bouchons, bracelets) est confiée à Anna.",
+   "owner": "101",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Destinataire non nommé ; c'est Anna qui répond « ok oui ça c'est bon » (t0310-t0311)."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0320",
+   "evidence": "que le dj puisse euh comme on dit euh participer tout_au_long de la soirée",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le DJ assure aussi les pauses entre artistes tout au long de la soirée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Camille au t0321."
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0329",
+   "evidence": "peut-être qu un changement de genre pour quelque_chose de_plus doux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anna suggère que le DJ change de genre (plus doux) pendant les entractes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Question finalement renvoyée au DJ (t0336)."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0345",
+   "evidence": "ben pourquoi pas des t-shirts avec euh le logo du festival",
+   "type": "decision",
+   "status": "active",
+   "statement": "Des t-shirts avec le logo du festival (logo estival à créer).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« c'est une bonne idée » (t0346)."
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "047c_EDPH",
+   "turn": "t0370",
+   "evidence": "je vais juste rajouter ça sur la même tâche de publicité",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les confettis de fin de concert sont ajoutés à la tâche publicité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Responsable non désigné explicitement (tâche publicité = Camille)."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-09",
+   "to": "a-08",
+   "relation": "answers",
+   "justification": "Camille répond à la question ouvrir/clôturer : clôturer."
+  },
+  {
+   "from": "a-12",
+   "to": "a-09",
+   "relation": "supports",
+   "justification": "L'ordre retenu place la pop d'Adèle en fin de soirée."
+  },
+  {
+   "from": "a-12",
+   "to": "a-11",
+   "relation": "supports",
+   "justification": "L'ordre retenu commence bien par le jazz."
+  },
+  {
+   "from": "a-16",
+   "to": "a-15",
+   "relation": "answers",
+   "justification": "Réponse directe : plutôt l'été."
+  },
+  {
+   "from": "a-18",
+   "to": "a-17",
+   "relation": "answers",
+   "justification": "Réponse à la question de la pluie : l'arène est protégée."
+  },
+  {
+   "from": "a-20",
+   "to": "a-19",
+   "relation": "answers",
+   "justification": "Réponse : il faut une buvette pour rapporter de l'argent."
+  },
+  {
+   "from": "a-21",
+   "to": "a-20",
+   "relation": "supports",
+   "justification": "Précise l'organisation de la buvette (deux coins)."
+  },
+  {
+   "from": "a-27",
+   "to": "a-26",
+   "relation": "answers",
+   "justification": "Anna répond : prévente."
+  },
+  {
+   "from": "a-30",
+   "to": "a-29",
+   "relation": "answers",
+   "justification": "Camille répond : pub sur tous les réseaux sociaux."
+  },
+  {
+   "from": "a-31",
+   "to": "a-04",
+   "relation": "answers",
+   "justification": "Plusieurs tarifs dont un tarif étudiant répondent à la question du tarif."
+  },
+  {
+   "from": "a-34",
+   "to": "a-32",
+   "relation": "supports",
+   "justification": "La décision des sondages reprend l'idée de faire choisir les morceaux."
+  },
+  {
+   "from": "a-36",
+   "to": "a-33",
+   "relation": "supersedes",
+   "justification": "« d'abord » les artistes disponibles, puis le vote : inverse l'ordre proposé (vote d'abord, disponibilité ensuite)."
+  },
+  {
+   "from": "a-35",
+   "to": "a-36",
+   "relation": "supports",
+   "justification": "La réserve de Camille motive la décision de vérifier la disponibilité avant le vote."
+  },
+  {
+   "from": "b-03",
+   "to": "a-12",
+   "relation": "supersedes",
+   "justification": "Limite à deux genres : le jazz est retiré, l'ordre jazz-rock-pop de la réunion a ne tient plus."
+  },
+  {
+   "from": "b-03",
+   "to": "b-02",
+   "relation": "supersedes",
+   "justification": "La décision de retirer le jazz tranche contre la première partie jazz évoquée."
+  },
+  {
+   "from": "b-01",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "La contrainte de deux genres justifie le retrait du jazz."
+  },
+  {
+   "from": "b-04",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "Conséquence directe : concert rock + pop."
+  },
+  {
+   "from": "b-14",
+   "to": "b-05",
+   "relation": "answers",
+   "justification": "La décision plein air répond au choix de lieu."
+  },
+  {
+   "from": "b-06",
+   "to": "b-05",
+   "relation": "answers",
+   "justification": "Camille écarte l'option art déco."
+  },
+  {
+   "from": "b-39",
+   "to": "b-11",
+   "relation": "supports",
+   "justification": "Le résumé confirme la date du jour le plus long de juin."
+  },
+  {
+   "from": "b-24",
+   "to": "b-20",
+   "relation": "supersedes",
+   "justification": "Ouverture avancée à 17h30 à cause de la fouille, au lieu de 18h."
+  },
+  {
+   "from": "b-21",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Début à 19h = fin de journée."
+  },
+  {
+   "from": "b-27",
+   "to": "b-25",
+   "relation": "answers",
+   "justification": "Formule retenue parmi les options."
+  },
+  {
+   "from": "b-26",
+   "to": "b-25",
+   "relation": "answers",
+   "justification": "Écarte l'option des artistes régionaux."
+  },
+  {
+   "from": "b-40",
+   "to": "b-27",
+   "relation": "supports",
+   "justification": "Le résumé redit la formule 2 + 4."
+  },
+  {
+   "from": "b-28",
+   "to": "a-07",
+   "relation": "supports",
+   "justification": "Adèle est confirmée comme figure pop."
+  },
+  {
+   "from": "b-32",
+   "to": "b-28",
+   "relation": "supports",
+   "justification": "Maneskin occupe la place de la figure rock."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "answers",
+   "justification": "Réponse : attendre le sondage."
+  },
+  {
+   "from": "b-30",
+   "to": "a-34",
+   "relation": "supports",
+   "justification": "Confirme le recours aux sondages pour les morceaux."
+  },
+  {
+   "from": "b-37",
+   "to": "a-13",
+   "relation": "supports",
+   "justification": "Les têtes d'affiche chanteront longtemps, pas une seule chanson."
+  },
+  {
+   "from": "b-38",
+   "to": "b-35",
+   "relation": "supports",
+   "justification": "Les artistes 3 et 4 seront cherchés sur les réseaux sociaux."
+  },
+  {
+   "from": "c-02",
+   "to": "c-01",
+   "relation": "answers",
+   "justification": "Anna accepte de contacter les artistes."
+  },
+  {
+   "from": "c-02",
+   "to": "a-40",
+   "relation": "supersedes",
+   "justification": "Miguel, qui s'était proposé en réunion a, confie explicitement le contact des artistes à Anna."
+  },
+  {
+   "from": "c-32",
+   "to": "c-02",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Anna."
+  },
+  {
+   "from": "c-32",
+   "to": "c-03",
+   "relation": "contradicts",
+   "justification": "Le récapitulatif attribue tous les contacts à Anna alors que le partage proposait Adèle pour Camille ; pas d'abandon explicite du partage."
+  },
+  {
+   "from": "c-33",
+   "to": "c-05",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Miguel pour le terrain."
+  },
+  {
+   "from": "c-33",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Miguel pour la buvette."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "supports",
+   "justification": "Miguel prend en charge l'option locale retenue."
+  },
+  {
+   "from": "c-34",
+   "to": "c-12",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Camille pour la publicité."
+  },
+  {
+   "from": "c-34",
+   "to": "a-30",
+   "relation": "supports",
+   "justification": "La publicité sur les réseaux décidée en a est attribuée à Camille."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "answers",
+   "justification": "Réponse : agents qualifiés."
+  },
+  {
+   "from": "c-18",
+   "to": "c-16",
+   "relation": "answers",
+   "justification": "Réponse : étudiants volontaires pour la buvette et l'accueil."
+  },
+  {
+   "from": "c-35",
+   "to": "c-19",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Camille pour l'agence de sécurité."
+  },
+  {
+   "from": "c-14",
+   "to": "a-31",
+   "relation": "contradicts",
+   "justification": "Tarif unique contre plusieurs tarifs : question non tranchée (sondage confié à Anna)."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Camille s'engage à trouver le DJ proposé."
+  },
+  {
+   "from": "c-37",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Le rôle du DJ est étendu à toute la soirée."
+  },
+  {
+   "from": "c-38",
+   "to": "c-25",
+   "relation": "contradicts",
+   "justification": "Genre plus doux contre lignée pop-rock pour le DJ ; laissé ouvert (« voir avec le dj »)."
+  },
+  {
+   "from": "c-29",
+   "to": "c-28",
+   "relation": "supersedes",
+   "justification": "« sans forcément ... un compte rond » : les bracelets comptent sans plafonner à deux ou trois verres."
+  },
+  {
+   "from": "c-30",
+   "to": "c-27",
+   "relation": "supports",
+   "justification": "Précise que les bouchons sont proposés sans obligation."
+  },
+  {
+   "from": "c-26",
+   "to": "c-08",
+   "relation": "supports",
+   "justification": "Avantage d'accessibilité de l'Aréna."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "047a_EDRH",
+   "text": "Le jazz fait-il toujours partie de la programmation du festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-03": 2,
+    "b-04": 2,
+    "b-01": 1,
+    "a-12": 1,
+    "a-11": 0,
+    "b-02": 0,
+    "a-03": 0
+   },
+   "traps": [
+    {
+     "unit": "a-11",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-03",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "047a_EDRH",
+   "text": "Pourquoi veut-on faire passer Adèle en toute fin de soirée ?",
+   "answerable": true,
+   "qrels": {
+    "a-09": 2,
+    "a-12": 1,
+    "a-08": 1,
+    "a-07": 0,
+    "b-37": 0,
+    "a-13": 0
+   },
+   "traps": [
+    {
+     "unit": "a-07",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-37",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-13",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "047a_EDRH",
+   "text": "Qui avait proposé d'écrire à l'agence d'Adèle, et est-ce toujours cette personne qui s'occupe des artistes ?",
+   "answerable": true,
+   "qrels": {
+    "c-02": 2,
+    "c-32": 2,
+    "a-40": 1,
+    "c-01": 1,
+    "c-03": 0,
+    "a-37": 0
+   },
+   "traps": [
+    {
+     "unit": "c-03",
+     "trap": "person"
+    },
+    {
+     "unit": "a-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "047a_EDRH",
+   "text": "Les places seront-elles vendues seulement à l'avance ou pourra-t-on aussi en acheter en arrivant ?",
+   "answerable": true,
+   "qrels": {
+    "a-27": 2,
+    "a-28": 2,
+    "a-26": 1,
+    "a-22": 0,
+    "a-31": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-31",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "047a_EDRH",
+   "text": "Le public votera-t-il sur les artistes avant ou après qu'on ait vérifié qui peut venir ?",
+   "answerable": true,
+   "qrels": {
+    "a-36": 2,
+    "a-35": 1,
+    "a-34": 1,
+    "a-33": 0,
+    "a-32": 0,
+    "b-30": 0
+   },
+   "traps": [
+    {
+     "unit": "a-33",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-32",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-30",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "047a_EDRH",
+   "text": "Que fera-t-on si la chanteuse vedette refuse l'invitation ?",
+   "answerable": true,
+   "qrels": {
+    "a-24": 2,
+    "a-25": 2,
+    "a-23": 1,
+    "a-07": 0,
+    "a-37": 0
+   },
+   "traps": [
+    {
+     "unit": "a-07",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "047a_EDRH",
+   "text": "Comment compte-t-on rentabiliser l'événement grâce à la restauration, et où seront placés les bars ?",
+   "answerable": true,
+   "qrels": {
+    "a-20": 2,
+    "a-21": 2,
+    "a-19": 1,
+    "c-10": 1,
+    "c-33": 1,
+    "a-22": 0,
+    "b-10": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-10",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "047a_EDRH",
+   "text": "Combien de spectateurs au maximum le festival pourra-t-il accueillir ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "047c_EDPH",
+   "text": "Qui doit trouver la société de gardiennage et recruter les volontaires ?",
+   "answerable": true,
+   "qrels": {
+    "c-19": 2,
+    "c-35": 2,
+    "c-17": 1,
+    "c-18": 1,
+    "c-16": 0,
+    "b-23": 0,
+    "c-31": 1,
+    "b-22": 0
+   },
+   "traps": [
+    {
+     "unit": "b-23",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "047c_EDPH",
+   "text": "Le concert aura-t-il lieu dehors ou en salle, et quel site est envisagé à Aix ?",
+   "answerable": true,
+   "qrels": {
+    "b-14": 2,
+    "c-08": 2,
+    "c-06": 1,
+    "c-26": 1,
+    "c-09": 1,
+    "c-07": 1,
+    "b-08": 0,
+    "b-06": 0,
+    "a-14": 0,
+    "a-18": 1,
+    "b-07": 1
+   },
+   "traps": [
+    {
+     "unit": "b-08",
+     "trap": "condition"
+    },
+    {
+     "unit": "b-06",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-14",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "047c_EDPH",
+   "text": "Les bracelets limiteront-ils le nombre de boissons alcoolisées par personne ?",
+   "answerable": true,
+   "qrels": {
+    "c-29": 2,
+    "c-36": 1,
+    "c-28": 0,
+    "c-30": 0
+   },
+   "traps": [
+    {
+     "unit": "c-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-30",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "047c_EDPH",
+   "text": "Dans quelle langue s'adressera-t-on aux représentants du groupe italien ?",
+   "answerable": true,
+   "qrels": {
+    "c-04": 2,
+    "b-32": 0,
+    "c-02": 0
+   },
+   "traps": [
+    {
+     "unit": "b-32",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-02",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "047c_EDPH",
+   "text": "Le prix d'entrée sera-t-il identique pour tous ou variera-t-il selon les spectateurs ?",
+   "answerable": true,
+   "qrels": {
+    "c-14": 2,
+    "a-31": 1,
+    "c-20": 1,
+    "c-15": 1,
+    "a-04": 1,
+    "a-22": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "047c_EDPH",
+   "text": "Faut-il attendre le printemps pour démarcher les prestataires ou s'y mettre tout de suite ?",
+   "answerable": true,
+   "qrels": {
+    "c-21": 2,
+    "c-22": 1,
+    "a-37": 0,
+    "a-39": 0
+   },
+   "traps": [
+    {
+     "unit": "a-37",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-39",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "047c_EDPH",
+   "text": "Quelle somme a-t-on budgétée pour louer l'Aréna du Pays d'Aix ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "101": "anna",
+  "103": "miguel",
+  "121": "camille"
+ },
+ "notes": "Identités : 101 = anna (annoncée en premier en a t0000, interpellée en c t0094), 103 = miguel (a t0002), 121 = camille (interpellée en b t0024, récapitulatif c t0303). Réunion b en ASR (disfluences, « manskin »/« maneski » pour Maneskin). Cas ambigus : partage des contacts artistes en c (Camille pour Adèle) contredit par le récapitulatif qui attribue tout à Anna -> relation contradicts ; lieu final (Aréna du Pays d'Aix) proposé mais jamais acté ; genre du DJ pendant les pauses resté ouvert ; tarif unique contre tarifs multiples non tranché ; attribution de la sensibilisation à Anna inférée. Aucun montant chiffré dans le groupe."
 }

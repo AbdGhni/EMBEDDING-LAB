@@ -215,7 +215,7 @@
    "key": "a-16",
    "meeting_id": "019a_EARD",
    "turn": "t0301",
-   "evidence": "si t es contre au départ et mais",
+   "evidence": "au départ si tu penches plutôt d un côté je suis pour ou d un côté je suis contre tu vas trouver que des sites qui sont contre si t es contre au départ",
    "type": "fact",
    "status": "active",
    "statement": "Si l'on penche d'un côté au départ, on ne trouve que des sites qui confirment son avis.",
@@ -1955,7 +1955,8 @@
     "a-14": 1,
     "a-17": 1,
     "c-30": 0,
-    "c-29": 0
+    "c-29": 0,
+    "a-16": 1
    },
    "traps": [
     {

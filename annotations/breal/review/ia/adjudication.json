@@ -1,0 +1,245 @@
+[
+ {
+  "meeting": "019a_EARD",
+  "kind": "unit.evidence",
+  "key": "a-16",
+  "before": "si t es contre au départ et mais",
+  "after": "au départ si tu penches plutôt d un côté je suis pour ou d un côté je suis contre tu vas trouver que des sites qui sont contre si t es contre au départ",
+  "reason": "L'extrait retenu en t0301 (« si t es contre au départ et mais ») est un fragment qui ne porte pas l'idée de biais de confirmation ; la proposition complète se trouve dans le même tour.",
+  "applied": true
+ },
+ {
+  "meeting": "019a_EARD",
+  "kind": "qrel.missing",
+  "key": "q05/a-16",
+  "before": null,
+  "after": 1,
+  "reason": "La mère (t0301), dans la discussion sur le vaccin, explique qu'on ne trouve que des sites qui confortent son avis de départ : élément partiel de sa réponse, au moins aussi pertinent que a-17 (dit par le père).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q10/c-12",
+  "before": 1,
+  "after": 0,
+  "reason": "Donne le nombre de serveurs (huit, t0172), pas qui s'en occupe : même sujet sans réponse, donc 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q10/c-29",
+  "before": 1,
+  "after": 0,
+  "reason": "Menu et livraison par traiteur (t0541), aucune personne : 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q10/c-37",
+  "before": 1,
+  "after": 0,
+  "reason": "Délai de contact du traiteur (t0604), pas de responsable : 0 (topic_only ou date).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q10/c-40",
+  "before": 1,
+  "after": 0,
+  "reason": "Délai de recrutement des serveurs (t0634) ; l'unité ne nomme personne : 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q11/c-20",
+  "before": 1,
+  "after": 0,
+  "reason": "Décision de chercher des sponsors (t0360) sans désigner qui s'en charge : la question porte sur la personne, 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q13/c-24",
+  "before": 1,
+  "after": 0,
+  "reason": "c-24 porte sur l'introduction (t0402), pas la conclusion ; c'est un piège (topic_only) plutôt qu'une réponse partielle.",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q14/c-15",
+  "before": 1,
+  "after": 0,
+  "reason": "Dit qui gère les flyers (t0284), rien sur le délai demandé : 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q15/b-33",
+  "before": 1,
+  "after": 0,
+  "reason": "Question ouverte de la réunion b (t0313) sans aucune information sur les personnes : 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "036c_EAPH",
+  "kind": "qrel",
+  "key": "q15/b-31",
+  "before": 1,
+  "after": 0,
+  "reason": "Proposition de mise en scène avec « deux modérateurs » (b t0294), sans nom ; la question demande qui : 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "unit.type",
+  "key": "c-40",
+  "before": "action",
+  "after": "decision",
+  "reason": "t0370 : Miguel rattache les confettis (t0352-t0369) à la tâche publicité ; c'est un choix acté (decision active). Si on garde le type action, le statut doit être open, pas active (guide §3).",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "qrel",
+  "key": "q09/c-16",
+  "before": 1,
+  "after": 0,
+  "reason": "Simple question « agence ou bénévoles ? » (t0120) : aucune information sur le responsable.",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "qrel",
+  "key": "q09/c-31",
+  "before": 0,
+  "after": 1,
+  "reason": "Pas un piège : au t0284-t0285 Miguel demande à Camille de se renseigner sur les « groupes des bénévolats » et elle accepte ; au t0307 le récapitulatif lie l'agence de sécurité, le staff et « les bénévoles ». Même personne, mêmes volontaires : réponse partielle.",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "qrel",
+  "key": "q12/c-25",
+  "before": 2,
+  "after": 1,
+  "reason": "c-25 (t0176) porte sur la première partie avant les artistes (t0168-t0178), pas sur les pauses. Pour les pauses, Miguel rouvre la question au t0328 (mêmes genres ou électro) et Camille renvoie au DJ au t0336 : la lignée pop-rock n'est pas en vigueur pour les pauses, au mieux indice historique.",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "qrel",
+  "key": "q12/c-38",
+  "before": 2,
+  "after": 1,
+  "reason": "Simple suggestion d'Anna (t0329), non actée : Camille conclut « on peut aussi voir avec le dj » (t0336). Une proposition ne vaut pas 2 (« en vigueur »).",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "qrel.missing",
+  "key": "q10/a-18",
+  "before": null,
+  "after": 1,
+  "reason": "Réunion a, t0072-t0074 : « l'arène à aix » protégée en cas de pluie, c'est déjà le site envisagé (Aréna) ; information historique utile.",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "qrel.missing",
+  "key": "q10/b-07",
+  "before": null,
+  "after": 1,
+  "reason": "Réunion b, t0047 : proposition d'un terrain ouvert qui mène à la décision plein air (b-14) ; partielle/historique.",
+  "applied": true
+ },
+ {
+  "meeting": "047c_EDPH",
+  "kind": "query.removed",
+  "key": "q12",
+  "before": "Quel genre de musique le DJ passera-t-il pendant les pauses entre les groupes ?",
+  "after": null,
+  "reason": "aucune unité de pertinence 2 après relecture (question non tranchable)",
+  "applied": true
+ },
+ {
+  "meeting": "069b_EEDL",
+  "kind": "unit.evidence",
+  "key": "b-03",
+  "before": "il_y a énormément de déchets sur les plages",
+  "after": "sensibiliser peut-être au trop déchet aussi du_coup étant donné qu' il_y a énormément de déchets sur les plages",
+  "reason": "L'extrait retenu (t0002) n'est que le constat ; la proposition de sensibiliser, qui porte la reformulation, est juste avant dans le même tour. Correction vérifiée comme sous-chaîne exacte de t0002.",
+  "applied": true
+ },
+ {
+  "meeting": "069b_EEDL",
+  "kind": "unit.status",
+  "key": "b-15",
+  "before": "proposed",
+  "after": "active",
+  "reason": "L'accord du directeur est confirmé par 157 (« oui » t0055, « oui des oui oui ouais ouais » t0057) ; seule la partie parents est contestée (t0059). Statut proposed incohérent pour un fait confirmé.",
+  "applied": true
+ },
+ {
+  "meeting": "069b_EEDL",
+  "kind": "qrel",
+  "key": "q01/b-40",
+  "before": 1,
+  "after": 2,
+  "reason": "Le récapitulatif approuvé (t0194, accords t0199-t0201) dit littéralement « une première action de sensibilisation à la protection de la faune aquatique » : réponse directe et en vigueur à la question sur la première action.",
+  "applied": true
+ },
+ {
+  "meeting": "069b_EEDL",
+  "kind": "qrel",
+  "key": "q02/b-40",
+  "before": 1,
+  "after": 2,
+  "reason": "Le récapitulatif acté (t0194) précise « les enfants du_coup de primaire » : il répond directement et est en vigueur, au même titre que b-39.",
+  "applied": true
+ },
+ {
+  "meeting": "069b_EEDL",
+  "kind": "qrel.missing",
+  "key": "q05/b-10",
+  "before": null,
+  "after": 1,
+  "reason": "t0037 : l'accord des parents est évoqué pour le droit à l'image si les enfants participent aux campagnes ; nuance partielle utile à la question sur l'autorisation parentale.",
+  "applied": true
+ },
+ {
+  "meeting": "097c_EBPH",
+  "kind": "qrel",
+  "key": "q09/c-08",
+  "before": 1,
+  "after": 0,
+  "reason": "t0093 donne les dates du festival d'Avignon (5-25 juillet), pas celles du festival de l'équipe : un système qui la renverrait donnerait une mauvaise réponse. C'est un piège de type date, pas une réponse partielle.",
+  "applied": true
+ },
+ {
+  "meeting": "097c_EBPH",
+  "kind": "qrel",
+  "key": "q13/c-33",
+  "before": 1,
+  "after": 0,
+  "reason": "c-33 (t0749) est la répartition de l'affichage annoncée par Florian ; elle ne contient aucune objection d'Eléa. Même sujet sans réponse : 0 (topic_only).",
+  "applied": true
+ },
+ {
+  "meeting": "097c_EBPH",
+  "kind": "qrel.missing",
+  "key": "q09/b-05",
+  "before": null,
+  "after": 1,
+  "reason": "097b t0054 : le festival reste prévu en été ; information historique sur la période, au même titre que a-32 ou a-28 (a-34 « l'été » serait aussi à 1 par cohérence).",
+  "applied": true
+ }
+]

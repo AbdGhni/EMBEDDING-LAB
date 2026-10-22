@@ -327,3 +327,20 @@ Relecture par l'étudiant ; en parallèle, EL-010 (point d'entrée d'évaluation
 2. `retrieval/bm25.py` (k1 = 1,5, b = 0,75, tokenisation SUMM-RE) et plancher `retrieval/baselines.py`. 6 tests ; 67 au total.
 3. **Incident de provenance** : les deux premiers runs (11:27) indiquaient `git_dirty: false` alors que le code n'était pas commité (fichiers non suivis ignorés). Détection corrigée, code commité (`17606d0`), runs supprimés puis relancés avec les mêmes chiffres.
 4. Résultats sur **val uniquement** : voir `docs/EXPERIMENTS.md`. BM25 : B-SYN nDCG@10 0,517, B-REAL 0,206 ; précision par paires proche du hasard sur les pièges `status` et `superseded`.
+
+### Relecture IA du sous-ensemble et gel du test B-REAL v2 (S09, 2026-10-22)
+
+- 5 relecteurs IA neufs, un par réunion du sous-ensemble ; tous les fichiers passent `check_breal_review.py`.
+- **Écart de méthode** : entre 11:35 et 11:40 environ, 4 relecteurs ont tourné en même temps (036c, 047c, 069b, 097c), au-delà de la limite de 3 sous-agents simultanés fixée par le prompt. Tâches indépendantes, fichiers de sortie distincts : aucun conflit, mais la règle n'a pas été respectée.
+- Accord avec l'annotation : unités 92,4 % (182/197), couples 86,3 % (157/182), 5 réponses oubliées. Biais dominant : pertinence 1 attribuée à des unités qui ne répondent pas.
+- Arbitrage mécanique (erreurs explicites appliquées, douteux ignorés) : 27 corrections, 0 refusée ; 047c q12 retirée (plus aucune réponse directe).
+- Classeur humain v2 avec colonnes « Avis IA » : `annotations/breal/review/relecture_v2.xlsx` (la v1 reste dans le dépôt).
+
+| Test B-REAL v2 | SHA-256 |
+|---|---|
+| `data/breal/test/queries.jsonl` | `875f4de32c98f0301cc4bdfd29919d96f9e56499adb2ac54cf8dcc2e9fdf26fe` |
+| `data/breal/test/qrels.json` | `66787fffe9eae9334c09e2c5aed08e417f8dab4504ceefabeff19a6c2b6178d0` |
+| `data/breal/test/triplets.jsonl` | `08a52eb90565f042cb4cb525c42dfb18a6431fcfb345bc677bf1b5ba25775035` |
+| `data/breal/test/units.jsonl` | `6206d6788df75f4ff9262c806ccc2882a750c3d034a7161a09f7b5e02e809093` |
+
+Aucun accès au test à ce jour (`runs/TEST_ACCESS.log` absent).

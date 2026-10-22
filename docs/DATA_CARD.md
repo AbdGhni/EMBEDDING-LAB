@@ -122,6 +122,20 @@ Pièges du test : topic_only 139, superseded 68, person 43, date 19, amount 13, 
 - Les annotateurs ont volontairement écarté des informations personnelles ou de santé sans rapport avec la tâche.
 - Interruption de trois tâches par la limite d'usage (reprises depuis leur contexte).
 
+### Relecture IA du sous-ensemble et test v2 (2026-10-22)
+
+Cinq relecteurs IA **neufs** (sous-agents Claude n'ayant pas produit les annotations ; mandat `docs/mandates/EL-007b-relecture-ia.md`) ont relu les 5 réunions tirées au sort. Ce n'est **pas** un accord inter-annotateurs humain : c'est un accord entre deux passes de Claude.
+
+| Élément jugé | Correct | Erreur | Douteux | Taux d'accord |
+|---|---|---|---|---|
+| Unités (197) | 182 | 4 | 11 | 92,4 % |
+| Couples question–unité (182) | 157 | 17 | 8 | 86,3 % |
+| Bonnes réponses oubliées | — | 5 | — | — |
+
+Erreur dominante : 12 des 17 erreurs de pertinence sont des unités notées 1 (« utile ») alors qu'elles ne répondent pas à la question (même sujet, sans l'information demandée). Ce biais concerne probablement aussi les réunions non relues : les qrels de pertinence 1 de B-REAL sont donc **légèrement trop généreuses**, ce qui gonfle un peu nDCG pour tous les systèmes de la même façon.
+
+Arbitrage (`scripts/apply_breal_review.py`, journal `annotations/breal/review/ia/adjudication.json`) : 27 corrections appliquées (4 unités, 17 pertinences, 5 ajouts, 1 question retirée car devenue sans réponse directe : 047c q12, genre musical du DJ jamais tranché) ; les verdicts « douteux » ne changent rien. Le test B-REAL **v2** (104 requêtes répondables, 302 triplets) remplace la v1 ; aucune évaluation n'a été faite sur la v1.
+
 ## 3. Stratégie retenue (D-008)
 
 1. **Test réel indépendant** : réunions transcrites à la main de SUMM-RE, groupes d'expérience entiers, **jamais vus à l'entraînement**. Unités, requêtes et pertinences annotées (pré-annotation LLM provisoire + échantillon relu par l'étudiant).

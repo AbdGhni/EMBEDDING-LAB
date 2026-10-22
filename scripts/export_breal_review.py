@@ -43,7 +43,9 @@ def table(ws, headers, rows, widths):
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", type=Path, default=Path("annotations/breal/review/relecture_v1.xlsx"))
+    ap.add_argument("--out", type=Path, default=Path("annotations/breal/review/relecture_v2.xlsx"))
+    ap.add_argument("--ia", type=Path, default=Path("annotations/breal/review/ia"),
+                    help="relectures IA à afficher en regard (colonnes « Avis IA »)")
     args = ap.parse_args()
     lines = Path("splits/summre_v1_test_human_review.txt").read_text().splitlines()
     targets = [x for x in lines if x and not x.startswith("#")]
@@ -55,6 +57,9 @@ def main() -> None:
         "Relecture des annotations B-REAL (EMBEDDING LAB, ticket EL-007b)",
         "Réunions à relire (tirées au sort avant toute annotation) : " + ", ".join(targets),
         "Annotations produites par Claude (provisoires). Ton avis humain sert de contrôle.",
+        "Version 2 : les corrections d'une relecture IA indépendante sont déjà appliquées ; "
+        "les colonnes « Avis IA » montrent ce que ce relecteur IA a dit (ok, erreur, douteux). "
+        "Les lignes « douteux » sont celles où ton avis compte le plus.",
         "",
         "À remplir : uniquement les deux dernières colonnes de chaque onglet.",
         "Correct ? : oui si l'annotation te paraît juste, non sinon.",
@@ -82,32 +87,49 @@ def main() -> None:
         group = meetings[mid]["group_id"]
         raw = json.loads(Path(f"annotations/breal/raw/{group}.json").read_text(encoding="utf-8"))
         units = {u["key"]: u for u in raw["units"]}
+        ia_path = args.ia / f"{mid}.json"
+        ia = json.loads(ia_path.read_text(encoding="utf-8")) if ia_path.exists() else {}
+        ia_u = {x["key"]: x for x in ia.get("units", [])}
+        ia_q = {(x["query"], x["unit"]): x for x in ia.get("query_judgments", [])}
+        ia_q.update({(x["query"], x["unit"]): {**x, "verdict": "manquante (ajoutée)"}
+                     for x in ia.get("missing", [])})
+
+        def ia_text(x):
+            if not x:
+                return "", ""
+            extra = " ; ".join(str(x[k]) for k in ("field", "correction", "suggested_rel")
+                               if x.get(k) is not None)
+            return x["verdict"], (extra + " — " if extra else "") + x.get("comment", "")
         for u in raw["units"]:
             if u["meeting_id"] != mid:
                 continue
             spk = next(t["speaker"] for t in meetings[mid]["turns"]
                        if t["turn_id"].endswith(":" + u["turn"]))
             unit_rows.append([mid, u["key"], u["turn"], spk, u["evidence"], u["type"],
-                              u["status"], u.get("owner") or "", u["statement"], "", ""])
+                              u["status"], u.get("owner") or "", u["statement"],
+                              *ia_text(ia_u.get(u["key"])), "", ""])
         for q in raw["queries"]:
             if q["about_meeting"] != mid:
                 continue
             traps = {t["unit"]: t["trap"] for t in q.get("traps", [])}
             if not q.get("answerable", True):
                 query_rows.append([mid, q["key"], q["text"], "(aucune réponse attendue)", "",
-                                   "", "", "", ""])
+                                   "", "", "", "", "", ""])
                 continue
             for k, v in sorted(q["qrels"].items(), key=lambda kv: -kv[1]):
                 query_rows.append([mid, q["key"], q["text"], k, v, traps.get(k, ""),
-                                   units[k]["evidence"], "", ""])
+                                   units[k]["evidence"], *ia_text(ia_q.get((q["key"], k))),
+                                   "", ""])
     table(wb.create_sheet("Unités"),
           ["Réunion", "Clé", "Tour", "Locuteur", "Extrait (texte exact)", "Type", "Statut",
-           "Responsable", "Reformulation", "Correct ? (oui/non)", "Correction / commentaire"],
-          unit_rows, [12, 7, 7, 9, 50, 11, 11, 12, 40, 12, 40])
+           "Responsable", "Reformulation", "Avis IA", "Détail IA", "Correct ? (oui/non)",
+           "Correction / commentaire"],
+          unit_rows, [12, 7, 7, 9, 50, 11, 11, 12, 40, 11, 40, 12, 40])
     table(wb.create_sheet("Questions"),
           ["Réunion", "Question", "Texte de la question", "Unité", "Pertinence", "Piège",
-           "Extrait de l'unité", "Correct ? (oui/non)", "Correction / commentaire"],
-          query_rows, [12, 9, 40, 8, 10, 11, 50, 12, 40])
+           "Extrait de l'unité", "Avis IA", "Détail IA", "Correct ? (oui/non)",
+           "Correction / commentaire"],
+          query_rows, [12, 9, 40, 8, 10, 11, 50, 11, 40, 12, 40])
     args.out.parent.mkdir(parents=True, exist_ok=True)
     wb.save(args.out)
     print(f"{args.out} : {len(unit_rows)} unités, {len(query_rows)} lignes de questions")

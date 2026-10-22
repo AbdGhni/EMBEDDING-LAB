@@ -285,7 +285,7 @@
    "key": "b-03",
    "meeting_id": "069b_EEDL",
    "turn": "t0002",
-   "evidence": "il_y a énormément de déchets sur les plages",
+   "evidence": "sensibiliser peut-être au trop déchet aussi du_coup étant donné qu' il_y a énormément de déchets sur les plages",
    "type": "idea",
    "status": "proposed",
    "statement": "Pauline propose aussi de sensibiliser aux déchets sur les plages.",
@@ -455,7 +455,7 @@
    "turn": "t0054",
    "evidence": "on doit juste avoir l' accord je pense de",
    "type": "fact",
-   "status": "proposed",
+   "status": "active",
    "statement": "Lina pense qu'il faut l'accord du directeur de l'établissement.",
    "owner": null,
    "mentioned_people": [],
@@ -1628,7 +1628,7 @@
     "b-22": 2,
     "b-20": 2,
     "c-01": 1,
-    "b-40": 1,
+    "b-40": 2,
     "b-13": 1,
     "a-09": 1,
     "b-14": 0,
@@ -1663,7 +1663,7 @@
     "c-07": 2,
     "b-38": 1,
     "b-37": 1,
-    "b-40": 1,
+    "b-40": 2,
     "b-35": 0,
     "b-34": 0
    },
@@ -1721,7 +1721,8 @@
    "qrels": {
     "b-17": 2,
     "b-15": 1,
-    "b-16": 0
+    "b-16": 0,
+    "b-10": 1
    },
    "traps": [
     {

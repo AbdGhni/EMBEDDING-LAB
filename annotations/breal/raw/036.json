@@ -1,2163 +1,2163 @@
 {
-  "group_id": "036",
-  "units": [
-    {
-      "key": "a-01",
-      "meeting_id": "036a_EARH",
-      "turn": "t0000",
-      "evidence": "on se retrouve aujourd'hui pour euh définir euh un c'est quoi un take talk on va dire sur un sujet d' actualité",
-      "type": "fact",
-      "status": "active",
-      "statement": "Objet de la première réunion : définir un TED talk sur un sujet d'actualité (« take talk » = erreur ASR).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "ASR : « take talk » pour « ted talk »."
-    },
-    {
-      "key": "a-02",
-      "meeting_id": "036a_EARH",
-      "turn": "t0000",
-      "evidence": "moi j' ai euh choisi donc de parler d' amazon",
-      "type": "fact",
-      "status": "active",
-      "statement": "093 a choisi de présenter le sujet Amazon.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-03",
-      "meeting_id": "036a_EARH",
-      "turn": "t0002",
-      "evidence": "moi je parlerai des réseaux sociaux",
-      "type": "fact",
-      "status": "active",
-      "statement": "Marius (092) présentera le sujet des réseaux sociaux.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-04",
-      "meeting_id": "036a_EARH",
-      "turn": "t0027",
-      "evidence": "sur ton sujet qui est l' intelligence artificielle c'est ça",
-      "type": "fact",
-      "status": "active",
-      "statement": "Le sujet de Paul (091) est l'intelligence artificielle.",
-      "owner": null,
-      "mentioned_people": [
-        "091"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Confirmation du sujet de Paul ; t0005 ne contient que deux mots."
-    },
-    {
-      "key": "a-05",
-      "meeting_id": "036a_EARH",
-      "turn": "t0073",
-      "evidence": "les gafam c'est donc google amazon facebook apple et microsoft",
-      "type": "fact",
-      "status": "active",
-      "statement": "Zoé (099) présente les GAFAM : Google, Amazon, Facebook, Apple, Microsoft.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-06",
-      "meeting_id": "036a_EARH",
-      "turn": "t0015",
-      "evidence": "tiktok c'est twitter c'est plus quatorze quatorze vingt ans twitter c'est plus vingt trente facebook c'est plus cinquante soixante_dix",
-      "type": "fact",
-      "status": "active",
-      "statement": "Chaque réseau social vise une tranche d'âge : TikTok 14-20 ans, Twitter 20-30 ans, Facebook 50-70 ans.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Passage ASR un peu confus (« tiktok c'est twitter »)."
-    },
-    {
-      "key": "a-07",
-      "meeting_id": "036a_EARH",
-      "turn": "t0019",
-      "evidence": "on peut voir le projet de facebook de se renommer en en méta",
-      "type": "fact",
-      "status": "active",
-      "statement": "Facebook a le projet de se renommer Meta.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-08",
-      "meeting_id": "036a_EARH",
-      "turn": "t0022",
-      "evidence": "tiktok peut littéralement propulser un une chanson euh dans le dans le top cinquante spotify",
-      "type": "fact",
-      "status": "active",
-      "statement": "TikTok peut propulser une chanson dans le top 50 Spotify.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-09",
-      "meeting_id": "036a_EARH",
-      "turn": "t0023",
-      "evidence": "tiktok est littéralement le le sponsor du euh dernier spider man",
-      "type": "fact",
-      "status": "active",
-      "statement": "TikTok est sponsor du dernier Spider-Man (placement de produit).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-10",
-      "meeting_id": "036a_EARH",
-      "turn": "t0042",
-      "evidence": "ça fait longtemps que les intelligences artificielles sont supérieures aux humains",
-      "type": "fact",
-      "status": "active",
-      "statement": "Aux échecs, les IA sont depuis longtemps supérieures aux humains (aussi au poker et au go).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-11",
-      "meeting_id": "036a_EARH",
-      "turn": "t0042",
-      "evidence": "est-ce_qu' on va se faire remplacer par des robots est-ce_qu' on va devenir une classe de chômeurs humains face aux robots qui travaillent pour nous",
-      "type": "risk",
-      "status": "open",
-      "statement": "Crainte que les humains soient remplacés par des robots et deviennent une classe de chômeurs.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-12",
-      "meeting_id": "036a_EARH",
-      "turn": "t0061",
-      "evidence": "on pourrait limite avoir un exemple d' intelligence artificielle",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Idée : montrer un exemple concret d'IA (robot, terminal type chatbot, chien Spot).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Détail des exemples en t0064."
-    },
-    {
-      "key": "a-13",
-      "meeting_id": "036a_EARH",
-      "turn": "t0073",
-      "evidence": "c'est une technologie dans notre monde qui devient quelque_chose de qu' on peut plus contrôler",
-      "type": "risk",
-      "status": "open",
-      "statement": "Les technologies des GAFAM deviennent incontrôlables.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-14",
-      "meeting_id": "036a_EARH",
-      "turn": "t0073",
-      "evidence": "des gouvernements qui pourraient essayer de contrôler comme l' union européenne sont incapables",
-      "type": "fact",
-      "status": "active",
-      "statement": "Même des gouvernements comme l'Union européenne sont incapables de contrôler les GAFAM.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-15",
-      "meeting_id": "036a_EARH",
-      "turn": "t0085",
-      "evidence": "a une charte déontologique ici hein pas de conspiration",
-      "type": "fact",
-      "status": "active",
-      "statement": "093 rappelle la charte déontologique : pas de théories du complot.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Réaction à une blague complotiste (puces dans les vaccins), non annotée."
-    },
-    {
-      "key": "a-16",
-      "meeting_id": "036a_EARH",
-      "turn": "t0095",
-      "evidence": "la manière dont ils gèrent leurs employés euh un peu comme euh l' esclavage moderne",
-      "type": "fact",
-      "status": "active",
-      "statement": "Amazon est critiqué pour sa gestion des employés, comparée à de l'esclavage moderne.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-17",
-      "meeting_id": "036a_EARH",
-      "turn": "t0095",
-      "evidence": "un impact écologique euh euh assez grand aussi",
-      "type": "fact",
-      "status": "active",
-      "statement": "Amazon a un fort impact écologique (livraison en un jour, camions à vide).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-18",
-      "meeting_id": "036a_EARH",
-      "turn": "t0097",
-      "evidence": "pendant le le covid qui a genre ça a littéralement explosé",
-      "type": "fact",
-      "status": "active",
-      "statement": "Les commandes Amazon ont explosé pendant le Covid.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-19",
-      "meeting_id": "036a_EARH",
-      "turn": "t0104",
-      "evidence": "pose des questions sur ben on fait quoi des commerces d' avant",
-      "type": "risk",
-      "status": "open",
-      "statement": "Amazon pose la question de l'avenir des commerces traditionnels.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-20",
-      "meeting_id": "036a_EARH",
-      "turn": "t0107",
-      "evidence": "sujets assez euh se rejoignent sur plein de choses",
-      "type": "fact",
-      "status": "active",
-      "statement": "Les quatre sujets présentés se rejoignent sur de nombreux points.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Phrase commencée en t0105."
-    },
-    {
-      "key": "a-21",
-      "meeting_id": "036a_EARH",
-      "turn": "t0118",
-      "evidence": "comment tous ces toutes ces entreprises privées viennent à à gouverner notre vie",
-      "type": "fact",
-      "status": "active",
-      "statement": "Récapitulatif : les entreprises privées (GAFAM) en viennent à gouverner nos vies, question de liberté personnelle.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-22",
-      "meeting_id": "036a_EARH",
-      "turn": "t0124",
-      "evidence": "ça a été uniquement une une création de tiktok",
-      "type": "fact",
-      "status": "active",
-      "statement": "Une artiste (Doja Cat, citée en t0127) a été propulsée uniquement grâce à TikTok.",
-      "owner": null,
-      "mentioned_people": [
-        "doja cat"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Nom de l'artiste donné en t0127."
-    },
-    {
-      "key": "a-23",
-      "meeting_id": "036a_EARH",
-      "turn": "t0144",
-      "evidence": "on a tous besoin de de matériel beaucoup plus cher qu' avant",
-      "type": "fact",
-      "status": "active",
-      "statement": "Selon Zoé, ces technologies obligent à acheter du matériel beaucoup plus cher qu'avant.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-24",
-      "meeting_id": "036a_EARH",
-      "turn": "t0148",
-      "evidence": "ça nous crée des besoins tu veux dire ou parce_que vraiment on en a besoin",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Ces besoins sont-ils créés artificiellement ou réels ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-25",
-      "meeting_id": "036a_EARH",
-      "turn": "t0149",
-      "evidence": "ouais on en a besoin parce_que par_exemple si tu travailles ou si t' es à la fac si t' as pas un ordinateur à un minimum qualitatif",
-      "type": "answer",
-      "status": "active",
-      "statement": "Réponse : ce sont de vrais besoins, un ordinateur correct est indispensable pour travailler ou étudier.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-26",
-      "meeting_id": "036a_EARH",
-      "turn": "t0155",
-      "evidence": "on a tous des groupes de classe on les fait sur les réseaux maintenant",
-      "type": "fact",
-      "status": "active",
-      "statement": "Les groupes de classe se font désormais sur les réseaux sociaux.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "a-27",
-      "meeting_id": "036a_EARH",
-      "turn": "t0077",
-      "evidence": "ils font la moitié des ordis du monde",
-      "type": "fact",
-      "status": "active",
-      "statement": "Microsoft équiperait la moitié des ordinateurs du monde.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Réponse à Zoé qui dit mal connaître Microsoft."
-    },
-    {
-      "key": "b-01",
-      "meeting_id": "036b_EADH",
-      "turn": "t0001",
-      "evidence": "définir euh un thème définitif de notre événement donc de notre ted talk",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Objet de la réunion : choisir le thème définitif du TED talk (un des sujets ou un mélange).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-02",
-      "meeting_id": "036b_EADH",
-      "turn": "t0003",
-      "evidence": "ben moi je pense que facebook ça regroupe un peu trop donc facebook au sens le groupe facebook du_coup méta maintenant",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Paul propose Facebook / Meta comme thème, car il recoupe tous les sujets (GAFAM, IA, réseaux sociaux).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-03",
-      "meeting_id": "036b_EADH",
-      "turn": "t0006",
-      "evidence": "ben amazon par_contre pas trop",
-      "type": "fact",
-      "status": "active",
-      "statement": "Zoé estime qu'Amazon ne rentre pas vraiment dans un thème Facebook.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Avis plutôt que fait ; Paul répond en t0007 avec Marketplace."
-    },
-    {
-      "key": "b-04",
-      "meeting_id": "036b_EADH",
-      "turn": "t0014",
-      "evidence": "facebook ou la manière dont il interagit dans nos vies",
-      "type": "decision",
-      "status": "active",
-      "statement": "Thème retenu : Facebook et la manière dont il interagit dans nos vies.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "inferred",
-      "notes": "Formulation de 093 après accord de 092 (t0004) et 091 ; pas de vote formel."
-    },
-    {
-      "key": "b-05",
-      "meeting_id": "036b_EADH",
-      "turn": "t0041",
-      "evidence": "facebook aux etats-unis ils étaient en mode bon on a le droit d' acheter instagram",
-      "type": "fact",
-      "status": "active",
-      "statement": "Le rachat d'Instagram par Facebook a fait réagir le gouvernement américain (concentration).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-06",
-      "meeting_id": "036b_EADH",
-      "turn": "t0067",
-      "evidence": "un titre du style l' influence planétaire de facebook",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Proposition de titre : « L'influence planétaire de Facebook ».",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-07",
-      "meeting_id": "036b_EADH",
-      "turn": "t0071",
-      "evidence": "l' hégémonie de facebook",
-      "type": "decision",
-      "status": "active",
-      "statement": "Titre retenu : « L'hégémonie de Facebook ».",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Approuvé par Zoé (t0068) et Marius (t0072), puis « allez » (t0073)."
-    },
-    {
-      "key": "b-08",
-      "meeting_id": "036b_EADH",
-      "turn": "t0075",
-      "evidence": "quand est-ce_qu' on pourrait organiser notre ted talk",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Quand organiser le TED talk (semaine ou week-end) ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-09",
-      "meeting_id": "036b_EADH",
-      "turn": "t0078",
-      "evidence": "petit petit vendredi soir hein",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Paul propose un vendredi soir (ou un samedi).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-10",
-      "meeting_id": "036b_EADH",
-      "turn": "t0081",
-      "evidence": "je pense que le vendredi soir ils n' ont pas envie les gens de venir",
-      "type": "risk",
-      "status": "open",
-      "statement": "Le vendredi soir, les gens n'auront pas envie de venir.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-11",
-      "meeting_id": "036b_EADH",
-      "turn": "t0082",
-      "evidence": "le jeudi soir comme ça c'est en semaine mais pas trop",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Zoé propose le jeudi soir.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-12",
-      "meeting_id": "036b_EADH",
-      "turn": "t0086",
-      "evidence": "un jeudi soir en semaine euh ok let s go jeudi soir",
-      "type": "decision",
-      "status": "active",
-      "statement": "Décision : l'événement aura lieu un jeudi soir.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-13",
-      "meeting_id": "036b_EADH",
-      "turn": "t0087",
-      "evidence": "à quel moment de l' année vous pensez",
-      "type": "question",
-      "status": "resolved",
-      "statement": "À quel moment de l'année organiser l'événement ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-14",
-      "meeting_id": "036b_EADH",
-      "turn": "t0088",
-      "evidence": "ouais au au printemps",
-      "type": "decision",
-      "status": "active",
-      "statement": "L'événement aura lieu au printemps.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Accord de Paul (t0089) et de 093 (t0090)."
-    },
-    {
-      "key": "b-15",
-      "meeting_id": "036b_EADH",
-      "turn": "t0094",
-      "evidence": "on a le budget donc pour inviter jusqu'à trois invités euh donc sachant que voilà trois invités euh à bas coût",
-      "type": "fact",
-      "status": "active",
-      "statement": "Le budget permet d'inviter jusqu'à trois invités à bas coût.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-16",
-      "meeting_id": "036b_EADH",
-      "turn": "t0098",
-      "evidence": "ou deux invités du_coup à moyen coût ou un invité à coût élevé",
-      "type": "fact",
-      "status": "active",
-      "statement": "Ou bien deux invités à coût moyen, ou un seul invité à coût élevé.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-17",
-      "meeting_id": "036b_EADH",
-      "turn": "t0102",
-      "evidence": "est-ce_que vous avez des idées de gens qu' on pourrait inviter",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Qui pourrait-on inviter ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-18",
-      "meeting_id": "036b_EADH",
-      "turn": "t0104",
-      "evidence": "moi je pensais à thomas gauthier",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "093 propose d'inviter Thomas Gauthier.",
-      "owner": null,
-      "mentioned_people": [
-        "thomas gauthier"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-19",
-      "meeting_id": "036b_EADH",
-      "turn": "t0109",
-      "evidence": "sinon il_y a + il_y a hugodecrypt",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Marius propose d'inviter Hugo Décrypte.",
-      "owner": null,
-      "mentioned_people": [
-        "hugodecrypt"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-20",
-      "meeting_id": "036b_EADH",
-      "turn": "t0115",
-      "evidence": "on peut prendre des professeurs de philo et de commerce",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Zoé propose d'inviter des professeurs de philosophie et de commerce pour croiser les points de vue.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-21",
-      "meeting_id": "036b_EADH",
-      "turn": "t0118",
-      "evidence": "hugo décrypte il compte comme quelqu'un à moyen coût",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Hugo Décrypte serait-il un invité à coût moyen ?",
-      "owner": null,
-      "mentioned_people": [
-        "hugodecrypt"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Phrase sans marque interrogative, traitée comme question vu la réponse t0120."
-    },
-    {
-      "key": "b-22",
-      "meeting_id": "036b_EADH",
-      "turn": "t0120",
-      "evidence": "je pense que c'est plutôt quelqu'un à haut coût",
-      "type": "answer",
-      "status": "active",
-      "statement": "093 estime qu'Hugo Décrypte serait plutôt un invité à coût élevé.",
-      "owner": null,
-      "mentioned_people": [
-        "hugodecrypt"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-23",
-      "meeting_id": "036b_EADH",
-      "turn": "t0125",
-      "evidence": "on peut prendre deux invités",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "093 suggère de prendre deux invités.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-24",
-      "meeting_id": "036b_EADH",
-      "turn": "t0158",
-      "evidence": "moi un invité moi je pensais au mec qui s' occupe de meta",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Paul propose d'inviter le responsable de la division Meta (métavers).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-25",
-      "meeting_id": "036b_EADH",
-      "turn": "t0173",
-      "evidence": "sinon on peut inviter le maire de singapour",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Marius propose d'inviter le maire de Singapour (ville qui veut entrer dans le métavers).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-26",
-      "meeting_id": "036b_EADH",
-      "turn": "t0199",
-      "evidence": "s'il doit venir de singapour ça fait cher les billets d' avion",
-      "type": "risk",
-      "status": "open",
-      "statement": "Faire venir quelqu'un de Singapour coûterait cher en billets d'avion.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-27",
-      "meeting_id": "036b_EADH",
-      "turn": "t0208",
-      "evidence": "non mais après le maire de singapour c'était plus une blague",
-      "type": "idea",
-      "status": "rejected",
-      "statement": "Marius précise que l'idée du maire de Singapour était plutôt une blague.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-28",
-      "meeting_id": "036b_EADH",
-      "turn": "t0212",
-      "evidence": "il faut qu' on prenne un interprète",
-      "type": "risk",
-      "status": "open",
-      "statement": "Un invité de Singapour nécessiterait un interprète.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-29",
-      "meeting_id": "036b_EADH",
-      "turn": "t0231",
-      "evidence": "le taf de hugodecrypt genre on peut le faire nous",
-      "type": "decision",
-      "status": "active",
-      "statement": "Choix d'un seul invité : le responsable du développement du métavers chez Meta ; le groupe fera lui-même le travail de présentation façon Hugo Décrypte.",
-      "owner": null,
-      "mentioned_people": [
-        "hugodecrypt"
-      ],
-      "amount": null,
-      "assertion": "inferred",
-      "notes": "Accord de 093 (t0232, t0240) et Zoé (t0238) ; l'invité « mec de meta » est repris dans la réunion c."
-    },
-    {
-      "key": "b-30",
-      "meeting_id": "036b_EADH",
-      "turn": "t0290",
-      "evidence": "où est-ce_qu' on pourrait organiser notre notre ted talk selon vous est-ce qu' on fait en mode radio",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Quel format/lieu : radio, estrade avec public, entre nous, enregistrement ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-31",
-      "meeting_id": "036b_EADH",
-      "turn": "t0294",
-      "evidence": "c'est bien sur scène + on met trois fauteuils le mec de meta deux modérateurs",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Paul propose une scène avec trois fauteuils : l'invité de Meta et deux modérateurs, puis questions du public.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-32",
-      "meeting_id": "036b_EADH",
-      "turn": "t0310",
-      "evidence": "donc on aurait une vidéo et une version audio",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le TED talk aura une version vidéo et une version audio (podcast).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Suit les idées podcast (t0302) et YouTube/SoundCloud (t0304)."
-    },
-    {
-      "key": "b-33",
-      "meeting_id": "036b_EADH",
-      "turn": "t0313",
-      "evidence": "il_y aurait combien de modérateurs est-ce qu' on vient tous_les quatre",
-      "type": "question",
-      "status": "open",
-      "statement": "Combien de modérateurs, tous les quatre ou une sélection ?",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Non tranché dans b ; réponse en réunion c."
-    },
-    {
-      "key": "b-34",
-      "meeting_id": "036b_EADH",
-      "turn": "t0316",
-      "evidence": "faut la régie aussi",
-      "type": "action",
-      "status": "open",
-      "statement": "Il faut prévoir une régie (micros, technique).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-35",
-      "meeting_id": "036b_EADH",
-      "turn": "t0330",
-      "evidence": "quelle va être la place de meta dans le monde en dix ans",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Question envisagée pour l'invité : quelle place pour Meta dans le monde dans dix ans (après l'avoir mis en confiance).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-36",
-      "meeting_id": "036b_EADH",
-      "turn": "t0343",
-      "evidence": "on peut faire un petit appéritif à à dix-neuf vingt heures puis après début du débat à vingt-et-un heure",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Marius propose un apéritif de 19h à 20h puis le débat à 21h.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-37",
-      "meeting_id": "036b_EADH",
-      "turn": "t0360",
-      "evidence": "ok donc on fait quoi + 19h 19h 21h de",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le débat se tiendra de 19h à 21h.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Confirmé par Zoé (t0361) et Marius (t0362)."
-    },
-    {
-      "key": "b-38",
-      "meeting_id": "036b_EADH",
-      "turn": "t0367",
-      "evidence": "et après buffet ok",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le buffet aura lieu après le débat.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "b-39",
-      "meeting_id": "036b_EADH",
-      "turn": "t0381",
-      "evidence": "quinze minutes où on explique pourquoi euh",
-      "type": "decision",
-      "status": "active",
-      "statement": "Une introduction de quinze minutes ouvrira la soirée pour expliquer le choix du sujet.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Idée de Marius (t0369) reprise par 093 (t0376-t0381)."
-    },
-    {
-      "key": "b-40",
-      "meeting_id": "036b_EADH",
-      "turn": "t0380",
-      "evidence": "c'est peut-être court quinze minutes",
-      "type": "risk",
-      "status": "open",
-      "statement": "Zoé trouve que quinze minutes d'introduction, c'est peut-être court.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-01",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0000",
-      "evidence": "on va d'abord commencer par choisir une date + précise",
-      "type": "question",
-      "status": "resolved",
-      "statement": "Choisir une date précise (jour, mois, année) pour le TED talk.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-02",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0015",
-      "evidence": "le jeudi vingt_six c'est l' ascension",
-      "type": "fact",
-      "status": "active",
-      "statement": "Le jeudi 26 (mai) est l'Ascension, jour férié.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-04",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0040",
-      "evidence": "le cinq mai ça va à tout_le monde",
-      "type": "decision",
-      "status": "active",
-      "statement": "Date retenue : le jeudi 5 mai.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Proposé par Paul (« cinco de mayo », t0026), accepté par Zoé et Paul (t0042-t0044). Année non dite ; le 5 mai est un jeudi si l'Ascension tombe le 26 mai (2022), non résolu."
-    },
-    {
-      "key": "c-05",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0050",
-      "evidence": "on on a dit podcast filmé et public",
-      "type": "fact",
-      "status": "active",
-      "statement": "Rappel : le format retenu est un podcast filmé avec public (pas une émission de radio).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Corrige le souvenir de 093 (« un truc de radio », t0045)."
-    },
-    {
-      "key": "c-06",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0055",
-      "evidence": "on loue une salle euh donc il faut quand même qu' on ramène du matos",
-      "type": "decision",
-      "status": "active",
-      "statement": "On loue une salle et il faudra apporter du matériel.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-07",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0084",
-      "evidence": "on a besoin d' une table ronde je suis assez partisan des tables rondes",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "093 propose une table ronde sur scène.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-08",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0091",
-      "evidence": "ah en mode informel plutôt ok",
-      "type": "decision",
-      "status": "active",
-      "statement": "Pas de table : des fauteuils disposés en triangle, format informel.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Proposition de Zoé (t0087) acceptée ; disposition en triangle t0092."
-    },
-    {
-      "key": "c-09",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0144",
-      "evidence": "on a les fauteuils le micro cravate la caméra",
-      "type": "decision",
-      "status": "active",
-      "statement": "Matériel retenu : fauteuils, micros-cravates, caméra, éclairages.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-10",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0132",
-      "evidence": "mais bouffe mexicaine vraiment on signe quoi les mecs",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Paul propose un buffet mexicain.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-11",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0155",
-      "evidence": "on prend euh au_moins deux trois trois personnes peut-être",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "093 suggère deux ou trois serveurs pour environ 200 personnes.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-12",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0172",
-      "evidence": "hop huit personnes dans le service",
-      "type": "decision",
-      "status": "active",
-      "statement": "Huit personnes assureront le service au buffet.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Zoé juge trois personnes insuffisant (t0159)."
-    },
-    {
-      "key": "c-13",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0192",
-      "evidence": "dans ce cas vaut mieux pas d' alcool",
-      "type": "idea",
-      "status": "proposed",
-      "statement": "Zoé suggère de ne pas servir d'alcool si l'événement est informel.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-14",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0234",
-      "evidence": "on prend des trucs en carton + biodégradable",
-      "type": "decision",
-      "status": "active",
-      "statement": "Vaisselle en carton biodégradable plutôt que du plastique.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Suite à la demande de Zoé (t0220) ; accord t0235."
-    },
-    {
-      "key": "c-15",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0284",
-      "evidence": "moi je veux bien m' occuper des réseaux sociaux + tout ce qui est ouais promos + tracts flyers",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Marius (092, SPEAKER_1) s'occupe des réseaux sociaux, de la promotion et des flyers.",
-      "owner": "092",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-16",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0290",
-      "evidence": "moi je veux bien",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Zoé (099, SPEAKER_3) se charge du buffet : traiteur et organisation du service.",
-      "owner": "099",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Réponse à la question de t0289 sur le traiteur ; confirmé en t0624."
-    },
-    {
-      "key": "c-17",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0305",
-      "evidence": "ok ouais + je connais dédé c'est bon",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Paul (091, SPEAKER_0) s'occupe du matériel technique, avec l'aide de Dédé.",
-      "owner": "091",
-      "mentioned_people": [
-        "dédé"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-18",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0313",
-      "evidence": "moi je vais bien m' occuper de donc réserver la salle",
-      "type": "commitment",
-      "status": "active",
-      "statement": "093 se charge de réserver la salle.",
-      "owner": "093",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-19",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0342",
-      "evidence": "on le stream en live et il_y aura la redif",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le TED talk sera diffusé en direct en streaming, avec une rediffusion (YouTube, audio).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-20",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0360",
-      "evidence": "on essaie de se faire sponsoriser par + ces gens là",
-      "type": "decision",
-      "status": "active",
-      "statement": "On cherche à se faire sponsoriser par Meta et des entreprises de réalité virtuelle.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-21",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0363",
-      "evidence": "même si on risque de critiquer euh leurs trucs",
-      "type": "risk",
-      "status": "open",
-      "statement": "Se faire sponsoriser par Meta alors qu'on risque de critiquer ses projets.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-22",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0381",
-      "evidence": "je peux aller voir les entreprises et leur essayer de les convaincre",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Paul (091) va démarcher les entreprises pour obtenir des sponsors.",
-      "owner": "091",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-23",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0385",
-      "evidence": "moi je le fais ça",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Marius (092) gère la diffusion : stream et rediffusion YouTube.",
-      "owner": "092",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-24",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0402",
-      "evidence": "moi je veux bien faire l' intro",
-      "type": "commitment",
-      "status": "active",
-      "statement": "093 fera l'introduction de quinze minutes.",
-      "owner": "093",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-25",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0410",
-      "evidence": "donc SPEAKER_0 et SPEAKER_3 ok",
-      "type": "decision",
-      "status": "active",
-      "statement": "Modérateurs : Paul (091, SPEAKER_0) et Zoé (099, SPEAKER_3).",
-      "owner": "091 + 099",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Paul volontaire (t0405), Zoé accepte (t0409)."
-    },
-    {
-      "key": "c-26",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0436",
-      "evidence": "je peux faire la conclusion",
-      "type": "commitment",
-      "status": "proposed",
-      "statement": "Marius propose de faire la conclusion pour que les quatre aient un rôle.",
-      "owner": null,
-      "mentioned_people": [
-        "092"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-27",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0504",
-      "evidence": "donc SPEAKER_0 + se sent + de gérer ça",
-      "type": "decision",
-      "status": "active",
-      "statement": "La gestion du budget revient à Paul (091), lié aux sponsors.",
-      "owner": "091",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-28",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0518",
-      "evidence": "il faut qu' ils réservent ça veut pas dire qu' ils doivent payer",
-      "type": "decision",
-      "status": "active",
-      "statement": "Les spectateurs devront réserver leur place (gratuitement), avec contrôle du passe sanitaire (t0521).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-29",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0541",
-      "evidence": "pour le buffet on a dit qu' on prenait donc euh pizza quiche",
-      "type": "decision",
-      "status": "active",
-      "statement": "Buffet : pizzas, quiches et plats simples livrés par un traiteur.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-30",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0549",
-      "evidence": "y aurait juste un choix d' alcool de de vin",
-      "type": "decision",
-      "status": "active",
-      "statement": "Une seule option d'alcool : du vin.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-31",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0555",
-      "evidence": "on pense à une capacité à peu près de deux_cent places",
-      "type": "fact",
-      "status": "active",
-      "statement": "Capacité visée de la salle : environ deux cents places, salle de type théâtre.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-32",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0555",
-      "evidence": "en_ce concerne le budget c'est SPEAKER_3 donc qui + voilà qui donc comme je viens de le dire qui va s' occuper donc de faire le lien avec le traiteur",
-      "type": "fact",
-      "status": "active",
-      "statement": "Récapitulatif : sous l'étiquette « budget », Zoé (SPEAKER_3) fait le lien avec le traiteur, le menu, les serveurs et les couverts.",
-      "owner": null,
-      "mentioned_people": [
-        "099"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "« budget » semble un lapsus pour « buffet » : le budget est attribué à SPEAKER_0 en t0504 et t0569."
-    },
-    {
-      "key": "c-33",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0563",
-      "evidence": "SPEAKER_3 aussi avait pensé à faire euh envoyer un mail à la liste des à la liste d' étudiants de la fac",
-      "type": "action",
-      "status": "open",
-      "statement": "Promotion : envoyer un mail à la liste des étudiants de la fac et contacter la mairie d'Aix.",
-      "owner": null,
-      "mentioned_people": [
-        "099"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-34",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0569",
-      "evidence": "moi je m' occupe de donc je m' occuperai d' introduire et de conclure",
-      "type": "commitment",
-      "status": "active",
-      "statement": "093 fera l'introduction et la conclusion.",
-      "owner": "093",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-35",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0569",
-      "evidence": "pour le budget donc SPEAKER_0 qui servira qui servira de lien avec euh les sponsors",
-      "type": "fact",
-      "status": "active",
-      "statement": "Récapitulatif : le budget est géré par Paul (SPEAKER_0), qui fait le lien avec les sponsors (Meta ou partenaires tech).",
-      "owner": null,
-      "mentioned_people": [
-        "091"
-      ],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-36",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0577",
-      "evidence": "là faut commencer à contacter le mec de de meta",
-      "type": "action",
-      "status": "open",
-      "statement": "Il faut commencer à contacter l'invité de Meta.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Aucun responsable désigné ; repris par 093 (t0594)."
-    },
-    {
-      "key": "c-37",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0604",
-      "evidence": "un mois avant",
-      "type": "decision",
-      "status": "active",
-      "statement": "Le traiteur sera contacté un mois avant l'événement.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": "Proposition de Marius (t0597), notée par 093 (t0603)."
-    },
-    {
-      "key": "c-38",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0610",
-      "evidence": "donc peut-être deux deux mois avant",
-      "type": "decision",
-      "status": "active",
-      "statement": "Communication sur les réseaux sociaux environ deux mois avant (février-mars).",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "inferred",
-      "notes": "Formulé avec « peut-être » ; Marius précise « en février » (t0611)."
-    },
-    {
-      "key": "c-39",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0618",
-      "evidence": "on est déjà à moitié du décembre là",
-      "type": "fact",
-      "status": "active",
-      "statement": "On est déjà à la mi-décembre, il reste moins de cinq mois.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-40",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0634",
-      "evidence": "ok donc deux trois semaines avant",
-      "type": "decision",
-      "status": "active",
-      "statement": "Les serveurs seront recrutés deux à trois semaines avant.",
-      "owner": null,
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    },
-    {
-      "key": "c-41",
-      "meeting_id": "036c_EAPH",
-      "turn": "t0637",
-      "evidence": "je peux commencer à à tout distribuer un mois et demi avant",
-      "type": "commitment",
-      "status": "active",
-      "statement": "Marius commencera à distribuer flyers et affiches six semaines avant.",
-      "owner": "092",
-      "mentioned_people": [],
-      "amount": null,
-      "assertion": "extracted",
-      "notes": ""
-    }
-  ],
-  "relations": [
-    {
-      "from": "a-21",
-      "to": "a-14",
-      "relation": "supports",
-      "justification": "Le récapitulatif reprend l'idée que les GAFAM échappent au contrôle des gouvernements."
-    },
-    {
-      "from": "a-25",
-      "to": "a-24",
-      "relation": "answers",
-      "justification": "Zoé répond directement que ce sont de vrais besoins."
-    },
-    {
-      "from": "a-22",
-      "to": "a-08",
-      "relation": "supports",
-      "justification": "L'exemple de Doja Cat illustre la capacité de TikTok à propulser des artistes."
-    },
-    {
-      "from": "b-02",
-      "to": "b-01",
-      "relation": "answers",
-      "justification": "Paul propose Facebook comme thème fédérateur."
-    },
-    {
-      "from": "b-04",
-      "to": "b-01",
-      "relation": "answers",
-      "justification": "093 formule le thème retenu : Facebook dans nos vies."
-    },
-    {
-      "from": "b-07",
-      "to": "b-06",
-      "relation": "supersedes",
-      "justification": "Entre les deux titres proposés, le groupe tranche pour « l'hégémonie de Facebook »."
-    },
-    {
-      "from": "b-12",
-      "to": "b-08",
-      "relation": "answers",
-      "justification": "Le jeudi soir est retenu en réponse à la question de la date."
-    },
-    {
-      "from": "b-12",
-      "to": "b-09",
-      "relation": "supersedes",
-      "justification": "La décision du jeudi soir tranche contre le vendredi soir proposé."
-    },
-    {
-      "from": "b-10",
-      "to": "b-09",
-      "relation": "contradicts",
-      "justification": "Zoé objecte que personne ne viendra le vendredi soir."
-    },
-    {
-      "from": "b-14",
-      "to": "b-13",
-      "relation": "answers",
-      "justification": "Réponse : au printemps."
-    },
-    {
-      "from": "b-22",
-      "to": "b-21",
-      "relation": "answers",
-      "justification": "093 répond qu'Hugo Décrypte serait plutôt à haut coût."
-    },
-    {
-      "from": "b-29",
-      "to": "b-17",
-      "relation": "answers",
-      "justification": "Le groupe choisit l'invité : le responsable du métavers chez Meta."
-    },
-    {
-      "from": "b-29",
-      "to": "b-19",
-      "relation": "supersedes",
-      "justification": "On fera nous-mêmes le travail d'Hugo Décrypte et on invite le responsable Meta à la place."
-    },
-    {
-      "from": "b-29",
-      "to": "b-18",
-      "relation": "supersedes",
-      "justification": "La décision d'inviter le responsable Meta tranche la question de l'invité."
-    },
-    {
-      "from": "b-29",
-      "to": "b-20",
-      "relation": "supersedes",
-      "justification": "La décision d'inviter le responsable Meta tranche la question de l'invité."
-    },
-    {
-      "from": "b-29",
-      "to": "b-23",
-      "relation": "supersedes",
-      "justification": "Un seul invité est retenu (« on prend que lui », t0191) au lieu de deux."
-    },
-    {
-      "from": "b-29",
-      "to": "b-24",
-      "relation": "supports",
-      "justification": "La décision reprend la proposition de Paul d'inviter le responsable Meta."
-    },
-    {
-      "from": "b-27",
-      "to": "b-25",
-      "relation": "supersedes",
-      "justification": "Marius retire sa proposition en disant que c'était une blague."
-    },
-    {
-      "from": "b-26",
-      "to": "b-25",
-      "relation": "contradicts",
-      "justification": "Le coût des billets depuis Singapour s'oppose à l'idée du maire de Singapour."
-    },
-    {
-      "from": "b-31",
-      "to": "b-30",
-      "relation": "answers",
-      "justification": "Paul propose une scène avec fauteuils en réponse à la question du format."
-    },
-    {
-      "from": "b-32",
-      "to": "b-30",
-      "relation": "answers",
-      "justification": "Le format retenu : vidéo et version audio."
-    },
-    {
-      "from": "b-37",
-      "to": "b-36",
-      "relation": "supersedes",
-      "justification": "Le débat commence à 19h et non à 21h après un apéritif."
-    },
-    {
-      "from": "b-38",
-      "to": "b-36",
-      "relation": "supersedes",
-      "justification": "Le buffet est placé après le débat au lieu d'un apéritif avant."
-    },
-    {
-      "from": "b-40",
-      "to": "b-39",
-      "relation": "contradicts",
-      "justification": "Zoé trouve la durée de quinze minutes trop courte ; pas de changement acté."
-    },
-    {
-      "from": "c-04",
-      "to": "c-01",
-      "relation": "answers",
-      "justification": "Le 5 mai est retenu comme date précise."
-    },
-    {
-      "from": "c-04",
-      "to": "b-12",
-      "relation": "supports",
-      "justification": "Le 5 mai est un jeudi, conformément à la décision du jeudi soir."
-    },
-    {
-      "from": "c-04",
-      "to": "b-14",
-      "relation": "supports",
-      "justification": "Mai est au printemps, conformément à la décision de la réunion b."
-    },
-    {
-      "from": "c-05",
-      "to": "b-32",
-      "relation": "supports",
-      "justification": "Rappel du format podcast filmé avec public décidé en réunion b."
-    },
-    {
-      "from": "c-08",
-      "to": "c-07",
-      "relation": "supersedes",
-      "justification": "Le groupe abandonne la table ronde pour des fauteuils, format informel."
-    },
-    {
-      "from": "c-09",
-      "to": "c-08",
-      "relation": "supports",
-      "justification": "Le récapitulatif du matériel confirme les fauteuils."
-    },
-    {
-      "from": "c-12",
-      "to": "c-11",
-      "relation": "supersedes",
-      "justification": "Huit serveurs au lieu de deux ou trois, jugés insuffisants."
-    },
-    {
-      "from": "c-29",
-      "to": "c-10",
-      "relation": "supersedes",
-      "justification": "Le buffet retenu est pizza/quiche par traiteur, pas mexicain."
-    },
-    {
-      "from": "c-30",
-      "to": "c-13",
-      "relation": "supersedes",
-      "justification": "Une option vin est retenue au lieu de zéro alcool."
-    },
-    {
-      "from": "c-25",
-      "to": "b-33",
-      "relation": "answers",
-      "justification": "La question du nombre de modérateurs est tranchée : deux, Paul et Zoé."
-    },
-    {
-      "from": "c-25",
-      "to": "b-31",
-      "relation": "supports",
-      "justification": "Deux modérateurs, comme dans la proposition de mise en scène de Paul."
-    },
-    {
-      "from": "c-34",
-      "to": "c-26",
-      "relation": "supersedes",
-      "justification": "Le récapitulatif final attribue la conclusion à 093, pas à Marius."
-    },
-    {
-      "from": "c-34",
-      "to": "c-24",
-      "relation": "supports",
-      "justification": "093 confirme qu'elle fait l'introduction."
-    },
-    {
-      "from": "c-35",
-      "to": "c-27",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme que Paul gère le budget via les sponsors."
-    },
-    {
-      "from": "c-32",
-      "to": "c-16",
-      "relation": "supports",
-      "justification": "Le récapitulatif confirme que Zoé gère le traiteur."
-    },
-    {
-      "from": "c-22",
-      "to": "c-20",
-      "relation": "supports",
-      "justification": "Paul s'engage à démarcher les sponsors."
-    },
-    {
-      "from": "c-19",
-      "to": "b-32",
-      "relation": "supports",
-      "justification": "Le streaming avec rediffusion précise le format vidéo/audio."
-    },
-    {
-      "from": "c-23",
-      "to": "c-19",
-      "relation": "supports",
-      "justification": "Marius prend en charge la diffusion décidée."
-    },
-    {
-      "from": "c-41",
-      "to": "c-15",
-      "relation": "supports",
-      "justification": "Marius, responsable des flyers, fixe le début de distribution."
-    },
-    {
-      "from": "b-29",
-      "to": "c-36",
-      "relation": "creates_action",
-      "justification": "Le choix de l'invité Meta entraîne l'action de le contacter."
-    }
-  ],
-  "queries": [
-    {
-      "key": "q01",
-      "about_meeting": "036b_EADH",
-      "text": "Quel titre a finalement été choisi pour le TED talk ?",
-      "answerable": true,
-      "qrels": {
-        "b-07": 2,
-        "b-04": 1,
-        "b-06": 0,
-        "b-01": 0
-      },
-      "traps": [
-        {
-          "unit": "b-06",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-01",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q02",
-      "about_meeting": "036b_EADH",
-      "text": "Quel soir de la semaine a été retenu pour organiser l'événement ?",
-      "answerable": true,
-      "qrels": {
-        "b-12": 2,
-        "b-11": 1,
-        "b-10": 1,
-        "c-04": 1,
-        "b-09": 0,
-        "c-02": 0,
-        "b-08": 0
-      },
-      "traps": [
-        {
-          "unit": "b-09",
-          "trap": "superseded"
-        },
-        {
-          "unit": "c-02",
-          "trap": "date"
-        }
-      ]
-    },
-    {
-      "key": "q03",
-      "about_meeting": "036b_EADH",
-      "text": "Quel intervenant le groupe a-t-il décidé de faire venir au débat ?",
-      "answerable": true,
-      "qrels": {
-        "b-29": 2,
-        "b-24": 1,
-        "c-36": 1,
-        "b-19": 0,
-        "b-18": 0,
-        "b-25": 0,
-        "b-20": 0,
-        "b-23": 0,
-        "b-17": 0
-      },
-      "traps": [
-        {
-          "unit": "b-19",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-18",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-25",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-20",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-23",
-          "trap": "amount"
-        }
-      ]
-    },
-    {
-      "key": "q04",
-      "about_meeting": "036b_EADH",
-      "text": "Combien de personnes peut-on inviter avec le budget, selon qu'elles coûtent peu, moyennement ou cher ?",
-      "answerable": true,
-      "qrels": {
-        "b-15": 2,
-        "b-16": 2,
-        "b-22": 1,
-        "b-23": 0,
-        "b-21": 0
-      },
-      "traps": [
-        {
-          "unit": "b-23",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "b-21",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q05",
-      "about_meeting": "036b_EADH",
-      "text": "Est-ce qu'Hugo Décrypte serait un intervenant bon marché ?",
-      "answerable": true,
-      "qrels": {
-        "b-22": 2,
-        "b-21": 1,
-        "b-19": 1,
-        "b-16": 1,
-        "b-15": 0
-      },
-      "traps": [
-        {
-          "unit": "b-15",
-          "trap": "amount"
-        }
-      ]
-    },
-    {
-      "key": "q06",
-      "about_meeting": "036b_EADH",
-      "text": "À quelle heure commence le débat et quand a lieu le buffet ?",
-      "answerable": true,
-      "qrels": {
-        "b-37": 2,
-        "b-38": 2,
-        "b-39": 1,
-        "b-36": 0,
-        "b-40": 0
-      },
-      "traps": [
-        {
-          "unit": "b-36",
-          "trap": "superseded"
-        },
-        {
-          "unit": "b-40",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q07",
-      "about_meeting": "036b_EADH",
-      "text": "Sous quelle forme l'enregistrement de la soirée sera-t-il diffusé ?",
-      "answerable": true,
-      "qrels": {
-        "b-32": 2,
-        "c-19": 2,
-        "c-05": 1,
-        "c-23": 1,
-        "b-31": 0,
-        "b-30": 0
-      },
-      "traps": [
-        {
-          "unit": "b-31",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "b-30",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q08",
-      "about_meeting": "036b_EADH",
-      "text": "Quel est le montant en euros du budget prévu pour les invités ?",
-      "answerable": false,
-      "qrels": {},
-      "traps": []
-    },
-    {
-      "key": "q09",
-      "about_meeting": "036c_EAPH",
-      "text": "Quelle date précise a été fixée pour le TED talk ?",
-      "answerable": true,
-      "qrels": {
-        "c-04": 2,
-        "b-12": 1,
-        "b-14": 1,
-        "c-02": 0,
-        "c-01": 0,
-        "c-39": 0
-      },
-      "traps": [
-        {
-          "unit": "c-02",
-          "trap": "date"
-        },
-        {
-          "unit": "c-01",
-          "trap": "topic_only"
-        },
-        {
-          "unit": "c-39",
-          "trap": "date"
-        }
-      ]
-    },
-    {
-      "key": "q10",
-      "about_meeting": "036c_EAPH",
-      "text": "Qui est chargé de s'occuper du traiteur et des serveurs ?",
-      "answerable": true,
-      "qrels": {
-        "c-16": 2,
-        "c-32": 2,
-        "c-12": 1,
-        "c-29": 1,
-        "c-37": 1,
-        "c-40": 1,
-        "c-17": 0,
-        "c-27": 0
-      },
-      "traps": [
-        {
-          "unit": "c-17",
-          "trap": "person"
-        },
-        {
-          "unit": "c-27",
-          "trap": "person"
-        }
-      ]
-    },
-    {
-      "key": "q11",
-      "about_meeting": "036c_EAPH",
-      "text": "Qui gère l'argent et la recherche de partenaires financiers ?",
-      "answerable": true,
-      "qrels": {
-        "c-27": 2,
-        "c-35": 2,
-        "c-22": 2,
-        "c-20": 1,
-        "c-32": 0,
-        "c-21": 0
-      },
-      "traps": [
-        {
-          "unit": "c-32",
-          "trap": "person"
-        },
-        {
-          "unit": "c-21",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q12",
-      "about_meeting": "036c_EAPH",
-      "text": "Va-t-on servir de l'alcool au buffet ?",
-      "answerable": true,
-      "qrels": {
-        "c-30": 2,
-        "c-13": 0,
-        "c-29": 0
-      },
-      "traps": [
-        {
-          "unit": "c-13",
-          "trap": "superseded"
-        },
-        {
-          "unit": "c-29",
-          "trap": "topic_only"
-        }
-      ]
-    },
-    {
-      "key": "q13",
-      "about_meeting": "036c_EAPH",
-      "text": "Qui se charge de clôturer la soirée par la conclusion ?",
-      "answerable": true,
-      "qrels": {
-        "c-34": 2,
-        "c-24": 1,
-        "c-26": 0,
-        "c-25": 0
-      },
-      "traps": [
-        {
-          "unit": "c-26",
-          "trap": "superseded"
-        },
-        {
-          "unit": "c-25",
-          "trap": "person"
-        }
-      ]
-    },
-    {
-      "key": "q14",
-      "about_meeting": "036c_EAPH",
-      "text": "Combien de temps avant l'événement faut-il commencer à distribuer les tracts et les affiches ?",
-      "answerable": true,
-      "qrels": {
-        "c-41": 2,
-        "c-15": 1,
-        "c-38": 0,
-        "c-40": 0,
-        "c-37": 0
-      },
-      "traps": [
-        {
-          "unit": "c-38",
-          "trap": "date"
-        },
-        {
-          "unit": "c-40",
-          "trap": "date"
-        },
-        {
-          "unit": "c-37",
-          "trap": "date"
-        }
-      ]
-    },
-    {
-      "key": "q15",
-      "about_meeting": "036c_EAPH",
-      "text": "Qui animera l'échange avec l'invité en tant que modérateurs ?",
-      "answerable": true,
-      "qrels": {
-        "c-25": 2,
-        "b-33": 1,
-        "b-31": 1,
-        "c-24": 0,
-        "c-23": 0
-      },
-      "traps": [
-        {
-          "unit": "c-24",
-          "trap": "person"
-        },
-        {
-          "unit": "c-23",
-          "trap": "person"
-        }
-      ]
-    },
-    {
-      "key": "q16",
-      "about_meeting": "036c_EAPH",
-      "text": "Quel tarif le traiteur a-t-il annoncé pour le buffet ?",
-      "answerable": false,
-      "qrels": {},
-      "traps": []
-    }
-  ],
-  "speaker_names": {
-    "091": "paul",
-    "092": "marius",
-    "099": "zoé"
+ "group_id": "036",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "036a_EARH",
+   "turn": "t0000",
+   "evidence": "on se retrouve aujourd'hui pour euh définir euh un c'est quoi un take talk on va dire sur un sujet d' actualité",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la première réunion : définir un TED talk sur un sujet d'actualité (« take talk » = erreur ASR).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ASR : « take talk » pour « ted talk »."
   },
-  "notes": "Réunion a en ASR, très fragmentée (tours 092/091 entremêlés sur l'IA) ; unités prises sur les tours les plus lisibles. Identités : 092 = marius (t0009), 091 = paul (t0025, t0127 de b), 099 = zoé (t0072-t0073 de a) ; en réunion c, SPEAKER_0 = 091, SPEAKER_1 = 092, SPEAKER_3 = 099 (attributions des tâches t0284-t0305, t0408-t0410). 093 (animatrice) n'est pas identifiée de façon fiable : appelée « arthur » (c t0085) et « eric » (b t0288), avec accords au féminin ; laissée sans nom. Récapitulatif c t0555 : « le budget c'est SPEAKER_3 » semble un lapsus pour le buffet (budget attribué à SPEAKER_0 en t0504 et t0569) ; annoté comme fait sur le traiteur, sans relation contradicts. Date du 5 mai : année non dite, non résolue. Choix de l'invité Meta (b-29) inféré de plusieurs tours d'accord. Blagues (complot, maire de Singapour, marketing guérilla, mariachis) laissées de côté sauf la rétractation explicite b-27. Aucune donnée personnelle sensible annotée."
+  {
+   "key": "a-02",
+   "meeting_id": "036a_EARH",
+   "turn": "t0000",
+   "evidence": "moi j' ai euh choisi donc de parler d' amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "093 a choisi de présenter le sujet Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "036a_EARH",
+   "turn": "t0002",
+   "evidence": "moi je parlerai des réseaux sociaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Marius (092) présentera le sujet des réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "036a_EARH",
+   "turn": "t0027",
+   "evidence": "sur ton sujet qui est l' intelligence artificielle c'est ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le sujet de Paul (091) est l'intelligence artificielle.",
+   "owner": null,
+   "mentioned_people": [
+    "091"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmation du sujet de Paul ; t0005 ne contient que deux mots."
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "036a_EARH",
+   "turn": "t0073",
+   "evidence": "les gafam c'est donc google amazon facebook apple et microsoft",
+   "type": "fact",
+   "status": "active",
+   "statement": "Zoé (099) présente les GAFAM : Google, Amazon, Facebook, Apple, Microsoft.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "036a_EARH",
+   "turn": "t0015",
+   "evidence": "tiktok c'est twitter c'est plus quatorze quatorze vingt ans twitter c'est plus vingt trente facebook c'est plus cinquante soixante_dix",
+   "type": "fact",
+   "status": "active",
+   "statement": "Chaque réseau social vise une tranche d'âge : TikTok 14-20 ans, Twitter 20-30 ans, Facebook 50-70 ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Passage ASR un peu confus (« tiktok c'est twitter »)."
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "036a_EARH",
+   "turn": "t0019",
+   "evidence": "on peut voir le projet de facebook de se renommer en en méta",
+   "type": "fact",
+   "status": "active",
+   "statement": "Facebook a le projet de se renommer Meta.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "036a_EARH",
+   "turn": "t0022",
+   "evidence": "tiktok peut littéralement propulser un une chanson euh dans le dans le top cinquante spotify",
+   "type": "fact",
+   "status": "active",
+   "statement": "TikTok peut propulser une chanson dans le top 50 Spotify.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "036a_EARH",
+   "turn": "t0023",
+   "evidence": "tiktok est littéralement le le sponsor du euh dernier spider man",
+   "type": "fact",
+   "status": "active",
+   "statement": "TikTok est sponsor du dernier Spider-Man (placement de produit).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "036a_EARH",
+   "turn": "t0042",
+   "evidence": "ça fait longtemps que les intelligences artificielles sont supérieures aux humains",
+   "type": "fact",
+   "status": "active",
+   "statement": "Aux échecs, les IA sont depuis longtemps supérieures aux humains (aussi au poker et au go).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "036a_EARH",
+   "turn": "t0042",
+   "evidence": "est-ce_qu' on va se faire remplacer par des robots est-ce_qu' on va devenir une classe de chômeurs humains face aux robots qui travaillent pour nous",
+   "type": "risk",
+   "status": "open",
+   "statement": "Crainte que les humains soient remplacés par des robots et deviennent une classe de chômeurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "036a_EARH",
+   "turn": "t0061",
+   "evidence": "on pourrait limite avoir un exemple d' intelligence artificielle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : montrer un exemple concret d'IA (robot, terminal type chatbot, chien Spot).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Détail des exemples en t0064."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "036a_EARH",
+   "turn": "t0073",
+   "evidence": "c'est une technologie dans notre monde qui devient quelque_chose de qu' on peut plus contrôler",
+   "type": "risk",
+   "status": "open",
+   "statement": "Les technologies des GAFAM deviennent incontrôlables.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "036a_EARH",
+   "turn": "t0073",
+   "evidence": "des gouvernements qui pourraient essayer de contrôler comme l' union européenne sont incapables",
+   "type": "fact",
+   "status": "active",
+   "statement": "Même des gouvernements comme l'Union européenne sont incapables de contrôler les GAFAM.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "036a_EARH",
+   "turn": "t0085",
+   "evidence": "a une charte déontologique ici hein pas de conspiration",
+   "type": "fact",
+   "status": "active",
+   "statement": "093 rappelle la charte déontologique : pas de théories du complot.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réaction à une blague complotiste (puces dans les vaccins), non annotée."
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "036a_EARH",
+   "turn": "t0095",
+   "evidence": "la manière dont ils gèrent leurs employés euh un peu comme euh l' esclavage moderne",
+   "type": "fact",
+   "status": "active",
+   "statement": "Amazon est critiqué pour sa gestion des employés, comparée à de l'esclavage moderne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "036a_EARH",
+   "turn": "t0095",
+   "evidence": "un impact écologique euh euh assez grand aussi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Amazon a un fort impact écologique (livraison en un jour, camions à vide).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "036a_EARH",
+   "turn": "t0097",
+   "evidence": "pendant le le covid qui a genre ça a littéralement explosé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les commandes Amazon ont explosé pendant le Covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "036a_EARH",
+   "turn": "t0104",
+   "evidence": "pose des questions sur ben on fait quoi des commerces d' avant",
+   "type": "risk",
+   "status": "open",
+   "statement": "Amazon pose la question de l'avenir des commerces traditionnels.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "036a_EARH",
+   "turn": "t0107",
+   "evidence": "sujets assez euh se rejoignent sur plein de choses",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les quatre sujets présentés se rejoignent sur de nombreux points.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase commencée en t0105."
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "036a_EARH",
+   "turn": "t0118",
+   "evidence": "comment tous ces toutes ces entreprises privées viennent à à gouverner notre vie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Récapitulatif : les entreprises privées (GAFAM) en viennent à gouverner nos vies, question de liberté personnelle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "036a_EARH",
+   "turn": "t0124",
+   "evidence": "ça a été uniquement une une création de tiktok",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une artiste (Doja Cat, citée en t0127) a été propulsée uniquement grâce à TikTok.",
+   "owner": null,
+   "mentioned_people": [
+    "doja cat"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom de l'artiste donné en t0127."
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "036a_EARH",
+   "turn": "t0144",
+   "evidence": "on a tous besoin de de matériel beaucoup plus cher qu' avant",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Zoé, ces technologies obligent à acheter du matériel beaucoup plus cher qu'avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "036a_EARH",
+   "turn": "t0148",
+   "evidence": "ça nous crée des besoins tu veux dire ou parce_que vraiment on en a besoin",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Ces besoins sont-ils créés artificiellement ou réels ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "036a_EARH",
+   "turn": "t0149",
+   "evidence": "ouais on en a besoin parce_que par_exemple si tu travailles ou si t' es à la fac si t' as pas un ordinateur à un minimum qualitatif",
+   "type": "answer",
+   "status": "active",
+   "statement": "Réponse : ce sont de vrais besoins, un ordinateur correct est indispensable pour travailler ou étudier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "036a_EARH",
+   "turn": "t0155",
+   "evidence": "on a tous des groupes de classe on les fait sur les réseaux maintenant",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les groupes de classe se font désormais sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "036a_EARH",
+   "turn": "t0077",
+   "evidence": "ils font la moitié des ordis du monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Microsoft équiperait la moitié des ordinateurs du monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à Zoé qui dit mal connaître Microsoft."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "036b_EADH",
+   "turn": "t0001",
+   "evidence": "définir euh un thème définitif de notre événement donc de notre ted talk",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Objet de la réunion : choisir le thème définitif du TED talk (un des sujets ou un mélange).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "036b_EADH",
+   "turn": "t0003",
+   "evidence": "ben moi je pense que facebook ça regroupe un peu trop donc facebook au sens le groupe facebook du_coup méta maintenant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Paul propose Facebook / Meta comme thème, car il recoupe tous les sujets (GAFAM, IA, réseaux sociaux).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "036b_EADH",
+   "turn": "t0006",
+   "evidence": "ben amazon par_contre pas trop",
+   "type": "fact",
+   "status": "active",
+   "statement": "Zoé estime qu'Amazon ne rentre pas vraiment dans un thème Facebook.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Avis plutôt que fait ; Paul répond en t0007 avec Marketplace."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "036b_EADH",
+   "turn": "t0014",
+   "evidence": "facebook ou la manière dont il interagit dans nos vies",
+   "type": "decision",
+   "status": "active",
+   "statement": "Thème retenu : Facebook et la manière dont il interagit dans nos vies.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Formulation de 093 après accord de 092 (t0004) et 091 ; pas de vote formel."
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "036b_EADH",
+   "turn": "t0041",
+   "evidence": "facebook aux etats-unis ils étaient en mode bon on a le droit d' acheter instagram",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le rachat d'Instagram par Facebook a fait réagir le gouvernement américain (concentration).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "036b_EADH",
+   "turn": "t0067",
+   "evidence": "un titre du style l' influence planétaire de facebook",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de titre : « L'influence planétaire de Facebook ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "036b_EADH",
+   "turn": "t0071",
+   "evidence": "l' hégémonie de facebook",
+   "type": "decision",
+   "status": "active",
+   "statement": "Titre retenu : « L'hégémonie de Facebook ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par Zoé (t0068) et Marius (t0072), puis « allez » (t0073)."
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "036b_EADH",
+   "turn": "t0075",
+   "evidence": "quand est-ce_qu' on pourrait organiser notre ted talk",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quand organiser le TED talk (semaine ou week-end) ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "036b_EADH",
+   "turn": "t0078",
+   "evidence": "petit petit vendredi soir hein",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Paul propose un vendredi soir (ou un samedi).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "036b_EADH",
+   "turn": "t0081",
+   "evidence": "je pense que le vendredi soir ils n' ont pas envie les gens de venir",
+   "type": "risk",
+   "status": "open",
+   "statement": "Le vendredi soir, les gens n'auront pas envie de venir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "036b_EADH",
+   "turn": "t0082",
+   "evidence": "le jeudi soir comme ça c'est en semaine mais pas trop",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Zoé propose le jeudi soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "036b_EADH",
+   "turn": "t0086",
+   "evidence": "un jeudi soir en semaine euh ok let s go jeudi soir",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : l'événement aura lieu un jeudi soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "036b_EADH",
+   "turn": "t0087",
+   "evidence": "à quel moment de l' année vous pensez",
+   "type": "question",
+   "status": "resolved",
+   "statement": "À quel moment de l'année organiser l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "036b_EADH",
+   "turn": "t0088",
+   "evidence": "ouais au au printemps",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu au printemps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Paul (t0089) et de 093 (t0090)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "036b_EADH",
+   "turn": "t0094",
+   "evidence": "on a le budget donc pour inviter jusqu'à trois invités euh donc sachant que voilà trois invités euh à bas coût",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le budget permet d'inviter jusqu'à trois invités à bas coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "036b_EADH",
+   "turn": "t0098",
+   "evidence": "ou deux invités du_coup à moyen coût ou un invité à coût élevé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ou bien deux invités à coût moyen, ou un seul invité à coût élevé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "036b_EADH",
+   "turn": "t0102",
+   "evidence": "est-ce_que vous avez des idées de gens qu' on pourrait inviter",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui pourrait-on inviter ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "036b_EADH",
+   "turn": "t0104",
+   "evidence": "moi je pensais à thomas gauthier",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "093 propose d'inviter Thomas Gauthier.",
+   "owner": null,
+   "mentioned_people": [
+    "thomas gauthier"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "036b_EADH",
+   "turn": "t0109",
+   "evidence": "sinon il_y a + il_y a hugodecrypt",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Marius propose d'inviter Hugo Décrypte.",
+   "owner": null,
+   "mentioned_people": [
+    "hugodecrypt"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "036b_EADH",
+   "turn": "t0115",
+   "evidence": "on peut prendre des professeurs de philo et de commerce",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Zoé propose d'inviter des professeurs de philosophie et de commerce pour croiser les points de vue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "036b_EADH",
+   "turn": "t0118",
+   "evidence": "hugo décrypte il compte comme quelqu'un à moyen coût",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Hugo Décrypte serait-il un invité à coût moyen ?",
+   "owner": null,
+   "mentioned_people": [
+    "hugodecrypt"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase sans marque interrogative, traitée comme question vu la réponse t0120."
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "036b_EADH",
+   "turn": "t0120",
+   "evidence": "je pense que c'est plutôt quelqu'un à haut coût",
+   "type": "answer",
+   "status": "active",
+   "statement": "093 estime qu'Hugo Décrypte serait plutôt un invité à coût élevé.",
+   "owner": null,
+   "mentioned_people": [
+    "hugodecrypt"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "036b_EADH",
+   "turn": "t0125",
+   "evidence": "on peut prendre deux invités",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "093 suggère de prendre deux invités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "036b_EADH",
+   "turn": "t0158",
+   "evidence": "moi un invité moi je pensais au mec qui s' occupe de meta",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Paul propose d'inviter le responsable de la division Meta (métavers).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "036b_EADH",
+   "turn": "t0173",
+   "evidence": "sinon on peut inviter le maire de singapour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Marius propose d'inviter le maire de Singapour (ville qui veut entrer dans le métavers).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "036b_EADH",
+   "turn": "t0199",
+   "evidence": "s'il doit venir de singapour ça fait cher les billets d' avion",
+   "type": "risk",
+   "status": "open",
+   "statement": "Faire venir quelqu'un de Singapour coûterait cher en billets d'avion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "036b_EADH",
+   "turn": "t0208",
+   "evidence": "non mais après le maire de singapour c'était plus une blague",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Marius précise que l'idée du maire de Singapour était plutôt une blague.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "036b_EADH",
+   "turn": "t0212",
+   "evidence": "il faut qu' on prenne un interprète",
+   "type": "risk",
+   "status": "open",
+   "statement": "Un invité de Singapour nécessiterait un interprète.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "036b_EADH",
+   "turn": "t0231",
+   "evidence": "le taf de hugodecrypt genre on peut le faire nous",
+   "type": "decision",
+   "status": "active",
+   "statement": "Choix d'un seul invité : le responsable du développement du métavers chez Meta ; le groupe fera lui-même le travail de présentation façon Hugo Décrypte.",
+   "owner": null,
+   "mentioned_people": [
+    "hugodecrypt"
+   ],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord de 093 (t0232, t0240) et Zoé (t0238) ; l'invité « mec de meta » est repris dans la réunion c."
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "036b_EADH",
+   "turn": "t0290",
+   "evidence": "où est-ce_qu' on pourrait organiser notre notre ted talk selon vous est-ce qu' on fait en mode radio",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel format/lieu : radio, estrade avec public, entre nous, enregistrement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "036b_EADH",
+   "turn": "t0294",
+   "evidence": "c'est bien sur scène + on met trois fauteuils le mec de meta deux modérateurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Paul propose une scène avec trois fauteuils : l'invité de Meta et deux modérateurs, puis questions du public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "036b_EADH",
+   "turn": "t0310",
+   "evidence": "donc on aurait une vidéo et une version audio",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le TED talk aura une version vidéo et une version audio (podcast).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suit les idées podcast (t0302) et YouTube/SoundCloud (t0304)."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "036b_EADH",
+   "turn": "t0313",
+   "evidence": "il_y aurait combien de modérateurs est-ce qu' on vient tous_les quatre",
+   "type": "question",
+   "status": "open",
+   "statement": "Combien de modérateurs, tous les quatre ou une sélection ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non tranché dans b ; réponse en réunion c."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "036b_EADH",
+   "turn": "t0316",
+   "evidence": "faut la régie aussi",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut prévoir une régie (micros, technique).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "036b_EADH",
+   "turn": "t0330",
+   "evidence": "quelle va être la place de meta dans le monde en dix ans",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Question envisagée pour l'invité : quelle place pour Meta dans le monde dans dix ans (après l'avoir mis en confiance).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "036b_EADH",
+   "turn": "t0343",
+   "evidence": "on peut faire un petit appéritif à à dix-neuf vingt heures puis après début du débat à vingt-et-un heure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Marius propose un apéritif de 19h à 20h puis le débat à 21h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "036b_EADH",
+   "turn": "t0360",
+   "evidence": "ok donc on fait quoi + 19h 19h 21h de",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le débat se tiendra de 19h à 21h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par Zoé (t0361) et Marius (t0362)."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "036b_EADH",
+   "turn": "t0367",
+   "evidence": "et après buffet ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le buffet aura lieu après le débat.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "036b_EADH",
+   "turn": "t0381",
+   "evidence": "quinze minutes où on explique pourquoi euh",
+   "type": "decision",
+   "status": "active",
+   "statement": "Une introduction de quinze minutes ouvrira la soirée pour expliquer le choix du sujet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée de Marius (t0369) reprise par 093 (t0376-t0381)."
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "036b_EADH",
+   "turn": "t0380",
+   "evidence": "c'est peut-être court quinze minutes",
+   "type": "risk",
+   "status": "open",
+   "statement": "Zoé trouve que quinze minutes d'introduction, c'est peut-être court.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0000",
+   "evidence": "on va d'abord commencer par choisir une date + précise",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Choisir une date précise (jour, mois, année) pour le TED talk.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0015",
+   "evidence": "le jeudi vingt_six c'est l' ascension",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le jeudi 26 (mai) est l'Ascension, jour férié.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0040",
+   "evidence": "le cinq mai ça va à tout_le monde",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date retenue : le jeudi 5 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par Paul (« cinco de mayo », t0026), accepté par Zoé et Paul (t0042-t0044). Année non dite ; le 5 mai est un jeudi si l'Ascension tombe le 26 mai (2022), non résolu."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0050",
+   "evidence": "on on a dit podcast filmé et public",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : le format retenu est un podcast filmé avec public (pas une émission de radio).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Corrige le souvenir de 093 (« un truc de radio », t0045)."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0055",
+   "evidence": "on loue une salle euh donc il faut quand même qu' on ramène du matos",
+   "type": "decision",
+   "status": "active",
+   "statement": "On loue une salle et il faudra apporter du matériel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0084",
+   "evidence": "on a besoin d' une table ronde je suis assez partisan des tables rondes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "093 propose une table ronde sur scène.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0091",
+   "evidence": "ah en mode informel plutôt ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas de table : des fauteuils disposés en triangle, format informel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition de Zoé (t0087) acceptée ; disposition en triangle t0092."
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0144",
+   "evidence": "on a les fauteuils le micro cravate la caméra",
+   "type": "decision",
+   "status": "active",
+   "statement": "Matériel retenu : fauteuils, micros-cravates, caméra, éclairages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0132",
+   "evidence": "mais bouffe mexicaine vraiment on signe quoi les mecs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Paul propose un buffet mexicain.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0155",
+   "evidence": "on prend euh au_moins deux trois trois personnes peut-être",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "093 suggère deux ou trois serveurs pour environ 200 personnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0172",
+   "evidence": "hop huit personnes dans le service",
+   "type": "decision",
+   "status": "active",
+   "statement": "Huit personnes assureront le service au buffet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Zoé juge trois personnes insuffisant (t0159)."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0192",
+   "evidence": "dans ce cas vaut mieux pas d' alcool",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Zoé suggère de ne pas servir d'alcool si l'événement est informel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0234",
+   "evidence": "on prend des trucs en carton + biodégradable",
+   "type": "decision",
+   "status": "active",
+   "statement": "Vaisselle en carton biodégradable plutôt que du plastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite à la demande de Zoé (t0220) ; accord t0235."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0284",
+   "evidence": "moi je veux bien m' occuper des réseaux sociaux + tout ce qui est ouais promos + tracts flyers",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Marius (092, SPEAKER_1) s'occupe des réseaux sociaux, de la promotion et des flyers.",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0290",
+   "evidence": "moi je veux bien",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Zoé (099, SPEAKER_3) se charge du buffet : traiteur et organisation du service.",
+   "owner": "099",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à la question de t0289 sur le traiteur ; confirmé en t0624."
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0305",
+   "evidence": "ok ouais + je connais dédé c'est bon",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Paul (091, SPEAKER_0) s'occupe du matériel technique, avec l'aide de Dédé.",
+   "owner": "091",
+   "mentioned_people": [
+    "dédé"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0313",
+   "evidence": "moi je vais bien m' occuper de donc réserver la salle",
+   "type": "commitment",
+   "status": "active",
+   "statement": "093 se charge de réserver la salle.",
+   "owner": "093",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0342",
+   "evidence": "on le stream en live et il_y aura la redif",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le TED talk sera diffusé en direct en streaming, avec une rediffusion (YouTube, audio).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0360",
+   "evidence": "on essaie de se faire sponsoriser par + ces gens là",
+   "type": "decision",
+   "status": "active",
+   "statement": "On cherche à se faire sponsoriser par Meta et des entreprises de réalité virtuelle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0363",
+   "evidence": "même si on risque de critiquer euh leurs trucs",
+   "type": "risk",
+   "status": "open",
+   "statement": "Se faire sponsoriser par Meta alors qu'on risque de critiquer ses projets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0381",
+   "evidence": "je peux aller voir les entreprises et leur essayer de les convaincre",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Paul (091) va démarcher les entreprises pour obtenir des sponsors.",
+   "owner": "091",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0385",
+   "evidence": "moi je le fais ça",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Marius (092) gère la diffusion : stream et rediffusion YouTube.",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0402",
+   "evidence": "moi je veux bien faire l' intro",
+   "type": "commitment",
+   "status": "active",
+   "statement": "093 fera l'introduction de quinze minutes.",
+   "owner": "093",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0410",
+   "evidence": "donc SPEAKER_0 et SPEAKER_3 ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "Modérateurs : Paul (091, SPEAKER_0) et Zoé (099, SPEAKER_3).",
+   "owner": "091 + 099",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Paul volontaire (t0405), Zoé accepte (t0409)."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0436",
+   "evidence": "je peux faire la conclusion",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Marius propose de faire la conclusion pour que les quatre aient un rôle.",
+   "owner": null,
+   "mentioned_people": [
+    "092"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0504",
+   "evidence": "donc SPEAKER_0 + se sent + de gérer ça",
+   "type": "decision",
+   "status": "active",
+   "statement": "La gestion du budget revient à Paul (091), lié aux sponsors.",
+   "owner": "091",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0518",
+   "evidence": "il faut qu' ils réservent ça veut pas dire qu' ils doivent payer",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les spectateurs devront réserver leur place (gratuitement), avec contrôle du passe sanitaire (t0521).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0541",
+   "evidence": "pour le buffet on a dit qu' on prenait donc euh pizza quiche",
+   "type": "decision",
+   "status": "active",
+   "statement": "Buffet : pizzas, quiches et plats simples livrés par un traiteur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0549",
+   "evidence": "y aurait juste un choix d' alcool de de vin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Une seule option d'alcool : du vin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0555",
+   "evidence": "on pense à une capacité à peu près de deux_cent places",
+   "type": "fact",
+   "status": "active",
+   "statement": "Capacité visée de la salle : environ deux cents places, salle de type théâtre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0555",
+   "evidence": "en_ce concerne le budget c'est SPEAKER_3 donc qui + voilà qui donc comme je viens de le dire qui va s' occuper donc de faire le lien avec le traiteur",
+   "type": "fact",
+   "status": "active",
+   "statement": "Récapitulatif : sous l'étiquette « budget », Zoé (SPEAKER_3) fait le lien avec le traiteur, le menu, les serveurs et les couverts.",
+   "owner": null,
+   "mentioned_people": [
+    "099"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« budget » semble un lapsus pour « buffet » : le budget est attribué à SPEAKER_0 en t0504 et t0569."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0563",
+   "evidence": "SPEAKER_3 aussi avait pensé à faire euh envoyer un mail à la liste des à la liste d' étudiants de la fac",
+   "type": "action",
+   "status": "open",
+   "statement": "Promotion : envoyer un mail à la liste des étudiants de la fac et contacter la mairie d'Aix.",
+   "owner": null,
+   "mentioned_people": [
+    "099"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0569",
+   "evidence": "moi je m' occupe de donc je m' occuperai d' introduire et de conclure",
+   "type": "commitment",
+   "status": "active",
+   "statement": "093 fera l'introduction et la conclusion.",
+   "owner": "093",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0569",
+   "evidence": "pour le budget donc SPEAKER_0 qui servira qui servira de lien avec euh les sponsors",
+   "type": "fact",
+   "status": "active",
+   "statement": "Récapitulatif : le budget est géré par Paul (SPEAKER_0), qui fait le lien avec les sponsors (Meta ou partenaires tech).",
+   "owner": null,
+   "mentioned_people": [
+    "091"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0577",
+   "evidence": "là faut commencer à contacter le mec de de meta",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut commencer à contacter l'invité de Meta.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Aucun responsable désigné ; repris par 093 (t0594)."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0604",
+   "evidence": "un mois avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le traiteur sera contacté un mois avant l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition de Marius (t0597), notée par 093 (t0603)."
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0610",
+   "evidence": "donc peut-être deux deux mois avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Communication sur les réseaux sociaux environ deux mois avant (février-mars).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Formulé avec « peut-être » ; Marius précise « en février » (t0611)."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0618",
+   "evidence": "on est déjà à moitié du décembre là",
+   "type": "fact",
+   "status": "active",
+   "statement": "On est déjà à la mi-décembre, il reste moins de cinq mois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0634",
+   "evidence": "ok donc deux trois semaines avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les serveurs seront recrutés deux à trois semaines avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "036c_EAPH",
+   "turn": "t0637",
+   "evidence": "je peux commencer à à tout distribuer un mois et demi avant",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Marius commencera à distribuer flyers et affiches six semaines avant.",
+   "owner": "092",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-21",
+   "to": "a-14",
+   "relation": "supports",
+   "justification": "Le récapitulatif reprend l'idée que les GAFAM échappent au contrôle des gouvernements."
+  },
+  {
+   "from": "a-25",
+   "to": "a-24",
+   "relation": "answers",
+   "justification": "Zoé répond directement que ce sont de vrais besoins."
+  },
+  {
+   "from": "a-22",
+   "to": "a-08",
+   "relation": "supports",
+   "justification": "L'exemple de Doja Cat illustre la capacité de TikTok à propulser des artistes."
+  },
+  {
+   "from": "b-02",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "Paul propose Facebook comme thème fédérateur."
+  },
+  {
+   "from": "b-04",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "093 formule le thème retenu : Facebook dans nos vies."
+  },
+  {
+   "from": "b-07",
+   "to": "b-06",
+   "relation": "supersedes",
+   "justification": "Entre les deux titres proposés, le groupe tranche pour « l'hégémonie de Facebook »."
+  },
+  {
+   "from": "b-12",
+   "to": "b-08",
+   "relation": "answers",
+   "justification": "Le jeudi soir est retenu en réponse à la question de la date."
+  },
+  {
+   "from": "b-12",
+   "to": "b-09",
+   "relation": "supersedes",
+   "justification": "La décision du jeudi soir tranche contre le vendredi soir proposé."
+  },
+  {
+   "from": "b-10",
+   "to": "b-09",
+   "relation": "contradicts",
+   "justification": "Zoé objecte que personne ne viendra le vendredi soir."
+  },
+  {
+   "from": "b-14",
+   "to": "b-13",
+   "relation": "answers",
+   "justification": "Réponse : au printemps."
+  },
+  {
+   "from": "b-22",
+   "to": "b-21",
+   "relation": "answers",
+   "justification": "093 répond qu'Hugo Décrypte serait plutôt à haut coût."
+  },
+  {
+   "from": "b-29",
+   "to": "b-17",
+   "relation": "answers",
+   "justification": "Le groupe choisit l'invité : le responsable du métavers chez Meta."
+  },
+  {
+   "from": "b-29",
+   "to": "b-19",
+   "relation": "supersedes",
+   "justification": "On fera nous-mêmes le travail d'Hugo Décrypte et on invite le responsable Meta à la place."
+  },
+  {
+   "from": "b-29",
+   "to": "b-18",
+   "relation": "supersedes",
+   "justification": "La décision d'inviter le responsable Meta tranche la question de l'invité."
+  },
+  {
+   "from": "b-29",
+   "to": "b-20",
+   "relation": "supersedes",
+   "justification": "La décision d'inviter le responsable Meta tranche la question de l'invité."
+  },
+  {
+   "from": "b-29",
+   "to": "b-23",
+   "relation": "supersedes",
+   "justification": "Un seul invité est retenu (« on prend que lui », t0191) au lieu de deux."
+  },
+  {
+   "from": "b-29",
+   "to": "b-24",
+   "relation": "supports",
+   "justification": "La décision reprend la proposition de Paul d'inviter le responsable Meta."
+  },
+  {
+   "from": "b-27",
+   "to": "b-25",
+   "relation": "supersedes",
+   "justification": "Marius retire sa proposition en disant que c'était une blague."
+  },
+  {
+   "from": "b-26",
+   "to": "b-25",
+   "relation": "contradicts",
+   "justification": "Le coût des billets depuis Singapour s'oppose à l'idée du maire de Singapour."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "answers",
+   "justification": "Paul propose une scène avec fauteuils en réponse à la question du format."
+  },
+  {
+   "from": "b-32",
+   "to": "b-30",
+   "relation": "answers",
+   "justification": "Le format retenu : vidéo et version audio."
+  },
+  {
+   "from": "b-37",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "Le débat commence à 19h et non à 21h après un apéritif."
+  },
+  {
+   "from": "b-38",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "Le buffet est placé après le débat au lieu d'un apéritif avant."
+  },
+  {
+   "from": "b-40",
+   "to": "b-39",
+   "relation": "contradicts",
+   "justification": "Zoé trouve la durée de quinze minutes trop courte ; pas de changement acté."
+  },
+  {
+   "from": "c-04",
+   "to": "c-01",
+   "relation": "answers",
+   "justification": "Le 5 mai est retenu comme date précise."
+  },
+  {
+   "from": "c-04",
+   "to": "b-12",
+   "relation": "supports",
+   "justification": "Le 5 mai est un jeudi, conformément à la décision du jeudi soir."
+  },
+  {
+   "from": "c-04",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "Mai est au printemps, conformément à la décision de la réunion b."
+  },
+  {
+   "from": "c-05",
+   "to": "b-32",
+   "relation": "supports",
+   "justification": "Rappel du format podcast filmé avec public décidé en réunion b."
+  },
+  {
+   "from": "c-08",
+   "to": "c-07",
+   "relation": "supersedes",
+   "justification": "Le groupe abandonne la table ronde pour des fauteuils, format informel."
+  },
+  {
+   "from": "c-09",
+   "to": "c-08",
+   "relation": "supports",
+   "justification": "Le récapitulatif du matériel confirme les fauteuils."
+  },
+  {
+   "from": "c-12",
+   "to": "c-11",
+   "relation": "supersedes",
+   "justification": "Huit serveurs au lieu de deux ou trois, jugés insuffisants."
+  },
+  {
+   "from": "c-29",
+   "to": "c-10",
+   "relation": "supersedes",
+   "justification": "Le buffet retenu est pizza/quiche par traiteur, pas mexicain."
+  },
+  {
+   "from": "c-30",
+   "to": "c-13",
+   "relation": "supersedes",
+   "justification": "Une option vin est retenue au lieu de zéro alcool."
+  },
+  {
+   "from": "c-25",
+   "to": "b-33",
+   "relation": "answers",
+   "justification": "La question du nombre de modérateurs est tranchée : deux, Paul et Zoé."
+  },
+  {
+   "from": "c-25",
+   "to": "b-31",
+   "relation": "supports",
+   "justification": "Deux modérateurs, comme dans la proposition de mise en scène de Paul."
+  },
+  {
+   "from": "c-34",
+   "to": "c-26",
+   "relation": "supersedes",
+   "justification": "Le récapitulatif final attribue la conclusion à 093, pas à Marius."
+  },
+  {
+   "from": "c-34",
+   "to": "c-24",
+   "relation": "supports",
+   "justification": "093 confirme qu'elle fait l'introduction."
+  },
+  {
+   "from": "c-35",
+   "to": "c-27",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme que Paul gère le budget via les sponsors."
+  },
+  {
+   "from": "c-32",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme que Zoé gère le traiteur."
+  },
+  {
+   "from": "c-22",
+   "to": "c-20",
+   "relation": "supports",
+   "justification": "Paul s'engage à démarcher les sponsors."
+  },
+  {
+   "from": "c-19",
+   "to": "b-32",
+   "relation": "supports",
+   "justification": "Le streaming avec rediffusion précise le format vidéo/audio."
+  },
+  {
+   "from": "c-23",
+   "to": "c-19",
+   "relation": "supports",
+   "justification": "Marius prend en charge la diffusion décidée."
+  },
+  {
+   "from": "c-41",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "Marius, responsable des flyers, fixe le début de distribution."
+  },
+  {
+   "from": "b-29",
+   "to": "c-36",
+   "relation": "creates_action",
+   "justification": "Le choix de l'invité Meta entraîne l'action de le contacter."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "036b_EADH",
+   "text": "Quel titre a finalement été choisi pour le TED talk ?",
+   "answerable": true,
+   "qrels": {
+    "b-07": 2,
+    "b-04": 1,
+    "b-06": 0,
+    "b-01": 0
+   },
+   "traps": [
+    {
+     "unit": "b-06",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-01",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "036b_EADH",
+   "text": "Quel soir de la semaine a été retenu pour organiser l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-12": 2,
+    "b-11": 1,
+    "b-10": 1,
+    "c-04": 1,
+    "b-09": 0,
+    "c-02": 0,
+    "b-08": 0
+   },
+   "traps": [
+    {
+     "unit": "b-09",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-02",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "036b_EADH",
+   "text": "Quel intervenant le groupe a-t-il décidé de faire venir au débat ?",
+   "answerable": true,
+   "qrels": {
+    "b-29": 2,
+    "b-24": 1,
+    "c-36": 1,
+    "b-19": 0,
+    "b-18": 0,
+    "b-25": 0,
+    "b-20": 0,
+    "b-23": 0,
+    "b-17": 0
+   },
+   "traps": [
+    {
+     "unit": "b-19",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-18",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-25",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-20",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-23",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "036b_EADH",
+   "text": "Combien de personnes peut-on inviter avec le budget, selon qu'elles coûtent peu, moyennement ou cher ?",
+   "answerable": true,
+   "qrels": {
+    "b-15": 2,
+    "b-16": 2,
+    "b-22": 1,
+    "b-23": 0,
+    "b-21": 0
+   },
+   "traps": [
+    {
+     "unit": "b-23",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "036b_EADH",
+   "text": "Est-ce qu'Hugo Décrypte serait un intervenant bon marché ?",
+   "answerable": true,
+   "qrels": {
+    "b-22": 2,
+    "b-21": 1,
+    "b-19": 1,
+    "b-16": 1,
+    "b-15": 0
+   },
+   "traps": [
+    {
+     "unit": "b-15",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "036b_EADH",
+   "text": "À quelle heure commence le débat et quand a lieu le buffet ?",
+   "answerable": true,
+   "qrels": {
+    "b-37": 2,
+    "b-38": 2,
+    "b-39": 1,
+    "b-36": 0,
+    "b-40": 0
+   },
+   "traps": [
+    {
+     "unit": "b-36",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-40",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "036b_EADH",
+   "text": "Sous quelle forme l'enregistrement de la soirée sera-t-il diffusé ?",
+   "answerable": true,
+   "qrels": {
+    "b-32": 2,
+    "c-19": 2,
+    "c-05": 1,
+    "c-23": 1,
+    "b-31": 0,
+    "b-30": 0
+   },
+   "traps": [
+    {
+     "unit": "b-31",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-30",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "036b_EADH",
+   "text": "Quel est le montant en euros du budget prévu pour les invités ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "036c_EAPH",
+   "text": "Quelle date précise a été fixée pour le TED talk ?",
+   "answerable": true,
+   "qrels": {
+    "c-04": 2,
+    "b-12": 1,
+    "b-14": 1,
+    "c-02": 0,
+    "c-01": 0,
+    "c-39": 0
+   },
+   "traps": [
+    {
+     "unit": "c-02",
+     "trap": "date"
+    },
+    {
+     "unit": "c-01",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-39",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "036c_EAPH",
+   "text": "Qui est chargé de s'occuper du traiteur et des serveurs ?",
+   "answerable": true,
+   "qrels": {
+    "c-16": 2,
+    "c-32": 2,
+    "c-12": 0,
+    "c-29": 0,
+    "c-37": 0,
+    "c-40": 0,
+    "c-17": 0,
+    "c-27": 0
+   },
+   "traps": [
+    {
+     "unit": "c-17",
+     "trap": "person"
+    },
+    {
+     "unit": "c-27",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "036c_EAPH",
+   "text": "Qui gère l'argent et la recherche de partenaires financiers ?",
+   "answerable": true,
+   "qrels": {
+    "c-27": 2,
+    "c-35": 2,
+    "c-22": 2,
+    "c-20": 0,
+    "c-32": 0,
+    "c-21": 0
+   },
+   "traps": [
+    {
+     "unit": "c-32",
+     "trap": "person"
+    },
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "036c_EAPH",
+   "text": "Va-t-on servir de l'alcool au buffet ?",
+   "answerable": true,
+   "qrels": {
+    "c-30": 2,
+    "c-13": 0,
+    "c-29": 0
+   },
+   "traps": [
+    {
+     "unit": "c-13",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "036c_EAPH",
+   "text": "Qui se charge de clôturer la soirée par la conclusion ?",
+   "answerable": true,
+   "qrels": {
+    "c-34": 2,
+    "c-24": 0,
+    "c-26": 0,
+    "c-25": 0
+   },
+   "traps": [
+    {
+     "unit": "c-26",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-25",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "036c_EAPH",
+   "text": "Combien de temps avant l'événement faut-il commencer à distribuer les tracts et les affiches ?",
+   "answerable": true,
+   "qrels": {
+    "c-41": 2,
+    "c-15": 0,
+    "c-38": 0,
+    "c-40": 0,
+    "c-37": 0
+   },
+   "traps": [
+    {
+     "unit": "c-38",
+     "trap": "date"
+    },
+    {
+     "unit": "c-40",
+     "trap": "date"
+    },
+    {
+     "unit": "c-37",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "036c_EAPH",
+   "text": "Qui animera l'échange avec l'invité en tant que modérateurs ?",
+   "answerable": true,
+   "qrels": {
+    "c-25": 2,
+    "b-33": 0,
+    "b-31": 0,
+    "c-24": 0,
+    "c-23": 0
+   },
+   "traps": [
+    {
+     "unit": "c-24",
+     "trap": "person"
+    },
+    {
+     "unit": "c-23",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "036c_EAPH",
+   "text": "Quel tarif le traiteur a-t-il annoncé pour le buffet ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "091": "paul",
+  "092": "marius",
+  "099": "zoé"
+ },
+ "notes": "Réunion a en ASR, très fragmentée (tours 092/091 entremêlés sur l'IA) ; unités prises sur les tours les plus lisibles. Identités : 092 = marius (t0009), 091 = paul (t0025, t0127 de b), 099 = zoé (t0072-t0073 de a) ; en réunion c, SPEAKER_0 = 091, SPEAKER_1 = 092, SPEAKER_3 = 099 (attributions des tâches t0284-t0305, t0408-t0410). 093 (animatrice) n'est pas identifiée de façon fiable : appelée « arthur » (c t0085) et « eric » (b t0288), avec accords au féminin ; laissée sans nom. Récapitulatif c t0555 : « le budget c'est SPEAKER_3 » semble un lapsus pour le buffet (budget attribué à SPEAKER_0 en t0504 et t0569) ; annoté comme fait sur le traiteur, sans relation contradicts. Date du 5 mai : année non dite, non résolue. Choix de l'invité Meta (b-29) inféré de plusieurs tours d'accord. Blagues (complot, maire de Singapour, marketing guérilla, mariachis) laissées de côté sauf la rétractation explicite b-27. Aucune donnée personnelle sensible annotée."
 }
