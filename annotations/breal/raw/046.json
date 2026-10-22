@@ -1,0 +1,1998 @@
+{
+ "group_id": "046",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0011",
+   "evidence": "il faut trouver un thème pour un festival de cannes",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'objectif de l'exercice est de trouver un thème (genre de films) pour un festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0003",
+   "evidence": "moi je dis que le documentaire sont les meilleurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mathis défend le documentaire comme genre pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0025",
+   "evidence": "je vais vous présenter mon thème de film donc qui est comédie et romance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elisa propose le genre comédie et romance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0031",
+   "evidence": "pourquoi ne_pas prendre comédie dramatique ce cas là",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mathis suggère plutôt la comédie dramatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0036",
+   "evidence": "je pense que tout_le monde peut s' identifier dans ce genre de film",
+   "type": "fact",
+   "status": "active",
+   "statement": "Argument pour la comédie romantique : tout le monde peut s'identifier aux personnages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Opinion argumentée, annotée comme fait affirmé."
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0052",
+   "evidence": "pour l' horreur on ne peut pas s' identifier mais ça provoque des sensations",
+   "type": "fact",
+   "status": "active",
+   "statement": "Argument pour l'horreur : on ne s'identifie pas mais le genre procure des sensations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0129",
+   "evidence": "franchise et univers super héros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Solène propose le genre franchises et univers de super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0135",
+   "evidence": "les franchises super héros ça touche tout_le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Argument : les franchises de super-héros (Marvel, DC) touchent tout le monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0136",
+   "evidence": "ça ne plait pas forcément à tout_le monde ce genre de d' univers",
+   "type": "risk",
+   "status": "active",
+   "statement": "Objection : l'univers super-héros ne plaît pas à tout le monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0080",
+   "evidence": "oui mais qui est notre public",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question sur le public visé par le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0082",
+   "evidence": "on choisit que ce soit un public de jeunes",
+   "type": "answer",
+   "status": "proposed",
+   "statement": "Proposition de cibler un public de jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0158",
+   "evidence": "les jeunes voire les adolescents",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le public habituel des films d'horreur : les jeunes, voire les adolescents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à la question de la fiche (t0153), complétée sur plusieurs tours."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0153",
+   "evidence": "décrivez le public habituel de ce genre de film",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question de la fiche : décrire le public habituel de chaque genre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Consigne de l'exercice lue à voix haute."
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0185",
+   "evidence": "comme il te renseigne sur à chaque fois un nouveau sujet t' es fondamentalement jamais lassé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avantage du documentaire : un nouveau sujet à chaque fois, on ne s'en lasse pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0282",
+   "evidence": "moi j' aurais comme cible plus large les gens inactifs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mathis vise les personnes inactives comme cible du documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0286",
+   "evidence": "des gens cultivés en plus justement et pas inactifs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Cordélia estime que la cible du documentaire est plutôt des gens cultivés, pas inactifs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0288",
+   "evidence": "le format du documentaire il est un peu vieillissant",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le format documentaire est jugé vieillissant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0291",
+   "evidence": "il faut quelqu'un qui puisse rester devant un même film pendant une heure et demie",
+   "type": "risk",
+   "status": "active",
+   "statement": "Difficulté du documentaire : tenir le spectateur une heure et demie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0279",
+   "evidence": "par_rapport_au festival ça sera en public ça sera pas des enfants",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le public du festival ne sera pas composé d'enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0342",
+   "evidence": "tu vas inviter qui pour les documentaires",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui inviter au festival pour représenter les documentaires ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0345",
+   "evidence": "ceux qui les ont réalisés à la limite",
+   "type": "answer",
+   "status": "active",
+   "statement": "On pourrait inviter les réalisateurs des documentaires, à la limite.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0349",
+   "evidence": "je trouve ça grave intéressant les histoires en gros les reconstitutions",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Intérêt pour les films de reconstitution basés sur des faits réels.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0429",
+   "evidence": "le problème avec documentaire et horreur c'est que t' as pas de grands noms",
+   "type": "risk",
+   "status": "active",
+   "statement": "Documentaire et horreur n'ont pas d'acteurs têtes d'affiche à inviter.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0472",
+   "evidence": "si on organise ce festival les gens sauront qu' il_y a ces acteurs -là qui viennent",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avec les films de super-héros, le public sait que des acteurs connus viendront.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0484",
+   "evidence": "contrairement au film de super héros on peut faire sortir une tête d' affiche",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Avec l'horreur on pourrait faire émerger une nouvelle tête d'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0220",
+   "evidence": "les fanbase de super héros elles sont beaucoup plus impliquées et énervées que les fanbase de comédies romantiques",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les fans de super-héros sont plus impliqués que ceux de comédies romantiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0495",
+   "evidence": "il faut faire un compte_rendu à la fin de la réunion",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut rédiger un compte rendu à la fin de la réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0417",
+   "evidence": "est-ce qu' il faut se mettre d'accord sur un sujet ou pas",
+   "type": "question",
+   "status": "open",
+   "statement": "Faut-il se mettre d'accord sur un seul genre à l'issue de la réunion ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas de réponse claire dans cette réunion."
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "046a_EBRH",
+   "turn": "t0090",
+   "evidence": "pour tout_le monde c'est vrai que il y a plus de filles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les romances sont davantage regardées par des filles que par des garçons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase poursuivie en t0093."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0003",
+   "evidence": "pour se mettre d'accord sur les genres qu' on va sélectionner pour notre festival",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la réunion : choisir les genres retenus pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0009",
+   "evidence": "j' aurais dit qu' on prendrait pas de documentaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Solène propose d'écarter le documentaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0011",
+   "evidence": "on n' a personne à inviter",
+   "type": "fact",
+   "status": "active",
+   "statement": "Raison : pour le documentaire on n'a personne à inviter.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0014",
+   "evidence": "donc je l' aurai directement annulé ça fait plus qu' un à éliminer",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le documentaire est éliminé (accord de Mathis et Cordélia).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord exprimé en t0013 et t0020."
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0024",
+   "evidence": "je prendrais comédie romantique et horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elisa voudrait comédie romantique et horreur (elle déteste les super-héros).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0042",
+   "evidence": "si on décide de prendre l'autre salle on prend horreur",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Le choix entre super-héros et horreur dépendrait de la taille de la salle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0053",
+   "evidence": "on doit sélectionner deux jeux on a pas dit qu' il fallait qu' on les mélange",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il faut sélectionner deux genres, sans obligation de les mélanger.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« jeux » : transcription ASR pour « genres » probablement."
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0064",
+   "evidence": "tu fais monter la pression descendre la pression",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Alterner horreur et comédie pour faire monter puis redescendre la pression.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0101",
+   "evidence": "bon du_coup on prend comédie romantique et horreur",
+   "type": "decision",
+   "status": "active",
+   "statement": "Genres retenus : comédie romantique et horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0141",
+   "evidence": "on a que soixante_dix places",
+   "type": "fact",
+   "status": "active",
+   "statement": "La salle n'a que soixante-dix places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0144",
+   "evidence": "on peut même les racheter nous-mêmes pour faire augmenter les prix",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée (plaisanterie) de racheter soi-même les places pour faire monter les prix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0164",
+   "evidence": "pour moi le drive c'est vraiment pas le bon truc",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le drive-in est jugé peu adapté (pas d'interaction, vue derrière la voiture).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0174",
+   "evidence": "il reste art déco",
+   "type": "fact",
+   "status": "active",
+   "statement": "Options de salle restantes : art déco, cinéma normal, salle web.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Liste complétée en t0177-t0178."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0215",
+   "evidence": "art déco ça vous convient",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le cinéma art déco est choisi comme salle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé en t0216-t0219 (« ça va pour tout le monde », « choix du cinéma art déco »)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0240",
+   "evidence": "que c'est intimiste que ça crée une ambiance",
+   "type": "fact",
+   "status": "active",
+   "statement": "Justification du cinéma art déco : intimiste, crée une ambiance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0249",
+   "evidence": "comme il_y a moins de gens le le le le service est un peu plus personnalisé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avec moins de monde, le service est plus personnalisé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0251",
+   "evidence": "ça permet de vendre le truc à des gens vachement plus riches",
+   "type": "fact",
+   "status": "active",
+   "statement": "La petite salle permet de vendre à un public plus riche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0276",
+   "evidence": "celui-là on le met en dixième scary movie",
+   "type": "decision",
+   "status": "active",
+   "statement": "Scary Movie est placé en dixième et dernier film, pour détendre l'atmosphère.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0290",
+   "evidence": "sinon on commence un petit truc léger genre mamma mia",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Commencer par un film léger comme Mamma Mia.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0294",
+   "evidence": "ouais allez mamma mia hein ça part",
+   "type": "decision",
+   "status": "active",
+   "statement": "Mamma Mia ouvre la programmation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0338",
+   "evidence": "héritage c'est le deuxième donc du_coup maintenant love actually",
+   "type": "decision",
+   "status": "active",
+   "statement": "Héritage (Hereditary) est le deuxième film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0340",
+   "evidence": "moi j' aurais mis love actually en quatrième",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mathis voudrait Love Actually en quatrième position.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0350",
+   "evidence": "il faut toujours qu' il_y ait un sur deux je pense",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Alterner un film d'horreur sur deux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0398",
+   "evidence": "on peut partir sur un classique les warren un truc comme ça un annabelle un conjuring",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de films d'horreur classiques : Annabelle, Conjuring.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0401",
+   "evidence": "j' en ai un il est vraiment pas mal il s' appelle mama",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elisa propose le film d'horreur Mama.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non retenu dans le récapitulatif final."
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0411",
+   "evidence": "il faudra mettre genre un film genre ça pour pouvoir inviter l' acteur qui est plus ou moins connu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Choisir des films d'horreur dont l'acteur est assez connu pour être invité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0430",
+   "evidence": "c'est pas forcément dans l' ordre bon on met you",
+   "type": "decision",
+   "status": "active",
+   "statement": "La série You est ajoutée à la programmation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0487",
+   "evidence": "on va le mettre en en huitième",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Annabelle envisagé en huitième position.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0505",
+   "evidence": "tout_le monde regarde des trucs netflix genre the kissing booth",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de The Kissing Booth comme comédie romantique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0592",
+   "evidence": "en premier nous avons mamma mia",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Mamma Mia en premier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0601",
+   "evidence": "en troisième nous avons love actually",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Love Actually en troisième.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0610",
+   "evidence": "en sixième the kissing booth en septième annabelle en huitième friends",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : The Kissing Booth 6e, Annabelle 7e, Friends 8e.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Conjuring 4e et You 5e énoncés en t0604-t0608."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0612",
+   "evidence": "the kissing booth tu descends là faudrait un truc qui remonte",
+   "type": "risk",
+   "status": "active",
+   "statement": "Après Conjuring et You, The Kissing Booth fait trop retomber l'ambiance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0632",
+   "evidence": "moi j' aurais mis you puis après the conjuring et après the kissing booth",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mathis proposerait l'ordre You, Conjuring, The Kissing Booth.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Cordélia propose un autre ordre en t0630 ; non tranché."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0691",
+   "evidence": "ouais dix jours deux par jour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Durée envisagée : dix jours, deux films par jour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0702",
+   "evidence": "bon on va dire ouais à peu près cinq jours",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Durée envisagée : environ cinq jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Remis en question ensuite (t0739-t0743)."
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0718",
+   "evidence": "autant les diffuser au_moins deux fois chacun",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Diffuser chaque film deux fois (séance acteurs/riches et séance grand public) pour amortir les droits.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0743",
+   "evidence": "bien du coup dix ou cinq",
+   "type": "question",
+   "status": "open",
+   "statement": "Le festival dure-t-il dix ou cinq jours ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non tranché dans cette réunion."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0751",
+   "evidence": "qui ramène plus de monde c'est pour ça qu' on a choisi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les films ont été choisis pour inviter des acteurs qui attirent du monde (ex. l'acteur de Rick).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "046b_EBDH",
+   "turn": "t0799",
+   "evidence": "il_y a annabelle qui et c'est les mêmes acteurs que the conjuring",
+   "type": "fact",
+   "status": "active",
+   "statement": "Annabelle et Conjuring partagent les mêmes acteurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0006",
+   "evidence": "alors j aurais dit été",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Solène propose l'été pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0013",
+   "evidence": "en plein été ça va être l angoisse",
+   "type": "risk",
+   "status": "active",
+   "statement": "Organiser en plein été serait pénible (chaleur).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0022",
+   "evidence": "c'est en blablabla c'est en avril",
+   "type": "answer",
+   "status": "active",
+   "statement": "Selon Elisa, le festival de Cannes a lieu en avril.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à t0020 ; affirmation annotée telle que dite."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0028",
+   "evidence": "on le fait après je pense en vrai vers mai",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire le festival après Cannes, vers mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0038",
+   "evidence": "donc mai deux_mille_vingt_trois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu en mai 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Après « on se laisse une petite année » (t0035)."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0041",
+   "evidence": "on le fait sur cinq jours du_coup on a dit",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival dure cinq jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé en t0063-t0066."
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0077",
+   "evidence": "seize au vingt mai",
+   "type": "decision",
+   "status": "active",
+   "statement": "Dates du festival : du 16 au 20 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par Solène (t0067) et Cordélia (t0069)."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0070",
+   "evidence": "comme ça on passe en été pendant le pendant le festival",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elisa pense que le festival chevauchera le début de l'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0074",
+   "evidence": "en été pas du tout c'est en mai",
+   "type": "fact",
+   "status": "active",
+   "statement": "Correction : le festival en mai ne passe pas en été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Elisa admet l'erreur en t0083."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0110",
+   "evidence": "mais vraiment on le fait à new york",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se fera au MoMA à New York.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord en t0111 et t0131 (« c'est parti alors »)."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0125",
+   "evidence": "tâche un réserver le moma",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche 1 : réserver le MoMA.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0136",
+   "evidence": "le moma bon du_coup la limite de place de soixante_dix personnes",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Au MoMA, la limite de soixante-dix places ne tient plus vraiment.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Suite en t0139 « on compte pas trop dessus » : statut ambigu."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0149",
+   "evidence": "il faut il faut acheter les droits d auteur",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut acheter les droits d'auteur des films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0160",
+   "evidence": "des locations des euh des des des chaises des vidéoprojecteurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Matériel à louer : chaises, vidéoprojecteurs, projecteurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0166",
+   "evidence": "on va pas mettre des chaises on va mettre des fauteuils",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le public sera assis dans des fauteuils et non des chaises.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord en t0167."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0200",
+   "evidence": "au_lieu de traiteur sécurité tu mets service entre parenthèses traiteur sécurité euh accueil",
+   "type": "decision",
+   "status": "active",
+   "statement": "Tâche « service » regroupant traiteur, sécurité et accueil.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0225",
+   "evidence": "les critiques de films euh on va sortir aucun film nouveau",
+   "type": "fact",
+   "status": "active",
+   "statement": "Aucun film nouveau ne sera présenté, donc les critiques sont peu utiles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0251",
+   "evidence": "si tu fais la com trop tôt les gens ils vont oublier",
+   "type": "risk",
+   "status": "active",
+   "statement": "Communiquer trop tôt ferait oublier l'événement ; la faire deux ou trois mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0290",
+   "evidence": "je propose que tu gères l aspect que les enfin l aspect où en gros ceux qui doivent parler de nous faut qu ils se sentent bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Mathis propose qu'Elisa s'occupe du bien-être des invités qui feront parler du festival.",
+   "owner": null,
+   "mentioned_people": [
+    "119"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0307",
+   "evidence": "c'est pas une tâche à part entière",
+   "type": "decision",
+   "status": "active",
+   "statement": "Prendre soin des invités n'est pas une tâche distincte ; c'est réparti sur le service.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Cordélia approuve en t0308."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0325",
+   "evidence": "faut inviter aucun acteur problématique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Ne pas inviter d'acteurs ou d'influenceurs à polémiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé en t0332."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0359",
+   "evidence": "c'est toute l équipe qui doit s en occuper euh avec les la compta",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le budget est établi par toute l'équipe avec la comptabilité.",
+   "owner": "117 + 118 + 119 + 120",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé en t0387-t0388 (« tout le monde »)."
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0379",
+   "evidence": "dix-huit mars euh deux_mille_vingt_deux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le budget démarre le 18 mars 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0408",
+   "evidence": "bon du_coup je m occupe de convaincre le moma de nous filer une salle gratos",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Mathis s'occupe de convaincre le MoMA de leur louer la salle.",
+   "owner": "118",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0414",
+   "evidence": "enfin gratos on va les payer hein",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le MoMA sera payé, pas obtenu gratuitement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0452",
+   "evidence": "ça je m en occupe euh le trois vingt_deux",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Mathis réserve le MoMA à partir du 25/03/22, une semaine après le début du budget.",
+   "owner": "118",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Date issue de t0441-t0445 (dix-huit plus sept = vingt-cinq)."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0471",
+   "evidence": "avant de contacter les invités et le service faut peut-être acheter les droits d auteur",
+   "type": "decision",
+   "status": "active",
+   "statement": "Acheter les droits d'auteur avant de contacter invités et service.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté en t0472-t0474."
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0493",
+   "evidence": "ok ben droit d auteur c'est moi",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Solène prend en charge l'achat des droits d'auteur.",
+   "owner": "117",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0496",
+   "evidence": "on leur bloque cinq jours de leur vie quand même ils sont peut-être en tournage",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les acteurs invités risquent d'être indisponibles (tournage) sur cinq jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0518",
+   "evidence": "trois semaines pour avoir le moma ça part",
+   "type": "decision",
+   "status": "active",
+   "statement": "Mathis a trois semaines pour obtenir le MoMA.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0522",
+   "evidence": "je te mets je te mets ça le vingt avril ça te passe",
+   "type": "decision",
+   "status": "active",
+   "statement": "Échéance des droits d'auteur pour Solène : le 20 avril.",
+   "owner": "117",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Solène accepte en t0523."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0528",
+   "evidence": "je peux me charger de contacter les invités",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Cordélia se charge de contacter les invités.",
+   "owner": "120",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé en t0536."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0530",
+   "evidence": "moi j organise tout genre euh traiteur tout ça tout ça",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Elisa s'occupe des services (traiteur, etc.).",
+   "owner": "119",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé en t0533-t0534."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0569",
+   "evidence": "cordélia qui doit contacter les invités le quinze mai",
+   "type": "decision",
+   "status": "active",
+   "statement": "Cordélia contacte les invités à partir du 15 mai.",
+   "owner": "120",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0621",
+   "evidence": "je me laisse jusqu'au trente",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Mathis se donne jusqu'au 30 pour obtenir le MoMA (environ quinze jours).",
+   "owner": "118",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Mois non précisé ; « ça me fait quinze jours » (t0623)."
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0625",
+   "evidence": "donc service elisa c'est deux mois après",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les services (Elisa) démarrent deux mois après les invitations, en juin/juillet.",
+   "owner": "119",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "t0627 « en juin » ; t0585 évoque juillet : mois ambigu."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0633",
+   "evidence": "d'ici décembre en_fait il faut être sûr d avoir les acteurs le service et les droits d auteur",
+   "type": "decision",
+   "status": "active",
+   "statement": "Acteurs, service et droits d'auteur doivent être confirmés d'ici décembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0676",
+   "evidence": "solène je te mets en même temps que elisa",
+   "type": "decision",
+   "status": "active",
+   "statement": "Solène s'occupe du matériel, en parallèle du service d'Elisa.",
+   "owner": "117",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Solène s'était proposée en t0654."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0735",
+   "evidence": "dix janvier c'est pas mal euh ça fait propre du_coup deux mille vingt-trois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les journalistes sont contactés le 10 janvier 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "046c_EBPH",
+   "turn": "t0752",
+   "evidence": "tu prends les journalistes ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "Cordélia prend en charge les journalistes.",
+   "owner": "120",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposée par elle-même en t0750."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-11",
+   "to": "a-10",
+   "relation": "answers",
+   "justification": "Proposition d'un public de jeunes en réponse à « qui est notre public »."
+  },
+  {
+   "from": "a-12",
+   "to": "a-13",
+   "relation": "answers",
+   "justification": "Les jeunes/adolescents décrivent le public de l'horreur demandé par la fiche."
+  },
+  {
+   "from": "a-21",
+   "to": "a-20",
+   "relation": "answers",
+   "justification": "Les réalisateurs sont proposés comme invités pour les documentaires."
+  },
+  {
+   "from": "a-16",
+   "to": "a-15",
+   "relation": "contradicts",
+   "justification": "Cible du documentaire : gens cultivés et pas inactifs contre gens inactifs ; non tranché."
+  },
+  {
+   "from": "a-09",
+   "to": "a-08",
+   "relation": "contradicts",
+   "justification": "Les super-héros ne plaisent pas à tout le monde contre ils touchent tout le monde."
+  },
+  {
+   "from": "a-23",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "b-03 rappelle « comme on l'a dit à la réunion précédente » l'absence de noms à inviter, dite en a-23."
+  },
+  {
+   "from": "b-03",
+   "to": "b-02",
+   "relation": "supports",
+   "justification": "Raison donnée pour écarter le documentaire."
+  },
+  {
+   "from": "b-04",
+   "to": "b-02",
+   "relation": "supports",
+   "justification": "Le documentaire est effectivement éliminé avec l'accord du groupe."
+  },
+  {
+   "from": "b-04",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "Décision d'éliminer le documentaire défendu en réunion a."
+  },
+  {
+   "from": "b-09",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "La décision reprend comédie romantique et horreur proposées par Elisa."
+  },
+  {
+   "from": "b-09",
+   "to": "a-03",
+   "relation": "supports",
+   "justification": "La comédie romantique proposée en a est retenue."
+  },
+  {
+   "from": "b-09",
+   "to": "a-07",
+   "relation": "supersedes",
+   "justification": "Le choix comédie romantique + horreur tranche contre les super-héros."
+  },
+  {
+   "from": "b-09",
+   "to": "a-04",
+   "relation": "supersedes",
+   "justification": "Le choix tranche pour la comédie romantique plutôt que la comédie dramatique."
+  },
+  {
+   "from": "b-15",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "Justification du choix du cinéma art déco."
+  },
+  {
+   "from": "b-16",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "Argument du service personnalisé pour l'art déco."
+  },
+  {
+   "from": "b-17",
+   "to": "b-14",
+   "relation": "supports",
+   "justification": "Argument de clientèle plus riche pour la petite salle."
+  },
+  {
+   "from": "b-20",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Mamma Mia retenu en ouverture comme proposé."
+  },
+  {
+   "from": "b-30",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Mamma Mia en premier."
+  },
+  {
+   "from": "b-31",
+   "to": "b-22",
+   "relation": "supersedes",
+   "justification": "Love Actually acté en troisième au lieu de la quatrième place proposée."
+  },
+  {
+   "from": "b-32",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "Annabelle passe de la huitième place envisagée à la septième dans le récapitulatif."
+  },
+  {
+   "from": "b-34",
+   "to": "b-32",
+   "relation": "contradicts",
+   "justification": "Ordre You/Conjuring/Kissing Booth proposé contre l'ordre du récapitulatif ; non tranché."
+  },
+  {
+   "from": "b-36",
+   "to": "b-35",
+   "relation": "contradicts",
+   "justification": "Cinq jours contre dix jours ; la question reste ouverte (b-38)."
+  },
+  {
+   "from": "c-06",
+   "to": "b-38",
+   "relation": "answers",
+   "justification": "La réunion c tranche : cinq jours."
+  },
+  {
+   "from": "c-06",
+   "to": "b-35",
+   "relation": "supersedes",
+   "justification": "Cinq jours actés au lieu des dix jours envisagés."
+  },
+  {
+   "from": "c-06",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Confirme la durée d'environ cinq jours."
+  },
+  {
+   "from": "c-05",
+   "to": "c-01",
+   "relation": "supersedes",
+   "justification": "Mai 2023 tranche la question de la saison où l'été était proposé."
+  },
+  {
+   "from": "c-05",
+   "to": "c-04",
+   "relation": "supports",
+   "justification": "Mai retenu comme proposé."
+  },
+  {
+   "from": "c-07",
+   "to": "c-05",
+   "relation": "supports",
+   "justification": "Les dates du 16 au 20 précisent le mois de mai."
+  },
+  {
+   "from": "c-09",
+   "to": "c-08",
+   "relation": "supersedes",
+   "justification": "Correction acceptée (t0083) : le festival en mai ne passe pas en été."
+  },
+  {
+   "from": "c-10",
+   "to": "b-14",
+   "relation": "supersedes",
+   "justification": "Le lieu passe du cinéma art déco au MoMA ; t0417 rappelle « on a juste dit art déco à la base »."
+  },
+  {
+   "from": "c-10",
+   "to": "c-11",
+   "relation": "creates_action",
+   "justification": "Le choix du MoMA donne lieu à la tâche « réserver le MoMA »."
+  },
+  {
+   "from": "c-15",
+   "to": "c-14",
+   "relation": "supersedes",
+   "justification": "« on va pas mettre des chaises on va mettre des fauteuils »."
+  },
+  {
+   "from": "c-20",
+   "to": "c-19",
+   "relation": "supersedes",
+   "justification": "Le groupe tranche que prendre soin des invités n'est pas une tâche à part."
+  },
+  {
+   "from": "c-23",
+   "to": "c-22",
+   "relation": "supports",
+   "justification": "Date de lancement du budget."
+  },
+  {
+   "from": "c-24",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Mathis prend en charge la réservation du MoMA."
+  },
+  {
+   "from": "c-25",
+   "to": "c-24",
+   "relation": "contradicts",
+   "justification": "Le MoMA sera payé, alors que Mathis parle d'une salle gratuite."
+  },
+  {
+   "from": "c-26",
+   "to": "c-24",
+   "relation": "supports",
+   "justification": "Date de prise en charge de la réservation du MoMA par Mathis."
+  },
+  {
+   "from": "c-28",
+   "to": "c-13",
+   "relation": "supports",
+   "justification": "Solène prend en charge l'achat des droits d'auteur."
+  },
+  {
+   "from": "c-31",
+   "to": "c-28",
+   "relation": "supports",
+   "justification": "Échéance fixée pour la tâche droits d'auteur de Solène."
+  },
+  {
+   "from": "c-35",
+   "to": "c-30",
+   "relation": "supersedes",
+   "justification": "Mathis remplace les trois semaines par une échéance au 30 (environ quinze jours)."
+  },
+  {
+   "from": "c-34",
+   "to": "c-32",
+   "relation": "supports",
+   "justification": "Date de la prise de contact par Cordélia."
+  },
+  {
+   "from": "c-33",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Elisa prend en charge la tâche service."
+  },
+  {
+   "from": "c-36",
+   "to": "c-33",
+   "relation": "supports",
+   "justification": "Calendrier de la tâche service d'Elisa."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "046c_EBPH",
+   "text": "Sur quelles dates précises le festival de films est-il programmé ?",
+   "answerable": true,
+   "qrels": {
+    "c-07": 2,
+    "c-05": 1,
+    "c-06": 1,
+    "c-01": 0,
+    "c-08": 0,
+    "c-03": 0,
+    "c-23": 0
+   },
+   "traps": [
+    {
+     "unit": "c-01",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-08",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-03",
+     "trap": "date"
+    },
+    {
+     "unit": "c-23",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "046c_EBPH",
+   "text": "Qui se charge d'obtenir le MoMA et quelle échéance s'est-il fixée ?",
+   "answerable": true,
+   "qrels": {
+    "c-24": 2,
+    "c-35": 2,
+    "c-26": 1,
+    "c-11": 1,
+    "c-30": 0,
+    "c-25": 0,
+    "c-28": 0
+   },
+   "traps": [
+    {
+     "unit": "c-30",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-28",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "046c_EBPH",
+   "text": "Qui doit prendre contact avec les invités du festival, et à partir de quelle date ?",
+   "answerable": true,
+   "qrels": {
+    "c-32": 2,
+    "c-34": 2,
+    "c-27": 1,
+    "c-40": 0,
+    "c-33": 0,
+    "c-31": 0
+   },
+   "traps": [
+    {
+     "unit": "c-40",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-33",
+     "trap": "person"
+    },
+    {
+     "unit": "c-31",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "046c_EBPH",
+   "text": "Où le festival se tiendra-t-il finalement, après le choix de salle de la réunion précédente ?",
+   "answerable": true,
+   "qrels": {
+    "c-10": 2,
+    "c-11": 1,
+    "b-14": 1,
+    "b-12": 0,
+    "b-13": 0,
+    "c-12": 0
+   },
+   "traps": [
+    {
+     "unit": "b-12",
+     "trap": "status"
+    },
+    {
+     "unit": "b-13",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-12",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "046c_EBPH",
+   "text": "Le festival durera-t-il cinq ou dix jours au bout du compte ?",
+   "answerable": true,
+   "qrels": {
+    "c-06": 2,
+    "b-36": 1,
+    "c-07": 1,
+    "b-35": 0,
+    "b-38": 0,
+    "b-37": 0
+   },
+   "traps": [
+    {
+     "unit": "b-35",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-38",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "046c_EBPH",
+   "text": "Sur quel type de sièges le public sera-t-il installé ?",
+   "answerable": true,
+   "qrels": {
+    "c-15": 2,
+    "c-14": 0
+   },
+   "traps": [
+    {
+     "unit": "c-14",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "046c_EBPH",
+   "text": "Quel problème pourrait empêcher les acteurs invités de venir ?",
+   "answerable": true,
+   "qrels": {
+    "c-29": 2,
+    "c-21": 0,
+    "b-03": 0,
+    "a-23": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-03",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-23",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "046c_EBPH",
+   "text": "Quel prestataire de traiteur a été retenu pour le festival ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "117": "solène (incertain)",
+  "118": "mathis",
+  "119": "elisa (incertain)",
+  "120": "cordélia (incertain)"
+ },
+ "notes": "Groupe de 3 réunions (a, b ASR ; c manuelle) sur l'organisation fictive d'un festival de films. Identités déduites des interpellations (« mathis » en a-t0340, « solène je vous laisse la parole » en b-t0005, « cordélia qui doit contacter les invités », « service elisa »). Cas ambigus : mois de l'échéance MoMA (« jusqu'au trente »), mois de début du service (juin ou juillet), limite de 70 places au MoMA, ordre final des films en b (deux ordres concurrents). Le lieu art déco (b) est remplacé par le MoMA (c). Passages personnels (souvenirs familiaux, lycée) non annotés."
+}
