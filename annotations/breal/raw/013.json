@@ -1,0 +1,2202 @@
+{
+ "group_id": "013",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "013a_EARD",
+   "turn": "t0005",
+   "evidence": "les gens ont tendance à euh dire un peu tout et n'importe quoi parce_qu' ils sont derrière un écran",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Anne, sur les réseaux sociaux les gens disent n'importe quoi parce qu'ils sont derrière un écran.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "avis personnel"
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "013a_EARD",
+   "turn": "t0014",
+   "evidence": "il_y a des modérations qui sont faites mais qui sont peut-être pas suffisantes encore au jour d' aujourd'hui",
+   "type": "risk",
+   "status": "active",
+   "statement": "La modération des réseaux sociaux est jugée encore insuffisante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "013a_EARD",
+   "turn": "t0015",
+   "evidence": "il_y a beaucoup de boycott qui sont mis en place sur amazon parce_qu' on dit que ça tue nos petits commerces",
+   "type": "fact",
+   "status": "active",
+   "statement": "Amazon fait l'objet de boycotts au motif qu'il tuerait les petits commerces.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "013a_EARD",
+   "turn": "t0015",
+   "evidence": "il s' avère que c'est faux étant donné que les petits commerces s' inscrivent sur amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "Christophe estime que c'est faux puisque les petits commerces vendent eux-mêmes sur Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "phrase dupliquée par l'ASR dans le tour"
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "013a_EARD",
+   "turn": "t0017",
+   "evidence": "ça leur permet de continuer à vendre malgré tout",
+   "type": "fact",
+   "status": "active",
+   "statement": "Amazon a permis aux petits commerces de continuer à vendre pendant la crise récente.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "013a_EARD",
+   "turn": "t0020",
+   "evidence": "à fournir de_plus en plus de services gratuits des services de mail des services de travail collaboratif",
+   "type": "fact",
+   "status": "active",
+   "statement": "Google fournit de plus en plus de services gratuits (mail, travail collaboratif).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "013a_EARD",
+   "turn": "t0030",
+   "evidence": "ça permet vraiment de partir à l' étranger avec un recours possible",
+   "type": "fact",
+   "status": "active",
+   "statement": "Booking permet de voyager à l'étranger avec un recours en cas de problème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "013a_EARD",
+   "turn": "t0032",
+   "evidence": "ceux qui voudraient créer une concurrence à côté ça va être très difficile très compliqué pour eux",
+   "type": "risk",
+   "status": "active",
+   "statement": "La taille des GAFAM rend très difficile l'apparition de concurrents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "013a_EARD",
+   "turn": "t0034",
+   "evidence": "il_y a de la méchanceté gratuite qui qui est diffusée qui peut faire énormément de mal",
+   "type": "risk",
+   "status": "active",
+   "statement": "La méchanceté gratuite diffusée sur les réseaux sociaux peut faire beaucoup de mal.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "013a_EARD",
+   "turn": "t0041",
+   "evidence": "elles ont pris une importance qui est peut-être un petit peu trop grande dans dans le monde d' aujourd'hui",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les GAFAM ont pris une importance trop grande.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "013a_EARD",
+   "turn": "t0044",
+   "evidence": "si on arrivait peut-être à les limiter ou à augmenter la concurrence qui existe entre ces services",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Limiter les GAFAM ou augmenter la concurrence, éventuellement par la réglementation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "013a_EARD",
+   "turn": "t0045",
+   "evidence": "est-ce qu' on est arrivé jusqu'au bout du temps ou est-ce_qu' on continue",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Le temps de discussion est-il écoulé ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "réponse t0046 trop courte pour une unité (« jusqu'à vingt_trois »)"
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "013a_EARD",
+   "turn": "t0047",
+   "evidence": "on peut passer thème open source",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le groupe passe au thème de l'open source.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "proposé par 044 et suivi immédiatement par le groupe"
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "013a_EARD",
+   "turn": "t0047",
+   "evidence": "est-ce_que vous savez ce que c'est l' open source",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Les participants savent-ils ce qu'est l'open source ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "013a_EARD",
+   "turn": "t0048",
+   "evidence": "non il va falloir que tu nous expliques",
+   "type": "answer",
+   "status": "active",
+   "statement": "Non, Marie demande une explication.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "013a_EARD",
+   "turn": "t0052",
+   "evidence": "créer un logiciel et partager tout_le code qu' il_y a derrière",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'open source consiste à partager tout le code d'un logiciel au lieu de le garder secret.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "013a_EARD",
+   "turn": "t0057",
+   "evidence": "est-ce que wikipédia c'est un peu ça ou pas du tout",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Wikipédia relève-t-il de l'open source ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "013a_EARD",
+   "turn": "t0062",
+   "evidence": "c'est pas du code source mais par_contre pour les connaissances c'est le même principe",
+   "type": "answer",
+   "status": "active",
+   "statement": "Oui pour les connaissances : ce n'est pas du code mais c'est le même principe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "013a_EARD",
+   "turn": "t0067",
+   "evidence": "il_y a gimp peut-être que vous connaissez c'est l' équivalent de photoshop",
+   "type": "fact",
+   "status": "active",
+   "statement": "GIMP est l'équivalent open source de Photoshop.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "013a_EARD",
+   "turn": "t0086",
+   "evidence": "c'est un petit peu moins efficace que que des suites qu' on vend",
+   "type": "fact",
+   "status": "active",
+   "statement": "OpenOffice est un peu moins efficace que les suites payantes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "013a_EARD",
+   "turn": "t0089",
+   "evidence": "c'est compatible avec microsoft et c'est entièrement gratuit",
+   "type": "fact",
+   "status": "active",
+   "statement": "OpenOffice est compatible avec Microsoft et entièrement gratuit.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "013a_EARD",
+   "turn": "t0090",
+   "evidence": "qui c'est qui s' occupe de tout gérer",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui gère les projets open source ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "013a_EARD",
+   "turn": "t0091",
+   "evidence": "c'est des associations c'est des c'est plein de membres de gens qui travaillent ensemble",
+   "type": "answer",
+   "status": "active",
+   "statement": "Des associations et de nombreux membres qui travaillent ensemble, en général bénévolement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "013a_EARD",
+   "turn": "t0094",
+   "evidence": "et ils gagnent leur vie comment",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Comment les contributeurs open source gagnent-ils leur vie ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "013a_EARD",
+   "turn": "t0095",
+   "evidence": "avec un travail à côté en_général je pense pas qu' il vienne beaucoup d' argent avec ça",
+   "type": "answer",
+   "status": "active",
+   "statement": "Avec un travail à côté ; l'open source rapporte peu d'argent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "013a_EARD",
+   "turn": "t0102",
+   "evidence": "wikipédia demande une participation maintenant",
+   "type": "fact",
+   "status": "active",
+   "statement": "Wikipédia demande désormais une participation financière.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "013a_EARD",
+   "turn": "t0105",
+   "evidence": "ils veulent éviter eux wikipédia donc ils demandent des des donations",
+   "type": "fact",
+   "status": "active",
+   "statement": "Wikipédia demande des dons pour payer ses serveurs sans publicité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "013a_EARD",
+   "turn": "t0111",
+   "evidence": "c'est gratuit tout_le monde peut l' installer sur n'importe quelle machine",
+   "type": "fact",
+   "status": "active",
+   "statement": "Linux est gratuit et installable sur n'importe quelle machine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "013a_EARD",
+   "turn": "t0113",
+   "evidence": "plus compliqué à maintenir aussi",
+   "type": "risk",
+   "status": "active",
+   "statement": "Linux est plus compliqué à maintenir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "013a_EARD",
+   "turn": "t0123",
+   "evidence": "maintenue depuis plus de trente ans quarante ans",
+   "type": "fact",
+   "status": "active",
+   "statement": "OpenGL, bibliothèque graphique, est maintenue depuis plus de trente ou quarante ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "objet (opengl) nommé en t0119"
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "013a_EARD",
+   "turn": "t0137",
+   "evidence": "openal aussi donc c'est la même chose mais pour le son",
+   "type": "fact",
+   "status": "active",
+   "statement": "OpenAL est l'équivalent d'OpenGL pour le son.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "013a_EARD",
+   "turn": "t0144",
+   "evidence": "il_y a d'autres développeurs qui viennent qui rectifient qui corrigent qui améliorent",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des développeurs corrigent et améliorent le code partagé par d'autres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "013a_EARD",
+   "turn": "t0148",
+   "evidence": "aux sites qui sont mis en ligne par par_exemple par les enseignants qui partagent leur travail",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les sites d'enseignants qui partagent leur travail relèveraient aussi de l'open source.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "confirmé t0149"
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "013a_EARD",
+   "turn": "t0174",
+   "evidence": "il_y a énormément de gens qui travaillent avec amazon petits artisans de toutes sortes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Beaucoup de petits artisans vendent via Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "013a_EARD",
+   "turn": "t0183",
+   "evidence": "faut pas vendre quelque_chose que t' as pas",
+   "type": "risk",
+   "status": "active",
+   "statement": "Sur ces plateformes il ne faut pas vendre ce qu'on n'a pas en stock.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "013a_EARD",
+   "turn": "t0190",
+   "evidence": "il_y a des sites comme etsy qui sont plus adaptés aux petits et plus petits créateurs",
+   "type": "fact",
+   "status": "active",
+   "statement": "Etsy est plus adapté aux petits créateurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "013a_EARD",
+   "turn": "t0194",
+   "evidence": "fabrique des bijoux et que comme en_tant_que créatrice elle s' était mise sur cette ce site de vente en ligne",
+   "type": "fact",
+   "status": "active",
+   "statement": "La nièce d'Anne, créatrice de bijoux, vend sur Etsy.",
+   "owner": null,
+   "mentioned_people": [
+    "nièce de 042"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "début de la phrase en t0192"
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "013a_EARD",
+   "turn": "t0201",
+   "evidence": "little market a été racheté ou du moins englobé dans etsy",
+   "type": "fact",
+   "status": "active",
+   "statement": "Little Market a été racheté ou intégré par Etsy.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "013a_EARD",
+   "turn": "t0208",
+   "evidence": "les avis sont tellement importants là-dedans",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les avis des acheteurs sont déterminants ; un avis négatif est difficile à remonter.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "013a_EARD",
+   "turn": "t0217",
+   "evidence": "faut surtout pas qu' il_y ait un deuxième acheteur derrière qui veuille acheter la pièce déjà vendue",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de vendre deux fois une pièce unique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "013b_EADD",
+   "turn": "t0003",
+   "evidence": "est-ce que ce serait plutôt un thème de gafam des réseaux sociaux ou open source",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel thème choisir pour l'événement : GAFAM, réseaux sociaux ou open source ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "013b_EADD",
+   "turn": "t0006",
+   "evidence": "ce serait plus ouais orienté sur les réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Christophe propose un événement orienté réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "013b_EADD",
+   "turn": "t0006",
+   "evidence": "utiliser potentiellement donc les outils google",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Utiliser les outils Google pour gérer l'organisation (liste des invités).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "suite en t0008"
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "013b_EADD",
+   "turn": "t0019",
+   "evidence": "je sais pas si on organise chacun un événement ou si on organise un événement tous ensemble",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Chacun organise-t-il un événement ou un seul pour tous ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "013b_EADD",
+   "turn": "t0020",
+   "evidence": "on organise un un un événement tous ensemble",
+   "type": "answer",
+   "status": "active",
+   "statement": "Un seul événement organisé tous ensemble.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "013b_EADD",
+   "turn": "t0029",
+   "evidence": "une organisation d' un événement où on expliquerait aux gens comment utiliser les réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Un événement pour expliquer comment utiliser les réseaux sociaux (experts LinkedIn).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "013b_EADD",
+   "turn": "t0031",
+   "evidence": "faire venir des gens qu' on connaît très bien virtuellement mais qu' on connaît absolument pas humainement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire venir des personnes connues en ligne pour les découvrir en vrai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "013b_EADD",
+   "turn": "t0032",
+   "evidence": "tu sponsorises et tu payes tout ton événement comme ça",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Financer l'événement par des sponsors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "013b_EADD",
+   "turn": "t0040",
+   "evidence": "créer un événement donc d' information sur le fonctionnement d' amazon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Christophe propose un événement d'information sur le fonctionnement d'Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "013b_EADD",
+   "turn": "t0045",
+   "evidence": "on repartirait sur les gafam plutôt que les réseaux sociaux on utiliserait les réseaux sociaux comme outils",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Revenir au thème GAFAM, les réseaux sociaux servant d'outils.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "013b_EADD",
+   "turn": "t0057",
+   "evidence": "on partirait plutôt sur amazon comment utiliser amazon on inviterait des invités qui connaissent bien amazon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le groupe part sur Amazon, avec des invités qui le connaissent bien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "013b_EADD",
+   "turn": "t0060",
+   "evidence": "on invite jeff bezos directement comme ça",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "013b_EADD",
+   "turn": "t0063",
+   "evidence": "les ingénieurs informatiques de booking",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter des ingénieurs de Booking, intervenants de l'ombre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "013b_EADD",
+   "turn": "t0064",
+   "evidence": "thème définitif de l' événement j' ai mis découvrir et utiliser une plateforme de vente en ligne comme amazon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Thème définitif : découvrir et utiliser une plateforme de vente en ligne comme Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "013b_EADD",
+   "turn": "t0066",
+   "evidence": "au niveau de la date approximative de l' événement que vous avez une idée de quand est-ce_qu' on pourrait faire ça",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle date approximative pour l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "013b_EADD",
+   "turn": "t0068",
+   "evidence": "on n' a qu' à dire l' été deux_mille_vingt-et-un",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Christophe propose l'été 2021.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "013b_EADD",
+   "turn": "t0071",
+   "evidence": "il faut bien se donner douze mois d' organisation",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il faut compter douze mois d'organisation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "013b_EADD",
+   "turn": "t0074",
+   "evidence": "juillet deux_mille_vingt_deux ouais",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date approximative : juillet 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accepté par 045 en t0075"
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "013b_EADD",
+   "turn": "t0077",
+   "evidence": "il risque pas d' y avoir des gens qui sont pas là",
+   "type": "risk",
+   "status": "active",
+   "statement": "En été, beaucoup de gens risquent d'être absents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "013b_EADD",
+   "turn": "t0085",
+   "evidence": "d' être choisi au septembre plutôt que juillet",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne suggère septembre plutôt que juillet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "013b_EADD",
+   "turn": "t0089",
+   "evidence": "on partirait sur juin deux_mille_vingt_deux en date approximative",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date approximative retenue : juin 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "013b_EADD",
+   "turn": "t0090",
+   "evidence": "vous pouvez choisir trois invités à bas coût ou deux invités à moyen coût ou un invité à coût élevé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Règle de budget : trois invités à bas coût, deux à coût moyen ou un à coût élevé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "consigne lue dans le formulaire"
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "013b_EADD",
+   "turn": "t0093",
+   "evidence": "si on invite jeff bezos on n' invite que jeff bezos",
+   "type": "fact",
+   "status": "active",
+   "statement": "Inviter Jeff Bezos (coût élevé) exclurait les autres invités.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "013b_EADD",
+   "turn": "t0099",
+   "evidence": "ça fait partie du budget hein ça se négocie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le coût des invités se négocie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "013b_EADD",
+   "turn": "t0115",
+   "evidence": "ma nièce euh ma nièce oui qui oui pourquoi pas bien sûr",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose d'inviter sa nièce créatrice.",
+   "owner": null,
+   "mentioned_people": [
+    "nièce de 042"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "013b_EADD",
+   "turn": "t0117",
+   "evidence": "faut trouver un hôtelier qui passe par qui nous raconte les phases",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter un hôtelier qui passe par Booking.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "013b_EADD",
+   "turn": "t0122",
+   "evidence": "on a le droit à trois invités et déjà on dépasse",
+   "type": "risk",
+   "status": "active",
+   "statement": "Avec Jeff Bezos, l'hôtelier et la nièce, la grille de budget est dépassée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "013b_EADD",
+   "turn": "t0124",
+   "evidence": "t' as nièce serait un kuba donc on aurait un coup élevé et deux kuba",
+   "type": "decision",
+   "status": "active",
+   "statement": "Classement provisoire : un invité à coût élevé (Bezos) et deux à coût bas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« kuba » = « coût bas » (ASR)"
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "013b_EADD",
+   "turn": "t0136",
+   "evidence": "vais mettre un kuba négocié pour jeff bezos alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "Jeff Bezos est noté comme invité à coût bas négocié : trois invités à coût bas.",
+   "owner": null,
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« kuba » = « coût bas » (ASR)"
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "013b_EADD",
+   "turn": "t0139",
+   "evidence": "mais c'est toi qui fait la négociation",
+   "type": "action",
+   "status": "proposed",
+   "statement": "La négociation avec Jeff Bezos est confiée à une participante (probablement Marie).",
+   "owner": null,
+   "mentioned_people": [
+    "043"
+   ],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "destinataire non explicite ; réponse t0141 ambiguë ; confirmé en réunion c (t0040-t0041)"
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "013b_EADD",
+   "turn": "t0149",
+   "evidence": "ça serait peut-être bien_que ce soit des ateliers",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose des ateliers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "013b_EADD",
+   "turn": "t0150",
+   "evidence": "je ferais un salon avec un forum et une présentation qui se suivent",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Marie propose un salon avec forum et présentation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "013b_EADD",
+   "turn": "t0173",
+   "evidence": "on garde jeff bezos pour la fin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Jeff Bezos interviendra en dernier pour réagir aux autres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "approuvé par 043 en t0174"
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "013b_EADD",
+   "turn": "t0186",
+   "evidence": "proposer aux personnes qui y vont d' avoir une sorte de petits peut-être je sais pas dix minutes ou vingt minutes avec une personne",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposer des coachings individuels de dix à vingt minutes sur le projet des visiteurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accueilli favorablement en t0193"
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "013b_EADD",
+   "turn": "t0243",
+   "evidence": "ce serait la matinée de séminaire ou peut-être les deux premières ou trois premières heures et ensuite laisser des ateliers et des coachings accessibles en parallèle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Séminaire le matin (deux ou trois heures), puis ateliers et coachings en parallèle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "013b_EADD",
+   "turn": "t0245",
+   "evidence": "ce serait sur deux jours avec un point d' orgue le samedi soir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Marie propose un événement sur deux jours avec temps fort le samedi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "013b_EADD",
+   "turn": "t0252",
+   "evidence": "c'est parce_que j' ai pas entendu une journée alors samedi",
+   "type": "decision",
+   "status": "active",
+   "statement": "La consigne impose une journée : l'événement aura lieu un samedi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "consigne rappelée en t0251 ; t0262 « on hack le truc » laisse planer un retour à deux jours"
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "013b_EADD",
+   "turn": "t0265",
+   "evidence": "s' inscrire c'est pour pouvoir assister au séminaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inscription obligatoire pour le séminaire, ateliers en accès libre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "013b_EADD",
+   "turn": "t0273",
+   "evidence": "est-ce_qu' il faut pas prévoir euh une petite restauration",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Prévoir une petite restauration sur place.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "jugé « très bonne idée » en t0277"
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "013b_EADD",
+   "turn": "t0276",
+   "evidence": "un accueil euh un accueil café euh viennoiserie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Accueil café et viennoiseries.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0003",
+   "evidence": "il vaut mieux prévoir début juin moi parce_que après les fins d année du mois de juin sont souvent bien chargées",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne préfère début juin, la fin de juin étant chargée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0018",
+   "evidence": "alors ce sera le quatre parfait",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date définitive : le samedi 4 juin 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "premier samedi de juin 2022 (t0005-t0017)"
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0022",
+   "evidence": "il va nous falloir je pense une salle un endroit",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tom propose de commencer par trouver une salle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0025",
+   "evidence": "ce serait dommage de réserver la salle et qu on puisse pas les avoir",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de réserver la salle sans être sûr d'avoir les invités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0026",
+   "evidence": "peut-être avoir les invités en premier",
+   "type": "decision",
+   "status": "active",
+   "statement": "Contacter les invités en premier, avant la salle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "approuvé t0028-t0029"
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0031",
+   "evidence": "ce serait pas mal que ce soit la même personne",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les trois invités devraient être contactés par la même personne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "approuvé par 043 en t0034"
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0036",
+   "evidence": "on peut s y prendre dès maintenant pour bien prévoir les choses",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le contact des invités commence dès maintenant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0040",
+   "evidence": "maman a été partie pour négocier avec jeff bezos le le tarif",
+   "type": "fact",
+   "status": "active",
+   "statement": "Marie était partante pour négocier le tarif de Jeff Bezos.",
+   "owner": null,
+   "mentioned_people": [
+    "043"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0041",
+   "evidence": "je vais faire ça par mail d'abord",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Marie contactera d'abord Jeff Bezos par mail.",
+   "owner": "043",
+   "mentioned_people": [
+    "jeff bezos"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "adresse dictée en t0047 non annotée"
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0052",
+   "evidence": "par mail dans un premier temps parce_qu après peut-être il faudra passer au_moins au téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne suggère le mail puis le téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0058",
+   "evidence": "mail puis harcèlement",
+   "type": "decision",
+   "status": "active",
+   "statement": "Méthode retenue pour Jeff Bezos : mail puis relances insistantes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ton plaisant ; Marie ajoute qu'elle ira le voir (t0054)"
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0062",
+   "evidence": "pour ta nièce euh on passerait d'abord par une mise en contact",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour la nièce d'Anne, passer par une mise en relation.",
+   "owner": null,
+   "mentioned_people": [
+    "nièce de 042"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0071",
+   "evidence": "on contact direct en_fait tu veux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Marie connaissant la nièce, le contact sera direct.",
+   "owner": null,
+   "mentioned_people": [
+    "nièce de 042"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "justifié en t0066"
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0077",
+   "evidence": "réservation d une salle pour les deux jours",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Tâche : réserver une salle pour deux jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "contredit la journée unique retenue en réunion b"
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0080",
+   "evidence": "avant d avoir la salle il faut peut-être savoir si il_y a du monde intéressé ou pas",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque d'avoir une salle sans public : vérifier l'intérêt avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0085",
+   "evidence": "faire un petit sondage",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Christophe propose un petit sondage.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0104",
+   "evidence": "on ferait des sondages euh des peut-être des pré réservations pour voir si on a du monde qui est déjà prêt à s engager à venir",
+   "type": "decision",
+   "status": "active",
+   "statement": "Première tâche : sondages et préréservations pour mesurer l'intérêt.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "placée en premier en t0096-t0103"
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0110",
+   "evidence": "sonder et euh et mettre à disposition des pré réservations",
+   "type": "action",
+   "status": "active",
+   "statement": "Anne se charge du sondage et des préréservations.",
+   "owner": "042",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Anne accepte en t0109 ; « par anne » en t0112"
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0133",
+   "evidence": "on met à dispo des préservations dès maintenants fait par anne et euh on le date pas",
+   "type": "decision",
+   "status": "active",
+   "statement": "Préréservations par Anne, dès maintenant, sans date sur le sondage.",
+   "owner": "042",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0134",
+   "evidence": "en deuxième on aurait le contact des invités qui sera fait par maman",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deuxième tâche : contact des invités par Marie, puis la salle.",
+   "owner": "043",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0144",
+   "evidence": "donc une salle palais des congrès",
+   "type": "decision",
+   "status": "active",
+   "statement": "Salle retenue : un palais des congrès.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "proposé par 045 en t0139"
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0145",
+   "evidence": "pour réussir à avoir cette salle peut-être parce_que je pense que ça doit pas être si facile",
+   "type": "risk",
+   "status": "active",
+   "statement": "Obtenir le palais des congrès ne sera pas facile ; prévoir du réseau.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0151",
+   "evidence": "qui qui pourrait s occuper de choper cette salle",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui se charge d'obtenir la salle ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0154",
+   "evidence": "je m en occupe",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Christophe s'occupe de la réservation de la salle.",
+   "owner": "045",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "objet porté par la question t0151 ; confirmé t0155"
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0181",
+   "evidence": "ce serait moi qui m en occuperais vu que pour l instant c'est moi qui ai rien",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Tom propose le planning et le fait valider.",
+   "owner": "044",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "objet en t0178"
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0211",
+   "evidence": "c'est christophe qui s occupe de l organisation matérielle",
+   "type": "action",
+   "status": "active",
+   "statement": "Christophe s'occupe de l'organisation matérielle (son et lumière).",
+   "owner": "045",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "acceptation implicite de 045 (t0219) ; confirmé t0231"
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0232",
+   "evidence": "il faut peut-être s y prendre un mois à l avance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tom propose de prévoir le son et lumière un mois à l'avance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0250",
+   "evidence": "donc six mois pour le matériel et les techniciens",
+   "type": "decision",
+   "status": "active",
+   "statement": "Réserver le matériel et les techniciens six mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0252",
+   "evidence": "et un mois pour la mise en place ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "La mise en place technique se fait un mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0310",
+   "evidence": "la définition des règles de mise en place des ateliers et la diffusion auprès_des personnes participantes par maman",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche six : règles des ateliers et diffusion aux participants, par Marie.",
+   "owner": "043",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "acceptation de 043 en t0269"
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0315",
+   "evidence": "ça la communication tu peux commencer dès le départ aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tom propose de lancer la communication dès le début.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0315",
+   "evidence": "par anne euh ça la communication",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche sept : communication autour de l'événement, par Anne.",
+   "owner": "042",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "acceptation de 042 en t0311"
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0320",
+   "evidence": "dès_que les premières tâches dès_qu on a les personnes et la salle",
+   "type": "decision",
+   "status": "active",
+   "statement": "La communication démarre une fois les invités et la salle obtenus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accepté par 044 en t0322"
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0337",
+   "evidence": "ah je pense qu il faut ouais il faut tout déléguer",
+   "type": "decision",
+   "status": "active",
+   "statement": "La restauration est déléguée à des professionnels.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accord général t0338-t0344"
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0343",
+   "evidence": "contacter les professionnels de la restauration rapide",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche huit : contacter des food trucks, par Tom.",
+   "owner": "044",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Tom la prend en t0363 (« par tom »)"
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0374",
+   "evidence": "l habillage euh l habillage de la salle ça vous va comme ça",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche : habillage visuel du palais des congrès.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0389",
+   "evidence": "il manque aussi le recrutement et la formation des des coachs",
+   "type": "action",
+   "status": "active",
+   "statement": "Recrutement et formation des coachs, par Marie, à partir de janvier.",
+   "owner": "043",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "attribué en t0400, accepté t0401 ; début janvier en t0409"
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0416",
+   "evidence": "je suis peut-être pas la mieux placée pour faire ce genre de choses",
+   "type": "fact",
+   "status": "active",
+   "statement": "Anne s'estime mal placée pour l'habillage visuel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "elle s'était proposée en t0413"
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0421",
+   "evidence": "donc par christophe et on s y prendrait euh a peu près huit mois dix mois à l avance",
+   "type": "decision",
+   "status": "active",
+   "statement": "Habillage confié à Christophe, d'abord prévu huit à dix mois avant.",
+   "owner": "045",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "045 accepte en t0419"
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "013c_EAPD",
+   "turn": "t0422",
+   "evidence": "tu t' y prends trois mois à l avance c'est bon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Trois mois à l'avance suffisent pour l'habillage.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accepté par 044 en t0424"
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-15",
+   "to": "a-14",
+   "relation": "answers",
+   "justification": "Marie répond qu'elle ne sait pas ce qu'est l'open source."
+  },
+  {
+   "from": "a-18",
+   "to": "a-17",
+   "relation": "answers",
+   "justification": "Réponse directe à la question sur Wikipédia."
+  },
+  {
+   "from": "a-23",
+   "to": "a-22",
+   "relation": "answers",
+   "justification": "Réponse sur qui gère les projets open source."
+  },
+  {
+   "from": "a-25",
+   "to": "a-24",
+   "relation": "answers",
+   "justification": "Réponse sur la façon dont les contributeurs gagnent leur vie."
+  },
+  {
+   "from": "a-27",
+   "to": "a-26",
+   "relation": "supports",
+   "justification": "Explique pourquoi Wikipédia demande une participation."
+  },
+  {
+   "from": "a-04",
+   "to": "a-03",
+   "relation": "contradicts",
+   "justification": "Christophe conteste le motif du boycott d'Amazon ; désaccord d'opinion non tranché."
+  },
+  {
+   "from": "a-34",
+   "to": "a-04",
+   "relation": "supports",
+   "justification": "Confirme que de petits artisans vendent sur Amazon."
+  },
+  {
+   "from": "b-05",
+   "to": "b-04",
+   "relation": "answers",
+   "justification": "Tom répond qu'il n'y a qu'un événement commun."
+  },
+  {
+   "from": "b-14",
+   "to": "b-01",
+   "relation": "answers",
+   "justification": "Le thème définitif répond à la question du thème."
+  },
+  {
+   "from": "b-14",
+   "to": "b-02",
+   "relation": "supersedes",
+   "justification": "Le thème définitif (vente en ligne type Amazon) tranche la question du thème contre l'orientation réseaux sociaux."
+  },
+  {
+   "from": "b-14",
+   "to": "b-06",
+   "relation": "supersedes",
+   "justification": "Le thème définitif écarte l'événement sur l'usage des réseaux sociaux."
+  },
+  {
+   "from": "b-11",
+   "to": "b-10",
+   "relation": "supports",
+   "justification": "La décision de partir sur Amazon confirme le retour au thème GAFAM."
+  },
+  {
+   "from": "b-11",
+   "to": "b-09",
+   "relation": "supports",
+   "justification": "Retient l'idée d'un événement sur le fonctionnement d'Amazon."
+  },
+  {
+   "from": "b-14",
+   "to": "b-11",
+   "relation": "supports",
+   "justification": "Le thème inscrit dans le formulaire formalise la décision Amazon."
+  },
+  {
+   "from": "b-18",
+   "to": "b-16",
+   "relation": "supersedes",
+   "justification": "Après la remarque sur les douze mois d'organisation, l'été 2021 est remplacé par juillet 2022."
+  },
+  {
+   "from": "b-21",
+   "to": "b-18",
+   "relation": "supersedes",
+   "justification": "« allez plutôt juin alors » : juin 2022 remplace juillet 2022 à cause des vacances."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "supersedes",
+   "justification": "La décision juin 2022 tranche la question de la date contre la proposition de septembre."
+  },
+  {
+   "from": "b-21",
+   "to": "b-15",
+   "relation": "answers",
+   "justification": "Répond à la question de la date approximative."
+  },
+  {
+   "from": "b-23",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Applique la règle de budget à Jeff Bezos."
+  },
+  {
+   "from": "b-29",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "« alors » : Bezos passe de coût élevé à coût bas négocié."
+  },
+  {
+   "from": "b-29",
+   "to": "b-24",
+   "relation": "supports",
+   "justification": "Le classement en coût bas repose sur la négociation proposée."
+  },
+  {
+   "from": "b-37",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "La consigne d'une seule journée remplace la proposition de deux jours ; samedi retenu."
+  },
+  {
+   "from": "b-35",
+   "to": "b-31",
+   "relation": "supports",
+   "justification": "Le déroulé intègre les ateliers après le séminaire."
+  },
+  {
+   "from": "b-40",
+   "to": "b-39",
+   "relation": "supports",
+   "justification": "Précise la forme de la restauration."
+  },
+  {
+   "from": "c-02",
+   "to": "b-21",
+   "relation": "supports",
+   "justification": "Précise la date approximative de juin 2022 en 4 juin 2022."
+  },
+  {
+   "from": "c-02",
+   "to": "c-01",
+   "relation": "supports",
+   "justification": "Le 4 juin est bien début juin."
+  },
+  {
+   "from": "c-05",
+   "to": "c-03",
+   "relation": "supersedes",
+   "justification": "Les invités passent avant la salle, initialement proposée en premier."
+  },
+  {
+   "from": "c-04",
+   "to": "c-05",
+   "relation": "supports",
+   "justification": "Justifie de contacter les invités avant la salle."
+  },
+  {
+   "from": "c-17",
+   "to": "c-05",
+   "relation": "supersedes",
+   "justification": "Le sondage devient la première tâche, avant le contact des invités."
+  },
+  {
+   "from": "c-15",
+   "to": "c-17",
+   "relation": "supports",
+   "justification": "Le risque d'une salle vide motive le sondage préalable."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Retient l'idée du sondage."
+  },
+  {
+   "from": "c-17",
+   "to": "c-18",
+   "relation": "creates_action",
+   "justification": "La décision de sonder donne lieu à la tâche confiée à Anne."
+  },
+  {
+   "from": "c-19",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Récapitule la tâche d'Anne avec son début."
+  },
+  {
+   "from": "c-20",
+   "to": "c-05",
+   "relation": "supersedes",
+   "justification": "Le contact des invités est désormais la deuxième tâche."
+  },
+  {
+   "from": "c-09",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Marie confirme qu'elle mène la négociation avec Jeff Bezos."
+  },
+  {
+   "from": "c-20",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "Confirme que Marie contacte les invités."
+  },
+  {
+   "from": "c-11",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "Formalise la méthode : mail puis relances."
+  },
+  {
+   "from": "c-13",
+   "to": "c-12",
+   "relation": "supersedes",
+   "justification": "Contact direct au lieu d'une mise en relation, Marie connaissant la nièce."
+  },
+  {
+   "from": "c-14",
+   "to": "b-37",
+   "relation": "contradicts",
+   "justification": "La salle est réservée pour deux jours alors que la réunion b retenait une seule journée ; aucun changement explicite."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "answers",
+   "justification": "Christophe répond qu'il s'occupe de la salle."
+  },
+  {
+   "from": "c-22",
+   "to": "c-21",
+   "relation": "supports",
+   "justification": "Risque portant sur la salle retenue."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "supersedes",
+   "justification": "Christophe corrige (« non… un peu plus ») : six mois pour le matériel au lieu d'un."
+  },
+  {
+   "from": "c-29",
+   "to": "c-28",
+   "relation": "supports",
+   "justification": "Complète le calendrier : réservation à six mois, mise en place à un mois."
+  },
+  {
+   "from": "c-33",
+   "to": "c-31",
+   "relation": "supersedes",
+   "justification": "« ben plutôt » : la communication démarre après invités et salle, pas dès le départ."
+  },
+  {
+   "from": "c-34",
+   "to": "c-35",
+   "relation": "creates_action",
+   "justification": "La délégation de la restauration crée la tâche de contacter des professionnels."
+  },
+  {
+   "from": "c-35",
+   "to": "b-39",
+   "relation": "supports",
+   "justification": "Met en œuvre la restauration sur place proposée en réunion b."
+  },
+  {
+   "from": "c-40",
+   "to": "c-39",
+   "relation": "supersedes",
+   "justification": "Christophe ramène le délai de huit-dix mois à trois mois, accepté par Tom."
+  },
+  {
+   "from": "c-39",
+   "to": "c-36",
+   "relation": "supports",
+   "justification": "Attribue la tâche d'habillage."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "013c_EAPD",
+   "text": "Quel jour exact l'événement aura-t-il lieu au final ?",
+   "answerable": true,
+   "qrels": {
+    "c-02": 2,
+    "b-21": 1,
+    "c-01": 1,
+    "b-37": 1,
+    "b-18": 0,
+    "b-16": 0,
+    "b-20": 0,
+    "b-36": 0
+   },
+   "traps": [
+    {
+     "unit": "b-18",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-16",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-20",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "013c_EAPD",
+   "text": "Qui gère le sondage et les préréservations, et à partir de quand ?",
+   "answerable": true,
+   "qrels": {
+    "c-19": 2,
+    "c-18": 2,
+    "c-17": 1,
+    "c-16": 0,
+    "c-32": 0,
+    "c-20": 0
+   },
+   "traps": [
+    {
+     "unit": "c-16",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-32",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-20",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "013c_EAPD",
+   "text": "Quelle tâche passe en premier dans le planning : le sondage, les invités ou la salle ?",
+   "answerable": true,
+   "qrels": {
+    "c-17": 2,
+    "c-20": 2,
+    "c-04": 1,
+    "c-15": 1,
+    "c-05": 0,
+    "c-03": 0
+   },
+   "traps": [
+    {
+     "unit": "c-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-03",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "013c_EAPD",
+   "text": "Comment Marie va-t-elle prendre contact avec Jeff Bezos pour négocier ?",
+   "answerable": true,
+   "qrels": {
+    "c-09": 2,
+    "c-11": 2,
+    "c-08": 1,
+    "c-10": 1,
+    "b-30": 1,
+    "c-13": 0,
+    "b-29": 0
+   },
+   "traps": [
+    {
+     "unit": "c-13",
+     "trap": "person"
+    },
+    {
+     "unit": "b-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "013c_EAPD",
+   "text": "Combien de temps avant l'événement faut-il réserver le matos et les techniciens son et lumière ?",
+   "answerable": true,
+   "qrels": {
+    "c-28": 2,
+    "c-29": 1,
+    "c-27": 0,
+    "c-40": 0,
+    "c-26": 0
+   },
+   "traps": [
+    {
+     "unit": "c-27",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-40",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-26",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "013c_EAPD",
+   "text": "Qui prend en charge la décoration visuelle du palais des congrès, et avec quel délai ?",
+   "answerable": true,
+   "qrels": {
+    "c-39": 2,
+    "c-40": 2,
+    "c-36": 1,
+    "c-38": 0,
+    "c-28": 0,
+    "c-26": 0
+   },
+   "traps": [
+    {
+     "unit": "c-38",
+     "trap": "person"
+    },
+    {
+     "unit": "c-28",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-26",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "013c_EAPD",
+   "text": "Quelles difficultés ont été pointées autour de la réservation de la salle ?",
+   "answerable": true,
+   "qrels": {
+    "c-22": 2,
+    "c-15": 2,
+    "c-04": 2,
+    "c-21": 0,
+    "c-24": 0,
+    "c-14": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-24",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-14",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "013c_EAPD",
+   "text": "Quel est le prix de location du palais des congrès en euros ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "042": "anne",
+  "043": "marie (incertain)",
+  "044": "tom (incertain)",
+  "045": "christophe"
+ },
+ "notes": "Réunion a : discussion d'opinions sur GAFAM et open source, surtout des faits et risques. Réunion b : « kuba/kouba » = « coût bas » (ASR). Une journée imposée (t0251) mais « on hack le truc » (t0262) et la salle « pour les deux jours » en c (t0077) : conflit laissé en contradicts. 043 (« maman » pour 044) est désignée « marie » en t0050 et t0283 ; 044 se désigne « tom » en t0363. Non annotés : adresse mail dictée (c t0047), mentions de santé (b t0267), proches cités hors tâche. c_date → b_juin22 en supports (précision et non correction)."
+}
