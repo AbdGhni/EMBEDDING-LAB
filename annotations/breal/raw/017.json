@@ -1,0 +1,1428 @@
+{
+ "group_id": "017",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0004",
+   "evidence": "sabrina tu peux proposer ton choix tu peux me donner ton choix",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animateur demande à Sabrina de proposer son choix d'œuvre.",
+   "owner": null,
+   "mentioned_people": [
+    "sabrina"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0005",
+   "evidence": "alors moi j' allais proposer harry potter",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Sabrina propose Harry Potter.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0006",
+   "evidence": "pour un recruteur tu peux dire pourquoi",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animateur demande à Sabrina de justifier son choix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0008",
+   "evidence": "par_rapport_au thème du du fantastique et des valeurs qui sont un peu partagées dans les dans la saga",
+   "type": "fact",
+   "status": "active",
+   "statement": "Harry Potter est proposé pour son thème fantastique et les valeurs partagées de la saga.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0011",
+   "evidence": "linn tu as un film à proposer",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animateur demande à Linn de proposer un film.",
+   "owner": null,
+   "mentioned_people": [
+    "linn"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0012",
+   "evidence": "ma série que je propose c'est friends",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le locuteur 054 propose la série Friends.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0012",
+   "evidence": "pour casser un peu avec la période comment dire un peu morte du covid",
+   "type": "fact",
+   "status": "active",
+   "statement": "Friends est proposé pour rompre avec la période morte du covid, autour d'une bande de copains festifs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0014",
+   "evidence": "pour revivre les bons moments les moments amicaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Friends doit permettre de revivre les bons moments entre amis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0023",
+   "evidence": "enfin enfin roi lion",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animateur (055) propose Le Roi Lion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition annoncée au tour t0022 (« moi je propose ») et précisée en t0023."
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0036",
+   "evidence": "on a on a on a deux films et une série quoi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il y a au total deux films et une série proposés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0048",
+   "evidence": "il faut lui signaler que c'est fini dans le chat",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Proposition de signaler dans le chat à la personne absente que c'est terminé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0054",
+   "evidence": "je pense qu' on doit vraiment respecter les vingt minutes",
+   "type": "decision",
+   "status": "active",
+   "statement": "La réunion doit durer vingt minutes, à respecter.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acquiescement de 056 en t0055 (« ouais dans le doute »)."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0054",
+   "evidence": "je vais lui envoyer un message",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animateur (055) s'engage à envoyer un message à la personne qui a coupé son micro.",
+   "owner": "055",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0058",
+   "evidence": "on peut continuer à discuter sur harry potter par_exemple pour les valeurs partagées dans cette saga fantastique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de poursuivre sur les valeurs partagées de Harry Potter.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suivi de fait par 056 au tour suivant, sans accord formel."
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0059",
+   "evidence": "tout ce qui relève de la solidarité de l' entraide",
+   "type": "fact",
+   "status": "active",
+   "statement": "Valeurs de Harry Potter : solidarité et entraide.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0061",
+   "evidence": "euh t' as l' amitié",
+   "type": "fact",
+   "status": "active",
+   "statement": "Autre valeur de Harry Potter : l'amitié.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0065",
+   "evidence": "tout ce qui relève du monde féérique du fantastique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Harry Potter relève du monde féerique et fantastique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0066",
+   "evidence": "une présence de la magie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Harry Potter se caractérise par la présence de la magie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0079",
+   "evidence": "vous pouvez parler chacun des thèmes de vos séries et films éventuellement",
+   "type": "action",
+   "status": "unknown",
+   "statement": "Il est suggéré que chacun parle des thèmes de son film ou de sa série.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase qui semble relayer une consigne extérieure (personne absente) ; annotée comme donnée."
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0081",
+   "evidence": "je sais pas pourquoi j' ai pris le roi lion",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'animateur ne sait pas bien pourquoi il a choisi Le Roi Lion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0083",
+   "evidence": "je regardais disney c'est juste ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le choix du Roi Lion vient de l'habitude de regarder Disney.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0085",
+   "evidence": "pour que tout_le monde puisse participer à la soirée les grands plus les petits",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le Roi Lion permet à tous, adultes comme enfants, de participer à la soirée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0119",
+   "evidence": "ils se sont retrouvés là récemment ils ont fait une nouvelle euh + la continuité les retrouvailles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les acteurs de Friends se sont récemment retrouvés pour un épisode de retrouvailles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0120",
+   "evidence": "j' avais juste vu la publicité quoi les des retrouvailles mais je n' avais pas vu",
+   "type": "fact",
+   "status": "active",
+   "statement": "054 n'a vu que la publicité des retrouvailles, pas l'épisode.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0121",
+   "evidence": "moi aussi j' ai pas vu les épisodes mais j' ai vu les articles qui parlaient de ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "056 n'a pas vu les épisodes des retrouvailles, seulement des articles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0123",
+   "evidence": "ça fait partie des valeurs de l' amitié aussi se retrouver",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les retrouvailles illustrent la valeur d'amitié de Friends.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0128",
+   "evidence": "le cadre le contexte dans lequel ils se sont tous connus ils ont ils ont gardé des liens",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les personnages de Friends ont gardé des liens au-delà du contexte où ils se sont connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0133",
+   "evidence": "l évolution aussi des personnages",
+   "type": "fact",
+   "status": "active",
+   "statement": "Autre thème de Friends : l'évolution des personnages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0137",
+   "evidence": "quels sont les valeurs qui ressortent du roi lion",
+   "type": "question",
+   "status": "resolved",
+   "statement": "054 demande quelles valeurs ressortent du Roi Lion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0137",
+   "evidence": "moi je connais seulement le dessin_animé dans la jungle la terrible jungle le lion est mort ce soir",
+   "type": "fact",
+   "status": "active",
+   "statement": "054 ne connaît du Roi Lion que la chanson « le lion est mort ce soir ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0140",
+   "evidence": "même pas sûr que ce soit dans le film néma",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "055 doute que cette chanson figure dans le film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0147",
+   "evidence": "il_y a des valeurs entre autre ce qui est famille et ce qui touche à la famille",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le Roi Lion porte des valeurs liées à la famille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0150",
+   "evidence": "les rivalités familiales entre le père et l' oncle",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le Roi Lion traite des rivalités familiales entre le père et l'oncle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0159",
+   "evidence": "un coup d' état et qui récupère le trône et du_coup il le bannit",
+   "type": "answer",
+   "status": "active",
+   "statement": "Résumé : l'oncle fait un coup d'État, prend le trône et bannit le jeune prince.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Résumé commencé en t0155-t0157."
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0166",
+   "evidence": "malgré leurs différences ils arrivent à être ensemble",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le Roi Lion montre la cohabitation d'animaux différents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0169",
+   "evidence": "et le tout dans pas_mal_d' émotions et énormément de d' humour",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le Roi Lion mêle beaucoup d'émotions et d'humour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0173",
+   "evidence": "il y en a combien de roi lion il y en a deux ou trois",
+   "type": "question",
+   "status": "open",
+   "statement": "056 demande combien il existe de films Roi Lion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "La réponse en t0175-t0177 ne donne pas le nombre."
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "017a_EBRZ",
+   "turn": "t0177",
+   "evidence": "de moins en moins de moins en moins bien",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 055, les suites du Roi Lion sont de moins en moins bonnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0001",
+   "evidence": "la saison on va pas dire la date on va dire la saison",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de fixer une saison plutôt qu'une date.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0005",
+   "evidence": "la sécurité il faut qu' elle soit prête trente jours avant l' événement",
+   "type": "action",
+   "status": "open",
+   "statement": "La sécurité doit être prête trente jours avant l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0007",
+   "evidence": "il serait bien de définir la date de l' événement d'abord et après justement quand on se répartit les tâches définir les délais",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Définir d'abord la date de l'événement, puis les délais lors de la répartition des tâches.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0011",
+   "evidence": "après il_y a un logiciel qui sert à faire ça",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Suggestion d'utiliser un logiciel de planification (diagramme de Gantt).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« diagramme de gantes » en t0013."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0018",
+   "evidence": "la date de l' événement on va dire que ce sera en août",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de tenir l'événement en août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0020",
+   "evidence": "mais en doute les gens sont encore en vacances",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : en août les gens sont encore en vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0024",
+   "evidence": "festival et il_y a tout_le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "En juillet il y a les festivals et beaucoup de monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR fragmentée (t0022-t0024)."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0029",
+   "evidence": "moi début septembre c'est toujours mieux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "054 propose début septembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0029",
+   "evidence": "ils sortent de vacances donc ça fait un peu mini prolongement de de festivité",
+   "type": "fact",
+   "status": "active",
+   "statement": "Début septembre prolongerait les festivités de l'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0033",
+   "evidence": "on peut le faire justement avant la rigueur le le lancement des festivités",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "056 propose de faire l'événement avant, en ouverture des festivités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0034",
+   "evidence": "pas pas qu' ils nous fassent trop d' ombres",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque que les grands festivals fassent de l'ombre à l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0037",
+   "evidence": "pour le delta festival ils l' ont porté fin août",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le Delta Festival a été placé fin août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0038",
+   "evidence": "bon alors on se décide avant après",
+   "type": "question",
+   "status": "resolved",
+   "statement": "055 demande de trancher entre avant ou après les festivals.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0039",
+   "evidence": "bon on va prendre on va prendre avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : l'événement aura lieu avant les festivals.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0046",
+   "evidence": "on part en deux_mille_vingt_deux on est d'accord",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu en 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0057",
+   "evidence": "le deux juillet deux_mille_vingt_deux ouais le samedi deux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date retenue : samedi 2 juillet 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "055 dit « deux juillet deux_mille_vingt » en t0056 (ASR) ; l'année 2022 est confirmée en t0046 et t0057."
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0067",
+   "evidence": "l' aspect sécurité intervenance sécurité euh l' aspect restauration prestataire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tâches identifiées : sécurité et restauration (prestataires).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0069",
+   "evidence": "les réservations du lieu concrètement ça va être ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Autre tâche : démarches de réservation du lieu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0071",
+   "evidence": "de train d' avion transport un hébergement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Autre tâche : transport (train, avion) et hébergement des invités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0076",
+   "evidence": "il faut prendre soin des sponsors pour leur donner envie de sponsoriser les futurs événements",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut soigner les sponsors pour qu'ils financent les futurs événements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0077",
+   "evidence": "tout ce qui est hébergement combien de jours",
+   "type": "question",
+   "status": "resolved",
+   "statement": "056 demande combien de jours d'hébergement prévoir pour les invités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0078",
+   "evidence": "bon un jour avant pour leur permettre de visiter la région",
+   "type": "answer",
+   "status": "active",
+   "statement": "Hébergement dès la veille, pour permettre de visiter la région.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0087",
+   "evidence": "ben tu t' occupes des des invités quoi",
+   "type": "decision",
+   "status": "active",
+   "statement": "056 est chargée de la relation avec les invités (community manager / relation guests).",
+   "owner": "056",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rôle proposé par 055 (t0085) et accepté par 056 en t0088 (« j' ai l' habitude »)."
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0089",
+   "evidence": "tu contactes les journalistes et tout ça",
+   "type": "action",
+   "status": "active",
+   "statement": "Contacter les journalistes fait partie du rôle communication de 056.",
+   "owner": "056",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté en t0090 (« le côté presse aussi »)."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0100",
+   "evidence": "on est supposé avoir un informaticien qui t' aide à mettre tout ça en place",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "054 suggère un informaticien pour aider au volet communication.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0105",
+   "evidence": "on a déjà les sites internet enfin quand même on vient pas d' être créés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pas besoin d'informaticien : les sites internet existent déjà.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Voir aussi t0104 (« faut pas d' informaticien »)."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0112",
+   "evidence": "ça fait la restauration euh à voir je mets traiteur",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pour la restauration, l'option retenue dans le document est un traiteur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0126",
+   "evidence": "appel d' offre hein recherche de prestataire petit appel d' offre",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Lancer un appel d'offres pour trouver les prestataires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0144",
+   "evidence": "il_y a tout ce qui est peut-être une société de nettoyage",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Prévoir éventuellement une société de nettoyage.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0148",
+   "evidence": "si c'est pas inclus dans le conclut de la location",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "La société de nettoyage n'est nécessaire que si elle n'est pas incluse dans la location.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0152",
+   "evidence": "normalement c'est souvent inclus en_général c'est inclus",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 054, le nettoyage est en général inclus dans la location.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0154",
+   "evidence": "on sait jamais ils nous le refont payer derrière",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque que le nettoyage soit refacturé après coup.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0163",
+   "evidence": "il suffit de faire la promotion sur les bons sites",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Recruter des bénévoles en faisant la promotion sur les bons sites.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0173",
+   "evidence": "donc ça fait d' un bon recrutement gratuit",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les jeunes en service civique représentent un recrutement gratuit.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée de 054 en t0171, corrigée en « service civique » par 056 (t0172)."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0181",
+   "evidence": "un recrutement hôtesse d' accueil",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Recruter des hôtesses d'accueil.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0190",
+   "evidence": "donc c'est moi qui vais contacter les le restaurateur ou quoi",
+   "type": "commitment",
+   "status": "active",
+   "statement": "054 prend en charge le contact avec le restaurateur et les prestataires.",
+   "owner": "054",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Formulé comme une question ; 055 confirme en t0191 et 054 acquiesce en t0192."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0204",
+   "evidence": "de t' occuper de tout ce qui est recrutement justement euh tout ce qui est hôtesse d' accueil société de nettoyage",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Une personne doit s'occuper du recrutement (hôtesses d'accueil, société de nettoyage).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Destinataire non explicite dans la transcription ASR ; owner laissé à null."
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0237",
+   "evidence": "je propose que sabine s' en occupe tout_le monde est d'accord",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "055 propose que Sabine organise les visites du dernier jour à Marseille.",
+   "owner": null,
+   "mentioned_people": [
+    "sabine"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas d'acceptation explicite de Sabine."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0243",
+   "evidence": "c'est des bénévoles qui te présentent la ville en_fait",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire appel à des guides bénévoles (rémunérés au pourboire) pour présenter la ville.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "017c_EBPZ",
+   "turn": "t0288",
+   "evidence": "ben moi je peux le faire parce_que du_coup moi c'est tout ce qui est com",
+   "type": "commitment",
+   "status": "active",
+   "statement": "056 s'engage à démarcher pour trouver un lieu.",
+   "owner": "056",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à la question de 055 en t0282."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-02",
+   "to": "a-01",
+   "relation": "answers",
+   "justification": "Sabrina répond à la demande de proposer son choix."
+  },
+  {
+   "from": "a-04",
+   "to": "a-03",
+   "relation": "answers",
+   "justification": "Justification demandée en t0006, donnée en t0008."
+  },
+  {
+   "from": "a-04",
+   "to": "a-02",
+   "relation": "supports",
+   "justification": "Raison du choix de Harry Potter."
+  },
+  {
+   "from": "a-06",
+   "to": "a-05",
+   "relation": "answers",
+   "justification": "054 répond à la demande de proposition (série au lieu d'un film)."
+  },
+  {
+   "from": "a-07",
+   "to": "a-06",
+   "relation": "supports",
+   "justification": "Justification du choix de Friends."
+  },
+  {
+   "from": "a-22",
+   "to": "a-09",
+   "relation": "supports",
+   "justification": "Justification du choix du Roi Lion (public familial)."
+  },
+  {
+   "from": "a-32",
+   "to": "a-29",
+   "relation": "answers",
+   "justification": "Réponse sur les valeurs du Roi Lion (famille)."
+  },
+  {
+   "from": "a-33",
+   "to": "a-29",
+   "relation": "answers",
+   "justification": "Réponse sur les valeurs du Roi Lion (rivalités familiales)."
+  },
+  {
+   "from": "a-35",
+   "to": "a-29",
+   "relation": "answers",
+   "justification": "Réponse : cohabitation malgré les différences."
+  },
+  {
+   "from": "a-36",
+   "to": "a-29",
+   "relation": "answers",
+   "justification": "Réponse : émotions et humour."
+  },
+  {
+   "from": "a-31",
+   "to": "a-30",
+   "relation": "contradicts",
+   "justification": "055 doute que la chanson citée par 054 soit dans le film ; non tranché."
+  },
+  {
+   "from": "a-26",
+   "to": "a-23",
+   "relation": "supports",
+   "justification": "Les retrouvailles illustrent la valeur d'amitié."
+  },
+  {
+   "from": "c-06",
+   "to": "c-05",
+   "relation": "contradicts",
+   "justification": "Objection à août : les gens sont encore en vacances."
+  },
+  {
+   "from": "c-09",
+   "to": "c-08",
+   "relation": "supports",
+   "justification": "Justification de début septembre."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "supports",
+   "justification": "Raison de faire l'événement avant les festivals."
+  },
+  {
+   "from": "c-14",
+   "to": "c-13",
+   "relation": "answers",
+   "justification": "« on va prendre avant » répond à « avant après »."
+  },
+  {
+   "from": "c-14",
+   "to": "c-08",
+   "relation": "supersedes",
+   "justification": "La décision « avant » tranche la question avant/après et écarte début septembre."
+  },
+  {
+   "from": "c-16",
+   "to": "c-05",
+   "relation": "supersedes",
+   "justification": "La date actée du 2 juillet 2022 remplace la proposition d'août."
+  },
+  {
+   "from": "c-16",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "Date précise cohérente avec l'année 2022 actée."
+  },
+  {
+   "from": "c-22",
+   "to": "c-21",
+   "relation": "answers",
+   "justification": "Durée d'hébergement : un jour avant."
+  },
+  {
+   "from": "c-26",
+   "to": "c-25",
+   "relation": "contradicts",
+   "justification": "Objection à l'informaticien : les sites existent déjà ; pas de décision explicite."
+  },
+  {
+   "from": "c-30",
+   "to": "c-29",
+   "relation": "supports",
+   "justification": "Condition de la société de nettoyage."
+  },
+  {
+   "from": "c-31",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "Le nettoyage est en général inclus dans la location."
+  },
+  {
+   "from": "c-32",
+   "to": "c-31",
+   "relation": "contradicts",
+   "justification": "Risque de refacturation malgré l'inclusion habituelle."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "017a_EBRZ",
+   "text": "Quelle œuvre Sabrina a-t-elle mise en avant et avec quel argument ?",
+   "answerable": true,
+   "qrels": {
+    "a-02": 2,
+    "a-04": 2,
+    "a-14": 1,
+    "a-15": 1,
+    "a-16": 1,
+    "a-06": 0,
+    "a-09": 0,
+    "a-01": 0
+   },
+   "traps": [
+    {
+     "unit": "a-06",
+     "trap": "person"
+    },
+    {
+     "unit": "a-09",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "017a_EBRZ",
+   "text": "Pourquoi la série américaine sur la bande d'amis a-t-elle été suggérée en lien avec la crise sanitaire ?",
+   "answerable": true,
+   "qrels": {
+    "a-07": 2,
+    "a-08": 2,
+    "a-06": 1,
+    "a-26": 0,
+    "a-23": 0,
+    "a-04": 0
+   },
+   "traps": [
+    {
+     "unit": "a-26",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-23",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-04",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "017a_EBRZ",
+   "text": "Au total, combien de longs métrages et combien de séries ont été mis sur la table pour la soirée ?",
+   "answerable": true,
+   "qrels": {
+    "a-10": 2,
+    "a-02": 1,
+    "a-06": 1,
+    "a-09": 1,
+    "a-37": 0
+   },
+   "traps": [
+    {
+     "unit": "a-37",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "017a_EBRZ",
+   "text": "Quels messages et valeurs du dessin animé de Disney avec Simba ont été cités quand on a demandé de quoi il parlait ?",
+   "answerable": true,
+   "qrels": {
+    "a-32": 2,
+    "a-33": 2,
+    "a-35": 2,
+    "a-36": 2,
+    "a-34": 1,
+    "a-29": 1,
+    "a-30": 0,
+    "a-15": 0,
+    "a-22": 0
+   },
+   "traps": [
+    {
+     "unit": "a-30",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-15",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "017a_EBRZ",
+   "text": "Quelle durée de réunion faut-il tenir, et qui prévient la personne qui a coupé son micro ?",
+   "answerable": true,
+   "qrels": {
+    "a-12": 2,
+    "a-13": 2,
+    "a-11": 1
+   },
+   "traps": []
+  },
+  {
+   "key": "q06",
+   "about_meeting": "017a_EBRZ",
+   "text": "Les participants ont-ils vu l'épisode de retrouvailles des acteurs de Friends ?",
+   "answerable": true,
+   "qrels": {
+    "a-24": 2,
+    "a-25": 2,
+    "a-23": 1,
+    "a-26": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-26",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "017a_EBRZ",
+   "text": "Pour quel public l'animateur a-t-il retenu le film d'animation de Disney qu'il proposait ?",
+   "answerable": true,
+   "qrels": {
+    "a-22": 2,
+    "a-21": 1,
+    "a-20": 1,
+    "a-09": 1,
+    "a-36": 0,
+    "a-32": 0
+   },
+   "traps": [
+    {
+     "unit": "a-36",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-32",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "017a_EBRZ",
+   "text": "Laquelle des trois propositions a finalement été choisie pour la soirée ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "054": "sabine (incertain ; appelée « linn » en a-t0011)",
+  "055": "ryan (incertain)",
+  "056": "sabrina"
+ },
+ "notes": "Groupe à deux réunions (a manuelle, c ASR ; pas de réunion b). Réunion a : propositions d'œuvres (Harry Potter, Friends, Roi Lion) sans choix final, d'où q08 sans réponse. Identités : 056 = sabrina (a-t0004/t0005) ; 054 appelée « linn » en a-t0011 mais « sabine » ailleurs (a-t0116 « la série de sabine », c-t0035), d'où l'incertitude ; 055 interpellé « ryan » en c-t0258. Réunion c (ASR bruitée) : choix de date avant les festivals puis 2 juillet 2022 (t0056 dit « deux_mille_vingt », ASR) ; c-t0040 « on va écouter sabine c'était son idée » contredit l'attribution des propositions avant/après, non utilisé. c-36 : responsabilité restauration inférée d'une question confirmée ; c-37 : destinataire du recrutement non explicite ; c-38 : Sabine proposée sans acceptation. Mentions covid (a-t0014) non personnelles ; aucune donnée de santé individuelle annotée."
+}
