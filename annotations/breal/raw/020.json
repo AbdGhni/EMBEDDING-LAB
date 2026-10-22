@@ -1,0 +1,2216 @@
+{
+ "group_id": "020",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0007",
+   "evidence": "moi j' ai choisi horreur suspense",
+   "type": "fact",
+   "status": "active",
+   "statement": "057 présente le genre horreur / suspense.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0009",
+   "evidence": "ça fait peur c'est mystérieux il faut on sait pas ce qui se passe",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le genre horreur se caractérise par la peur et le mystère.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0013",
+   "evidence": "moi je suis grande fan de supernatural",
+   "type": "fact",
+   "status": "active",
+   "statement": "057 est grande fan de la série Supernatural.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0015",
+   "evidence": "les films ben ça va être ça donc clown conjuring",
+   "type": "fact",
+   "status": "active",
+   "statement": "Films d'horreur cités : Ça (le clown), Conjuring.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "transcription ASR"
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0024",
+   "evidence": "je sais pas si vous connaissez evan peters ou jensen ackles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Acteurs associés à l'horreur cités : Evan Peters, Jensen Ackles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0028",
+   "evidence": "mon film préféré d' horreur ben ce serait du_coup ça donc le clone mais le remake",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le film d'horreur préféré de 057 est le remake de Ça.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« le clone » = probablement « le clown » (ASR)"
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0035",
+   "evidence": "trouve que c'est de_plus en plus accessible notamment pour faire les jeunes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 057, l'horreur devient de plus en plus accessible aux jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0038",
+   "evidence": "ils font même maintenant des dessins animés d' horreur donc pour les enfants",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il existe désormais des dessins animés d'horreur pour enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0045",
+   "evidence": "je pense que ça va plutôt sur les jeunes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le public de l'horreur est surtout jeune selon 057.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0054",
+   "evidence": "j' ai un genre en_particulier que j' aime beaucoup et euh que je trouve intéressant c'est le documentaire nature",
+   "type": "fact",
+   "status": "active",
+   "statement": "063 présente les documentaires, en particulier le documentaire nature.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0055",
+   "evidence": "tout ce que fait yann lartus bertrand avec homme par_exemple",
+   "type": "fact",
+   "status": "active",
+   "statement": "Référence citée : les documentaires de Yann Arthus-Bertrand, comme Home.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« homme » = Home (ASR)"
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0057",
+   "evidence": "c'est vraiment un aspect militant de d' avoir ce genre de documentaire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le documentaire nature a un aspect militant (sensibilisation au droit des animaux).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0059",
+   "evidence": "j ai earthling",
+   "type": "fact",
+   "status": "active",
+   "statement": "Autre documentaire cité : Earthlings.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "titre épelé aux tours t0062 et t0065"
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0068",
+   "evidence": "joachim kim fenix qui a participé à la réalisation du du documentaire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Joaquin Phoenix a participé au documentaire cité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "nom déformé par l'ASR"
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0082",
+   "evidence": "on va trouver plus de contenu sur internet plutôt que sur euh au cinéma",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les documentaires évoluent vers internet plutôt que le cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "développé t0084-t0086 (YouTube, Facebook)"
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0088",
+   "evidence": "il_y a pas_mal_de festivals documentaires qui se font",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il y a de plus en plus de festivals de documentaires, notamment l'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0091",
+   "evidence": "des personnes qui sont intéressées par la nature et des personnes qui sont militantes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le public des documentaires : personnes sensibles à la nature et militantes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0100",
+   "evidence": "toi tu as pris les super héros",
+   "type": "fact",
+   "status": "active",
+   "statement": "017 présente le genre super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0101",
+   "evidence": "c'est un univers fantastique avec euh des personnes qui sont dotées de super pouvoirs",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le genre super-héros : univers fantastique avec des personnages à super-pouvoirs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0106",
+   "evidence": "y' a tout l' univers marvel dc comics x men tout ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Références super-héros : Marvel, DC Comics, X-Men.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0113",
+   "evidence": "pour marvel il_y a toujours la même musique qui va revenir",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les films Marvel ont une musique récurrente et épique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0113",
+   "evidence": "c'est pas du tout_le même budget aussi pour tourner ce genre de films",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les films de super-héros ont un budget bien plus élevé que les documentaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0114",
+   "evidence": "aujourd'hui ils veulent vraiment toucher un large panel la famille entière",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les films de super-héros visent aujourd'hui toute la famille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0116",
+   "evidence": "j' ai l' impression qu' il_y a pas tant que ça de nouveaux personnages",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque pour l'avenir du genre super-héros : peu de nouveaux personnages, suites à répétition.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0124",
+   "evidence": "moi j' ai choisi les comédies alors rom com je suppose que c'est des comédies romantiques mais c'est à l' envers",
+   "type": "fact",
+   "status": "active",
+   "statement": "053 présente les comédies et comédies romantiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "phrase répétée dans le tour (ASR)"
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0128",
+   "evidence": "de moins en moins les gens sont fans de ce genre de comédies",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 053, les comédies romantiques attirent de moins en moins.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0131",
+   "evidence": "le dernier que j' ai vu c'est la la lande",
+   "type": "fact",
+   "status": "active",
+   "statement": "La dernière comédie romantique vue par 053 est La La Land.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0134",
+   "evidence": "qu' est-ce_qu' on a fait au bon dieu ça c'est une comédie plutôt drôle",
+   "type": "fact",
+   "status": "active",
+   "statement": "Qu'est-ce qu'on a fait au bon Dieu est cité comme comédie drôle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0140",
+   "evidence": "hum moi je dirais bodyguard mais parce que c'est le film qu' a bercé mon adolescence",
+   "type": "fact",
+   "status": "active",
+   "statement": "Film emblématique selon 053 : Bodyguard (ou Dirty Dancing).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0143",
+   "evidence": "je pense que ça a pas spécialement évolué",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon 053, la comédie n'a pas vraiment évolué.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0143",
+   "evidence": "ce genre de film est plus réservé aux femmes surtout les films euh à comédie romantique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le public des comédies romantiques est surtout féminin selon 053.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0143",
+   "evidence": "les comédies classiques je pense que c'est justement ouvert à tout_le monde et qu' on peut aller en voir en famille",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les comédies classiques sont ouvertes à tous et se voient en famille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "020a_EBRZ",
+   "turn": "t0144",
+   "evidence": "faut que j' écrive tout ce qu' on s'est dit",
+   "type": "commitment",
+   "status": "active",
+   "statement": "053 rédige la synthèse de ce qui a été dit.",
+   "owner": "053",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0000",
+   "evidence": "dans nos quatre thèmes qu' on avait choisi faut qu' on en sélectionne que deux",
+   "type": "action",
+   "status": "active",
+   "statement": "Il faut retenir deux genres parmi les quatre présentés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0006",
+   "evidence": "je pense à la comédie justement ça peut ça pourrait toucher tout_le monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "063 propose la comédie, qui peut toucher tout le monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "précisé ensuite : comédie classique, pas romantique (t0009-t0010)"
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0017",
+   "evidence": "moi je dirais plutôt euh l' univers de marvel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose l'univers Marvel comme deuxième genre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0019",
+   "evidence": "le documentaire horreur y a pas tout_le monde forcément qui aime",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le documentaire et l'horreur ne plaisent pas à tout le monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0021",
+   "evidence": "donc on part sur comédie et super héros",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les deux genres retenus sont la comédie et les super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0027",
+   "evidence": "le nombre de places n' est pas limité",
+   "type": "fact",
+   "status": "active",
+   "statement": "Au cinéma drive, le nombre de places n'est pas limité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0029",
+   "evidence": "on peut avoir que maximum soixante-dix personnes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le cinéma art déco accueille au maximum 70 personnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0030",
+   "evidence": "c'est pas très original mais là on peut avoir cent_cinquante personnes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le cinéma classique, peu original, accueille 150 personnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0041",
+   "evidence": "ben je dirais cinéma classique hein",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "063 propose le cinéma classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0043",
+   "evidence": "on part surcinéma classique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Choix provisoire du cinéma classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "remis en cause dès t0048 au profit du drive"
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0050",
+   "evidence": "moi je serais plus partie sur drive",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 préfère le cinéma drive.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "après la question de 057 en t0048 (« pourquoi pas un drive »)"
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0057",
+   "evidence": "c'est vrai que ce qui est un peu embêtant c'est qu' il n' y a pas vraiment d' interaction",
+   "type": "risk",
+   "status": "active",
+   "statement": "Inconvénient du drive : peu d'interaction avec le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0062",
+   "evidence": "ce serait bien_qu' on essaye d' en trouver cinq comédies et cinq",
+   "type": "decision",
+   "status": "active",
+   "statement": "La sélection de dix films sera répartie en cinq comédies et cinq films de super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accord de 053 en t0063 ; dix films demandés en t0059"
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0069",
+   "evidence": "on met la la land + pour commencer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 propose La La Land comme première comédie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0076",
+   "evidence": "je pense que c'est vraiment pas trop accessible à tout_le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "053 juge La La Land peu accessible au grand public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "objection, avec t0070-t0073 (romantique, déjanté, musical)"
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0077",
+   "evidence": "y' a un film très à très qui a été très à la mode là euh babysitting",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose Babysitting.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0088",
+   "evidence": "allez on part sur baby sitting",
+   "type": "decision",
+   "status": "active",
+   "statement": "Babysitting est retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0102",
+   "evidence": "on peut partir sur les bronzés font du ski",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les Bronzés font du ski est retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accord de 053 en t0103"
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0121",
+   "evidence": "je pensais à une vieille comédie qui s' appelle le père noël est une ordure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "063 propose Le père Noël est une ordure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "approuvé par 053 en t0122, figure dans la liste t0262"
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0122",
+   "evidence": "il_y a même plus vieux mais la soupe au chou des trucs comme ça je pense qu' il_y a beaucoup de gens aussi qui qui ont vu ça mais c'est un peu dépassé",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "La Soupe aux choux est évoquée mais jugée dépassée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "écartée par la locutrice elle-même"
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0134",
+   "evidence": "on part sur qu est-ce_qu' on a fait au bon dieu",
+   "type": "decision",
+   "status": "active",
+   "statement": "Qu'est-ce qu'on a fait au bon Dieu est retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0139",
+   "evidence": "je pense que l' incontournable c'est quand même iron man",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "053 propose Iron Man comme incontournable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "appuyé par 057 en t0151, pas de validation explicite"
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0153",
+   "evidence": "deadpool aussi + l humour noir comme ça + ça marche bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose Deadpool, dans la veine de l'humour noir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0164",
+   "evidence": "on peut partir sur captain america aussi il est très connu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 propose Captain America, très connu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0179",
+   "evidence": "ben hancock du_coup c'est pas un marvel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose Hancock, un super-héros hors Marvel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "proposé en t0174, histoire résumée t0189-t0191"
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0198",
+   "evidence": "bah c'est bien là on a n- nos nos dix films",
+   "type": "decision",
+   "status": "active",
+   "statement": "La liste des dix films est complète.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "le cinquième film de super-héros reste flou (Suicide Squad évoqué sans décision)"
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0205",
+   "evidence": "on leur mettra un endroit à pied on se débrouillera un truc de pique-nique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour les personnes sans voiture : prévoir un espace à pied, type pique-nique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0217",
+   "evidence": "ça peut être familial parce_que du_coup aussi bien les super héros que les comédies c'est visible par tous à tout âge",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "053 propose un thème familial commun aux deux genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "réponse à la question de 017 en t0215"
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0220",
+   "evidence": "ça peut être l' été en famille",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 propose le thème « l'été en famille ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "t0269 : « on a le thème »"
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0225",
+   "evidence": "un un comédie un marvel un comédie un marvel",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose d'alterner comédies et Marvel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "053 d'accord en t0227/t0229"
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0242",
+   "evidence": "oui laisse comme ça on verra au pire s'il faut modifier après",
+   "type": "decision",
+   "status": "active",
+   "statement": "On garde pour l'instant l'ordre cinq comédies puis cinq super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "répond à la question de 017 en t0241"
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0252",
+   "evidence": "deadpool ça pourrait être la tête d' affiche",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deadpool sera la tête d'affiche (super-héros et comédie).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accord de 053 en t0253"
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0260",
+   "evidence": "alors je vais mettre deadpool à la fin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deadpool clôturera le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "choix fait en t0256-t0259"
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0262",
+   "evidence": "par les bronzés font du ski les profs le père noël est une ordure ou qu' est-ce_qu' on a fait au bon dieu",
+   "type": "fact",
+   "status": "active",
+   "statement": "Comédies de la liste en plus de Babysitting : Les Bronzés font du ski, Les Profs, Le père Noël est une ordure, Qu'est-ce qu'on a fait au bon Dieu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Les Profs proposé par 057 en t0109"
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0265",
+   "evidence": "ouais tu peux laisser c'est accessible comme ça pour tous",
+   "type": "decision",
+   "status": "active",
+   "statement": "Babysitting reste le premier film projeté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "question de 017 en t0261"
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0286",
+   "evidence": "pourquoi on a pris un cinéma drive parce que là du_coup j' ai juste mis accueillir un grand nombre de personnes et que c'était un cadre original",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le cinéma drive a été choisi : grande capacité et cadre original.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "le basculement vers le drive se fait t0048-t0054 sans formule explicite ; ce tour l'énonce clairement"
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0288",
+   "evidence": "y a pas les y a pas les restrictions sanitaires au_moins",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avantage du drive : pas de restrictions sanitaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0293",
+   "evidence": "ça coûterait moins cher aussi je pense hein si on ajoutait un écran plutôt que réserver une salle",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le drive coûterait moins cher qu'une salle, pour les organisateurs et le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "complété en t0297"
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0295",
+   "evidence": "plus euh libre aussi d' échanger",
+   "type": "fact",
+   "status": "active",
+   "statement": "Dans sa voiture, on peut parler librement pendant le film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "020b_EBDZ",
+   "turn": "t0310",
+   "evidence": "s'il fait pas très beau ou qu' il fait un peu froid tu es aussi à l' abri dans ta voiture",
+   "type": "fact",
+   "status": "active",
+   "statement": "En drive, on reste à l'abri dans sa voiture s'il fait froid ou mauvais.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0000",
+   "evidence": "si on fait un drive faut ce soit en été ou en printemps sinon il va faire pas beau",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un drive impose le printemps ou l'été à cause de la météo.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0001",
+   "evidence": "moi je vote pour l' été",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 vote pour l'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accord de 017, 053, 063 (t0002-t0004)"
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0013",
+   "evidence": "moi je pense que fin d' été c'est peut-être mieux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 préfère la fin de l'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "063 d'accord en t0014"
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0017",
+   "evidence": "pour moi ce serait le dernier week-end d' août",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "053 propose le dernier week-end d'août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0018",
+   "evidence": "je mets trente-et-un août",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose le 31 août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0028",
+   "evidence": "ouais ouais le vingt_sept",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement est fixé au samedi 27 août 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "année 2022 dite en t0020-t0023"
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0031",
+   "evidence": "on le ferait sur deux jours non ou sur un seul jour que le vingt_sept",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il un ou deux jours pour l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0033",
+   "evidence": "on peut commencer le vingt_six faire vingt_six et vingt_sept",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "057 propose les 26 et 27 août.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0038",
+   "evidence": "moi j' aurais peut-être plus pensé faire le samedi et dimanche",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 propose samedi et dimanche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0039",
+   "evidence": "le dimanche soir les gens ils reprennent le travail",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le dimanche soir est mal placé car les gens reprennent le travail.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0040",
+   "evidence": "moi aussi je pense vendredi samedi",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu le vendredi et le samedi (26 et 27 août).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "017 accepte en t0041"
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0045",
+   "evidence": "euh oui moi si tu veux",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "053 se propose d'abord pour la location du matériel.",
+   "owner": null,
+   "mentioned_people": [
+    "053"
+   ],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "l'objet (matériel) vient de t0042-t0044 ; 053 se réoriente vers la communication en t0052"
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0052",
+   "evidence": "moi je serais plus com parce_que j' en fais à côté",
+   "type": "commitment",
+   "status": "active",
+   "statement": "053 prend la communication de l'événement.",
+   "owner": "053",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "validé par 057 en t0054"
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0062",
+   "evidence": "moi je m' occupe des affiches",
+   "type": "commitment",
+   "status": "active",
+   "statement": "063 s'occupe des affiches.",
+   "owner": "063",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0067",
+   "evidence": "dès la rentrée là là il faut commencer faire de la pub",
+   "type": "decision",
+   "status": "active",
+   "statement": "La communication sur les réseaux sociaux commence dès la rentrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0067",
+   "evidence": "les affiches peut-être pas maintenant + genre plutôt début d' année prochaine",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les affiches seront faites plutôt en début d'année prochaine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0080",
+   "evidence": "moi je m' occupe du matériel si tu veux",
+   "type": "commitment",
+   "status": "active",
+   "statement": "057 s'occupe de la location du matériel.",
+   "owner": "057",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0080",
+   "evidence": "toi tu t' occupes du lieu",
+   "type": "action",
+   "status": "active",
+   "statement": "017 s'occupe du lieu.",
+   "owner": "017",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "accepté par 017 en t0081"
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0087",
+   "evidence": "moi je veux bien faire l' accueil vendre les billets",
+   "type": "commitment",
+   "status": "active",
+   "statement": "053 fera l'accueil, la vente des billets et le placement le jour J.",
+   "owner": "053",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0090",
+   "evidence": "m' occuper de la boutique genre pour la bouffe et tout ça",
+   "type": "commitment",
+   "status": "active",
+   "statement": "057 tiendra la boutique (nourriture, sodas).",
+   "owner": "057",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0104",
+   "evidence": "voilà moi je m' occupe de la présentation",
+   "type": "commitment",
+   "status": "active",
+   "statement": "063 assure la présentation / l'animation.",
+   "owner": "063",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0116",
+   "evidence": "moi moi je veux bien le faire",
+   "type": "commitment",
+   "status": "active",
+   "statement": "053 se charge du recrutement de l'équipe technique.",
+   "owner": "053",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "objet (recrutement) en t0112-t0115 ; 017 se joint en t0127"
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0155",
+   "evidence": "on a dit qu' on pouvait accueillir combien de personnes",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Combien de personnes peut-on accueillir ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0159",
+   "evidence": "non même plus hein plus plus mais c'est les voitures",
+   "type": "answer",
+   "status": "active",
+   "statement": "Avec le drive, la capacité dépasse 150 personnes puisque ce sont des voitures.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "057 avait répondu « cent cinquante » (t0156) avant d'être corrigée"
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0167",
+   "evidence": "on pourrait le faire à deux avec adelaide",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "057 propose de faire l'accueil des voitures avec Adélaïde.",
+   "owner": null,
+   "mentioned_people": [
+    "063"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "pas d'accord explicite de 063"
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0174",
+   "evidence": "communication de l' événement sur les réseaux sociaux donc dès la rentrée avec stef",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récap : communication réseaux sociaux dès la rentrée, par Stef.",
+   "owner": "053",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0175",
+   "evidence": "communication de l' événement avec des affiches donc dès janvier deux_mille_vingt_deux avec adélaïde",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récap : affiches dès janvier 2022, par Adélaïde.",
+   "owner": "063",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0175",
+   "evidence": "location du lieu dès la rentrée deux_mille_vingt-et-un euh deux_mille_vingt_deux pardon non deux_mille_vingt-et-un avec émilie",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récap : location du lieu dès la rentrée 2021, par Émilie.",
+   "owner": "017",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "hésitation sur l'année"
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0175",
+   "evidence": "la location du matériel donc ça serait dès janvier deux_mille_vingt_deux avec moi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récap : location du matériel dès janvier 2022, par 057.",
+   "owner": "057",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0176",
+   "evidence": "le jour de l' événement steph tu accueilles tu vends les tickets",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récap : le jour J, Steph fait l'accueil et vend les billets.",
+   "owner": "053",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0178",
+   "evidence": "on peut même euh réserver un food truck pour le mettre à l' entrée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "053 propose de réserver un food truck à l'entrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0186",
+   "evidence": "en même temps que tu mets du matériel tu te renseignes",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Se renseigner sur les food trucks en même temps que la location du matériel.",
+   "owner": null,
+   "mentioned_people": [
+    "057"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "057 acquiesce en t0187"
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0201",
+   "evidence": "à l' estac je sais qu' il_y a un grand parking en haut à droite là où t' as vue sur la mer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "053 propose un grand parking avec vue sur la mer à l'Estaque.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "autres pistes : domaine viticole, grand parc (t0196-t0200)"
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0202",
+   "evidence": "donc parking avec vue sur la mer ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu noté est un parking avec vue sur la mer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "noté par 057 sans autre validation explicite"
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0208",
+   "evidence": "il faut faire une étude de marché voir combien ça peut coûter le lieu",
+   "type": "action",
+   "status": "open",
+   "statement": "Faire une étude de marché avant de lancer la communication pour fixer les coûts.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0211",
+   "evidence": "on pourrait faire un prix adulte un prix enfant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tarif différencié adulte / enfant (enfant jusqu'à 15 ans).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0214",
+   "evidence": "peut-être faire une différence de prix euh sur les placements",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tarif différencié selon le placement (premières lignes plus chères).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "053 approuve en t0215"
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0227",
+   "evidence": "inviter par_exemple je dis n'importe quoi des acteurs pas trop connus ou des réalisateurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "017 propose d'inviter des acteurs ou réalisateurs pour un petit discours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "youtubeurs évoqués en t0235"
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0234",
+   "evidence": "adelaide ferait animatrice d' évènement et en même temps elle euh elle animerait animerait les discussions avec euh les invités",
+   "type": "decision",
+   "status": "active",
+   "statement": "Adélaïde anime l'événement et les discussions avec les invités.",
+   "owner": null,
+   "mentioned_people": [
+    "063"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "063 a accepté la présentation (t0104), pas explicitement les discussions"
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "020c_EBPZ",
+   "turn": "t0259",
+   "evidence": "réserver un un carré mais avec un nombre de places limitées",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour les personnes sans voiture : un carré délimité à places limitées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "barrières pour éviter les accidents (t0261)"
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-02",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "La comédie proposée par 063 est l'un des deux genres retenus."
+  },
+  {
+   "from": "b-03",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "Marvel / super-héros proposé par 057 est le second genre retenu."
+  },
+  {
+   "from": "b-04",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "Argument pour écarter documentaire et horreur."
+  },
+  {
+   "from": "b-36",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "Après « on part sur cinéma classique » (t0043), le groupe bascule vers le drive (t0048-t0054) et l'énonce en t0286."
+  },
+  {
+   "from": "b-11",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Proposition de 017 qui aboutit au choix du drive."
+  },
+  {
+   "from": "b-06",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "La capacité non limitée du drive justifie le choix."
+  },
+  {
+   "from": "b-37",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Argument complémentaire pour le drive."
+  },
+  {
+   "from": "b-38",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Argument de coût pour le drive."
+  },
+  {
+   "from": "b-39",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Argument d'échange libre en voiture."
+  },
+  {
+   "from": "b-40",
+   "to": "b-36",
+   "relation": "supports",
+   "justification": "Argument météo pour le drive."
+  },
+  {
+   "from": "b-17",
+   "to": "b-14",
+   "relation": "supersedes",
+   "justification": "La La Land proposé « pour commencer » est écarté ; Babysitting est retenu et reste le premier film (t0261-t0265)."
+  },
+  {
+   "from": "b-15",
+   "to": "b-14",
+   "relation": "contradicts",
+   "justification": "Objection de 053 : La La Land pas accessible à tous."
+  },
+  {
+   "from": "b-35",
+   "to": "b-17",
+   "relation": "supports",
+   "justification": "Babysitting confirmé en ouverture."
+  },
+  {
+   "from": "b-34",
+   "to": "b-18",
+   "relation": "supports",
+   "justification": "La liste reprend Les Bronzés font du ski."
+  },
+  {
+   "from": "b-34",
+   "to": "b-21",
+   "relation": "supports",
+   "justification": "La liste reprend Qu'est-ce qu'on a fait au bon Dieu."
+  },
+  {
+   "from": "b-34",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "La liste reprend Le père Noël est une ordure."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "supersedes",
+   "justification": "Question de l'ordre tranchée (t0241-t0242) : on garde cinq comédies puis cinq super-héros pour l'instant."
+  },
+  {
+   "from": "b-29",
+   "to": "b-28",
+   "relation": "supports",
+   "justification": "« L'été en famille » précise le thème familial proposé par 053."
+  },
+  {
+   "from": "b-32",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Deadpool, proposé par 057, devient la tête d'affiche."
+  },
+  {
+   "from": "c-06",
+   "to": "c-05",
+   "relation": "supersedes",
+   "justification": "Le 31 août proposé est corrigé au 27 (samedi) après vérification du calendrier 2022."
+  },
+  {
+   "from": "c-04",
+   "to": "c-06",
+   "relation": "supports",
+   "justification": "Le 27 août 2022 correspond au dernier week-end d'août demandé."
+  },
+  {
+   "from": "c-11",
+   "to": "c-06",
+   "relation": "supersedes",
+   "justification": "Un seul jour (le 27) devient deux jours, vendredi 26 et samedi 27 (t0031-t0041)."
+  },
+  {
+   "from": "c-11",
+   "to": "c-09",
+   "relation": "supersedes",
+   "justification": "Samedi-dimanche écarté au profit de vendredi-samedi."
+  },
+  {
+   "from": "c-11",
+   "to": "c-07",
+   "relation": "answers",
+   "justification": "Répond qu'on fait deux jours, vendredi et samedi."
+  },
+  {
+   "from": "c-10",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Le dimanche soir est écarté car les gens reprennent le travail."
+  },
+  {
+   "from": "c-13",
+   "to": "c-12",
+   "relation": "supersedes",
+   "justification": "053 se réoriente : « moi je serais plus com » au lieu du matériel."
+  },
+  {
+   "from": "c-26",
+   "to": "c-13",
+   "relation": "supports",
+   "justification": "Récapitulatif : communication réseaux sociaux par Stef."
+  },
+  {
+   "from": "c-26",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "Récapitulatif : dès la rentrée."
+  },
+  {
+   "from": "c-27",
+   "to": "c-14",
+   "relation": "supports",
+   "justification": "Récapitulatif : affiches par Adélaïde."
+  },
+  {
+   "from": "c-27",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Récapitulatif : affiches dès janvier 2022."
+  },
+  {
+   "from": "c-28",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Récapitulatif : lieu par Émilie."
+  },
+  {
+   "from": "c-29",
+   "to": "c-17",
+   "relation": "supports",
+   "justification": "Récapitulatif : matériel par 057."
+  },
+  {
+   "from": "c-30",
+   "to": "c-19",
+   "relation": "supports",
+   "justification": "Récapitulatif : accueil et billets par Steph."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "answers",
+   "justification": "Réponse : plus de 150, puisque ce sont des voitures."
+  },
+  {
+   "from": "c-24",
+   "to": "b-06",
+   "relation": "supports",
+   "justification": "Confirme que le drive dépasse la capacité de 150 du cinéma classique."
+  },
+  {
+   "from": "c-31",
+   "to": "c-32",
+   "relation": "creates_action",
+   "justification": "L'idée du food truck donne lieu à se renseigner lors de la location du matériel."
+  },
+  {
+   "from": "c-34",
+   "to": "c-33",
+   "relation": "supports",
+   "justification": "057 note la piste du parking avec vue sur la mer."
+  },
+  {
+   "from": "c-38",
+   "to": "c-39",
+   "relation": "supports",
+   "justification": "L'idée d'inviter des intervenants est reprise dans le rôle d'animatrice des discussions."
+  },
+  {
+   "from": "c-40",
+   "to": "b-27",
+   "relation": "supports",
+   "justification": "Précise l'espace prévu pour les personnes sans voiture."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "020b_EBDZ",
+   "text": "Au final, quels genres de films le groupe a-t-il gardés pour le festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-05": 2,
+    "b-02": 1,
+    "b-03": 1,
+    "b-04": 1,
+    "b-01": 0,
+    "a-25": 0,
+    "a-18": 0,
+    "a-01": 0,
+    "a-10": 0
+   },
+   "traps": [
+    {
+     "unit": "b-01",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-01",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "020b_EBDZ",
+   "text": "Quel type de cinéma a été retenu en définitive pour projeter les films ?",
+   "answerable": true,
+   "qrels": {
+    "b-36": 2,
+    "b-11": 1,
+    "b-10": 0,
+    "b-09": 0,
+    "b-07": 0,
+    "b-08": 0,
+    "b-06": 0
+   },
+   "traps": [
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-09",
+     "trap": "status"
+    },
+    {
+     "unit": "b-07",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "020b_EBDZ",
+   "text": "Quels avantages du drive ont été avancés pour justifier ce choix ?",
+   "answerable": true,
+   "qrels": {
+    "b-36": 2,
+    "b-37": 2,
+    "b-38": 2,
+    "b-39": 2,
+    "b-40": 2,
+    "b-06": 1,
+    "c-24": 1,
+    "b-12": 0
+   },
+   "traps": [
+    {
+     "unit": "b-12",
+     "trap": "negation"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "020b_EBDZ",
+   "text": "Quel film passera en clôture du festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-33": 2,
+    "b-32": 1,
+    "b-23": 0,
+    "b-35": 0,
+    "b-17": 0
+   },
+   "traps": [
+    {
+     "unit": "b-23",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-35",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "020b_EBDZ",
+   "text": "Quelles comédies figurent dans la programmation retenue ?",
+   "answerable": true,
+   "qrels": {
+    "b-34": 2,
+    "b-17": 2,
+    "b-18": 2,
+    "b-21": 2,
+    "b-19": 1,
+    "b-16": 1,
+    "b-13": 1,
+    "b-14": 0,
+    "b-20": 0,
+    "a-28": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-14",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-20",
+     "trap": "status"
+    },
+    {
+     "unit": "a-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "020b_EBDZ",
+   "text": "Pour quelle raison La La Land a-t-il été écarté de la sélection comédie ?",
+   "answerable": true,
+   "qrels": {
+    "b-15": 2,
+    "b-14": 1,
+    "b-17": 1,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "020b_EBDZ",
+   "text": "Quel thème commun aux deux genres a été imaginé pour le festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-29": 2,
+    "b-28": 2,
+    "a-32": 0,
+    "a-23": 0
+   },
+   "traps": [
+    {
+     "unit": "a-32",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-23",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "020b_EBDZ",
+   "text": "Quel budget chiffré a été prévu pour louer l'écran du drive ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "020c_EBPZ",
+   "text": "Quelles dates exactes ont été arrêtées pour le drive, et sur combien de jours ?",
+   "answerable": true,
+   "qrels": {
+    "c-11": 2,
+    "c-06": 2,
+    "c-08": 1,
+    "c-04": 1,
+    "c-03": 1,
+    "c-02": 1,
+    "c-05": 0,
+    "c-09": 0,
+    "c-01": 0
+   },
+   "traps": [
+    {
+     "unit": "c-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-09",
+     "trap": "date"
+    },
+    {
+     "unit": "c-01",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "020c_EBPZ",
+   "text": "Qui prépare les affiches de l'événement et à partir de quand ?",
+   "answerable": true,
+   "qrels": {
+    "c-27": 2,
+    "c-14": 2,
+    "c-16": 2,
+    "c-13": 0,
+    "c-26": 0,
+    "c-15": 0
+   },
+   "traps": [
+    {
+     "unit": "c-13",
+     "trap": "person"
+    },
+    {
+     "unit": "c-26",
+     "trap": "person"
+    },
+    {
+     "unit": "c-15",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "020c_EBPZ",
+   "text": "Qui se charge de louer le projecteur et l'écran ?",
+   "answerable": true,
+   "qrels": {
+    "c-17": 2,
+    "c-29": 2,
+    "c-12": 0,
+    "c-18": 0,
+    "c-28": 0,
+    "c-32": 0
+   },
+   "traps": [
+    {
+     "unit": "c-12",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-18",
+     "trap": "person"
+    },
+    {
+     "unit": "c-32",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "020c_EBPZ",
+   "text": "Le jour J, qui tiendra l'accueil et la billetterie ?",
+   "answerable": true,
+   "qrels": {
+    "c-19": 2,
+    "c-30": 2,
+    "c-20": 0,
+    "c-25": 0,
+    "c-21": 0
+   },
+   "traps": [
+    {
+     "unit": "c-20",
+     "trap": "person"
+    },
+    {
+     "unit": "c-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-21",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "020c_EBPZ",
+   "text": "Combien de spectateurs pourra-t-on recevoir maintenant qu'on n'est plus en salle classique ?",
+   "answerable": true,
+   "qrels": {
+    "c-24": 2,
+    "b-06": 2,
+    "b-08": 0,
+    "b-07": 0,
+    "c-23": 0,
+    "c-40": 0
+   },
+   "traps": [
+    {
+     "unit": "b-08",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-07",
+     "trap": "amount"
+    },
+    {
+     "unit": "c-40",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "020c_EBPZ",
+   "text": "Quelles pistes ont été évoquées pour la tarification des entrées ?",
+   "answerable": true,
+   "qrels": {
+    "c-36": 2,
+    "c-37": 2,
+    "c-35": 1,
+    "b-38": 0
+   },
+   "traps": [
+    {
+     "unit": "b-38",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "020c_EBPZ",
+   "text": "Où le groupe envisage-t-il d'installer l'écran en plein air ?",
+   "answerable": true,
+   "qrels": {
+    "c-33": 2,
+    "c-34": 2,
+    "c-18": 0,
+    "c-28": 0
+   },
+   "traps": [
+    {
+     "unit": "c-28",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-18",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "020c_EBPZ",
+   "text": "Quel tarif précis a été fixé pour un billet adulte ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "017": "émilie",
+  "053": "steph (incertain)",
+  "057": "delphine (incertain)",
+  "063": "adélaïde"
+ },
+ "notes": "020a est en ASR (noms de films déformés : « clone » = clown, « homme » = Home). Identités : 053 appelée « stef/steph » en 020c ; 057 probablement Delphine (020a t0003), incertain. Choix du drive en 020b : basculement implicite t0048-t0054 après « on part sur cinéma classique », énoncé en t0286. Le cinquième film de super-héros est flou (Suicide Squad évoqué sans décision ; Babysitting 1 et 2 peut-être comptés deux fois). « le samedi on fait magie » (020c t0036) non interprété. Année hésitante (2021/2022) dans le récapitulatif 020c t0175. Mentions personnelles (métier, famille) non annotées."
+}
