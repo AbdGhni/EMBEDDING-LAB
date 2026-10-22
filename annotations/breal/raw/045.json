@@ -1,0 +1,2168 @@
+{
+ "group_id": "045",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "045a_EARH",
+   "turn": "t0002",
+   "evidence": "un temps de parole chacune donc euh cinq minutes à six minutes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Chaque intervenante dispose de cinq à six minutes pour présenter son sujet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "045a_EARH",
+   "turn": "t0005",
+   "evidence": "pourquoi j aimerais faire un événement sur amazon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Elsa propose un événement de l'association consacré à Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "045a_EARH",
+   "turn": "t0005",
+   "evidence": "l aspect négatif d amazon c'est que on ne va plus chez le petit libraire",
+   "type": "risk",
+   "status": "active",
+   "statement": "Effet négatif d'Amazon : on ne se rend plus chez les petits libraires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "045a_EARH",
+   "turn": "t0007",
+   "evidence": "en faisant en sorte que euh amazon soit légèrement plus taxée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : obtenir qu'Amazon soit un peu plus taxé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "045a_EARH",
+   "turn": "t0009",
+   "evidence": "en proposant amazon de faire des collaborations avec d'autres libraires",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : proposer à Amazon des collaborations avec des libraires et des boutiques physiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "045a_EARH",
+   "turn": "t0015",
+   "evidence": "plus personne va au cinéma ça a de grosses conséquences économiques",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le streaming vide les salles de cinéma, avec de lourdes conséquences économiques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "045a_EARH",
+   "turn": "t0020",
+   "evidence": "vous avez le choix entre payer sept euros et avoir euh une place de cinéma pour un seul film",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une place de cinéma pour un seul film coûte sept euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "sept euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "045a_EARH",
+   "turn": "t0022",
+   "evidence": "ou payer sept euros et euh avoir accès à tout un catalogue de films divers et variés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour sept euros, le streaming donne accès à tout un catalogue de films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "sept euros",
+   "assertion": "extracted",
+   "notes": "Suite directe de t0020."
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "045a_EARH",
+   "turn": "t0024",
+   "evidence": "essayer de voir pour faire un forfait cinéma où euh chaque mois euh on pourrait payer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un forfait cinéma mensuel donnant un accès illimité aux salles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "045a_EARH",
+   "turn": "t0026",
+   "evidence": "ce serait peut-être amazon qui pourrait le proposer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le forfait cinéma pourrait être proposé par Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répond à l'objection de t0025 (aucun rapport avec Amazon)."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "045a_EARH",
+   "turn": "t0031",
+   "evidence": "laisser les films au cinéma un peu plus longtemps et hum qu amazon ne puisse pas y accéder avant peut-être euh un an ou deux ans",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : interdire à la plateforme d'Amazon les films en salle pendant un à deux ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accueil prudent en t0034 (« c'est à penser »)."
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "045a_EARH",
+   "turn": "t0037",
+   "evidence": "je pense que c'est un outil qui peut être très très utile euh voire même indispensable",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le téléphone est jugé très utile, voire indispensable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Opinion de Marie."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "045a_EARH",
+   "turn": "t0045",
+   "evidence": "il faudrait peut-être penser aux personnes âgées qui ont encore du mal à s en servir",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les personnes âgées ont encore du mal à se servir du téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "045a_EARH",
+   "turn": "t0049",
+   "evidence": "ou un accompagnement personnalisé dans le cadre euh de cette association",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un accompagnement personnalisé des personnes âgées par l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "045a_EARH",
+   "turn": "t0053",
+   "evidence": "le premier iphone est sorti en deux_mille_sept",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le premier iPhone est sorti en 2007.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "045a_EARH",
+   "turn": "t0056",
+   "evidence": "des téléphones où il_y a des numéros où il_y a un numéro d urgence à l arrière avec des touches extrêmement grosses",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il existe des téléphones adaptés aux personnes âgées (grosses touches, numéro d'urgence).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "045a_EARH",
+   "turn": "t0063",
+   "evidence": "ces personnes âgées là euh elles qui n ont pas l habitude d y aller ça leur pose un réel problème",
+   "type": "risk",
+   "status": "active",
+   "statement": "La dématérialisation des démarches pose un vrai problème aux personnes âgées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contexte en t0060 (services qui renvoient vers internet)."
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "045a_EARH",
+   "turn": "t0066",
+   "evidence": "je pense que c'est l accompagnement des plus jeunes qui vont pouvoir justement les aider",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : ce sont les jeunes de la famille qui peuvent aider les aînés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "045a_EARH",
+   "turn": "t0073",
+   "evidence": "je vous laisserai euh par_ailleurs tout à l heure justine fouché euh de faire euh la transition sur les réseaux sociaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Justine doit assurer plus tard la transition sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [
+    "justine"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Personne citée, absente de la transcription ensuite."
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "045a_EARH",
+   "turn": "t0084",
+   "evidence": "de_plus en plus avec tout ce qui est du harcèlement scolaire du harcèlement sur internet",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les jeunes sont de plus en plus exposés au harcèlement scolaire et en ligne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "045a_EARH",
+   "turn": "t0086",
+   "evidence": "des applications qui permettraient de protéger euh ces jeunes gens",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : des applications pour protéger les jeunes du harcèlement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "045a_EARH",
+   "turn": "t0093",
+   "evidence": "créer justement des événements peut-être un forum euh où on pourrait euh permettre aux gens non seulement d apprendre à se servir des téléphones",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un forum pour apprendre à utiliser le téléphone et connaître les dangers des réseaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "045a_EARH",
+   "turn": "t0093",
+   "evidence": "c'est aussi dangereux pour les personnes âgées qui s y font arnaquer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les réseaux sociaux exposent aussi les personnes âgées aux arnaques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "045a_EARH",
+   "turn": "t0096",
+   "evidence": "peut-être faire un grand forum où les gens pourraient venir et euh en apprendre plus sur les téléphones avec de de la prévention d un côté euh de la formation de l'autre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Grand forum combinant prévention et formation sur les téléphones.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "045a_EARH",
+   "turn": "t0100",
+   "evidence": "sauf que ce serait euh peut-être le salon du téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Format proposé : une convention de type salon du téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "045a_EARH",
+   "turn": "t0103",
+   "evidence": "le salon du numérique et multimedia",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Variante : salon du numérique et du multimédia.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par 115 en t0104 (« exactement »)."
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "045a_EARH",
+   "turn": "t0106",
+   "evidence": "on pourrait proposer à certaines associations de venir et de proposer leur application",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter des associations à présenter leurs applications.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "045a_EARH",
+   "turn": "t0110",
+   "evidence": "je suis d'accord avec le fait qu il faudrait toucher tous_les âges",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le public visé doit couvrir tous les âges.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "045a_EARH",
+   "turn": "t0112",
+   "evidence": "on a eu cette prévention là établie au collège au lycée",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des campagnes de prévention (alcool au volant) ont été faites au collège et au lycée, modèle à suivre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "045a_EARH",
+   "turn": "t0152",
+   "evidence": "organiser une convention pour euh sensibiliser un petit peu euh toute cette population",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il organiser une convention de sensibilisation ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Question commencée en t0150."
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "045a_EARH",
+   "turn": "t0155",
+   "evidence": "peut-être que une convention et une campagne de sensibilisation pourrait être une bonne première étape",
+   "type": "answer",
+   "status": "active",
+   "statement": "Une convention et une campagne de sensibilisation seraient une bonne première étape.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "045a_EARH",
+   "turn": "t0167",
+   "evidence": "on a vu il_y a pas longtemps des scandales sur euh le traitement des employés euh dans cette entreprise",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des scandales récents ont visé le traitement des employés d'Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "045a_EARH",
+   "turn": "t0173",
+   "evidence": "peut-être euh une manifestation à organiser contre euh ce que fait cette entreprise",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : une manifestation contre les pratiques d'Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "045a_EARH",
+   "turn": "t0176",
+   "evidence": "on essaye d aider les employés à avoir de meilleures conditions de travail",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La manifestation viserait l'amélioration des conditions de travail des employés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Précision demandée en t0174."
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "045a_EARH",
+   "turn": "t0185",
+   "evidence": "par_contre ça y a aussi ses conséquences euh ben dans la chute",
+   "type": "risk",
+   "status": "active",
+   "statement": "La robotisation entraîne des pertes d'emplois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase achevée en t0187 (« de certains emplois ») ; robots cités en t0182."
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "045a_EARH",
+   "turn": "t0192",
+   "evidence": "des fois on peut tomber sur du dropshipping et se faire complètement arnaquer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque d'arnaque par le dropshipping.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "045a_EARH",
+   "turn": "t0194",
+   "evidence": "commander un objet à un euros avec euh cent_cinquante euros de frais de douane",
+   "type": "fact",
+   "status": "active",
+   "statement": "Exemple : un objet à un euro avec 150 euros de frais de douane.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "un euros ; cent_cinquante euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "045a_EARH",
+   "turn": "t0199",
+   "evidence": "mais même sur amazon il_y a du dropshipping",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le dropshipping existe aussi sur Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "045a_EARH",
+   "turn": "t0215",
+   "evidence": "il faudrait peut-être euh encourager certaines entreprises françaises à s élancer et on pourrait d'ailleurs euh utiliser les réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : promouvoir des entreprises françaises via les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "045a_EARH",
+   "turn": "t0245",
+   "evidence": "un_peu_moins_d' impacts écologiques puique ce sera français sur le territoire français",
+   "type": "fact",
+   "status": "active",
+   "statement": "Produire en France réduirait l'impact écologique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Argument d'opinion."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "045b_EADH",
+   "turn": "t0005",
+   "evidence": "donc on va continuer sur ces thèmes là",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement garde les thèmes de la première réunion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite à la proposition de 116 en t0003."
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "045b_EADH",
+   "turn": "t0005",
+   "evidence": "le thème général est ce_qu on pourrait dire que ce serait le téléphone",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Le thème général serait-il le téléphone ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "045b_EADH",
+   "turn": "t0007",
+   "evidence": "non plutôt ouais internet multimédia et technologie",
+   "type": "answer",
+   "status": "active",
+   "statement": "Thème général : internet, multimédia et technologie.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "115 dit la même chose en t0006."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "045b_EADH",
+   "turn": "t0015",
+   "evidence": "est-ce_que vous aurez une idée d une date approximative pour cet événement",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quelle date approximative pour l'événement ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "045b_EADH",
+   "turn": "t0017",
+   "evidence": "juillet ça pourrait être pas mal",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : juillet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "045b_EADH",
+   "turn": "t0018",
+   "evidence": "ce serait bien de le faire à la rentrée septembre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : à la rentrée, en septembre, dans cinq-six mois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "045b_EADH",
+   "turn": "t0025",
+   "evidence": "en septembre il_y a tout ce qui est forum associations donc peut-être qu on devrait euh il_y a la foire de marseille aussi",
+   "type": "fact",
+   "status": "active",
+   "statement": "En septembre ont lieu les forums des associations et la foire de Marseille.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "045b_EADH",
+   "turn": "t0027",
+   "evidence": "même peut-être fin mai ça pourrait être pas mal",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition alternative : fin mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "045b_EADH",
+   "turn": "t0028",
+   "evidence": "en septembre il_y a plus de foires et je pense que c'est là où il_y aura plus de gens",
+   "type": "decision",
+   "status": "active",
+   "statement": "Septembre est retenu, car plus de foires et de public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord de 115 en t0029 ; confirmé en réunion c (« on avait dit septembre »)."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "045b_EADH",
+   "turn": "t0040",
+   "evidence": "ce serait peut-être bien de proposer euh des flyers",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : distribuer des flyers dans la foire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "045b_EADH",
+   "turn": "t0053",
+   "evidence": "un café bar ça pourrait être pas mal justement au_sein_de la convention",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un espace de type café-bar connecté avec écrans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "045b_EADH",
+   "turn": "t0062",
+   "evidence": "les images chocs par_exemple on pourrait les les distribuer avec des qr codes qu on mettrait sur les tables",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : diffuser des images chocs via des QR codes sur les tables.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "045b_EADH",
+   "turn": "t0066",
+   "evidence": "des vidéos trop choquantes et des images trop choquantes ont tendance à faire fuir le monde",
+   "type": "risk",
+   "status": "active",
+   "statement": "Des contenus trop choquants risquent de faire fuir le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "045b_EADH",
+   "turn": "t0088",
+   "evidence": "si vous voulez savoir la suite rejoignez nous au stand",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Vidéo-histoire tronquée avec QR code invitant à venir au stand.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée construite sur t0078-t0088, bien accueillie en t0094."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "045b_EADH",
+   "turn": "t0102",
+   "evidence": "on abandonnerait un peu le côté de formation euh pour les personnes âgées",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de délaisser la formation des personnes âgées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "045b_EADH",
+   "turn": "t0109",
+   "evidence": "un stand de campagne de sensibilisation plutôt tirée pour les jeunes et un stand formation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : un stand sensibilisation (jeunes) et un stand formation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "045b_EADH",
+   "turn": "t0112",
+   "evidence": "il faudrait envisager des inscriptions euh payantes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : inscriptions payantes pour la formation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "045b_EADH",
+   "turn": "t0113",
+   "evidence": "pourquoi forcément payantes on peut former gratuitement",
+   "type": "decision",
+   "status": "active",
+   "statement": "La formation sera gratuite.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord de 115 (t0115) et de 116 (t0116)."
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "045b_EADH",
+   "turn": "t0122",
+   "evidence": "les gens avec les qr code pourraient télécharger des petites vidéos qu ils auraient sur leur téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Stand formation : vidéos téléchargeables par QR code et document de l'intervenant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "045b_EADH",
+   "turn": "t0124",
+   "evidence": "si on parle de ces formations qu est ce_qu on pourrait leur proposer",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quels sujets pour les formations ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "045b_EADH",
+   "turn": "t0134",
+   "evidence": "donc une formation assez cybersécure quoi",
+   "type": "answer",
+   "status": "active",
+   "statement": "Formation centrée sur la cybersécurité (repérer piratage et hameçonnage).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contenu détaillé par 115 en t0126-t0132, validé en t0136."
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "045b_EADH",
+   "turn": "t0142",
+   "evidence": "est-ce qu on pourrait pas essayer de tenter une collaboration avec euh pix",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : collaborer avec Pix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Bien accueillie en t0144."
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "045b_EADH",
+   "turn": "t0149",
+   "evidence": "leur certification soit un peu trop longue faudrait peut-être les raccourcir",
+   "type": "risk",
+   "status": "active",
+   "statement": "La certification Pix serait trop longue, à raccourcir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "045b_EADH",
+   "turn": "t0153",
+   "evidence": "un catalogue qu on pourrait proposer devant le stand pourrait être sympa aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée : un catalogue/magazine de fiches de synthèse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "045b_EADH",
+   "turn": "t0173",
+   "evidence": "la_plupart_du_temps les personnes âgées sont assez isolées",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les personnes âgées sont souvent isolées, l'aide familiale ne suffit pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "045b_EADH",
+   "turn": "t0195",
+   "evidence": "au nom du stand le café informatique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nom proposé pour le stand : le café informatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "045b_EADH",
+   "turn": "t0199",
+   "evidence": "pour l achat d un d un café une gourmandise on pourrait mettre ça à six euros ça permettrait de nous financer aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Formule café et gourmandise à six euros pour financer l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "six euros",
+   "assertion": "extracted",
+   "notes": "Accueil favorable en t0203-t0204."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "045b_EADH",
+   "turn": "t0202",
+   "evidence": "on offre justement le fascicule avec les fiches d information",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le fascicule de fiches serait offert avec la formule.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "045b_EADH",
+   "turn": "t0210",
+   "evidence": "demander à une marque euh française alimentation de venir nous faire euh des gaufres ou des crêpes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire faire gaufres ou crêpes par une marque alimentaire française.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "045b_EADH",
+   "turn": "t0216",
+   "evidence": "demander tout simplement à des bénévoles aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire appel aux bénévoles de l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "045b_EADH",
+   "turn": "t0220",
+   "evidence": "on pourrait demander justement à des locaux s'il y a justement un pâtissier qui galère",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire appel à un pâtissier local en difficulté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "045b_EADH",
+   "turn": "t0226",
+   "evidence": "on avait dit avec pix et avec qui d'autre",
+   "type": "decision",
+   "status": "active",
+   "statement": "La collaboration avec Pix est actée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Récapitulatif ; 115 confirme « avec pix » en t0225."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "045b_EADH",
+   "turn": "t0244",
+   "evidence": "plutôt que café informatique peut-être le cybercafé",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Nom alternatif : cybercafé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réserve de 116 en t0246 ; pas de choix final du nom."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "045b_EADH",
+   "turn": "t0257",
+   "evidence": "faudrait sans doute faire deux sessions c'est-à-dire une euh quand la convention commence",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire deux sessions : à l'ouverture (10 h) et l'après-midi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "045b_EADH",
+   "turn": "t0283",
+   "evidence": "on pourrait demander à des influenceurs de de promulguer notre notre asos",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Demander à des influenceurs de promouvoir l'association.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "045b_EADH",
+   "turn": "t0292",
+   "evidence": "je pense notamment euh au roi des rats",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Invité envisagé : un influenceur spécialisé dans la prévention des arnaques.",
+   "owner": null,
+   "mentioned_people": [
+    "roi des rats"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Nom d'un créateur public tel que transcrit."
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "045b_EADH",
+   "turn": "t0300",
+   "evidence": "on part du principe qu il acceptera",
+   "type": "decision",
+   "status": "active",
+   "statement": "Hypothèse de travail : l'influenceur acceptera.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Hypothèse plutôt que décision ferme."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "045b_EADH",
+   "turn": "t0308",
+   "evidence": "donc deux stands hein un stand euh",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deux stands : information et formation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Complété en t0310 « information et formation » ; accord en t0309."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "045b_EADH",
+   "turn": "t0322",
+   "evidence": "du_coup l intervenant on le fait intervenir et le matin et l après-midi",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'intervenant intervient-il matin et après-midi ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "045b_EADH",
+   "turn": "t0324",
+   "evidence": "admettons vers 10h30 et une fois vers 15h",
+   "type": "answer",
+   "status": "active",
+   "statement": "Interventions vers 10 h 30 et vers 15 h.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0003",
+   "evidence": "ce que j' aurais aimé qu' on qu' on fixe exactement c'est du_coup la date de l' événement",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Fixer la date exacte de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0005",
+   "evidence": "parce_qu' on avait dit septembre",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : septembre avait été retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0010",
+   "evidence": "je pense que le vingt_quatre septembre ça pourrait être pas mal c'est un samedi",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aura lieu le samedi 24 septembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord en t0011 ; « si on reste fixé sur cette date » en t0018."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0016",
+   "evidence": "ben toute_la journée euh ça peut être bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Présence sur toute la journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord de 115 en t0017."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0021",
+   "evidence": "en sachant que justement en juillet août beaucoup de gens prennent des vacances",
+   "type": "risk",
+   "status": "active",
+   "statement": "Juillet-août : beaucoup de contacts en vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ASR."
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0027",
+   "evidence": "première approche par mail premier contact",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Premier contact par mail, puis relance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0034",
+   "evidence": "les commandes de matériel et euh contacter euh l' influenceur que l'on veut euh voir ce serait des tâches euh prioritaires",
+   "type": "decision",
+   "status": "active",
+   "statement": "Priorités : commandes de matériel et contact de l'influenceur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par 116 en t0035."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0037",
+   "evidence": "qu' on commencerait dès maintenant et qu' on aurait à peu près six mois de temps",
+   "type": "decision",
+   "status": "active",
+   "statement": "On commence maintenant, avec environ six mois devant soi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0044",
+   "evidence": "contacter pix aussi",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter Pix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0051",
+   "evidence": "il faudrait se renseigner directement auprès_de la force je pense qu' ils ont des du matériel à louer eux",
+   "type": "action",
+   "status": "open",
+   "statement": "Se renseigner auprès de la foire pour louer du matériel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ASR : « la force » vraisemblablement « la foire »."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0065",
+   "evidence": "un style d' estrade pour le coup euh où l' influenceur pourrait éventuellement venir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Une estrade ou petite scène pour l'influenceur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Scène proposée par 114 en t0052-t0054."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0066",
+   "evidence": "il faudrait des tables des chaises et tout ça",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir tables et chaises pour l'espace café.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0074",
+   "evidence": "présentation debout sans les chaises et le deuxième stand où il_y a la formation avec des chaises",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Stand présentation debout, stand formation avec chaises.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0080",
+   "evidence": "contactez aussi le pâtissier",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter le pâtissier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0097",
+   "evidence": "ça c'est nous qui pouvons aller l' acheter à promocash",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Acheter le café nous-mêmes chez Promocash.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0103",
+   "evidence": "il va falloir louer deux télévisions",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Louer deux télévisions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0104",
+   "evidence": "moi j' avais pensé à un vidéo projecteur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Alternative : un vidéoprojecteur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« peut-être que ça sera mieux » (t0106) : pas de choix ferme."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0107",
+   "evidence": "faut quand même avoir un pc sécurisé et protégé dans la pièce",
+   "type": "risk",
+   "status": "active",
+   "statement": "Il faut un PC protégé pour ne pas qu'il soit bousculé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0110",
+   "evidence": "devoir faire un diaporama présentation euh les flyers il va falloir qu' on les crée",
+   "type": "action",
+   "status": "open",
+   "statement": "Créer un diaporama et les flyers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0111",
+   "evidence": "qui serait à la création des flyers là parmi nous",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui crée les flyers ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0113",
+   "evidence": "on peut s' en occuper un peu tous je pense",
+   "type": "answer",
+   "status": "active",
+   "statement": "Tout le monde s'occupe des flyers (travail d'équipe).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "115 s'est proposée (t0112) mais 116 propose un travail collectif, confirmé t0114."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0126",
+   "evidence": "on pourrait faire des groupes des groupes euh des groupes dirigés euh par personne",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Groupes de travail, chacun dirigé par une personne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord en t0129-t0130."
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0134",
+   "evidence": "qui voudrait diriger le groupe",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Qui veut diriger un groupe ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0135",
+   "evidence": "groupe du magazine je serais à l' aise",
+   "type": "commitment",
+   "status": "active",
+   "statement": "115 dirigera le groupe du magazine.",
+   "owner": "115",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accepté par 114 (« ok », t0137)."
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0138",
+   "evidence": "pensez aussi euh à contacter très tôt l' influenceur",
+   "type": "action",
+   "status": "open",
+   "statement": "Contacter l'influenceur très tôt pour la publicité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0139",
+   "evidence": "bien sûr et puis tourner la vidéo aussi",
+   "type": "action",
+   "status": "open",
+   "statement": "Tourner la vidéo de présentation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0153",
+   "evidence": "faire une collaboration avec un vpn également",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Collaborer avec un fournisseur de VPN.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0181",
+   "evidence": "vu qu' on va faire en sorte d' être sponsorisé par nordvpn",
+   "type": "decision",
+   "status": "active",
+   "statement": "On cherchera un sponsoring de NordVPN.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Formulé comme acquis par 114."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0182",
+   "evidence": "peut-être créer une page instagram",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Créer une page Instagram de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0189",
+   "evidence": "un événement qu' on refait euh chaque année",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Si cela marche, rendre l'événement annuel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Condition en t0187."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0227",
+   "evidence": "j aimerais qu' on fasse aussi une carte de menu",
+   "type": "action",
+   "status": "open",
+   "statement": "Faire une carte de menu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0244",
+   "evidence": "on reste dans le cadre d' un goûter on va pas proposer des frites et un burger",
+   "type": "decision",
+   "status": "active",
+   "statement": "Offre limitée à un goûter (boisson et gaufre).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0251",
+   "evidence": "on va éviter l' alcool",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas d'alcool.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0264",
+   "evidence": "genre le jeff bezos ce serait le menu le plus cher",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Menus nommés d'après des patrons de la tech (le plus cher : « jeff bezos »).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0302",
+   "evidence": "proposer une collaboration à la micaline pour justement que ce soit des cookies",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Collaborer avec la Micaline pour des cookies.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0313",
+   "evidence": "ouais un local c'est mieux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Préférer un pâtissier local à une grande enseigne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Après l'argument de 114 en t0312."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0334",
+   "evidence": "il faut aussi qu' on leur donne quelque_chose en retour",
+   "type": "action",
+   "status": "open",
+   "statement": "Indemniser les prestataires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0349",
+   "evidence": "peut-être distribué à des associations qui s' occupent de familles de personnes qui ont été cyber harcelées",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Reverser le surplus à des associations d'aide aux victimes de cyberharcèlement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jugé irréaliste les deux premières années (t0354)."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0370",
+   "evidence": "faudrait qu' on fasse en sorte d' avoir un stand couvert",
+   "type": "action",
+   "status": "open",
+   "statement": "Obtenir un stand couvert.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "045c_EAPH",
+   "turn": "t0405",
+   "evidence": "il faudrait voir si l' influenceur accepte de venir gratuitement ou s'il veut venir en étant rémunéré",
+   "type": "question",
+   "status": "open",
+   "statement": "L'influenceur viendra-t-il gratuitement ou payé ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Sans réponse."
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-09",
+   "to": "b-05",
+   "relation": "supersedes",
+   "justification": "Septembre retenu (t0028-t0029) tranche la question de la date à laquelle juillet répondait."
+  },
+  {
+   "from": "b-09",
+   "to": "b-08",
+   "relation": "supersedes",
+   "justification": "Septembre retenu tranche la date ; 115 abandonne fin mai (« c'est pas bête »)."
+  },
+  {
+   "from": "b-09",
+   "to": "b-06",
+   "relation": "supports",
+   "justification": "La décision confirme la proposition de septembre."
+  },
+  {
+   "from": "b-09",
+   "to": "b-04",
+   "relation": "answers",
+   "justification": "Septembre répond à la question de la date."
+  },
+  {
+   "from": "c-02",
+   "to": "b-09",
+   "relation": "supports",
+   "justification": "Rappel explicite « on avait dit septembre »."
+  },
+  {
+   "from": "c-03",
+   "to": "b-09",
+   "relation": "supports",
+   "justification": "Le 24 septembre précise le mois retenu."
+  },
+  {
+   "from": "c-03",
+   "to": "c-01",
+   "relation": "answers",
+   "justification": "Réponse à la demande de fixer la date exacte."
+  },
+  {
+   "from": "b-03",
+   "to": "b-02",
+   "relation": "answers",
+   "justification": "Répond à la question sur le thème général."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "answers",
+   "justification": "Sujet des formations : cybersécurité."
+  },
+  {
+   "from": "b-40",
+   "to": "b-39",
+   "relation": "answers",
+   "justification": "Donne les horaires des deux interventions."
+  },
+  {
+   "from": "c-21",
+   "to": "c-20",
+   "relation": "answers",
+   "justification": "Répond à qui crée les flyers."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "answers",
+   "justification": "115 répond qu'elle dirigera le groupe magazine."
+  },
+  {
+   "from": "a-31",
+   "to": "a-30",
+   "relation": "answers",
+   "justification": "Réponse directe sur la convention."
+  },
+  {
+   "from": "a-34",
+   "to": "a-33",
+   "relation": "supports",
+   "justification": "Précise l'objet de la manifestation."
+  },
+  {
+   "from": "a-24",
+   "to": "a-22",
+   "relation": "supports",
+   "justification": "Reprise et précision du forum."
+  },
+  {
+   "from": "b-18",
+   "to": "b-17",
+   "relation": "supersedes",
+   "justification": "« pourquoi forcément payantes on peut former gratuitement », repris par 116 lui-même."
+  },
+  {
+   "from": "b-38",
+   "to": "b-16",
+   "relation": "supports",
+   "justification": "Récapitulatif acté des deux stands."
+  },
+  {
+   "from": "c-13",
+   "to": "b-38",
+   "relation": "supports",
+   "justification": "Aménagement des deux stands décidés."
+  },
+  {
+   "from": "b-32",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Rappel « on avait dit avec pix »."
+  },
+  {
+   "from": "b-32",
+   "to": "c-09",
+   "relation": "creates_action",
+   "justification": "La collaboration actée donne lieu à l'action de contacter Pix."
+  },
+  {
+   "from": "c-36",
+   "to": "c-35",
+   "relation": "supersedes",
+   "justification": "115 renonce à la Micaline : « un local c'est mieux »."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "supports",
+   "justification": "Le sponsoring NordVPN concrétise l'idée de collaboration VPN."
+  },
+  {
+   "from": "c-17",
+   "to": "c-16",
+   "relation": "contradicts",
+   "justification": "Vidéoprojecteur proposé à la place des télévisions, sans choix ferme."
+  },
+  {
+   "from": "c-25",
+   "to": "c-07",
+   "relation": "supports",
+   "justification": "Contacter l'influenceur tôt confirme la priorité."
+  }
+ ],
+ "queries": [
+  {
+   "key": "qa1",
+   "about_meeting": "045a_EARH",
+   "text": "Pour le même prix, qu'obtient-on avec le streaming par rapport à une séance en salle ?",
+   "answerable": true,
+   "qrels": {
+    "a-08": 2,
+    "a-07": 2,
+    "a-09": 0,
+    "a-06": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-06",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qa2",
+   "about_meeting": "045a_EARH",
+   "text": "Quelle mesure a été suggérée pour retarder l'arrivée des films récents sur la plateforme vidéo d'Amazon ?",
+   "answerable": true,
+   "qrels": {
+    "a-11": 2,
+    "a-09": 0,
+    "a-04": 0,
+    "a-10": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-04",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qa3",
+   "about_meeting": "045a_EARH",
+   "text": "Qui doit prendre le relais pour parler des réseaux sociaux après l'exposé sur le téléphone ?",
+   "answerable": true,
+   "qrels": {
+    "a-19": 2,
+    "a-01": 0,
+    "a-20": 0
+   },
+   "traps": [
+    {
+     "unit": "a-01",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-20",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qa4",
+   "about_meeting": "045a_EARH",
+   "text": "Au premier échange, quel type d'événement a été imaginé pour à la fois former aux smartphones et prévenir des dangers en ligne ?",
+   "answerable": true,
+   "qrels": {
+    "a-24": 2,
+    "a-22": 2,
+    "a-25": 1,
+    "a-26": 1,
+    "a-31": 1,
+    "b-38": 1,
+    "a-14": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-14",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qa5",
+   "about_meeting": "045a_EARH",
+   "text": "Quel problème a été évoqué au sujet des salariés d'Amazon ?",
+   "answerable": true,
+   "qrels": {
+    "a-32": 2,
+    "a-34": 1,
+    "a-33": 1,
+    "a-35": 0,
+    "a-03": 0
+   },
+   "traps": [
+    {
+     "unit": "a-35",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-03",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qa6",
+   "about_meeting": "045a_EARH",
+   "text": "Quel exemple chiffré a illustré les arnaques liées au dropshipping ?",
+   "answerable": true,
+   "qrels": {
+    "a-37": 2,
+    "a-36": 1,
+    "a-38": 1,
+    "a-07": 0,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-07",
+     "trap": "amount"
+    },
+    {
+     "unit": "b-27",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "qa7",
+   "about_meeting": "045a_EARH",
+   "text": "À la réunion suivante, a-t-on gardé Amazon, le téléphone et les réseaux sociaux comme sujets de l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-01": 2,
+    "b-03": 1,
+    "b-02": 1,
+    "a-02": 1
+   },
+   "traps": []
+  },
+  {
+   "key": "qa8",
+   "about_meeting": "045a_EARH",
+   "text": "Combien de visiteurs l'association espère-t-elle accueillir à son forum ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "qb1",
+   "about_meeting": "045b_EADH",
+   "text": "Quel mois a finalement été retenu pour organiser l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-09": 2,
+    "c-03": 2,
+    "c-02": 1,
+    "b-06": 1,
+    "b-07": 1,
+    "b-05": 0,
+    "b-08": 0,
+    "c-05": 0
+   },
+   "traps": [
+    {
+     "unit": "b-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-08",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-05",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "qb2",
+   "about_meeting": "045b_EADH",
+   "text": "Quel jour précis a été arrêté pour l'événement de la rentrée ?",
+   "answerable": true,
+   "qrels": {
+    "c-03": 2,
+    "c-04": 1,
+    "b-09": 1,
+    "c-02": 1,
+    "b-05": 0,
+    "b-08": 0
+   },
+   "traps": [
+    {
+     "unit": "b-05",
+     "trap": "date"
+    },
+    {
+     "unit": "b-08",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "qb3",
+   "about_meeting": "045b_EADH",
+   "text": "Les participants devront-ils payer pour suivre les formations proposées au stand ?",
+   "answerable": true,
+   "qrels": {
+    "b-18": 2,
+    "b-17": 0,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "b-17",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qb4",
+   "about_meeting": "045b_EADH",
+   "text": "Qui s'est porté volontaire pour piloter l'équipe chargée du magazine ?",
+   "answerable": true,
+   "qrels": {
+    "c-24": 2,
+    "c-22": 1,
+    "c-23": 1,
+    "c-21": 0,
+    "b-24": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "person"
+    },
+    {
+     "unit": "b-24",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qb5",
+   "about_meeting": "045b_EADH",
+   "text": "Combien coûterait la formule boisson chaude plus douceur au café du stand ?",
+   "answerable": true,
+   "qrels": {
+    "b-27": 2,
+    "b-28": 1,
+    "c-34": 0,
+    "b-26": 0
+   },
+   "traps": [
+    {
+     "unit": "c-34",
+     "trap": "amount"
+    },
+    {
+     "unit": "b-26",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qb6",
+   "about_meeting": "045b_EADH",
+   "text": "Avec quel organisme de formation au numérique veut-on monter un partenariat ?",
+   "answerable": true,
+   "qrels": {
+    "b-22": 2,
+    "b-32": 2,
+    "c-09": 1,
+    "b-23": 1,
+    "c-27": 0,
+    "b-29": 0
+   },
+   "traps": [
+    {
+     "unit": "c-27",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qb7",
+   "about_meeting": "045b_EADH",
+   "text": "Pourquoi faut-il se méfier de contenus trop violents pour attirer le public au stand ?",
+   "answerable": true,
+   "qrels": {
+    "b-13": 2,
+    "b-12": 0
+   },
+   "traps": [
+    {
+     "unit": "b-12",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "qb8",
+   "about_meeting": "045b_EADH",
+   "text": "Quel est le nom de l'association qui organise l'événement ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "114": "elsa (incertain)",
+  "115": "marie (incertain)"
+ },
+ "notes": "114 = Elsa (présente Amazon après « mademoiselle elsa »), 115 = Marie (présente le téléphone), 116 = animateur non nommé. Réunion c en ASR : extraits gardés tels quels (ex. « la force » pour la foire). Cas ambigus : septembre acté en b par accord implicite (t0028-t0029) puis confirmé en c ; télévisions vs vidéoprojecteur sans choix ferme (contradicts) ; nom du stand (café informatique / cybercafé) non tranché ; rémunération de l'influenceur restée ouverte. Passages sensibles (suicides d'adolescents, sexualisation, âge d'un proche, description physique) volontairement non annotés."
+}
