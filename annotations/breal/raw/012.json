@@ -1,0 +1,1071 @@
+{
+  "group_id": "012",
+  "units": [
+    {
+      "key": "b-01",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0000",
+      "evidence": "il faudrait qu' un peu de spectacle genre euh ben pour les enfants",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposer un petit spectacle interactif pour les enfants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-02",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0004",
+      "evidence": "pour le spectacle de marionnettes ça pourrait être inclus un peu dedans",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Le spectacle de marionnettes pourrait faire partie de cette animation pour enfants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-03",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0007",
+      "evidence": "après les gens ils devraient pouvoir repartir avec quelque_chose",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Les visiteurs devraient pouvoir repartir avec un objet souvenir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Idée poursuivie au tour t0008 (objet pas forcément acheté, à ramener chez soi)."
+    },
+    {
+      "key": "b-04",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0008",
+      "evidence": "ils ont pas forcément beaucoup d' argent non_plus",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le public n'a pas forcément beaucoup d'argent : le souvenir ne doit pas forcément être payant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-05",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0011",
+      "evidence": "je pensais au petit livret pour les enfants",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Idée d'un petit livret pour les enfants comme souvenir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-06",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0013",
+      "evidence": "il_y a des goodies aussi ou après les goodies",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Idée de distribuer des goodies.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accueil réservé ensuite (t0014-t0016), sans rejet explicite net."
+    },
+    {
+      "key": "b-07",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0018",
+      "evidence": "une tablette en bois gravé par_exemple",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Souvenir possible : une tablette en bois gravé.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-08",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0019",
+      "evidence": "ou une peinture sur pierre",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Souvenir possible : une peinture sur pierre (objet naturel).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-09",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0022",
+      "evidence": "petite activité pour enfants et adultes où du_coup genre chacun fait un petit truc à_partir_de base de choses recyclées",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Atelier pour enfants et adultes où chacun fabrique un petit objet à partir de matériaux recyclés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Début de l'idée au tour t0021."
+    },
+    {
+      "key": "b-10",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0025",
+      "evidence": "un truc pratique je sais pas un calendrier",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Souvenir pratique possible : un calendrier.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-11",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0026",
+      "evidence": "cendrier j' allais dire mais tout_le monde ne fume pas",
+      "type": "idea",
+      "status": "rejected",
+      "statement": "Le cendrier est évoqué puis écarté par la locutrice elle-même.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-12",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0032",
+      "evidence": "c'est bien les verres",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Le verre comme souvenir (proposé au tour t0027) est accueilli favorablement, sans décision formelle.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Proposition au tour t0027 (« ou un verre ») ; ce tour exprime l'accueil favorable de 041, 036 approuve aussi (t0028)."
+    },
+    {
+      "key": "b-13",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0031",
+      "evidence": "un truc en poterie",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Souvenir possible : un objet en poterie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-14",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0035",
+      "evidence": "un truc qui fabrique à hawaï euh traditionnel",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Souvenir possible : un objet artisanal traditionnel hawaïen, dans l'univers de Vaiana.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« dame de vayana » : probablement Vaiana (ASR)."
+    },
+    {
+      "key": "b-15",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0039",
+      "evidence": "que ce soit logistiquement faisable aussi",
+      "type": "risk",
+      "status": "active",
+      "statement": "Le souvenir choisi doit rester logistiquement faisable.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-16",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0042",
+      "evidence": "une une paille aussi en en bambou recyclé",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Souvenir possible : une paille en bambou recyclé.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-17",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0043",
+      "evidence": "réfléchir à atelier euh recyclage d' objets",
+      "type": "action",
+      "status": "open",
+      "statement": "Réfléchir à un atelier de recyclage d'objets.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-18",
+      "meeting_id": "012b_EBDZ",
+      "turn": "t0045",
+      "evidence": "on peut utiliser une bouteille de plastique",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Pour l'atelier, on peut réutiliser une bouteille en plastique.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-01",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0000",
+      "evidence": "il va falloir qu on se fasse un planning des tâches et un planning du du timing",
+      "type": "action",
+      "status": "open",
+      "statement": "Établir un planning des tâches et un rétroplanning de l'événement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-02",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0008",
+      "evidence": "est-ce_que tu veux t occuper du lieu",
+      "type": "question",
+      "status": "resolved",
+      "statement": "041 demande à 036 si elle veut s'occuper du lieu (chercher, réserver).",
+      "owner": null,
+      "mentioned_people": [
+        "036"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Adressée à 036, qui répond « oui ben je » (t0010) puis s'engage au tour t0047."
+    },
+    {
+      "key": "c-03",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0047",
+      "evidence": "je fais des autorisations puisque je dois demander pour euh le lieu je peux aussi demander pour l autorisation",
+      "type": "commitment",
+      "status": "active",
+      "statement": "036 s'occupe de la réservation du lieu et de toutes les demandes d'autorisation (mairie, administratif).",
+      "owner": "036",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-04",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0048",
+      "evidence": "tu fais l administratif",
+      "type": "decision",
+      "status": "active",
+      "statement": "Il est acté que 036 prend en charge toutes les tâches administratives.",
+      "owner": "036",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Confirmé par 041 au tour t0050 (« toutes_les tâches administratives »)."
+    },
+    {
+      "key": "c-05",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0019",
+      "evidence": "la tâche la plus longue en en timing parce qu il faut attendre des réponses des gens",
+      "type": "risk",
+      "status": "active",
+      "statement": "Le lieu et les autorisations sont la tâche la plus longue car il faut attendre les réponses.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-06",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0022",
+      "evidence": "il va falloir euh contacter aussi les personnes qui vont intervenir",
+      "type": "action",
+      "status": "open",
+      "statement": "Contacter les intervenants pour vérifier leur disponibilité aux dates choisies.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Suite au tour t0023."
+    },
+    {
+      "key": "c-07",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0026",
+      "evidence": "chercher des bénévoles aussi",
+      "type": "action",
+      "status": "open",
+      "statement": "Chercher des bénévoles.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-08",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0034",
+      "evidence": "du matériel ou tu préfères t occuper de de contacter des personnes",
+      "type": "question",
+      "status": "resolved",
+      "statement": "041 demande à liana (019) si elle préfère le matériel ou les contacts.",
+      "owner": null,
+      "mentioned_people": [
+        "019"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Prénom liana au tour t0033."
+    },
+    {
+      "key": "c-09",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0035",
+      "evidence": "peut-être euh contacter les personnes",
+      "type": "answer",
+      "status": "active",
+      "statement": "Liana (019) choisit de contacter les personnes (rôle « ressources humaines »).",
+      "owner": "019",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Précisé t0036-t0037, validé par 041 (t0038)."
+    },
+    {
+      "key": "c-10",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0040",
+      "evidence": "moi je veux bien m occuper de de tout ce qui est matériel",
+      "type": "commitment",
+      "status": "active",
+      "statement": "041 s'occupe de tout le matériel.",
+      "owner": "041",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Redit aux tours t0090-t0091 (écrans, chaises, matériel pour patauger)."
+    },
+    {
+      "key": "c-11",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0042",
+      "evidence": "faudrait voir si on fait pas une buvette",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Idée de prévoir une buvette.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-12",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0057",
+      "evidence": "des flyers dans le style de ce qu elle a dit avec les graines",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Faire des flyers avec des graines, idée reprise d'une autre personne, à préparer.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« ce qu elle a dit » renvoie à une proposition antérieure absente de ce fichier."
+    },
+    {
+      "key": "c-13",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0059",
+      "evidence": "passer par une une agence d évènementiel peut-être pour euh pour se faire aider",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Faire appel à une agence événementielle pour la communication.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-14",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0063",
+      "evidence": "bon ça liana tu peux aussi les contacter",
+      "type": "action",
+      "status": "active",
+      "statement": "Liana (019) contactera aussi l'agence événementielle.",
+      "owner": "019",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Acceptation par « ouais » (t0064)."
+    },
+    {
+      "key": "c-15",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0067",
+      "evidence": "faut qu on prenne quoi u- un an à l avance",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposition de s'y prendre environ un an à l'avance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "041 approuve (t0068-t0071) à cause des risques sur les autorisations."
+    },
+    {
+      "key": "c-16",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0074",
+      "evidence": "pour tout ce qui est buvette on prend aussi des prestataires à part ou bien c'est à nous de de le faire",
+      "type": "question",
+      "status": "open",
+      "statement": "Pour la buvette, faut-il des prestataires ou la gérer soi-même avec des bénévoles ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-17",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0079",
+      "evidence": "ça je veux bien m en occuper aussi éventuellement",
+      "type": "commitment",
+      "status": "proposed",
+      "statement": "041 se propose, sans certitude, pour la gestion du budget.",
+      "owner": "041",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Objet (gestion du budget) au tour t0078 ; « éventuellement » : engagement encore hésitant, confirmé ensuite au tour t0095."
+    },
+    {
+      "key": "c-18",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0086",
+      "evidence": "faire venir des associations",
+      "type": "commitment",
+      "status": "active",
+      "statement": "Liana (019) se charge de faire venir des associations.",
+      "owner": "019",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Engagement exprimé au tour suivant t0088 (« moi ça je m en chargerais je pense »), tour choisi car il porte l'objet."
+    },
+    {
+      "key": "c-19",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0095",
+      "evidence": "ça et je vais aussi gérer le budget",
+      "type": "commitment",
+      "status": "active",
+      "statement": "041 gère le budget (en plus du matériel).",
+      "owner": "041",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-20",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0105",
+      "evidence": "vu qu on est serré en budget c'est à nous de prendre la buvette",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Budget serré : l'équipe tiendrait la buvette et préparerait elle-même les petits sandwichs, moins cher.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-21",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0107",
+      "evidence": "si c'est un gros festival ça va être très très lourd",
+      "type": "risk",
+      "status": "active",
+      "statement": "Gérer soi-même la restauration sera très lourd si le festival est gros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-22",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0112",
+      "evidence": "sur combien de jours est-ce_que c'est un jour deux jours trois jours",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Sur combien de jours dure le festival ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-23",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0113",
+      "evidence": "vu tout ce qu on va louer à mon avis au_moins trois jours",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "Selon 041, au moins trois jours vu tout ce qui est loué.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Avis non contesté, repris implicitement au tour t0170."
+    },
+    {
+      "key": "c-24",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0115",
+      "evidence": "les bénéfices prix on pourra euh les reverser aux associations écologiques",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Les bénéfices pourraient être reversés à des associations écologiques.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-25",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0142",
+      "evidence": "si c'est deux euros le ticket de tombo- de tombola pour gagner une zoé",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Tombola à deux euros le ticket avec une Renault Zoé à gagner.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "deux euros",
+      "assertion": "extracted",
+      "notes": "036 suggère même cinq euros (t0144-t0146)."
+    },
+    {
+      "key": "c-26",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0170",
+      "evidence": "sur trois jours c'est c'est bien quand même de rémunérer les gens",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Sur trois jours, il serait bien de rémunérer les gens qui aident.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-27",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0174",
+      "evidence": "il_y a des bénévoles exemple sur euh la semaine",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "036 objecte qu'on trouve beaucoup de bénévoles gratuits (ex. semaines d'intégration à la fac).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-28",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0150",
+      "evidence": "les volontaires il faut quand même les recruter donc on on passe comment",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Comment recruter les bénévoles (annonces, réseaux sociaux) ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Plusieurs pistes proposées ensuite (réseaux sociaux, intérim étudiant, annonces), sans choix final."
+    },
+    {
+      "key": "c-29",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0171",
+      "evidence": "la planification de la de la réservation des autorisations on va s' y prendre un an à l avance on est d'accord",
+      "type": "decision",
+      "status": "active",
+      "statement": "Réservations et autorisations : lancées un an à l'avance (accord de 019 et 036).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-30",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0178",
+      "evidence": "contacter les personnes qui vont intervenir et l agence d événements aussi je pense qu il faut s y prendre un an à l avance",
+      "type": "decision",
+      "status": "active",
+      "statement": "Contacter les intervenants et l'agence événementielle un an à l'avance aussi.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 019 (t0180) et 036 (t0182)."
+    },
+    {
+      "key": "c-31",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0209",
+      "evidence": "deux trois mois à l avance l affichage et la médiatisation",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "019 propose l'affichage et la médiatisation deux à trois mois avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-32",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0212",
+      "evidence": "deux mois c'est pas mal ben trois mois pour imprimer deux mois pour",
+      "type": "decision",
+      "status": "active",
+      "statement": "Calendrier retenu : impression des affiches trois mois avant, affichage deux mois avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Suite de t0211 (041 : deux mois suffisent) ; fin de phrase coupée, lecture « deux mois pour l'affichage » probable."
+    },
+    {
+      "key": "c-33",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0217",
+      "evidence": "je pensais un à un mois à l avance normalement c'est bon pour les infographistes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Un mois à l'avance suffirait aux infographistes pour créer l'affiche.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Objet (création de l'affiche) déduit du tour t0216."
+    },
+    {
+      "key": "c-34",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0236",
+      "evidence": "prestataire je pense hein",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "019 penche pour passer par des prestataires pour la nourriture.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Répond à la question reformulée au tour t0235 ; 036 ajoute que ça dépend du budget (t0238)."
+    },
+    {
+      "key": "c-35",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0243",
+      "evidence": "six mois à l avance je pense que ça suffit non six mois à l avance",
+      "type": "decision",
+      "status": "conditional",
+      "statement": "Si on prend des prestataires de nourriture, les prévenir six mois à l'avance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 019 (t0245) ; conditionné au choix des prestataires (t0241)."
+    },
+    {
+      "key": "c-36",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0247",
+      "evidence": "il faut voir si le le lieu qu' on loue propose une sécurité",
+      "type": "action",
+      "status": "open",
+      "statement": "Vérifier si le lieu loué fournit la sécurité (pompiers, surveillants).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-37",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0254",
+      "evidence": "moi je pense que c'est euh à eurexpo",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "019 imagine le festival à Eurexpo (Lyon), très grand lieu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-38",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0261",
+      "evidence": "gratuite pour les moins de euh dix ans euh huit euros pour les moins de dix-huit ans et euh quinze euros pour les adultes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Tarifs envisagés : gratuit moins de 10 ans, 8 euros moins de 18 ans, 15 euros adultes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "huit euros ; quinze euros",
+      "assertion": "extracted",
+      "notes": "Tarif réduit élargi aux étudiants, personnes âgées et handicapées (t0263-t0265)."
+    },
+    {
+      "key": "c-39",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0279",
+      "evidence": "réductions de moins dix à moins vingt pour cent sur euh le billet d entrée si vous venez en_train",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Réduction de 10 à 20 % sur le billet pour les visiteurs venus en train.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "moins dix à moins vingt pour cent",
+      "assertion": "extracted",
+      "notes": "Approuvé par 041 (« pas bête », t0285)."
+    },
+    {
+      "key": "c-40",
+      "meeting_id": "012c_EBPZ",
+      "turn": "t0291",
+      "evidence": "pour instaler tout_le festival à mon avis il faut bien quinze jours",
+      "type": "fact",
+      "status": "proposed",
+      "statement": "Il faudrait environ quinze jours pour installer le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Estimation de 041."
+    }
+  ],
+  "relations": [
+    {
+      "from": "c-03",
+      "to": "c-02",
+      "relation": "answers",
+      "justification": "036 confirme qu'elle s'occupe de la demande pour le lieu, ce que lui demandait 041."
+    },
+    {
+      "from": "c-04",
+      "to": "c-03",
+      "relation": "supports",
+      "justification": "019 et 041 valident que 036 prend l'administratif qu'elle vient de proposer."
+    },
+    {
+      "from": "c-09",
+      "to": "c-08",
+      "relation": "answers",
+      "justification": "Liana répond qu'elle préfère contacter les personnes plutôt que le matériel."
+    },
+    {
+      "from": "c-19",
+      "to": "c-17",
+      "relation": "supports",
+      "justification": "041 confirme qu'elle gérera le budget, après s'être proposée « éventuellement »."
+    },
+    {
+      "from": "c-29",
+      "to": "c-15",
+      "relation": "supports",
+      "justification": "La décision de s'y prendre un an à l'avance acte la proposition faite plus tôt."
+    },
+    {
+      "from": "c-32",
+      "to": "c-31",
+      "relation": "supersedes",
+      "justification": "La fourchette « deux trois mois » est tranchée : trois mois pour l'impression, deux mois pour l'affichage."
+    },
+    {
+      "from": "c-23",
+      "to": "c-22",
+      "relation": "answers",
+      "justification": "041 répond à la question de la durée : au moins trois jours."
+    },
+    {
+      "from": "c-34",
+      "to": "c-16",
+      "relation": "answers",
+      "justification": "La question prestataires ou équipe pour la buvette/nourriture reçoit l'avis de 019 : prestataire."
+    },
+    {
+      "from": "c-34",
+      "to": "c-20",
+      "relation": "contradicts",
+      "justification": "Prestataires contre restauration faite par l'équipe ; le choix reste ouvert (dépend du budget, t0238)."
+    },
+    {
+      "from": "c-27",
+      "to": "c-26",
+      "relation": "contradicts",
+      "justification": "Bénévoles gratuits contre rémunération des aidants ; aucune décision prise."
+    },
+    {
+      "from": "c-13",
+      "to": "c-14",
+      "relation": "creates_action",
+      "justification": "L'idée de l'agence événementielle conduit à confier son contact à liana (« ça liana tu peux aussi les contacter »)."
+    },
+    {
+      "from": "c-30",
+      "to": "c-06",
+      "relation": "supports",
+      "justification": "Fixe le délai d'un an pour contacter les intervenants."
+    }
+  ],
+  "queries": [
+    {
+      "key": "q01",
+      "about_meeting": "012c_EBPZ",
+      "text": "Qui gère les démarches auprès de la mairie et la réservation du lieu du festival ?",
+      "answerable": true,
+      "qrels": {
+        "c-03": 2,
+        "c-04": 2,
+        "c-02": 1,
+        "c-05": 0,
+        "c-36": 0,
+        "c-14": 0
+      },
+      "traps": [
+        {
+          "unit": "c-05",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-36",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-14",
+          "trap": "person"
+        }
+      ]
+    },
+    {
+      "key": "q02",
+      "about_meeting": "012c_EBPZ",
+      "text": "Qui est responsable du suivi des dépenses du festival ?",
+      "answerable": true,
+      "qrels": {
+        "c-19": 2,
+        "c-17": 1,
+        "c-20": 0,
+        "c-10": 0
+      },
+      "traps": [
+        {
+          "unit": "c-20",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-10",
+          "trap": "person"
+        }
+      ]
+    },
+    {
+      "key": "q03",
+      "about_meeting": "012c_EBPZ",
+      "text": "Avec combien d'avance faut-il lancer les réservations et les demandes d'autorisation ?",
+      "answerable": true,
+      "qrels": {
+        "c-29": 2,
+        "c-15": 1,
+        "c-05": 1,
+        "c-35": 0,
+        "c-32": 0,
+        "c-30": 0
+      },
+      "traps": [
+        {
+          "unit": "c-35",
+          "trap": "date"
+        },
+        {
+          "unit": "c-32",
+          "trap": "date"
+        },
+        {
+          "unit": "c-30",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q04",
+      "about_meeting": "012c_EBPZ",
+      "text": "Quel calendrier a été retenu pour imprimer et coller les affiches ?",
+      "answerable": true,
+      "qrels": {
+        "c-32": 2,
+        "c-31": 1,
+        "c-33": 1,
+        "c-29": 0,
+        "c-12": 0
+      },
+      "traps": [
+        {
+          "unit": "c-29",
+          "trap": "date"
+        },
+        {
+          "unit": "c-12",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q05",
+      "about_meeting": "012c_EBPZ",
+      "text": "Si on fait appel à des traiteurs, combien de temps avant faut-il les prévenir ?",
+      "answerable": true,
+      "qrels": {
+        "c-35": 2,
+        "c-34": 1,
+        "c-20": 0,
+        "c-16": 0,
+        "c-29": 0
+      },
+      "traps": [
+        {
+          "unit": "c-20",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-29",
+          "trap": "date"
+        }
+      ]
+    },
+    {
+      "key": "q06",
+      "about_meeting": "012c_EBPZ",
+      "text": "Combien paierait un adulte pour entrer au festival ?",
+      "answerable": true,
+      "qrels": {
+        "c-38": 2,
+        "c-39": 1,
+        "c-25": 0
+      },
+      "traps": [
+        {
+          "unit": "c-25",
+          "trap": "amount"
+        }
+      ]
+    },
+    {
+      "key": "q07",
+      "about_meeting": "012c_EBPZ",
+      "text": "Qui doit rassembler les équipements comme les écrans et les chaises ?",
+      "answerable": true,
+      "qrels": {
+        "c-10": 2,
+        "c-08": 0,
+        "c-36": 0
+      },
+      "traps": [
+        {
+          "unit": "c-08",
+          "trap": "person"
+        },
+        {
+          "unit": "c-36",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q08",
+      "about_meeting": "012c_EBPZ",
+      "text": "À quelle date précise le festival a-t-il été fixé ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    }
+  ],
+  "speaker_names": {
+    "019": "liana"
+  },
+  "notes": "Réunion b (ASR) : recherche d'un souvenir à emporter et d'animations, aucune décision. Réunion c (manuelle) : répartition des tâches et calendrier. La réunion a du groupe ne figure pas dans le fichier de tâche. Cas ambigus : c-32 (fin de phrase coupée, supersedes de la fourchette c-31), c-33 (objet déduit), restauration prestataire ou équipe (c-20/c-34) non tranchée, rémunération des aidants (c-26/c-27) non tranchée. « renaud zoé » = Renault Zoé (entreprise, pas une personne). Personnalités publiques citées (t0184, t0191) et remarques personnelles non annotées."
+}
