@@ -1,0 +1,2207 @@
+{
+ "group_id": "018",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0007",
+   "evidence": "prend la parole pour donner sa propre expérience son ressenti",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le format du compte rendu : chacun donne son expérience personnelle des GAFAM, des réseaux sociaux et du numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0020",
+   "evidence": "leur politique d' emploi et puis aussi les les conditions de travail de leurs employés donc on essaie de limiter un petit peu sur amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "Florent limite ses achats sur Amazon à cause de sa politique d'emploi et des conditions de travail de ses employés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Début de la phrase au tour t0016."
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0020",
+   "evidence": "c'est beaucoup plus simple et moins cher aussi d' aller sur amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour les livres en anglais, Amazon reste plus simple et moins cher que la librairie anglophone d'Aix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0024",
+   "evidence": "twitter est plutôt du côté professionnel facebook c'est plutôt l' utilisation perso",
+   "type": "fact",
+   "status": "active",
+   "statement": "Florent utilise Twitter pour le professionnel et Facebook pour le personnel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0030",
+   "evidence": "je travaille en thèse et c'est vrai que ça m' a fait gagner beaucoup de temps d' être essentiellement sur du support numérique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Florent, en thèse de littérature, gagne beaucoup de temps grâce aux livres numériques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0030",
+   "evidence": "ils ont une utilisation un peu plus euh fragile un peu plus timide du numérique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les professeurs, plus âgés, ont un usage plus timide du numérique, d'où une évolution lente.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0032",
+   "evidence": "je vois que le dernier thème il est marqué open source et pas marqué numérique",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Ryan signale que le dernier thème est l'open source et non le numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Remarque formulée comme question sur le contenu du thème."
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0037",
+   "evidence": "open source c'est vraiment quand on partage des données dans le sens où par_exemple on est des chercheurs et on met tout dans un pot commun",
+   "type": "answer",
+   "status": "active",
+   "statement": "Ryan définit l'open source comme le partage de données dans un pot commun accessible à tous, avec la possibilité de modifier le logiciel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite au tour t0039 (rentrer dans le software)."
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0049",
+   "evidence": "de l'autre côté t' as androïd microsoft ou eux voilà on peut encore discuter on peut modifier des choses et c'est beaucoup plus ouvert",
+   "type": "fact",
+   "status": "active",
+   "statement": "Android et Microsoft sont jugés plus ouverts qu'Apple, qui s'y oppose.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0050",
+   "evidence": "apple est totalement bloqué par_exemple il enfin c'était la politique de steve jobs",
+   "type": "fact",
+   "status": "active",
+   "statement": "Apple est fermé, par choix de Steve Jobs dès la création de l'entreprise.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0058",
+   "evidence": "ça a l' avantage aussi de faciliter le ben l' interface utilisateur",
+   "type": "fact",
+   "status": "active",
+   "statement": "La fermeture d'Apple a l'avantage de simplifier l'interface et l'usage.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Exemple personnel (âge d'un parent) volontairement non annoté."
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0067",
+   "evidence": "à aix marseille université on est beaucoup sur l' open source en_ce moment",
+   "type": "fact",
+   "status": "active",
+   "statement": "Aix-Marseille Université mise beaucoup sur l'open source pour rendre la recherche accessible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0070",
+   "evidence": "beaucoup d' universités dans le monde qui en_fait ferment et rendent leur recherche payante",
+   "type": "fact",
+   "status": "active",
+   "statement": "Beaucoup d'universités ferment l'accès à leur recherche et la rendent payante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0078",
+   "evidence": "on est rémunéré pour le côté enseignant + et pour le côté chercheur pas vraiment",
+   "type": "fact",
+   "status": "active",
+   "statement": "Un enseignant-chercheur est payé pour l'enseignement mais pas vraiment pour la recherche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0096",
+   "evidence": "il suffirait que chaque utilisateur paye un euro ou quelques centimes pour que ça devienne + très rapidement des millions",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Si chaque utilisateur payait un euro ou quelques centimes, cela ferait vite des millions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "un euro ou quelques centimes",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0105",
+   "evidence": "amazon pas du tout + euh aussi bien en termes de de boycott on va dire euh au niveau de la de la politique euh d' emploi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Sabrina n'utilise pas Amazon, par boycott de sa politique d'emploi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0106",
+   "evidence": "j' ai facebook euh instagram et + et et et snapchat j' ai pas twitter",
+   "type": "fact",
+   "status": "active",
+   "statement": "Sabrina a Facebook, Instagram et Snapchat, mais pas Twitter ; Facebook est le réseau qu'elle utilise le plus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0110",
+   "evidence": "à choisir entre un apple et un c'est euh un microsoft forcément je je m' orienterai vers vers microsoft",
+   "type": "fact",
+   "status": "active",
+   "statement": "Formée sur Microsoft, Sabrina le choisirait plutôt qu'Apple.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0110",
+   "evidence": "tout ce qui est livre du_coup je préfère encore le format papier",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour la lecture, Sabrina préfère le livre papier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0111",
+   "evidence": "créer une petite base de données d' informations justement pour pouvoir euh + les mettre à disposition du du personnel et de la direction",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Sabrina aimerait créer une petite base d'informations partagée avec le personnel et la direction de sa structure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0111",
+   "evidence": "il_y a toute une politique de confidentialité qui rentre en compte et c'est pas + c'est plus un frein qu' autre_chose",
+   "type": "risk",
+   "status": "active",
+   "statement": "La politique de confidentialité de la ville freine ce projet de base d'informations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0114",
+   "evidence": "quand tu vas sur wikipédia par_exemple c'est la base de l' open source",
+   "type": "fact",
+   "status": "active",
+   "statement": "Wikipédia est donné comme exemple de base de l'open source.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0135",
+   "evidence": "on t' oblige en gros à diffuser tes données quoi autoriser la diffusion de tes données",
+   "type": "risk",
+   "status": "active",
+   "statement": "À l'inscription, les réseaux sociaux obligent à autoriser la diffusion de ses données.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0141",
+   "evidence": "qui consomme un max et qui pollue beaucoup",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les gros serveurs de données consomment beaucoup et polluent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite de t0140 (big méga cloud)."
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0149",
+   "evidence": "moi j' ai facebook mais en vrai j' utilise messenger et c'est tout",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ryan a Facebook mais n'utilise que Messenger.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0177",
+   "evidence": "il_y a des comptes que je suis de professionnel dans le cadre de la médecine de l' information ou de n'importe quoi qui sont accessibles que via ces réseaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Sabrina suit sur Instagram des comptes professionnels accessibles uniquement via les réseaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0208",
+   "evidence": "j' ai amazon prime et tout j' ai voilà la facilité comme vous dites et en plus c'est pas cher",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine utilise beaucoup Amazon (Prime), pratique et pas cher pour une étudiante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0214",
+   "evidence": "moi c'est samsung euh depuis le début et euh pour toujours",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine est attachée à Samsung et ne comprend pas Apple.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0218",
+   "evidence": "je publie beaucoup et je mets beaucoup de stories à tout_le monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine publie beaucoup et poste de nombreuses stories.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0219",
+   "evidence": "j' utilise linkedin aussi euh pour le professionnel ça je trouve ça sympa juste pour euh voilà pour trouver des stages",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine utilise LinkedIn pour trouver des stages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0232",
+   "evidence": "moi ça par_contre ça a jamais servi pour le taf",
+   "type": "fact",
+   "status": "active",
+   "statement": "LinkedIn n'a jamais servi à Sabrina pour son travail.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0250",
+   "evidence": "c'est limite une recherche de travail passive en_fait puisque tu as ton cv en ligne tout_le temps",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour Florent, LinkedIn est une recherche d'emploi passive : on le contacte pour du travail.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0260",
+   "evidence": "j' utilise beaucoup parce_que je suis master donc forcément on doit faire des mémoires",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine, en master, utilise beaucoup l'open source (Wikipédia) pour ses mémoires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0272",
+   "evidence": "moi j' utilise beaucoup plus euh messenger que",
+   "type": "fact",
+   "status": "active",
+   "statement": "Delphine utilise beaucoup plus Messenger que les SMS.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Phrase complétée au tour t0274."
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0317",
+   "evidence": "sur messenger je sais pas si c'est possible mais je pense que ça l' est",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Ryan se demande si l'on peut désactiver l'accusé de lecture sur Messenger.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0318",
+   "evidence": "non sur messenger tu peux pas l' enlever",
+   "type": "answer",
+   "status": "active",
+   "statement": "Delphine : on ne peut pas désactiver l'accusé de lecture sur Messenger.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0319",
+   "evidence": "la fonction sms de de l' iphone oui tu peux désactiver",
+   "type": "fact",
+   "status": "active",
+   "statement": "Sur la fonction SMS de l'iPhone, on peut désactiver l'accusé de lecture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0333",
+   "evidence": "ils sont affiliés à cent pourcents au groupe facebook",
+   "type": "fact",
+   "status": "active",
+   "statement": "WhatsApp a été racheté et appartient à cent pour cent au groupe Facebook.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cent pourcents",
+   "assertion": "extracted",
+   "notes": "Pourcentage, pas un montant monétaire."
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0347",
+   "evidence": "tout_le monde s'est mis sur telegram sur d'autres trucs",
+   "type": "fact",
+   "status": "active",
+   "statement": "Après le rachat, la famille de Ryan a quitté WhatsApp pour Telegram.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "018a_EARZ",
+   "turn": "t0374",
+   "evidence": "quand tu regardes les partenaires déjà en tête de fiche tout_le temps t' as facebook",
+   "type": "fact",
+   "status": "active",
+   "statement": "Dans les partenaires des cookies, Facebook apparaît toujours en tête.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0002",
+   "evidence": "le mieux c'est peut-être de choisir entre les trois",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Florent propose de commencer par choisir le thème parmi les trois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0009",
+   "evidence": "peut-être celle parmi les trois celle que tout_le monde utilise c'était me semble l' open source",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Sabrina pencherait pour l'open source, le thème que tout le monde utilise.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0014",
+   "evidence": "faire euh un truc sur le numérique en_général et faire euh ben des ateliers",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Delphine propose un événement sur le numérique en général avec des ateliers sur les différents thèmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0029",
+   "evidence": "on va se retrouver qu' avec des chercheurs à l' événement",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un thème trop spécifique risque de n'attirer que des chercheurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0033",
+   "evidence": "des tables rondes où en_fait le sujet c'est l' open source",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent rappelle que des tables rondes sur l'open source se font aussi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0052",
+   "evidence": "c'est pas une mauvaise idée de faire un truc large hein ça touchera plus de monde",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan approuve un thème large : plus de public et des invités plus faciles à trouver.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0061",
+   "evidence": "donc on part sur un événement qui serait donc plus global sur le thème du numérique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : un événement global sur le thème du numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0065",
+   "evidence": "un sur les gafam un sur les réseaux sociaux et un sur l' open source",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aurait trois panels : GAFAM, réseaux sociaux, open source.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« peut-être » au tour t0063, puis « on est bon jusque là » sans objection : statut active retenu, incertain."
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0072",
+   "evidence": "quelqu'un qui est assez célèbre ou autre qui va ramener du monde euh l' été ça marche moins bien",
+   "type": "risk",
+   "status": "active",
+   "statement": "Pour un invité qui attire du monde, l'été fonctionne moins bien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0073",
+   "evidence": "entre septembre et novembre donc on sait que c'est le rush c'est pas une bonne idée d' organiser quelque_chose à ce moment -là",
+   "type": "risk",
+   "status": "active",
+   "statement": "Dans la recherche, septembre-novembre est une période de rush : mauvaise idée d'y organiser l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0088",
+   "evidence": "on peut inviter que deux deux professeurs spécialisés",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Delphine pense qu'on ne peut inviter que deux professeurs spécialisés pour trois sous-thèmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lecture de la consigne corrigée juste après par Florent (t0091, t0094)."
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0094",
+   "evidence": "pour respecter votre budget vous devez choisir trois trois invités à bas coût ou deux invités à moyen coût",
+   "type": "fact",
+   "status": "active",
+   "statement": "Contrainte budgétaire : trois invités à bas coût ou deux invités à moyen coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lecture de la fiche de consignes."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0098",
+   "evidence": "deux invités à moyen coût et faire de un thème une discussion générale",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option : deux invités à coût moyen et un thème traité en débat ouvert animé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0109",
+   "evidence": "moi j' avais l' idée surtout de faire des ateliers",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose des ateliers et petits stands pour comprendre le numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Précisé au tour t0110 (petits stands)."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0136",
+   "evidence": "s' inscrivent sur facebook ou autre en_fait ils vendent leurs données enfin ils offrent + l' accès à leurs données",
+   "type": "fact",
+   "status": "active",
+   "statement": "Idée de sensibilisation : en s'inscrivant sur Facebook, les gens donnent accès à leurs données.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Introduit par « to raise awareness » au tour t0131."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0138",
+   "evidence": "adolescents qui arrivent dans ce monde là et qui en_fait sont nés avec ne le savent pas",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les adolescents, nés avec ces outils, ne savent pas qu'ils livrent leurs données.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0147",
+   "evidence": "on pourrait l' appeler on pourrait l' appeler j' ai lu et j' accepte",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose d'appeler l'événement « J'ai lu et j'accepte ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Florent note l'idée (t0150)."
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0154",
+   "evidence": "une sorte de campagne de sensibilisation sur les données",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent : ce pourrait être une campagne de sensibilisation sur les données.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0159",
+   "evidence": "notre responsable com euh ça peut être sabrina ou delphine delphine elle est plus sur les réseaux allez allez sabrina pour facebook et delphine pour le reste",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan suggère Sabrina pour Facebook et Delphine pour le reste de la communication.",
+   "owner": null,
+   "mentioned_people": [
+    "056",
+    "057"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Simple suggestion, sans acceptation dans cette réunion."
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0167",
+   "evidence": "qcm faq sondage un truc comme ça tu sais où les gens ils cliquent sur les stories",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour la promotion, des QCM ou sondages en stories.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0170",
+   "evidence": "on peut en mettre qu' un de célèbre",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Delphine, on ne peut inviter qu'une seule personne célèbre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0180",
+   "evidence": "ce serait une campagne de sensibilisation sur les données et les réseaux sociaux",
+   "type": "decision",
+   "status": "proposed",
+   "statement": "Hypothèse de thème définitif : « J'ai lu et j'accepte », campagne de sensibilisation sur les données et les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Introduit par « admettons que le thème définitif ce soit » (t0179) : proposed."
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0195",
+   "evidence": "ce bonus performance il dépend du nombre de publications mis en open source chaque année",
+   "type": "fact",
+   "status": "active",
+   "statement": "À AMU, le bonus de performance des départements dépend du nombre de publications en open source.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0208",
+   "evidence": "ou alex alexandre astier",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose Alexandre Astier comme invité.",
+   "owner": null,
+   "mentioned_people": [
+    "alexandre astier"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Personnalité publique citée."
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0211",
+   "evidence": "pourquoi pas etienne klein parce_qu' il est vraiment euh enfin il fait dans la vulgarisation scientifique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose Étienne Klein pour sa vulgarisation scientifique.",
+   "owner": null,
+   "mentioned_people": [
+    "etienne klein"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0223",
+   "evidence": "on a déjà fait des trucs à amu il vient gratuit",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Selon Ryan, Étienne Klein est déjà venu gratuitement à AMU.",
+   "owner": null,
+   "mentioned_people": [
+    "etienne klein"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Affirmation sur un ton plaisant, non vérifiée."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0228",
+   "evidence": "bon on va mettre etienne lklein allez",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : Étienne Klein est retenu comme invité.",
+   "owner": null,
+   "mentioned_people": [
+    "etienne klein"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0242",
+   "evidence": "etienne klein qui est auteur mais qui est radio ça peut être considéré comme un comme un coût moyen",
+   "type": "fact",
+   "status": "active",
+   "statement": "Étienne Klein serait un invité à coût moyen.",
+   "owner": null,
+   "mentioned_people": [
+    "etienne klein"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0251",
+   "evidence": "du_coup ça va nous limiter à deux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Avec un invité à coût moyen, l'équipe est limitée à deux invités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0294",
+   "evidence": "j' ai lu et j' accepte et j' accepte pardon sur euh le la sensibilisation sur les données numériques",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : le concept retenu est « J'ai lu et j'accepte », sensibilisation sur les données numériques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Introduit par « on est parti … je refais un résumé »."
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0297",
+   "evidence": "un influenceur ou un ou un youtubeur ou quelque_chose",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose un influenceur ou youtubeur pour un côté plus ludique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0319",
+   "evidence": "monsieur mondialisation il décrit tous_les phénomènes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose le youtubeur Monsieur Mondialisation.",
+   "owner": null,
+   "mentioned_people": [
+    "monsieur mondialisation"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jugé ensuite trop connu (t0322, plaisanterie) puis « négociable » (t0331) : issue inconnue."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0366",
+   "evidence": "peut-être le printemps généralement c'est la fin de c'est la fin des années universitaires",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Florent propose le printemps, fin de l'année universitaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0377",
+   "evidence": "alors je mets mars avril",
+   "type": "decision",
+   "status": "active",
+   "statement": "Période retenue : mars-avril, quand les étudiants sont encore là.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Justifié au tour t0375."
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0386",
+   "evidence": "c'est bien en mai c'est bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Delphine suggère mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non repris."
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0404",
+   "evidence": "la_plupart des influenceurs sont là-bas de toute façon donc euh paris",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose Paris, où sont la plupart des influenceurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0405",
+   "evidence": "allez disons paris",
+   "type": "decision",
+   "status": "active",
+   "statement": "Lieu retenu : Paris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0412",
+   "evidence": "on a qu' à faire un grand live on a pas besoin d' un lieu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose un grand live, sans lieu physique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0426",
+   "evidence": "est-ce_qu' on le fait cent pourcents en distance ou est-ce_que ce serait euh + en il_y a quand même un lieu et c'est retransmis",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il un événement 100 % à distance ou un lieu retransmis ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "018b_EADZ",
+   "turn": "t0434",
+   "evidence": "oui oui oui événement présentiel retransmis en",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : événement en présentiel retransmis en live.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Complété au tour t0435 (« live »)."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0001",
+   "evidence": "choisir une date dans trois semaines au minimum",
+   "type": "fact",
+   "status": "active",
+   "statement": "Consigne : la date doit être au minimum dans trois semaines.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0002",
+   "evidence": "est-ce_qu' on reste sur quelque_chose au printemps ou est-ce_qu' on le remet finalement à la rentrée",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Garde-t-on le printemps ou décale-t-on à la rentrée ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0003",
+   "evidence": "si c'est trois semaines minimum on est toujours bon pour le printemps",
+   "type": "answer",
+   "status": "active",
+   "statement": "Avec trois semaines minimum, le printemps reste possible ; on y reste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0011",
+   "evidence": "niveau covid ce sera plus safe au printemps prochain",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le printemps prochain serait plus sûr vis-à-vis du covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0016",
+   "evidence": "le printemps deux_mille_vingt_trois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Période retenue : printemps 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0028",
+   "evidence": "moi je travaille les vacances universitaires donc c'est mort",
+   "type": "risk",
+   "status": "active",
+   "statement": "Delphine travaille pendant les vacances universitaires : pas de date à ce moment-là.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0042",
+   "evidence": "allez vendredi dix mars ça va pour tout_le monde",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date fixée : vendredi 10 mars.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validée aux tours t0043-t0046."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0056",
+   "evidence": "finalement on est resté sur un seul invité",
+   "type": "decision",
+   "status": "active",
+   "statement": "Finalement, un seul invité est retenu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0063",
+   "evidence": "moi je veux bien si vous voulez",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Ryan se propose pour gérer l'invité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Repris ensuite par Florent (t0069, t0073)."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0069",
+   "evidence": "il faut aller le chercher à l' aéroport",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il faut aller chercher l'invité à l'aéroport, d'où l'utilité d'une voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0073",
+   "evidence": "donc moi je m' occupe de l' invité",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Florent s'occupe de l'invité.",
+   "owner": "058",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0077",
+   "evidence": "gestion de l' invité donc ça veut dire réservation d' hôtel",
+   "type": "action",
+   "status": "active",
+   "statement": "La gestion de l'invité comprend l'hôtel, le billet de train et l'accompagnement.",
+   "owner": "058",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Détail aux tours t0078-t0079."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0083",
+   "evidence": "il va falloir que quelqu'un s' occupe du budget",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut quelqu'un pour le budget.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0096",
+   "evidence": "donc delphine s' occupe du budget",
+   "type": "decision",
+   "status": "active",
+   "statement": "Delphine est chargée du budget.",
+   "owner": "057",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation de Delphine au tour t0094."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0094",
+   "evidence": "j' espère qu' on aura assez d' argent",
+   "type": "risk",
+   "status": "active",
+   "statement": "Delphine craint de ne pas avoir assez d'argent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0098",
+   "evidence": "réservation de la salle des équipements nécessaires euh ouais moi je veux bien",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Sabrina prend la logistique : salle et équipements.",
+   "owner": "056",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0105",
+   "evidence": "il faut quelqu'un qui ait aussi le rôle de community manager",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut un community manager pour la communication en ligne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0106",
+   "evidence": "ça je veux bien",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Delphine accepte le rôle de community manager.",
+   "owner": "057",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0123",
+   "evidence": "ça prend trente secondes on peut peut-être tous les faire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Delphine suggère que tout le monde publie, cela ne prend que trente secondes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Florent répond que c'est un vrai métier (t0127-t0131)."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0159",
+   "evidence": "moi tout ce qui est logistique réservation billet de train hôtel et tout je peux le faire",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Sabrina propose de faire aussi les réservations de train et d'hôtel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0169",
+   "evidence": "moi je peux m' occuper du côté personnel de l' invité genre hôtel",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Répartition : Sabrina la salle et la logistique, Florent l'hôtel et le train de l'invité.",
+   "owner": "058",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Répartition proposée au tour t0166."
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0183",
+   "evidence": "il_y a pas_mal_de trucs sur twitter donc ben je peux le faire aussi",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Florent prend la diffusion sur Twitter.",
+   "owner": "058",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0189",
+   "evidence": "il faudrait trouver des mécènes sur des choses des subventions",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan : il faut trouver des mécènes et des subventions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0193",
+   "evidence": "ça je peux m' en charger si vous voulez",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Ryan se charge de trouver le financement.",
+   "owner": "055",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0219",
+   "evidence": "démarche auprès_des institutions pour financement donc ryan",
+   "type": "decision",
+   "status": "active",
+   "statement": "Ryan fait les démarches auprès des institutions pour le financement.",
+   "owner": "055",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0238",
+   "evidence": "salle matériel intervenant traiteur alors sécurité",
+   "type": "action",
+   "status": "active",
+   "statement": "La logistique (salle, matériel, intervenants, traiteur, sécurité) est ajoutée aux tâches de Sabrina.",
+   "owner": "056",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Rattachement à Sabrina dit au tour t0234."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0251",
+   "evidence": "réserve vaisselle matériel collation support pour les exposer imprimer les posters",
+   "type": "action",
+   "status": "open",
+   "statement": "Checklist : vaisselle, matériel, collation, supports, impression des posters.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0256",
+   "evidence": "ça peut diminuer le format papier quoi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Si la communication est surtout en ligne, on peut réduire le papier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0265",
+   "evidence": "pas négligeable qu' il faut un format un support papier quand même",
+   "type": "fact",
+   "status": "active",
+   "statement": "Un support papier reste nécessaire pour toucher les non-numériques.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0267",
+   "evidence": "on ferait pas payer l' entrée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan suggère de faire payer l'entrée comme premier financement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Tournure interrogative ; sens « et si on faisait payer l'entrée » d'après t0269."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0293",
+   "evidence": "il faudrait décider du prix d' entrée une fois qu' on a les financements et les budgets",
+   "type": "decision",
+   "status": "conditional",
+   "statement": "Le prix d'entrée sera fixé une fois les financements et budgets connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0298",
+   "evidence": "delphine s' occupe du budget et monétisation de l' événement",
+   "type": "decision",
+   "status": "active",
+   "statement": "Delphine gère le budget et la monétisation.",
+   "owner": "057",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0309",
+   "evidence": "on peut faire un pôle presse pour les mettre dans le vingt minutes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan propose un pôle presse (ex. 20 Minutes).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0314",
+   "evidence": "il faudrait définir un montant à louer dans chaque ligne budgétaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Sabrina : définir un montant pour chaque ligne budgétaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR (« à louer » ≈ « alloué »)."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0329",
+   "evidence": "je commence à me demander s'il faut pas un deuxième intervenant un remplaçant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ryan se demande s'il faut un second intervenant de remplacement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0332",
+   "evidence": "ça dépendra si on a un excédent ou pas",
+   "type": "fact",
+   "status": "conditional",
+   "statement": "Un second intervenant dépendra d'un éventuel excédent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0347",
+   "evidence": "moi je m' occupe de la gestion de l' invité une fois sur place réservation de hôtel billet d' avion accompagnement",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Récapitulatif : Florent gère l'invité sur place (hôtel, billet d'avion, accompagnement).",
+   "owner": "058",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Dit « billet d'avion » alors que le billet de train était cité avant (t0078, t0171)."
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0347",
+   "evidence": "sabrina s' occupe de la partie logistique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Sabrina gère la logistique.",
+   "owner": "056",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0349",
+   "evidence": "c'est delphine qui est responsable de la com sur instagram et moi sur twitter",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Delphine pour Instagram, Florent pour Twitter.",
+   "owner": "057 + 058",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-42",
+   "meeting_id": "018c_EAPZ",
+   "turn": "t0350",
+   "evidence": "c'est ryan qui démarche auprès_des pour le financement et qui rentre en contact",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Ryan cherche le financement et prend le premier contact avec l'invité.",
+   "owner": "055",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« avec l'invité » au tour t0352."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-08",
+   "to": "a-07",
+   "relation": "answers",
+   "justification": "Ryan précise lui-même ce qu'est l'open source après avoir soulevé le thème."
+  },
+  {
+   "from": "a-36",
+   "to": "a-35",
+   "relation": "answers",
+   "justification": "Delphine répond directement à la question de Ryan sur Messenger."
+  },
+  {
+   "from": "b-07",
+   "to": "b-02",
+   "relation": "supersedes",
+   "justification": "La décision « on part sur un événement plus global sur le numérique » tranche le choix du thème où Sabrina proposait l'open source."
+  },
+  {
+   "from": "b-07",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "La décision reprend l'idée de Delphine d'un événement sur le numérique en général."
+  },
+  {
+   "from": "b-06",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "Ryan appuie l'idée d'un thème large."
+  },
+  {
+   "from": "b-13",
+   "to": "b-12",
+   "relation": "supersedes",
+   "justification": "Florent corrige la lecture de Delphine (« non regarde ») : trois invités à bas coût ou deux à coût moyen."
+  },
+  {
+   "from": "b-31",
+   "to": "b-23",
+   "relation": "supports",
+   "justification": "Le résumé confirme le concept « J'ai lu et j'accepte » posé en hypothèse."
+  },
+  {
+   "from": "b-31",
+   "to": "b-18",
+   "relation": "supports",
+   "justification": "Le concept retenu reprend le nom proposé par Ryan."
+  },
+  {
+   "from": "b-31",
+   "to": "b-07",
+   "relation": "supersedes",
+   "justification": "Le « thème définitif » de sensibilisation aux données remplace le thème global du numérique (incertain : peut se lire comme un affinage)."
+  },
+  {
+   "from": "b-28",
+   "to": "b-26",
+   "relation": "supports",
+   "justification": "Florent acte la proposition Étienne Klein."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "La limite à deux découle du classement de Klein en coût moyen."
+  },
+  {
+   "from": "b-36",
+   "to": "b-35",
+   "relation": "supports",
+   "justification": "Mars-avril précise la proposition du printemps."
+  },
+  {
+   "from": "b-39",
+   "to": "b-38",
+   "relation": "supports",
+   "justification": "Florent acte Paris proposé par Ryan."
+  },
+  {
+   "from": "b-42",
+   "to": "b-41",
+   "relation": "answers",
+   "justification": "« événement présentiel retransmis en live » répond à l'alternative 100 % distance ou lieu retransmis."
+  },
+  {
+   "from": "b-42",
+   "to": "b-40",
+   "relation": "supersedes",
+   "justification": "La décision d'un événement présentiel retransmis tranche contre l'idée d'un live sans lieu."
+  },
+  {
+   "from": "c-03",
+   "to": "c-02",
+   "relation": "answers",
+   "justification": "Sabrina répond qu'on reste au printemps."
+  },
+  {
+   "from": "c-05",
+   "to": "b-35",
+   "relation": "supports",
+   "justification": "Le printemps 2023 confirme la proposition du printemps."
+  },
+  {
+   "from": "c-07",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "La date précise du vendredi 10 mars remplace la période mars-avril."
+  },
+  {
+   "from": "c-08",
+   "to": "b-30",
+   "relation": "supersedes",
+   "justification": "« finalement on est resté sur un seul invité » remplace la limite à deux invités."
+  },
+  {
+   "from": "c-11",
+   "to": "c-09",
+   "relation": "supersedes",
+   "justification": "Florent reprend la gestion de l'invité proposée par Ryan, parce qu'il a une voiture."
+  },
+  {
+   "from": "c-11",
+   "to": "c-12",
+   "relation": "creates_action",
+   "justification": "L'engagement de Florent donne lieu à la gestion de l'invité (hôtel, train, accompagnement)."
+  },
+  {
+   "from": "c-14",
+   "to": "c-13",
+   "relation": "supports",
+   "justification": "L'attribution du budget à Delphine répond au besoin exprimé."
+  },
+  {
+   "from": "c-18",
+   "to": "c-17",
+   "relation": "supports",
+   "justification": "Delphine accepte le rôle de community manager demandé."
+  },
+  {
+   "from": "c-22",
+   "to": "c-21",
+   "relation": "supersedes",
+   "justification": "Nouvelle répartition explicite : Florent prend l'hôtel et le train de l'invité que Sabrina proposait de faire."
+  },
+  {
+   "from": "c-27",
+   "to": "c-26",
+   "relation": "supports",
+   "justification": "Florent acte l'engagement de Ryan sur le financement."
+  },
+  {
+   "from": "c-34",
+   "to": "c-14",
+   "relation": "supports",
+   "justification": "Delphine garde le budget, élargi à la monétisation."
+  },
+  {
+   "from": "c-33",
+   "to": "c-32",
+   "relation": "supports",
+   "justification": "Le prix d'entrée est retenu mais renvoyé après le budget."
+  },
+  {
+   "from": "c-38",
+   "to": "c-37",
+   "relation": "supports",
+   "justification": "La réponse conditionne le second intervenant à un excédent."
+  },
+  {
+   "from": "c-39",
+   "to": "c-22",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Florent pour la gestion personnelle de l'invité."
+  },
+  {
+   "from": "c-39",
+   "to": "c-12",
+   "relation": "contradicts",
+   "justification": "Le récapitulatif parle de billet d'avion, la liste initiale de billet de train, sans correction explicite."
+  },
+  {
+   "from": "c-40",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Sabrina pour la logistique."
+  },
+  {
+   "from": "c-41",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Delphine pour la communication."
+  },
+  {
+   "from": "c-41",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Florent sur Twitter."
+  },
+  {
+   "from": "c-42",
+   "to": "c-27",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Ryan sur le financement."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "018a_EARZ",
+   "text": "Pour quelle raison Florent évite-t-il de commander sur Amazon ?",
+   "answerable": true,
+   "qrels": {
+    "a-02": 2,
+    "a-03": 0,
+    "a-16": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-16",
+     "trap": "person"
+    },
+    {
+     "unit": "a-27",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "018a_EARZ",
+   "text": "Comment Ryan explique-t-il ce que veut dire open source pendant le tour de table ?",
+   "answerable": true,
+   "qrels": {
+    "a-08": 2,
+    "a-07": 0,
+    "a-22": 0,
+    "a-12": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-12",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "018a_EARZ",
+   "text": "Qui se sert de LinkedIn pour décrocher des stages ?",
+   "answerable": true,
+   "qrels": {
+    "a-30": 2,
+    "a-31": 0,
+    "a-32": 0
+   },
+   "traps": [
+    {
+     "unit": "a-31",
+     "trap": "person"
+    },
+    {
+     "unit": "a-32",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "018a_EARZ",
+   "text": "Qu'est-ce qui bloque le projet de Sabrina de partager des informations avec le personnel de sa structure ?",
+   "answerable": true,
+   "qrels": {
+    "a-21": 2,
+    "a-20": 1,
+    "a-23": 0
+   },
+   "traps": [
+    {
+     "unit": "a-23",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "018a_EARZ",
+   "text": "Peut-on couper la confirmation de lecture des messages dans Messenger ?",
+   "answerable": true,
+   "qrels": {
+    "a-36": 2,
+    "a-35": 0,
+    "a-37": 0
+   },
+   "traps": [
+    {
+     "unit": "a-37",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-35",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "018a_EARZ",
+   "text": "Dans quelle proportion WhatsApp est-il détenu par Facebook ?",
+   "answerable": true,
+   "qrels": {
+    "a-38": 2,
+    "a-39": 0
+   },
+   "traps": [
+    {
+     "unit": "a-39",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "018a_EARZ",
+   "text": "Combien d'heures par jour chaque participant passe-t-il sur les réseaux sociaux ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q08",
+   "about_meeting": "018b_EADZ",
+   "text": "Quel concept a finalement été retenu pour l'événement à organiser ?",
+   "answerable": true,
+   "qrels": {
+    "b-31": 2,
+    "b-23": 1,
+    "b-18": 1,
+    "b-07": 1,
+    "b-19": 1,
+    "b-02": 0,
+    "b-05": 0,
+    "b-08": 0
+   },
+   "traps": [
+    {
+     "unit": "b-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-05",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q09",
+   "about_meeting": "018b_EADZ",
+   "text": "Combien d'intervenants l'équipe garde-t-elle au bout du compte ?",
+   "answerable": true,
+   "qrels": {
+    "c-08": 2,
+    "b-30": 1,
+    "b-28": 1,
+    "b-12": 0,
+    "b-13": 0,
+    "c-37": 0,
+    "b-22": 0
+   },
+   "traps": [
+    {
+     "unit": "b-12",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-13",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-37",
+     "trap": "condition"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "018b_EADZ",
+   "text": "Quel jour précis l'événement a-t-il été programmé ?",
+   "answerable": true,
+   "qrels": {
+    "c-07": 2,
+    "c-05": 1,
+    "b-36": 1,
+    "b-35": 1,
+    "b-37": 0,
+    "b-10": 0,
+    "c-01": 0
+   },
+   "traps": [
+    {
+     "unit": "b-37",
+     "trap": "status"
+    },
+    {
+     "unit": "b-10",
+     "trap": "date"
+    },
+    {
+     "unit": "c-01",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "018b_EADZ",
+   "text": "Dans quelle ville et sous quel format l'événement se déroulera-t-il ?",
+   "answerable": true,
+   "qrels": {
+    "b-42": 2,
+    "b-39": 2,
+    "b-38": 1,
+    "b-40": 0
+   },
+   "traps": [
+    {
+     "unit": "b-40",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "018b_EADZ",
+   "text": "Pourquoi déconseille-t-on de placer l'événement en automne ?",
+   "answerable": true,
+   "qrels": {
+    "b-10": 2,
+    "b-09": 0,
+    "c-06": 0
+   },
+   "traps": [
+    {
+     "unit": "b-09",
+     "trap": "date"
+    },
+    {
+     "unit": "c-06",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "018b_EADZ",
+   "text": "Qui réserve l'hôtel et le voyage de l'invité ?",
+   "answerable": true,
+   "qrels": {
+    "c-22": 2,
+    "c-39": 2,
+    "c-12": 1,
+    "c-11": 1,
+    "c-21": 0,
+    "c-09": 0,
+    "c-42": 0,
+    "c-16": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-09",
+     "trap": "person"
+    },
+    {
+     "unit": "c-42",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "018b_EADZ",
+   "text": "Quel montant total en euros a été alloué à l'événement ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "055": "ryan",
+  "056": "sabrina",
+  "057": "delphine",
+  "058": "florent"
+ },
+ "notes": "Identités déduites des adresses directes en 018b (« sabrina » → 056, « delphine » → 057, « toi ryan » → 055, « c'était moi » pour florent → 058). 018c en ASR : prénoms déformés (« laurent », « brian », « etienne leclerc »). Cas ambigus : b-31 supersedes b-07 (thème définitif ou simple affinage du numérique), c-07 supersedes b-36 (date précise contre période), b-08 statut active malgré « peut-être », c-39 billet d'avion contre train (contradicts). Données personnelles non pertinentes (âge d'un parent, lieu de travail) non annotées."
+}
