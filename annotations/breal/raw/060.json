@@ -1,0 +1,2085 @@
+{
+ "group_id": "060",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0011",
+   "evidence": "emma va commencer à prendre la parole sur euh un thème en_particulier puis ce sera autour_de louise et enfin je serai la dernière à prendre la parole sur un thème qui est le rap",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ordre de la réunion : Emma présente un genre, puis Louise, puis l'animatrice parle du rap.",
+   "owner": null,
+   "mentioned_people": [
+    "emma",
+    "louise"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0012",
+   "evidence": "je vais parler du genre pop et pourquoi est-ce_que je pense que ça peut avoir sa place dans euh le festival de musique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose la pop pour le festival, genre qui touche toutes les tranches d'âge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0012",
+   "evidence": "après la période difficile qu il_y a eu avec le covid il_y a beaucoup de festivals qui ont dû être annulés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Beaucoup de festivals ont été annulés pendant la période du covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0012",
+   "evidence": "faire de la pop euh de dans différentes langues euh à_la_fois de l anglais comme du français",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Programmer de la pop en plusieurs langues, anglais et français.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0013",
+   "evidence": "il_y a un artiste qui m est venu en tête par_exemple mika",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma cite Mika comme exemple d'artiste pop, pour sa longue carrière.",
+   "owner": null,
+   "mentioned_people": [
+    "mika"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0019",
+   "evidence": "t as dit mika pour toi c'est l artiste le plus connu",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animatrice demande si Mika est pour Emma l'artiste pop le plus connu.",
+   "owner": null,
+   "mentioned_people": [
+    "mika"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0020",
+   "evidence": "non non_pas le plus connu c'est celui qui m est venu comme ça direct",
+   "type": "answer",
+   "status": "active",
+   "statement": "Emma répond que Mika n'est pas le plus connu, juste le premier qui lui est venu.",
+   "owner": null,
+   "mentioned_people": [
+    "mika"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0026",
+   "evidence": "pop et classique ça ne rassemblera pas les foules",
+   "type": "risk",
+   "status": "active",
+   "statement": "Louise, qui a choisi le classique, estime que pop et classique se marieront mal.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0035",
+   "evidence": "classique ça peut être un peu un peu snob beaucoup de gens n osent pas",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le classique peut paraître snob ; beaucoup de gens n'osent pas y aller.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0037",
+   "evidence": "j aurais à coeur de mettre du classique dans ce festival pour hum le rendre peut-être plus accessible",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Louise veut mettre du classique dans le festival pour le rendre plus accessible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0050",
+   "evidence": "j ai jamais eu l occasion de voir du classique en festival",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'animatrice, qui fait beaucoup de festivals, n'y a jamais vu de classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0054",
+   "evidence": "le seul petit bémol ce serait savoir comment euh en en termes d organisation planifier ou du moins contacter les personnes qui viendraient du_coup les artistes qui viendraient pour du classique",
+   "type": "risk",
+   "status": "open",
+   "statement": "Bémol d'Emma : difficulté d'organiser et de contacter les artistes classiques, et de savoir s'ils accepteraient de se mélanger à la pop ou au rap.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite de l'idée au tour t0056."
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0059",
+   "evidence": "quitte peut-être à ne_pas l annoncer à faire un espèce de bonus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ne pas annoncer le classique au programme et le présenter comme un bonus surprise.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0061",
+   "evidence": "annoncer le titre euh de la pièce choisie annoncer éventuellement la formation un quatuor un quintet",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Annoncer seulement le titre de la pièce et la formation (quatuor, quintette) pour ne pas effrayer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0065",
+   "evidence": "reprendre des morceaux euh ben de pop notamment des morceaux de n'importe quel style",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des formations classiques reprennent souvent des morceaux pop, rock ou blues, ce qui fait entrer doucement dans le classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Exemple de Nirvana au tour t0067."
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0082",
+   "evidence": "est-ce_que pour toi ça revient quand même un peu à la mode ou pas",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animatrice demande à Louise si le classique revient à la mode.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0085",
+   "evidence": "ah en déclin non non non je suis d'accord avec toi",
+   "type": "answer",
+   "status": "active",
+   "statement": "Louise répond que le classique n'est pas en déclin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0087",
+   "evidence": "conservatoires qui sont refaits mais notamment celui d aix-en-provence",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des conservatoires sont rénovés, notamment celui d'Aix-en-Provence, refait il y a environ sept ans.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0089",
+   "evidence": "un instrument qui est parfois trop cher et il peut être il peut être prêté par une fondation",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des programmes permettent de se faire prêter un instrument trop cher par une fondation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0092",
+   "evidence": "sofiane pamard du_coup fait beaucoup de collaborations avec des",
+   "type": "fact",
+   "status": "active",
+   "statement": "Sofiane Pamart fait beaucoup de collaborations classique avec des rappeurs.",
+   "owner": null,
+   "mentioned_people": [
+    "sofiane pamard"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Fin de la phrase au tour t0095 (« artistes rappeurs »)."
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0103",
+   "evidence": "on va beaucoup entendre de personnes qui vont dire j écoute de tout sauf du rap",
+   "type": "risk",
+   "status": "active",
+   "statement": "Beaucoup de gens rejettent le rap, associé au rap commercial ou vulgaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0108",
+   "evidence": "moi je pense direct à eminem",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Comme grand artiste de rap international, l'animatrice pense à Eminem.",
+   "owner": null,
+   "mentioned_people": [
+    "eminem"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0112",
+   "evidence": "ça peut aller aussi bien de soprano de notre enfance à orelsan à vald",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rap français cité : de Soprano à Orelsan et Vald.",
+   "owner": null,
+   "mentioned_people": [
+    "soprano",
+    "orelsan",
+    "vald"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0114",
+   "evidence": "ça serait bien de voilà de d essayer de mixer les genres notamment ben le rap et le classique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice propose de mêler rap et classique pour montrer que ces univers peuvent se rencontrer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0126",
+   "evidence": "essayer de mettre en scène des artistes hum qui sont d une qui parlent à une autre génération",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Programmer aussi des rappeurs plus anciens qui parlent à la génération des parents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0130",
+   "evidence": "il_y a beaucoup de très très beaux textes dans le rap",
+   "type": "fact",
+   "status": "active",
+   "statement": "Emma souligne la qualité des textes de rap, proche du travail de précision du classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0184",
+   "evidence": "bigflo et oli je trouve qu ils ont un peu une étiquette de rappeurs pour les jeunes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Bigflo et Oli ont une étiquette de rappeurs pour jeunes malgré des textes très bien écrits.",
+   "owner": null,
+   "mentioned_people": [
+    "bigflo et oli"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0191",
+   "evidence": "un certain intérêt pour des personnes de quarante cinquante ans qui avant détestaient le rap",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des personnes de 40-50 ans qui détestaient le rap s'y intéressent avec les nouveaux artistes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0227",
+   "evidence": "pourquoi pas penser à des chaises ou à faire deux scènes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose des chaises ou deux scènes séparées, comme dans les grands festivals.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0230",
+   "evidence": "qui dit de scène dit que ça va rester tout_à_fait euh figé les gens vont pas se mélanger",
+   "type": "risk",
+   "status": "active",
+   "statement": "Louise objecte que deux scènes figeraient le public, qui ne se mélangerait pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite au tour t0234 (places assises / debout)."
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0240",
+   "evidence": "avec un message écrit vous êtes autorisés à vous lever pour danser",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire asseoir tout le monde puis afficher un message autorisant à se lever pour danser, ou à s'asseoir pour le classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée amorcée par Emma au tour t0237."
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0245",
+   "evidence": "un petit peu de pop à la fin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ajouter un peu de pop à la fin (ou avant) pour faire danser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0259",
+   "evidence": "j ai hésité avec de l électro",
+   "type": "fact",
+   "status": "active",
+   "statement": "Emma a hésité à présenter l'électro plutôt que la pop.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0272",
+   "evidence": "si on fait l affiche du festival pour faire venir les gens il faut aussi des des noms que les gens connaissent",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour l'affiche, il faut des noms connus qui font se déplacer le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0281",
+   "evidence": "c'est un public plutôt âgé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Louise, le public du classique est plutôt âgé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0349",
+   "evidence": "est-ce_que tu penses que le classique y a un aspect financier aussi",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animatrice demande si le prix freine l'accès au classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0358",
+   "evidence": "je crois que c'était cent_dix euros la journée",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le festival où Emma va coûte environ 110 euros la journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cent_dix euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0365",
+   "evidence": "une place bien placée peut atteindre trois_cent euros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Au festival d'art lyrique, une place bien placée peut atteindre 300 euros pour environ 1 h 30 de concert.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "trois_cent euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0390",
+   "evidence": "j aurais pas mis cent cinquante euros pour aller voir quelque_chose en n étant pas sûre que ça me plaise",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'animatrice n'aurait pas payé 150 euros pour un concert classique sans savoir si ça lui plairait.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "cent cinquante euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-40",
+   "meeting_id": "060a_EDRH",
+   "turn": "t0396",
+   "evidence": "je peux me retrouver devant du classique et découvrir qu en_fait c'est bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Dans un festival multi-genres, on peut découvrir le classique sans payer en plus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0001",
+   "evidence": "on va commencer par les genres sélectionnés on en a cité trois donc il_y avait rap classique et pop",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ordre du jour : choisir parmi les trois genres cités (rap, classique, pop).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0002",
+   "evidence": "classique on était partie toutes_les trois assez facilement sur le fait que ça pouvait être intéressant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les trois sont d'accord pour garder le classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0004",
+   "evidence": "plutôt rap pour moi si on devait en garder de rap classique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Louise préfère garder le rap avec le classique, pour la rencontre des genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0008",
+   "evidence": "on essaie de faire un mix",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Introduire le classique via des morceaux de rap qui en contiennent, puis faire des mix plutôt que des parties séparées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0018",
+   "evidence": "partons sur le rap et le classique alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le festival garde le rap et le classique (la pop est écartée).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0046",
+   "evidence": "est-ce_que vous avez déjà une idée si vous pensez que c'est mieux en plein air dans un champ dans une salle art déco ou dans une salle de spectacle",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question du lieu : plein air, salle art déco ou salle de spectacle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0048",
+   "evidence": "salle art déco nombre limité mais c'est original et intime",
+   "type": "fact",
+   "status": "active",
+   "statement": "Option salle art déco : nombre de places limité mais lieu original et intime.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0048",
+   "evidence": "le désavantage du plein air dans un champ c'est beaucoup c'est la météo",
+   "type": "risk",
+   "status": "active",
+   "statement": "Option plein air : beaucoup de monde possible mais risque météo.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0052",
+   "evidence": "le plein air me paraît pas adapté",
+   "type": "risk",
+   "status": "active",
+   "statement": "Louise juge le plein air inadapté : le classique, même amplifié, n'y sonnera pas bien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0060",
+   "evidence": "ça faisait partie des choix qui me paraissaient bien le plein air",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma penchait pour le plein air, le plus proche d'un festival classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0067",
+   "evidence": "j' aurais peur juste que les gens soient sur la retenue et se disent ah un festival dans une salle fermée",
+   "type": "risk",
+   "status": "active",
+   "statement": "Emma craint qu'un festival en salle fermée retienne le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0092",
+   "evidence": "un endroit à lyon la sucrière",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice cite la Sucrière à Lyon, ancienne usine à la fois fermée et ouverte, comme modèle de lieu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0121",
+   "evidence": "une salle de spectacle avec des sièges assis à la limite ça me fait penser à une projection d' un film",
+   "type": "risk",
+   "status": "active",
+   "statement": "Emma écarte la salle de spectacle à sièges, qui évoque un film plus qu'un festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0125",
+   "evidence": "donc la salle art deco",
+   "type": "decision",
+   "status": "active",
+   "statement": "Choix de la salle art déco, petite et intimiste mais originale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé par Emma (t0126) et récapitulé en t0459."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0154",
+   "evidence": "j' imagine quelques fauteuils en velours",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Louise imagine quelques fauteuils en velours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0156",
+   "evidence": "j' imagine même un peu des tags délavés",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma imagine des tags délavés, un style urbain, pour mélanger les styles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0167",
+   "evidence": "il n' y a pas forcément besoin de vraiment surélever les musiciens",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pas de scène surélevée : musiciens au niveau du public, en arc de cercle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0178",
+   "evidence": "est-ce_qu' au niveau de la visibilité euh de ne_pas avoir de scène",
+   "type": "question",
+   "status": "resolved",
+   "statement": "L'animatrice s'inquiète de la visibilité sans scène.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0181",
+   "evidence": "oui on voyait pas toujours tout ça c'est clair",
+   "type": "answer",
+   "status": "active",
+   "statement": "Emma confirme qu'on ne voyait pas toujours tout sans scène.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0190",
+   "evidence": "il_y a des sièges positionnés mais pour autant ils sont pas en rang",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Sièges disposés hors rangées : chacun s'assoit ou reste debout comme il veut.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0196",
+   "evidence": "des banquettes même ça serait ou ce genre de poufs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Des banquettes ou des poufs sur les côtés pour s'asseoir un peu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0203",
+   "evidence": "soit on invite deux artistes connus internationalement et quatre artistes peu connus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option 1 pour six artistes : deux connus internationalement et quatre peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0204",
+   "evidence": "six six artistes connus régionalement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Option 3 : six artistes connus régionalement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0205",
+   "evidence": "j' éliminerais les six artistes euh",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'option des six artistes régionaux est éliminée, faute de grands noms pour attirer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Objet complété en t0207 (« connus régionalement ») ; accord d'Emma en t0208 et de Louise en t0211."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0252",
+   "evidence": "moi j' aurais dit trois artistes connus nationalement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose trois artistes connus nationalement et trois peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0258",
+   "evidence": "moi je suis pas du tout du même avis",
+   "type": "risk",
+   "status": "active",
+   "statement": "Louise n'est pas d'accord : difficile de répartir trois et trois entre rap et classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0313",
+   "evidence": "on reste sur trois artistes peu connus",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : trois artistes connus nationalement et trois peu connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Louise convaincue en t0281, accord en t0297-t0298."
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0330",
+   "evidence": "je pense qu' il faut au_moins un piano",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour accompagner le rap, il faut au moins un piano, voire un trio.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0331",
+   "evidence": "pense que l' idée du piano est pas mal parce_que bon sofiane pamar",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose Sofiane Pamart, pianiste qui accompagne des rappeurs.",
+   "owner": null,
+   "mentioned_people": [
+    "sofiane pamar"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0366",
+   "evidence": "ben orelsan je pense une bonne idée je pense à damso aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose Orelsan et pense aussi à Damso.",
+   "owner": null,
+   "mentioned_people": [
+    "orelsan",
+    "damso"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0376",
+   "evidence": "mélangé avec le classique et il est quand même très vulgaire",
+   "type": "risk",
+   "status": "active",
+   "statement": "Vald est jugé trop vulgaire pour être mêlé au classique.",
+   "owner": null,
+   "mentioned_people": [
+    "vald"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0386",
+   "evidence": "oui belle proposition mais on n' est pas sur du rap",
+   "type": "risk",
+   "status": "active",
+   "statement": "Stromae est écarté car ce n'est pas du rap.",
+   "owner": null,
+   "mentioned_people": [
+    "stromae"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0401",
+   "evidence": "ben on peut mettre aurel san en connu",
+   "type": "decision",
+   "status": "active",
+   "statement": "Orelsan est retenu comme artiste de rap connu.",
+   "owner": null,
+   "mentioned_people": [
+    "orelsan"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Louise en t0402."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0403",
+   "evidence": "comme formation classique je me rends compte que je sais pas",
+   "type": "risk",
+   "status": "open",
+   "statement": "Louise ne trouve pas de formation classique ; celles qu'elle connaît ont des musiciens âgés qui refuseraient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0437",
+   "evidence": "donc on peut le mettre dans les pas pas connus",
+   "type": "decision",
+   "status": "active",
+   "statement": "Sofiane Pamart est classé parmi les artistes peu connus.",
+   "owner": null,
+   "mentioned_people": [
+    "sofiane pamar"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-41",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0440",
+   "evidence": "j' avais pensé à lino aussi euh qui est pas très connu",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice propose Lino, rappeur peu connu du grand public mais aux beaux textes.",
+   "owner": null,
+   "mentioned_people": [
+    "lino"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-42",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0459",
+   "evidence": "on a gardé rap et classique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : rap et classique sont gardés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-43",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0460",
+   "evidence": "il_y avait un peu le point faible avec l' idée que c'est un nombre limité de personnes",
+   "type": "risk",
+   "status": "active",
+   "statement": "Point faible de la salle art déco : nombre limité de personnes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-44",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0461",
+   "evidence": "aurel san en artiste de rap connu nationalement lino en artiste de rap connu enfin peu connu",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : Orelsan en rappeur connu nationalement, Lino en rappeur peu connu.",
+   "owner": null,
+   "mentioned_people": [
+    "orelsan",
+    "lino"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-45",
+   "meeting_id": "060b_EDDH",
+   "turn": "t0461",
+   "evidence": "sofiane pamar en artiste de pour le classique et on peut mettre connu du_coup j' imagine",
+   "type": "decision",
+   "status": "unknown",
+   "statement": "Récapitulatif : Sofiane Pamart pour le classique, rangé « connu » cette fois.",
+   "owner": null,
+   "mentioned_people": [
+    "sofiane pamar"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contredit t0437 (peu connu) ; formulation hésitante, statut incertain."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0004",
+   "evidence": "il faut au minimum un an à l' avance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut au moins un an pour tout préparer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0009",
+   "evidence": "on fait un truc en hiver parce_qu' il_y aura moins de de festival",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire le festival en hiver pour éviter la concurrence des festivals d'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0014",
+   "evidence": "j' aurais peur que l' été euh vu qu' on part sur quelque_chose de très atypique s'il y a autre_chose en même temps",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque en été : le public irait vers des valeurs sûres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0023",
+   "evidence": "automne ou hiver si ça vous va",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice propose l'automne ou l'hiver.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0035",
+   "evidence": "au premier week-end carrément des vacances de la toussaint",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Premier week-end des vacances de la Toussaint.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0047",
+   "evidence": "genre après décembre en janvier ou janvier février",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose janvier-février, à mi-chemin entre les festivals d'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0086",
+   "evidence": "peut-être que mars c'est un peu trop proche",
+   "type": "risk",
+   "status": "active",
+   "statement": "Mars serait trop proche des festivals d'été.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0091",
+   "evidence": "février moi ça me paraît bien ça tranche entre les deux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice propose février ; janvier est trop froid et c'est la période des partiels.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0097",
+   "evidence": "et ben hors vacances finalement",
+   "type": "decision",
+   "status": "active",
+   "statement": "Finalement, hors vacances scolaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0109",
+   "evidence": "ben plutôt sur un jour non s'il n' y a que six artistes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Avec six artistes, le festival tiendrait plutôt sur un jour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0113",
+   "evidence": "on part sur un samedi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le festival a lieu un samedi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Louise en t0115."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0128",
+   "evidence": "ben peut-être plutôt début février alors",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose plutôt début février.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0145",
+   "evidence": "l équinox vernal a lieu le vingt mars et ça marque le début du printemps",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'équinoxe vernal a lieu le 20 mars et marque le début du printemps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0163",
+   "evidence": "et ben ça sera le nom de notre festival l' equinox vernal",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival s'appellera « Equinox vernal ».",
+   "owner": "138",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Tâche « trouver le nom » attribuée à 138, qui l'a trouvé (t0171-t0172)."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0172",
+   "evidence": "on fait ça du_coup le vingt mars",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date retenue : le 20 mars (au lieu de février).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0173",
+   "evidence": "il faut qu' on voit l' année où le vingt mars est absolument un samedi",
+   "type": "decision",
+   "status": "conditional",
+   "statement": "Le 20 mars doit tomber un samedi ; l'année sera choisie en conséquence.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0175",
+   "evidence": "vingt mars c'est le mars deux_mille_vingt_trois",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "L'animatrice situe le 20 mars en 2023.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Affirmation non vérifiée dans la réunion ; annotée telle quelle."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0198",
+   "evidence": "est-ce que vous voulez qu' il_y ait de la restauration sur le festival ou pas",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Louise demande s'il faut de la restauration.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0199",
+   "evidence": "ouais je pense ça peut être bien",
+   "type": "answer",
+   "status": "active",
+   "statement": "L'animatrice répond que la restauration serait bien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0218",
+   "evidence": "on fait un partenariat avec une marque pour se faire financer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma suggère un partenariat avec une marque pour financer le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0219",
+   "evidence": "tâche trouver des partenariats et des sponsors et des mécènes",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche : trouver partenariats, sponsors et mécènes.",
+   "owner": "142",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Emma s'en charge (t0220 « moi je veux faire ça », t0221, t0259)."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0227",
+   "evidence": "rap ça te va alors attends rap et classique",
+   "type": "action",
+   "status": "active",
+   "statement": "Emma contacte tous les artistes, rap et classique.",
+   "owner": "142",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation en t0228 ; récapitulé en t0506."
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0229",
+   "evidence": "il_y aura beaucoup de refus également des gens qui seront pas dispo",
+   "type": "risk",
+   "status": "active",
+   "statement": "Beaucoup d'artistes risquent de refuser ou de ne pas être disponibles ; il faut une liste préalable.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0231",
+   "evidence": "c'est se faire une liste avec du mieux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Établir une liste d'artistes classés, avec des remplaçants en cas de refus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0235",
+   "evidence": "tout ce qui est contacter les professionnels pour la restauration du_coup tu t' en occupes",
+   "type": "action",
+   "status": "active",
+   "statement": "Louise contacte les professionnels de la restauration.",
+   "owner": "141",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation de Louise en t0236."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0240",
+   "evidence": "est-ce que tu t' occupes aussi de l' aspect bar",
+   "type": "action",
+   "status": "active",
+   "statement": "Louise s'occupe aussi du bar (avec et sans alcool).",
+   "owner": "141",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation en t0242."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0245",
+   "evidence": "engager une boîte qui propose des hôtesses",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Engager une agence d'hôtesses.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0264",
+   "evidence": "moi je peux m' occuper aussi de toute_la partie qui est un peu plus chiante administratif",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice prend en charge l'administratif : déclarations, préfecture, conditions sanitaires.",
+   "owner": "138",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0272",
+   "evidence": "au niveau des conditions sanitaires aussi en fonction du covid",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'administratif inclut les conditions sanitaires liées au covid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0280",
+   "evidence": "je peux m' occuper aussi du côté financier",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice s'occupe aussi du budget.",
+   "owner": "138",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0289",
+   "evidence": "moi je peux faire aussi la partie de euh designer le flyer les affiches",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Emma se propose pour le design des flyers et des affiches.",
+   "owner": "142",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accueilli favorablement en t0294-t0295."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0305",
+   "evidence": "est-ce qu' on va faire un facebook",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pistes de diffusion : affichettes, Facebook, artistes payés pour en parler.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0355",
+   "evidence": "il faut absolument un clavier il faut un piano qui puisse plaquer les accords",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il faut un clavier ou piano pour des versions acoustiques avec Orelsan.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0377",
+   "evidence": "une espèce de porte de sortie qui soit pas bloquée par les gens",
+   "type": "risk",
+   "status": "active",
+   "statement": "Il faut une sortie non bloquée et des coulisses derrière la scène.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0400",
+   "evidence": "je peux éventuellement me charger de distribuer tout ça",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Louise propose de se charger de la distribution des supports.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposition, revue en t0418 (distribution à deux)."
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0410",
+   "evidence": "le côté esthétique euh et euh de la communication et de la salle et des tracts etcetera c'est plus toi",
+   "type": "action",
+   "status": "active",
+   "statement": "L'esthétique de la communication, de la salle et des tracts revient à Emma.",
+   "owner": "142",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0416",
+   "evidence": "ok ben alors je le rajoute dans le l' administratif et je m' en occupe",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice ajoute la recherche du lieu à l'administratif et s'en occupe.",
+   "owner": "138",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0418",
+   "evidence": "tout ce qui est distribution on peut dire qu' on le fait euh qu' on s' en occupe toutes_les deux",
+   "type": "action",
+   "status": "active",
+   "statement": "La distribution est faite à deux, par l'animatrice et Louise.",
+   "owner": "138 + 141",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptation de Louise en t0419."
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0465",
+   "evidence": "je m' en occupe je fais le recrutement des bénévoles",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice recrute les bénévoles.",
+   "owner": "138",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "060c_EDPH",
+   "turn": "t0485",
+   "evidence": "non pas d' alcool fort",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas d'alcool fort (licence difficile) ; vin, cidre ou bière envisagés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Raison en t0489-t0493."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-07",
+   "to": "a-06",
+   "relation": "answers",
+   "justification": "Emma répond directement à la question sur Mika."
+  },
+  {
+   "from": "a-17",
+   "to": "a-16",
+   "relation": "answers",
+   "justification": "Louise répond que le classique n'est pas en déclin."
+  },
+  {
+   "from": "a-37",
+   "to": "a-36",
+   "relation": "answers",
+   "justification": "Le prix de 110 euros répond à la question sur le coût."
+  },
+  {
+   "from": "a-30",
+   "to": "a-29",
+   "relation": "contradicts",
+   "justification": "Louise objecte à l'idée de deux scènes, sans décision prise."
+  },
+  {
+   "from": "b-05",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "« partons sur le rap et le classique » tranche le choix des genres et écarte la pop proposée par Emma."
+  },
+  {
+   "from": "b-05",
+   "to": "a-24",
+   "relation": "supports",
+   "justification": "La décision retient le mélange rap-classique proposé en réunion a."
+  },
+  {
+   "from": "b-42",
+   "to": "b-05",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit la décision rap et classique."
+  },
+  {
+   "from": "b-22",
+   "to": "b-21",
+   "relation": "answers",
+   "justification": "Emma répond à la question sur la visibilité."
+  },
+  {
+   "from": "b-15",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "Le choix de la salle art déco tranche la question du lieu et écarte le plein air."
+  },
+  {
+   "from": "b-15",
+   "to": "b-06",
+   "relation": "answers",
+   "justification": "La salle art déco répond à la question du lieu."
+  },
+  {
+   "from": "b-27",
+   "to": "b-26",
+   "relation": "supersedes",
+   "justification": "L'option des six artistes régionaux est explicitement éliminée."
+  },
+  {
+   "from": "b-31",
+   "to": "b-25",
+   "relation": "supersedes",
+   "justification": "La décision trois nationaux + trois peu connus tranche contre l'option deux internationaux + quatre."
+  },
+  {
+   "from": "b-31",
+   "to": "b-28",
+   "relation": "supports",
+   "justification": "La décision reprend la proposition d'Emma."
+  },
+  {
+   "from": "b-29",
+   "to": "b-28",
+   "relation": "contradicts",
+   "justification": "Louise conteste d'abord la proposition trois et trois."
+  },
+  {
+   "from": "b-38",
+   "to": "b-35",
+   "relation": "supports",
+   "justification": "Orelsan, proposé par Emma, est retenu."
+  },
+  {
+   "from": "b-44",
+   "to": "b-38",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Orelsan comme rappeur connu."
+  },
+  {
+   "from": "b-44",
+   "to": "b-41",
+   "relation": "supports",
+   "justification": "Le récapitulatif confirme Lino en peu connu."
+  },
+  {
+   "from": "b-40",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Sofiane Pamart, proposé par Emma, est intégré parmi les peu connus."
+  },
+  {
+   "from": "b-45",
+   "to": "b-40",
+   "relation": "contradicts",
+   "justification": "Le récapitulatif range Sofiane Pamart en « connu », contre « peu connu » en t0437."
+  },
+  {
+   "from": "c-15",
+   "to": "c-08",
+   "relation": "supersedes",
+   "justification": "« on fait ça du_coup le vingt mars » remplace la proposition de février."
+  },
+  {
+   "from": "c-15",
+   "to": "c-12",
+   "relation": "supersedes",
+   "justification": "Le 20 mars remplace l'idée de début février."
+  },
+  {
+   "from": "c-15",
+   "to": "c-13",
+   "relation": "supports",
+   "justification": "La date s'appuie sur l'équinoxe vernal du 20 mars."
+  },
+  {
+   "from": "c-16",
+   "to": "c-15",
+   "relation": "supports",
+   "justification": "Condition sur la date : le 20 mars doit être un samedi."
+  },
+  {
+   "from": "c-09",
+   "to": "c-05",
+   "relation": "supersedes",
+   "justification": "« hors vacances finalement » écarte l'idée des vacances de la Toussaint."
+  },
+  {
+   "from": "c-19",
+   "to": "c-18",
+   "relation": "answers",
+   "justification": "Réponse positive sur la restauration."
+  },
+  {
+   "from": "c-20",
+   "to": "c-21",
+   "relation": "creates_action",
+   "justification": "L'idée de partenariat de financement donne lieu à la tâche sponsors/mécènes."
+  },
+  {
+   "from": "c-38",
+   "to": "c-35",
+   "relation": "supersedes",
+   "justification": "La distribution passe de Louise seule à Louise et l'animatrice."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "060a_EDRH",
+   "text": "Parmi la pop, le classique et le rap présentés au départ, quels genres le festival a-t-il gardés au final ?",
+   "answerable": true,
+   "qrels": {
+    "b-05": 2,
+    "b-42": 2,
+    "b-02": 1,
+    "b-03": 1,
+    "a-24": 1,
+    "a-02": 0,
+    "a-10": 0,
+    "b-01": 0,
+    "a-32": 0
+   },
+   "traps": [
+    {
+     "unit": "a-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-01",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-32",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "060a_EDRH",
+   "text": "Quel chanteur Emma a-t-elle donné en exemple quand elle a défendu la pop ?",
+   "answerable": true,
+   "qrels": {
+    "a-05": 2,
+    "a-07": 1,
+    "a-06": 0,
+    "a-22": 0,
+    "a-02": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "person"
+    },
+    {
+     "unit": "a-06",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "060a_EDRH",
+   "text": "Jusqu'à combien peut coûter une bonne place au festival d'art lyrique cité par Louise ?",
+   "answerable": true,
+   "qrels": {
+    "a-38": 2,
+    "a-37": 0,
+    "a-39": 0,
+    "a-36": 0
+   },
+   "traps": [
+    {
+     "unit": "a-37",
+     "trap": "amount"
+    },
+    {
+     "unit": "a-39",
+     "trap": "amount"
+    },
+    {
+     "unit": "a-36",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "060a_EDRH",
+   "text": "Quel inconvénient pratique Emma voyait-elle à faire venir des musiciens classiques dans le festival ?",
+   "answerable": true,
+   "qrels": {
+    "a-12": 2,
+    "b-39": 1,
+    "a-09": 0,
+    "a-08": 0
+   },
+   "traps": [
+    {
+     "unit": "a-09",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-08",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "060a_EDRH",
+   "text": "Comment le public pourra-t-il choisir entre être assis ou debout, d'après les dernières idées d'aménagement ?",
+   "answerable": true,
+   "qrels": {
+    "b-23": 2,
+    "b-24": 1,
+    "a-31": 1,
+    "a-29": 1,
+    "a-30": 1,
+    "b-20": 0,
+    "b-14": 0
+   },
+   "traps": [
+    {
+     "unit": "b-20",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-14",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "060a_EDRH",
+   "text": "Lequel des rappeurs français évoqués dans la présentation du rap a été choisi comme nom connu de l'affiche ?",
+   "answerable": true,
+   "qrels": {
+    "b-38": 2,
+    "b-44": 2,
+    "b-35": 1,
+    "a-23": 1,
+    "a-22": 0,
+    "b-36": 0,
+    "b-41": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-22",
+     "trap": "person"
+    },
+    {
+     "unit": "b-36",
+     "trap": "person"
+    },
+    {
+     "unit": "b-41",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "060a_EDRH",
+   "text": "Le pianiste qui collabore avec des rappeurs, cité par Emma, a-t-il été rangé parmi les artistes connus ou peu connus ?",
+   "answerable": true,
+   "qrels": {
+    "b-40": 2,
+    "b-45": 1,
+    "b-33": 1,
+    "a-20": 1,
+    "b-44": 0,
+    "b-32": 0
+   },
+   "traps": [
+    {
+     "unit": "b-44",
+     "trap": "person"
+    },
+    {
+     "unit": "b-32",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "060a_EDRH",
+   "text": "Quel morceau de Mika Emma voudrait-elle entendre au festival ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "142": "emma",
+  "141": "louise",
+  "138": "cathy (incertain)"
+ },
+ "notes": "138 = animatrice ; prénom « cathy » déduit de 060c t0171 (ASR), incertain. Réunions b et c en ASR : extraits copiés tels quels (ex. « aurel san » = Orelsan, « sofiane pamar »). Ambiguïtés : statut de Sofiane Pamart (peu connu t0437 puis « connu » t0461, relation contradicts) ; date « vingt mars deux_mille_vingt_trois » non vérifiée ; recherche du lieu d'abord prévue à deux (t0414) puis prise par 138 dans l'administratif (t0416), sans unité dédiée pour t0414. Mention végétarienne (060c t0207) non annotée (donnée personnelle sans intérêt). La requête q08 n'a pas de réponse dans le groupe."
+}
