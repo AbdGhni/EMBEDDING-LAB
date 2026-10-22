@@ -1,0 +1,2223 @@
+{
+ "group_id": "032",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "032a_EARH",
+   "turn": "t0002",
+   "evidence": "choisir un thème parmi les quatre qu' on va proposer chacun d' entre nous à tour de rôle",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la réunion : choisir un thème parmi quatre propositions présentées à tour de rôle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "032a_EARH",
+   "turn": "t0002",
+   "evidence": "on a vingt minutes pour faire ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion dispose de vingt minutes pour le choix du thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "032a_EARH",
+   "turn": "t0002",
+   "evidence": "c'est minan qui va commencer à prendre la parole et après ce sera elias moi et valentine",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ordre de passage : Minan, puis Elias, Anne et Valentine.",
+   "owner": null,
+   "mentioned_people": [
+    "minan",
+    "elias",
+    "valentine"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "032a_EARH",
+   "turn": "t0010",
+   "evidence": "j aimerais bien_que ce soit un événement + où on coupe les réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose un événement où l'on coupe les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "032a_EARH",
+   "turn": "t0023",
+   "evidence": "parler des des réseaux sociaux leur côté positif mais aussi leur côté négatif serait primordial pour notre événement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose le thème des réseaux sociaux, côtés positifs et négatifs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "032a_EARH",
+   "turn": "t0027",
+   "evidence": "c'est cinq minutes par personne",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Temps de parole annoncé : cinq minutes par personne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contredit juste après (trois-quatre minutes, t0031-t0034)."
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "032a_EARH",
+   "turn": "t0034",
+   "evidence": "trois quatre minutes ok non je savais pas",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le temps de parole retenu est de trois à quatre minutes par personne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Valeur donnée par 087 et 086 (t0031, t0033), reprise par 084."
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "032a_EARH",
+   "turn": "t0042",
+   "evidence": "le but de notre asso c'est vraiment de la prévention",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'association a pour but la prévention.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "032a_EARH",
+   "turn": "t0042",
+   "evidence": "la prévention ça passe par les côtés négatifs avant_tout",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Selon Minan, la prévention doit insister d'abord sur les côtés négatifs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "032a_EARH",
+   "turn": "t0047",
+   "evidence": "moi j' ai pensé ben forcément à amazon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose Amazon comme thème de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "032a_EARH",
+   "turn": "t0047",
+   "evidence": "parfois des emplois euh pas trop euh pas trop euh pas trop calé en termes de sécurité",
+   "type": "risk",
+   "status": "active",
+   "statement": "Amazon crée des emplois peu sûrs (intérim, manutention).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "032a_EARH",
+   "turn": "t0047",
+   "evidence": "c'est une activité une activité pardon qui pollue énormément",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'activité d'Amazon pollue énormément.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "032a_EARH",
+   "turn": "t0155",
+   "evidence": "une convention ou quoi sur les transitions numériques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias évoque une convention sur les transitions numériques où placer Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "032a_EARH",
+   "turn": "t0061",
+   "evidence": "je pense qu' on pourrait regrouper tout ça sous le nom de la transition numérique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine propose de regrouper les thèmes sous « transition numérique ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "032a_EARH",
+   "turn": "t0068",
+   "evidence": "le nombre d' emplois qui se perdent avec la transition numérique",
+   "type": "risk",
+   "status": "active",
+   "statement": "La transition numérique fait perdre des emplois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "032a_EARH",
+   "turn": "t0074",
+   "evidence": "ben je suis désolée mais ça crée des feignants",
+   "type": "risk",
+   "status": "active",
+   "statement": "Selon Valentine, la domotique rend les gens paresseux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "032a_EARH",
+   "turn": "t0076",
+   "evidence": "si on va faire un salon si on va faire un on n' a pas encore bien décidé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le format de l'événement (salon ou autre) n'est pas encore décidé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "032a_EARH",
+   "turn": "t0078",
+   "evidence": "qu' est-ce_que t' envisages pour le futur en_fait",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Anne demande à Valentine ce qu'elle envisage pour l'avenir de la transition numérique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "032a_EARH",
+   "turn": "t0081",
+   "evidence": "on est déjà dans une transition qui en marche et qu' on pourra pas l' arrêter",
+   "type": "answer",
+   "status": "active",
+   "statement": "Valentine : la transition est en marche et ne pourra pas être arrêtée ; il faut sensibiliser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "032a_EARH",
+   "turn": "t0084",
+   "evidence": "c'est sensibiliser et faire en sorte que chacun",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine propose de sensibiliser pour que chacun pose ses limites.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée complétée en t0086 (« pose ses limites »)."
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "032a_EARH",
+   "turn": "t0091",
+   "evidence": "moi je suis plus sur de la formation concrètement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias privilégie la formation plutôt que la sensibilisation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "032a_EARH",
+   "turn": "t0100",
+   "evidence": "regrouper l' ensemble des thèmes en faisant une prévention sur le l' utilisation des téléphones",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose de regrouper les thèmes dans une prévention sur l'usage du téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "032a_EARH",
+   "turn": "t0102",
+   "evidence": "il faudrait faire énormément de prévention sur la mauvaise utilisation du téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne veut beaucoup de prévention sur la mauvaise utilisation du téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "032a_EARH",
+   "turn": "t0106",
+   "evidence": "le contrôle parental aujourd'hui on peut le pirater",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le contrôle parental peut être contourné par les jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "032a_EARH",
+   "turn": "t0111",
+   "evidence": "pourquoi pas essayer de leur dire qu' il_y a un temps à avoir sur le téléphone dans la journée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose de sensibiliser à un temps limite quotidien sur le téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "032a_EARH",
+   "turn": "t0114",
+   "evidence": "tu penses pas déjà qu' il_y a des moyens qui sont mis en place pour lutter un peu contre ça",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Ylias demande si des moyens existent déjà (temps d'écran de l'iPhone).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "032a_EARH",
+   "turn": "t0115",
+   "evidence": "si il_y a des moyens mais est-ce_que les jeunes aujourd'hui sont avertis dessus",
+   "type": "answer",
+   "status": "active",
+   "statement": "Anne : les moyens existent mais les jeunes n'en sont pas avertis et imitent leurs parents.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "032a_EARH",
+   "turn": "t0118",
+   "evidence": "au niveau de de l' impact sur l' environnement tu comptais en parler",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Minan demande si l'impact environnemental du téléphone sera abordé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "032a_EARH",
+   "turn": "t0120",
+   "evidence": "y' a aussi la la fabrication des téléphones qui au final euh pollue",
+   "type": "answer",
+   "status": "active",
+   "statement": "Anne : les ondes et la fabrication des téléphones ont un impact négatif sur l'environnement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "032a_EARH",
+   "turn": "t0120",
+   "evidence": "destruction des téléphones + qui aujourd'hui ne sont pas recyclés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les téléphones détruits ne sont pas recyclés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "032a_EARH",
+   "turn": "t0121",
+   "evidence": "les composantes des téléphones leurs produits qui sont pris pour la_plupart dans les mines",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les composants des téléphones viennent en grande partie de mines (Afrique).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "032a_EARH",
+   "turn": "t0124",
+   "evidence": "ok oui c'est vrai l extraction du cobalt",
+   "type": "fact",
+   "status": "active",
+   "statement": "Minan cite l'extraction du cobalt.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "032a_EARH",
+   "turn": "t0166",
+   "evidence": "la phase deux c'est qu' est-ce_qu' on fait comme euh événement",
+   "type": "question",
+   "status": "open",
+   "statement": "Valentine demande quel type d'événement sera fait en phase deux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "032a_EARH",
+   "turn": "t0173",
+   "evidence": "tu peux totalement faire une formation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias : on peut faire une formation à partir de la réussite économique d'Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "032a_EARH",
+   "turn": "t0175",
+   "evidence": "c'est une dinguerie ouais mais au niveau des commerces de proximité tout ça c'est de la merde",
+   "type": "risk",
+   "status": "active",
+   "statement": "Minan : Amazon nuit aux commerces de proximité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "032a_EARH",
+   "turn": "t0189",
+   "evidence": "commerce de proximité c'était vraiment l'un des impacts qui tue",
+   "type": "risk",
+   "status": "active",
+   "statement": "Minan insiste sur l'impact d'Amazon sur les commerces de proximité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "032a_EARH",
+   "turn": "t0193",
+   "evidence": "genre c'est un rôle mais concrètement moi je suis pas du tout de cette avis",
+   "type": "fact",
+   "status": "active",
+   "statement": "Ylias précise qu'il jouait un rôle et ne partage pas l'avis favorable à Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "032a_EARH",
+   "turn": "t0100",
+   "evidence": "c'est moi qui dois le faire mais euh",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Anne prend elle-même les notes de la réunion.",
+   "owner": "086",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à l'offre de Valentine (t0099 « tu veux que je les prenne »)."
+  },
+  {
+   "key": "a-39",
+   "meeting_id": "032a_EARH",
+   "turn": "t0186",
+   "evidence": "ah oui faut qu' elle fasse le résumé anne",
+   "type": "action",
+   "status": "open",
+   "statement": "Anne doit faire le résumé de la réunion.",
+   "owner": null,
+   "mentioned_people": [
+    "anne"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "032b_EADH",
+   "turn": "t0000",
+   "evidence": "choisir le + le thème qu' on abordera lors_de notre événement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la réunion : choisir le thème de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "032b_EADH",
+   "turn": "t0000",
+   "evidence": "pour lequel il faudra fixer la date aussi d'ailleurs",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faudra aussi fixer la date de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "032b_EADH",
+   "turn": "t0014",
+   "evidence": "je vois pas le but de faire un évènement sur amazon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine ne voit pas l'intérêt d'un événement sur Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Objection plutôt qu'idée ; pas de type dédié."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "032b_EADH",
+   "turn": "t0015",
+   "evidence": "notre asso c'est une association de prévention de la jeunesse",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'association est une association de prévention pour la jeunesse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "032b_EADH",
+   "turn": "t0021",
+   "evidence": "dans un but de formation faut s' inspirer des plus grands",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias défend Amazon comme modèle d'inspiration pour former les jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "032b_EADH",
+   "turn": "t0052",
+   "evidence": "on peut l' inclure dans dans un de nos thèmes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine propose d'inclure Amazon dans un autre thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "032b_EADH",
+   "turn": "t0073",
+   "evidence": "c'est incroyable mais c'est pas centré on va pas pouvoir aborder un point",
+   "type": "risk",
+   "status": "active",
+   "statement": "Minan : la transition numérique est trop peu centrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "032b_EADH",
+   "turn": "t0084",
+   "evidence": "ça va peut-être plus les attirer vont peut-être plus avoir envie de venir voir l' expo",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias : le nom « réseaux sociaux » attirerait davantage les jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "032b_EADH",
+   "turn": "t0092",
+   "evidence": "on n' a qu' une journée les amis on n' a qu' une journée",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Minan affirme que l'événement ne dure qu'une journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Corrigé aussitôt (t0094-t0098) : la durée est à choisir."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "032b_EADH",
+   "turn": "t0098",
+   "evidence": "enfin on peut choisir c'est à nous de choisir",
+   "type": "fact",
+   "status": "active",
+   "statement": "La durée de l'événement est au choix de l'équipe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Minan l'admet en t0096."
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "032b_EADH",
+   "turn": "t0126",
+   "evidence": "pour moi transition numérique c'est beaucoup trop large",
+   "type": "risk",
+   "status": "active",
+   "statement": "Anne juge le thème transition numérique beaucoup trop large.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "032b_EADH",
+   "turn": "t0128",
+   "evidence": "je ferai sur le téléphone et pas forcément que sur les réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne veut un thème centré sur le téléphone, pas seulement les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "032b_EADH",
+   "turn": "t0131",
+   "evidence": "tu peux me rappeler les problématiques que tu soulevais par_rapport_au téléphone",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Minan demande à Anne de rappeler les problématiques liées au téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "032b_EADH",
+   "turn": "t0132",
+   "evidence": "ben la surutilisation des téléphones",
+   "type": "answer",
+   "status": "active",
+   "statement": "Anne cite la surutilisation, la mauvaise utilisation via les réseaux, la pollution et les ondes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse répartie sur t0132-t0143 ; tour le plus informatif choisi."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "032b_EADH",
+   "turn": "t0173",
+   "evidence": "non moi je pense pas que ça soit une bonne idée de le mettre sur plusieurs jours",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine est contre un événement sur plusieurs jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "032b_EADH",
+   "turn": "t0199",
+   "evidence": "tu fais une matinée une matinée avec les dangers du téléphone les ondes la pollution",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose une matinée sur les dangers du téléphone et une après-midi sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "032b_EADH",
+   "turn": "t0211",
+   "evidence": "je veux qu' elle soit aussi conséquente que celle du téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan veut que la partie réseaux sociaux soit aussi importante que celle du téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "032b_EADH",
+   "turn": "t0230",
+   "evidence": "j' étais pour faire venir une victime + d'harc- + d' harcèlement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan souhaitait faire venir une victime de harcèlement sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "032b_EADH",
+   "turn": "t0281",
+   "evidence": "de toute façon au pire on va faire au vote si on n' est pas d'accord ce sera au vote",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose de trancher par un vote en cas de désaccord.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "032b_EADH",
+   "turn": "t0311",
+   "evidence": "une victime de cyberharcèlement un neurologue",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose une victime de cyberharcèlement et un neurologue comme intervenants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "032b_EADH",
+   "turn": "t0329",
+   "evidence": "donc ok on part sur le téléphone",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le thème retenu est le téléphone (les dangers du téléphone).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "032b_EADH",
+   "turn": "t0330",
+   "evidence": "téléphone on est tous ok c'est bon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Tout le monde est d'accord pour le thème du téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "032b_EADH",
+   "turn": "t0333",
+   "evidence": "on peut se faire ça un week-end pendant la période scolaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose un week-end en période scolaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "032b_EADH",
+   "turn": "t0352",
+   "evidence": "on partirait sur une intervention en milieu scolaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose une intervention en milieu scolaire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Refusée par les autres en t0355-t0358."
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "032b_EADH",
+   "turn": "t0362",
+   "evidence": "on va se limiter au nombre d' école qu' on va faire",
+   "type": "risk",
+   "status": "active",
+   "statement": "Ylias : une intervention dans les écoles limiterait le nombre d'écoles touchées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "032b_EADH",
+   "turn": "t0373",
+   "evidence": "moi je pense à mercredi c'est bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose un mercredi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "032b_EADH",
+   "turn": "t0397",
+   "evidence": "mercredi la la moitié des écoles finissent à midi",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le mercredi, la moitié des écoles finissent à midi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "032b_EADH",
+   "turn": "t0399",
+   "evidence": "on se fait ça un vendredi en fin de fin de semaine",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose un vendredi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "032b_EADH",
+   "turn": "t0405",
+   "evidence": "c'est pas une bonne idée le vendredi parce_que du_coup les parents ils vont te dire",
+   "type": "risk",
+   "status": "active",
+   "statement": "Valentine : le vendredi, les parents risquent de partir en week-end.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "032b_EADH",
+   "turn": "t0413",
+   "evidence": "le faire un lundi ou un mardi comme ça ils en reparlent avec leur prof le lendemain",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose un lundi ou un mardi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "032b_EADH",
+   "turn": "t0431",
+   "evidence": "on peut faire ça le jeudi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose le jeudi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "032b_EADH",
+   "turn": "t0444",
+   "evidence": "parce_que c'est la période des résolutions",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose le début d'année, période des résolutions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« début de l' SPEAKER_2 » : anonymisation fautive de « année » probablement."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "032b_EADH",
+   "turn": "t0461",
+   "evidence": "juste après les vacances de noël un jeudi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date approximative retenue : un jeudi juste après les vacances de Noël.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Validé par Minan en t0462."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "032b_EADH",
+   "turn": "t0469",
+   "evidence": "deux invités à coût moyen ou un invité à coût élevé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Contrainte : trois invités à bas coût, deux à coût moyen ou un à coût élevé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Première option en t0466."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "032b_EADH",
+   "turn": "t0474",
+   "evidence": "je pense que c'est plus des témoignages",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan préfère des témoignages et des spécialistes à une personnalité connue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "032b_EADH",
+   "turn": "t0501",
+   "evidence": "ce sera ce sera une victime erika",
+   "type": "decision",
+   "status": "active",
+   "statement": "Premier invité : Erika, victime de cyberharcèlement.",
+   "owner": null,
+   "mentioned_people": [
+    "erika"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Détails personnels sur la victime non annotés."
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "032b_EADH",
+   "turn": "t0513",
+   "evidence": "du_coup le coût c'est un coût bas",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les invités relèvent de la catégorie à bas coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "032b_EADH",
+   "turn": "t0524",
+   "evidence": "donc médecin neurologue ouais très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deuxième invité : un médecin neurologue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "032b_EADH",
+   "turn": "t0564",
+   "evidence": "d'accord docteur briant très bien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Troisième invité : le docteur Briant, psychologue.",
+   "owner": null,
+   "mentioned_people": [
+    "briant"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Orthographe du nom incertaine (blian / briant)."
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "032b_EADH",
+   "turn": "t0575",
+   "evidence": "c'était nous qui allons faire la sensibilisation sur la pollution",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'équipe assurera elle-même la sensibilisation sur la pollution.",
+   "owner": "084 + 085 + 086 + 087",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« nous » = l'équipe entière."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0007",
+   "evidence": "la rentrée ça va être le trois décembre le trois janvier",
+   "type": "fact",
+   "status": "active",
+   "statement": "La rentrée après Noël est le 3 janvier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "ASR : « trois décembre » corrigé en « trois janvier »."
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0010",
+   "evidence": "je pense que le sept c'est peut-être un peu tôt",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le 7 janvier serait trop tôt pour tout organiser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0017",
+   "evidence": "sinon on a on a le treize on a dit un jeudi oui",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine propose le jeudi 13.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0024",
+   "evidence": "ça nous laisse moins de deux mois pour préparer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le 13 laisse moins de deux mois de préparation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0034",
+   "evidence": "donc le jeudi treize janvier deux_mille_vingt_deux ok",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date définitive : jeudi 13 janvier 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0047",
+   "evidence": "je pense que lyon on peut prendre une salle de conf",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose une salle de conférence (Lyon).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ville incertaine (ASR ; « aix » en t0190)."
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0052",
+   "evidence": "moi je pense une genre de salle des fêtes que tu découpes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Valentine propose une salle des fêtes découpée en espaces.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0059",
+   "evidence": "une très grande salle de spectacle genre un prisme",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose une très grande salle de spectacle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0067",
+   "evidence": "il n' y a pas d' interaction si tu fais un groupe de trois_cent",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un groupe de trois cents empêche l'interaction.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0070",
+   "evidence": "un gros groupe de trois_cent mais avec plusieurs stands où ils peuvent passer par petits groupes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose 300 participants avec des stands par petits groupes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0087",
+   "evidence": "faire passer les intervenants le matin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose les intervenants le matin et des activités l'après-midi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0105",
+   "evidence": "c'est trop long une matinée entière",
+   "type": "risk",
+   "status": "active",
+   "statement": "Valentine juge une matinée entière de conférences trop longue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0139",
+   "evidence": "des gros groupes devant les intervenants qui poseront pas de questions",
+   "type": "risk",
+   "status": "active",
+   "statement": "En grand groupe, les élèves n'oseront pas poser de questions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0172",
+   "evidence": "moi je suis ok on fait tout en une fois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les interventions se font en une seule session pour tous.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suit la proposition de Minan (t0165)."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0173",
+   "evidence": "dix classes de troisième",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose dix classes de troisième (environ 300 personnes).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0186",
+   "evidence": "tu pars sur un seul collège 4ème 3ème ça te fait une dizaine de classes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ylias propose les 4e et 3e d'un seul collège.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0188",
+   "evidence": "il faut démarcher les écoles",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche : démarcher les écoles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0212",
+   "evidence": "il faut prévoir au_moins de l' eau et des petits goûters",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche nourriture : prévoir de l'eau et des goûters.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0223",
+   "evidence": "contacter les intervenants",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche : contacter les intervenants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0228",
+   "evidence": "il faudrait peut-être avoir une infirmière sur place",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose une infirmière sur place (tâche sécurité et assistance).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0252",
+   "evidence": "démarcher au niveau des subventions voir s'il n' y a pas le conseil_régional",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose de chercher des subventions (conseil régional).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0260",
+   "evidence": "pourquoi pas leur remettre un petit livret",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose de remettre un livret récapitulatif en fin de journée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0310",
+   "evidence": "on recrute des bénévoles pour pour gérer les jeux",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche : recruter des bénévoles pour gérer les jeux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0312",
+   "evidence": "je mettrais genre un gamin dans la place d' un enfant qui est harcelé",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Anne propose une mise en situation d'un enfant harcelé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0325",
+   "evidence": "non mais là ça peut être dangereux tu dois encadrer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Ylias : cette mise en situation peut être dangereuse sans encadrement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0337",
+   "evidence": "tu peux faire un quiz un quiz avec est-ce_que vous pensez que ça c'est du harcèlement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Minan propose plutôt un quiz « est-ce du harcèlement ? ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0437",
+   "evidence": "tâche démarche école anne",
+   "type": "decision",
+   "status": "active",
+   "statement": "Anne est chargée des démarches auprès des écoles.",
+   "owner": "086",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0437",
+   "evidence": "anne nourriture minan",
+   "type": "decision",
+   "status": "active",
+   "statement": "Minan est chargé de la nourriture.",
+   "owner": "084",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0442",
+   "evidence": "contact intervenant ilias",
+   "type": "decision",
+   "status": "active",
+   "statement": "Ilias est chargé de contacter les intervenants.",
+   "owner": "085",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0442",
+   "evidence": "sécurité assistance valentin",
+   "type": "decision",
+   "status": "active",
+   "statement": "Valentine est chargée de la sécurité et de l'assistance.",
+   "owner": "087",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0442",
+   "evidence": "démarche administrative anne",
+   "type": "decision",
+   "status": "active",
+   "statement": "Anne est chargée des démarches administratives (salle).",
+   "owner": "086",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0442",
+   "evidence": "plaquette résumé anne",
+   "type": "decision",
+   "status": "active",
+   "statement": "Anne est chargée de la plaquette résumé.",
+   "owner": "086",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0442",
+   "evidence": "ça va pas subvention minan",
+   "type": "decision",
+   "status": "active",
+   "statement": "Minan est chargé des subventions.",
+   "owner": "084",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0443",
+   "evidence": "organisation salle ilias",
+   "type": "decision",
+   "status": "active",
+   "statement": "Ilias est chargé de l'organisation de la salle et des jeux.",
+   "owner": "085",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0443",
+   "evidence": "régie valentin et bénévole minan",
+   "type": "decision",
+   "status": "active",
+   "statement": "Valentine gère la régie et Minan les bénévoles.",
+   "owner": "087 + 084",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Deux tâches dans le même extrait."
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0460",
+   "evidence": "je fais ça tout direct en sortant entre midi et deux je vais appeler vite fait mes contacts",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Anne lance les démarches dès aujourd'hui entre midi et deux.",
+   "owner": "086",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0464",
+   "evidence": "je vais envoyer mes mails demain",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Ilias enverra ses mails aux intervenants demain.",
+   "owner": "085",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0525",
+   "evidence": "début janvier début janvier début janvier début janvier c'est bon c'est fait",
+   "type": "decision",
+   "status": "active",
+   "statement": "Anne fixe d'abord le début janvier pour la plaquette.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0526",
+   "evidence": "le temps qu' ils soient faits les livres qu' ils arrivent",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le délai d'impression rend début janvier trop tardif pour la plaquette.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "032c_EAPH",
+   "turn": "t0534",
+   "evidence": "euh début décembre allez",
+   "type": "decision",
+   "status": "active",
+   "statement": "La plaquette est finalement lancée début décembre.",
+   "owner": "086",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-04",
+   "to": "a-08",
+   "relation": "supports",
+   "justification": "Même affirmation : l'association fait de la prévention."
+  },
+  {
+   "from": "b-21",
+   "to": "a-22",
+   "relation": "supports",
+   "justification": "Le thème téléphone proposé par Anne est adopté."
+  },
+  {
+   "from": "b-21",
+   "to": "a-10",
+   "relation": "supersedes",
+   "justification": "Le choix du téléphone tranche la question du thème contre Amazon."
+  },
+  {
+   "from": "b-21",
+   "to": "a-14",
+   "relation": "supersedes",
+   "justification": "Le choix du téléphone tranche contre la transition numérique."
+  },
+  {
+   "from": "b-21",
+   "to": "a-05",
+   "relation": "supersedes",
+   "justification": "Le choix du téléphone tranche contre le thème réseaux sociaux."
+  },
+  {
+   "from": "b-22",
+   "to": "b-21",
+   "relation": "supports",
+   "justification": "Accord unanime sur le téléphone."
+  },
+  {
+   "from": "a-07",
+   "to": "a-06",
+   "relation": "contradicts",
+   "justification": "Durée par personne : cinq minutes puis trois-quatre minutes, sans mise à jour actée."
+  },
+  {
+   "from": "a-19",
+   "to": "a-18",
+   "relation": "answers",
+   "justification": "Réponse de Valentine sur l'avenir de la transition."
+  },
+  {
+   "from": "a-27",
+   "to": "a-26",
+   "relation": "answers",
+   "justification": "Réponse d'Anne sur les moyens existants."
+  },
+  {
+   "from": "a-29",
+   "to": "a-28",
+   "relation": "answers",
+   "justification": "Réponse d'Anne sur l'impact environnemental."
+  },
+  {
+   "from": "a-32",
+   "to": "a-31",
+   "relation": "supports",
+   "justification": "Le cobalt illustre l'extraction minière des composants."
+  },
+  {
+   "from": "a-36",
+   "to": "a-35",
+   "relation": "supports",
+   "justification": "Même risque : commerces de proximité."
+  },
+  {
+   "from": "b-14",
+   "to": "b-13",
+   "relation": "answers",
+   "justification": "Anne rappelle les problématiques du téléphone."
+  },
+  {
+   "from": "b-10",
+   "to": "b-09",
+   "relation": "supersedes",
+   "justification": "Correction explicite : la durée est au choix, admise par Minan."
+  },
+  {
+   "from": "b-33",
+   "to": "b-26",
+   "relation": "supersedes",
+   "justification": "Le jeudi tranche la question du jour contre le mercredi."
+  },
+  {
+   "from": "b-33",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "Le jeudi tranche contre le vendredi."
+  },
+  {
+   "from": "b-33",
+   "to": "b-23",
+   "relation": "supersedes",
+   "justification": "Un jeudi en semaine tranche contre le week-end."
+  },
+  {
+   "from": "b-33",
+   "to": "b-30",
+   "relation": "supersedes",
+   "justification": "Le jeudi tranche contre lundi ou mardi."
+  },
+  {
+   "from": "b-33",
+   "to": "b-31",
+   "relation": "supports",
+   "justification": "La proposition du jeudi est retenue."
+  },
+  {
+   "from": "b-33",
+   "to": "b-32",
+   "relation": "supports",
+   "justification": "La période début d'année (après Noël) est retenue."
+  },
+  {
+   "from": "b-36",
+   "to": "b-18",
+   "relation": "supports",
+   "justification": "L'idée d'une victime de harcèlement est retenue."
+  },
+  {
+   "from": "b-38",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Le neurologue proposé est retenu."
+  },
+  {
+   "from": "c-05",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "La date précise (jeudi 13 janvier) concrétise la période retenue."
+  },
+  {
+   "from": "c-05",
+   "to": "c-03",
+   "relation": "supports",
+   "justification": "La proposition du 13 est actée."
+  },
+  {
+   "from": "c-29",
+   "to": "c-19",
+   "relation": "supports",
+   "justification": "La tâche contacter les intervenants est attribuée à Ilias."
+  },
+  {
+   "from": "c-27",
+   "to": "c-17",
+   "relation": "supports",
+   "justification": "La tâche démarcher les écoles est attribuée à Anne."
+  },
+  {
+   "from": "c-33",
+   "to": "c-21",
+   "relation": "supports",
+   "justification": "L'idée des subventions devient une tâche de Minan."
+  },
+  {
+   "from": "c-32",
+   "to": "c-22",
+   "relation": "supports",
+   "justification": "Le livret devient la plaquette résumé d'Anne."
+  },
+  {
+   "from": "c-35",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Les bénévoles sont attribués à Minan."
+  },
+  {
+   "from": "c-37",
+   "to": "c-29",
+   "relation": "supports",
+   "justification": "Ilias précise quand il contacte les intervenants."
+  },
+  {
+   "from": "c-36",
+   "to": "c-27",
+   "relation": "supports",
+   "justification": "Anne précise quand elle fait les démarches."
+  },
+  {
+   "from": "c-40",
+   "to": "c-38",
+   "relation": "supersedes",
+   "justification": "Début décembre remplace début janvier pour la plaquette (délai d'impression)."
+  },
+  {
+   "from": "c-39",
+   "to": "c-38",
+   "relation": "contradicts",
+   "justification": "Le délai d'impression rend début janvier intenable."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "032a_EARH",
+   "text": "Le thème Amazon défendu par Ylias a-t-il été gardé pour l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-21": 2,
+    "b-03": 1,
+    "a-10": 1,
+    "a-37": 1,
+    "b-06": 1,
+    "b-05": 0,
+    "a-34": 0
+   },
+   "traps": [
+    {
+     "unit": "b-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-34",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "032a_EARH",
+   "text": "Combien de temps l'équipe avait-elle au total pour choisir le thème au tour de table ?",
+   "answerable": true,
+   "qrels": {
+    "a-02": 2,
+    "a-06": 0,
+    "a-07": 0
+   },
+   "traps": [
+    {
+     "unit": "a-06",
+     "trap": "amount"
+    },
+    {
+     "unit": "a-07",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "032a_EARH",
+   "text": "Quels effets des téléphones sur l'environnement ont été cités lors du tour de table ?",
+   "answerable": true,
+   "qrels": {
+    "a-29": 2,
+    "a-30": 2,
+    "a-31": 2,
+    "a-32": 1,
+    "a-28": 1,
+    "a-12": 0,
+    "b-40": 0
+   },
+   "traps": [
+    {
+     "unit": "a-12",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-40",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "032a_EARH",
+   "text": "Quel reproche Valentine fait-elle à la domotique ?",
+   "answerable": true,
+   "qrels": {
+    "a-16": 2,
+    "a-15": 0
+   },
+   "traps": [
+    {
+     "unit": "a-15",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "032a_EARH",
+   "text": "Qui note ce qui se dit pendant la présentation des quatre thèmes ?",
+   "answerable": true,
+   "qrels": {
+    "a-38": 2,
+    "a-39": 1,
+    "a-03": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "032a_EARH",
+   "text": "Pourquoi Anne pense-t-elle que les outils de limitation sur smartphone ne suffisent pas ?",
+   "answerable": true,
+   "qrels": {
+    "a-24": 2,
+    "a-27": 2,
+    "a-26": 1,
+    "a-25": 0
+   },
+   "traps": [
+    {
+     "unit": "a-25",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "032a_EARH",
+   "text": "Ylias pense-t-il sincèrement du bien d'Amazon ?",
+   "answerable": true,
+   "qrels": {
+    "a-37": 2,
+    "a-10": 0,
+    "a-34": 0
+   },
+   "traps": [
+    {
+     "unit": "a-10",
+     "trap": "negation"
+    },
+    {
+     "unit": "a-34",
+     "trap": "negation"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "032a_EARH",
+   "text": "Quel budget total l'association a-t-elle prévu pour l'événement ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "032b_EADH",
+   "text": "Sur quel thème porte finalement l'événement de prévention ?",
+   "answerable": true,
+   "qrels": {
+    "b-21": 2,
+    "b-22": 1,
+    "a-22": 1,
+    "b-12": 1,
+    "a-05": 0,
+    "a-14": 0,
+    "b-17": 0
+   },
+   "traps": [
+    {
+     "unit": "a-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-14",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-17",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "032b_EADH",
+   "text": "Quel jour et à quelle période l'événement doit-il avoir lieu ?",
+   "answerable": true,
+   "qrels": {
+    "b-33": 2,
+    "c-05": 2,
+    "b-31": 1,
+    "b-32": 1,
+    "c-03": 1,
+    "b-26": 0,
+    "b-28": 0,
+    "b-23": 0,
+    "b-30": 0
+   },
+   "traps": [
+    {
+     "unit": "b-26",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-23",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-30",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "032b_EADH",
+   "text": "Après avoir choisi une période approximative, quelle date exacte a ensuite été arrêtée ?",
+   "answerable": true,
+   "qrels": {
+    "c-05": 2,
+    "b-33": 1,
+    "c-03": 1,
+    "c-01": 1,
+    "c-02": 0
+   },
+   "traps": [
+    {
+     "unit": "c-02",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "032b_EADH",
+   "text": "Pourquoi le mercredi n'a-t-il pas été retenu ?",
+   "answerable": true,
+   "qrels": {
+    "b-27": 2,
+    "b-26": 0,
+    "b-29": 0
+   },
+   "traps": [
+    {
+     "unit": "b-26",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "032b_EADH",
+   "text": "Quels intervenants ont été choisis pour l'événement sur le téléphone ?",
+   "answerable": true,
+   "qrels": {
+    "b-36": 2,
+    "b-38": 2,
+    "b-39": 2,
+    "b-20": 1,
+    "b-18": 1,
+    "b-35": 1,
+    "b-34": 0,
+    "c-29": 0
+   },
+   "traps": [
+    {
+     "unit": "b-34",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "032b_EADH",
+   "text": "Qui assure la partie sur la pollution pendant l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-40": 2,
+    "b-16": 0,
+    "a-29": 0
+   },
+   "traps": [
+    {
+     "unit": "b-16",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-29",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "032b_EADH",
+   "text": "Qui doit prendre contact avec les invités retenus et quand ?",
+   "answerable": true,
+   "qrels": {
+    "c-29": 2,
+    "c-37": 2,
+    "c-19": 1,
+    "c-27": 0,
+    "c-36": 0
+   },
+   "traps": [
+    {
+     "unit": "c-27",
+     "trap": "person"
+    },
+    {
+     "unit": "c-36",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "032b_EADH",
+   "text": "Quel prix d'entrée sera demandé aux familles ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "084": "minan",
+  "085": "ilias / elias / ylias",
+  "086": "anne",
+  "087": "valentine (incertain)"
+ },
+ "notes": "Réunion c en ASR (dates et lieux bruités : « trois décembre » pour janvier, Lyon/Aix). Réunion b anonymisée avec SPEAKER_n (SPEAKER_0 = minan, SPEAKER_3 = valentine probablement). Statut au moment de la source ; remplacements portés par supersedes. Attributions de tâches (c-27 à c-35) découpées depuis le récapitulatif t0437-t0443. Données personnelles (famille, santé, détails sur la victime, numéro évoqué en plaisantant) non annotées."
+}
