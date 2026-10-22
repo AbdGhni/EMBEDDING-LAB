@@ -66,8 +66,9 @@ def embed(model, texts: list[str], device: str):
     """Plongements normalisés **avec gradient** : forme (len(texts), dim)."""
     import torch.nn.functional as F
 
-    feats = model.tokenize(texts)
-    feats = {k: v.to(device) for k, v in feats.items()}
+    prep = getattr(model, "preprocess", None) or model.tokenize  # API sentence-transformers 6
+    feats = prep(texts)
+    feats = {k: v.to(device) for k, v in feats.items() if hasattr(v, "to")}
     return F.normalize(model(feats)["sentence_embedding"], p=2, dim=-1)
 
 
