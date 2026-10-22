@@ -1,0 +1,1888 @@
+{
+ "group_id": "077",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0002",
+   "evidence": "espèce de reporting euh on a axil julien et kaigen",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion est un reporting où chacun présente le genre qu'il défend pour le festival.",
+   "owner": null,
+   "mentioned_people": [
+    "axil",
+    "julien",
+    "kaigen"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0009",
+   "evidence": "j' ai choisi comme thème l' univers de super héros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Axil propose le thème des super-héros pour le festival de cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0011",
+   "evidence": "ça touche un grand audience c'est flashy c'est beau ça attire l' attention",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Argument d'Axil : les super-héros touchent un large public et attirent l'attention.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Opinion argumentative, statut unknown."
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0020",
+   "evidence": "moi je vous propose tout ça mais dans la réalité les documentaires",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le locuteur 182 propose le genre documentaire (nature, espace) pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0036",
+   "evidence": "je ne vois pas en quoi ça pourrait être pertinent pour un festival de parler de les documentaires",
+   "type": "risk",
+   "status": "open",
+   "statement": "Objection : les documentaires seraient peu pertinents pour un festival de cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0042",
+   "evidence": "c'est tout public ça attire toujours citez -moi un seul enfant qui n' a jamais aimé les animaux",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Argument : les documentaires sont tout public, les enfants aiment les animaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0049",
+   "evidence": "je vais parler du genre aventure",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le locuteur 181 présente le genre aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0051",
+   "evidence": "les aventuriers de l' arche perdue que je connais bien",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemple de film d'aventure cité : Les Aventuriers de l'arche perdue (film de 1980).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0063",
+   "evidence": "est-ce que tu as des films que tu peux par_exemple recommander",
+   "type": "question",
+   "status": "resolved",
+   "statement": "La présidente demande des films d'aventure à recommander.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0082",
+   "evidence": "c'est fantasy mais ça peut être aussi aventure y a les genres et les sous genres",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Débat : Harry Potter relève de la fantasy mais peut aussi compter comme aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0111",
+   "evidence": "l' horreur slash suspense c'est un genre qui m' intéresse beaucoup",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Yasmine défend le genre horreur/suspense (films apocalyptiques, zombies).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0113",
+   "evidence": "train to busan mais le deuxième il n' était pas aussi grand",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Yasmine cite Train to Busan ; la suite serait moins bonne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0138",
+   "evidence": "en_fait ça aide à être préparé",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Argument : les films d'horreur aident à se préparer à une éventuelle apocalypse.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0151",
+   "evidence": "est-ce_que vous aurez d'autres oeuvres du genre horreur à nous proposer",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Axil demande d'autres œuvres d'horreur à proposer.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0159",
+   "evidence": "attends ghost hunters ouh ce film ghost hunters",
+   "type": "answer",
+   "status": "active",
+   "statement": "Yasmine propose le film Ghost Hunters (investigateurs du paranormal dans un asile).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0179",
+   "evidence": "on est censé attirer des gens dans un festival pas les faire fuir avec des horreurs",
+   "type": "risk",
+   "status": "open",
+   "statement": "Risque : les films d'horreur feraient fuir le public du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0181",
+   "evidence": "mais ça les attire les gens cherchent le frisson",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Contre-argument : le public recherche le frisson, comme dans les parcs d'attractions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0184",
+   "evidence": "les maisons hantées à quatre_cent_cinquante euros sur disneyland",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Mention des maisons hantées de Disneyland à 450 euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quatre_cent_cinquante euros",
+   "assertion": "extracted",
+   "notes": "Chiffre lancé dans le débat, non vérifié ; sans lien avec le budget du festival."
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0196",
+   "evidence": "fantastic funghi par_exemple ça parle des champignons",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemple de documentaire proposé : Fantastic Fungi, sur les champignons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0202",
+   "evidence": "ce n' est pas un festival de jeux vidéal mais bel_et_bien un festival de cinéma",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : il s'agit d'un festival de cinéma, pas de jeux vidéo.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0206",
+   "evidence": "pour un festival de cinéma s' éduquer n' est pas vraiment notre priorité primaire",
+   "type": "risk",
+   "status": "open",
+   "statement": "Objection d'Axil : l'éducation n'est pas la priorité d'un festival de cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Typé risk : objection au choix des documentaires."
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "077a_EBRH",
+   "turn": "t0222",
+   "evidence": "c'est des choses vraies ils aiment apprendre",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Argument du locuteur 181 : le public aime les documentaires parce qu'ils montrent des choses vraies.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0000",
+   "evidence": "pour principalement choisir nos deux thèmes pour notre cinéma ainsi_que pour choisir en l' occurrence l' endroit et le concept",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la réunion : choisir deux thèmes, le lieu et le concept du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0003",
+   "evidence": "ça ferait trop d' informations d' un coup si on en pensait deux à la suite",
+   "type": "risk",
+   "status": "open",
+   "statement": "Risque : deux documentaires d'affilée feraient trop d'informations.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0003",
+   "evidence": "je vous propose donc de passer un seul documentaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de ne passer qu'un seul documentaire, en intermède entre d'autres films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0006",
+   "evidence": "niveau super héros on pourrait prendre une trilogie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'une trilogie de super-héros (ex. Avengers).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "L'exemple Avengers est au tour t0007."
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0017",
+   "evidence": "ensuite le reste on le bourre de films d' horreur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de compléter la sélection avec des films d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0021",
+   "evidence": "nous ne devons que choisir deux genres",
+   "type": "fact",
+   "status": "active",
+   "statement": "Contrainte rappelée : seulement deux genres doivent être retenus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0025",
+   "evidence": "c'est une sélection de dix films sur les deux genres",
+   "type": "fact",
+   "status": "active",
+   "statement": "La sélection comprend dix films répartis sur les deux genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0029",
+   "evidence": "le cinéma artistique c'est ça mais il n' a pas pas beaucoup de place",
+   "type": "risk",
+   "status": "open",
+   "statement": "Le cinéma artistique a peu de places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0031",
+   "evidence": "le drive by pourrait être intéressant au niveau place",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le drive-in serait intéressant en termes de places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0031",
+   "evidence": "ce qui m' inquiète surtout c'est au niveau de la pollution de l' air",
+   "type": "risk",
+   "status": "open",
+   "statement": "Inquiétude sur la pollution de l'air (voitures) avec un drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0045",
+   "evidence": "si on prenait un cinéma classique à cent_cinquante places y avait un manque d' originalité",
+   "type": "fact",
+   "status": "active",
+   "statement": "D'après les explications reçues, un cinéma classique de 150 places manquerait d'originalité.",
+   "owner": null,
+   "mentioned_people": [
+    "elle"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« elle » désigne une personne extérieure qui a expliqué les options."
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0054",
+   "evidence": "pour le drive by je suis très intéressé si on diffuse des documentaires",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Le locuteur 181 soutient le drive-in si l'on diffuse des documentaires.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0058",
+   "evidence": "comme les personnages personnages d' un des films d' horreur qui peuvent sortir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de Yasmine : des acteurs déguisés en personnages d'horreur qui surgissent pendant la séance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0067",
+   "evidence": "si nous choisissons la troisième formule donc en l' occurrence une exposition de cinéma",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Alternative : une exposition de cinéma, peu de places mais plus d'interactions.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0077",
+   "evidence": "on pourrait prendre un drive by assez entouré de forêt un peu dans la campagne loin de la ville",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée d'un drive-in entouré de forêt, à la campagne, loin de la ville, phares éteints.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0090",
+   "evidence": "comme thème on reste bloqué du_coup sur documentaire et horreur",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : les deux thèmes retenus sont le documentaire et l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord exprimé par 181 au tour t0092 (« oui bon ça me va »)."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0093",
+   "evidence": "et du_coup on est un peu plus penché vers le drive",
+   "type": "decision",
+   "status": "active",
+   "statement": "Orientation retenue : le festival se fera plutôt en drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Décision provisoire : « le choix pourra être changé plus tard » (t0095)."
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0109",
+   "evidence": "ce sera juste un ou deux pas plus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Il n'y aura qu'un ou deux documentaires au maximum.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0120",
+   "evidence": "pourrait commencer sur ben justement les deux documentaires pour relaxer",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Programme proposé : commencer par les deux documentaires pour détendre, puis les films d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0122",
+   "evidence": "risque de faire fuir des clients potentiels en mettant des documents d'abord",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question d'Axil : commencer par les documentaires risque-t-il de faire fuir des clients ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0123",
+   "evidence": "on est obligé de prévenir en_fait ce qu' on va passer c'est selon la loi",
+   "type": "answer",
+   "status": "active",
+   "statement": "Réponse : on doit légalement informer le public du programme avant l'achat.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0147",
+   "evidence": "nous reste encore deux trois mois avant le début du festival",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il reste deux ou trois mois avant le début du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0163",
+   "evidence": "les sondages dans les magazines pixoo magazine voilà on fait ça sur une période de un mois",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de sondages dans des magazines (Picsou Magazine) pendant un mois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0168",
+   "evidence": "vingt_cinq cinquante ans ça me fait une bonne tranche d' âge",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Cible proposée : les 25-50 ans (parents).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0177",
+   "evidence": "le mieux c'est de ne_pas faire de sondage et d' aller sur des réseaux sociaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Contre-proposition d'Axil : pas de sondage, mais une veille sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0181",
+   "evidence": "pourrais m' en occuper à la limite",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Le locuteur 182 se dit prêt à s'occuper de la veille informationnelle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Engagement hésitant (« à la limite »), sans confirmation : owner null."
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0185",
+   "evidence": "deux billets achetés ingratuits",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de Yasmine : offrir des billets (deux achetés, un gratuit) si la fréquentation est faible.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR approximative."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0186",
+   "evidence": "ça pourrait dévaloriser nos billets",
+   "type": "risk",
+   "status": "open",
+   "statement": "Risque : des billets gratuits dévaloriseraient les billets.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0190",
+   "evidence": "quatre_cent_vingt_cinq billets pile ça nous permet de bien prévoir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de limiter la vente à 425 billets pour prévoir services et parking et créer de la rareté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0211",
+   "evidence": "j' suis pas sûr que faire de la valeur ajoutée sur des tickets où on part presque de rien",
+   "type": "risk",
+   "status": "open",
+   "statement": "Doute de 181 : jouer sur la rareté des billets n'aidera pas un festival sans notoriété.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0212",
+   "evidence": "un partenariat avec un restaurant ou un snack",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de 181 : un partenariat avec un restaurant ou un snack.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jugée « bonne idée » par 182 (t0213)."
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0215",
+   "evidence": "foodtruck genre de choses",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Variante : des food trucks.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0219",
+   "evidence": "peut-être leur proposer de faire des menus à thème",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposer aux partenaires des menus à thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0223",
+   "evidence": "tu as une réduction de vingt pourcents",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Un menu à thème acheté donnerait 20 % de réduction sur la séance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "vingt pourcents",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0229",
+   "evidence": "niveau documentaire j' en proposerai deux le premier évidemment c'est fantastic fungi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Deux documentaires proposés, le premier étant Fantastic Fungi.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0231",
+   "evidence": "le deuxième ce serait notre planète",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Deuxième documentaire proposé : Notre planète (épisode « Une seule planète »).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0242",
+   "evidence": "euh je connais shutter island",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Yasmine propose Shutter Island parmi les films d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0266",
+   "evidence": "la version originale de l' exorciste",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition : la version originale de L'Exorciste.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvée par 183 (t0269), avec The Ring."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0287",
+   "evidence": "on pourrait passer du_coup coup deux documents mentaires ensuite shutter rhyme pour une transition",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ordre de passage : deux documentaires, Shutter Island en transition, un classique, puis une comédie horrifique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "077b_EBDH",
+   "turn": "t0311",
+   "evidence": "un dernier train pour busan",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition d'un film apocalyptique : Dernier train pour Busan.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0007",
+   "evidence": "on pourrait euh faire d'ici un an puisqu on est déjà en octobre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Yasmine propose d'organiser le festival dans un an, l'équipe étant déjà en octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0009",
+   "evidence": "ça tomberait parfaitement avec euh halloween",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La date tomberait avec Halloween, cohérent avec le thème horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0015",
+   "evidence": "on peut s' organiser oui oui on aura une grosse marge quand même",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'échéance d'un an est acceptée : l'équipe aura une grosse marge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord implicite, confirmé en t0016 (« un an et quelques ouais »)."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0019",
+   "evidence": "on pourrait faire vingt_cinq pourcents de notre publicité sur le web",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée marketing d'Axil : 25 % de la publicité sur le web (et 25 % d'affiches dans les gares en hiver).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0021",
+   "evidence": "il faudrait essayer de contacter des partenaires notamment des agences de com",
+   "type": "action",
+   "status": "open",
+   "statement": "L'équipe étant une association, il faut contacter des partenaires, notamment des agences de communication.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0023",
+   "evidence": "la julien peugeot entreprise c'est celle là",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Agence de communication citée par 181 : l'entreprise Julien Peugeot.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0025",
+   "evidence": "il_y a aussi la evian matching industries qui pourrait",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Autre agence citée par Axil : Evian Matching Industries, qui pourrait accorder un petit budget.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0032",
+   "evidence": "donner cette tâche à un stagiaire et lui demander en_fait d appeler les deux compagnies",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Confier à un stagiaire l'appel des deux agences pour comparer leurs offres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0034",
+   "evidence": "je propose de laisser ça à jean-christophe",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Axil propose de confier la communication au stagiaire Jean-Christophe.",
+   "owner": null,
+   "mentioned_people": [
+    "jean-christophe"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0050",
+   "evidence": "peut-être s' y mettre dès aujourd'hui du_coup pour commencer à faire la pub",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de commencer la publicité dès aujourd'hui.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0059",
+   "evidence": "post octobre peut-être commencer à_partir_du douze novembre",
+   "type": "decision",
+   "status": "active",
+   "statement": "La campagne de communication commencera à partir du 12 novembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acceptée par 183 (« plausible ») au tour t0060."
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0063",
+   "evidence": "on laisse ça à euh tu as dit jean-christophe",
+   "type": "decision",
+   "status": "active",
+   "statement": "La tâche de communication est confiée à Jean-Christophe.",
+   "owner": null,
+   "mentioned_people": [
+    "jean-christophe"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Jean-Christophe est absent et n'a pas accepté : owner null."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0072",
+   "evidence": "le drive-in ne sont plus vraiment utilisées depuis les années soixante_dix quatre-vingt",
+   "type": "risk",
+   "status": "open",
+   "statement": "Risque : les drive-in existants sont à l'abandon depuis les années 70-80, leur état n'est pas garanti.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0073",
+   "evidence": "il_y a un énorme parking dans le carrefour de villejuif",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Axil propose le grand parking du Carrefour de Villejuif.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0077",
+   "evidence": "ça respecte pas en_fait euh comment dire les objectifs quand on se fixe quelque_chose un peu dans la campagne",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le parking urbain ne respecte pas l'objectif d'un lieu à la campagne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0079",
+   "evidence": "soit faut se faire aider et on en_fait un après ça coûte pas si cher",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Alternative : construire soi-même le drive-in (structure métallique, toile blanche), peu coûteux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0090",
+   "evidence": "voir l emplacement et contacter les mairies locales en_fait pour demander si on a la permission",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche : repérer l'emplacement et demander l'autorisation aux mairies locales.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0092",
+   "evidence": "je peux m occuper de la négociation avec la mairie",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Axil s'engage à négocier avec la mairie.",
+   "owner": "183",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0106",
+   "evidence": "après il_y a aussi de la cervelle de d agneau c'est très bon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Proposition de servir de la cervelle d'agneau.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rejetée par 183 au tour t0107."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0111",
+   "evidence": "ben bon d'accord les steaks hachés en forme de cerveau",
+   "type": "decision",
+   "status": "active",
+   "statement": "Compromis retenu : des steaks hachés en forme de cerveau.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 183 au tour t0112 (« là vous parlez mon langage »)."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0132",
+   "evidence": "on veut atteindre une majorité du_coup à la pomme",
+   "type": "idea",
+   "status": "unknown",
+   "statement": "Pour la boisson, cidre à la pomme plutôt qu'à la poire pour plaire au plus grand nombre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ambigu : 183 revient ensuite vers la poire (t0142-t0144) ; aucun choix acté."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0150",
+   "evidence": "oh le le le trente-et-un février",
+   "type": "answer",
+   "status": "unknown",
+   "statement": "Réponse plaisante d'Axil : le 31 février (date inexistante).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Plaisanterie, corrigée en t0152."
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0155",
+   "evidence": "le trois février merci axil",
+   "type": "decision",
+   "status": "active",
+   "statement": "Échéance d'Axil fixée au 3 février.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ambigu : t0147 évoque partenaires et recettes, mais le récapitulatif t0403 rattache cette date au repérage et à la négociation avec les collectivités."
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0177",
+   "evidence": "demander à des emballages biodégradables",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Écologie : emballages papier ou biodégradables (et poubelles temporaires).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0186",
+   "evidence": "je me ferais un plaisir de te communiquer avec les partenaires",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Kigan s'engage à prendre contact avec les partenaires (restauration).",
+   "owner": "181",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0210",
+   "evidence": "le dix-huit octobre dix-huit octobre ça marche",
+   "type": "decision",
+   "status": "active",
+   "statement": "Échéance de Kigan pour le food truck : 18 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposée par 181 (« d'ici deux semaines », t0201)."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0228",
+   "evidence": "ben justement pas d éclairs la fumée",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ambiance : de la fumée (brouillard) plutôt que des éclairages.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0260",
+   "evidence": "yasmine et toi ce serait prise de contact avec les fournisseurs",
+   "type": "decision",
+   "status": "active",
+   "statement": "Yasmine est chargée du contact avec les fournisseurs : mise en place du drive-in, toile, ambiance, costumes.",
+   "owner": "184",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« et toi » ambigu ; Yasmine (184) accepte en t0290-t0292."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0293",
+   "evidence": "demain le cinq octobre euh cinq octobre deux_mille_vingt_deux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Yasmine commence le lendemain, le 5 octobre 2022.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0338",
+   "evidence": "organisation sécurité euh c'est moi qui m en occupe",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Le locuteur 182 prend en charge l'organisation de la sécurité.",
+   "owner": "182",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Date annoncée dans le même tour : 25 octobre."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0366",
+   "evidence": "obtenir les droits des films ce serait peut-être important",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche : obtenir les droits de diffusion des films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0376",
+   "evidence": "j' ai un ami extra extra associatif qui pourrait s en occuper",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Axil propose un ami extérieur à l'association, bon négociateur, pour les droits.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0387",
+   "evidence": "le neuf décembre il sera disponible",
+   "type": "answer",
+   "status": "active",
+   "statement": "L'ami serait disponible le 9 décembre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0388",
+   "evidence": "le deux décembre",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Le locuteur 182 note « deux décembre ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Probable erreur de saisie ; le récapitulatif dit neuf décembre."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0403",
+   "evidence": "contacté et comparé les agences de com c'est pour le douze novembre deux_mille_vingt_deux c'est pour jean-christophe",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : contacter et comparer les agences de com, pour le 12 novembre 2022, par Jean-Christophe.",
+   "owner": null,
+   "mentioned_people": [
+    "jean-christophe"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0403",
+   "evidence": "repérage localisation et négociation avec collectivité avec collectivité de la localité le trois février deux_mille_vingt_trois c'est axil",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : repérage et négociation avec la collectivité, 3 février 2023, Axil.",
+   "owner": "183",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0403",
+   "evidence": "prise de contact et planification foodtruck dix-huit octobre deux_mille_vingt_deux c'est kigan",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : contact et planification food truck, 18 octobre 2022, Kigan.",
+   "owner": "181",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0403",
+   "evidence": "communication et organisation de matériaux et ambiances mis en place pour le cinq octobre deux_mille_vingt_deux c'est yasmine",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : matériaux et ambiance, à partir du 5 octobre 2022, Yasmine.",
+   "owner": "184",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0403",
+   "evidence": "réalisation sécurité vingt_cinq octobre deux_mille_vingt_deux c'est pour moi",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : sécurité, 25 octobre 2022, le locuteur 182.",
+   "owner": "182",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "077c_EBPH",
+   "turn": "t0403",
+   "evidence": "obtention des droits de film neuf décembre deux_mille_vingt_deux joseph romaine valero",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : obtention des droits des films, 9 décembre 2022, Joseph Romaine Valero.",
+   "owner": null,
+   "mentioned_people": [
+    "joseph romaine valero"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Personne extérieure absente : owner null."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-15",
+   "to": "a-14",
+   "relation": "answers",
+   "justification": "Ghost Hunters est donné en réponse à la demande d'autres œuvres d'horreur."
+  },
+  {
+   "from": "a-17",
+   "to": "a-16",
+   "relation": "contradicts",
+   "justification": "Thèses opposées sur l'effet de l'horreur sur le public, sans tranchage dans la réunion."
+  },
+  {
+   "from": "a-19",
+   "to": "a-04",
+   "relation": "supports",
+   "justification": "Fantastic Fungi est un exemple à l'appui de la proposition documentaire."
+  },
+  {
+   "from": "b-16",
+   "to": "a-02",
+   "relation": "supersedes",
+   "justification": "Le choix des deux thèmes (documentaire, horreur) tranche la question du genre et écarte les super-héros."
+  },
+  {
+   "from": "b-16",
+   "to": "a-07",
+   "relation": "supersedes",
+   "justification": "Le choix des deux thèmes écarte le genre aventure proposé en réunion a."
+  },
+  {
+   "from": "b-16",
+   "to": "b-04",
+   "relation": "supersedes",
+   "justification": "La décision des deux genres écarte la trilogie de super-héros."
+  },
+  {
+   "from": "b-16",
+   "to": "a-04",
+   "relation": "supports",
+   "justification": "La décision retient le documentaire proposé en réunion a."
+  },
+  {
+   "from": "b-16",
+   "to": "a-11",
+   "relation": "supports",
+   "justification": "La décision retient l'horreur proposée en réunion a."
+  },
+  {
+   "from": "b-17",
+   "to": "b-14",
+   "relation": "supersedes",
+   "justification": "« plus penché vers le drive » tranche entre les formules de lieu et écarte l'exposition."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "answers",
+   "justification": "L'obligation d'informer le public répond à la crainte de faire fuir les clients."
+  },
+  {
+   "from": "b-25",
+   "to": "b-23",
+   "relation": "contradicts",
+   "justification": "« ne pas faire de sondage » s'oppose aux sondages en magazines ; rien n'est acté."
+  },
+  {
+   "from": "b-28",
+   "to": "b-27",
+   "relation": "contradicts",
+   "justification": "Objection directe : les billets gratuits dévaloriseraient les billets."
+  },
+  {
+   "from": "b-30",
+   "to": "b-29",
+   "relation": "contradicts",
+   "justification": "181 doute que la rareté des billets crée des ventes."
+  },
+  {
+   "from": "b-35",
+   "to": "b-03",
+   "relation": "supersedes",
+   "justification": "Nouvelle valeur : deux documentaires au lieu d'un seul."
+  },
+  {
+   "from": "b-39",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "L'ordre de passage confirme de commencer par les deux documentaires."
+  },
+  {
+   "from": "c-02",
+   "to": "c-01",
+   "relation": "supports",
+   "justification": "Halloween justifie l'échéance d'un an."
+  },
+  {
+   "from": "c-03",
+   "to": "c-01",
+   "relation": "supports",
+   "justification": "182 accepte l'échéance d'un an."
+  },
+  {
+   "from": "c-03",
+   "to": "b-22",
+   "relation": "supersedes",
+   "justification": "La réunion c fixe l'échéance à un an, remplaçant les deux-trois mois évoqués en réunion b."
+  },
+  {
+   "from": "c-04",
+   "to": "c-05",
+   "relation": "creates_action",
+   "justification": "« ça se tient … donc il faudrait contacter des partenaires » (t0021) : l'idée marketing donne lieu au contact des agences."
+  },
+  {
+   "from": "c-12",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "La décision reprend la proposition de confier la tâche à Jean-Christophe."
+  },
+  {
+   "from": "c-11",
+   "to": "c-10",
+   "relation": "supersedes",
+   "justification": "Après l'objection (« trop de pression »), le départ est fixé au 12 novembre au lieu d'aujourd'hui."
+  },
+  {
+   "from": "c-15",
+   "to": "b-15",
+   "relation": "supports",
+   "justification": "L'objectif d'un lieu à la campagne rappelle l'idée de drive-in en forêt de la réunion b."
+  },
+  {
+   "from": "c-15",
+   "to": "c-14",
+   "relation": "contradicts",
+   "justification": "Le parking de Villejuif ne respecte pas l'objectif campagne."
+  },
+  {
+   "from": "c-16",
+   "to": "c-14",
+   "relation": "supersedes",
+   "justification": "Construire son propre drive-in à la campagne remplace l'option du parking urbain écartée."
+  },
+  {
+   "from": "c-16",
+   "to": "c-17",
+   "relation": "creates_action",
+   "justification": "« là ça va faire deux tâches, la première … contacter les mairies » (t0089-t0090) découle de l'option de construction."
+  },
+  {
+   "from": "c-18",
+   "to": "c-17",
+   "relation": "supports",
+   "justification": "Axil prend en charge la négociation avec la mairie."
+  },
+  {
+   "from": "c-20",
+   "to": "c-19",
+   "relation": "supersedes",
+   "justification": "« bon d'accord les steaks hachés » remplace la cervelle d'agneau rejetée."
+  },
+  {
+   "from": "c-20",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Plat à thème horreur conforme aux menus à thème décidés en réunion b."
+  },
+  {
+   "from": "c-23",
+   "to": "c-22",
+   "relation": "supersedes",
+   "justification": "Date corrigée : le 3 février remplace le 31 février inexistant."
+  },
+  {
+   "from": "c-35",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit la date du 12 novembre."
+  },
+  {
+   "from": "c-35",
+   "to": "c-12",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit l'attribution à Jean-Christophe."
+  },
+  {
+   "from": "c-36",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Le récapitulatif attribue repérage et négociation à Axil."
+  },
+  {
+   "from": "c-36",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit le 3 février."
+  },
+  {
+   "from": "c-37",
+   "to": "c-26",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit le 18 octobre pour le food truck."
+  },
+  {
+   "from": "c-37",
+   "to": "c-25",
+   "relation": "supports",
+   "justification": "Le récapitulatif attribue le food truck à Kigan."
+  },
+  {
+   "from": "c-38",
+   "to": "c-28",
+   "relation": "supports",
+   "justification": "Le récapitulatif attribue matériaux et ambiance à Yasmine."
+  },
+  {
+   "from": "c-38",
+   "to": "c-29",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit le 5 octobre."
+  },
+  {
+   "from": "c-39",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "Le récapitulatif attribue la sécurité au locuteur 182."
+  },
+  {
+   "from": "c-40",
+   "to": "c-33",
+   "relation": "supports",
+   "justification": "Le récapitulatif redit le 9 décembre."
+  },
+  {
+   "from": "c-40",
+   "to": "c-34",
+   "relation": "supersedes",
+   "justification": "Le récapitulatif acte le 9 décembre, corrigeant le « deux décembre » noté."
+  },
+  {
+   "from": "c-40",
+   "to": "c-31",
+   "relation": "supports",
+   "justification": "Le récapitulatif reprend la tâche d'obtention des droits."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "077c_EBPH",
+   "text": "Qui prend en charge l'organisation de la sécurité du festival, et pour quelle échéance ?",
+   "answerable": true,
+   "qrels": {
+    "c-39": 2,
+    "c-30": 1,
+    "c-18": 0,
+    "c-25": 0,
+    "c-28": 0
+   },
+   "traps": [
+    {
+     "unit": "c-18",
+     "trap": "person"
+    },
+    {
+     "unit": "c-25",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "077c_EBPH",
+   "text": "À partir de quelle date le stagiaire doit-il lancer la campagne de communication ?",
+   "answerable": true,
+   "qrels": {
+    "c-11": 2,
+    "c-35": 2,
+    "c-10": 0,
+    "c-12": 0,
+    "c-09": 0,
+    "c-04": 0,
+    "c-05": 0
+   },
+   "traps": [
+    {
+     "unit": "c-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-12",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-04",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "077c_EBPH",
+   "text": "Pourquoi le grand parking de supermarché suggéré pour le drive-in n'a-t-il pas convenu ?",
+   "answerable": true,
+   "qrels": {
+    "c-15": 2,
+    "b-15": 1,
+    "c-14": 0,
+    "c-13": 0,
+    "c-16": 0,
+    "b-17": 0
+   },
+   "traps": [
+    {
+     "unit": "c-14",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-13",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "077c_EBPH",
+   "text": "Quel plat inspiré de l'horreur a finalement été accepté pour la restauration du festival ?",
+   "answerable": true,
+   "qrels": {
+    "c-20": 2,
+    "b-33": 1,
+    "c-19": 0,
+    "c-21": 0,
+    "b-32": 0
+   },
+   "traps": [
+    {
+     "unit": "c-19",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-21",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "077c_EBPH",
+   "text": "Pour quand la prise de contact avec les partenaires du food truck doit-elle être faite ?",
+   "answerable": true,
+   "qrels": {
+    "c-26": 2,
+    "c-37": 2,
+    "c-25": 1,
+    "c-29": 0,
+    "c-38": 0,
+    "c-23": 0,
+    "b-32": 0,
+    "b-31": 0
+   },
+   "traps": [
+    {
+     "unit": "c-29",
+     "trap": "date"
+    },
+    {
+     "unit": "c-38",
+     "trap": "date"
+    },
+    {
+     "unit": "c-23",
+     "trap": "date"
+    },
+    {
+     "unit": "b-31",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "077c_EBPH",
+   "text": "Combien de temps l'équipe se laisse-t-elle désormais avant l'ouverture du festival, comparé à ce qui avait été annoncé à la réunion précédente ?",
+   "answerable": true,
+   "qrels": {
+    "c-01": 2,
+    "c-03": 2,
+    "c-02": 1,
+    "b-22": 1,
+    "c-11": 0
+   },
+   "traps": [
+    {
+     "unit": "c-11",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "077c_EBPH",
+   "text": "Qui a accepté de négocier avec la commune l'autorisation d'utiliser le terrain ?",
+   "answerable": true,
+   "qrels": {
+    "c-18": 2,
+    "c-36": 2,
+    "c-17": 1,
+    "c-25": 0,
+    "c-28": 0,
+    "c-14": 0
+   },
+   "traps": [
+    {
+     "unit": "c-25",
+     "trap": "person"
+    },
+    {
+     "unit": "c-28",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "077c_EBPH",
+   "text": "Quel budget en euros a été prévu pour construire l'écran du drive-in ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "181": "kigan (incertain ; ASR : kegan, keegan, kingan, kylian)",
+  "182": "julien (incertain)",
+  "183": "axil",
+  "184": "yasmine (yasmin)"
+ },
+ "notes": "Réunions a et b en ASR très bruitées (débat-jeu de rôle). Identités : 183 et 184 épellent leur prénom en c ; 181/182 déduits des adresses (« monsieur julien », « kigan ce sera bouf »). Cas ambigus : date du 3 février (t0147 parle recettes, le récapitulatif dit repérage) ; cidre pomme/poire non tranché ; « deux décembre » noté contre « neuf décembre » au récapitulatif ; décision drive-in de b provisoire. Non annotés volontairement : passages sur la santé, la fertilité, une fausse couche, des décès familiaux, l'âge de l'enfant d'un participant et des remarques sur les origines (sans intérêt pour la tâche)."
+}
