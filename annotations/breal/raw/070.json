@@ -1,0 +1,1979 @@
+{
+  "group_id": "070",
+  "units": [
+    {
+      "key": "a-01",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0001",
+      "evidence": "on doit organiser un festival de films je pense qu on est tous d'accord là-dessus qui va avoir lieu d'ici un mois",
+      "type": "fact",
+      "status": "active",
+      "statement": "L'équipe doit organiser un festival de films qui aura lieu d'ici un mois.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-02",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0003",
+      "evidence": "je trouve que les films euh de super héros tout ce qui est cet cet univers cinématographique il est vraiment très ouvert et très divers",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Flora propose le genre super-héros, jugé ouvert à un large public.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-03",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0004",
+      "evidence": "environ de deux heures trente qui peuvent aller même plus pour certains donc il faut prévoir euh ce panel de temps",
+      "type": "risk",
+      "status": "active",
+      "statement": "Les films de super-héros durent environ 2 h 30 ou plus : il faut prévoir des créneaux plus longs.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "L'idée commence à la fin de t0003 (« il va falloir prévoir un temps »)."
+    },
+    {
+      "key": "a-04",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0006",
+      "evidence": "le dernier spider man peut être un bon point dans le sens où il amène les vrais fans les enfants donc des familles",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Flora propose le dernier Spider-Man, qui attire fans, enfants et familles.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Réponse à la demande d'exemple de 160 (t0005)."
+    },
+    {
+      "key": "a-05",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0006",
+      "evidence": "il est moins violent que les avengers",
+      "type": "fact",
+      "status": "active",
+      "statement": "Spider-Man est jugé moins violent que les Avengers.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Opinion de 163 présentée comme un fait."
+    },
+    {
+      "key": "a-06",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0010",
+      "evidence": "moi je vais opter pour le genre documentaire",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Walid propose le genre documentaire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le reste du tour contient des informations personnelles sur le locuteur, non annotées."
+    },
+    {
+      "key": "a-07",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0012",
+      "evidence": "il_y a par_exemple euh enquête impossible à l époque euh présenté par pierre belmar",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Walid cite l'émission « Enquête impossible » comme exemple de documentaire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-08",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0017",
+      "evidence": "enquête impossible ça risque d être compliqué de le planifier parce_que c'est avant_tout une série d émissions",
+      "type": "risk",
+      "status": "active",
+      "statement": "Enquête impossible serait difficile à programmer car c'est une série d'émissions.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-09",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0020",
+      "evidence": "il faudrait choisir avant_tout un documentaire voire deux mais pas quelque_chose qui soit étalé sur une série",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Il faudrait choisir un ou deux documentaires isolés plutôt qu'une série.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Walid répond « d'accord mais » (t0021) sans accord net."
+    },
+    {
+      "key": "a-10",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0022",
+      "evidence": "il_y a plein de chaînes déjà qui sont vouées euh au sujet en l occurrence il_y a il_y a par_exemple sciences et vies",
+      "type": "fact",
+      "status": "active",
+      "statement": "Des chaînes comme Science et Vie sont consacrées aux documentaires.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-11",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0030",
+      "evidence": "quelle information tu aimerais donner en particiler dans au public",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Quel message Walid veut-il transmettre au public avec le documentaire ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-12",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0032",
+      "evidence": "regarder s habituer avoir la coutume de regarder ce genre de documentaire ça va enrichir votre bagage ça va enrichir votre niveau intellectuel",
+      "type": "answer",
+      "status": "active",
+      "statement": "Le message : prendre l'habitude de regarder des documentaires enrichit la culture.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-13",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0044",
+      "evidence": "pour moi ça sera plutôt les films euh un peu de science fiction et de fantasy",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose la science-fiction et la fantasy.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-14",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0046",
+      "evidence": "ça serait euh interstellar euh c'est un film euh que j' adore",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose Interstellar.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-15",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0047",
+      "evidence": "je pense que j' aimerais bien voir euh @ umbrella academy",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose la série Umbrella Academy (plutôt fantastique).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-16",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0049",
+      "evidence": "je proposerais aussi peut-être les films de tim burton",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose aussi les films de Tim Burton.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-17",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0055",
+      "evidence": "on peut présenter les deux hein je pense que plus de films ça sera toujours bien vu",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "L'animateur accepte qu'on présente à la fois science-fiction et fantasy.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-18",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0058",
+      "evidence": "qu est-ce_que c'est la science-fiction qu est-ce_que c'est la fantasy et surtout l'un par_rapport_à l'autre",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Quelle différence entre science-fiction et fantasy ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-19",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0062",
+      "evidence": "la science fiction c'est je pense que c'est plus des choses qui pourraient se passer dans le futur",
+      "type": "answer",
+      "status": "active",
+      "statement": "La SF traite de ce qui pourrait arriver dans le futur, la fantasy de choses qui n'existent pas (magie).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "La partie fantasy est en t0060/t0062."
+    },
+    {
+      "key": "a-20",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0064",
+      "evidence": "je suis totalement d'accord pour euh mettre ces deux genres euh au festival",
+      "type": "decision",
+      "status": "active",
+      "statement": "Accord pour mettre la science-fiction et la fantasy au festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 163 après l'acceptation de 160 (t0055) ; décision informelle."
+    },
+    {
+      "key": "a-21",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0065",
+      "evidence": "donc pour le moment on aurait des documentaires de la science-fiction de la fantasy des films de super héros j ai un peu peur que ça se recoupe",
+      "type": "risk",
+      "status": "active",
+      "statement": "Liste provisoire : documentaire, SF, fantasy, super-héros ; risque de recoupement entre genres.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-22",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0067",
+      "evidence": "c'est un univers qui est tellement implanté que même s'il y a du fantastique et tout à côté ça va pas se mettre dans le même bain",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le super-héros est un univers à part que le public distingue de la fantasy.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-23",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0072",
+      "evidence": "pour le festival on vise euh quelle tranche d' âge",
+      "type": "question",
+      "status": "open",
+      "statement": "Quelle tranche d'âge le festival vise-t-il ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Reportée à une autre réunion (t0073)."
+    },
+    {
+      "key": "a-24",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0073",
+      "evidence": "un point qu on débattra dans d'autres réunions",
+      "type": "decision",
+      "status": "active",
+      "statement": "La question du public visé est reportée à une prochaine réunion.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-25",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0075",
+      "evidence": "apporter ma pierre à l édifice en parlant des films historiques",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "L'animateur propose le genre des films historiques.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-26",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0081",
+      "evidence": "je prends par_exemple un drame le soldat ryan",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Exemple de drame historique : Il faut sauver le soldat Ryan.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-27",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0084",
+      "evidence": "on pourrait avoir euh dunkerque qui est très action",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Exemple historique d'action : Dunkerque.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-28",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0087",
+      "evidence": "troie également qui est un film historique",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Exemple historique à dimension mythologique : Troie.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-29",
+      "meeting_id": "070a_EBRL",
+      "turn": "t0087",
+      "evidence": "on a la science fiction pour euh un public averti on a le super héros pour un public euh euh comment dire très investi",
+      "type": "fact",
+      "status": "active",
+      "statement": "Chaque genre vise un public : SF public averti, super-héros public très investi ; l'historique pour les passionnés d'histoire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Suite en t0089 (documentaire pour élargir les horizons) et t0092."
+    },
+    {
+      "key": "b-01",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0003",
+      "evidence": "il fallait revoir notre ambition à la baisse parce_que bon les subventions sont pas ce qu elles sont",
+      "type": "fact",
+      "status": "active",
+      "statement": "La présidente demande de réduire l'ambition, faute de subventions suffisantes.",
+      "owner": null,
+      "mentioned_people": [
+        "présidente"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-02",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0003",
+      "evidence": "on va devoir d'après elle choisir seulement deux genres de films",
+      "type": "decision",
+      "status": "active",
+      "statement": "Selon la présidente, le festival ne retiendra que deux genres de films.",
+      "owner": null,
+      "mentioned_people": [
+        "présidente"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Décision imposée par la présidente, rapportée par 160."
+    },
+    {
+      "key": "b-03",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0005",
+      "evidence": "documentaire et historique on pourrait les mettre ensemble",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Regrouper documentaire et historique en un seul genre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-04",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0008",
+      "evidence": "pareil pour super héros fantasy peut-être y a moyen",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Regrouper super-héros et fantasy en un seul genre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-05",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0022",
+      "evidence": "et en parallèle on a super film de super héros",
+      "type": "decision",
+      "status": "active",
+      "statement": "Genres retenus : documentaire historique d'un côté, super-héros avec une touche fantasy de l'autre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Décision construite sur t0016-t0024 (« les deux genres sélectionnés », « documentaire », « historique », « avec un petit twist fantasy ») après accord de tous (t0010-t0015)."
+    },
+    {
+      "key": "b-06",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0038",
+      "evidence": "si on condense en une seule nuit avec ou deux nuits euh de films ou si on étale ça sur une à plusieurs semaines",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Faut-il condenser le festival sur une ou deux nuits ou l'étaler sur plusieurs semaines ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-07",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0039",
+      "evidence": "est-ce qu on fait payer l entrée si oui quel tarif",
+      "type": "question",
+      "status": "resolved",
+      "statement": "L'entrée sera-t-elle payante et à quel tarif ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-08",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0041",
+      "evidence": "c'était une proposition de la présidente mais essayez de voir si si on fait payer euh que quelqu'un qui invite quelqu'un d'autre",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposition de la présidente : tarif dégressif pour une personne qui en invite une autre.",
+      "owner": null,
+      "mentioned_people": [
+        "présidente"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "La fin de l'idée (« ait un tarif dégressif dessus ») est en t0043."
+    },
+    {
+      "key": "b-09",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0054",
+      "evidence": "on a le cinéma drive-in bon bah c'est les participants ils sont dans leur voiture",
+      "type": "fact",
+      "status": "active",
+      "statement": "Premier cinéma possible : un drive-in, où le public reste en voiture.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le nombre de places n'y est pas limité (t0056)."
+    },
+    {
+      "key": "b-10",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0059",
+      "evidence": "cinéma drive-in pour ceux qui ont pas de de voitures ça réduit sachant que notre base est avant_tout assez populaire",
+      "type": "risk",
+      "status": "active",
+      "statement": "Le drive-in exclut les personnes sans voiture, alors que le public visé est populaire.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-11",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0061",
+      "evidence": "l endroit est génial franchement c'est super beau mais euh c'est seulement soixante_dix personnes dans une salle",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le cinéma art déco est très beau mais n'accueille que 70 personnes par salle.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-12",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0066",
+      "evidence": "mais euh cent_cinquante places par séance",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le cinéma du coin de la rue (« le pâté ») offre 150 places par séance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-13",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0069",
+      "evidence": "je choisirai euh le dernier du_coup celui où il_y a le plus de places",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina préfère le cinéma du coin, celui qui a le plus de places.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Soutenue par Flora (t0083) et Walid (t0085-t0097)."
+    },
+    {
+      "key": "b-14",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0074",
+      "evidence": "je suis pas pour l art déco parce_que je trouve que c'est sélectionner trop peu de personnes",
+      "type": "idea",
+      "status": "rejected",
+      "statement": "Flora écarte le cinéma art déco, trop petit et trop élitiste.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Rejet individuel de 163, cohérent avec 161 (t0069)."
+    },
+    {
+      "key": "b-15",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0099",
+      "evidence": "nos deux genres ils sont très opposés quand même",
+      "type": "risk",
+      "status": "active",
+      "statement": "Les deux genres retenus visent des publics très différents (jeunes contre plus âgés).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-16",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0109",
+      "evidence": "si on faisait euh des paquets de deux c'est-à-dire que pour un ticket vous allez voir le film de de super héros et ensuite",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Proposer des paires : un film de super-héros puis un documentaire lié au lieu de l'intrigue, pour un seul ticket.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Idée développée jusqu'en t0119 ; bien accueillie (t0129-t0141)."
+    },
+    {
+      "key": "b-17",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0149",
+      "evidence": "plutôt cibler le le public jeunes ados",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "L'animateur propose de cibler les jeunes adolescents plutôt que les enfants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-18",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0155",
+      "evidence": "comme ça entre douze et seize ans je dirais",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Tranche d'âge proposée par 160 : 12 à 16 ans.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-19",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0158",
+      "evidence": "moi je viserais plutôt entre entre quatorze et dix-huit",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Flora préfère viser les 14-18 ans ; Célina parle de jeunes adultes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Désaccord non tranché avec 12-16 ans."
+    },
+    {
+      "key": "b-20",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0178",
+      "evidence": "est-ce qu on met un un une paire par semaine le tout sur un mois ou une paire paire par jour le tout sur une semaine",
+      "type": "question",
+      "status": "resolved",
+      "statement": "Une paire par semaine sur un mois, ou une paire par jour sur une semaine ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-21",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0183",
+      "evidence": "je pense qu un festival ça dure maximum sur trois jours c'est deux trois jours maximum l idéal que c'est deux jours",
+      "type": "answer",
+      "status": "active",
+      "statement": "Flora estime qu'un festival doit durer deux jours, trois au maximum.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-22",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0189",
+      "evidence": "le samedi on propose l après-midi la paire de films a le soir la paire de films b et le dimanche la même chose mais inversée",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Programme sur un week-end : paire A l'après-midi et paire B le soir le samedi, ordre inversé le dimanche.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-23",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0191",
+      "evidence": "je suis pour aussi de mettre des films le matin",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Flora propose aussi des séances le matin.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-24",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0198",
+      "evidence": "on le financerait avec monsieur poitier notre contact",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le financement des billets se ferait avec M. Poitier, le contact de l'équipe.",
+      "owner": null,
+      "mentioned_people": [
+        "monsieur poitier"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-25",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0203",
+      "evidence": "le prix actuel des des places de cinéma c'est autour_de treize euros la place adulte",
+      "type": "fact",
+      "status": "active",
+      "statement": "Une place de cinéma adulte coûte actuellement environ 13 euros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "treize euros",
+      "assertion": "extracted",
+      "notes": "Suite en t0206 : 9 euros étudiant, 6 euros enfant."
+    },
+    {
+      "key": "b-26",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0214",
+      "evidence": "viser viser peut-être un contre un compte rond de dire dix euros dix euros la journée",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Flora propose un prix rond de 10 euros la journée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "dix euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-27",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0232",
+      "evidence": "les deux jours euh une vingtaine d euros euh c'est vraiment bien",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Pour le week-end complet, une vingtaine d'euros serait attractive.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "une vingtaine d euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-28",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0237",
+      "evidence": "est ce_qu on fait payer chaque séance ou bien les deux séances en même temps",
+      "type": "question",
+      "status": "open",
+      "statement": "Fait-on payer chaque séance ou la journée entière ?",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Reportée en t0244."
+    },
+    {
+      "key": "b-29",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0240",
+      "evidence": "je pars plus moi pour payer la journée",
+      "type": "answer",
+      "status": "proposed",
+      "statement": "Flora préfère un paiement à la journée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-30",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0246",
+      "evidence": "on part sur une dizaine d euros la journée",
+      "type": "decision",
+      "status": "conditional",
+      "statement": "Ordre de prix retenu provisoirement : une dizaine d'euros la journée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "une dizaine d euros",
+      "assertion": "extracted",
+      "notes": "Provisoire : « pour le moment », « on verra si c'est confirmé » (t0248-t0249)."
+    },
+    {
+      "key": "b-31",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0267",
+      "evidence": "on peut mettre un film documentaire sur euh l histoire de new york",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Coupler Spider-Man No Way Home avec un documentaire sur l'histoire de New York.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accueil favorable (t0268-t0270)."
+    },
+    {
+      "key": "b-32",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0272",
+      "evidence": "moi je dirais euh doctor strange",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose Doctor Strange (le premier volet, t0279-t0282).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-33",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0291",
+      "evidence": "ou sur les euh le * le spiritualisme indien",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Coupler Doctor Strange avec un documentaire sur la spiritualité indienne.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Alternative citée par 160 : mythologie indienne (t0289) ; 160 retient « spiritualité indienne » (t0294)."
+    },
+    {
+      "key": "b-34",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0302",
+      "evidence": "alors là on a c'est bien on a deux paires de films",
+      "type": "decision",
+      "status": "active",
+      "statement": "Deux paires sont retenues (Spider-Man/New York, Doctor Strange/Inde) ; on cherche deux autres paires.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-35",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0307",
+      "evidence": "je pense que ça peut compléter de faire donc deux paires le samedi et deux autres paires le dimanche",
+      "type": "decision",
+      "status": "active",
+      "statement": "Deux paires différentes le samedi et deux autres le dimanche, sans répétition.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Justifié en t0311 (« pas de répéter le même jour ») ; accord de 161 et 160."
+    },
+    {
+      "key": "b-36",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0315",
+      "evidence": "black panther c'est ça se passe dans un bon un pays imaginaire le wakanda qui du_coup est en afrique",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Flora propose Black Panther, pour ouvrir sur l'Afrique (documentaire sur l'Afrique subsaharienne, t0319).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-37",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0340",
+      "evidence": "on peut faire la chine parce_que l europe en soi comme c'est pas un univers qui vient de là",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Plutôt que l'Europe, faire la Chine avec Shang-Chi.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Shang-Chi est nommé en t0337-t0338."
+    },
+    {
+      "key": "b-38",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0343",
+      "evidence": "on pourrait mettre captain marvel et faire un documentaire sur euh la du_coup euh ce qui est espace",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose Captain Marvel avec un documentaire sur l'espace.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Précisé en t0363 : les avancées du domaine spatial."
+    },
+    {
+      "key": "b-39",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0378",
+      "evidence": "mais cinq paires euh on va pas gérer euh c'est deux jours",
+      "type": "risk",
+      "status": "active",
+      "statement": "Cinq paires sont difficiles à caser sur deux jours.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-40",
+      "meeting_id": "070b_EBDL",
+      "turn": "t0383",
+      "evidence": "on peut faire aussi un vendredi soir",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Ajouter une séance le vendredi soir (deux jours et une soirée).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "La présidente aura son mot à dire (t0391)."
+    },
+    {
+      "key": "c-01",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0000",
+      "evidence": "les subventions on les a ça y est on va pouvoir le faire",
+      "type": "fact",
+      "status": "active",
+      "statement": "Les subventions sont obtenues, le festival peut avoir lieu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-02",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0001",
+      "evidence": "la mairie a décidé de nous aider à hauteur de un euros par billet",
+      "type": "fact",
+      "status": "active",
+      "statement": "La mairie aide à hauteur d'un euro par billet.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "un euros par billet",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-03",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0011",
+      "evidence": "et ça c'est l' amérique qui l' impose dans les trois semaines à venir",
+      "type": "fact",
+      "status": "active",
+      "statement": "La date doit être fixée dans les trois semaines à venir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « l'amérique » est probablement une erreur de transcription."
+    },
+    {
+      "key": "c-04",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0014",
+      "evidence": "ça ne va pas viser ce public sachant que là on est le vingt-et-un septembre il ne faut surtout pas tomber sur halloween",
+      "type": "risk",
+      "status": "active",
+      "statement": "On est le 21 septembre ; il faut éviter la période d'Halloween car le festival n'a pas de films d'horreur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Tour dupliqué par l'ASR ; extrait pris à la jonction pour être unique."
+    },
+    {
+      "key": "c-05",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0024",
+      "evidence": "le 1er voilà vendredi trente jusqu'au dimanche deux",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Première option de dates : du vendredi 30 au dimanche 2.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Seconde option dans le même tour : du 7 au 9."
+    },
+    {
+      "key": "c-06",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0029",
+      "evidence": "et ben on va on va passer au sept au neuf du_coup",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le festival aura lieu du 7 au 9.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Mois non précisé (vraisemblablement octobre) ; non résolu."
+    },
+    {
+      "key": "c-07",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0042",
+      "evidence": "réserver la salle euh vraiment être en contact avec euh le propriétaire du pâté",
+      "type": "action",
+      "status": "open",
+      "statement": "Réserver la salle en contactant le propriétaire du cinéma « le pâté ».",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-08",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0047",
+      "evidence": "et ben se mettre d'accord sur le prix",
+      "type": "action",
+      "status": "open",
+      "statement": "Se mettre d'accord sur le prix des billets.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-09",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0053",
+      "evidence": "cette période -là elle est elle est trop euh trop trop sensible par_rapport_aux parents et tout il y a la rentrée scolaire donc il_y a trop de dépenses",
+      "type": "risk",
+      "status": "active",
+      "statement": "Période sensible pour les familles (rentrée scolaire, impôts) : réduire le prix au maximum.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Les impôts de septembre sont ajoutés en t0056."
+    },
+    {
+      "key": "c-10",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0077",
+      "evidence": "il va falloir qu' on loue les films aussi",
+      "type": "action",
+      "status": "open",
+      "statement": "Il faut louer les films (négociation avec le distributeur).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-11",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0090",
+      "evidence": "on pourrait proposer des trucs un peu spéciaux par_exemple je sais pas des cookies avec euh je sais pas des symboles de marvel",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose des cookies décorés aux symboles Marvel au stand.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-12",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0091",
+      "evidence": "ça ne peut pas entrer dans notre tarification le snack",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le snack ne fait pas partie de la tarification du festival (c'est le marché du gérant).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-13",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0100",
+      "evidence": "sinon il va falloir que l'on rentre dans les traductions légales avec marvel",
+      "type": "risk",
+      "status": "active",
+      "statement": "Utiliser la marque Marvel imposerait des démarches légales vouées à l'échec.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « traductions » pour « tractations »."
+    },
+    {
+      "key": "c-14",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0111",
+      "evidence": "il faudra bien spécifier dans les dans les tracts que c'est indépendant du prix de la journée",
+      "type": "action",
+      "status": "open",
+      "statement": "Préciser sur les tracts que le stand n'est pas compris dans le prix de la journée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-15",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0118",
+      "evidence": "il nous fait un prix sur la salle",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le gérant du cinéma fait un prix sur la salle.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-16",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0147",
+      "evidence": "je pense que une salle nous suffit la plus grande",
+      "type": "decision",
+      "status": "active",
+      "statement": "Une seule salle, la plus grande, suffira.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Accord de 161 (t0144)."
+    },
+    {
+      "key": "c-17",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0154",
+      "evidence": "il aimerait bien garder quand même son imax pour les films qu' il fait qu' il diffuse lui",
+      "type": "risk",
+      "status": "active",
+      "statement": "Le gérant voudra peut-être garder sa salle IMAX pour ses propres films.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-18",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0155",
+      "evidence": "je vais lui expliquer qu' il_y gagnera à me donner la meilleure salle pour le festival",
+      "type": "commitment",
+      "status": "active",
+      "statement": "Flora négociera avec le gérant pour obtenir la meilleure salle.",
+      "owner": "163",
+      "mentioned_people": [
+        "monsieur poitier"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Tâche confiée par 160 en t0152."
+    },
+    {
+      "key": "c-19",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0156",
+      "evidence": "je pense que wally t' es le plus à à même sur la tarification",
+      "type": "action",
+      "status": "active",
+      "statement": "La tarification est confiée à Walid.",
+      "owner": "162",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« wally » = Walid (ASR) ; accepté en t0297-t0301."
+    },
+    {
+      "key": "c-20",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0157",
+      "evidence": "on va essayer de de partir sur huit euros pour",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Walid propose 8 euros le ticket.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "huit euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-21",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0162",
+      "evidence": "ça nous fera neuf euros à nous",
+      "type": "fact",
+      "status": "active",
+      "statement": "Avec l'aide de la mairie, l'équipe touchera 9 euros par billet vendu 8 euros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "neuf euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-22",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0170",
+      "evidence": "donc on peut faire la journée à quinze euros et une paire de séances donc deux films à huit euros",
+      "type": "decision",
+      "status": "active",
+      "statement": "Tarifs : 15 euros la journée, 8 euros la paire de séances.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "quinze euros ; huit euros",
+      "assertion": "extracted",
+      "notes": "Proposé par 163, repris par 160 (t0172) et jugé attractif (t0191)."
+    },
+    {
+      "key": "c-23",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0175",
+      "evidence": "au_lieu de faire trente euros ben on peut faire euh des deux jeux le week-end à euh vingt-six vingt-huit euros",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Forfait week-end à 26-28 euros au lieu de 30.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "vingt-six vingt-huit euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-24",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0188",
+      "evidence": "diminution diminution s'il voudrait amener quelqu'un",
+      "type": "decision",
+      "status": "active",
+      "statement": "On abandonne la réduction pour une personne accompagnante, les prix étant déjà au minimum.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "« on laisserait tomber le côté » en t0185 ; motif en t0181-t0184."
+    },
+    {
+      "key": "c-25",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0197",
+      "evidence": "faut créer un site web du coup pour l' achat des billets faire des tracts",
+      "type": "action",
+      "status": "open",
+      "statement": "Créer un site web de billetterie et faire des tracts.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-26",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0200",
+      "evidence": "on pourrait aussi euh je sais pas créer un instagram",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Créer un compte Instagram pour le festival.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-27",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0206",
+      "evidence": "faire passer un petit trailer de notre festival",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Diffuser une bande-annonce du festival avant les séances la semaine précédente.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-28",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0216",
+      "evidence": "donc on va leur confier ça tu tu chapotes ou je leur transfère toute_la com",
+      "type": "decision",
+      "status": "active",
+      "statement": "La communication est confiée à l'équipe audiovisuelle ; Célina accepte de tout leur transférer (t0217).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Équipe non nominative : owner null."
+    },
+    {
+      "key": "c-29",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0219",
+      "evidence": "on pourrait organiser un concours de cosplay",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Célina propose un concours de cosplay.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-30",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0231",
+      "evidence": "je pense que c'est trop tard pour le mettre au forceps dans le projet",
+      "type": "decision",
+      "status": "active",
+      "statement": "Le concours de cosplay est écarté, trop tard pour l'intégrer.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-31",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0250",
+      "evidence": "va demander à martha de s' en occuper",
+      "type": "action",
+      "status": "proposed",
+      "statement": "Demander à Martha de s'occuper de la décoration avec les bénévoles.",
+      "owner": null,
+      "mentioned_people": [
+        "martha"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Martha n'est pas présente et n'a pas accepté."
+    },
+    {
+      "key": "c-32",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0254",
+      "evidence": "côté distribution des films ben je vais m' en charger tout ce qui est côté légal",
+      "type": "commitment",
+      "status": "active",
+      "statement": "L'animateur se charge de la distribution des films et du côté légal.",
+      "owner": "160",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-33",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0257",
+      "evidence": "faut que je fasse ça vite parce que si jamais on a un imprévu qu' on puisse décommander rapidement",
+      "type": "risk",
+      "status": "active",
+      "statement": "La location des films doit être faite vite pour pouvoir annuler en cas d'imprévu.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-34",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0260",
+      "evidence": "la répartition entre cinéma et festival ben c'est toi qui va t' en occuper",
+      "type": "action",
+      "status": "active",
+      "statement": "Célina s'occupe de la répartition cinéma/festival et de l'information le jour même.",
+      "owner": "161",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Destinataire déduit de t0261-t0262 (« elle l'a transférée aux audio jeunes ») ; accepté en t0274."
+    },
+    {
+      "key": "c-35",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0281",
+      "evidence": "je prends l' acomme au_lieu de la donner",
+      "type": "commitment",
+      "status": "active",
+      "statement": "Célina reprend finalement la communication au lieu de la confier à l'équipe ; le montage reste à l'équipe (t0288-t0289).",
+      "owner": "161",
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "ASR : « l'acomme » = « la com »."
+    },
+    {
+      "key": "c-36",
+      "meeting_id": "070c_EBPL",
+      "turn": "t0303",
+      "evidence": "je te filerai tous_les dossiers des les subventions euh dans la dans l' après-midi",
+      "type": "commitment",
+      "status": "active",
+      "statement": "L'animateur transmettra à Walid les dossiers de subventions dans l'après-midi.",
+      "owner": "160",
+      "mentioned_people": [
+        "walid"
+      ],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    }
+  ],
+  "relations": [
+    {
+      "from": "a-12",
+      "to": "a-11",
+      "relation": "answers",
+      "justification": "Walid répond à la question sur le message à transmettre."
+    },
+    {
+      "from": "a-19",
+      "to": "a-18",
+      "relation": "answers",
+      "justification": "Célina explique la différence demandée entre SF et fantasy."
+    },
+    {
+      "from": "a-20",
+      "to": "a-17",
+      "relation": "supports",
+      "justification": "Flora confirme l'accord pour présenter les deux genres."
+    },
+    {
+      "from": "a-22",
+      "to": "a-21",
+      "relation": "contradicts",
+      "justification": "Flora conteste le risque de recoupement entre super-héros et fantasy."
+    },
+    {
+      "from": "a-09",
+      "to": "a-08",
+      "relation": "supports",
+      "justification": "La consigne de choisir un documentaire isolé découle du problème de la série."
+    },
+    {
+      "from": "b-02",
+      "to": "a-20",
+      "relation": "supersedes",
+      "justification": "La consigne de la présidente limite à deux genres, ce qui remplace l'accord de garder SF et fantasy."
+    },
+    {
+      "from": "b-05",
+      "to": "b-02",
+      "relation": "supports",
+      "justification": "Les deux genres sélectionnés appliquent la consigne."
+    },
+    {
+      "from": "b-05",
+      "to": "b-03",
+      "relation": "supports",
+      "justification": "Le regroupement documentaire/historique est retenu."
+    },
+    {
+      "from": "b-05",
+      "to": "b-04",
+      "relation": "supports",
+      "justification": "Le regroupement super-héros/fantasy est retenu."
+    },
+    {
+      "from": "b-17",
+      "to": "a-23",
+      "relation": "answers",
+      "justification": "La tranche d'âge reportée en réunion a est discutée en b."
+    },
+    {
+      "from": "b-19",
+      "to": "b-18",
+      "relation": "contradicts",
+      "justification": "Deux tranches d'âge proposées sans arbitrage."
+    },
+    {
+      "from": "b-21",
+      "to": "b-20",
+      "relation": "answers",
+      "justification": "Flora répond : deux jours, pas un mois ni une semaine."
+    },
+    {
+      "from": "b-21",
+      "to": "b-06",
+      "relation": "answers",
+      "justification": "Réponse sur la durée de l'événement."
+    },
+    {
+      "from": "b-29",
+      "to": "b-28",
+      "relation": "answers",
+      "justification": "Flora répond à la question séance ou journée."
+    },
+    {
+      "from": "b-30",
+      "to": "b-26",
+      "relation": "supports",
+      "justification": "L'ordre de prix provisoire reprend la proposition de 10 euros."
+    },
+    {
+      "from": "b-35",
+      "to": "b-22",
+      "relation": "supersedes",
+      "justification": "On abandonne la répétition inversée des mêmes paires le dimanche (« pas de répéter »)."
+    },
+    {
+      "from": "b-13",
+      "to": "b-11",
+      "relation": "contradicts",
+      "justification": "Célina écarte l'art déco au profit du cinéma le plus grand."
+    },
+    {
+      "from": "c-07",
+      "to": "b-13",
+      "relation": "supports",
+      "justification": "La salle à réserver est celle du « pâté », le cinéma au plus grand nombre de places."
+    },
+    {
+      "from": "c-06",
+      "to": "c-05",
+      "relation": "supersedes",
+      "justification": "L'équipe tranche pour le 7 au 9 plutôt que le 30 au 2."
+    },
+    {
+      "from": "c-22",
+      "to": "b-30",
+      "relation": "supersedes",
+      "justification": "Nouvelle valeur actée : 15 euros la journée au lieu d'une dizaine d'euros."
+    },
+    {
+      "from": "c-22",
+      "to": "b-28",
+      "relation": "answers",
+      "justification": "Le prix est fixé à la fois par journée et par paire de séances."
+    },
+    {
+      "from": "c-24",
+      "to": "b-08",
+      "relation": "supersedes",
+      "justification": "La réduction pour un invité, proposée par la présidente, est explicitement abandonnée."
+    },
+    {
+      "from": "c-30",
+      "to": "c-29",
+      "relation": "supersedes",
+      "justification": "Décision explicite d'écarter le concours de cosplay."
+    },
+    {
+      "from": "c-13",
+      "to": "c-11",
+      "relation": "contradicts",
+      "justification": "Le risque légal s'oppose aux cookies aux symboles Marvel."
+    },
+    {
+      "from": "c-35",
+      "to": "c-28",
+      "relation": "supersedes",
+      "justification": "Célina reprend la com « au lieu de la donner » à l'équipe."
+    },
+    {
+      "from": "c-18",
+      "to": "c-07",
+      "relation": "supports",
+      "justification": "Flora prend en charge la négociation de la salle."
+    },
+    {
+      "from": "c-09",
+      "to": "c-08",
+      "relation": "supports",
+      "justification": "La période chargée justifie de réduire le prix."
+    },
+    {
+      "from": "c-21",
+      "to": "c-02",
+      "relation": "supports",
+      "justification": "Les 9 euros perçus incluent l'aide d'un euro de la mairie."
+    }
+  ],
+  "queries": [
+    {
+      "key": "q01",
+      "about_meeting": "070a_EBRL",
+      "text": "Quel film de super-héros a été suggéré pour attirer les familles lors du premier tour de table, et pourquoi ?",
+      "answerable": true,
+      "qrels": {
+        "a-04": 2,
+        "a-05": 1,
+        "a-02": 1,
+        "b-31": 0
+      },
+      "traps": [
+        {
+          "unit": "b-31",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q02",
+      "about_meeting": "070a_EBRL",
+      "text": "Pourquoi l'émission d'enquêtes criminelles évoquée par Walid pose-t-elle problème pour la programmation ?",
+      "answerable": true,
+      "qrels": {
+        "a-08": 2,
+        "a-09": 1,
+        "a-07": 1,
+        "a-06": 0
+      },
+      "traps": [
+        {
+          "unit": "a-06",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q03",
+      "about_meeting": "070a_EBRL",
+      "text": "La science-fiction et la fantasy défendues par Célina font-elles toujours partie des genres du festival ?",
+      "answerable": true,
+      "qrels": {
+        "b-05": 2,
+        "b-02": 1,
+        "b-04": 1,
+        "a-20": 1,
+        "a-17": 1,
+        "a-14": 0,
+        "a-19": 0
+      },
+      "traps": [
+        {
+          "unit": "a-14",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "a-19",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q04",
+      "about_meeting": "070a_EBRL",
+      "text": "Quelle durée faut-il prévoir pour une projection de film de super-héros ?",
+      "answerable": true,
+      "qrels": {
+        "a-03": 2,
+        "b-21": 0,
+        "b-06": 0
+      },
+      "traps": [
+        {
+          "unit": "b-21",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-06",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q05",
+      "about_meeting": "070a_EBRL",
+      "text": "Quel âge doit avoir le public cible du festival ?",
+      "answerable": true,
+      "qrels": {
+        "b-17": 2,
+        "b-18": 1,
+        "b-19": 1,
+        "a-23": 0,
+        "a-24": 0
+      },
+      "traps": [
+        {
+          "unit": "a-23",
+          "trap": "status"
+        },
+        {
+          "unit": "a-24",
+          "trap": "status"
+        }
+      ]
+    },
+    {
+      "key": "q06",
+      "about_meeting": "070a_EBRL",
+      "text": "Quels titres l'animateur a-t-il donnés pour illustrer le genre historique ?",
+      "answerable": true,
+      "qrels": {
+        "a-26": 2,
+        "a-27": 2,
+        "a-28": 2,
+        "a-25": 1,
+        "b-03": 0
+      },
+      "traps": [
+        {
+          "unit": "b-03",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q07",
+      "about_meeting": "070a_EBRL",
+      "text": "Quel budget total la présidente a-t-elle accordé à l'équipe pour le festival ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    },
+    {
+      "key": "q08",
+      "about_meeting": "070b_EBDL",
+      "text": "Une fois le nombre de genres limité, lesquels ont été gardés pour le festival ?",
+      "answerable": true,
+      "qrels": {
+        "b-05": 2,
+        "b-03": 1,
+        "b-04": 1,
+        "b-02": 1,
+        "a-20": 0
+      },
+      "traps": [
+        {
+          "unit": "a-20",
+          "trap": "superseded"
+        }
+      ]
+    },
+    {
+      "key": "q09",
+      "about_meeting": "070b_EBDL",
+      "text": "Dans quel cinéma de la ville le festival va-t-il se tenir ?",
+      "answerable": true,
+      "qrels": {
+        "c-07": 2,
+        "b-13": 1,
+        "b-12": 1,
+        "c-18": 1,
+        "b-11": 0,
+        "b-09": 0,
+        "b-14": 0,
+        "c-16": 0
+      },
+      "traps": [
+        {
+          "unit": "b-11",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-09",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-14",
+          "trap": "negation"
+        },
+        {
+          "unit": "c-16",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q10",
+      "about_meeting": "070b_EBDL",
+      "text": "Quel tarif pour une journée de festival avait été envisagé au départ, et lequel a été adopté ensuite ?",
+      "answerable": true,
+      "qrels": {
+        "c-22": 2,
+        "b-30": 1,
+        "b-26": 1,
+        "b-25": 0,
+        "c-21": 0,
+        "c-23": 0,
+        "c-20": 0
+      },
+      "traps": [
+        {
+          "unit": "b-25",
+          "trap": "amount"
+        },
+        {
+          "unit": "c-21",
+          "trap": "amount"
+        },
+        {
+          "unit": "c-23",
+          "trap": "amount"
+        },
+        {
+          "unit": "c-20",
+          "trap": "amount"
+        }
+      ]
+    },
+    {
+      "key": "q11",
+      "about_meeting": "070b_EBDL",
+      "text": "Qui se charge de discuter avec le gérant du cinéma pour obtenir la meilleure salle ?",
+      "answerable": true,
+      "qrels": {
+        "c-18": 2,
+        "c-07": 1,
+        "b-24": 0,
+        "c-32": 0,
+        "c-17": 0
+      },
+      "traps": [
+        {
+          "unit": "b-24",
+          "trap": "person"
+        },
+        {
+          "unit": "c-32",
+          "trap": "person"
+        },
+        {
+          "unit": "c-17",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q12",
+      "about_meeting": "070b_EBDL",
+      "text": "Combien de spectateurs peut accueillir la salle du cinéma art déco ?",
+      "answerable": true,
+      "qrels": {
+        "b-11": 2,
+        "b-12": 0,
+        "b-09": 0
+      },
+      "traps": [
+        {
+          "unit": "b-12",
+          "trap": "amount"
+        },
+        {
+          "unit": "b-09",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q13",
+      "about_meeting": "070b_EBDL",
+      "text": "Pourquoi le drive-in convient-il mal au public populaire que vise l'association ?",
+      "answerable": true,
+      "qrels": {
+        "b-10": 2,
+        "b-09": 1,
+        "b-14": 0
+      },
+      "traps": [
+        {
+          "unit": "b-14",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q14",
+      "about_meeting": "070b_EBDL",
+      "text": "Comment l'organisation des paires de films entre samedi et dimanche a-t-elle changé pendant la réunion ?",
+      "answerable": true,
+      "qrels": {
+        "b-35": 2,
+        "b-22": 1,
+        "b-39": 1,
+        "b-40": 1,
+        "b-34": 1,
+        "b-16": 0
+      },
+      "traps": [
+        {
+          "unit": "b-16",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q15",
+      "about_meeting": "070b_EBDL",
+      "text": "À quelle heure commence la première projection du samedi ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    }
+  ],
+  "speaker_names": {
+    "160": "victor (incertain)",
+    "161": "célina",
+    "162": "walid",
+    "163": "flora"
+  },
+  "notes": "Annotation llm_provisional. Identités : 163 = flora (appelée en t0002a), 162 = walid, 161 = célina, 160 = victor (incertain, d'après « comme disait victor » en b t0107). Réunion c en ASR : erreurs (« l'amérique », « l'acomme » = la com, « traductions légales » = tractations, « wally » = walid). Ambiguïtés : choix du cinéma jamais acté en b, déduit de c t0042 ; tranche d'âge non tranchée (12-16 contre 14-18) ; mois des dates du 7 au 9 non précisé ; prix de la journée provisoire en b (conditional) puis fixé à 15 euros en c ; destinataire de la répartition cinéma/festival déduit du contexte. Informations personnelles des locuteurs (parcours, famille) et jugement sur Martha non annotés."
+}
