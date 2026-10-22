@@ -22,26 +22,30 @@ class DenseRetriever:
 
     def __init__(self, model_name: str = E5_SMALL[0], revision: str | None = E5_SMALL[1],
                  max_seq_length: int = 128, batch_size: int = 64, device: str = "cpu",
-                 query_prefix: str = "query: ", passage_prefix: str = "passage: "):
+                 query_prefix: str = "query: ", passage_prefix: str = "passage: ",
+                 model: Any = None, weights: str | None = None):
+        """``model`` : modèle déjà chargé (évaluation pendant l'entraînement) ; ``weights`` :
+        identifiant des poids fine-tunés (dossier de checkpoint et empreinte), pour la config."""
         from sentence_transformers import SentenceTransformer
 
-        self.model_name, self.revision = model_name, revision
+        self.model_name, self.revision, self.weights = model_name, revision, weights
         self.query_prefix, self.passage_prefix = query_prefix, passage_prefix
         self.batch_size, self.device = batch_size, device
-        self.model = SentenceTransformer(model_name, revision=revision, device=device)
+        self.model = model or SentenceTransformer(model_name, revision=revision, device=device)
         self.model.max_seq_length = max_seq_length
-        self.model.float()
         self._cache: dict[str, np.ndarray] = {}
         self.truncated = 0
 
     def config(self) -> dict[str, Any]:
         return {"system": self.name, "model": self.model_name, "revision": self.revision,
+                "weights": self.weights or "pretrained",
                 "max_seq_length": self.model.max_seq_length, "dtype": "float32",
                 "pooling": "mean", "normalize": True, "query_prefix": self.query_prefix,
                 "passage_prefix": self.passage_prefix, "batch_size": self.batch_size,
                 "text_field": "retrieval_text"}
 
     def _encode(self, texts: list[str]) -> np.ndarray:
+        self.model.float()  # même dtype pour E1 et E2 (protocole v1.3)
         return self.model.encode(texts, batch_size=self.batch_size, normalize_embeddings=True,
                                  convert_to_numpy=True, show_progress_bar=False)
 
