@@ -70,3 +70,10 @@ Réponses de l'étudiant reçues le 2026-10-20T22:01+02:00 → D-004 à D-007.
 - **Justification** : un découpage par groupe seul laisserait les mêmes personnes, et donc leurs tics de langage et leurs projets, en train et en test.
 - **Limite** : les identifiants pourraient ne pas désigner des personnes uniques (hypothèse non confirmée par la fiche) ; si c'est le cas, le split est simplement plus conservateur que nécessaire. Les thèmes de scénario restent partagés.
 - **Statut** : appliquée (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
+
+## D-011 · 2026-10-22 · Annotation du train B-REAL
+
+- **Décision** : annoter les 38 groupes SUMM-RE d'entraînement contenant au moins une réunion manuelle (même mandat v2), pour entraîner E2 sur B-SYN **et** sur de l'oral réel.
+- **Justification** : un entraînement sur B-SYN seul risque de n'apprendre que nos patrons ; B-REAL val sert de garde-fou.
+- **Alternative écartée** : B-SYN seul (plus rapide, gain probablement limité au synthétique).
+- **Statut** : validée par l'étudiant le 2026-10-22T13:19+02:00.

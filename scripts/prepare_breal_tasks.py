@@ -1,10 +1,11 @@
 """EL-007b — écrit une tâche d'annotation par groupe (val et test, groupes avec réunion manuelle).
 
-Usage : uv run python -I scripts/prepare_breal_tasks.py
+Usage : uv run python -I scripts/prepare_breal_tasks.py [val test train]
 Sortie (hors Git, contient les transcriptions CC BY-SA) : data/breal/tasks/<split>/<groupe>.txt
 """
 
 import json
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -12,7 +13,8 @@ from embedding_lab.ingest.breal import load_meetings, task_text
 
 meetings = load_meetings(Path("data/processed/summre_meetings.jsonl"))
 split_of = json.loads(Path("splits/summre_v1.json").read_text())["split_of"]
-for split in ("val", "test"):
+splits = sys.argv[1:] or ["val", "test"]
+for split in splits:
     groups = defaultdict(list)
     for mid, s in split_of.items():
         if s == split:

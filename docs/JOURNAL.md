@@ -344,3 +344,22 @@ Relecture par l'étudiant ; en parallèle, EL-010 (point d'entrée d'évaluation
 | `data/breal/test/units.jsonl` | `6206d6788df75f4ff9262c806ccc2882a750c3d034a7161a09f7b5e02e809093` |
 
 Aucun accès au test à ce jour (`runs/TEST_ACCESS.log` absent).
+
+---
+
+## 2026-10-22 · Session S10 · Relecture humaine ciblée, annotation du train B-REAL
+
+- **Début** : 2026-10-22T13:19+02:00 (message de l'étudiant avec le classeur rempli) · **Fin** : voir l'horodatage du commit
+- **Branche** : `el-010-eval-bm25`
+
+### Relecture humaine (étudiant)
+
+- Fichier reçu archivé : `annotations/breal/review/humain/relecture_v2_etudiant.xlsx` (SHA-256 `41878b8b…ee75b7`).
+- Portée réelle : les **43 lignes signalées par la relecture IA** (15 unités, 28 couples question–unité), toutes marquées « oui », sans commentaire. Les 182 unités et 153 couples jugés « ok » par l'IA n'ont pas été examinés.
+- Lecture : sur ces points litigieux, l'étudiant confirme les corrections appliquées (lignes « erreur ») et l'annotation d'origine (lignes « douteux »). Aucune modification du test : la **v2 reste la version de référence**.
+- Anomalies : une ligne « erreur » non remplie (047c q09/c-16, déjà corrigée en v2) ; un « oui » sur une ligne « ok » voisine (019a q05/a-17), probablement un décalage d'une ligne.
+- À écrire dans le rapport : relecture humaine **ciblée** des désaccords, pas une relecture exhaustive ni un accord inter-annotateurs.
+
+### Train B-REAL
+
+Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînement contenant une réunion manuelle (112 réunions), même mandat v2, 3 sous-agents simultanés au plus.
