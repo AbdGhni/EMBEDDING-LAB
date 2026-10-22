@@ -312,3 +312,18 @@ Les empreintes des 9 fichiers bruts de test sont dans `data/breal/manifest.json`
 ### Suite
 
 Relecture par l'étudiant ; en parallèle, EL-010 (point d'entrée d'évaluation commun + BM25) sur val.
+
+---
+
+## 2026-10-22 · Session S09 · Relecture IA du sous-ensemble (lancement) et EL-010
+
+- **Début** : 2026-10-22T11:24+02:00 (message « vas-y, fait aussi de ton côté la relecture ») · **Fin** : voir l'horodatage du commit
+- **Branches** : `el-007b-breal` (mandat de relecture IA, `43874fd`) puis `el-010-eval-bm25`.
+- **Agent / capacité** : relecteurs `general-purpose` **neufs** (aucun n'a produit l'annotation relue), une tâche par réunion, mandat `docs/mandates/EL-007b-relecture-ia.md`. Ce n'est pas une relecture humaine : étiquetée « relecture IA ». Orchestrateur pour EL-010.
+
+### EL-010
+
+1. `eval/harness.py` : point d'entrée unique ; refus du test sans motif (journal `runs/TEST_ACCESS.log`) ; portée de recherche B-SYN = split, B-REAL = groupe ; triplets notés avec les mêmes scores que le classement ; empreinte de configuration ; moyenne par grappe en contrôle ; manifeste (commit, état, versions, horaires).
+2. `retrieval/bm25.py` (k1 = 1,5, b = 0,75, tokenisation SUMM-RE) et plancher `retrieval/baselines.py`. 6 tests ; 67 au total.
+3. **Incident de provenance** : les deux premiers runs (11:27) indiquaient `git_dirty: false` alors que le code n'était pas commité (fichiers non suivis ignorés). Détection corrigée, code commité (`17606d0`), runs supprimés puis relancés avec les mêmes chiffres.
+4. Résultats sur **val uniquement** : voir `docs/EXPERIMENTS.md`. BM25 : B-SYN nDCG@10 0,517, B-REAL 0,206 ; précision par paires proche du hasard sur les pièges `status` et `superseded`.

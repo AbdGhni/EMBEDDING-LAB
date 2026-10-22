@@ -43,7 +43,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 
 | ID | Cat. | Exigence | Expérience | Preuve | Statut |
 |---|---|---|---|---|---|
-| X-E0 | S | Baseline lexicale (BM25 / TF-IDF) | E0 | `runs/E0-*/metrics.json` | prévu |
+| X-E0 | S | Baseline lexicale (BM25 / TF-IDF) | E0 | `runs/E0-*/metrics_*.json` | en cours (val : B-SYN nDCG@10 0,517, B-REAL 0,206 ; test non mesuré) |
 | X-E1 | S | Encodeur pré-entraîné sans adaptation | E1 | `runs/E1-*/metrics.json` | prévu |
 | X-E2 | S | Encodeur fine-tuné contrastif, comparé à E1 sur test indépendant | E2 | métriques + checkpoint + commande | prévu |
 | X-E3 | S | Hard negative mining ; effet du choix des négatifs (ablation) | E3 : hard vs négatifs simples, budget égal | métriques appariées | prévu |
