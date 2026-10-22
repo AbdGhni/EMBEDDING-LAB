@@ -1,0 +1,1715 @@
+{
+  "group_id": "016",
+  "units": [
+    {
+      "key": "a-01",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0002",
+      "evidence": "la série je dirais euh que je viens de regarder récemment",
+      "type": "fact",
+      "status": "active",
+      "statement": "035 présente une série qu'elle a regardée récemment (titre non transcrit).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le titre de la série n'apparaît pas dans la transcription ASR."
+    },
+    {
+      "key": "a-02",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0003",
+      "evidence": "j' ai beaucoup aimé mais euh parce_que euh il_y avait euh du suspens",
+      "type": "fact",
+      "status": "active",
+      "statement": "035 a beaucoup aimé cette série pour son suspense.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-03",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0005",
+      "evidence": "l' histoire euh elle est vraiment travaillée",
+      "type": "fact",
+      "status": "active",
+      "statement": "Selon 035, l'histoire de la série est très travaillée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-04",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0009",
+      "evidence": "il_y a des retours en arrière sur son histoire son passé",
+      "type": "fact",
+      "status": "active",
+      "statement": "La série de 035 comporte des retours en arrière sur le passé du personnage principal.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-05",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0010",
+      "evidence": "moi du_coup ce serait doctor who une série aussi",
+      "type": "fact",
+      "status": "active",
+      "statement": "La série choisie par 052 est Doctor Who.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-06",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0014",
+      "evidence": "la série de science-fiction qui dure depuis le plus longtemps puisque le premier épisode c'était en soixante_trois",
+      "type": "fact",
+      "status": "active",
+      "statement": "Doctor Who est la série de science-fiction la plus longue, premier épisode en 1963.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-07",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0015",
+      "evidence": "même s'il y a eu une dizaine d' années de pause",
+      "type": "fact",
+      "status": "active",
+      "statement": "Doctor Who a connu une pause d'une dizaine d'années.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-08",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0016",
+      "evidence": "sur doctor who c'est entre la diplomatie sauver le monde",
+      "type": "fact",
+      "status": "active",
+      "statement": "Doctor Who mêle diplomatie et sauvetage du monde, comme Star Trek.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-09",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0019",
+      "evidence": "là on a eu le premier docteur femme il_y a quelques années",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le premier Docteur femme est apparu il y a quelques années.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-10",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0022",
+      "evidence": "des personnages qui ont des storylines sur des sujets actuels comme l' homophobie",
+      "type": "fact",
+      "status": "active",
+      "statement": "Doctor Who aborde des sujets d'actualité comme l'homophobie via certains personnages.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-11",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0025",
+      "evidence": "c'est voyages dans le temps et dans l' espace",
+      "type": "fact",
+      "status": "active",
+      "statement": "Doctor Who repose sur des voyages dans le temps et l'espace (Churchill, la Révolution...).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-12",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0029",
+      "evidence": "qu' est-ce qui t' as le plus plu dans cette série que normalement t' aimes pas ce genre",
+      "type": "question",
+      "status": "resolved",
+      "statement": "052 demande ce qui a le plus plu dans une série dont l'interlocutrice n'aime pas le genre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "ASR confus : tour attribué à 052 mais semble adressé par une autre personne."
+    },
+    {
+      "key": "a-13",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0030",
+      "evidence": "je connais surtout deux noms j ai dû regarder quelques épisodes",
+      "type": "answer",
+      "status": "active",
+      "statement": "Réponse : elle ne connaît que deux noms et a vu quelques épisodes seulement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Réponse partielle ; attribution des locuteurs incertaine (ASR)."
+    },
+    {
+      "key": "a-14",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0034",
+      "evidence": "c'est compliqué d' écrire en même temps qu' on parle",
+      "type": "risk",
+      "status": "active",
+      "statement": "Difficulté signalée : il est compliqué d'écrire tout en parlant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-15",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0039",
+      "evidence": "j' en ai fait quand j' étais en licence parce_que mes profs le demandaient tout_le temps",
+      "type": "fact",
+      "status": "active",
+      "statement": "052 a participé à des expériences en licence, à la demande de ses professeurs.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-16",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0041",
+      "evidence": "il_y en avait certaines qui étaient rémunérées",
+      "type": "fact",
+      "status": "active",
+      "statement": "Certaines des expériences auxquelles 052 participait étaient rémunérées.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-17",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0044",
+      "evidence": "tu les trouves où stéphanie les expériences comme ça",
+      "type": "question",
+      "status": "resolved",
+      "statement": "035 demande où trouver ce genre d'expériences.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-18",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0048",
+      "evidence": "tu tapes expérience lpl ex et tu vas tu vas retrouver",
+      "type": "answer",
+      "status": "active",
+      "statement": "Il suffit de chercher « expérience LPL » pour retrouver la banque de participants.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-19",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0047",
+      "evidence": "moi je les reçois toutes par mail",
+      "type": "fact",
+      "status": "active",
+      "statement": "052 reçoit toutes les annonces d'expériences par mail.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-20",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0052",
+      "evidence": "test cosmétique j' ai pas j' ai fait beaucoup avec euh comment il s' appelle là eurofince",
+      "type": "fact",
+      "status": "active",
+      "statement": "052 a fait beaucoup de tests cosmétiques avec Eurofins (transcrit « eurofince »).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Nom de société déformé par l'ASR (eurofince / eurofit)."
+    },
+    {
+      "key": "a-21",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0060",
+      "evidence": "site moi c'est moi c'est sur le même site j' ai arrêté par_contre",
+      "type": "fact",
+      "status": "active",
+      "statement": "052 a arrêté les tests sur ce site.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "a-22",
+      "meeting_id": "016a_EBRZ",
+      "turn": "t0067",
+      "evidence": "et il paye plus ou moins bien",
+      "type": "fact",
+      "status": "active",
+      "statement": "Ces tests sont plus ou moins bien payés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-01",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0002",
+      "evidence": "non ça va être compliqué hein parce_qu' en plus c'est hyper long",
+      "type": "risk",
+      "status": "active",
+      "statement": "Une œuvre envisagée précédemment est jugée compliquée car trop longue.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "L'œuvre visée n'est pas nommée (début de réunion coupé)."
+    },
+    {
+      "key": "b-02",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0003",
+      "evidence": "on a vu lupin toutes_les trois non est-ce que c'est pas plus simple de prendre quelque_chose qu' on a vu toutes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "053 propose de prendre Lupin, vu par les trois participantes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-03",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0006",
+      "evidence": "c'est une mise en avant sur euh la différence entre les livres et et la série ça peut être sympa aussi",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose de mettre en avant la différence entre les livres et la série.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-04",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0014",
+      "evidence": "une introduction livre puis euh l' épisode par_exemple de la série et euh ou juste une introduction c'est pour commencer l' événement derrière on peut regarder euh un épisode le premier épisode",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose une introduction sur le livre puis la projection d'un épisode (le premier ou un autre).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-05",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0023",
+      "evidence": "c'est pas comment comment toi tu peux sortir de la pièce non c'est résumé au mystère comment lupin a fait",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose un escape game Lupin centré sur le mystère de la façon dont Lupin s'est échappé.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "L'idée commence au tour t0018 (« l' escape game de lupin »)."
+    },
+    {
+      "key": "b-06",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0025",
+      "evidence": "soit personne n' a vu l' épisode et on fait par_exemple le musée mais sinon on reprend effectivement un bouquin",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Variante : si personne n'a vu l'épisode, reprendre une scène du musée ou un passage d'un livre.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-07",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0032",
+      "evidence": "thème définitif de l' événement parmi les oeuvres précédemment proposées donc je mets une série lupin",
+      "type": "decision",
+      "status": "active",
+      "statement": "Thème définitif retenu : la série Lupin.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-08",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0035",
+      "evidence": "ça a été un grand succès donc il_y a plein de gens qui connaissent la série du coup ça pourrait attirer plus de monde ça pourrait plaire à plus de monde",
+      "type": "fact",
+      "status": "active",
+      "statement": "Justification : la série a eu un grand succès, elle peut attirer et plaire à plus de monde.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-09",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0036",
+      "evidence": "type d' événement déjà je mets escape game",
+      "type": "decision",
+      "status": "active",
+      "statement": "053 inscrit l'escape game comme type d'événement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-10",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0038",
+      "evidence": "je pense que conférences et c'est les conférences qui attirent le plus de monde donc si on a effectivement les acteurs de la série c'est encore mieux",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose une conférence, format qui attire le plus de monde, idéalement avec les acteurs.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-11",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0045",
+      "evidence": "c'est une série qui a qui a fait beaucoup parler d' elle de_fait que ça reprenne arsène lupin qui est un grand classique mais que ça s' en éloigne tellement qu' au final c'est plus lupin",
+      "type": "fact",
+      "status": "active",
+      "statement": "La série a beaucoup fait parler d'elle : elle reprend Arsène Lupin tout en s'en éloignant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-12",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0047",
+      "evidence": "c'est une grosse controverse donc ça fait énormément parler de soi dans les médias",
+      "type": "fact",
+      "status": "active",
+      "statement": "La controverse autour de la série l'a fait beaucoup parler dans les médias.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-13",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0047",
+      "evidence": "presque tous ont regardé cette série ou veulent regarder cette série parce_qu' ils savent que c'est une série française",
+      "type": "fact",
+      "status": "active",
+      "statement": "Des apprenants du français ont presque tous vu ou veulent voir la série, parce qu'elle est française.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Lieu de résidence de la locutrice volontairement exclu de l'extrait."
+    },
+    {
+      "key": "b-14",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0061",
+      "evidence": "grâce_à cette série ben ils sont réintroduits à lupin",
+      "type": "fact",
+      "status": "active",
+      "statement": "Grâce à la série, les jeunes redécouvrent Lupin.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-15",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0073",
+      "evidence": "série qui a fait beaucoup parler d' elle car un sujet sur arsène lupin mais sans être vraiment lui controverse qui en a fait beaucoup parler dans les médias univers particulier et en même temps connu de beaucoup mais qui a fait aussi redécouvrir aux jeunes ce personnage",
+      "type": "decision",
+      "status": "active",
+      "statement": "Explication du choix du thème rédigée : série controversée, univers connu, redécouverte par les jeunes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-16",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0076",
+      "evidence": "type d' événement choisi conférence escape game",
+      "type": "decision",
+      "status": "active",
+      "statement": "Type d'événement retenu et noté : conférence + escape game.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-17",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0082",
+      "evidence": "pour pouvoir avoir une idée présentation euh peut-être de de la nouvelle saison",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose que la conférence présente la nouvelle saison.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-18",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0082",
+      "evidence": "la deuxième il vient de se terminer donc euh ils vont tourner la troisième normalement",
+      "type": "fact",
+      "status": "active",
+      "statement": "La saison 2 vient de se terminer ; la troisième devrait être tournée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-19",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0088",
+      "evidence": "ça peut durer tout_le week-end ou entre le moins un jour on choisit",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Durée envisagée : tout le week-end ou au moins un jour, à choisir.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-20",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0088",
+      "evidence": "plein d' activités différentes rencontre des acteurs rencontre des scénaristes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Activités envisagées : rencontres avec les acteurs et les scénaristes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-21",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0089",
+      "evidence": "si au_bout d' une heure qu' on n' a pas trouvé tant pis pour nous",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "L'escape game durerait une heure maximum.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-22",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0091",
+      "evidence": "la première équipe qui sort de la salle gagne un restaurant avec l' acteur de son film",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Concours : la première équipe sortie gagne un restaurant avec l'acteur.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-23",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0095",
+      "evidence": "peut-être une avant-première euh de du premier épisode tu vois en fin de journée",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose une avant-première du premier épisode en fin de journée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-24",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0102",
+      "evidence": "soirée soirée dansante repas ou je je sais pas avec quelques quelques personnes présentes",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 évoque une soirée dansante ou un repas avec quelques invités.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-25",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0105",
+      "evidence": "ces trucs -là c'est du style cent et quelques euros la journée plus les tickets plus l' hébergement sur place",
+      "type": "fact",
+      "status": "active",
+      "statement": "Ce type de convention coûte cent et quelques euros la journée, plus billets et hébergement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "cent et quelques euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-26",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0106",
+      "evidence": "il_y a trente mille personnes qui ont tout payé au_moins cent euros",
+      "type": "fact",
+      "status": "active",
+      "statement": "Dans ces conventions, 30 000 personnes paient au moins 100 euros, le prix de base.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "cent euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-27",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0110",
+      "evidence": "ça te coûte trois cent euros minimum le week-end",
+      "type": "fact",
+      "status": "active",
+      "statement": "Pour un participant, le week-end coûte au minimum 300 euros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "trois cent euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-28",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0118",
+      "evidence": "conférence pour attirer le public avec acteurs scénaristes et pour donc faire une présentation de la nouvelle saison sans spoiler en faisant une rétrospective des deux premières",
+      "type": "decision",
+      "status": "active",
+      "statement": "Noté : conférence avec acteurs et scénaristes, présentation de la nouvelle saison sans spoiler et rétrospective des deux premières.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-29",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0118",
+      "evidence": "pour l' équipe qui gagne en une heure un restaurant avec l' acteur principal",
+      "type": "decision",
+      "status": "active",
+      "statement": "Noté : l'équipe qui gagne l'escape game en une heure obtient un restaurant avec l'acteur principal.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-30",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0118",
+      "evidence": "en fin de journée alors je sais pas dans la diffusion du premier épisode c'est peut-être à la fin de la conférence",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "La diffusion du premier épisode aurait lieu en fin de journée ou de conférence, sans certitude.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-31",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0119",
+      "evidence": "si c'est sur un ou deux jours euh on sait pas trop",
+      "type": "question",
+      "status": "open",
+      "statement": "La durée de l'événement (un ou deux jours) reste indéterminée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "inferred",
+      "notes": "Formulé comme une incertitude plutôt qu'une question directe."
+    },
+    {
+      "key": "b-32",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0120",
+      "evidence": "pour euh celui qui gagne c'est euh la personne la plus rapide",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 précise que le gagnant serait la personne la plus rapide.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "b-33",
+      "meeting_id": "016b_EBDZ",
+      "turn": "t0121",
+      "evidence": "l' équipe la plus rapide",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Correction : c'est l'équipe la plus rapide (dans le temps imparti) qui gagne.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Complété par t0122 « dans le temps imparti »."
+    },
+    {
+      "key": "c-01",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0000",
+      "evidence": "par_contre budget alloué deux cent euros",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le budget alloué à l'organisation est de 200 euros.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "deux cent euros",
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-02",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0006",
+      "evidence": "la première chose ce serait de de contacter euh l équipe de tournage",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose de commencer par contacter l'équipe de tournage.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-03",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0013",
+      "evidence": "ouais la date on fait quand",
+      "type": "question",
+      "status": "resolved",
+      "statement": "035 demande quand placer la date de cette première tâche.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-04",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0014",
+      "evidence": "ben ça ça se prévoit un an à l avance",
+      "type": "answer",
+      "status": "active",
+      "statement": "Ce genre de démarche se prévoit un an à l'avance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-05",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0024",
+      "evidence": "alors contacter l' équipe de tournage de la série on va dire un an à l avance euh ça c'est la tâche un",
+      "type": "decision",
+      "status": "active",
+      "statement": "Tâche 1 : contacter l'équipe de tournage environ un an à l'avance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-06",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0027",
+      "evidence": "on va pas de mentir c'est trop cher paris",
+      "type": "fact",
+      "status": "active",
+      "statement": "Paris est trop cher pour accueillir l'événement ; on vise généralement une autre région.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Complété par t0026 « généralement c'est pas paris »."
+    },
+    {
+      "key": "c-07",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0029",
+      "evidence": "la tâche numéro deux ce serait de contacter euh les euh les salles salles les salles slash hôtels euh de de la région",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Tâche 2 proposée : contacter les salles et hôtels de la région.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-08",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0029",
+      "evidence": "est ce_qu ils peuvent nous nous donner la salle gratuitement ça se fait énormément",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Négocier une salle gratuite en échange du remplissage de l'hôtel.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-09",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0034",
+      "evidence": "donc par réseaux sociaux pas sur des affiches on peut créer une affiche mais digitale pour les réseaux sociaux",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Première communication sur les réseaux sociaux, avec une affiche numérique plutôt qu'imprimée.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-10",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0050",
+      "evidence": "qu' on sache le nombre de personnes aussi ça il faut qu on le fixe rapidement du_coup",
+      "type": "action",
+      "status": "open",
+      "statement": "Il faut fixer rapidement le nombre de personnes attendues.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-11",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0067",
+      "evidence": "parce_que on commence à vendre des billets six mois avant",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 indique que la vente des billets commence six mois avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-12",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0076",
+      "evidence": "des vraies affiches imprimées qui vont partir dans la ville des euh spots publicitaires euh en en télévision",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Communication principale ensuite : vraies affiches imprimées en ville et spots télévisés.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-13",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0081",
+      "evidence": "c'est beaucoup on les invite à venir",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Plutôt que de payer les influenceurs, on les invite à venir (publicité gratuite).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "L'idée s'étend sur t0079-t0083 ; t0081 porte la proposition."
+    },
+    {
+      "key": "c-14",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0089",
+      "evidence": "je pense que le budget de deux cent euros il peut passer entièrement dans la com",
+      "type": "fact",
+      "status": "active",
+      "statement": "Le budget de 200 euros pourrait être entièrement consommé par la communication.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": "deux cent euros",
+      "assertion": "extracted",
+      "notes": "Estimation approuvée par 053 (« ben oui clairement »)."
+    },
+    {
+      "key": "c-15",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0094",
+      "evidence": "sur twitter on n a pas besoin de payer",
+      "type": "fact",
+      "status": "active",
+      "statement": "Sur Twitter la communication est gratuite (contrairement à Facebook).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-16",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0098",
+      "evidence": "on peut demander une une sponsorisation une subvention",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose de demander un sponsor ou une subvention à la ville.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-17",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0114",
+      "evidence": "tâche trois communication digitale avec création d affiches et publications sur les réseaux sociaux",
+      "type": "decision",
+      "status": "active",
+      "statement": "Tâche 3 notée : communication digitale (affiches, réseaux sociaux).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-18",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0120",
+      "evidence": "ouais sept huit mois à l' avance",
+      "type": "decision",
+      "status": "active",
+      "statement": "La communication digitale démarre sept à huit mois avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-19",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0125",
+      "evidence": "ouverture de la vente des billets de la billetterie six mois avant la date",
+      "type": "decision",
+      "status": "active",
+      "statement": "La billetterie ouvre six mois avant la date de l'événement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-20",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0128",
+      "evidence": "ah et ça c'est quatre mois à l avance",
+      "type": "decision",
+      "status": "active",
+      "statement": "La grosse communication (affichage, spots, influenceurs) a lieu quatre mois à l'avance.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-21",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0133",
+      "evidence": "tâche six voir si subventions possibles avec la ville trouver des sponsors",
+      "type": "decision",
+      "status": "active",
+      "statement": "Tâche 6 notée : chercher des subventions de la ville et des sponsors.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-22",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0137",
+      "evidence": "ouais c'est dès_qu on a la salle",
+      "type": "decision",
+      "status": "active",
+      "statement": "La recherche de subventions est avancée : elle commence dès qu'on a la salle.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Suite de t0135 « ça ce serait avant si tu peux décalé »."
+    },
+    {
+      "key": "c-23",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0151",
+      "evidence": "on t' affiche la troisième personne un peu moins importante deux mois à l' avance et ça réactive les ventes des billetteries",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Deux mois avant, annoncer une troisième tête d'affiche pour relancer les ventes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Jugée « bonne idée » par 035."
+    },
+    {
+      "key": "c-24",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0161",
+      "evidence": "rappelle au traiteur pour savoir combien il_y a il_y a de personne à la salle",
+      "type": "action",
+      "status": "open",
+      "statement": "Rappeler le traiteur pour lui donner le nombre définitif de personnes.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-25",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0171",
+      "evidence": "donc travailler ensemble pour pouvoir créer l' escape game il faut qu' ils nous donnent toute_la storyline",
+      "type": "action",
+      "status": "open",
+      "statement": "Pour créer l'escape game, l'équipe de tournage doit fournir la storyline.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-26",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0186",
+      "evidence": "mise en place euh deux semaines avant de de de tout tout_le matériel",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "Mise en place du matériel deux semaines avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-27",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0221",
+      "evidence": "recrutement euh des des volontaires et c'est pas grave c'est pas dans l ordre et tu mets euh trois mois avant ou deux mois trois mois avant on commence à recruter les volontaires",
+      "type": "idea",
+      "status": "proposed",
+      "statement": "052 propose de recruter des bénévoles deux à trois mois avant.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-28",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0225",
+      "evidence": "je vais le mettre en même temps qu on on réactive les ventes et tout ça je mets le recrutement des volontaires",
+      "type": "decision",
+      "status": "active",
+      "statement": "053 place le recrutement des bénévoles en même temps que la relance des ventes (deux mois avant).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-29",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0246",
+      "evidence": "tâche un contacter équipe de tournage de la série à l avance trouver un lieu qui convient à tout_le monde j ai mis directeur de projet",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 1, contacter l'équipe de tournage et trouver un lieu, confiée au directeur de projet.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Le responsable est un rôle fictif, pas un participant : owner null."
+    },
+    {
+      "key": "c-30",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0251",
+      "evidence": "tâche deux contacter salle hôtel de la région choisir une institution commerciale statuer sur le nombre de personnes qui pourraient être présentes et contacter les principaux photographes caméramans traiteurs etcetera si pas plus possibilité de l aide fournie par la salle ou l hôtel ça j ai mis que c'était le chargé d événementiel",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 2, salles/hôtels, nombre de personnes, prestataires, confiée au chargé d'événementiel.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Rôle, pas un participant : owner null."
+    },
+    {
+      "key": "c-31",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0253",
+      "evidence": "tâche trois voir si subventions possibles avec la ville et sponsors donc ça aussi j ai mis le chargé d événementiel et chargé de com",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 3, subventions et sponsors, confiée au chargé d'événementiel et au chargé de com.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Rôles, pas des participants : owner null."
+    },
+    {
+      "key": "c-32",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0253",
+      "evidence": "communication digitale avec création d affiches et communication sur les réseaux sociaux pour faire connaître l événement sept à huit mois à l avance ça j ai mis chargé de com",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : communication digitale sept à huit mois à l'avance, confiée au chargé de com.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Numéro de tâche non dit (tâche 4 implicite)."
+    },
+    {
+      "key": "c-33",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0273",
+      "evidence": "tâche cinq vendre des billets six mois avant pour payer les frais d organisation",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 5, vente des billets six mois avant pour payer les frais d'organisation.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-34",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0273",
+      "evidence": "tâche six affichage en ville spot plublicitaire grosse comme sur les réseaux sociaux avec un lead d instagram et en personne connue etcetera environ quatre mois à l avance alors ça j ai pas mis euh on va mettre chargé d' événementielle",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 6, affichage, spots, grosse communication environ quatre mois avant, confiée au chargé d'événementiel.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-35",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0275",
+      "evidence": "à deux mois tâche sept à deux mois réactiver les ventes avec nouvelle tête d affiche via com diverses au traitement des volontaires en local et non local qui nous aideront sur place le jour j et les jours précédents",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 7 à deux mois, relance des ventes avec une nouvelle tête d'affiche et recrutement de bénévoles locaux et non locaux.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-36",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0276",
+      "evidence": "ça c'est événementiel chargé de com",
+      "type": "decision",
+      "status": "active",
+      "statement": "La tâche 7 est attribuée au chargé d'événementiel et au chargé de com.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-37",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0278",
+      "evidence": "tâche huit à un mois vérification de tous_les critères nombre de présents confirmés contact pour résa définitives des hotels salles etcetera donc ça j' ai mis directeur de projet",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 8 à un mois, vérification des présents confirmés et réservations définitives, confiée au directeur de projet.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-38",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0280",
+      "evidence": "tâche neuf deux semaines avant relation proche avec les salles de tournage pour l' orga d' escape game donc j' ai mis le chargé de com et le directeur de projet",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 9 deux semaines avant, organisation de l'escape game avec l'équipe de tournage, confiée au chargé de com et au directeur de projet.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    },
+    {
+      "key": "c-39",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0280",
+      "evidence": "tâche dix jour j vente des derniers billets potentiels si annulation mise en place de la conférence déroulement de la journée et des activités surveillance et contact direct avec les équipes",
+      "type": "decision",
+      "status": "active",
+      "statement": "Récapitulatif : tâche 10 le jour J, vente des derniers billets, mise en place et déroulement.",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": "Responsable (directeur de projet) donné aux tours t0281-t0282."
+    },
+    {
+      "key": "c-40",
+      "meeting_id": "016c_EBPZ",
+      "turn": "t0287",
+      "evidence": "on peut faire des événements comme ça à trois personnes",
+      "type": "fact",
+      "status": "active",
+      "statement": "Ce type d'événement peut être organisé à trois personnes (expérience d'un festival).",
+      "owner": null,
+      "mentioned_people": [],
+      "amount": null,
+      "assertion": "extracted",
+      "notes": ""
+    }
+  ],
+  "relations": [
+    {
+      "from": "a-13",
+      "to": "a-12",
+      "relation": "answers",
+      "justification": "Réponse à la question sur ce qui a plu dans la série."
+    },
+    {
+      "from": "a-18",
+      "to": "a-17",
+      "relation": "answers",
+      "justification": "Indique où trouver les expériences demandées."
+    },
+    {
+      "from": "a-19",
+      "to": "a-18",
+      "relation": "supports",
+      "justification": "Précise le canal (mail) par lequel arrivent les expériences."
+    },
+    {
+      "from": "b-07",
+      "to": "b-02",
+      "relation": "supports",
+      "justification": "Le thème définitif retenu est Lupin, proposé en t0003."
+    },
+    {
+      "from": "b-08",
+      "to": "b-07",
+      "relation": "supports",
+      "justification": "Justifie le choix du thème Lupin par son succès."
+    },
+    {
+      "from": "b-15",
+      "to": "b-07",
+      "relation": "supports",
+      "justification": "Rédaction de l'explication du choix du thème Lupin."
+    },
+    {
+      "from": "b-16",
+      "to": "b-09",
+      "relation": "supports",
+      "justification": "Le type noté conserve l'escape game."
+    },
+    {
+      "from": "b-16",
+      "to": "b-10",
+      "relation": "supports",
+      "justification": "Le type noté intègre la conférence proposée par 052."
+    },
+    {
+      "from": "b-28",
+      "to": "b-17",
+      "relation": "supports",
+      "justification": "La présentation de la nouvelle saison est notée dans la fiche."
+    },
+    {
+      "from": "b-29",
+      "to": "b-22",
+      "relation": "supports",
+      "justification": "Le restaurant avec l'acteur pour l'équipe gagnante est noté."
+    },
+    {
+      "from": "b-30",
+      "to": "b-23",
+      "relation": "supports",
+      "justification": "Reprend l'avant-première du premier épisode en fin de journée."
+    },
+    {
+      "from": "b-33",
+      "to": "b-32",
+      "relation": "supersedes",
+      "justification": "052 corrige immédiatement « la personne » en « l'équipe la plus rapide »."
+    },
+    {
+      "from": "c-04",
+      "to": "c-03",
+      "relation": "answers",
+      "justification": "« un an à l avance » répond à la question de la date."
+    },
+    {
+      "from": "c-05",
+      "to": "c-02",
+      "relation": "supports",
+      "justification": "La tâche 1 reprend la proposition de contacter l'équipe de tournage."
+    },
+    {
+      "from": "c-05",
+      "to": "c-04",
+      "relation": "supports",
+      "justification": "La tâche 1 retient le délai d'un an."
+    },
+    {
+      "from": "c-29",
+      "to": "c-05",
+      "relation": "supports",
+      "justification": "Le récapitulatif redit la tâche 1 et ajoute le responsable."
+    },
+    {
+      "from": "c-30",
+      "to": "c-07",
+      "relation": "supports",
+      "justification": "La tâche 2 reprend la prise de contact avec salles et hôtels."
+    },
+    {
+      "from": "c-17",
+      "to": "c-09",
+      "relation": "supports",
+      "justification": "La tâche 3 reprend la communication digitale."
+    },
+    {
+      "from": "c-32",
+      "to": "c-18",
+      "relation": "supports",
+      "justification": "Le récapitulatif redit les sept à huit mois."
+    },
+    {
+      "from": "c-21",
+      "to": "c-16",
+      "relation": "supports",
+      "justification": "La tâche 6 reprend l'idée de subvention et de sponsors."
+    },
+    {
+      "from": "c-22",
+      "to": "c-21",
+      "relation": "supersedes",
+      "justification": "« ça ce serait avant » : la recherche de subventions est avancée."
+    },
+    {
+      "from": "c-31",
+      "to": "c-21",
+      "relation": "supersedes",
+      "justification": "La recherche de subventions passe de la tâche 6 à la tâche 3 dans le récapitulatif."
+    },
+    {
+      "from": "c-19",
+      "to": "c-11",
+      "relation": "supports",
+      "justification": "La billetterie à six mois reprend l'indication de 052."
+    },
+    {
+      "from": "c-33",
+      "to": "c-19",
+      "relation": "supports",
+      "justification": "Le récapitulatif redit la vente six mois avant."
+    },
+    {
+      "from": "c-34",
+      "to": "c-20",
+      "relation": "supports",
+      "justification": "Le récapitulatif redit les quatre mois à l'avance."
+    },
+    {
+      "from": "c-35",
+      "to": "c-23",
+      "relation": "supports",
+      "justification": "La tâche 7 retient la relance des ventes par une tête d'affiche."
+    },
+    {
+      "from": "c-28",
+      "to": "c-27",
+      "relation": "supersedes",
+      "justification": "« je vais le remonter » : le recrutement est placé avec la relance des ventes."
+    },
+    {
+      "from": "c-35",
+      "to": "c-28",
+      "relation": "supports",
+      "justification": "Le récapitulatif place les bénévoles dans la tâche 7 à deux mois."
+    },
+    {
+      "from": "c-36",
+      "to": "c-35",
+      "relation": "supports",
+      "justification": "Attribue les responsables de la tâche 7."
+    },
+    {
+      "from": "c-37",
+      "to": "c-24",
+      "relation": "supports",
+      "justification": "La vérification à un mois inclut le nombre de présents confirmés."
+    },
+    {
+      "from": "c-38",
+      "to": "c-25",
+      "relation": "supports",
+      "justification": "La tâche 9 organise l'escape game avec l'équipe de tournage."
+    }
+  ],
+  "queries": [
+    {
+      "key": "q01",
+      "about_meeting": "016c_EBPZ",
+      "text": "Quel budget a-t-on pour organiser l'événement Lupin ?",
+      "answerable": true,
+      "qrels": {
+        "c-01": 2,
+        "c-14": 1,
+        "b-25": 0,
+        "b-26": 0,
+        "b-27": 0
+      },
+      "traps": [
+        {
+          "unit": "b-25",
+          "trap": "amount"
+        },
+        {
+          "unit": "b-26",
+          "trap": "amount"
+        },
+        {
+          "unit": "b-27",
+          "trap": "amount"
+        }
+      ]
+    },
+    {
+      "key": "q02",
+      "about_meeting": "016c_EBPZ",
+      "text": "Quel rôle s'occupe de chercher des subventions et des sponsors ?",
+      "answerable": true,
+      "qrels": {
+        "c-31": 2,
+        "c-21": 0,
+        "c-16": 0,
+        "c-22": 0,
+        "c-32": 0
+      },
+      "traps": [
+        {
+          "unit": "c-21",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-16",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-32",
+          "trap": "person"
+        }
+      ]
+    },
+    {
+      "key": "q03",
+      "about_meeting": "016c_EBPZ",
+      "text": "Combien de temps avant l'événement ouvre la billetterie ?",
+      "answerable": true,
+      "qrels": {
+        "c-19": 2,
+        "c-33": 2,
+        "c-11": 1,
+        "c-20": 0,
+        "c-18": 0,
+        "c-39": 0
+      },
+      "traps": [
+        {
+          "unit": "c-20",
+          "trap": "date"
+        },
+        {
+          "unit": "c-18",
+          "trap": "date"
+        },
+        {
+          "unit": "c-39",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q04",
+      "about_meeting": "016c_EBPZ",
+      "text": "Quel format d'événement a finalement été retenu pour le thème Lupin ?",
+      "answerable": true,
+      "qrels": {
+        "b-16": 2,
+        "b-09": 1,
+        "b-10": 1,
+        "b-07": 0,
+        "b-24": 0,
+        "b-23": 0
+      },
+      "traps": [
+        {
+          "unit": "b-07",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "b-24",
+          "trap": "status"
+        },
+        {
+          "unit": "b-23",
+          "trap": "status"
+        }
+      ]
+    },
+    {
+      "key": "q05",
+      "about_meeting": "016c_EBPZ",
+      "text": "Combien de temps à l'avance faut-il joindre les gens du tournage, et quel rôle en est chargé ?",
+      "answerable": true,
+      "qrels": {
+        "c-05": 2,
+        "c-29": 2,
+        "c-04": 1,
+        "c-02": 0,
+        "c-38": 0,
+        "c-25": 0
+      },
+      "traps": [
+        {
+          "unit": "c-02",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-38",
+          "trap": "date"
+        },
+        {
+          "unit": "c-25",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q06",
+      "about_meeting": "016c_EBPZ",
+      "text": "Pourquoi ne veut-on pas organiser l'événement dans la capitale ?",
+      "answerable": true,
+      "qrels": {
+        "c-06": 2,
+        "c-07": 0,
+        "c-08": 0
+      },
+      "traps": [
+        {
+          "unit": "c-07",
+          "trap": "topic_only"
+        },
+        {
+          "unit": "c-08",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q07",
+      "about_meeting": "016c_EBPZ",
+      "text": "À quel moment du planning démarre le recrutement des bénévoles ?",
+      "answerable": true,
+      "qrels": {
+        "c-28": 2,
+        "c-35": 2,
+        "c-27": 1,
+        "c-23": 0
+      },
+      "traps": [
+        {
+          "unit": "c-23",
+          "trap": "topic_only"
+        }
+      ]
+    },
+    {
+      "key": "q08",
+      "about_meeting": "016c_EBPZ",
+      "text": "Quelle date précise a été fixée pour le jour de l'événement ?",
+      "answerable": false,
+      "qrels": {},
+      "traps": []
+    }
+  ],
+  "speaker_names": {
+    "035": "nina (incertain)",
+    "052": "clara ou stéphanie (incertain)"
+  },
+  "notes": "Réunion a (ASR) : discussion libre sur les séries préférées et la participation à des expériences, sans décision ; attribution des locuteurs parfois incohérente. Réunion b (ASR) : thème Lupin et format conférence + escape game ; durée (un ou deux jours) restée ouverte. Réunion c : planning en 10 tâches ; la numérotation change en cours de réunion (subventions tâche 6 puis tâche 3 ; recrutement des bénévoles remonté à deux mois). Les responsables sont des rôles fictifs (directeur de projet, chargé de com, chargé d'événementiel), d'où owner null. Données personnelles (lieu de résidence, âge, mari, emploi passé) non annotées."
+}
