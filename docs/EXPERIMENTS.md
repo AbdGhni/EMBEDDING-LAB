@@ -35,3 +35,35 @@ Précision par paires de BM25, par type de piège (n entre parenthèses) :
 - Sur B-REAL, BM25 reste faible (nDCG@10 = 0,21) : requêtes reformulées, oral bruité, vocabulaire peu partagé entre question et preuve. La précision par paires y est inférieure à 0,5 : les pièges réels partagent souvent davantage de mots avec la question que la vraie réponse.
 - Le plancher aléatoire de B-REAL (0,43) s'écarte de 0,5 : ses 262 triplets ne sont pas indépendants (un même positif apparaît dans plusieurs triplets). C'est du bruit d'échantillonnage, pas un signal.
 - Ces chiffres de validation servent de repère ; ils ne sont pas les résultats confirmatoires (test, protocole § 7).
+
+## E1 — e5-small sans adaptation (validation)
+
+Run : `E1-e5-small-val-2026-10-22T1130` (commit `1720d6b`, propre). `intfloat/multilingual-e5-small` @ `614241f6…`, fp32, CPU (2 vCPU), 128 tokens (0 passage tronqué), préfixes « query: » / « passage: ». Durée totale : 44 s pour les deux benchmarks.
+
+| Benchmark (val) | Système | nDCG@10 | MRR@10 | R@1 | R@10 | Précision par paires |
+|---|---|---|---|---|---|---|
+| B-SYN | BM25 | 0,517 | 0,523 | 0,292 | 0,560 | 0,723 |
+| B-SYN | e5-small | **0,752** | 0,712 | 0,335 | **0,969** | 0,600 |
+| B-REAL | BM25 | 0,206 | 0,355 | 0,069 | 0,284 | 0,479 |
+| B-REAL | e5-small | **0,293** | 0,466 | 0,138 | 0,335 | 0,588 |
+
+Précision par paires d'e5-small, par type de piège :
+
+| Piège | B-SYN val | B-REAL val |
+|---|---|---|
+| status | **0,24** (54) | 0,42 (31) |
+| superseded | **0,04** (25) | 0,49 (45) |
+| negation | 0,73 (22) | 0,75 (8) |
+| person | 0,50 (16) | 0,62 (52) |
+| date | 1,00 (32) | 0,33 (12) |
+| condition | 0,83 (6) | — |
+| amount | — | 0,75 (12) |
+| topic_only | 0,83 (80) | 0,67 (102) |
+
+### Lecture
+
+- L'encodeur générique retrouve le bon **sujet** (R@10 = 0,97 sur B-SYN), mais classe mal **l'état** de l'information : R@1 = 0,34.
+- Sur B-SYN, il est **nettement en dessous du hasard** sur `status` (0,24) et `superseded` (0,04) : il préfère systématiquement la proposition à la validation, et l'ancienne décision à celle qui la remplace. Explication probable, à vérifier sur des exemples : la formulation de la question (« quelle date a été retenue », « quel budget validé ») ressemble davantage aux phrases d'annonce initiales qu'aux phrases de correction (« finalement… au lieu de… »).
+- Sur B-REAL, e5 améliore BM25 (nDCG@10 0,29 contre 0,21) mais reste au hasard sur `status` et `superseded`.
+- Conséquence pour E2 : le gain attendu se situe d'abord dans le **réordonnancement** des candidats (R@1, pièges), pas dans le rappel.
+- Ce sont des mesures de validation, sans intervalle de confiance : elles orientent la conception de E2 et ne valident aucune hypothèse.
