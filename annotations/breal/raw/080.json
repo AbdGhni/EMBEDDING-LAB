@@ -1,0 +1,1959 @@
+{
+ "group_id": "080",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0000",
+   "evidence": "on va vous présenter les films c'est pour savoir quel type de film va passer dans le festival",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la réunion : chacune présente un genre pour choisir le type de film du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0006",
+   "evidence": "ce serait vraiment euh un élément majeur de choisir euh le genre horreur suspense",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose le genre horreur / suspense pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0029",
+   "evidence": "on pourrait attirer pas mal au niveau du public les adolescents ils adorent les jeunes adultes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Selon 192, l'horreur attirerait surtout les adolescents et les jeunes adultes (18-25 ans).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Tranche d'âge précisée au tour t0030 (vingt-cinq ans)."
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0033",
+   "evidence": "moi je pense que le thème franchise et univers de super héros serait un",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose le thème franchises et univers de super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée poursuivie au tour t0035."
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0090",
+   "evidence": "voir un un marvel ou un film de science-fiction c'est quand même une vraie référence aujourd'hui",
+   "type": "fact",
+   "status": "active",
+   "statement": "Pour 193, voir un Marvel ou un film de science-fiction est une référence culturelle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0237",
+   "evidence": "pour le genre horreur je pense que ce serait une bonne idée parce_que il_y a la période d' halloween qui approche et je pense que ce serait vraiment super au mois d' octobre si on devait mettre ce festival en place",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 suggère d'organiser le festival d'horreur en octobre, à l'approche d'Halloween.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0241",
+   "evidence": "c'est l' aventure euh ben écoutez pour moi l' aventure ça se rapproche un peu du monde héros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 propose le genre aventure, proche du monde des héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0241",
+   "evidence": "ça touche tout_le monde les petits comme les grands euh on a pas à faire peur aux gens cette fois -ci",
+   "type": "fact",
+   "status": "active",
+   "statement": "Argument de 191 : l'aventure touche petits et grands sans faire peur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0259",
+   "evidence": "ça pourrait mêler en fait vraiment tous_les thèmes c'est-à-dire que dans un film d' aventure on peut mettre de la romance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Un film d'aventure peut mêler tous les thèmes (romance, super-héros, horreur).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0265",
+   "evidence": "les films du coup super héros t' as pas trop peur que ça fasse",
+   "type": "question",
+   "status": "resolved",
+   "statement": "191 demande à 193 si les films de super-héros conviennent à un festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Question complétée au tour t0266."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0267",
+   "evidence": "ben moi je pense que les super héros c'est assez intemporel",
+   "type": "answer",
+   "status": "active",
+   "statement": "193 répond que les super-héros sont intemporels.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0285",
+   "evidence": "t' as pas peur de la concurrence en fait avec euh créer un nouveau héros ou une nouvelle héroïne",
+   "type": "question",
+   "status": "resolved",
+   "statement": "191 demande si la concurrence de Marvel n'est pas un problème pour un nouveau héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0288",
+   "evidence": "je pense pas qu' il_y ait énormément de concurrence à propos de ça",
+   "type": "answer",
+   "status": "active",
+   "statement": "193 estime que la concurrence n'est pas un problème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0290",
+   "evidence": "ça peut très vite ressembler à un super héros qui a déjà existé",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : un nouveau super-héros peut vite ressembler à un héros existant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0309",
+   "evidence": "du_coup pour un festival enfin tu mettrais lequel",
+   "type": "question",
+   "status": "resolved",
+   "statement": "191 demande à 192 quel film d'horreur elle mettrait au festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0315",
+   "evidence": "je dirais qu' il faut en mettre un adapté à à toute tranche d' âge",
+   "type": "answer",
+   "status": "active",
+   "statement": "192 répond qu'il faut un film d'horreur adapté à toutes les tranches d'âge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0320",
+   "evidence": "je dirais annabelle parce_que ça reste un classique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose Annabelle, un classique de l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0340",
+   "evidence": "il faut il faut vraiment euh dans ce cas là fermer le festival à toutes_les personnes plus jeunes quoi",
+   "type": "risk",
+   "status": "active",
+   "statement": "Avec un film comme Annabelle, il faudrait fermer le festival aux plus jeunes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0343",
+   "evidence": "c'est vrai du coup il faudrait trouver un film plus adapté encore",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 admet qu'il faudrait un film d'horreur plus adapté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0344",
+   "evidence": "c'est un genre de cinéma qui est enfin ça passe ou ça casse généralement",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : l'horreur est un genre qu'on aime ou qu'on rejette.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0426",
+   "evidence": "c'est pas que film d' horreur en mode maléfique hanté c'est aussi il_y a aussi de la psychologie derrière",
+   "type": "fact",
+   "status": "active",
+   "statement": "192 rappelle que l'horreur peut être psychologique, pas seulement surnaturelle.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le résumé du film cité (t0428-t0432) n'est pas annoté."
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0461",
+   "evidence": "autant pendant un festival mettre une grosse partie genre une grosse partie qui dure 1h30",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 propose de diffuser une partie d'1h30 présentée comme une suite de série.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0466",
+   "evidence": "vous avez pensé à des acteurs à prendre ou pas",
+   "type": "question",
+   "status": "resolved",
+   "statement": "191 demande quels acteurs prendre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0473",
+   "evidence": "moi je dirais déjà omar sy jean dujardin",
+   "type": "answer",
+   "status": "active",
+   "statement": "193 cite Omar Sy et Jean Dujardin comme acteurs.",
+   "owner": null,
+   "mentioned_people": [
+    "omar sy",
+    "jean dujardin"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0498",
+   "evidence": "prenez bien les bien acteurs bien basiques bien stock du genre johnny depp",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour l'aventure, 191 suggère des acteurs connus comme Johnny Depp.",
+   "owner": null,
+   "mentioned_people": [
+    "johnny depp"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0520",
+   "evidence": "bon elle va coûter cher angelina jolie par_contre",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : Angelina Jolie coûterait cher.",
+   "owner": null,
+   "mentioned_people": [
+    "angelina jolie"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "080a_EBRH",
+   "turn": "t0522",
+   "evidence": "c'est pas grave on n' a pas de budget limité donc",
+   "type": "fact",
+   "status": "active",
+   "statement": "193 indique que le budget n'est pas limité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0004",
+   "evidence": "nous nous retrouvons aujourd'hui pour euh décider euh dans quel euh type de cinéma nous allons faire notre festival",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet : décider le type de cinéma et le thème du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0010",
+   "evidence": "moi je pense qu on horreur il doit rester parce qu il est un peu différent et que super héros aventure ça se mêle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 propose de garder l'horreur car super-héros et aventure se recoupent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0016",
+   "evidence": "en aventure il_y a beaucoup beaucoup beaucoup de variétés et en horreur comme on peut choisir deux thèmes",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose de retirer les super-héros et de garder aventure et horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le retrait des super-héros est dit au tour t0013 (« moi je dirais super héros »)."
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0025",
+   "evidence": "si on choisit le thème film d horreur euh le festival euh il_y aura forcément des personnes qui auront peur",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : avec le thème horreur, certaines personnes auront forcément peur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0033",
+   "evidence": "je pense que c'est à laisser tomber parce_que pas tout_le monde a une voiture déjà",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose d'abandonner le drive-in car tout le monde n'a pas de voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le drive-in est nommé au tour t0031."
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0036",
+   "evidence": "salle de cinéma classique euh c'est pas mal parce_que ça on a beaucoup de place on peut accueillir vachement de public",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose une salle de cinéma classique, avec beaucoup de places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "192 ajoute (t0038) que ce ne serait pas original."
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0041",
+   "evidence": "moi je trouve ça génial film d horreur en enfin en drive-in",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 soutient l'idée d'un film d'horreur en drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le drive-in est ensuite retenu implicitement (lieu, voitures, tarifs en drive)."
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0059",
+   "evidence": "pour tous_les adolescents ils sont pas véhiculés",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : les adolescents ne sont pas véhiculés pour un drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0075",
+   "evidence": "il faut faire un endroit qui est accessible en en bus en transport en commun",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu doit être accessible en bus / transports en commun.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Accord implicite de 191 (« aussi ouais ») et 192 (« un endroit qui est desservi »)."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0080",
+   "evidence": "faut qu il_y ait des personnes qui contrôlent à l entrée si on met le film horreur le thème horreur",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir des personnes à l'entrée pour contrôler l'âge (classification des films d'horreur).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Contrôle des âges précisé au tour t0082."
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0085",
+   "evidence": "on fait ça sur plusieurs spots genre faut pas que ça soit une ville",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 propose d'organiser le festival dans plusieurs villes en même temps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0089",
+   "evidence": "mais non le festival on le fait dans un seul endroit à une seule fois",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival a lieu en un seul endroit, une seule fois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "191 accepte (« ah ouais »)."
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0092",
+   "evidence": "donc on choisit horreur et aventure ça vous va",
+   "type": "decision",
+   "status": "active",
+   "statement": "Les deux thèmes retenus sont l'horreur et l'aventure.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de 192 et 191."
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0100",
+   "evidence": "on peut en choisir deux et on a on a éliminé super héros",
+   "type": "fact",
+   "status": "active",
+   "statement": "Deux thèmes peuvent être choisis ; les super-héros sont éliminés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0112",
+   "evidence": "il faut pas choisir la ville il faut juste dans quel genre de lieu",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas besoin de choisir la ville, seulement le type de lieu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "192 accepte (« ah ok »)."
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0118",
+   "evidence": "un grand parc",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le lieu sera un grand parc.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "inferred",
+   "notes": "Proposé par 191 (t0115) et repris par 192 ; 193 acquiesce. Extrait court mais il porte l'objet."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0142",
+   "evidence": "il_y en a maximum dix ouais",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival peut diffuser au maximum dix films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0182",
+   "evidence": "trois jours je dirais",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose que le festival dure trois jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0336",
+   "evidence": "jumanji valerian indiana jones la nonne chucky joker ça tomb raider game of throne et black mirror",
+   "type": "decision",
+   "status": "active",
+   "statement": "Liste récapitulée des films : Jumanji, Valérian, Indiana Jones, La Nonne, Chucky, Joker, Ça, Tomb Raider, Game of Thrones, Black Mirror.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "191 valide (« ouais parfait »). La liste est rediscutée ensuite (Top Gun, Black Mirror)."
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0339",
+   "evidence": "par_rapport_à notre sujet à quel genre de public on attend",
+   "type": "question",
+   "status": "resolved",
+   "statement": "193 demande quel public est attendu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0343",
+   "evidence": "moi je dirais que c'est un public varié que ça peut pas des enfants en_tout_cas",
+   "type": "answer",
+   "status": "active",
+   "statement": "192 répond : un public varié, mais pas les enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0353",
+   "evidence": "comme on met des films d horreur déjà pas avant dix-huit ans par principe",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose d'interdire le festival aux moins de 18 ans à cause de l'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "192 répond « seize plus » ; pas de tranchage net."
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0361",
+   "evidence": "on fait une première partie full aventure et la deuxième partie full horreur a la fin",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose une première partie aventure puis une seconde partie horreur, plus tard.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0381",
+   "evidence": "moi j y serais allée moi j aurais fait une semaine",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 aurait voulu un festival d'une semaine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0390",
+   "evidence": "moi je dirais cinq jours avec deux films par soir de chaque thème",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose cinq jours avec deux films par soir, un de chaque thème.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0394",
+   "evidence": "ok ouais ça c'est pas bête ça c'est pas bête ouais aller cinq jours",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival durera cinq jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "191 se range à la proposition de 193 après l'argument de 192."
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0400",
+   "evidence": "on a mis six films d aventure et quatre films d horreur",
+   "type": "fact",
+   "status": "active",
+   "statement": "La sélection compte six films d'aventure et quatre d'horreur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0435",
+   "evidence": "par_contre le la durée j réduirais vraiment à trois jours moi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose de réduire la durée à trois jours.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0449",
+   "evidence": "ben non mais en vrai cinq jours c'est pas mal comme il_y a dix films",
+   "type": "decision",
+   "status": "active",
+   "statement": "Confirmation : cinq jours, pour répartir les dix films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "192 accepte (« ok ok »)."
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0427",
+   "evidence": "est-ce qu il est plus intéressant de choisir un invité qui fera venir beaucoup de monde ou plusieurs invités",
+   "type": "question",
+   "status": "open",
+   "statement": "Faut-il un seul invité vedette ou plusieurs invités ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Plusieurs pistes (acteur, influenceurs) mais aucun invité tranché."
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0431",
+   "evidence": "soit un acteur un un acteur si on peut mais si on si on peut pas c'est pas grave ou un réalisateur ou alors un influenceur",
+   "type": "answer",
+   "status": "active",
+   "statement": "192 propose un acteur, un réalisateur ou un influenceur qui ferait la promotion.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0485",
+   "evidence": "il est génial et comme ça on fait venir tom cruise",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose d'ajouter Top Gun et de faire venir Tom Cruise.",
+   "owner": null,
+   "mentioned_people": [
+    "tom cruise"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Top Gun nommé par 192 au tour t0482."
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0507",
+   "evidence": "non moi j dirais que ça va faire un flop",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : Top Gun ferait un flop car le public l'a vu récemment.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Justification aux tours t0511-t0514."
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0531",
+   "evidence": "ben oui hein logique après pas un prix",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'entrée sera payante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse à « est-ce qu on fait payer l entrée » (t0527), accord des trois."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0534",
+   "evidence": "on met le pass culture moi je dis parce_que comme ça pour les personnes qui ont pas forcément les moyens",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le pass Culture sera accepté pour les personnes aux moyens limités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 191 (t0533), validé."
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0569",
+   "evidence": "je dirais un film sept euros on peut inclure euh popcorn compris",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose sept euros le film, pop-corn compris.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "sept euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0588",
+   "evidence": "en_fait c'est dix euros par jour et pour un film c'est sept euros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose dix euros la journée et sept euros le film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "dix euros par jour ; sept euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0599",
+   "evidence": "on peut faire ça en vrai diminuer le prix du pop-corn et augmenter le prix pour le film",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le pop-corn sera vendu à part, moins cher, et le prix du film augmenté.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Reprend l'idée de 191 (t0596, pop-corn à un ou deux euros) ; 193 acquiesce (t0597)."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0619",
+   "evidence": "donc donc on fait un tarif par jour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose un tarif à la journée, faute de pouvoir contrôler les entrées et sorties.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Raison donnée au tour t0617."
+  },
+  {
+   "key": "b-40",
+   "meeting_id": "080b_EBDH",
+   "turn": "t0633",
+   "evidence": "huit euros cinquante un film",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le prix retenu est de huit euros cinquante par film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "huit euros cinquante",
+   "assertion": "extracted",
+   "notes": "192 se dit d'accord avec 191 (une place par film) aux tours t0630-t0632."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0005",
+   "evidence": "ce serait bien de le faire ce mois -ci",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose de faire le festival en octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Mois précisé au tour t0007."
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0010",
+   "evidence": "mais l' an prochain hein le temps d' organiser tout ça c'est pas possible",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu l'an prochain, faute de temps pour l'organiser cette année.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "192 approuve (« oui ben bien sûr »)."
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0022",
+   "evidence": "moi je dirais la dernière semaine d' octobre juste avant halloween dans le thème",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose la dernière semaine d'octobre, juste avant Halloween.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0031",
+   "evidence": "on fait ça juste avant la semaine d' avant donc euh la dernière semaine d' octobre",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se tiendra la dernière semaine d'octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "191 conclut « bon sur ça euh on est décidés » (t0045)."
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0042",
+   "evidence": "mais on avait dit on faisait un des deux chaque jour",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : chaque jour, un film de chacun des deux genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0208",
+   "evidence": "semaines d' halloween ensuite on a mis réservation lieu matériel nourriture",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tâches listées : date, réservation du lieu, matériel, nourriture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Suite de la liste au tour t0209."
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0209",
+   "evidence": "souvenirs photos tickets et places hygiène et santé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tâches listées (suite) : souvenirs/photos, tickets et places, hygiène, santé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0077",
+   "evidence": "ben non à koku en vrai les petites bières",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 suggère de vendre des petites bières.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0084",
+   "evidence": "non non je préfère pas parce_que sachant qu' ils te conduisent euh on va pas inciter",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas de vente d'alcool, car les spectateurs conduisent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "193 approuve (« ah non surtout pas »)."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0097",
+   "evidence": "la personne qui vérifie que les gens sont majeurs et tout un videur agent de sécurité",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir un videur / agent de sécurité qui vérifie la majorité des spectateurs.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0112",
+   "evidence": "et surtout qu' ils vérifient que les gens sont pas alcoolisés en repartant",
+   "type": "action",
+   "status": "open",
+   "statement": "La sécurité doit vérifier que les gens ne repartent pas alcoolisés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0117",
+   "evidence": "tout ce qui est toile place tracé et tout les marquages pour placer les voitures",
+   "type": "action",
+   "status": "open",
+   "statement": "Matériel : toile, tracés et marquages pour placer les voitures.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0131",
+   "evidence": "quelqu'un qui passe pour les poubelles pour éviter que le lieu soit plein de paquets de chips",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir quelqu'un pour les poubelles (hygiène du lieu).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0144",
+   "evidence": "santé s'il y a des gens qui sentent pas bien un médecin",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir un poste santé (médecin) en cas de malaise.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0186",
+   "evidence": "ben du_coup objets souvenirs du festival du genre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "192 propose de vendre des objets souvenirs pour augmenter le bénéfice.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« pour augmenter le bénéfice » au tour t0183."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0193",
+   "evidence": "dédicaces avec l' acteur si on a réussi à le faire venir",
+   "type": "idea",
+   "status": "conditional",
+   "statement": "Dédicaces avec l'acteur, s'il vient.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0198",
+   "evidence": "un photopousse avec les avec des déguisements de des acteurs",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose un photobooth avec des déguisements.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« photopousse » : photobooth mal transcrit."
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0218",
+   "evidence": "veux bien trouver lieu réserver lieu",
+   "type": "commitment",
+   "status": "active",
+   "statement": "192 se propose pour trouver et réserver le lieu.",
+   "owner": "192",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0228",
+   "evidence": "matériel ingénieur euh moi je me sens pas parce que je m' y connais pas",
+   "type": "fact",
+   "status": "active",
+   "statement": "191 dit ne pas se sentir capable de gérer le matériel technique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0272",
+   "evidence": "moi je me charge de trouver qui fait la sécurité",
+   "type": "commitment",
+   "status": "active",
+   "statement": "192 se charge de trouver l'équipe de sécurité.",
+   "owner": "192",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Attribution demandée par 191 (« sécurité héloïse », t0271)."
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0313",
+   "evidence": "louise nous fait la réservation du lieu la sécurité",
+   "type": "fact",
+   "status": "active",
+   "statement": "Récapitulatif : Louise (192) s'occupe de la réservation du lieu et de la sécurité.",
+   "owner": "192",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0321",
+   "evidence": "et moi je fais l' hygiène la santé",
+   "type": "commitment",
+   "status": "active",
+   "statement": "191 prend en charge l'hygiène et la santé.",
+   "owner": "191",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0324",
+   "evidence": "il nous reste un an pour tout organiser",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'équipe dispose d'un an pour tout organiser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0242",
+   "evidence": "popcorn crêpes du tos et des gaufres des pringles",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Menu proposé par 193 : pop-corn, crêpes, gaufres, chips.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0332",
+   "evidence": "faut que tu fasses des trucs végés",
+   "type": "action",
+   "status": "open",
+   "statement": "Prévoir des options végétariennes à manger.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0388",
+   "evidence": "quand t' achètes de la bouffe on te donne des tickets et ça fait une tombola",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 propose une tombola : des tickets donnés à l'achat de nourriture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0426",
+   "evidence": "non parce_que s' ils n' ont pas de connexion c'est tombé hein",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : sans connexion, le système de QR code ne fonctionne pas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0485",
+   "evidence": "paris y' a pas de parc pour faire du driving",
+   "type": "fact",
+   "status": "active",
+   "statement": "Paris est écarté : pas de parc pour un drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0506",
+   "evidence": "moi je dirais bordeaux parce_qu' il fait chaud plus tard",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "193 propose Bordeaux, où il fait chaud plus tard dans l'année.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0513",
+   "evidence": "allez bordeaux on fait ça à bordeaux les gars",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu à Bordeaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Vote à main levée lancé par 192 (t0511)."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0525",
+   "evidence": "on en met quatre alors aux quatre coins du parking",
+   "type": "decision",
+   "status": "active",
+   "statement": "Quatre photobooths, aux quatre coins du parking.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "191 et 192 approuvent."
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0540",
+   "evidence": "si y' a des problèmes au niveau des règlements des tickets des gens qui veulent entrer qui veulent forcer le passage déjà je les mets à l' entrée",
+   "type": "commitment",
+   "status": "active",
+   "statement": "192 place des agents de sécurité à l'entrée (problèmes de tickets, passages forcés).",
+   "owner": "192",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Aussi à la sortie, près des toiles et entre les voitures (t0544-t0560)."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0564",
+   "evidence": "ça va revenir cher moi",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque : l'effectif de sécurité va coûter cher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« faut voir l' effectif » au tour t0562."
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0613",
+   "evidence": "pour les personnes âgées les personnes qui n' ont pas accès à internet",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Stands de vente de billets en ville pour les personnes sans accès à internet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée amorcée au tour t0611."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0657",
+   "evidence": "un deux trois cinq six sept ça serait le vingt_quatre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "191 calcule que le festival commencerait le 24 octobre.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0663",
+   "evidence": "le euh vendredi le vendredi vingt_sept jusqu'au trente-et-un au soir",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se tiendra du vendredi 27 au 31 octobre au soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "191 acquiesce (« ok ») ; année ambiguë (« deux_mille_vingt_deux » évoqué t0661)."
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0665",
+   "evidence": "louise tu nous réserves les lieux à bordeaux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Louise (192) réserve le lieu à Bordeaux.",
+   "owner": "192",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0673",
+   "evidence": "du coup moi je fais tout qui est matos et ingénieur du son ingénieur",
+   "type": "commitment",
+   "status": "active",
+   "statement": "191 s'occupe du matériel et de l'ingénierie son.",
+   "owner": "191",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0674",
+   "evidence": "manon elle nous fait la nourriture donc elle va penser à mettre de la bouffe végétarienne",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Manon (193) gère la nourriture, avec une offre végétarienne.",
+   "owner": "193",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "193 acquiesce (« ouaiiis »)."
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "080c_EBPH",
+   "turn": "t0687",
+   "evidence": "en ayant mis des places à sept euros",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "191 évoque des places à sept euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "sept euros",
+   "assertion": "extracted",
+   "notes": "Passage ASR confus (bénéfice visé, « huit_cent_cinquante euros » au tour t0688, peut-être « huit euros cinquante ») ; statut incertain."
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-14",
+   "to": "a-04",
+   "relation": "supersedes",
+   "justification": "« on a éliminé super héros » tranche explicitement la proposition de thème super-héros."
+  },
+  {
+   "from": "b-13",
+   "to": "a-02",
+   "relation": "supports",
+   "justification": "La décision retient l'horreur proposée en réunion a."
+  },
+  {
+   "from": "b-13",
+   "to": "a-07",
+   "relation": "supports",
+   "justification": "La décision retient l'aventure proposée en réunion a."
+  },
+  {
+   "from": "b-14",
+   "to": "b-13",
+   "relation": "supports",
+   "justification": "Rappelle que deux thèmes sont choisis (horreur et aventure)."
+  },
+  {
+   "from": "b-13",
+   "to": "b-02",
+   "relation": "supports",
+   "justification": "La décision garde l'horreur comme le proposait 191."
+  },
+  {
+   "from": "b-07",
+   "to": "b-05",
+   "relation": "contradicts",
+   "justification": "Soutien au drive-in contre la proposition de l'abandonner ; pas de tranchage explicite dans la réunion."
+  },
+  {
+   "from": "b-12",
+   "to": "b-11",
+   "relation": "supersedes",
+   "justification": "« mais non … dans un seul endroit » tranche l'idée de plusieurs villes."
+  },
+  {
+   "from": "b-26",
+   "to": "b-18",
+   "relation": "supersedes",
+   "justification": "Décision de cinq jours qui remplace la proposition de trois jours."
+  },
+  {
+   "from": "b-26",
+   "to": "b-24",
+   "relation": "supersedes",
+   "justification": "Décision de cinq jours qui remplace la proposition d'une semaine."
+  },
+  {
+   "from": "b-26",
+   "to": "b-25",
+   "relation": "supports",
+   "justification": "191 se range à la proposition de cinq jours de 193."
+  },
+  {
+   "from": "b-29",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "« cinq jours c'est pas mal » maintient cinq jours contre la nouvelle demande de trois jours, accepté par 192."
+  },
+  {
+   "from": "b-29",
+   "to": "b-26",
+   "relation": "supports",
+   "justification": "Reconfirme la durée de cinq jours."
+  },
+  {
+   "from": "b-21",
+   "to": "b-20",
+   "relation": "answers",
+   "justification": "Répond sur le public attendu."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "answers",
+   "justification": "Propose un type d'invité."
+  },
+  {
+   "from": "b-27",
+   "to": "b-19",
+   "relation": "supports",
+   "justification": "Le décompte six aventure / quatre horreur porte sur la liste récapitulée."
+  },
+  {
+   "from": "b-38",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "Pop-corn vendu à part et moins cher au lieu d'être inclus dans le prix."
+  },
+  {
+   "from": "b-40",
+   "to": "b-36",
+   "relation": "supersedes",
+   "justification": "Nouveau prix acté (huit euros cinquante) au lieu de sept euros."
+  },
+  {
+   "from": "b-40",
+   "to": "b-37",
+   "relation": "supersedes",
+   "justification": "Prix par film retenu au lieu du tarif dix euros / jour, sept euros / film."
+  },
+  {
+   "from": "b-40",
+   "to": "b-39",
+   "relation": "supersedes",
+   "justification": "Une place par film retenue au lieu d'un tarif à la journée."
+  },
+  {
+   "from": "c-40",
+   "to": "b-40",
+   "relation": "contradicts",
+   "justification": "Places à sept euros évoquées contre huit euros cinquante décidé ; passage ASR ambigu, pas de mise à jour explicite."
+  },
+  {
+   "from": "c-05",
+   "to": "b-25",
+   "relation": "supports",
+   "justification": "Rappelle un film de chaque genre par jour."
+  },
+  {
+   "from": "c-01",
+   "to": "a-06",
+   "relation": "supports",
+   "justification": "Reprend l'idée d'octobre pour Halloween."
+  },
+  {
+   "from": "c-04",
+   "to": "c-03",
+   "relation": "supports",
+   "justification": "Acte la dernière semaine d'octobre proposée."
+  },
+  {
+   "from": "c-36",
+   "to": "c-35",
+   "relation": "supersedes",
+   "justification": "Les dates du 27 au 31 remplacent le début au 24 calculé par 191."
+  },
+  {
+   "from": "c-36",
+   "to": "c-04",
+   "relation": "supports",
+   "justification": "Les dates 27-31 octobre précisent la dernière semaine d'octobre."
+  },
+  {
+   "from": "c-09",
+   "to": "c-08",
+   "relation": "supersedes",
+   "justification": "Refus explicite de l'alcool qui tranche la proposition de petites bières."
+  },
+  {
+   "from": "c-10",
+   "to": "b-10",
+   "relation": "supports",
+   "justification": "Le videur vérifie la majorité, comme le contrôle d'âge prévu."
+  },
+  {
+   "from": "c-30",
+   "to": "b-15",
+   "relation": "supersedes",
+   "justification": "« dans quelle ville on revient à la question » puis vote pour Bordeaux : la ville est finalement choisie."
+  },
+  {
+   "from": "c-30",
+   "to": "c-29",
+   "relation": "supports",
+   "justification": "Le vote retient Bordeaux proposé par 193."
+  },
+  {
+   "from": "c-37",
+   "to": "c-30",
+   "relation": "supports",
+   "justification": "La réservation du lieu se fait à Bordeaux."
+  },
+  {
+   "from": "c-37",
+   "to": "c-18",
+   "relation": "supports",
+   "justification": "Confirme que 192 réserve le lieu."
+  },
+  {
+   "from": "c-21",
+   "to": "c-20",
+   "relation": "supports",
+   "justification": "Le récapitulatif attribue la sécurité à 192."
+  },
+  {
+   "from": "c-38",
+   "to": "c-19",
+   "relation": "supersedes",
+   "justification": "191 prend finalement le matériel qu'elle disait ne pas maîtriser."
+  },
+  {
+   "from": "c-39",
+   "to": "c-25",
+   "relation": "supports",
+   "justification": "La responsable de la nourriture prévoit une offre végétarienne."
+  },
+  {
+   "from": "c-28",
+   "to": "b-07",
+   "relation": "supports",
+   "justification": "Le critère d'un parc pour le drive-in confirme le format drive-in."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "080b_EBDH",
+   "text": "Quels genres de films ont finalement été gardés pour la programmation, et lequel a été abandonné ?",
+   "answerable": true,
+   "qrels": {
+    "b-13": 2,
+    "b-14": 2,
+    "b-02": 1,
+    "b-03": 1,
+    "a-02": 1,
+    "a-07": 1,
+    "a-04": 0,
+    "a-09": 0,
+    "b-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-04",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-09",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "080b_EBDH",
+   "text": "Sur combien de jours le festival s'étalera-t-il finalement ?",
+   "answerable": true,
+   "qrels": {
+    "b-26": 2,
+    "b-29": 2,
+    "b-25": 1,
+    "c-36": 1,
+    "b-18": 0,
+    "b-24": 0,
+    "b-28": 0,
+    "c-23": 0
+   },
+   "traps": [
+    {
+     "unit": "b-18",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-24",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-23",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "080b_EBDH",
+   "text": "Combien coûtera le billet pour assister à une projection ?",
+   "answerable": true,
+   "qrels": {
+    "b-40": 2,
+    "b-38": 1,
+    "b-34": 1,
+    "c-40": 1,
+    "b-36": 0,
+    "b-37": 0,
+    "b-39": 0,
+    "b-35": 0
+   },
+   "traps": [
+    {
+     "unit": "b-36",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-37",
+     "trap": "amount"
+    },
+    {
+     "unit": "b-39",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-35",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "080b_EBDH",
+   "text": "Qui doit recruter les agents chargés de vérifier l'âge du public à l'entrée ?",
+   "answerable": true,
+   "qrels": {
+    "c-20": 2,
+    "c-21": 2,
+    "c-32": 1,
+    "c-10": 1,
+    "b-10": 1,
+    "c-22": 0,
+    "c-38": 0,
+    "c-11": 0,
+    "c-18": 0
+   },
+   "traps": [
+    {
+     "unit": "c-22",
+     "trap": "person"
+    },
+    {
+     "unit": "c-38",
+     "trap": "person"
+    },
+    {
+     "unit": "c-11",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-18",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "080b_EBDH",
+   "text": "Quel problème le format drive-in pose-t-il pour les spectateurs mineurs ?",
+   "answerable": true,
+   "qrels": {
+    "b-08": 2,
+    "b-05": 1,
+    "b-09": 1,
+    "b-07": 0,
+    "b-06": 0,
+    "a-18": 0,
+    "b-22": 0
+   },
+   "traps": [
+    {
+     "unit": "b-07",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-06",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-18",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "080b_EBDH",
+   "text": "Le pop-corn sera-t-il compris dans le prix d'entrée ?",
+   "answerable": true,
+   "qrels": {
+    "b-38": 2,
+    "b-40": 1,
+    "b-36": 0,
+    "c-24": 0
+   },
+   "traps": [
+    {
+     "unit": "b-36",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-24",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "080b_EBDH",
+   "text": "Dans quelle ville se tiendra le festival de films ?",
+   "answerable": true,
+   "qrels": {
+    "c-30": 2,
+    "c-37": 2,
+    "c-29": 1,
+    "c-28": 1,
+    "b-12": 1,
+    "b-15": 0,
+    "b-11": 0,
+    "b-16": 0
+   },
+   "traps": [
+    {
+     "unit": "b-15",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-11",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-16",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "080b_EBDH",
+   "text": "Quel invité célèbre a confirmé qu'il viendrait au festival ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "191": "jasmine (incertain)",
+  "192": "louise (incertain ; « héloïse » dans l'ASR de c)",
+  "193": "manon"
+ },
+ "notes": "Thème : organisation d'un festival de cinéma (choix des genres, lieu, durée, tarifs, répartition des tâches). Réunions a et c en ASR très bruitée (échos entre locuteurs) : extraits choisis dans le tour le plus complet. Ambiguïtés : drive-in jamais acté explicitement mais présupposé ensuite ; maintien de Black Mirror et rejet de Top Gun implicites en b (non annotés comme décisions) ; âge minimum 16 ou 18 ans non tranché ; en c, prix de la place à sept euros et « huit_cent_cinquante euros » (t0685-t0688) confus, annotés en unknown ; année du festival ambiguë. Non annotés : sensibilité personnelle de 193 aux films d'horreur, mention d'un proche (oncle, « papa ») et résumé détaillé d'un film. Identités : 193 = manon (interpellée plusieurs fois) ; 192 = louise (« désolée louise » après sa proposition horreur, « louise nous fait la réservation du lieu la sécurité ») ; 191 = jasmine incertain (« il faut se calmer jasmine », destinataire non sûr)."
+}
