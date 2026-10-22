@@ -363,3 +363,6 @@ Aucun accès au test à ce jour (`runs/TEST_ACCESS.log` absent).
 ### Train B-REAL
 
 Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînement contenant une réunion manuelle (112 réunions), même mandat v2, 3 sous-agents simultanés au plus.
+
+- Avancement au 2026-10-22T22:48+02:00 : 14/38 groupes validés et poussés (004 006 007 011 012 013 016 017 018 020 032 034 035 037).
+- Interruption : les sous-agents de 039, 040 et 043 ont été arrêtés par la limite de session de l'API (HTTP 429, levée à 18:10 Europe/Paris) avant d'écrire leur fichier ; repris par message à 22:48 sur leur transcription sauvegardée.
