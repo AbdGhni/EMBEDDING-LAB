@@ -1,0 +1,2266 @@
+{
+ "group_id": "102",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0001",
+   "evidence": "discuter d un d' un festival et savoir quel genre de film et quel film on veut mettre dedans",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet de la réunion : choisir le genre et les films d'un festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0027",
+   "evidence": "moi je vais vous proposer les films classiques",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan (024) propose le genre « films classiques ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0044",
+   "evidence": "beaucoup de spielberg aussi comme pulp fiction et euh kill bill",
+   "type": "fact",
+   "status": "active",
+   "statement": "Gaëtan attribue Pulp Fiction et Kill Bill à Spielberg.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Attribution erronée, corrigée en t0054-t0055."
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0054",
+   "evidence": "c'est tarantino ça",
+   "type": "fact",
+   "status": "active",
+   "statement": "Lina corrige : Pulp Fiction / Kill Bill, c'est Tarantino.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Gaëtan reconnaît la confusion en t0055."
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0090",
+   "evidence": "voilà donc je propose le film pulp fiction",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan propose Pulp Fiction comme film du genre classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0102",
+   "evidence": "moi mon thème c'est comédie et romance",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina (217) défend le genre comédie et romance (comédies musicales).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0108",
+   "evidence": "j ai pensé au film west side story",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina cite West Side Story.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0129",
+   "evidence": "j ai pensé aussi au fameux la la land",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina cite La La Land.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0159",
+   "evidence": "y a le moulin rouge qui se passe à paris",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina cite Moulin Rouge.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0168",
+   "evidence": "je pense que ça touche beaucoup ben les femmes",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Lina, les comédies musicales touchent surtout un public féminin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Opinion de la locutrice."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0199",
+   "evidence": "je propose les misérables qui reprend du_coup le roman de victor hugo",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose Les Misérables (comédie musicale tirée de Victor Hugo).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0208",
+   "evidence": "une chanson du jackman par_rapport_au bateau là qui joue jean valjean",
+   "type": "fact",
+   "status": "active",
+   "statement": "Dans Les Misérables, Hugh Jackman joue Jean Valjean.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0186",
+   "evidence": "ah oui y a mamma mia aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina cite aussi Mamma Mia.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0226",
+   "evidence": "ça touche tout_le monde les misérables tout_le monde a entendu parler en france",
+   "type": "fact",
+   "status": "active",
+   "statement": "Arthur : Les Misérables est connu de tous en France.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0235",
+   "evidence": "moi je retiens les misérables pour le_mien aussi c'est pas pulp fiction",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan remplace Pulp Fiction par Les Misérables pour son genre classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0247",
+   "evidence": "j ai choisi tout ce qui va être grosse franchise et euh univers des super héros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia (222) défend le genre grosses franchises / super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0252",
+   "evidence": "une tranche d âge qui est beaucoup plus jeune",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les super-héros touchent un public plus jeune.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0278",
+   "evidence": "hero corp c'est connu c'est un truc français c'est des super héros",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan suggère Hero Corp, série française de super-héros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0284",
+   "evidence": "par euuuh alexandre astier",
+   "type": "fact",
+   "status": "active",
+   "statement": "Gaëtan attribue Hero Corp à Alexandre Astier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Corrigé en t0552."
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0552",
+   "evidence": "le frère de celui qui fait kaamelott là simon astier",
+   "type": "fact",
+   "status": "active",
+   "statement": "Hero Corp est fait par Simon Astier, frère du créateur de Kaamelott.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0548",
+   "evidence": "c'est une série de quatre saisons",
+   "type": "fact",
+   "status": "active",
+   "statement": "Hero Corp est une série de quatre saisons.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0328",
+   "evidence": "il_y a une connectique entre tous_les films",
+   "type": "fact",
+   "status": "active",
+   "statement": "Safia : les films Marvel sont reliés entre eux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0338",
+   "evidence": "les vieux ils sont peut-être pas aussi captivés par euh par tout ce qui est super héros",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les super-héros risquent de moins captiver un public âgé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0362",
+   "evidence": "moi je vais proposer la science-fiction",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Arthur (021) propose le genre science-fiction.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0362",
+   "evidence": "tout ce qui va toucher l espace genre euh interstellar seul sur mars",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Arthur cite des films d'espace : Interstellar, Seul sur Mars.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0380",
+   "evidence": "ça peut toucher personne",
+   "type": "risk",
+   "status": "active",
+   "statement": "Gaëtan estime que la science-fiction d'Arthur peut ne toucher personne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ton moqueur."
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0371",
+   "evidence": "interstellar ça rentre dans le classique là carrément",
+   "type": "fact",
+   "status": "active",
+   "statement": "Safia : Interstellar peut être classé comme classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0431",
+   "evidence": "hans zimmer juste pour lui il faut le voir les films",
+   "type": "fact",
+   "status": "active",
+   "statement": "Lina met en avant les musiques de Hans Zimmer (Dune).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-29",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0440",
+   "evidence": "t' as la tour sombre aussi dans la science fiction",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan cite La Tour sombre (Stephen King).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-30",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0466",
+   "evidence": "toi tu dirais que les films classiques c'est recommandé pour quel genre de personnes",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Arthur demande à quel public les films classiques sont recommandés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-31",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0468",
+   "evidence": "j ai dit pour euh tout_le monde",
+   "type": "answer",
+   "status": "active",
+   "statement": "Gaëtan : les films classiques s'adressent à tout le monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-32",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0470",
+   "evidence": "mon film classique je change c'est misérable que je soumets",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan confirme qu'il soumet Les Misérables au lieu de son premier film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-33",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0475",
+   "evidence": "tu marques euh sur l affiche que c'est les misérables c'est pas pulp fiction",
+   "type": "action",
+   "status": "active",
+   "statement": "Noter sur l'affiche Les Misérables (et non Pulp Fiction) pour le genre classique.",
+   "owner": "021",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Demande de Gaëtan à Arthur, qui accepte en t0476 (« ça marche »)."
+  },
+  {
+   "key": "a-34",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0481",
+   "evidence": "je l ai fait quatre fois l expérience",
+   "type": "fact",
+   "status": "active",
+   "statement": "Gaëtan dit avoir fait l'expérience quatre fois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Corrigé en t0485 puis t0506."
+  },
+  {
+   "key": "a-35",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0506",
+   "evidence": "c'est la 3ème fois que je l' a fait l' expérience c'est pas quatre",
+   "type": "fact",
+   "status": "active",
+   "statement": "Gaëtan corrige : c'est sa troisième participation, pas la quatrième.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Formulé comme une consigne de prise de notes (« tu peux noter ») : annoté comme donnée."
+  },
+  {
+   "key": "a-36",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0517",
+   "evidence": "est-ce_que vous auriez une ville de prédilection",
+   "type": "question",
+   "status": "open",
+   "statement": "Arthur demande s'il y a une ville préférée pour le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Reportée (t0518) ; réponse dans la réunion c."
+  },
+  {
+   "key": "a-37",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0519",
+   "evidence": "ah c'est après oui interstellar",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le film défendu par Arthur est Interstellar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-38",
+   "meeting_id": "102a_EBRH",
+   "turn": "t0534",
+   "evidence": "on n a pas à choisir là encore il faut qu on continue de parler",
+   "type": "fact",
+   "status": "active",
+   "statement": "Aucun choix n'est à faire dans cette réunion ; la discussion continue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0002",
+   "evidence": "définir nos deux genres de films pour notre festival de cinéma",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objet : définir les deux genres de films du festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0007",
+   "evidence": "parce_que c'est classique déjà victor hugo",
+   "type": "fact",
+   "status": "active",
+   "statement": "Lina : Les Misérables est un classique (Victor Hugo).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0014",
+   "evidence": "on allierait deux genres en un classique et en même temps comédie musicale",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan : Les Misérables réunirait classique et comédie musicale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0015",
+   "evidence": "pour les vieux et pour les femmes ca marche",
+   "type": "risk",
+   "status": "active",
+   "statement": "Arthur : ce choix ne viserait que les personnes âgées et les femmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ton sarcastique ; transcription ASR."
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0020",
+   "evidence": "les super héros ça touche un peu plus le grand public",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les super-héros touchent davantage le grand public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0046",
+   "evidence": "on peut prendre aerocorp parce parce_qu' aerocorp c'est super héros et drôle",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan propose Hero Corp (super-héros et drôle).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« aerocorp » = Hero Corp (ASR)."
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0063",
+   "evidence": "on accepte que si il vient",
+   "type": "decision",
+   "status": "conditional",
+   "statement": "Safia accepte Les Misérables seulement si Hugh Jackman vient.",
+   "owner": null,
+   "mentioned_people": [
+    "hugh jackman"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR, accord sous condition, ton plaisantin."
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0064",
+   "evidence": "on pourrait l' inviter pour notre événement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter Hugh Jackman à l'événement.",
+   "owner": null,
+   "mentioned_people": [
+    "hugh jackman"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0101",
+   "evidence": "les festivals de super héros on en voit chaque année",
+   "type": "fact",
+   "status": "active",
+   "statement": "Gaëtan : des festivals de super-héros, il y en a chaque année.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0129",
+   "evidence": "mais il faut dix films",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le festival doit comporter dix films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0133",
+   "evidence": "ton truc sur la fiction désolé mais y' a quatre films quoi",
+   "type": "risk",
+   "status": "active",
+   "statement": "La science-fiction n'offrirait que quatre films connus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0148",
+   "evidence": "on parle pas de film classique on fait des groupes on parle du genre classique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Arthur : « classique » désigne un genre, pas les classiques du cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0176",
+   "evidence": "mais c'est pas deux genres",
+   "type": "risk",
+   "status": "active",
+   "statement": "Lina fait remarquer que le choix ne fait pas deux genres.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0195",
+   "evidence": "ah donc tu vois ben bon on fait classique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : le genre retenu pour le festival est le classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Lina approuve en t0196 (« on part sur ça »)."
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0199",
+   "evidence": "classique tu peux tout remettre dedans en_fait avengers c'est un classique aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Arthur : on peut ranger Avengers dans le classique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0201",
+   "evidence": "je considère pas ça comme un film culte",
+   "type": "fact",
+   "status": "active",
+   "statement": "Safia ne considère pas Avengers comme un film culte.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0219",
+   "evidence": "le drive-in pour amener et accueillir les participants dans leur voiture",
+   "type": "fact",
+   "status": "active",
+   "statement": "Option de lieu 1 : le drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0220",
+   "evidence": "le nombre de places n' est pas limité cependant l' interaction avec le public est compliquée",
+   "type": "fact",
+   "status": "active",
+   "statement": "Drive-in : places illimitées mais interaction difficile avec le public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0222",
+   "evidence": "le nombre de places est limité à soixante_dix",
+   "type": "fact",
+   "status": "active",
+   "statement": "Option lieu décoré/original : limité à 70 places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0223",
+   "evidence": "permet d' accueillir environ cent_cinquante personnes cependant il n' est pas spécialement original",
+   "type": "fact",
+   "status": "active",
+   "statement": "Option cinéma : environ 150 personnes, peu original.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0226",
+   "evidence": "j' aime bien le drive-in",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan préfère le drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0248",
+   "evidence": "choix du cinéma je mets classique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision de lieu : un cinéma classique (≈150 places).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Précédé de t0241-t0244 (150 places, deux fois plus)."
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0269",
+   "evidence": "forrest forrest gump",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose Forrest Gump en tête d'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0298",
+   "evidence": "forrest gump les gens vont se dire ah c'est du refait",
+   "type": "risk",
+   "status": "active",
+   "statement": "Forrest Gump paraîtrait déjà vu.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0289",
+   "evidence": "c'est pas interstellar hein c'est pas possible non_plus ça touche pas_assez de gens",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Interstellar écarté de la tête d'affiche, pas assez grand public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0301",
+   "evidence": "peut-être un django de tarantino",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia propose Django (Tarantino) en tête d'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0305",
+   "evidence": "voilà django ensuite le deuxième",
+   "type": "decision",
+   "status": "active",
+   "statement": "Django est retenu comme tête d'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR ; Gaëtan valide en t0304/t0306."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0322",
+   "evidence": "on peut mettre interstellar en vrai",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan propose d'ajouter Interstellar.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0429",
+   "evidence": "mis inception parce_que je trouve ça sympa",
+   "type": "decision",
+   "status": "active",
+   "statement": "Inception est ajouté au programme.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0438",
+   "evidence": "je mets un veto sur titanic",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia s'oppose à Titanic.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0444",
+   "evidence": "on va mettre quand même titanic",
+   "type": "decision",
+   "status": "active",
+   "statement": "Titanic est ajouté malgré l'opposition.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0497",
+   "evidence": "bon j' vais mettre taxi driver allez",
+   "type": "decision",
+   "status": "active",
+   "statement": "Taxi Driver est ajouté au programme.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0500",
+   "evidence": "un film français faudrait mettre un bon film français euh connu un peu drôle intouchable",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan propose un film français connu et drôle : Intouchables.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0533",
+   "evidence": "c'est celui qui a fait battre le record en france",
+   "type": "fact",
+   "status": "active",
+   "statement": "Intouchables aurait battu le record d'entrées en France.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« je crois » : incertain."
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0538",
+   "evidence": "deuxième misérable troisième interstellar juste en dessous d' interstellar on a inception ensuite on a titanic en dessous des misérables au milieu taxi driver",
+   "type": "decision",
+   "status": "active",
+   "statement": "Récapitulatif : 2e Les Misérables, 3e Interstellar, puis Inception, Titanic, Taxi Driver.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0539",
+   "evidence": "encore un peu plus petit sur la gauche on a intouchables",
+   "type": "decision",
+   "status": "active",
+   "statement": "Intouchables figure en plus petit sur l'affiche.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0539",
+   "evidence": "il nous reste un film un peu sur la droite et deux films en plus petit au milieu",
+   "type": "fact",
+   "status": "active",
+   "statement": "Il reste trois emplacements de films à pourvoir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0542",
+   "evidence": "au milieu je mets alice de schindler ou la ligne verte plutôt",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia propose La Liste de Schindler ou La Ligne verte.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« alice de schindler » = La Liste de Schindler (ASR)."
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "102b_EBDH",
+   "turn": "t0609",
+   "evidence": "on met terminator et rookie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan propose Terminator et Rocky.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« rookie » = Rocky (ASR) ; pas d'accord exprimé (t0612-t0614)."
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0004",
+   "evidence": "je vais dire en été",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia propose l'été comme date.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0005",
+   "evidence": "c'est quand le printemps du cinéma",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Lina demande quand a lieu le Printemps du cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0011",
+   "evidence": "c'est en avril je crois la place est à deux euros",
+   "type": "answer",
+   "status": "active",
+   "statement": "Gaëtan : en avril, place à deux euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "deux euros",
+   "assertion": "extracted",
+   "notes": "Prix corrigé en t0015."
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0015",
+   "evidence": "quatre euros oui c'est ça quatre euros",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le prix de la place au Printemps du cinéma est de quatre euros.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": "quatre euros",
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0021",
+   "evidence": "on peut le faire coïncider pour euh mettre de en avant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire coïncider le festival avec le Printemps du cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0027",
+   "evidence": "mettons le en mai alors",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Gaëtan propose mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0033",
+   "evidence": "allez quatre mai",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date retenue : le 4 mai (2023).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par Gaëtan en t0032, année précisée en t0034."
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0044",
+   "evidence": "appeler un cinéma pour savoir lequel va nous accueillir",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Tâche 1 : appeler des cinémas pour trouver celui qui accueille le festival.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0054",
+   "evidence": "on a dit cinéma de cent_cinquante places juste avant",
+   "type": "fact",
+   "status": "active",
+   "statement": "Rappel : le lieu choisi est un cinéma de 150 places.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0109",
+   "evidence": "bon je vais contacter les cinémas pour les disponibilités",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Gaëtan s'engage à contacter les cinémas pour leurs disponibilités.",
+   "owner": "024",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0101",
+   "evidence": "moi j' aurais dit une semaine pour le truc",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose un festival d'une semaine.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0102",
+   "evidence": "cinq jours ouais quelque_chose comme ça ben deux films par jour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia propose cinq jours, deux films par jour.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0110",
+   "evidence": "en un week-end tu fais vendredi soir samedi dimanche ça rentre",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Arthur propose un week-end (vendredi soir à dimanche).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0113",
+   "evidence": "cinq semaines après faut le payer",
+   "type": "risk",
+   "status": "active",
+   "statement": "Une durée longue coûte cher.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Arthur se reprend : « une semaine pardon »."
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0126",
+   "evidence": "on a les thunes bon_ben prends une semaine alors",
+   "type": "decision",
+   "status": "active",
+   "statement": "Durée retenue : une semaine, le budget étant supposé suffisant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0152",
+   "evidence": "réalisation d un programme de l événement",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche 2 : réaliser le programme de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0174",
+   "evidence": "tu peux mettre des affiches dans les cinémas",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Arthur propose des affiches dans les cinémas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0171",
+   "evidence": "sur les réseaux en vrai c'est ce qui va toucher le plus",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia propose la communication sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0185",
+   "evidence": "du quatre au sept mai",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival se tient du 4 au 7 mai.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Remplace la durée d'une semaine (t0126) sans commentaire explicite."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0189",
+   "evidence": "on fait inviter les stars hein",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche 4 : inviter des stars.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0197",
+   "evidence": "y a hugh jackman pour les misérables",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter Hugh Jackman (Les Misérables).",
+   "owner": null,
+   "mentioned_people": [
+    "hugh jackman"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0207",
+   "evidence": "on a dicaprio pour euh inception",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inviter DiCaprio (Inception, Django, Titanic).",
+   "owner": null,
+   "mentioned_people": [
+    "dicaprio"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0350",
+   "evidence": "on met notre grosse guest c'est dicaprio",
+   "type": "decision",
+   "status": "active",
+   "statement": "DiCaprio est l'invité principal.",
+   "owner": null,
+   "mentioned_people": [
+    "dicaprio"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0400",
+   "evidence": "dicaprio hans zimmer bon voilà on met deux guests ça ira",
+   "type": "decision",
+   "status": "active",
+   "statement": "Deux invités retenus : DiCaprio et Hans Zimmer.",
+   "owner": null,
+   "mentioned_people": [
+    "dicaprio",
+    "hans zimmer"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0404",
+   "evidence": "omar sy aussi hein",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina ajoute Omar Sy comme invité possible.",
+   "owner": null,
+   "mentioned_people": [
+    "omar sy"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réaction tiède (t0406-t0408), pas d'accord explicite."
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0242",
+   "evidence": "pour marseille euh on va éviter",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Marseille est écarté comme ville.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0264",
+   "evidence": "ou cannes peut-être",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Safia propose Cannes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0331",
+   "evidence": "bon on va dire on le fait à aix-en-provence",
+   "type": "decision",
+   "status": "active",
+   "statement": "Le festival aura lieu à Aix-en-Provence.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Cinéma Le Cézanne précisé en t0332."
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0346",
+   "evidence": "ah en corrèze on va les envoyer corrèze",
+   "type": "idea",
+   "status": "unknown",
+   "statement": "Gaëtan évoque en plaisantant d'envoyer les invités en Corrèze.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Ironique ; Aix est confirmé en t0799."
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0799",
+   "evidence": "ah oui c'est vrai qu on le fait à aix",
+   "type": "fact",
+   "status": "active",
+   "statement": "Confirmation : le festival se fait à Aix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0461",
+   "evidence": "de thé de thé aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lina propose aussi un stand de thé.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0493",
+   "evidence": "j ai mis restauration burger poulet frit stand vegan isli",
+   "type": "decision",
+   "status": "active",
+   "statement": "Restauration retenue : burger, poulet frit, stand vegan/healthy.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« isli » = healthy (t0498)."
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0642",
+   "evidence": "prévoir activités ensuite donc on a dit autographes",
+   "type": "decision",
+   "status": "active",
+   "statement": "Tâche 6 : activités, dont une séance d'autographes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0649",
+   "evidence": "donc autographes euh séance de musique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Activités : autographes et séance musicale (Hans Zimmer).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0658",
+   "evidence": "comédie musicale oui on va faire ça",
+   "type": "decision",
+   "status": "active",
+   "statement": "Activité ajoutée : une comédie musicale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0743",
+   "evidence": "embaucher le staff sécurité nettoyage",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche 7 : embaucher le staff (sécurité, nettoyage).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0747",
+   "evidence": "metteur_en_scène euh ingénieur son",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Staff technique : metteur en scène, ingénieur son.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0824",
+   "evidence": "ça c'est pas à nous de le gérer hein c'est à eux de venir",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Arthur : la couverture presse n'est pas à gérer par le groupe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "102c_EBPH",
+   "turn": "t0815",
+   "evidence": "s occuper de la location du ah oui la location du matériel",
+   "type": "action",
+   "status": "proposed",
+   "statement": "Tâche restante possible : location du matériel.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-04",
+   "to": "a-03",
+   "relation": "supersedes",
+   "justification": "Lina corrige l'attribution : Tarantino et non Spielberg, Gaëtan l'admet (t0055)."
+  },
+  {
+   "from": "a-15",
+   "to": "a-05",
+   "relation": "supersedes",
+   "justification": "« c'est pas pulp fiction » : Gaëtan retient Les Misérables à la place."
+  },
+  {
+   "from": "a-32",
+   "to": "a-15",
+   "relation": "supports",
+   "justification": "Gaëtan redit qu'il soumet Les Misérables."
+  },
+  {
+   "from": "a-32",
+   "to": "a-33",
+   "relation": "creates_action",
+   "justification": "Le changement de film donne lieu à la consigne de le noter sur l'affiche."
+  },
+  {
+   "from": "a-14",
+   "to": "a-11",
+   "relation": "supports",
+   "justification": "Arthur appuie Les Misérables, connu de tous en France."
+  },
+  {
+   "from": "a-20",
+   "to": "a-19",
+   "relation": "supersedes",
+   "justification": "Nouvelle attribution de Hero Corp à Simon Astier qui corrige Alexandre Astier."
+  },
+  {
+   "from": "a-35",
+   "to": "a-34",
+   "relation": "supersedes",
+   "justification": "« c'est pas quatre » : correction explicite du nombre de participations."
+  },
+  {
+   "from": "a-31",
+   "to": "a-30",
+   "relation": "answers",
+   "justification": "Réponse directe : pour tout le monde."
+  },
+  {
+   "from": "a-27",
+   "to": "a-25",
+   "relation": "supports",
+   "justification": "Interstellar est rattaché au genre classique."
+  },
+  {
+   "from": "b-02",
+   "to": "a-11",
+   "relation": "supports",
+   "justification": "Lina redéfend Les Misérables comme classique."
+  },
+  {
+   "from": "b-14",
+   "to": "a-16",
+   "relation": "supersedes",
+   "justification": "La décision « on fait classique » tranche le choix du genre face aux super-héros."
+  },
+  {
+   "from": "b-14",
+   "to": "a-24",
+   "relation": "supersedes",
+   "justification": "La décision « on fait classique » tranche le choix du genre face à la science-fiction."
+  },
+  {
+   "from": "b-14",
+   "to": "a-06",
+   "relation": "supersedes",
+   "justification": "La décision « on fait classique » tranche le choix du genre face à la comédie/romance."
+  },
+  {
+   "from": "b-14",
+   "to": "a-02",
+   "relation": "supports",
+   "justification": "Le genre classique proposé par Gaëtan est retenu."
+  },
+  {
+   "from": "b-16",
+   "to": "b-15",
+   "relation": "contradicts",
+   "justification": "Safia refuse de classer Avengers comme culte."
+  },
+  {
+   "from": "b-22",
+   "to": "b-21",
+   "relation": "supersedes",
+   "justification": "Le choix du cinéma tranche la question du lieu face au drive-in."
+  },
+  {
+   "from": "b-22",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Le cinéma retenu correspond à l'option ≈150 places."
+  },
+  {
+   "from": "b-27",
+   "to": "b-23",
+   "relation": "supersedes",
+   "justification": "Django est retenu en tête d'affiche à la place de Forrest Gump."
+  },
+  {
+   "from": "b-27",
+   "to": "b-26",
+   "relation": "supports",
+   "justification": "Django, proposé par Safia, est adopté."
+  },
+  {
+   "from": "b-24",
+   "to": "b-23",
+   "relation": "contradicts",
+   "justification": "Objection contre Forrest Gump (déjà vu)."
+  },
+  {
+   "from": "b-31",
+   "to": "b-30",
+   "relation": "supersedes",
+   "justification": "« quand même » : Titanic est mis malgré le veto."
+  },
+  {
+   "from": "b-35",
+   "to": "b-28",
+   "relation": "supports",
+   "justification": "Interstellar figure en 3e position dans le récapitulatif."
+  },
+  {
+   "from": "b-35",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "Inception figure dans le récapitulatif."
+  },
+  {
+   "from": "b-35",
+   "to": "b-32",
+   "relation": "supports",
+   "justification": "Taxi Driver figure dans le récapitulatif."
+  },
+  {
+   "from": "b-36",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Intouchables figure sur l'affiche."
+  },
+  {
+   "from": "b-34",
+   "to": "b-33",
+   "relation": "supports",
+   "justification": "Argument du record d'entrées pour Intouchables."
+  },
+  {
+   "from": "c-04",
+   "to": "c-03",
+   "relation": "supersedes",
+   "justification": "Prix corrigé : quatre euros et non deux."
+  },
+  {
+   "from": "c-03",
+   "to": "c-02",
+   "relation": "answers",
+   "justification": "Réponse sur la période du Printemps du cinéma."
+  },
+  {
+   "from": "c-04",
+   "to": "c-02",
+   "relation": "answers",
+   "justification": "Précision sur le Printemps du cinéma (prix)."
+  },
+  {
+   "from": "c-07",
+   "to": "c-01",
+   "relation": "supersedes",
+   "justification": "La date du 4 mai tranche la question de la date face à l'été."
+  },
+  {
+   "from": "c-07",
+   "to": "c-06",
+   "relation": "supports",
+   "justification": "Le 4 mai concrétise la proposition de mai."
+  },
+  {
+   "from": "c-10",
+   "to": "c-08",
+   "relation": "supports",
+   "justification": "Gaëtan prend en charge la tâche de contacter les cinémas."
+  },
+  {
+   "from": "c-09",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Rappel de la décision de lieu de la réunion b (cinéma 150 places)."
+  },
+  {
+   "from": "c-15",
+   "to": "c-11",
+   "relation": "supports",
+   "justification": "La semaine proposée par Lina est retenue."
+  },
+  {
+   "from": "c-15",
+   "to": "c-12",
+   "relation": "supersedes",
+   "justification": "« prends une semaine » tranche la durée face aux cinq jours."
+  },
+  {
+   "from": "c-15",
+   "to": "c-13",
+   "relation": "supersedes",
+   "justification": "« prends une semaine » tranche la durée face au week-end."
+  },
+  {
+   "from": "c-19",
+   "to": "c-15",
+   "relation": "supersedes",
+   "justification": "Nouvelle valeur actée « du quatre au sept mai » remplaçant la semaine."
+  },
+  {
+   "from": "c-24",
+   "to": "c-21",
+   "relation": "supersedes",
+   "justification": "« on met deux guests ça ira » tranche la liste des invités sans Hugh Jackman."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "supports",
+   "justification": "DiCaprio fait partie des deux invités retenus."
+  },
+  {
+   "from": "c-28",
+   "to": "c-27",
+   "relation": "supersedes",
+   "justification": "Aix-en-Provence est retenu à la place de Cannes."
+  },
+  {
+   "from": "c-28",
+   "to": "a-36",
+   "relation": "answers",
+   "justification": "La ville du festival, demandée en réunion a, est Aix-en-Provence."
+  },
+  {
+   "from": "c-30",
+   "to": "c-28",
+   "relation": "supports",
+   "justification": "Confirmation du lieu à Aix."
+  },
+  {
+   "from": "c-30",
+   "to": "c-29",
+   "relation": "supersedes",
+   "justification": "« c'est vrai qu on le fait à aix » : Aix confirmé après la plaisanterie sur la Corrèze."
+  },
+  {
+   "from": "c-35",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "L'activité comédie musicale prolonge l'idée Les Misérables / comédie musicale."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "102a_EBRH",
+   "text": "Quel film Gaëtan défend-il au final pour représenter le genre classique ?",
+   "answerable": true,
+   "qrels": {
+    "a-15": 2,
+    "a-32": 2,
+    "a-33": 2,
+    "a-05": 0,
+    "a-11": 0,
+    "a-02": 0
+   },
+   "traps": [
+    {
+     "unit": "a-05",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-11",
+     "trap": "person"
+    },
+    {
+     "unit": "a-02",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "102a_EBRH",
+   "text": "Qui a réellement réalisé Pulp Fiction, après l'erreur commise pendant la présentation des classiques ?",
+   "answerable": true,
+   "qrels": {
+    "a-04": 2,
+    "a-03": 0,
+    "a-05": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-05",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "102a_EBRH",
+   "text": "Qui doit inscrire sur l'affiche le nouveau film choisi pour le genre classique ?",
+   "answerable": true,
+   "qrels": {
+    "a-33": 2,
+    "a-32": 0,
+    "a-15": 0
+   },
+   "traps": [
+    {
+     "unit": "a-32",
+     "trap": "person"
+    },
+    {
+     "unit": "a-15",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "102a_EBRH",
+   "text": "À combien de reprises Gaëtan affirme-t-il, après correction, avoir déjà participé à l'expérience ?",
+   "answerable": true,
+   "qrels": {
+    "a-35": 2,
+    "a-34": 0
+   },
+   "traps": [
+    {
+     "unit": "a-34",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "102a_EBRH",
+   "text": "Quelle réserve a été émise sur l'intérêt des spectateurs âgés pour les films de super-héros ?",
+   "answerable": true,
+   "qrels": {
+    "a-23": 2,
+    "a-17": 1,
+    "a-16": 0,
+    "a-10": 0
+   },
+   "traps": [
+    {
+     "unit": "a-16",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-10",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "102a_EBRH",
+   "text": "La science-fiction défendue par Arthur a-t-elle été gardée comme genre du festival ?",
+   "answerable": true,
+   "qrels": {
+    "b-14": 2,
+    "b-11": 1,
+    "a-24": 1,
+    "b-35": 1,
+    "a-25": 0,
+    "a-37": 0,
+    "a-26": 0
+   },
+   "traps": [
+    {
+     "unit": "a-25",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-37",
+     "trap": "status"
+    },
+    {
+     "unit": "a-26",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "102a_EBRH",
+   "text": "D'après Gaëtan, à quel public les films classiques sont-ils destinés ?",
+   "answerable": true,
+   "qrels": {
+    "a-31": 2,
+    "a-30": 0,
+    "a-10": 0,
+    "a-17": 0
+   },
+   "traps": [
+    {
+     "unit": "a-30",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-10",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-17",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "102a_EBRH",
+   "text": "À quelle heure la projection de West Side Story est-elle programmée ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q09",
+   "about_meeting": "102c_EBPH",
+   "text": "Quel jour commence le festival de cinéma ?",
+   "answerable": true,
+   "qrels": {
+    "c-07": 2,
+    "c-19": 2,
+    "c-06": 1,
+    "c-01": 0,
+    "c-03": 0,
+    "c-05": 0
+   },
+   "traps": [
+    {
+     "unit": "c-01",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-03",
+     "trap": "date"
+    },
+    {
+     "unit": "c-05",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "102c_EBPH",
+   "text": "Quelle durée a finalement été retenue pour le festival ?",
+   "answerable": true,
+   "qrels": {
+    "c-19": 2,
+    "c-15": 1,
+    "c-12": 0,
+    "c-13": 0,
+    "c-11": 0
+   },
+   "traps": [
+    {
+     "unit": "c-12",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-13",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-11",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "102c_EBPH",
+   "text": "Dans quelle ville le festival va-t-il se dérouler ?",
+   "answerable": true,
+   "qrels": {
+    "c-28": 2,
+    "c-30": 2,
+    "c-26": 0,
+    "c-27": 0,
+    "c-29": 0,
+    "a-36": 0
+   },
+   "traps": [
+    {
+     "unit": "c-26",
+     "trap": "status"
+    },
+    {
+     "unit": "c-27",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-29",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-36",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "102c_EBPH",
+   "text": "Qui a pris en charge la prise de contact avec les salles pour connaître leurs dates libres ?",
+   "answerable": true,
+   "qrels": {
+    "c-10": 2,
+    "c-08": 0
+   },
+   "traps": [
+    {
+     "unit": "c-08",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "102c_EBPH",
+   "text": "Quelles célébrités ont été retenues comme invités du festival ?",
+   "answerable": true,
+   "qrels": {
+    "c-24": 2,
+    "c-23": 1,
+    "c-22": 1,
+    "c-21": 0,
+    "c-25": 0,
+    "b-08": 0,
+    "c-20": 0
+   },
+   "traps": [
+    {
+     "unit": "c-21",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-25",
+     "trap": "status"
+    },
+    {
+     "unit": "b-08",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-20",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "102c_EBPH",
+   "text": "Combien paie-t-on une place pendant le Printemps du cinéma ?",
+   "answerable": true,
+   "qrels": {
+    "c-04": 2,
+    "c-03": 0
+   },
+   "traps": [
+    {
+     "unit": "c-03",
+     "trap": "amount"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "102c_EBPH",
+   "text": "Qu'est-ce qui sera proposé à manger aux festivaliers ?",
+   "answerable": true,
+   "qrels": {
+    "c-32": 2,
+    "c-31": 0
+   },
+   "traps": [
+    {
+     "unit": "c-31",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q16",
+   "about_meeting": "102c_EBPH",
+   "text": "Quel journal régional a confirmé qu'il couvrirait le festival ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "021": "arthur",
+  "024": "gaëtan",
+  "222": "safia",
+  "217": "lina"
+ },
+ "notes": "Réunion b en ASR (noms déformés : aerocorp=Hero Corp, rookie=Rocky, alice de schindler=La Liste de Schindler). Malgré l'objectif de deux genres, seul le genre classique est acté en b (Lina le relève, b-13). Durée : « une semaine » (c-15) puis « du quatre au sept mai » (c-19) annoté comme supersedes, incertain. Plaisanteries (Corrèze, sarcasmes) annotées avec statut unknown ou note. Insultes et apartés personnels non annotés. Annotation llm_provisional, non relue."
+}
