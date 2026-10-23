@@ -1,0 +1,62 @@
+{
+ "task": "relations",
+ "labels": [
+  "supersedes",
+  "contradicts",
+  "answers",
+  "supports",
+  "creates_action",
+  "none"
+ ],
+ "train": [
+  "breal/train",
+  "bsyn/train"
+ ],
+ "selection": "C sur breal/val, macro-F1 6 classes",
+ "grid": [
+  0.01,
+  0.1,
+  1.0,
+  10.0,
+  100.0
+ ],
+ "selection_scores": {
+  "R2": {
+   "scores": {
+    "0.01": 0.6267882985450456,
+    "0.1": 0.6479676052433411,
+    "1.0": 0.6433691801885953,
+    "10.0": 0.6381857262502406,
+    "100.0": 0.6145604573939877
+   },
+   "C": 0.1
+  },
+  "R3": {
+   "scores": {
+    "0.01": 0.5161815181376993,
+    "0.1": 0.5159124329446987,
+    "1.0": 0.515926449660449,
+    "10.0": 0.5348538045107545,
+    "100.0": 0.5336998397088818
+   },
+   "C": 10.0
+  }
+ },
+ "encoder": {
+  "system": "dense",
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "weights": "pretrained",
+  "max_seq_length": 128,
+  "dtype": "float32",
+  "pooling": "mean",
+  "normalize": true,
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "batch_size": 64,
+  "text_field": "retrieval_text"
+ },
+ "embedding_text": "passage: + evidence.text",
+ "class_weight": "balanced",
+ "negatives": "1 couple non relié par positif et par groupe (B-REAL), couples unrelated du générateur (B-SYN), graine 0"
+}

@@ -1,0 +1,25 @@
+{
+ "run_id": "R-test-2026-10-23T1434",
+ "git_commit": "d30c44bae19189164c22f0f8dc7f37a709337647",
+ "git_dirty": false,
+ "python": "3.13.16",
+ "machine": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+ "started": "2026-10-23T14:34:37+02:00",
+ "finished": "2026-10-23T14:38:18+02:00",
+ "relations_sha256": {
+  "breal/train": "c1e4395d8408a06be2fc06286561da5e7d5bd48cae69d2597cf7202fa5458eb5",
+  "breal/val": "99c06db37945751d032cea196c93de072bfbf41c92531531fe1c9dab66ae2b6b",
+  "breal/test": "a23f4b9aa823d662a186f371124c45b084c35f5e6099d003b14c4cff1ff8281e",
+  "bsyn/train": "7ff1aad56919a3323fb2ce39f1f0fca7b1adb374383544134c47a757cd95190e",
+  "bsyn/val": "cd27449a519c7b5a7360064ae4605fa12369b22a36cfcd00c34334269086dc76",
+  "bsyn/test": "384d513bc99032e94b79c2d4b50ad1c663d54c9f90e04472b2756832b6a63e35"
+ },
+ "n_pairs": {
+  "breal/train": 2436,
+  "breal/val": 900,
+  "breal/test": 748,
+  "bsyn/train": 630,
+  "bsyn/val": 81,
+  "bsyn/test": 113
+ }
+}

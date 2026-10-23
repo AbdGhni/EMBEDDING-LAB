@@ -1,0 +1,7 @@
+{
+ "system": "bm25",
+ "k1": 1.5,
+ "b": 0.75,
+ "tokenizer": "lower|underscore->space|drop w_N,sil|\\w+",
+ "text_field": "retrieval_text"
+}

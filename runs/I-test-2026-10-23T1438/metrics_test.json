@@ -1,0 +1,2120 @@
+{
+ "I0|isyn_test": {
+  "n": 444,
+  "macro_f1": 0.9483314346323067,
+  "macro_f1_ci": [
+   0.9209856569576433,
+   0.9706485215053764
+  ],
+  "accuracy": 0.9617117117117117,
+  "clarify": {
+   "precision": 1.0,
+   "recall": 0.6666666666666666,
+   "f1": 0.8,
+   "support": 24
+  },
+  "no_action": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 60
+  },
+  "wrong_action_rate": 0.05,
+  "per_class": {
+   "answer": {
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "f1": 0.9375,
+    "support": 60
+   },
+   "compare": {
+    "precision": 1.0,
+    "recall": 0.85,
+    "f1": 0.9189189189189189,
+    "support": 60
+   },
+   "build_dossier": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 60
+   },
+   "draft_email": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 60
+   },
+   "create_task": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 60
+   },
+   "schedule_event": {
+    "precision": 0.8695652173913043,
+    "recall": 1.0,
+    "f1": 0.9302325581395349,
+    "support": 60
+   },
+   "clarify": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "support": 24
+   },
+   "no_action": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 60
+   }
+  },
+  "slot_accuracy": {
+   "person": 1.0,
+   "project": 1.0,
+   "deadline": 1.0
+  },
+  "errors": [
+   {
+    "id": "in-test-0061",
+    "text": "Le programme de Quartz a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0075",
+    "text": "le lieu de Mistral a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0081",
+    "text": "Le budget de Mistral a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0084",
+    "text": "Le contrat d'Ivoire a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0106",
+    "text": "Le planning d'Ivoire a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0113",
+    "text": "le programme de Zénith a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0114",
+    "text": "Le calendrier de Mistral a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0116",
+    "text": "Le lieu de Zénith a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0117",
+    "text": "Le lancement d'Ivoire a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0360",
+    "text": "Envoie-lui un petit mot à ce sujet",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0361",
+    "text": "envoie-lui un petit mot à ce sujet.",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0363",
+    "text": "Envoie-lui un petit mot à ce sujet.",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0371",
+    "text": "Envoie-lui un petit mot à ce sujet stp",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0374",
+    "text": "envoie-lui un petit mot à ce sujet merci",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0375",
+    "text": "envoie-lui un petit mot à ce sujet",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0379",
+    "text": "Envoie-lui un petit mot à ce sujet merci",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0382",
+    "text": "envoie-lui un petit mot à ce sujet stp",
+    "gold": "clarify",
+    "pred": "answer"
+   }
+  ]
+ },
+ "I1|isyn_test": {
+  "n": 444,
+  "macro_f1": 0.6036964501855904,
+  "macro_f1_ci": [
+   0.5682422644418088,
+   0.6362589065615766
+  ],
+  "accuracy": 0.6599099099099099,
+  "clarify": {
+   "precision": 0.23529411764705882,
+   "recall": 0.6666666666666666,
+   "f1": 0.3478260869565218,
+   "support": 24
+  },
+  "no_action": {
+   "precision": 0.5531914893617021,
+   "recall": 0.43333333333333335,
+   "f1": 0.48598130841121495,
+   "support": 60
+  },
+  "wrong_action_rate": 0.16666666666666666,
+  "per_class": {
+   "answer": {
+    "precision": 0.5,
+    "recall": 0.65,
+    "f1": 0.5652173913043479,
+    "support": 60
+   },
+   "compare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 60
+   },
+   "build_dossier": {
+    "precision": 1.0,
+    "recall": 0.55,
+    "f1": 0.7096774193548387,
+    "support": 60
+   },
+   "draft_email": {
+    "precision": 0.8805970149253731,
+    "recall": 0.9833333333333333,
+    "f1": 0.9291338582677166,
+    "support": 60
+   },
+   "create_task": {
+    "precision": 0.9836065573770492,
+    "recall": 1.0,
+    "f1": 0.9917355371900827,
+    "support": 60
+   },
+   "schedule_event": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "support": 60
+   },
+   "clarify": {
+    "precision": 0.23529411764705882,
+    "recall": 0.6666666666666666,
+    "f1": 0.3478260869565218,
+    "support": 24
+   },
+   "no_action": {
+    "precision": 0.5531914893617021,
+    "recall": 0.43333333333333335,
+    "f1": 0.48598130841121495,
+    "support": 60
+   }
+  },
+  "slot_accuracy": {
+   "person": 1.0,
+   "project": 1.0,
+   "deadline": 1.0
+  },
+  "errors": [
+   {
+    "id": "in-test-0000",
+    "text": "rappelle-moi ce qui a été dit sur le devis de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0002",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat d'Ivoire",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0003",
+    "text": "rappelle-moi ce qui a été dit sur le devis d'Ivoire.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0009",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0010",
+    "text": "Rappelle-moi ce qui a été dit sur le prestataire d'Ivoire",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0012",
+    "text": "rappelle-moi ce qui a été dit sur le planning de Zénith.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0014",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Quartz",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0015",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat de Mistral.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0017",
+    "text": "Rappelle-moi ce qui a été dit sur le budget de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0024",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Zénith.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0028",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat de Zénith.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0030",
+    "text": "Rappelle-moi ce qui a été dit sur le planning de Mistral.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0034",
+    "text": "Rappelle-moi ce qui a été dit sur le lancement de Zénith",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0035",
+    "text": "Rappelle-moi ce qui a été dit sur le recrutement d'Ivoire.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0038",
+    "text": "rappelle-moi ce qui a été dit sur le prestataire de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0039",
+    "text": "Rappelle-moi ce qui a été dit sur le lieu d'Ivoire.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0043",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Mistral",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0049",
+    "text": "rappelle-moi ce qui a été dit sur le budget de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0051",
+    "text": "rappelle-moi ce qui a été dit sur le lancement de Zénith",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0053",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0054",
+    "text": "Rappelle-moi ce qui a été dit sur le lancement d'Ivoire.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0060",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le planning d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0061",
+    "text": "Le programme de Quartz a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0062",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le devis de Mistral ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0063",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le planning de Mistral ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0064",
+    "text": "Le devis de Zénith a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0065",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le contrat de Quartz ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0066",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le recrutement de Zénith ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0067",
+    "text": "Le devis de Quartz a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0068",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le planning de Mistral",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0069",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le recrutement d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0070",
+    "text": "Le recrutement de Zénith a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0071",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le lancement d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0072",
+    "text": "Le planning de Quartz a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0073",
+    "text": "le lancement d'Ivoire a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0074",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le prestataire de Zénith ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0075",
+    "text": "le lieu de Mistral a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0076",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le calendrier d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0077",
+    "text": "Le budget de Zénith a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0078",
+    "text": "le budget de Quartz a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0079",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le lieu de Quartz ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0080",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le calendrier d'Ivoire",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0081",
+    "text": "Le budget de Mistral a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0082",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le budget d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0083",
+    "text": "Le recrutement de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0084",
+    "text": "Le contrat d'Ivoire a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0085",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le lancement de Mistral ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0086",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le recrutement de Zénith",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0087",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le contrat de Zénith ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0088",
+    "text": "Le planning de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0089",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le planning de Zénith ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0090",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le programme de Quartz ?",
+    "gold": "compare",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0091",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le recrutement de Quartz ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0092",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le devis de Quartz ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0093",
+    "text": "Le contrat de Zénith a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0094",
+    "text": "Le programme de Quartz a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0095",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le recrutement d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0096",
+    "text": "Le devis de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0097",
+    "text": "Le budget de Quartz a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0098",
+    "text": "Le calendrier de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0099",
+    "text": "Le budget de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0100",
+    "text": "Le recrutement de Quartz a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0101",
+    "text": "Le lieu de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0102",
+    "text": "Le recrutement d'Ivoire a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0103",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le recrutement de Quartz",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0104",
+    "text": "Le lieu de Zénith a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0105",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le planning de Mistral ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0106",
+    "text": "Le planning d'Ivoire a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0107",
+    "text": "Le prestataire de Zénith a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0108",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le programme de Quartz ?",
+    "gold": "compare",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0109",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le lancement d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0110",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le devis de Mistral",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0111",
+    "text": "le contrat de Mistral a-t-il évolué d'une réunion à l'autre ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0112",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le programme de Zénith",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0113",
+    "text": "le programme de Zénith a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0114",
+    "text": "Le calendrier de Mistral a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0115",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le lancement de Mistral",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0116",
+    "text": "Le lieu de Zénith a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0117",
+    "text": "Le lancement d'Ivoire a-t-il évolué d'une réunion à l'autre",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0118",
+    "text": "Quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le lieu d'Ivoire",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0119",
+    "text": "quelle différence entre ce qu'on avait dit et ce qu'on dit maintenant sur le devis d'Ivoire ?",
+    "gold": "compare",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0120",
+    "text": "rassemble dans un document tout ce qu'on sait du calendrier de Zénith.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0121",
+    "text": "Rassemble dans un document tout ce qu'on sait du devis de Quartz stp",
+    "gold": "build_dossier",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0124",
+    "text": "rassemble dans un document tout ce qu'on sait du budget d'Ivoire stp",
+    "gold": "build_dossier",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0127",
+    "text": "Rassemble dans un document tout ce qu'on sait du lancement de Quartz.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0128",
+    "text": "rassemble dans un document tout ce qu'on sait du contrat d'Ivoire.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0129",
+    "text": "Rassemble dans un document tout ce qu'on sait du calendrier de Mistral.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0135",
+    "text": "Rassemble dans un document tout ce qu'on sait du planning de Zénith stp",
+    "gold": "build_dossier",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0138",
+    "text": "Rassemble dans un document tout ce qu'on sait du devis de Quartz.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0140",
+    "text": "Rassemble dans un document tout ce qu'on sait du budget de Zénith",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0142",
+    "text": "Rassemble dans un document tout ce qu'on sait du lancement de Quartz",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0145",
+    "text": "Rassemble dans un document tout ce qu'on sait du programme d'Ivoire.",
+    "gold": "build_dossier",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0146",
+    "text": "Rassemble dans un document tout ce qu'on sait du budget de Mistral",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0149",
+    "text": "Rassemble dans un document tout ce qu'on sait du budget de Zénith.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0151",
+    "text": "Rassemble dans un document tout ce qu'on sait du planning de Zénith.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0153",
+    "text": "Rassemble dans un document tout ce qu'on sait du recrutement de Zénith.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0156",
+    "text": "Rassemble dans un document tout ce qu'on sait du lieu d'Ivoire.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0158",
+    "text": "Rassemble dans un document tout ce qu'on sait du prestataire d'Ivoire.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0162",
+    "text": "Rassemble dans un document tout ce qu'on sait du planning de Quartz.",
+    "gold": "build_dossier",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0163",
+    "text": "Rassemble dans un document tout ce qu'on sait du lieu de Zénith",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0165",
+    "text": "Rassemble dans un document tout ce qu'on sait du prestataire de Quartz",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0167",
+    "text": "Rassemble dans un document tout ce qu'on sait du calendrier de Mistral",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0168",
+    "text": "Rassemble dans un document tout ce qu'on sait du lancement de Mistral",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0171",
+    "text": "Rassemble dans un document tout ce qu'on sait du contrat de Quartz.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0172",
+    "text": "rassemble dans un document tout ce qu'on sait du lancement d'Ivoire",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0174",
+    "text": "Rassemble dans un document tout ce qu'on sait du programme de Mistral stp",
+    "gold": "build_dossier",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0175",
+    "text": "rassemble dans un document tout ce qu'on sait du lieu d'Ivoire.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0177",
+    "text": "rassemble dans un document tout ce qu'on sait du lancement de Quartz.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0186",
+    "text": "Envoie un message à Yasmine : on a besoin de le planning validé d'ici le 21 juin.",
+    "gold": "draft_email",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-test-0362",
+    "text": "Écris-leur pour leur dire.",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0364",
+    "text": "Écris-leur pour leur dire",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0366",
+    "text": "écris-leur pour leur dire merci",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0367",
+    "text": "Écris-leur pour leur dire stp",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0373",
+    "text": "écris-leur pour leur dire.",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0377",
+    "text": "écris-leur pour leur dire stp",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0378",
+    "text": "Écris-leur pour leur dire merci",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0380",
+    "text": "écris-leur pour leur dire",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0385",
+    "text": "Ce serait bien qu'Aurélie s'occupe du recrutement, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0389",
+    "text": "ce serait bien que Bastien s'occupe du lancement, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0392",
+    "text": "ce serait bien que Yasmine s'occupe du recrutement, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0393",
+    "text": "Ce serait bien que Hugo s'occupe du budget, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0394",
+    "text": "Ce serait bien que Yasmine s'occupe du prestataire, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0396",
+    "text": "Ce serait bien qu'Aurélie s'occupe du calendrier, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0399",
+    "text": "Ce serait bien que Chloé s'occupe du contrat, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0400",
+    "text": "Ce serait bien que Chloé s'occupe du budget, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0401",
+    "text": "Ce serait bien que Hugo s'occupe du calendrier, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0402",
+    "text": "ce serait bien qu'Aurélie s'occupe du lancement, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0404",
+    "text": "ce serait bien que Yasmine s'occupe du programme, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0407",
+    "text": "ce serait bien que Chloé s'occupe du programme, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0408",
+    "text": "Ce serait bien que Bastien s'occupe du lieu, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0409",
+    "text": "Ce serait bien qu'Aurélie s'occupe du programme, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0410",
+    "text": "Ce serait bien qu'Aurélie s'occupe du planning, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0413",
+    "text": "ce serait bien que Hugo s'occupe du lancement, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0414",
+    "text": "Ce serait bien que Yasmine s'occupe du budget, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0415",
+    "text": "Ce serait bien que Yasmine s'occupe du lieu, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0416",
+    "text": "ce serait bien qu'Aurélie s'occupe du calendrier, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0417",
+    "text": "Ce serait bien que Chloé s'occupe du lieu, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0419",
+    "text": "ce serait bien que Bastien s'occupe du contrat, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0422",
+    "text": "Ce serait bien que Chloé s'occupe du recrutement, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0423",
+    "text": "Ce serait bien que Bastien s'occupe du contrat, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0425",
+    "text": "Ce serait bien que Bastien s'occupe du prestataire, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0427",
+    "text": "Ce serait bien que Chloé s'occupe du contrat, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0429",
+    "text": "ce serait bien que Chloé s'occupe du planning, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0432",
+    "text": "ce serait bien que Chloé s'occupe du lieu, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0434",
+    "text": "ce serait bien que Bastien s'occupe du contrat, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0435",
+    "text": "Ce serait bien que Hugo s'occupe du planning, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0436",
+    "text": "Ce serait bien que Hugo s'occupe du programme, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0437",
+    "text": "Ce serait bien que Hugo s'occupe du prestataire, à voir.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0440",
+    "text": "Ce serait bien que Hugo s'occupe du prestataire, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0441",
+    "text": "Ce serait bien que Chloé s'occupe du devis, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-test-0443",
+    "text": "Ce serait bien qu'Aurélie s'occupe du programme, à voir",
+    "gold": "no_action",
+    "pred": "answer"
+   }
+  ]
+ },
+ "I2|isyn_test": {
+  "n": 444,
+  "macro_f1": 0.8172570072352839,
+  "macro_f1_ci": [
+   0.7885334501248074,
+   0.8446382208889022
+  ],
+  "accuracy": 0.8581081081081081,
+  "clarify": {
+   "precision": 0.7931034482758621,
+   "recall": 0.9583333333333334,
+   "f1": 0.8679245283018867,
+   "support": 24
+  },
+  "no_action": {
+   "precision": 0.7407407407407407,
+   "recall": 1.0,
+   "f1": 0.851063829787234,
+   "support": 60
+  },
+  "wrong_action_rate": 0.044444444444444446,
+  "per_class": {
+   "answer": {
+    "precision": 1.0,
+    "recall": 0.08333333333333333,
+    "f1": 0.15384615384615385,
+    "support": 60
+   },
+   "compare": {
+    "precision": 0.821917808219178,
+    "recall": 1.0,
+    "f1": 0.9022556390977443,
+    "support": 60
+   },
+   "build_dossier": {
+    "precision": 0.8955223880597015,
+    "recall": 1.0,
+    "f1": 0.9448818897637796,
+    "support": 60
+   },
+   "draft_email": {
+    "precision": 0.8082191780821918,
+    "recall": 0.9833333333333333,
+    "f1": 0.8872180451127819,
+    "support": 60
+   },
+   "create_task": {
+    "precision": 0.9818181818181818,
+    "recall": 0.9,
+    "f1": 0.9391304347826087,
+    "support": 60
+   },
+   "schedule_event": {
+    "precision": 0.9836065573770492,
+    "recall": 1.0,
+    "f1": 0.9917355371900827,
+    "support": 60
+   },
+   "clarify": {
+    "precision": 0.7931034482758621,
+    "recall": 0.9583333333333334,
+    "f1": 0.8679245283018867,
+    "support": 24
+   },
+   "no_action": {
+    "precision": 0.7407407407407407,
+    "recall": 1.0,
+    "f1": 0.851063829787234,
+    "support": 60
+   }
+  },
+  "slot_accuracy": {
+   "person": 1.0,
+   "project": 1.0,
+   "deadline": 1.0
+  },
+  "errors": [
+   {
+    "id": "in-test-0000",
+    "text": "rappelle-moi ce qui a été dit sur le devis de Quartz.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0001",
+    "text": "tu peux me dire ce qu'on a retenu pour le calendrier de Zénith",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0002",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat d'Ivoire",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0003",
+    "text": "rappelle-moi ce qui a été dit sur le devis d'Ivoire.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0004",
+    "text": "tu peux me dire ce qu'on a retenu pour le contrat de Zénith",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0005",
+    "text": "tu peux me dire ce qu'on a retenu pour le programme de Zénith ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0006",
+    "text": "je voudrais savoir où on en est sur le devis de Quartz",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0007",
+    "text": "je voudrais savoir où on en est sur le budget de Mistral.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0008",
+    "text": "Tu peux me dire ce qu'on a retenu pour le calendrier de Zénith ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0009",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat de Quartz.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0010",
+    "text": "Rappelle-moi ce qui a été dit sur le prestataire d'Ivoire",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0011",
+    "text": "Je voudrais savoir où on en est sur le recrutement de Quartz.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0012",
+    "text": "rappelle-moi ce qui a été dit sur le planning de Zénith.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0013",
+    "text": "Tu peux me dire ce qu'on a retenu pour le budget d'Ivoire ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0014",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Quartz",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0015",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat de Mistral.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0016",
+    "text": "Tu peux me dire ce qu'on a retenu pour le devis de Quartz ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0017",
+    "text": "Rappelle-moi ce qui a été dit sur le budget de Quartz.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0018",
+    "text": "je voudrais savoir où on en est sur le devis d'Ivoire",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0019",
+    "text": "je voudrais savoir où on en est sur le contrat d'Ivoire.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0020",
+    "text": "je voudrais savoir où on en est sur le devis de Quartz.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0021",
+    "text": "tu peux me dire ce qu'on a retenu pour le planning de Zénith ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0024",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Zénith.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0025",
+    "text": "Tu peux me dire ce qu'on a retenu pour le planning de Zénith ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0026",
+    "text": "Rappelle-moi ce qui a été dit sur le recrutement de Zénith.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0027",
+    "text": "Je voudrais savoir où on en est sur le devis de Quartz.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0028",
+    "text": "Rappelle-moi ce qui a été dit sur le contrat de Zénith.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0029",
+    "text": "Je voudrais savoir où on en est sur le programme de Quartz.",
+    "gold": "answer",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-test-0030",
+    "text": "Rappelle-moi ce qui a été dit sur le planning de Mistral.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0031",
+    "text": "Je voudrais savoir où on en est sur le lieu de Zénith.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0032",
+    "text": "Je voudrais savoir où on en est sur le prestataire de Zénith",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0033",
+    "text": "Je voudrais savoir où on en est sur le lieu de Quartz",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0034",
+    "text": "Rappelle-moi ce qui a été dit sur le lancement de Zénith",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0035",
+    "text": "Rappelle-moi ce qui a été dit sur le recrutement d'Ivoire.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0036",
+    "text": "Je voudrais savoir où on en est sur le prestataire de Quartz.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0037",
+    "text": "Tu peux me dire ce qu'on a retenu pour le prestataire de Zénith",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0038",
+    "text": "rappelle-moi ce qui a été dit sur le prestataire de Quartz.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0039",
+    "text": "Rappelle-moi ce qui a été dit sur le lieu d'Ivoire.",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0040",
+    "text": "Je voudrais savoir où on en est sur le devis d'Ivoire.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0041",
+    "text": "Je voudrais savoir où on en est sur le prestataire de Zénith.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0042",
+    "text": "Tu peux me dire ce qu'on a retenu pour le programme de Quartz",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0043",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Mistral",
+    "gold": "answer",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-test-0045",
+    "text": "Tu peux me dire ce qu'on a retenu pour le prestataire d'Ivoire ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0047",
+    "text": "Je voudrais savoir où on en est sur le planning de Zénith.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0048",
+    "text": "Je voudrais savoir où on en est sur le contrat de Zénith.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0049",
+    "text": "rappelle-moi ce qui a été dit sur le budget de Quartz.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0050",
+    "text": "tu peux me dire ce qu'on a retenu pour le programme d'Ivoire ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0051",
+    "text": "rappelle-moi ce qui a été dit sur le lancement de Zénith",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0052",
+    "text": "Je voudrais savoir où on en est sur le planning d'Ivoire.",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0053",
+    "text": "Rappelle-moi ce qui a été dit sur le devis de Quartz.",
+    "gold": "answer",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0054",
+    "text": "Rappelle-moi ce qui a été dit sur le lancement d'Ivoire.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0055",
+    "text": "Rappelle-moi ce qui a été dit sur le recrutement de Quartz",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0056",
+    "text": "Tu peux me dire ce qu'on a retenu pour le lieu de Mistral ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-test-0058",
+    "text": "rappelle-moi ce qui a été dit sur le programme d'Ivoire.",
+    "gold": "answer",
+    "pred": "build_dossier"
+   },
+   {
+    "id": "in-test-0059",
+    "text": "Tu peux me dire ce qu'on a retenu pour le devis de Zénith ?",
+    "gold": "answer",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-test-0187",
+    "text": "Envoie un message à Chloé : on a besoin de le contrat signé d'ici mardi",
+    "gold": "draft_email",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-test-0256",
+    "text": "Il faut qu'Aurélie envoie le devis d'ici le 21 juin, mets-le dans ses tâches.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0258",
+    "text": "Il faut que Bastien relance le prestataire d'ici le 30 juin, mets-le dans ses tâches.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0264",
+    "text": "Il faut que Bastien envoie le devis d'ici le 21 juin, mets-le dans ses tâches.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0278",
+    "text": "Il faut que Chloé vérifie le contrat d'ici le 30 juin, mets-le dans ses tâches.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0282",
+    "text": "Il faut que Chloé envoie le devis d'ici le 21 juin, mets-le dans ses tâches.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0290",
+    "text": "Il faut que Chloé vérifie le contrat d'ici le 21 juin, mets-le dans ses tâches.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-test-0380",
+    "text": "écris-leur pour leur dire",
+    "gold": "clarify",
+    "pred": "draft_email"
+   }
+  ]
+ },
+ "I0|iman": {
+  "n": 80,
+  "macro_f1": 0.914452798663325,
+  "macro_f1_ci": [
+   0.8402975836799366,
+   0.9681278866061475
+  ],
+  "accuracy": 0.9125,
+  "clarify": {
+   "precision": 1.0,
+   "recall": 0.8,
+   "f1": 0.888888888888889,
+   "support": 10
+  },
+  "no_action": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 10
+  },
+  "wrong_action_rate": 0.03333333333333333,
+  "per_class": {
+   "answer": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1": 0.8333333333333333,
+    "support": 10
+   },
+   "compare": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "support": 10
+   },
+   "build_dossier": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1": 0.9473684210526316,
+    "support": 10
+   },
+   "draft_email": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 10
+   },
+   "create_task": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1": 0.9,
+    "support": 10
+   },
+   "schedule_event": {
+    "precision": 0.8181818181818182,
+    "recall": 0.9,
+    "f1": 0.8571428571428572,
+    "support": 10
+   },
+   "clarify": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "support": 10
+   },
+   "no_action": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 10
+   }
+  },
+  "slot_accuracy": {
+   "person": 1.0,
+   "project": 1.0,
+   "deadline": 0.975
+  },
+  "errors": [
+   {
+    "id": "in-man-012",
+    "text": "Montre-moi comment la date de Saturne a évolué au fil des réunions.",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-017",
+    "text": "Avant on parlait de juin, maintenant de septembre : c'est acté pour Brume ?",
+    "gold": "compare",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-021",
+    "text": "J'ai une réunion avec la direction, fais-moi un point écrit sur Kestrel avec les sources.",
+    "gold": "build_dossier",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-049",
+    "text": "Enregistre que Samir doit envoyer le devis avant mercredi.",
+    "gold": "create_task",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-058",
+    "text": "Trouve-moi un moment avec Samir cette semaine pour le recrutement.",
+    "gold": "schedule_event",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-063",
+    "text": "Fais passer l'info.",
+    "gold": "clarify",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-067",
+    "text": "Crée la tâche dont on a parlé.",
+    "gold": "clarify",
+    "pred": "create_task"
+   }
+  ]
+ },
+ "I1|iman": {
+  "n": 80,
+  "macro_f1": 0.6808365302642796,
+  "macro_f1_ci": [
+   0.5602262321012321,
+   0.7720931377181377
+  ],
+  "accuracy": 0.6875,
+  "clarify": {
+   "precision": 0.7142857142857143,
+   "recall": 0.5,
+   "f1": 0.588235294117647,
+   "support": 10
+  },
+  "no_action": {
+   "precision": 1.0,
+   "recall": 0.5,
+   "f1": 0.6666666666666666,
+   "support": 10
+  },
+  "wrong_action_rate": 0.2,
+  "per_class": {
+   "answer": {
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1": 0.7826086956521738,
+    "support": 10
+   },
+   "compare": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1": 0.5,
+    "support": 10
+   },
+   "build_dossier": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1": 0.8235294117647058,
+    "support": 10
+   },
+   "draft_email": {
+    "precision": 0.6428571428571429,
+    "recall": 0.9,
+    "f1": 0.75,
+    "support": 10
+   },
+   "create_task": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8,
+    "f1": 0.6956521739130435,
+    "support": 10
+   },
+   "schedule_event": {
+    "precision": 0.5333333333333333,
+    "recall": 0.8,
+    "f1": 0.64,
+    "support": 10
+   },
+   "clarify": {
+    "precision": 0.7142857142857143,
+    "recall": 0.5,
+    "f1": 0.588235294117647,
+    "support": 10
+   },
+   "no_action": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666,
+    "support": 10
+   }
+  },
+  "slot_accuracy": {
+   "person": 1.0,
+   "project": 1.0,
+   "deadline": 0.975
+  },
+  "errors": [
+   {
+    "id": "in-man-003",
+    "text": "Est-ce que Margaux a envoyé le planning ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-man-012",
+    "text": "Montre-moi comment la date de Saturne a évolué au fil des réunions.",
+    "gold": "compare",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-013",
+    "text": "La décision de jeudi annule-t-elle celle de lundi sur Brume ?",
+    "gold": "compare",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-014",
+    "text": "Y a-t-il une contradiction entre les deux réunions sur le lieu de Kestrel ?",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-016",
+    "text": "Le responsable du planning a-t-il changé sur Saturne ?",
+    "gold": "compare",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-017",
+    "text": "Avant on parlait de juin, maintenant de septembre : c'est acté pour Brume ?",
+    "gold": "compare",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-018",
+    "text": "Résume les changements de cap sur le programme de Kestrel.",
+    "gold": "compare",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-021",
+    "text": "J'ai une réunion avec la direction, fais-moi un point écrit sur Kestrel avec les sources.",
+    "gold": "build_dossier",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-023",
+    "text": "Un état des lieux de Brume, sourcé, s'il te plaît.",
+    "gold": "build_dossier",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-man-028",
+    "text": "Mets en forme un rapport sur l'avancement d'Opale.",
+    "gold": "build_dossier",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-039",
+    "text": "Préviens Margaux par mail que la réunion de Saturne est décalée.",
+    "gold": "draft_email",
+    "pred": "compare"
+   },
+   {
+    "id": "in-man-045",
+    "text": "Assigne à Élodie la relecture du contrat de Brume.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-046",
+    "text": "Crée un rappel pour que Margaux valide le programme jeudi.",
+    "gold": "create_task",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-052",
+    "text": "Bloque une heure jeudi pour la revue du planning de Kestrel.",
+    "gold": "schedule_event",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-053",
+    "text": "Propose un créneau la semaine prochaine pour parler du lieu de Saturne.",
+    "gold": "schedule_event",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-062",
+    "text": "Mets-le au courant.",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-064",
+    "text": "Relance-les.",
+    "gold": "clarify",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-065",
+    "text": "Écris au responsable.",
+    "gold": "clarify",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-066",
+    "text": "Programme ça.",
+    "gold": "clarify",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-067",
+    "text": "Crée la tâche dont on a parlé.",
+    "gold": "clarify",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-072",
+    "text": "Je pense que le lieu de Kestrel ne conviendra pas.",
+    "gold": "no_action",
+    "pred": "answer"
+   },
+   {
+    "id": "in-man-074",
+    "text": "Ce serait pas mal de faire une réunion un jour sur Saturne.",
+    "gold": "no_action",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-075",
+    "text": "Le planning d'Opale me paraît ambitieux.",
+    "gold": "no_action",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-078",
+    "text": "Si ça se trouve, le devis de Brume va augmenter.",
+    "gold": "no_action",
+    "pred": "clarify"
+   },
+   {
+    "id": "in-man-079",
+    "text": "Bon, on verra plus tard pour la salle.",
+    "gold": "no_action",
+    "pred": "create_task"
+   }
+  ]
+ },
+ "I2|iman": {
+  "n": 80,
+  "macro_f1": 0.8634618787533043,
+  "macro_f1_ci": [
+   0.7738026466287335,
+   0.9306681078228393
+  ],
+  "accuracy": 0.8625,
+  "clarify": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0,
+   "support": 10
+  },
+  "no_action": {
+   "precision": 0.8888888888888888,
+   "recall": 0.8,
+   "f1": 0.8421052631578948,
+   "support": 10
+  },
+  "wrong_action_rate": 0.1,
+  "per_class": {
+   "answer": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1": 0.8235294117647058,
+    "support": 10
+   },
+   "compare": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1": 0.8181818181818182,
+    "support": 10
+   },
+   "build_dossier": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "support": 10
+   },
+   "draft_email": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1": 0.8000000000000002,
+    "support": 10
+   },
+   "create_task": {
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1": 0.7826086956521738,
+    "support": 10
+   },
+   "schedule_event": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1": 0.9523809523809523,
+    "support": 10
+   },
+   "clarify": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 10
+   },
+   "no_action": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1": 0.8421052631578948,
+    "support": 10
+   }
+  },
+  "slot_accuracy": {
+   "person": 1.0,
+   "project": 1.0,
+   "deadline": 0.975
+  },
+  "errors": [
+   {
+    "id": "in-man-000",
+    "text": "Finalement, on a retenu quelle date pour le lancement d'Opale ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-man-002",
+    "text": "Le devis de Saturne, il est validé ou pas encore ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-man-009",
+    "text": "Tu sais si le programme de Saturne est bouclé ?",
+    "gold": "answer",
+    "pred": "compare"
+   },
+   {
+    "id": "in-man-018",
+    "text": "Résume les changements de cap sur le programme de Kestrel.",
+    "gold": "compare",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-021",
+    "text": "J'ai une réunion avec la direction, fais-moi un point écrit sur Kestrel avec les sources.",
+    "gold": "build_dossier",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-023",
+    "text": "Un état des lieux de Brume, sourcé, s'il te plaît.",
+    "gold": "build_dossier",
+    "pred": "no_action"
+   },
+   {
+    "id": "in-man-031",
+    "text": "Envoie à Margaux le compte rendu de la réunion d'Opale.",
+    "gold": "draft_email",
+    "pred": "schedule_event"
+   },
+   {
+    "id": "in-man-036",
+    "text": "Rédige une relance pour Élodie sur le contrat de Brume.",
+    "gold": "draft_email",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-046",
+    "text": "Crée un rappel pour que Margaux valide le programme jeudi.",
+    "gold": "create_task",
+    "pred": "draft_email"
+   },
+   {
+    "id": "in-man-078",
+    "text": "Si ça se trouve, le devis de Brume va augmenter.",
+    "gold": "no_action",
+    "pred": "create_task"
+   },
+   {
+    "id": "in-man-079",
+    "text": "Bon, on verra plus tard pour la salle.",
+    "gold": "no_action",
+    "pred": "create_task"
+   }
+  ]
+ }
+}
