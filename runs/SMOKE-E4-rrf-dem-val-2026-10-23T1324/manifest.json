@@ -1,0 +1,26 @@
+{
+ "run_id": "SMOKE-E4-rrf-dem-val-2026-10-23T1324",
+ "harness_version": "1.0",
+ "git_commit": "ca3c6341c5f26f2ae05e51bb4a686db5bf989503",
+ "git_dirty": false,
+ "python": "3.13.16",
+ "machine": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+ "started": "2026-10-23T13:24:04+02:00",
+ "finished": "2026-10-23T13:25:15+02:00",
+ "benchmarks": {
+  "bsyn_val": {
+   "fingerprint": "4d73ded6c3ee6f5df9781bbc68e547cda888cb43f5b30d5eb76e340a8feeedbe",
+   "n_queries": 160,
+   "n_clusters": 32,
+   "n_triplets": 235,
+   "seconds": 5.392
+  },
+  "breal_val": {
+   "fingerprint": "5c10b7689921523b09b1d566f2b1c964c39979f57b85b894ed74e29fffb688d8",
+   "n_queries": 78,
+   "n_clusters": 10,
+   "n_triplets": 262,
+   "seconds": 5.737
+  }
+ }
+}

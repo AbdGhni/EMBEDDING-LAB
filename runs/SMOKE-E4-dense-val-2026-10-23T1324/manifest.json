@@ -1,0 +1,26 @@
+{
+ "run_id": "SMOKE-E4-dense-val-2026-10-23T1324",
+ "harness_version": "1.0",
+ "git_commit": "ca3c6341c5f26f2ae05e51bb4a686db5bf989503",
+ "git_dirty": false,
+ "python": "3.13.16",
+ "machine": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+ "started": "2026-10-23T13:24:04+02:00",
+ "finished": "2026-10-23T13:24:43+02:00",
+ "benchmarks": {
+  "bsyn_val": {
+   "fingerprint": "a4574157a39158376bdcc65da1874c28af782eb55b21da89eaf44c5c49a5e925",
+   "n_queries": 160,
+   "n_clusters": 32,
+   "n_triplets": 235,
+   "seconds": 7.088
+  },
+  "breal_val": {
+   "fingerprint": "223ffbf78e9f791dc648b286cf0e5ecf6d362768f573627064e4640f4c483b3c",
+   "n_queries": 78,
+   "n_clusters": 10,
+   "n_triplets": 262,
+   "seconds": 20.313
+  }
+ }
+}

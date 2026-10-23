@@ -1,0 +1,26 @@
+{
+ "run_id": "E0-dem-val-2026-10-23T1323",
+ "harness_version": "1.0",
+ "git_commit": "ca3c6341c5f26f2ae05e51bb4a686db5bf989503",
+ "git_dirty": false,
+ "python": "3.13.16",
+ "machine": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+ "started": "2026-10-23T13:23:53+02:00",
+ "finished": "2026-10-23T13:24:00+02:00",
+ "benchmarks": {
+  "bsyn_val": {
+   "fingerprint": "19f77740ef76ec4f573b7d58b36f5c715520135875f75b94a5ff410574c0c7fd",
+   "n_queries": 160,
+   "n_clusters": 32,
+   "n_triplets": 235,
+   "seconds": 0.465
+  },
+  "breal_val": {
+   "fingerprint": "5af88025297bee130fe98746d5bff8ec313d16ec1a4b766b2da753f00e73e427",
+   "n_queries": 78,
+   "n_clusters": 10,
+   "n_triplets": 262,
+   "seconds": 5.026
+  }
+ }
+}

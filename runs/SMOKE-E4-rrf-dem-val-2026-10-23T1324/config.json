@@ -1,0 +1,40 @@
+{
+ "system": "demote",
+ "top": 20,
+ "threshold": 0.5,
+ "predictor": {
+  "model": "R2",
+  "C": 0.1,
+  "train_relations_sha256": {
+   "breal": "c1e4395d8408a06be2fc06286561da5e7d5bd48cae69d2597cf7202fa5458eb5",
+   "bsyn": "7ff1aad56919a3323fb2ce39f1f0fca7b1adb374383544134c47a757cd95190e"
+  }
+ },
+ "base": {
+  "system": "rrf",
+  "k": 60,
+  "components": [
+   {
+    "system": "bm25",
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "lower|underscore->space|drop w_N,sil|\\w+",
+    "text_field": "retrieval_text"
+   },
+   {
+    "system": "dense",
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "weights": "pretrained",
+    "max_seq_length": 128,
+    "dtype": "float32",
+    "pooling": "mean",
+    "normalize": true,
+    "query_prefix": "query: ",
+    "passage_prefix": "passage: ",
+    "batch_size": 64,
+    "text_field": "retrieval_text"
+   }
+  ]
+ }
+}

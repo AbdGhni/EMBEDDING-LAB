@@ -1,0 +1,20 @@
+{
+ "system": "demote",
+ "top": 20,
+ "threshold": 0.5,
+ "predictor": {
+  "model": "R2",
+  "C": 0.1,
+  "train_relations_sha256": {
+   "breal": "c1e4395d8408a06be2fc06286561da5e7d5bd48cae69d2597cf7202fa5458eb5",
+   "bsyn": "7ff1aad56919a3323fb2ce39f1f0fca7b1adb374383544134c47a757cd95190e"
+  }
+ },
+ "base": {
+  "system": "bm25",
+  "k1": 1.5,
+  "b": 0.75,
+  "tokenizer": "lower|underscore->space|drop w_N,sil|\\w+",
+  "text_field": "retrieval_text"
+ }
+}
