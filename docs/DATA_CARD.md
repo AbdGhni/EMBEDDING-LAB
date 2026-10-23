@@ -112,6 +112,9 @@ Annotation **provisoire** de SUMM-RE par des sous-agents Claude (mandat `docs/ma
 |---|---|---|---|---|---|
 | val | 10 | 1 255 | 89 (78) | 262 | — |
 | test | 9 | 975 | 120 (105) | 303 | 7 (28, 21, 14, 14, 14, 7, 7 requêtes) |
+| train | 38 (112 réunions) | 4 135 | 372 (325), sur 47 réunions manuelles | 1 174 | 38 groupes |
+
+Train (D-011, annoté le 2026-10-22/23, même mandat v2, aucune relecture) : pièges topic_only 601, superseded 212, person 146, date 74, status 58, amount 49, negation 18, condition 16 ; relations supports 573, supersedes 310, answers 223, contradicts 87, creates_action 25. Points signalés par les annotateurs et laissés tels quels : quelques `supersedes` déduits de l'absence d'un élément au récapitulatif final (049, 059), un responsable désigné sur accord implicite (066 ; ailleurs ces cas restent `owner: null`), décisions toutes `inferred` dans 076 (ASR très bruitée). Comptes rendus des annotateurs vérifiés par recomptage du JSON (deux comptes rendus contenaient des chiffres faux, les fichiers étaient corrects).
 
 Pièges du test : topic_only 139, superseded 68, person 43, date 19, amount 13, status 12, condition 6, negation 3. Contrairement à B-SYN, les pièges réels sont surtout des propositions écartées et des voisins thématiques ; les pièges « statut » purs y sont rares.
 

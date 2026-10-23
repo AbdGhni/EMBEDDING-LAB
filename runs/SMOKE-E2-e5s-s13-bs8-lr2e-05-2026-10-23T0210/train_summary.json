@@ -1,0 +1,12 @@
+{
+ "run_id": "SMOKE-E2-e5s-s13-bs8-lr2e-05-2026-10-23T0210",
+ "steps": 3,
+ "best_step": 3,
+ "best_val_ndcg@10": 0.781149834832184,
+ "checkpoint": "/tmp/claude-0/-home-claude/d0e5238d-41d9-5f4d-a87e-b438e3961472/scratchpad/ckpt/SMOKE-E2-e5s-s13-bs8-lr2e-05-2026-10-23T0210/best",
+ "train_seconds": 45.0,
+ "n_examples": 7343,
+ "weights_sha256": "8caef40b5783e632aa89d208d11c9689715e4d2a48991fb266cac74c0980d43c",
+ "gpu": null,
+ "examples_sha256": "1cd42b9af525c6097cf6278131da64708e69eb76f364ac7c7bc38e10551d7932"
+}

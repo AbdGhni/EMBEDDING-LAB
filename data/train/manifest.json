@@ -1,0 +1,32 @@
+{
+ "inputs_qrels_sha256": {
+  "bsyn": "9c4c1ea4f7700d416d9c142bde257e02ab390f22a0df6efe15ed9f4bf93170ed",
+  "breal": "51ee18c7c58535808d0a02a8174823e296dc717051a9fd35e0f819cb8e921ef9"
+ },
+ "mine_k": 20,
+ "max_neg_per_pos": 3,
+ "e2_hard": {
+  "n": 7343,
+  "sha256": "1cd42b9af525c6097cf6278131da64708e69eb76f364ac7c7bc38e10551d7932",
+  "by_source": {
+   "bsyn": 6222,
+   "breal": 1121
+  },
+  "by_neg_origin": {
+   "trap:status": 875,
+   "trap:superseded": 674,
+   "trap:topic_only": 1364,
+   "mined:e1": 3350,
+   "trap:person": 384,
+   "trap:date": 311,
+   "trap:negation": 234,
+   "trap:condition": 106,
+   "trap:amount": 45
+  },
+  "clusters": 278
+ },
+ "e3_random": {
+  "n": 7343,
+  "sha256": "dfefa76c5b7f07bde0ea573f418c4f295a1e5dc2d409a76cd743ebd676a46ee8"
+ }
+}

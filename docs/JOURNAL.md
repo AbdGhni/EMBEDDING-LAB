@@ -366,3 +366,14 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 
 - Avancement au 2026-10-22T22:48+02:00 : 14/38 groupes validés et poussés (004 006 007 011 012 013 016 017 018 020 032 034 035 037).
 - Interruption : les sous-agents de 039, 040 et 043 ont été arrêtés par la limite de session de l'API (HTTP 429, levée à 18:10 Europe/Paris) avant d'écrire leur fichier ; repris par message à 22:48 sur leur transcription sauvegardée.
+- Reprise après la seconde limite d'usage (levée à 01:50) : 081, 084, 088 repris par message, puis 100 et 102.
+- Fin de l'annotation du train : **38/38 groupes** validés (`check_breal_raw.py` OK), recomptés par script (unités, relations, requêtes, aucune relation vers une unité absente) et poussés un par un. Deux comptes rendus d'annotateurs contenaient des chiffres faux (044 : relation fantôme annoncée, 039 : identifiant de réunion mal recopié) ; fichiers vérifiés corrects. Consigne ajoutée à partir de 049 : recompter depuis le JSON final.
+- Assemblage `assemble_breal.py --splits train` : 112 réunions, 4 135 unités, 372 requêtes (325 répondables), 1 174 triplets, qrels SHA-256 `51ee18c7…`. Val et test réassemblés à part : identiques octet pour octet aux versions figées.
+
+## S11 · EL-012 · données d'entraînement avec B-REAL
+
+- **Heure** : 2026-10-23T02:14+02:00 (fin de la passe ; début ≈ 02:00, réception du compte rendu 102)
+- Bogue trouvé : `build_examples` lisait `q["cluster"]`, absent des requêtes B-REAL (`group_id`). Le test unitaire ne le voyait pas car sa fixture donnait un champ `cluster` aux deux sources. Correction (`query_cluster`, même définition que le harnais) + test de régression avec des requêtes au format B-REAL ; 73 tests verts.
+- `build_training_data.py` : E2 7 343 exemples (B-SYN 6 222 + B-REAL 1 121 ; 278 grappes), SHA-256 `1cd42b9a…` ; E3 `dfefa76c…`. La part B-SYN est identique ligne à ligne à la version B-SYN seule. B-REAL : 471 des 475 couples positifs de pertinence 2 ont au moins un piège ; pas de minage e5 pour B-REAL (les unités non jugées du même groupe pourraient être de faux négatifs).
+- Empreintes attendues : `splits/data_sha256.json` (27 fichiers).
+- Test de fumée CPU (3 étapes, batch 8) sur les nouvelles données : étape 0 = E1 exactement (B-SYN 0,752 / B-REAL 0,293), chaîne complète OK. Les valeurs après 3 étapes ne sont pas un résultat.

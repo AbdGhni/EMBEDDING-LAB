@@ -1,0 +1,26 @@
+{
+ "run_id": "SMOKE-E2-e5s-s13-bs8-lr2e-05-2026-10-23T0210",
+ "harness_version": "1.0",
+ "git_commit": "69f09040ae4225fbe6142732035ead0a23360f03",
+ "git_dirty": false,
+ "python": "3.13.16",
+ "machine": "Linux-6.18.44-fc-v140-x86_64-with-glibc2.39",
+ "started": "2026-10-23T02:10:49+02:00",
+ "finished": "2026-10-23T02:13:10+02:00",
+ "benchmarks": {
+  "bsyn_val": {
+   "fingerprint": "65fe67a292d0c1787e56ea24d6590e3f62a202b115d37417489e24535e1657bd",
+   "n_queries": 160,
+   "n_clusters": 32,
+   "n_triplets": 235,
+   "seconds": 8.302
+  },
+  "breal_val": {
+   "fingerprint": "3eae5c5591df5c661f9f70af03b8721622ee0320d7a5cbd1196c882e59bbcd68",
+   "n_queries": 78,
+   "n_clusters": 10,
+   "n_triplets": 262,
+   "seconds": 22.187
+  }
+ }
+}
