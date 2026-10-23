@@ -109,3 +109,18 @@ Précision par paires par type de piège (moyenne des 3 graines) :
 - **Garde-fou B-REAL** : aucune chute de B-REAL val pendant l'entraînement (0,50–0,52 de l'étape 100 à la fin) ; pas de sur-spécialisation visible sur le générateur.
 - **Entraînement court** : plusieurs runs ont leur meilleur point à la dernière étape (plafond de 3 epochs du protocole). Le plafond n'est pas relevé : le modifier après avoir vu la validation serait du réglage, à décider explicitement.
 - Ce sont des mesures de **validation**. Les hypothèses H1–H4 se jugent sur le test (protocole § 7), une seule fois, avec ces configurations figées.
+
+## E2S — ablation diagnostique : E2 sans les données réelles (validation)
+
+Run : `E2S-e5s-s13-bs64-lr2e-05-2026-10-23T1305` (Colab T4, commit `569b83c`, propre ; 6 222 exemples B-SYN `23596325…`, 296 étapes, meilleur point à l'étape 200). Une seule graine : comparée à E2 graine 13. Analyse **décidée après** la lecture des résultats E2/E3 (protocole v1.5), exploratoire. Comparaison : `runs/CMP-val-2026-10-23T1310/comparison.json`.
+
+| Système (val, graine 13) | B-SYN nDCG@10 | B-SYN paires | B-REAL nDCG@10 | B-REAL paires |
+|---|---|---|---|---|
+| E1 | 0,752 | 0,600 | 0,293 | 0,588 |
+| E2S (B-SYN seul) | 0,868 | 0,817 | **0,307** | 0,580 |
+| E2 (B-SYN + B-REAL) | 0,903 | 0,872 | **0,507** | 0,733 |
+
+- E2S − E1 sur B-REAL : +0,015 nDCG@10 [−0,038 ; +0,064], p = 0,63 → **aucun gain mesurable sur l'oral réel** quand on n'entraîne que sur le synthétique. Sur B-SYN, E2S gagne +0,117 (p < 0,001) et règle déjà le piège « superseded » (0,92).
+- E2 − E2S sur B-REAL : +0,200 [+0,107 ; +0,306], p = 0,016 (minimum atteignable avec 7 grappes).
+- **Conclusion** : le gain de E2 sur B-REAL vient des **exemples B-REAL d'entraînement**, pas de ce qui est appris sur B-SYN. Ce que le générateur enseigne (statut, remplacement) ne se transfère pas tel quel à l'oral réel. Les données réelles aident aussi un peu B-SYN (+0,035).
+- Ce que cela ne dit pas : si le gain B-REAL reflète une compréhension de l'oral ou une adaptation au style des questions écrites par le même annotateur IA (train et val annotés par Claude avec le même mandat) et aux thèmes de scénario partagés. Le sous-ensemble du test relu par l'étudiant et l'analyse d'erreurs (EL-017) serviront à le vérifier en partie.

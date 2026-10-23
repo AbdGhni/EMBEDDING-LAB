@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S12, 2026-10-23 (midi)
+Mis à jour : session S13, 2026-10-23 (13 h)
 
 ## Git
 
@@ -26,7 +26,7 @@ Mis à jour : session S12, 2026-10-23 (midi)
 - EL-007 : validé (ingestion SUMM-RE, 283 réunions, empreintes).
 - EL-007b : exécuté non validé — val (10 groupes, 78 requêtes) ; test **v2** (104 requêtes, 302 triplets), relecture IA puis relecture humaine ciblée des 43 désaccords (v2 confirmée) ; **train : 38/38 groupes** (4 135 unités, 325 requêtes répondables, 1 174 triplets), non relu.
 - EL-012 : exécuté non validé — `data/train/` : E2 7 343 exemples (B-SYN 6 222 + B-REAL 1 121, SHA-256 `1cd42b9a…`), E3 7 343 (`dfefa76c…`) ; empreintes attendues `splits/data_sha256.json`.
-- EL-013 / EL-014 : exécutés non validés — E2 et E3 × 3 graines sur Colab (val seulement) ; comparaison `runs/CMP-val-2026-10-23T1256`. E2 val : B-SYN 0,890, B-REAL 0,511 (E1 : 0,752 / 0,293) ; E2 ≈ E3 en nDCG@10, E2 > E3 sur les pièges B-SYN. Poids sur le Drive de l'étudiant.
+- EL-013 / EL-014 : exécutés non validés — E2 et E3 × 3 graines sur Colab (val seulement) ; comparaison `runs/CMP-val-2026-10-23T1256`. E2 val : B-SYN 0,890, B-REAL 0,511 (E1 : 0,752 / 0,293) ; E2 ≈ E3 en nDCG@10, E2 > E3 sur les pièges B-SYN. Poids sur le Drive de l'étudiant. Ablation E2S (B-SYN seul, val) : B-REAL 0,307 → le gain réel vient des données B-REAL d'entraînement.
 - EL-010 : exécuté non validé — point d'entrée commun + BM25 ; val mesuré.
 - EL-011 : exécuté non validé — e5-small sur val (B-SYN nDCG@10 0,752, B-REAL 0,293).
 - EL-008 : validé (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
@@ -60,4 +60,4 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Prochaine action
 
-Décision à prendre par l'étudiant : (a) ablation « B-SYN seul » (une graine, val) pour savoir d'où vient le gain sur B-REAL, ou (b) figer E2/E3 tels quels. Ensuite : EL-015 (relations), E4 (hybride), puis évaluation **unique** du test avec les configurations figées (journal `TEST_ACCESS.log`).
+E2/E3 figés (configuration actuelle, 3 graines). Suite : EL-015 (classifieur de relations), E4 (hybride BM25 + dense, filtres), puis évaluation **unique** du test avec les configurations figées (journal `TEST_ACCESS.log`).

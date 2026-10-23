@@ -388,3 +388,11 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Manifestes : commit `50e4fbc`, `git_dirty: false`. Aucun `TEST_ACCESS.log`.
 - Nouveau : `eval/compare.py` + `scripts/compare_runs.py` (moyenne des graines par requête ; grappes B-REAL = composantes de personnes comme le prévoit le protocole, alors que le harnais regroupe par groupe pour son indicateur de contrôle — écart relevé, sans effet sur les métriques par requête). 77 tests verts.
 - Résultats de validation et lecture : `docs/EXPERIMENTS.md` (E2 et E3). Point saillant : E2 ≈ E3 en nDCG@10, mais E2 ≫ E3 sur les pièges « superseded » de B-SYN (0,88 contre 0,32).
+
+## S13 · EL-013 · ablation E2S (B-SYN seul)
+
+- **Heure** : 13:01 (« vasy ») → 13:12
+- Variante `e2s` (exemples B-SYN seuls, identiques octet pour octet à la version d'hier `23596325…`), section ajoutée au notebook, protocole v1.5 (ablation déclarée exploratoire, décidée après lecture de la validation). Commit `569b83c`.
+- Colab : la mise à jour du dépôt a d'abord échoué (runs non suivis de la session précédente) ; anciens runs déplacés dans `/content/runs_session1` de la session Colab, puis `verify_data.py` OK et entraînement (84 s).
+- Zip récupéré via le connecteur Google Drive, SHA-256 `cdd99416…` identique à Colab. Manifeste : commit `569b83c`, propre.
+- Résultat (val) : E2S B-REAL 0,307 contre 0,293 (E1) et 0,507 (E2) → le gain réel vient des données B-REAL d'entraînement. Détails : `docs/EXPERIMENTS.md`.
