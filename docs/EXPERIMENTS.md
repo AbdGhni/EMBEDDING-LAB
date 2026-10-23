@@ -206,3 +206,65 @@ Mémoire : projet **fictif** Atlas (`demo/atlas/source.json`, 3 réunions, 21 un
 - **Correction faite après la première exécution** (journal S16) : une question retrouvée par la recherche (« Qui s'occupe de transmettre le dossier ? ») était citée comme réponse ; l'agent suit désormais la relation `answers` vers l'unité qui répond. C'est une correction de logique, pas un réglage de modèle ; le bonus correspondant échouait avant.
 - **E1 et E2 donnent les mêmes résultats** sur ces 9 scénarios : la mémoire ne contient que 21 unités, la recherche y est facile. Les scénarios testent l'enchaînement de l'agent, pas la qualité du retrieval (mesurée sur B-SYN et B-REAL).
 - Latence (VM, 2 vCPU, E1, hors chargement des modèles) : 24 à 384 ms par requête ; la première inclut l'encodage de la mémoire.
+
+## Test — évaluation finale unique (2026-10-23)
+
+Configurations figées avant l'accès (protocole v1.8) ; chaque accès est consigné dans `runs/TEST_ACCESS.log` (VM et Colab, 14:33–14:50). Code au commit `d30c44b` pour tous les runs de test, arbre propre. Analyse : `runs/CMP-test-2026-10-23T1450/final.json` (`scripts/final_analysis.py`). Scores dense moyennés requête par requête sur 3 graines.
+
+### Recherche
+
+| Système (test) | B-SYN nDCG@10 | B-SYN R@1 | B-SYN paires | B-REAL nDCG@10 | B-REAL R@1 | B-REAL paires |
+|---|---|---|---|---|---|---|
+| E0 BM25 | 0,548 | 0,334 | 0,735 | 0,207 | 0,092 | 0,573 |
+| E1 e5-small | 0,841 | 0,658 | 0,831 | 0,333 | 0,137 | 0,589 |
+| **E2 fine-tuné, négatifs difficiles** | **0,903** | 0,727 | 0,901 | **0,563** | 0,207 | **0,708** |
+| E3 fine-tuné, négatifs aléatoires | 0,898 | 0,667 | 0,837 | 0,564 | 0,212 | 0,691 |
+| E4-dem (E2 + rétrogradation R2) | 0,900 | **0,751** | **0,911** | 0,539 | 0,197 | 0,736 |
+| E4-rrf (BM25 + E2) | 0,788 | — | 0,828 | 0,378 | — | 0,642 |
+| E0-dem (BM25 + rétrogradation) | 0,574 | — | 0,776 | 0,195 | — | 0,593 |
+
+Écart-type entre graines de nDCG@10 : ≤ 0,009.
+
+| Hypothèse | Mesure | Δ [IC 95 % bootstrap] | p (permutation par grappes) | Verdict (règle § 1) |
+|---|---|---|---|---|
+| H1 E2 > E1, B-SYN | nDCG@10 | +0,062 [+0,041 ; +0,083] | < 0,001 (48 grappes), Holm 0,0002 | **confirmée** |
+| H2 E2 > E1 sur les pièges, B-SYN | précision par paires | +0,070 [+0,049 ; +0,090] | < 0,001, Holm 0,0002 | **confirmée** |
+| H3 effet sur l'oral réel, B-REAL | nDCG@10 | +0,229 [+0,152 ; +0,296] | 0,016 (exact, 7 grappes : minimum atteignable) | descriptive : gain dans les 7 composantes |
+| H4 difficiles > aléatoires, B-SYN | précision par paires | +0,064 [+0,044 ; +0,085] | < 0,001 | secondaire : en faveur des négatifs difficiles |
+| H5 hybride ≥ meilleur seul | nDCG@10 | B-SYN −0,003 [−0,010 ; +0,003], p = 0,62 ; B-REAL −0,024 [−0,063 ; +0,016], p = 0,34 | — | **non soutenue** : l'hybride retenu ne fait pas mieux que E2 |
+
+Précision par paires par piège (moyenne des graines) :
+
+| Piège | E1 B-SYN | E2 B-SYN | E3 B-SYN | E1 B-REAL | E2 B-REAL | E3 B-REAL |
+|---|---|---|---|---|---|---|
+| superseded | 0,29 | **0,54** | 0,15 | 0,61 | 0,65 | 0,61 |
+| status | 0,85 | 0,89 | 0,88 | 0,50 | 0,67 | 0,67 |
+| person | 1,00 | 1,00 | 1,00 | 0,51 | 0,58 | 0,58 |
+| topic_only | 0,95 | 0,97 | 0,96 | 0,57 | 0,75 | 0,73 |
+
+Sous-ensemble B-REAL relu par l'étudiant (5 réunions, 34 requêtes) contre le reste (annoté par Claude seul, 70 requêtes), nDCG@10 : E0 0,276 / 0,173 ; E1 0,409 / 0,297 ; E2 0,590 / 0,549 ; E3 0,613 / 0,541. Le classement des systèmes est le même dans les deux parties. Rappel : la relecture humaine a porté sur les 43 points litigieux du sous-ensemble, pas sur toutes ses annotations.
+
+### Lecture
+
+- **Le fine-tuning contrastif est le résultat principal** : +0,06 nDCG@10 sur B-SYN et +0,23 sur l'oral réel, avec des scores stables d'une graine à l'autre. L'ablation E2S (val) a montré que le gain sur l'oral vient des exemples B-REAL d'entraînement.
+- **Ce qui est appris grâce aux négatifs difficiles** : préférer la décision qui remplace l'ancienne (`superseded` 0,54 contre 0,15 avec des négatifs aléatoires, sur B-SYN). L'effet ne se voit ni sur nDCG@10, ni sur B-REAL (0,65 contre 0,61).
+- **Le piège « remplacement » reste le point faible** : même E2 ne préfère la version à jour que dans un cas sur deux sur B-SYN test (0,54). Une similarité vectorielle seule ne suffit pas à suivre une chaîne de décisions ; d'où le module de relations et la rétrogradation, qui monte ce score à 0,62.
+- **L'hybride ne paie pas** : RRF avec BM25 fait perdre beaucoup (BM25 est trop faible après fine-tuning) ; la rétrogradation améliore R@1 et les pièges sur B-SYN mais pas nDCG@10.
+
+### Relations (test)
+
+`R-test-2026-10-23T1434` : macro-F1 B-REAL (6 classes) R0 0,111 ; R1 0,574 [0,515 ; 0,608] ; **R2 0,608** [0,563 ; 0,637] ; R3 0,530. R2 − R1 : +0,034 [+0,013 ; +0,081]. F1 par classe (R2) : answers 0,88, none 0,77, supports 0,56, supersedes 0,54, creates_action 0,52, contradicts 0,37. Sur B-SYN, la table des types atteint 1,00 (relations triviales dans le générateur).
+
+### Intentions (test)
+
+`I-test-2026-10-23T1438`. Macro-F1 [IC 95 %] :
+
+| Modèle | I-SYN test (444) | I-MAN (80, écrit par Claude) | action à tort I-SYN / I-MAN |
+|---|---|---|---|
+| I0 règles | **0,948** [0,921 ; 0,971] | **0,914** [0,840 ; 0,968] | 0,050 / 0,033 |
+| I1 TF-IDF | 0,604 | 0,681 | 0,167 / 0,200 |
+| **I2 e5 gelé (retenu sur val)** | 0,817 [0,789 ; 0,845] | 0,863 [0,774 ; 0,931] | 0,044 / 0,100 |
+
+- **Le modèle choisi sur la validation (I2) est battu sur le test par les règles (I0).** Le résultat officiel reste I2 ; passer aux règles maintenant serait un choix fait après avoir vu le test. Biais à signaler : les règles et I-MAN ont le même auteur (Claude), ce qui avantage probablement les règles sur I-MAN.
+- Erreur dominante de I2 sur I-SYN test : la famille « Rappelle-moi ce qui a été dit sur… » (classe `answer`, F1 0,15) prise pour `no_action` ou `compare`. Sur I-MAN, des questions de statut (« il est validé ou pas encore ? ») prises pour `compare`, et deux hypothèses (« Bon, on verra plus tard pour la salle ») prises pour `create_task`.
+- Slots (extracteur par règles, liste de noms fournie) : personne et projet 1,00 sur les deux jeux ; échéance 1,00 / 0,975.

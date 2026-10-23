@@ -15,8 +15,8 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-007c | B-SYN : générateur de projets synthétiques (familles de patrons, entités et dates disjointes par split) | EL-006, EL-009 | 2 | `scripts/make_bsyn.py`, données hors Git | 0 entité, patron ou projet partagé entre splits ; qrels test figés | validé (empreintes test dans JOURNAL, régénération identique) |
 | EL-008 | Splits par composante de personnes + détection de doublons / fuites | EL-007 | 1 | `scripts/make_splits.py`, `splits/summre_v1.json` | 0 groupe et 0 locuteur partagés entre splits | validé |
 | EL-009 | Protocole expérimental puis gel du test | EL-008 | 1 | `EXPERIMENT_PROTOCOL.md` v1.0, `eval/metrics.py`, `splits/summre_v1_test_meetings.txt` | protocole et périmètre du test figés avec empreintes ; qrels figés à leur création (EL-007b/c) | validé (protocole v1.1 après relecture `mle-reviewer` ; périmètre figé) |
-| EL-010 | Point d'entrée commun d'évaluation (refus du test sans journal, même code pour tous les systèmes) + E0 : BM25 | EL-007b, EL-007c | ½ | `eval/harness.py`, `runs/E0-*` | métriques sur val et test | exécuté non validé (val mesuré ; test après relecture B-REAL) |
-| EL-011 | E1 : encodeur pré-entraîné | EL-007b, EL-007c | 1 | `runs/E1-*` | métriques + révision du modèle | exécuté non validé (val) |
+| EL-010 | Point d'entrée commun d'évaluation (refus du test sans journal, même code pour tous les systèmes) + E0 : BM25 | EL-007b, EL-007c | ½ | `eval/harness.py`, `runs/E0-*` | métriques sur val et test | exécuté non validé (val et test mesurés) |
+| EL-011 | E1 : encodeur pré-entraîné | EL-007b, EL-007c | 1 | `runs/E1-*` | métriques + révision du modèle | exécuté non validé (val et test) |
 | EL-012 | Paires/triplets + mining de hard negatives (train uniquement) | EL-007b, EL-007c, EL-008 | 2 | jeu d'entraînement + inspection faux négatifs | aucun négatif issu de val/test | exécuté non validé (`data/train/`, 7 343 exemples ; négatifs tirés du train uniquement) |
 | EL-013 | E2 : fine-tuning contrastif | EL-011, EL-012 | 2 | checkpoint, logs, commande | checkpoint choisi sur validation | exécuté non validé (3 graines, val ; `docs/EXPERIMENTS.md`) |
 | EL-014 | E3 : ablation hard vs simples | EL-013 | 1 | `runs/E3-*` | budget égal documenté | exécuté non validé (3 graines, val) |
@@ -30,7 +30,7 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-022 | Réponses et dossiers sourcés (gabarits extractifs) | EL-018 | 2 | `agent/` | taux d'affirmations non étayées mesuré | exécuté non validé (réponses, comparaison, dossier extractifs et sourcés) |
 | EL-023 | Outils simulés + schémas JSON | EL-019 | 1 | `tools/`, `schemas/` | CI : executed=false toujours | exécuté non validé (executed=false, aucun import réseau, adresses inventées rejetées : tests) |
 | EL-024 | Évaluation de bout en bout + 7 scénarios | EL-021–023 | 2 | logs de scénarios | 7/7 exécutés, résultats rapportés honnêtement | exécuté non validé (8/9 scénarios avec E1 et avec E2 ×3 graines ; scénario 2 en échec) |
-| EL-025 | Rapport final + MODEL_CARD | EL-024 | 2 | FINAL_REPORT.md | relecture indépendante | prévu |
-| EL-026 | Installation propre + script de démo 5–10 min | EL-024 | 1 | DEMO.md | démo rejouée sur environnement neuf | prévu |
+| EL-025 | Rapport final + MODEL_CARD | EL-024 | 2 | FINAL_REPORT.md | relecture indépendante | exécuté non validé (`docs/FINAL_REPORT.md`, `docs/MODEL_CARD.md` ; relecture indépendante à faire) |
+| EL-026 | Installation propre + script de démo 5–10 min | EL-024 | 1 | DEMO.md | démo rejouée sur environnement neuf | exécuté non validé (`docs/DEMO.md` ; démo à rejouer sur machine propre) |
 
 Total ≈ 34 demi-journées pour ~30 disponibles sur 15 jours : la marge est négative si E5–E7 s'ajoutent. Ces expériences secondaires restent donc **conditionnelles**.

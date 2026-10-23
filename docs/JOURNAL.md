@@ -420,3 +420,10 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Agent (EL-018 à EL-024) : mémoire Atlas fictive (`demo/atlas/source.json`, validée par les schémas ; une relation `answers` vers un risque rejetée par le validateur puis retirée), résolution des dates, destinataires (mention ≠ responsabilité), outils simulés, agent extractif, scénarios, CLI.
 - Scénarios, première exécution (code non commité, run supprimé) : 7/9. Deux échecs : scénario 2 (intention mal classée) et bonus « engagement » (la question était citée au lieu de sa réponse). Correction de logique pour le second (suivre `answers`), aucune pour le premier. Puis présentation du dossier corrigée (doublons, décisions contestées, objet du mail).
 - Runs finaux : `SCN-E1-2026-10-23T1421` (VM, `e64ace0`, 8/9) ; Colab avec E2 × 3 graines (`54f0489`, 8/9 chacun), zip `2f1e5b86…` récupéré par le connecteur Drive, empreinte identique.
+
+## S17 · évaluation finale du test
+
+- **Heure** : 14:32 (« lance ») → 14:55
+- Accord de l'étudiant pour figer et mesurer. `run_e4.py --dense-only` ajouté avant tout accès (`d30c44b`).
+- VM : E0, E1, E0-dem (14:33–14:34), relations (14:34), intentions (14:38). Colab : E2/E4 × 3 graines (14:33–14:38), E3 × 3 graines (14:39–14:42) ; zip `7c17effe…` récupéré par le connecteur Drive, empreinte identique ; journal d'accès Colab fusionné dans `runs/TEST_ACCESS.log` (marqué `"machine": "colab"`). Analyse confirmatoire 14:50.
+- Résultats : H1 et H2 confirmées (Holm 0,0002) ; H3 +0,229 (7/7 grappes) ; H4 en faveur des négatifs difficiles sur les pièges ; H5 non soutenue. Relations R2 0,608. Intentions : I2 (retenu) 0,817 / 0,863, battu par les règles I0 (0,948 / 0,914) — rapporté tel quel, aucune modification après le test.

@@ -19,8 +19,8 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | L-06 | S | Module d'intentions (réponse, dossier, préparation d'action) | `src/embedding_lab/intents/` | évaluation intentions | macro-F1, exactitude des slots | exécuté non validé (val) |
 | L-07 | S | Mini-agent avec interface ou API, dossiers et brouillons sourcés | `src/embedding_lab/agent/`, CLI | 7 scénarios | transcriptions de démo | exécuté non validé (CLI + 9 scénarios, 8 réussis) |
 | L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | exécuté non validé (tests verts) |
-| L-09 | S | Rapport : comparaisons, métriques, ablations, erreurs, coûts, limites | `docs/FINAL_REPORT.md` | relecture indépendante | rapport | prévu |
-| L-10 | S | Démonstration reproductible sur plusieurs conversations | `docs/DEMO.md`, commande de lancement | exécution sur machine propre | log de démo | prévu |
+| L-09 | S | Rapport : comparaisons, métriques, ablations, erreurs, coûts, limites | `docs/FINAL_REPORT.md` | relecture indépendante | rapport | exécuté non validé (`docs/FINAL_REPORT.md`) |
+| L-10 | S | Démonstration reproductible sur plusieurs conversations | `docs/DEMO.md`, commande de lancement | exécution sur machine propre | log de démo | exécuté non validé (`docs/DEMO.md`) |
 
 ## 2. Difficultés sémantiques (§ Problématique, § Données)
 
@@ -90,7 +90,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | C-05 | S | Le LLM éventuel ne masque pas les erreurs du moteur : évaluation séparée des composants | protocole | prévu |
 | C-06 | S | Une relation temporelle n'est pas déduite de la seule similarité | tests relations (dates, projet, preuve) | prévu |
 | C-07 | O | Contenu ingéré = donnée non fiable (injection dans une transcription) | test dédié | exécuté (u-atlas-20 : consigne stockée comme donnée, scénario bonus sans action) |
-| C-08 | O | Test gelé après validation du protocole | empreinte du test enregistrée dans JOURNAL | en cours (protocole et périmètre figés ; `runs/TEST_ACCESS.log` obligatoire ; qrels à figer) |
+| C-08 | O | Test gelé après validation du protocole | empreinte du test enregistrée dans JOURNAL | exécuté (test évalué une fois, `runs/TEST_ACCESS.log`) |
 | C-09 | O | Annotations LLM = provisoires ; échantillon de contrôle relu par l'étudiant | fichier d'échantillon + statut de relecture | prévu |
 
 ## 7. Extensions facultatives (hors socle)

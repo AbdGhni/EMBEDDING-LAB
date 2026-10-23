@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S16, 2026-10-23 (14 h 30)
+Mis à jour : session S17, 2026-10-23 (15 h)
 
 ## Git
 
@@ -64,9 +64,13 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 - ECC 2.2.3 installé sur le PC, invocable seulement là-bas (relectures déléguées via `docs/mandates/`).
 
+## Test
+
+Évalué une seule fois le 2026-10-23 (14:33–14:50), commit `d30c44b`, journal `runs/TEST_ACCESS.log`. Résultats : `docs/EXPERIMENTS.md` (section Test) et `docs/FINAL_REPORT.md`. Toute modification ultérieure du système doit être étiquetée post hoc.
+
 ## Prochaine action
 
-1. Mesures finales du test, en une seule passe (journal `TEST_ACCESS.log`) : E0, E1, E2 (3 graines), E3, E4-dem, relations R2, intentions (I-SYN test, I-MAN).
-2. EL-025 : rapport final (`docs/FINAL_REPORT.md`) + MODEL_CARD ; EL-026 : `docs/DEMO.md` et démo rejouée sur une machine propre (PC de l'étudiant, poids E2 téléchargés du Drive).
-3. Relectures ECC à faire sur le PC (mle-reviewer sur E2/E3 et le rapport, security-reviewer sur `tools/`).
-4. Option : l'étudiant écrit ~20 requêtes d'intention (troisième jeu, indépendant).
+1. Relectures ECC sur le PC de l'étudiant : `mle-reviewer` (protocole, E2/E3, rapport), `security-reviewer` (`tools/`, agent), `python-reviewer`.
+2. Démo rejouée par l'étudiant sur son PC avec les poids E2 (`docs/DEMO.md`).
+3. Optionnel : troisième jeu d'intentions écrit par l'étudiant ; mesures M-05/M-06 sur un jeu dédié.
+4. Fusion des branches empilées dans `main` (PR à ouvrir depuis GitHub ; le CLI `gh` n'est pas authentifié dans la VM).
