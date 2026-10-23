@@ -33,6 +33,18 @@ def test_random_variant_same_size_and_breal_negatives_from_other_groups():
         assert qrels[e["query_id"]].get(e["neg_id"], 0) == 0
 
 
+def test_breal_queries_use_group_id_as_cluster():
+    units, queries, qrels, triplets = tiny()
+    breal_queries = [{"query_id": q["query_id"], "text": q["text"],
+                      "group_id": units[f"u{i}"]["project"].removeprefix("summre-")}
+                     for i, q in enumerate(queries)]
+    ex = build_examples(breal_queries, qrels, units, triplets, "breal")
+    assert ex and all(e["cluster"] == f"breal:{units[e['pos_id']]['project'][7:]}" for e in ex)
+    rnd = random_negative_variant(ex, {"breal": list(units.values())}, qrels, seed=1)
+    for e in rnd:
+        assert f"breal:{units[e['neg_id']]['project'][7:]}" != e["cluster"]
+
+
 def test_batches_never_mix_same_cluster_or_positive():
     ex = [{"cluster": f"c{i % 4}", "positive": f"p{i % 7}"} for i in range(40)]
     batches = cluster_batches(ex, batch_size=4, seed=0)

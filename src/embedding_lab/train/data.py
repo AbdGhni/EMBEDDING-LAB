@@ -35,6 +35,20 @@ from typing import Any
 from embedding_lab.retrieval.bm25 import unit_text
 
 
+def query_cluster(q: Mapping[str, Any]) -> str:
+    """Grappe d'une requête : ``cluster`` (B-SYN, = projet) ou ``group_id`` (B-REAL, groupe
+    d'expérience). Même définition que le harnais d'évaluation.
+
+    >>> query_cluster({"cluster": "bs-train-000"}), query_cluster({"group_id": "004"})
+    ('bs-train-000', '004')
+    """
+    if "cluster" in q:
+        return q["cluster"]
+    if "group_id" in q:
+        return q["group_id"]
+    raise KeyError(f"requête sans grappe : {q.get('query_id')}")
+
+
 def build_examples(queries: Sequence[Mapping[str, Any]], qrels: Mapping[str, Mapping[str, int]],
                    units: Mapping[str, Mapping[str, Any]], triplets: Sequence[Mapping[str, Any]],
                    source: str, mined: Mapping[str, Sequence[str]] | None = None,
@@ -59,7 +73,7 @@ def build_examples(queries: Sequence[Mapping[str, Any]], qrels: Mapping[str, Map
                 assert rel.get(neg, 0) == 0, "un négatif ne peut pas être pertinent"
                 out.append({"query_id": q["query_id"], "anchor": q["text"],
                             "positive": unit_text(units[pos]), "negative": unit_text(units[neg]),
-                            "pos_id": pos, "neg_id": neg, "cluster": f"{source}:{q['cluster']}",
+                            "pos_id": pos, "neg_id": neg, "cluster": f"{source}:{query_cluster(q)}",
                             "source": source, "neg_origin": origin})
     return out
 
