@@ -1,0 +1,26 @@
+{
+ "run_id": "E4-rrf-dem-s13-test-2026-10-23T1433",
+ "harness_version": "1.0",
+ "git_commit": "d30c44bae19189164c22f0f8dc7f37a709337647",
+ "git_dirty": false,
+ "python": "3.13.15",
+ "machine": "Linux-6.6.122+-x86_64-with-glibc2.39",
+ "started": "2026-10-23T14:33:18+02:00",
+ "finished": "2026-10-23T14:34:15+02:00",
+ "benchmarks": {
+  "bsyn_test": {
+   "fingerprint": "c225ad4c4b5b856aa5397ea371ee7e81d44800e161f03166875f92680c11d785",
+   "n_queries": 384,
+   "n_clusters": 48,
+   "n_triplets": 622,
+   "seconds": 5.911
+  },
+  "breal_test": {
+   "fingerprint": "84780ccf0373fe997e89abd84f43785bbf2a9e5fee13107857ac57c4448c9261",
+   "n_queries": 104,
+   "n_clusters": 9,
+   "n_triplets": 302,
+   "seconds": 5.579
+  }
+ }
+}

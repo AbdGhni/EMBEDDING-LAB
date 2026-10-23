@@ -1,0 +1,26 @@
+{
+ "run_id": "E4-dem-s13-test-2026-10-23T1433",
+ "harness_version": "1.0",
+ "git_commit": "d30c44bae19189164c22f0f8dc7f37a709337647",
+ "git_dirty": false,
+ "python": "3.13.15",
+ "machine": "Linux-6.6.122+-x86_64-with-glibc2.39",
+ "started": "2026-10-23T14:33:18+02:00",
+ "finished": "2026-10-23T14:34:04+02:00",
+ "benchmarks": {
+  "bsyn_test": {
+   "fingerprint": "d0c79de4a8978d581e6a3b686f1b1e5791508b16c550d49d85b39344c86381e4",
+   "n_queries": 384,
+   "n_clusters": 48,
+   "n_triplets": 622,
+   "seconds": 5.876
+  },
+  "breal_test": {
+   "fingerprint": "6962d768a8e5c8160302e54e4c01c7987ec3ae1c9b26ecbcaf9457c7b522ca49",
+   "n_queries": 104,
+   "n_clusters": 9,
+   "n_triplets": 302,
+   "seconds": 9.265
+  }
+ }
+}

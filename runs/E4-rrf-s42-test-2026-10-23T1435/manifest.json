@@ -1,0 +1,26 @@
+{
+ "run_id": "E4-rrf-s42-test-2026-10-23T1435",
+ "harness_version": "1.0",
+ "git_commit": "d30c44bae19189164c22f0f8dc7f37a709337647",
+ "git_dirty": false,
+ "python": "3.13.15",
+ "machine": "Linux-6.6.122+-x86_64-with-glibc2.39",
+ "started": "2026-10-23T14:35:18+02:00",
+ "finished": "2026-10-23T14:35:49+02:00",
+ "benchmarks": {
+  "bsyn_test": {
+   "fingerprint": "24e8ea27e394a9cfe3d538d195bcfa023e515b6d8c242f408a56404216127547",
+   "n_queries": 384,
+   "n_clusters": 48,
+   "n_triplets": 622,
+   "seconds": 5.78
+  },
+  "breal_test": {
+   "fingerprint": "048dd8355c08b5463ea545dfebe5932b39bfc0c1b0457872b38b3f5539af4a5d",
+   "n_queries": 104,
+   "n_clusters": 9,
+   "n_triplets": 302,
+   "seconds": 1.4
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "run_id": "E4-dense-s42-test-2026-10-23T1435",
+ "harness_version": "1.0",
+ "git_commit": "d30c44bae19189164c22f0f8dc7f37a709337647",
+ "git_dirty": false,
+ "python": "3.13.15",
+ "machine": "Linux-6.6.122+-x86_64-with-glibc2.39",
+ "started": "2026-10-23T14:35:18+02:00",
+ "finished": "2026-10-23T14:35:42+02:00",
+ "benchmarks": {
+  "bsyn_test": {
+   "fingerprint": "d882de5403674d5f4a56b0030d375f862e483b684947898e6eca3e5c0941ec1b",
+   "n_queries": 384,
+   "n_clusters": 48,
+   "n_triplets": 622,
+   "seconds": 5.866
+  },
+  "breal_test": {
+   "fingerprint": "7af7e3d0dbdb2a87279abbb589182b95c1e6a9ef856e90576803ba5e8d857f5e",
+   "n_queries": 104,
+   "n_clusters": 9,
+   "n_triplets": 302,
+   "seconds": 2.262
+  }
+ }
+}
