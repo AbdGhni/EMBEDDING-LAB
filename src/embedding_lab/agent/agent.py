@@ -200,22 +200,38 @@ class Agent:
             ids = [u["unit_id"] for u in units if u["source_id"] == sid]
             claim("Chronologie", f"{fr_date(meta['date'])} — {meta['title']} "
                   f"({len(ids)} unités)", ids)
+        # doublons : une décision reprise (« supports ») par une décision plus récente est
+        # fusionnée avec elle, la ligne cite les deux
+        confirmed_by = {r["to_id"]: r["from_id"] for r in m.relations
+                        if r["relation"] == "supports"
+                        and m.units[r["from_id"]]["type"] == "decision"
+                        and m.units[r["to_id"]]["type"] == "decision"}
         for u in units:
             uid = u["unit_id"]
             if u["type"] == "decision":
+                if uid in confirmed_by and m.is_current(uid):
+                    continue
                 if m.is_current(uid) and u["status"] == "active":
-                    claim("Décisions en vigueur", m.units[uid]["statement"], [uid])
+                    earlier = [k for k, v in confirmed_by.items() if v == uid]
+                    note = " (contestée, voir points ouverts)" if m.contradicted_by.get(uid) \
+                        else ""
+                    claim("Décisions en vigueur", u["statement"] + note
+                          + (f" — confirmée, reprend {', '.join(earlier)}" if earlier else ""),
+                          [*earlier, uid])
                 elif not m.is_current(uid):
                     claim("Décisions remplacées", f"{u['statement']} → remplacé par "
                           f"{m.superseded_by[uid]}", [uid, m.superseded_by[uid]])
             if u.get("amount"):
-                state = ("en vigueur" if m.is_current(uid) and u["status"] == "active"
-                         else "remplacé" if not m.is_current(uid) else u["status"])
+                state = ("remplacé" if not m.is_current(uid)
+                         else "contrainte" if u["type"] == "fact"
+                         else "en vigueur" if u["status"] == "active" else u["status"])
                 claim("Budget", f"{u['amount']} ({state}) : {u['statement']}", [uid])
             if u["type"] == "risk":
                 claim("Risques", u["statement"], [uid])
             if u["type"] in ("commitment", "action") and u["status"] != "proposed":
                 due = f", échéance {fr_date(u['due_date'])}" if u.get("due_date") else ""
+                if u.get("due_date") and u["due_date"] < self.ref.isoformat():
+                    due += " (passée, état d'avancement non renseigné)"
                 claim("Prochaines étapes et responsables",
                       f"{u['owner'] or 'responsable non désigné'} : {u['statement']}{due}", [uid])
             if u["type"] == "question" and u["status"] == "open":
@@ -277,6 +293,9 @@ class Agent:
                       r"(?:\s+(?:avant|d'ici|pour)\b.*)?[.?!]?$", request, re.IGNORECASE)
         obj = m.group(1).strip() if m else f"les dernières informations sur le {topic}"
         obj = re.sub(r"^(?:lui|leur)\s+demander\s+", "", obj)
+        if topic not in obj.lower():
+            obj += {"communication": " de la communication", "facture": " des factures",
+                    "salle": " de la salle"}.get(topic, f" du {topic}")
         due = a["deadline_resolved"]
         when = f" avant le {fr_date(due)}" if due else ""
         context, sources = [], list(person["evidence_unit_ids"])
