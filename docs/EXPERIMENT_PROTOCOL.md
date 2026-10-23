@@ -135,9 +135,9 @@ Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même décou
 
 **Modèles.**
 - R0 : classe majoritaire du train.
-- R1 : règles écrites à la main sur les types d'unités et l'ordre (ex. réponse ou décision après une question → `answers` ; décision ou engagement après une idée du même locuteur… ), sans apprentissage.
-- R2 : régression logistique multinomiale sur des variables structurelles (types et statuts des deux unités, même réunion, écart de rang, même locuteur, recouvrement lexical, présence de nombres ou de dates).
-- R3 : R2 + plongements e5-small **gelés** des deux extraits (`[x, y, x·y, |x − y|]`).
+- R1 : table des types : classe la plus fréquente du train pour chaque triplet (type de X, type de Y, même réunion), repli sur (type X, type Y) puis sur la classe majoritaire. Pas d'autre apprentissage.
+- R2 : régression logistique multinomiale (variables standardisées, classes pondérées « balanced ») sur des variables structurelles : types des deux unités et leur couple, même réunion, écart de rang, écart de tours, même locuteur, recouvrement lexical, présence de nombres, indices lexicaux de changement ou de négation dans X (liste fixée a priori). Les **statuts** ne sont pas utilisés : dans l'annotation, le statut d'une question (« resolved ») découle de la relation elle-même.
+- R3 : R2 + plongements e5-small (E1) **gelés** des deux extraits (`passage: ` + texte de l'extrait ; `[x, y, x·y, |x − y|]`).
 Le seul hyperparamètre (C de la régression, grille 0,01 à 100) est choisi sur **val** (macro-F1 B-REAL). Entraînement : B-REAL train + B-SYN train.
 
 **Métriques (M-03).** Principale : macro-F1 sur les 6 classes, B-REAL test. Secondaires : macro-F1 sur les 5 classes de relation seules (couples positifs, sans `none`), P/R par classe, matrice de confusion, et les mêmes mesures sur B-SYN test (4 classes). IC 95 % par bootstrap par grappes (composantes de personnes pour B-REAL, projets pour B-SYN), 10 000 tirages, graine 0. Comparaison R3 − R0 et R3 − R1 descriptive (pas d'hypothèse confirmatoire).
