@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.6**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.7**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.7 | 2026-10-23 | § 11 : composants de E4 précisés (RRF, rétrogradation des unités remplacées par R2, sans filtre de type ni reranker) | rédigé avant toute mesure de E4 : non post hoc. Le filtre de type dépend des intentions (EL-019) et le reranker cross-encoder est abandonné faute de temps ; les deux sont signalés comme non faits. |
 | 1.6 | 2026-10-23 | § 10 : protocole du module de relations (EL-015) — tâche, classes, négatifs, modèles R0–R3, métriques, sélection sur val | rédigé avant toute mesure du module, sur val comme sur test : non post hoc. |
 | 1.5 | 2026-10-23 | ajout de **E2S** (E2 sans les exemples B-REAL), ablation **diagnostique**, validation seulement, une graine ; jamais évaluée sur le test, n'entre dans aucune hypothèse ; grappes B-REAL des comparaisons = composantes de personnes (`eval/compare.py`), conformément au § 5 | décidée **après** lecture des résultats de validation E2/E3 (gain B-REAL identique pour E2 et E3, origine inconnue) : c'est une analyse exploratoire, signalée comme telle. Aucun accès au test : non post hoc vis-à-vis du test. |
 | 1.4 | 2026-10-21 | B-REAL : portée de recherche = groupe d'expérience de la requête ; annotation des groupes val/test contenant une réunion manuelle (10 + 9 groupes) ; texte indexé B-REAL | 5 scénarios partagés par de nombreux groupes : une question posée sur tout le split aurait de vraies réponses non jugées dans d'autres groupes. Aucune annotation ni évaluation B-REAL faite : non post hoc. |
@@ -143,3 +144,15 @@ Le seul hyperparamètre (C de la régression, grille 0,01 à 100) est choisi sur
 **Métriques (M-03).** Principale : macro-F1 sur les 6 classes, B-REAL test. Secondaires : macro-F1 sur les 5 classes de relation seules (couples positifs, sans `none`), P/R par classe, matrice de confusion, et les mêmes mesures sur B-SYN test (4 classes). IC 95 % par bootstrap par grappes (composantes de personnes pour B-REAL, projets pour B-SYN), 10 000 tirages, graine 0. Comparaison R3 − R0 et R3 − R1 descriptive (pas d'hypothèse confirmatoire).
 
 **Ce que cela ne permet pas de conclure.** Les étiquettes B-REAL viennent du même annotateur IA en train et en test ; le module apprend aussi son style. Les types d'unités utilisés comme variables sont ceux de l'annotation : en usage réel, ils viendraient d'un extracteur, avec ses propres erreurs.
+
+## 11. E4 — hybride et rétrogradation (EL-016)
+
+Systèmes, tous évalués par le harnais commun, dense = **E2** (3 graines, scores moyennés par requête comme au § 4) :
+- **E4-rrf** : fusion RRF de BM25 (E0) et E2, k = 60, poids égaux, sur toute la portée de recherche.
+- **E4-dem** : E2 puis rétrogradation des unités remplacées : parmi les 20 premières, pour chaque couple d'unités du même projet (B-SYN) ou du même groupe (B-REAL), R2 (§ 10, C = 0,1, entraîné sur les trains) estime la probabilité que la plus récente remplace la plus ancienne ; si elle est ≥ 0,5 (seuil fixé a priori) et que l'ancienne est classée au-dessus, l'ancienne est placée juste sous sa remplaçante. Les rangs au-delà de 20 ne bougent pas.
+- **E4-rrf-dem** : E4-rrf puis la même rétrogradation.
+- Contrôle : **E0-dem** (BM25 + rétrogradation), pour voir si la rétrogradation seule suffit.
+
+Non faits, déclarés : filtre par type d'unité (il suppose de connaître l'intention de la question, EL-019) ; reranker cross-encoder (temps).
+
+« Meilleur système seul » pour H5 : celui de E0 et E2 qui a le meilleur nDCG@10 B-SYN val (E2, voir EXPERIMENTS). Le système hybride retenu pour le test est celui des trois E4 qui a le meilleur nDCG@10 moyen sur B-SYN val et B-REAL val ; en cas d'écart < 0,005, le plus simple.
