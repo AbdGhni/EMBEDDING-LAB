@@ -1,0 +1,12 @@
+{
+ "run_id": "E2-e5s-s42-bs64-lr2e-05-2026-10-23T1240",
+ "steps": 348,
+ "best_step": 300,
+ "best_val_ndcg@10": 0.8877982116754017,
+ "checkpoint": "/content/drive/MyDrive/embedding_lab_checkpoints/E2-e5s-s42-bs64-lr2e-05-2026-10-23T1240/best",
+ "train_seconds": 114.7,
+ "n_examples": 7343,
+ "weights_sha256": "6cb89d0ed40d461e8f2b74f077d962060e4e03c065516b586d229ce28602f0e3",
+ "gpu": "Tesla T4",
+ "examples_sha256": "1cd42b9af525c6097cf6278131da64708e69eb76f364ac7c7bc38e10551d7932"
+}

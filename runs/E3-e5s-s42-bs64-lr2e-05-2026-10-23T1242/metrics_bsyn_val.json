@@ -1,0 +1,39 @@
+{
+ "ndcg@10": 0.8937308306167319,
+ "mrr@10": 0.8671875,
+ "recall@1": 0.5416666666666667,
+ "recall@5": 1.0,
+ "recall@10": 1.0,
+ "pairwise_accuracy": 0.8042553191489362,
+ "pairwise_by_trap": {
+  "condition": {
+   "n": 6,
+   "acc": 1.0
+  },
+  "date": {
+   "n": 32,
+   "acc": 1.0
+  },
+  "negation": {
+   "n": 22,
+   "acc": 1.0
+  },
+  "person": {
+   "n": 16,
+   "acc": 1.0
+  },
+  "status": {
+   "n": 54,
+   "acc": 0.5185185185185185
+  },
+  "superseded": {
+   "n": 25,
+   "acc": 0.28
+  },
+  "topic_only": {
+   "n": 80,
+   "acc": 0.975
+  }
+ },
+ "ndcg@10_cluster_mean": 0.893730830616732
+}

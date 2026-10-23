@@ -377,3 +377,14 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - `build_training_data.py` : E2 7 343 exemples (B-SYN 6 222 + B-REAL 1 121 ; 278 grappes), SHA-256 `1cd42b9a…` ; E3 `dfefa76c…`. La part B-SYN est identique ligne à ligne à la version B-SYN seule. B-REAL : 471 des 475 couples positifs de pertinence 2 ont au moins un piège ; pas de minage e5 pour B-REAL (les unités non jugées du même groupe pourraient être de faux négatifs).
 - Empreintes attendues : `splits/data_sha256.json` (27 fichiers).
 - Test de fumée CPU (3 étapes, batch 8) sur les nouvelles données : étape 0 = E1 exactement (B-SYN 0,752 / B-REAL 0,293), chaîne complète OK. Les valeurs après 3 étapes ne sont pas un résultat.
+
+## S12 · EL-013 / EL-014 · entraînements E2 et E3 sur Colab
+
+- **Heure** : 11:52 (demande « fait le toi depuis chrome ») → 2026-10-23T12:57+02:00
+- Pilotage de Colab dans le Chrome de l'étudiant (extension Claude in Chrome), notebook ouvert depuis GitHub (branche `el-012-013-training`, commit `50e4fbc`). GPU Tesla T4 15 Go.
+- Autorisation Google Drive : accord de l'étudiant demandé et obtenu (12:2x) ; la fenêtre d'autorisation Google s'ouvrant hors de l'onglet piloté, l'étudiant l'a validée lui-même. Premier essai de montage expiré (« mount failed »), second réussi.
+- Régénération des données sur Colab : `verify_data.py` → « OK : données identiques ». Diagnostic CUDA : `overfit_ok: true`, 0,32 s/étape au batch 64.
+- 6 runs (E2/E3 × graines 13/42/1234) entre 12:34 et 12:50 ; la sauvegarde sur Drive (~1 min par checkpoint) domine la durée. Cellule ajoutée à la main dans la session Colab (non enregistrée dans le dépôt) pour copier `runs_e2_e3.zip` sur le Drive ; zip récupéré par le connecteur Google Drive, SHA-256 `a986ebe9…` identique à celui calculé dans Colab.
+- Manifestes : commit `50e4fbc`, `git_dirty: false`. Aucun `TEST_ACCESS.log`.
+- Nouveau : `eval/compare.py` + `scripts/compare_runs.py` (moyenne des graines par requête ; grappes B-REAL = composantes de personnes comme le prévoit le protocole, alors que le harnais regroupe par groupe pour son indicateur de contrôle — écart relevé, sans effet sur les métriques par requête). 77 tests verts.
+- Résultats de validation et lecture : `docs/EXPERIMENTS.md` (E2 et E3). Point saillant : E2 ≈ E3 en nDCG@10, mais E2 ≫ E3 sur les pièges « superseded » de B-SYN (0,88 contre 0,32).

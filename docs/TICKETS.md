@@ -18,8 +18,8 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-010 | Point d'entrée commun d'évaluation (refus du test sans journal, même code pour tous les systèmes) + E0 : BM25 | EL-007b, EL-007c | ½ | `eval/harness.py`, `runs/E0-*` | métriques sur val et test | exécuté non validé (val mesuré ; test après relecture B-REAL) |
 | EL-011 | E1 : encodeur pré-entraîné | EL-007b, EL-007c | 1 | `runs/E1-*` | métriques + révision du modèle | exécuté non validé (val) |
 | EL-012 | Paires/triplets + mining de hard negatives (train uniquement) | EL-007b, EL-007c, EL-008 | 2 | jeu d'entraînement + inspection faux négatifs | aucun négatif issu de val/test | exécuté non validé (`data/train/`, 7 343 exemples ; négatifs tirés du train uniquement) |
-| EL-013 | E2 : fine-tuning contrastif | EL-011, EL-012 | 2 | checkpoint, logs, commande | checkpoint choisi sur validation | en cours (notebook Colab prêt, runs à lancer) |
-| EL-014 | E3 : ablation hard vs simples | EL-013 | 1 | `runs/E3-*` | budget égal documenté | prévu |
+| EL-013 | E2 : fine-tuning contrastif | EL-011, EL-012 | 2 | checkpoint, logs, commande | checkpoint choisi sur validation | exécuté non validé (3 graines, val ; `docs/EXPERIMENTS.md`) |
+| EL-014 | E3 : ablation hard vs simples | EL-013 | 1 | `runs/E3-*` | budget égal documenté | exécuté non validé (3 graines, val) |
 | EL-015 | Classifieur de relations | EL-007 | 2 | `relations/` + métriques | macro-F1 et matrice de confusion | prévu |
 | EL-016 | E4 : hybride, filtres, reranking | EL-013 | 1 | `runs/E4-*` | composants isolés | prévu |
 | EL-017 | Analyse d'erreurs S2 + relecture indépendante | EL-014, EL-016 | 1 | EXPERIMENTS.md | relecture tracée | prévu |

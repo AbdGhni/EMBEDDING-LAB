@@ -1,0 +1,26 @@
+{
+ "run_id": "E2-e5s-s42-bs64-lr2e-05-2026-10-23T1240",
+ "harness_version": "1.0",
+ "git_commit": "50e4fbc7f1dfb374ff36fa1ecfea3c4b9743c1c7",
+ "git_dirty": false,
+ "python": "3.13.15",
+ "machine": "Linux-6.6.122+-x86_64-with-glibc2.39",
+ "started": "2026-10-23T12:40:09+02:00",
+ "finished": "2026-10-23T12:42:37+02:00",
+ "benchmarks": {
+  "bsyn_val": {
+   "fingerprint": "d787a9220592abfa5a2cc1863430292f47b9e821cd25fc74670d80403c3d6d69",
+   "n_queries": 160,
+   "n_clusters": 32,
+   "n_triplets": 235,
+   "seconds": 2.393
+  },
+  "breal_val": {
+   "fingerprint": "940169b45c3bd342982083e19bc1088aea0cf90eaa960d7c1e6657f19bf25074",
+   "n_queries": 78,
+   "n_clusters": 10,
+   "n_triplets": 262,
+   "seconds": 2.346
+  }
+ }
+}

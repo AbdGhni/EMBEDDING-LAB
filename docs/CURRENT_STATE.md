@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S10, 2026-10-23 (nuit)
+Mis à jour : session S12, 2026-10-23 (midi)
 
 ## Git
 
@@ -26,7 +26,7 @@ Mis à jour : session S10, 2026-10-23 (nuit)
 - EL-007 : validé (ingestion SUMM-RE, 283 réunions, empreintes).
 - EL-007b : exécuté non validé — val (10 groupes, 78 requêtes) ; test **v2** (104 requêtes, 302 triplets), relecture IA puis relecture humaine ciblée des 43 désaccords (v2 confirmée) ; **train : 38/38 groupes** (4 135 unités, 325 requêtes répondables, 1 174 triplets), non relu.
 - EL-012 : exécuté non validé — `data/train/` : E2 7 343 exemples (B-SYN 6 222 + B-REAL 1 121, SHA-256 `1cd42b9a…`), E3 7 343 (`dfefa76c…`) ; empreintes attendues `splits/data_sha256.json`.
-- EL-013 : prêt pour Colab — test de fumée CPU sur les nouvelles données OK (`runs/SMOKE-E2-…-2026-10-23T0210`, pas un résultat).
+- EL-013 / EL-014 : exécutés non validés — E2 et E3 × 3 graines sur Colab (val seulement) ; comparaison `runs/CMP-val-2026-10-23T1256`. E2 val : B-SYN 0,890, B-REAL 0,511 (E1 : 0,752 / 0,293) ; E2 ≈ E3 en nDCG@10, E2 > E3 sur les pièges B-SYN. Poids sur le Drive de l'étudiant.
 - EL-010 : exécuté non validé — point d'entrée commun + BM25 ; val mesuré.
 - EL-011 : exécuté non validé — e5-small sur val (B-SYN nDCG@10 0,752, B-REAL 0,293).
 - EL-008 : validé (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
@@ -42,7 +42,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 73 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
+- Projet : `uv sync --locked --extra dev` ; 77 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
 
 ## Données locales (hors Git, dans la VM)
 
@@ -52,7 +52,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Runs
 
-`E0-bm25-val-2026-10-22T1127`, `E0r-random-val-2026-10-22T1127`, `E1-e5-small-val-2026-10-22T1130` (val uniquement ; voir `docs/EXPERIMENTS.md`). Diagnostics et tests de fumée : `DIAG-e2-cpu-…`, `SMOKE-E2-…`. Aucun accès au test (`runs/TEST_ACCESS.log` absent).
+`E0-bm25-val-2026-10-22T1127`, `E0r-random-val-2026-10-22T1127`, `E1-e5-small-val-2026-10-22T1130` (val uniquement ; voir `docs/EXPERIMENTS.md`). Diagnostics et tests de fumée : `DIAG-e2-cpu-…`, `DIAG-e2-cuda-…`, `SMOKE-E2-…`. Entraînements : `E2-e5s-s*-bs64-…`, `E3-e5s-s*-bs64-…` ; comparaison `CMP-val-2026-10-23T1256`. Aucun accès au test (`runs/TEST_ACCESS.log` absent).
 
 ## Blocages
 
@@ -60,4 +60,4 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Prochaine action
 
-EL-013/EL-014 : l'étudiant lance `notebooks/colab_e2_e3.ipynb` (E2 et E3 × graines 13/42/1234, val seulement) et renvoie `runs_e2_e3.zip`. Ensuite : intégration des runs, analyse, puis EL-015 (relations). Pas de mesure sur le test avant la fin de E2/E3.
+Décision à prendre par l'étudiant : (a) ablation « B-SYN seul » (une graine, val) pour savoir d'où vient le gain sur B-REAL, ou (b) figer E2/E3 tels quels. Ensuite : EL-015 (relations), E4 (hybride), puis évaluation **unique** du test avec les configurations figées (journal `TEST_ACCESS.log`).
