@@ -1,0 +1,56 @@
+{
+ "task": "intents",
+ "labels": [
+  "answer",
+  "compare",
+  "build_dossier",
+  "draft_email",
+  "create_task",
+  "schedule_event",
+  "clarify",
+  "no_action"
+ ],
+ "grid": [
+  0.01,
+  0.1,
+  1.0,
+  10.0,
+  100.0
+ ],
+ "selection": {
+  "I1": {
+   "0.01": 0.5286459801606443,
+   "0.1": 0.5932570899970859,
+   "1.0": 0.6162230791557636,
+   "10.0": 0.5999575062413202,
+   "100.0": 0.5730965088610183
+  },
+  "I2": {
+   "0.01": 0.7423095726973473,
+   "0.1": 0.744718840607647,
+   "1.0": 0.8694062863199453,
+   "10.0": 0.8953649077497003,
+   "100.0": 0.8845287391079291
+  }
+ },
+ "C": {
+  "I1": 1.0,
+  "I2": 10.0
+ },
+ "chosen_for_agent": "I2",
+ "encoder": {
+  "system": "dense",
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "weights": "pretrained",
+  "max_seq_length": 128,
+  "dtype": "float32",
+  "pooling": "mean",
+  "normalize": true,
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "batch_size": 64,
+  "text_field": "retrieval_text"
+ },
+ "tfidf": "mots 1-2 + caract\u00e8res 2-5 (char_wb), sublinear_tf"
+}

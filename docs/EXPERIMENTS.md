@@ -174,3 +174,18 @@ Runs (Colab T4, commit `edaacbb`, propre ; dense = E2, 3 graines, poids lus sur 
 - **La rétrogradation par R2 change ce qui monte en tête, sans gain global** : sur B-SYN, R@1 passe de 0,587 à 0,629 et le piège « statut » de 0,59 à 0,81 (la proposition est bien placée sous la décision), mais nDCG@10 baisse de 0,049 (p = 0,04). Environ 500 rétrogradations par graine sur 160 requêtes : R2, entraîné avec des classes équilibrées, prédit trop souvent `supersedes` au seuil 0,5 et déplace aussi des réponses correctes. Sur B-REAL, la baisse (−0,024) n'est pas significative.
 - **Choix pour la suite** (règles § 11, fixées avant mesure) : système hybride retenu pour H5 = **E4-dem** (meilleur nDCG@10 moyen des trois E4 : 0,665 contre 0,542 et 0,492). Meilleur système seul = **E2**. Sur val, l'hybride est en dessous de E2 : H5 sera très probablement réfutée sur le test, ce qui sera rapporté tel quel.
 - **Système utilisé par l'agent** : E2 dense seul. Le seuil de R2 ne sera pas réglé après coup sur ces chiffres ; une calibration (probabilités sans pondération des classes, seuil choisi sur val) serait une nouvelle expérience, à déclarer comme telle.
+
+## Intentions (EL-019) — validation
+
+Run : `I-val-2026-10-23T1413` (VM CPU, commit au moment du run dans le manifeste). Protocole § 12 (v1.8). C choisi sur I-SYN val : I1 C = 1, I2 C = 10. Mesures val seulement (famille de gabarits 2, entités jamais vues) ; I-SYN test et I-MAN seront mesurés une fois, avec le reste du test.
+
+| Modèle | macro-F1 (8 classes) [IC 95 %] | F1 `clarify` | F1 `no_action` | action à tort | slots personne / projet / échéance |
+|---|---|---|---|---|---|
+| I0 règles | 0,817 [0,795 ; 0,834] | 0,91 | 1,00 | 0,333 | 1,00 / 1,00 / 1,00 |
+| I1 TF-IDF + LogReg | 0,616 [0,566 ; 0,660] | 0,60 | — | 0,200 | idem |
+| **I2 e5 gelé + LogReg** | **0,895** [0,869 ; 0,920] | **1,00** | 1,00 | 0,200 | idem |
+
+- **I2 est retenu pour l'agent** (meilleur macro-F1 val). Les plongements généralisent mieux à une construction de phrase jamais vue que les n-grammes (I1 s'effondre à 0,62 : il apprend les mots des gabarits de train).
+- **Erreur dominante, commune aux trois modèles** : « Compare les deux dernières réunions de X » est classé `schedule_event` (35 cas sur 60 pour I2, 60 sur 60 pour I0) — le mot « réunion » tire vers la planification. Le « taux d'action à tort » (0,20) vient presque entièrement de là : ce sont des demandes de comparaison prises pour des demandes d'événement, pas des hypothèses transformées en actions (`no_action` : F1 = 1,00 pour tous).
+- **Slots parfaits sur I-SYN** : attendu, l'extracteur reçoit la liste des noms connus et les échéances suivent peu de formes. I-MAN, écrit à la main, sera plus informatif.
+- Limite : I-SYN val et test viennent du même générateur ; I-MAN (écrit par Claude) est le seul jeu de style différent, et il n'est pas indépendant de l'auteur du système.
