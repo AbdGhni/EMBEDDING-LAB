@@ -8,7 +8,18 @@ Sujet officiel : [`docs/BRIEF_ORIGINAL.txt`](docs/BRIEF_ORIGINAL.txt).
 
 ## État
 
-Phase de cadrage (semaine 1, jour 1). Aucun code exécutable, aucune donnée, aucun modèle entraîné à ce stade. Voir [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md).
+Fine-tuning contrastif (E2, E3), relations, intentions, mémoire, agent et scénarios de démonstration réalisés et mesurés **sur validation**. Les mesures finales sur le test n'ont pas encore été faites. Résultats : [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md) ; état détaillé : [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md).
+
+## Démonstration
+
+```bash
+uv sync --locked --extra dev --extra ml
+uv run python -I scripts/run_scenarios.py                    # 7 scénarios + 2 bonus, contrôles automatiques
+uv run python -I scripts/agent_cli.py                        # boucle interactive
+uv run python -I scripts/agent_cli.py -q "Qui est responsable du budget ?"
+```
+
+Par défaut, la mémoire est indexée avec l'encodeur initial (E1). Pour utiliser l'encodeur fine-tuné (E2), télécharger un dossier `E2-…/best` depuis le Drive de l'étudiant et ajouter `--weights <dossier>/best`. La mémoire de démonstration (`demo/atlas/source.json`) est un projet **fictif** ; aucune adresse e-mail n'existe dans les sources, donc l'agent n'en propose jamais. Toutes les actions sont des propositions JSON (`needs_confirmation: true`, `executed: false`).
 
 ## Documents de suivi
 
@@ -36,4 +47,4 @@ L'extra `ml` (torch, sentence-transformers) est destiné à Colab ou à une mach
 
 ## Limites
 
-Projet en cours ; aucune métrique n'est encore disponible.
+Voir `docs/EXPERIMENTS.md` et `docs/EXPERIMENT_PROTOCOL.md` § 9 à 12 : annotations B-REAL provisoires (IA), test non encore mesuré, données d'intentions synthétiques ou écrites par l'IA, mémoire de démonstration écrite à la main.
