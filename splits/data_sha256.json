@@ -25,5 +25,6 @@
  "data/breal/test/qrels.json": "66787fffe9eae9334c09e2c5aed08e417f8dab4504ceefabeff19a6c2b6178d0",
  "data/breal/test/triplets.jsonl": "08a52eb90565f042cb4cb525c42dfb18a6431fcfb345bc677bf1b5ba25775035",
  "data/train/e2_hard.jsonl": "1cd42b9af525c6097cf6278131da64708e69eb76f364ac7c7bc38e10551d7932",
- "data/train/e3_random.jsonl": "dfefa76c5b7f07bde0ea573f418c4f295a1e5dc2d409a76cd743ebd676a46ee8"
+ "data/train/e3_random.jsonl": "dfefa76c5b7f07bde0ea573f418c4f295a1e5dc2d409a76cd743ebd676a46ee8",
+ "data/train/e2_bsyn_only.jsonl": "235963252f3f379af67e88aec2cee1485fa0db8653b32da8d16707be89bda15d"
 }

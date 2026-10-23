@@ -86,6 +86,10 @@ def main() -> None:
                     "clusters": len({e["cluster"] for e in hard})},
         "e3_random": {"n": len(rnd), "sha256": dump(args.out / "e3_random.jsonl", rnd)},
     }
+    if not args.no_breal:  # ablation E2S : mêmes exemples B-SYN, sans B-REAL
+        only = [e for e in hard if e["source"] == "bsyn"]
+        manifest["e2_bsyn_only"] = {"n": len(only),
+                                    "sha256": dump(args.out / "e2_bsyn_only.jsonl", only)}
     (args.out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
     print(json.dumps(manifest, indent=1, ensure_ascii=False))
 

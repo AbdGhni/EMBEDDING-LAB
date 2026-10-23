@@ -28,5 +28,9 @@
  "e3_random": {
   "n": 7343,
   "sha256": "dfefa76c5b7f07bde0ea573f418c4f295a1e5dc2d409a76cd743ebd676a46ee8"
+ },
+ "e2_bsyn_only": {
+  "n": 6222,
+  "sha256": "235963252f3f379af67e88aec2cee1485fa0db8653b32da8d16707be89bda15d"
  }
 }

@@ -15,7 +15,9 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-EXAMPLES = {"e2": "data/train/e2_hard.jsonl", "e3": "data/train/e3_random.jsonl"}
+EXAMPLES = {"e2": "data/train/e2_hard.jsonl", "e3": "data/train/e3_random.jsonl",
+            # ablation diagnostique (val seulement) : E2 sans les exemples B-REAL
+            "e2s": "data/train/e2_bsyn_only.jsonl"}
 
 
 def now() -> str:

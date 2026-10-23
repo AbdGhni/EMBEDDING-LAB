@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.4**, 2026-10-21. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.5**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.5 | 2026-10-23 | ajout de **E2S** (E2 sans les exemples B-REAL), ablation **diagnostique**, validation seulement, une graine ; jamais évaluée sur le test, n'entre dans aucune hypothèse ; grappes B-REAL des comparaisons = composantes de personnes (`eval/compare.py`), conformément au § 5 | décidée **après** lecture des résultats de validation E2/E3 (gain B-REAL identique pour E2 et E3, origine inconnue) : c'est une analyse exploratoire, signalée comme telle. Aucun accès au test : non post hoc vis-à-vis du test. |
 | 1.4 | 2026-10-21 | B-REAL : portée de recherche = groupe d'expérience de la requête ; annotation des groupes val/test contenant une réunion manuelle (10 + 9 groupes) ; texte indexé B-REAL | 5 scénarios partagés par de nombreux groupes : une question posée sur tout le split aurait de vraies réponses non jugées dans d'autres groupes. Aucune annotation ni évaluation B-REAL faite : non post hoc. |
 | 1.3 | 2026-10-21 | garde-fou B-REAL val, mêmes règles de batch E2/E3, même dtype et empreinte de configuration d'évaluation, moyenne par grappe en contrôle, limites ajoutées (identifiants de locuteurs, préentraînement d'e5, distracteurs ASR, prénoms communs) | points du rapport complet `docs/reviews/EL-009-mle-reviewer-full.md` absents du résumé. Aucun modèle évalué : non post hoc. |
 | 1.2 | 2026-10-21 | texte indexé d'une unité B-SYN = titre de réunion + locuteur + extrait (`retrieval_text`) ; effectifs réels de B-SYN | sans contexte, une phrase comme « je me charge du dossier » ne dit ni le projet ni la personne : le piège « autre projet » était indiscernable. Aucun modèle évalué : non post hoc. |
@@ -79,6 +80,7 @@ Encodeur de référence : `intfloat/multilingual-e5-small`, révision `614241f62
 | E1 | e5-small sans adaptation | — | toutes |
 | E2 | e5-small fine-tuné, négatifs difficiles | poids de l'encodeur | toutes, + courbes |
 | E3 | E2 avec négatifs aléatoires du même split à la place des négatifs difficiles | origine des négatifs (même nombre de pas, même taille de batch, même graine) | sous-ensemble pièges |
+| E2S | E2 entraîné sur les seuls exemples B-SYN (6 222) | présence des données réelles à l'entraînement (le nombre de pas diffère aussi) | val seulement, diagnostique |
 | E4 | BM25 / dense / fusion RRF (k = 60) ; filtres type / statut ; reranking cross-encoder si le temps le permet. Le meilleur système seul (pour H5) est désigné sur val | composant ajouté | B-SYN, B-REAL |
 | E5 | unité seule vs unité + tour précédent | texte encodé | B-REAL (conditionnel) |
 | E6 | e5-small vs `intfloat/multilingual-e5-base` (révision `d128750597153bb5987e10b1c3493a34e5a4502a`) | taille du modèle | B-SYN, B-REAL (conditionnel) |

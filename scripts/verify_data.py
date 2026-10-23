@@ -12,7 +12,7 @@ FILES = [
       for k in ("units.jsonl", "queries.jsonl", "qrels.json", "triplets.jsonl")],
     *[f"data/breal/{s}/{k}" for s in ("train", "val", "test")
       for k in ("units.jsonl", "queries.jsonl", "qrels.json", "triplets.jsonl")],
-    "data/train/e2_hard.jsonl", "data/train/e3_random.jsonl",
+    "data/train/e2_hard.jsonl", "data/train/e3_random.jsonl", "data/train/e2_bsyn_only.jsonl",
 ]
 EXPECTED = Path("splits/data_sha256.json")
 
