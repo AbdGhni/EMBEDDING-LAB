@@ -47,7 +47,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | X-E1 | S | Encodeur pré-entraîné sans adaptation | E1 | `runs/E1-*/metrics.json` | prévu |
 | X-E2 | S | Encodeur fine-tuné contrastif, comparé à E1 sur test indépendant | E2 | métriques + checkpoint + commande | prévu |
 | X-E3 | S | Hard negative mining ; effet du choix des négatifs (ablation) | E3 : hard vs négatifs simples, budget égal | métriques appariées | prévu |
-| X-E4 | S | Lexical / dense / hybride, filtres, reranking | E4 | tableau comparatif | prévu |
+| X-E4 | S | Lexical / dense / hybride, filtres, reranking | E4 | tableau comparatif | partiel (lexical, dense, RRF, rétrogradation ; filtre de type et reranker non faits) |
 | X-E5 | S | Effet du contexte ajouté | E5 : unité seule vs unité + contexte | métriques | prévu (modeste) |
 | X-E6 | S | Effet de la taille du modèle | E6 : petit vs moyen encodeur | métriques | prévu (modeste) |
 | X-E7 | S | Stratégies de représentation : chunking fixe, tour de parole, unités structurées | E7 | métriques | prévu (modeste) |

@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S14, 2026-10-23 (13 h 30)
+Mis à jour : session S15, 2026-10-23 (13 h 35)
 
 ## Git
 
@@ -34,6 +34,7 @@ Mis à jour : session S14, 2026-10-23 (13 h 30)
 - EL-009 : validé (protocole **v1.4**, voir JOURNAL pour les empreintes ; v1.1 `4dc2ec3a…` après relecture `mle-reviewer` ; test SUMM-RE `ddd19567…` ; sous-ensemble relu `7cc1bec7…`) ; qrels à figer à leur création.
 - EL-007c : validé (B-SYN 240/32/48 projets, test figé par empreintes).
 - EL-015 : exécuté non validé — relations R0–R3, val : R2 (variables structurelles) macro-F1 0,648 retenu ; plongements gelés moins bons ; `runs/R-val-2026-10-23T1316`.
+- EL-016 : exécuté non validé — E4 (val) : RRF 0,722 / 0,362, rétrogradation 0,842 / 0,487 contre E2 0,890 / 0,511 (B-SYN / B-REAL nDCG@10). Hybride retenu pour H5 : E4-dem ; agent : E2 seul.
 - EL-006 : exécuté non validé (guide à relire).
 - Autres : prévus.
 
@@ -44,7 +45,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 83 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
+- Projet : `uv sync --locked --extra dev` ; 85 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
 
 ## Données locales (hors Git, dans la VM)
 
@@ -62,4 +63,4 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Prochaine action
 
-E4 (EL-016) : hybride BM25 + dense (RRF), filtres type/statut et, si le temps le permet, reranking ; configuration choisie sur val. Puis mémoire indexée (EL-018), intentions (EL-019), agent et outils simulés. Le test (retrieval + relations) sera mesuré une seule fois avec les configurations figées.
+EL-018 mémoire indexée (unités + liens + preuves, recherche E2), EL-019 intentions et slots, puis résolution temporelle et destinataires, agent, outils simulés et 7 scénarios. Mesures finales du test (E0, E1, E2, E3, E4-dem, relations R2) en une seule passe une fois les configurations figées.

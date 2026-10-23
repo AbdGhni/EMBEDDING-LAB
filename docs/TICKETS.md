@@ -21,7 +21,7 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-013 | E2 : fine-tuning contrastif | EL-011, EL-012 | 2 | checkpoint, logs, commande | checkpoint choisi sur validation | exécuté non validé (3 graines, val ; `docs/EXPERIMENTS.md`) |
 | EL-014 | E3 : ablation hard vs simples | EL-013 | 1 | `runs/E3-*` | budget égal documenté | exécuté non validé (3 graines, val) |
 | EL-015 | Classifieur de relations | EL-007 | 2 | `relations/` + métriques | macro-F1 et matrice de confusion | exécuté non validé (val ; R2 retenu) |
-| EL-016 | E4 : hybride, filtres, reranking | EL-013 | 1 | `runs/E4-*` | composants isolés | prévu |
+| EL-016 | E4 : hybride, filtres, reranking | EL-013 | 1 | `runs/E4-*` | composants isolés | exécuté non validé (val ; RRF et rétrogradation < E2 ; filtre de type et reranker non faits) |
 | EL-017 | Analyse d'erreurs S2 + relecture indépendante | EL-014, EL-016 | 1 | EXPERIMENTS.md | relecture tracée | prévu |
 | EL-018 | Mémoire indexée (unités + liens) | EL-013, EL-015 | 1 | `memory/` | requêtes retournent unités + preuves | prévu |
 | EL-019 | Intentions + slots | EL-006 | 2 | `intents/` | macro-F1 sur test d'intentions | prévu |

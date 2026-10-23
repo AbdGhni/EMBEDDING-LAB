@@ -154,3 +154,23 @@ F1 par classe sur B-REAL val (support) :
 - **B-SYN est trivial pour les relations** : la table des types atteint 1,000. Dans le générateur, chaque relation correspond à un couple de types d'unités fixe ; B-SYN ne sert donc pas à juger ce module.
 - **Bruit sur `none`** : 32 couples `none` de val sont prédits `supersedes` et 45 `supports` par R2 ; certains sont peut-être de vraies relations que l'annotateur n'a pas notées (voir protocole § 10). Une relecture d'un échantillon de ces cas trancherait.
 - Modèle retenu pour le test et pour l'agent : **R2** (C = 0,1). Mesure du test : une fois, avec les autres mesures finales.
+
+## E4 — hybride RRF et rétrogradation des unités remplacées (validation)
+
+Runs (Colab T4, commit `edaacbb`, propre ; dense = E2, 3 graines, poids lus sur le Drive) : `E4-{dense,rrf,dem,rrf-dem}-s{13,42,1234}-val-2026-10-23T132x` ; contrôle BM25 : `E0-dem-val-2026-10-23T1323` (VM). Comparaison : `runs/CMP-val-2026-10-23T1332/comparison.json`. Protocole § 11 (v1.7, écrit avant mesure). `E4-dense` reproduit E2 à l'identique (Δ = 0,000) : le chargement des poids depuis le Drive et le harnais sont cohérents.
+
+| Système (val, moyenne 3 graines) | B-SYN nDCG@10 | B-SYN R@1 | B-SYN paires | B-REAL nDCG@10 | B-REAL paires |
+|---|---|---|---|---|---|
+| E0 BM25 | 0,517 | 0,292 | 0,723 | 0,206 | 0,479 |
+| E0-dem | 0,501 | 0,359 | 0,702 | 0,181 | 0,473 |
+| **E2 dense** | **0,890** | 0,587 | 0,864 | **0,511** | 0,751 |
+| E4-rrf (BM25 + E2) | 0,722 | 0,404* | 0,811 | 0,362 | 0,621 |
+| E4-dem (E2 + rétrogradation) | 0,842 | **0,629** | **0,874** | 0,487 | **0,768** |
+| E4-rrf-dem | 0,651 | — | 0,823 | 0,332 | 0,622 |
+
+\* graine 13 seulement.
+
+- **La fusion RRF dégrade fortement** (−0,17 nDCG@10 sur B-SYN, −0,15 sur B-REAL, p au minimum atteignable) : BM25 est bien plus faible que E2 (0,52 contre 0,89) et, à poids égaux, RRF le fait remonter. L'hybride n'aide que si les deux systèmes ont des qualités comparables, ce qui n'est plus le cas après fine-tuning.
+- **La rétrogradation par R2 change ce qui monte en tête, sans gain global** : sur B-SYN, R@1 passe de 0,587 à 0,629 et le piège « statut » de 0,59 à 0,81 (la proposition est bien placée sous la décision), mais nDCG@10 baisse de 0,049 (p = 0,04). Environ 500 rétrogradations par graine sur 160 requêtes : R2, entraîné avec des classes équilibrées, prédit trop souvent `supersedes` au seuil 0,5 et déplace aussi des réponses correctes. Sur B-REAL, la baisse (−0,024) n'est pas significative.
+- **Choix pour la suite** (règles § 11, fixées avant mesure) : système hybride retenu pour H5 = **E4-dem** (meilleur nDCG@10 moyen des trois E4 : 0,665 contre 0,542 et 0,492). Meilleur système seul = **E2**. Sur val, l'hybride est en dessous de E2 : H5 sera très probablement réfutée sur le test, ce qui sera rapporté tel quel.
+- **Système utilisé par l'agent** : E2 dense seul. Le seuil de R2 ne sera pas réglé après coup sur ces chiffres ; une calibration (probabilités sans pondération des classes, seuil choisi sur val) serait une nouvelle expérience, à déclarer comme telle.

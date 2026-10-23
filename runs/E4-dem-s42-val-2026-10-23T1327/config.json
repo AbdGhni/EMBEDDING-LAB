@@ -1,0 +1,27 @@
+{
+ "system": "demote",
+ "top": 20,
+ "threshold": 0.5,
+ "predictor": {
+  "model": "R2",
+  "C": 0.1,
+  "train_relations_sha256": {
+   "breal": "c1e4395d8408a06be2fc06286561da5e7d5bd48cae69d2597cf7202fa5458eb5",
+   "bsyn": "7ff1aad56919a3323fb2ce39f1f0fca7b1adb374383544134c47a757cd95190e"
+  }
+ },
+ "base": {
+  "system": "dense",
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "weights": "E2-e5s-s42-bs64-lr2e-05-2026-10-23T1240/best@6cb89d0ed40d461e",
+  "max_seq_length": 128,
+  "dtype": "float32",
+  "pooling": "mean",
+  "normalize": true,
+  "query_prefix": "query: ",
+  "passage_prefix": "passage: ",
+  "batch_size": 64,
+  "text_field": "retrieval_text"
+ }
+}

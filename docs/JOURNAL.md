@@ -403,3 +403,11 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Branche `el-015-relations` (depuis `el-012-013-training`). Protocole v1.6 (§ 10) écrit et commité **avant** toute mesure (`3d55b95`), puis précisé avant mesure (R1 = table des types ; statuts exclus des variables car `resolved` découle de la relation ; classes pondérées) dans `3c30c0b`.
 - Code : `relations/{pairs,features,models,metrics}.py`, `scripts/train_relations.py`, tests (83 verts).
 - Run `R-val-2026-10-23T1316` (4 min CPU) : R2 meilleur (B-REAL val macro-F1 0,648) ; R3 (plongements gelés) moins bon que R2 ; B-SYN trivial (R1 = 1,0). Lecture dans `docs/EXPERIMENTS.md`.
+
+## S15 · EL-016 · E4
+
+- **Heure** : 13:22 (« go ») → 13:35
+- Protocole v1.7 (§ 11) commité avant mesure (`07052cc`). Code : `retrieval/hybrid.py` (RRF, rétrogradation), `relations/predictor.py` (R2 à la volée), `scripts/run_e4.py` ; 85 tests verts.
+- VM : `E0-dem` et test de fumée avec E1 (reproduit E1 exactement). Colab : changement de branche (anciens runs déplacés dans `/content/runs_session2`), premier lancement en échec (variable `$CKPT` vide dans la boucle bash → chemin `/E2-…/best` introuvable), relancé avec le chemin écrit en entier.
+- Zip récupéré par le connecteur Drive, SHA-256 `43c7d11b…` identique à Colab ; manifestes au commit `edaacbb`, propres.
+- Résultat : RRF et rétrogradation font baisser nDCG@10 par rapport à E2 ; E4-dem retenu comme hybride pour H5, E2 seul pour l'agent. Détails : `docs/EXPERIMENTS.md`.
