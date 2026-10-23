@@ -177,7 +177,7 @@ Runs (Colab T4, commit `edaacbb`, propre ; dense = E2, 3 graines, poids lus sur 
 
 ## Intentions (EL-019) — validation
 
-Run : `I-val-2026-10-23T1413` (VM CPU, commit au moment du run dans le manifeste). Protocole § 12 (v1.8). C choisi sur I-SYN val : I1 C = 1, I2 C = 10. Mesures val seulement (famille de gabarits 2, entités jamais vues) ; I-SYN test et I-MAN seront mesurés une fois, avec le reste du test.
+Run : `I-val-2026-10-23T1413` (VM CPU, commit `8607f88`, propre). Protocole § 12 (v1.8). C choisi sur I-SYN val : I1 C = 1, I2 C = 10. Mesures val seulement (famille de gabarits 2, entités jamais vues) ; I-SYN test et I-MAN seront mesurés une fois, avec le reste du test.
 
 | Modèle | macro-F1 (8 classes) [IC 95 %] | F1 `clarify` | F1 `no_action` | action à tort | slots personne / projet / échéance |
 |---|---|---|---|---|---|
