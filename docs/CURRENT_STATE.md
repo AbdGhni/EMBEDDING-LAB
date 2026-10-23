@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S15, 2026-10-23 (13 h 35)
+Mis à jour : session S16, 2026-10-23 (14 h 30)
 
 ## Git
 
@@ -16,6 +16,7 @@ Mis à jour : session S15, 2026-10-23 (13 h 35)
 - `el-010-eval-bm25` — basé sur `el-007b-breal`, voir son dernier commit (contient aussi les relectures IA, le test B-REAL v2 et E1). Branches empilées : 001 → 003 → 005-006 → 007 → 008 → 009 → 007c → 007b → 010.
 - `el-012-013-training` — basé sur `el-010-eval-bm25` ; annotations train B-REAL, données d'entraînement versionnées, notebook Colab. Branche de travail courante.
 - `el-015-relations` — basé sur `el-012-013-training` ; module de relations.
+- `el-019-intents` — basé sur `el-015-relations` ; intentions, mémoire, agent, outils simulés, scénarios, CLI. Branche de travail courante.
 - Dépôt renommé `AbdGhni/EMBEDDING-LAB` ; remote mis à jour.
 
 ## Tickets
@@ -35,6 +36,8 @@ Mis à jour : session S15, 2026-10-23 (13 h 35)
 - EL-007c : validé (B-SYN 240/32/48 projets, test figé par empreintes).
 - EL-015 : exécuté non validé — relations R0–R3, val : R2 (variables structurelles) macro-F1 0,648 retenu ; plongements gelés moins bons ; `runs/R-val-2026-10-23T1316`.
 - EL-016 : exécuté non validé — E4 (val) : RRF 0,722 / 0,362, rétrogradation 0,842 / 0,487 contre E2 0,890 / 0,511 (B-SYN / B-REAL nDCG@10). Hybride retenu pour H5 : E4-dem ; agent : E2 seul.
+- EL-019 : exécuté non validé — val : I2 (e5 gelé) macro-F1 0,895 ; I-SYN test et I-MAN (80 requêtes écrites par Claude, `60b547de…`) à mesurer avec le test.
+- EL-018, EL-020 à EL-024 : exécutés non validés — agent sur la mémoire Atlas fictive ; 8/9 scénarios avec E1 et avec E2 ; scénario 2 en échec (intention). CLI : `scripts/agent_cli.py`.
 - EL-006 : exécuté non validé (guide à relire).
 - Autres : prévus.
 
@@ -45,7 +48,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 85 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
+- Projet : `uv sync --locked --extra dev` ; tests verts (voir CI). Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
 
 ## Données locales (hors Git, dans la VM)
 
@@ -63,4 +66,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Prochaine action
 
-EL-018 mémoire indexée (unités + liens + preuves, recherche E2), EL-019 intentions et slots, puis résolution temporelle et destinataires, agent, outils simulés et 7 scénarios. Mesures finales du test (E0, E1, E2, E3, E4-dem, relations R2) en une seule passe une fois les configurations figées.
+1. Mesures finales du test, en une seule passe (journal `TEST_ACCESS.log`) : E0, E1, E2 (3 graines), E3, E4-dem, relations R2, intentions (I-SYN test, I-MAN).
+2. EL-025 : rapport final (`docs/FINAL_REPORT.md`) + MODEL_CARD ; EL-026 : `docs/DEMO.md` et démo rejouée sur une machine propre (PC de l'étudiant, poids E2 téléchargés du Drive).
+3. Relectures ECC à faire sur le PC (mle-reviewer sur E2/E3 et le rapport, security-reviewer sur `tools/`).
+4. Option : l'étudiant écrit ~20 requêtes d'intention (troisième jeu, indépendant).

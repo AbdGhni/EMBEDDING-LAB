@@ -416,3 +416,7 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 
 - **Heure** : 14:08 (« go ») → en cours
 - Branche `el-019-intents`. Protocole v1.8 (§ 12). I-SYN généré (`scripts/make_intents.py`) : train 888 (`497d9340…`), val 432 (`f4ce2dc2…`), test 444 (`3cc83d11…`), aucun texte partagé entre splits. I-MAN écrit par Claude, 80 requêtes : `annotations/intents/test_manual_v1.jsonl`, SHA-256 `60b547def3a29b8cf54396797a00cb01dd2186ba63e46b384c776a5c7b64d121`. Règles I0 écrites avant toute mesure.
+- Mesures val des intentions : `I-val-2026-10-23T1413` (I2 retenu, 0,895).
+- Agent (EL-018 à EL-024) : mémoire Atlas fictive (`demo/atlas/source.json`, validée par les schémas ; une relation `answers` vers un risque rejetée par le validateur puis retirée), résolution des dates, destinataires (mention ≠ responsabilité), outils simulés, agent extractif, scénarios, CLI.
+- Scénarios, première exécution (code non commité, run supprimé) : 7/9. Deux échecs : scénario 2 (intention mal classée) et bonus « engagement » (la question était citée au lieu de sa réponse). Correction de logique pour le second (suivre `answers`), aucune pour le premier. Puis présentation du dossier corrigée (doublons, décisions contestées, objet du mail).
+- Runs finaux : `SCN-E1-2026-10-23T1421` (VM, `e64ace0`, 8/9) ; Colab avec E2 × 3 graines (`54f0489`, 8/9 chacun), zip `2f1e5b86…` récupéré par le connecteur Drive, empreinte identique.

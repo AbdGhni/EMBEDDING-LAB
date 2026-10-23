@@ -16,9 +16,9 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | L-03 | S | Baselines + modèle d'embeddings adapté, scripts d'entraînement et d'inférence | `src/embedding_lab/train/`, `scripts/` | E0, E1, E2 | `runs/<id>/` avec config, logs, métriques, checkpoint référencé | prévu |
 | L-04 | S | Recherche sémantique renvoyant unités, scores, preuves | `src/embedding_lab/retrieval/` | tests unitaires + E4 | sortie JSON avec `unit_id`, score, extrait | prévu |
 | L-05 | S | Module de relations (au minimum pertinence, contradiction, remplacement) | `src/embedding_lab/relations/` | évaluation relations | macro-F1, matrice de confusion | exécuté non validé (val : R2 macro-F1 0,648 ; test à faire) |
-| L-06 | S | Module d'intentions (réponse, dossier, préparation d'action) | `src/embedding_lab/intents/` | évaluation intentions | macro-F1, exactitude des slots | prévu |
-| L-07 | S | Mini-agent avec interface ou API, dossiers et brouillons sourcés | `src/embedding_lab/agent/`, CLI | 7 scénarios | transcriptions de démo | prévu |
-| L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | en cours (schémas + tests écrits ; connecteurs à venir) |
+| L-06 | S | Module d'intentions (réponse, dossier, préparation d'action) | `src/embedding_lab/intents/` | évaluation intentions | macro-F1, exactitude des slots | exécuté non validé (val) |
+| L-07 | S | Mini-agent avec interface ou API, dossiers et brouillons sourcés | `src/embedding_lab/agent/`, CLI | 7 scénarios | transcriptions de démo | exécuté non validé (CLI + 9 scénarios, 8 réussis) |
+| L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | exécuté non validé (tests verts) |
 | L-09 | S | Rapport : comparaisons, métriques, ablations, erreurs, coûts, limites | `docs/FINAL_REPORT.md` | relecture indépendante | rapport | prévu |
 | L-10 | S | Démonstration reproductible sur plusieurs conversations | `docs/DEMO.md`, commande de lancement | exécution sur machine propre | log de démo | prévu |
 
@@ -83,13 +83,13 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 
 | ID | Cat. | Contrainte | Vérification | Statut |
 |---|---|---|---|---|
-| C-01 | S | Aucun envoi / aucune modification de service externe ; toute action reste une proposition | test CI : tout contrat d'action a `executed: false`, aucun client réseau dans `tools/` | prévu |
-| C-02 | S | Aucune adresse, contact ou décision inventés | tests destinataires + schéma (`email` nul si inconnu) | prévu |
+| C-01 | S | Aucun envoi / aucune modification de service externe ; toute action reste une proposition | test CI : tout contrat d'action a `executed: false`, aucun client réseau dans `tools/` | exécuté (tests `tests/test_agent_parts.py`) |
+| C-02 | S | Aucune adresse, contact ou décision inventés | tests destinataires + schéma (`email` nul si inconnu) | exécuté (aucune adresse dans les sources ; adresse inventée rejetée par test) |
 | C-03 | S | Split par conversation / groupe de réunions ; test avec projets, formulations, personnes non vus si possible | script de contrôle des splits + détection de quasi-doublons | validé pour SUMM-RE (`splits/summre_v1.json` : 0 groupe/locuteur partagé ; thèmes partagés = limite documentée) ; à refaire pour le synthétique |
 | C-04 | S | Pas de données personnelles réelles sans autorisation ; contacts fictifs | DATA_CARD | prévu |
 | C-05 | S | Le LLM éventuel ne masque pas les erreurs du moteur : évaluation séparée des composants | protocole | prévu |
 | C-06 | S | Une relation temporelle n'est pas déduite de la seule similarité | tests relations (dates, projet, preuve) | prévu |
-| C-07 | O | Contenu ingéré = donnée non fiable (injection dans une transcription) | test dédié | prévu |
+| C-07 | O | Contenu ingéré = donnée non fiable (injection dans une transcription) | test dédié | exécuté (u-atlas-20 : consigne stockée comme donnée, scénario bonus sans action) |
 | C-08 | O | Test gelé après validation du protocole | empreinte du test enregistrée dans JOURNAL | en cours (protocole et périmètre figés ; `runs/TEST_ACCESS.log` obligatoire ; qrels à figer) |
 | C-09 | O | Annotations LLM = provisoires ; échantillon de contrôle relu par l'étudiant | fichier d'échantillon + statut de relecture | prévu |
 

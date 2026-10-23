@@ -23,13 +23,13 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-015 | Classifieur de relations | EL-007 | 2 | `relations/` + métriques | macro-F1 et matrice de confusion | exécuté non validé (val ; R2 retenu) |
 | EL-016 | E4 : hybride, filtres, reranking | EL-013 | 1 | `runs/E4-*` | composants isolés | exécuté non validé (val ; RRF et rétrogradation < E2 ; filtre de type et reranker non faits) |
 | EL-017 | Analyse d'erreurs S2 + relecture indépendante | EL-014, EL-016 | 1 | EXPERIMENTS.md | relecture tracée | prévu |
-| EL-018 | Mémoire indexée (unités + liens) | EL-013, EL-015 | 1 | `memory/` | requêtes retournent unités + preuves | prévu |
-| EL-019 | Intentions + slots | EL-006 | 2 | `intents/` | macro-F1 sur test d'intentions | prévu |
-| EL-020 | Temporalité (date de référence injectable) + identités | EL-018 | 1 | `resolution/` | tests dates relatives et homonymes | prévu |
-| EL-021 | Destinataires + clarification | EL-020 | 1 | `resolution/recipients.py` | métriques M-05 | prévu |
-| EL-022 | Réponses et dossiers sourcés (gabarits extractifs) | EL-018 | 2 | `agent/` | taux d'affirmations non étayées mesuré | prévu |
-| EL-023 | Outils simulés + schémas JSON | EL-019 | 1 | `tools/`, `schemas/` | CI : executed=false toujours | prévu |
-| EL-024 | Évaluation de bout en bout + 7 scénarios | EL-021–023 | 2 | logs de scénarios | 7/7 exécutés, résultats rapportés honnêtement | prévu |
+| EL-018 | Mémoire indexée (unités + liens) | EL-013, EL-015 | 1 | `memory/` | requêtes retournent unités + preuves | exécuté non validé (mémoire Atlas fictive, 21 unités, 8 liens validés) |
+| EL-019 | Intentions + slots | EL-006 | 2 | `intents/` | macro-F1 sur test d'intentions | exécuté non validé (val : I2 macro-F1 0,895 ; test et I-MAN à mesurer) |
+| EL-020 | Temporalité (date de référence injectable) + identités | EL-018 | 1 | `resolution/` | tests dates relatives et homonymes | exécuté non validé (dates relatives, référence injectée ; doctests) |
+| EL-021 | Destinataires + clarification | EL-020 | 1 | `resolution/recipients.py` | métriques M-05 | exécuté non validé (règles explicites, mention ≠ responsabilité ; tests ; M-05 non mesuré sur un jeu dédié) |
+| EL-022 | Réponses et dossiers sourcés (gabarits extractifs) | EL-018 | 2 | `agent/` | taux d'affirmations non étayées mesuré | exécuté non validé (réponses, comparaison, dossier extractifs et sourcés) |
+| EL-023 | Outils simulés + schémas JSON | EL-019 | 1 | `tools/`, `schemas/` | CI : executed=false toujours | exécuté non validé (executed=false, aucun import réseau, adresses inventées rejetées : tests) |
+| EL-024 | Évaluation de bout en bout + 7 scénarios | EL-021–023 | 2 | logs de scénarios | 7/7 exécutés, résultats rapportés honnêtement | exécuté non validé (8/9 scénarios avec E1 et avec E2 ×3 graines ; scénario 2 en échec) |
 | EL-025 | Rapport final + MODEL_CARD | EL-024 | 2 | FINAL_REPORT.md | relecture indépendante | prévu |
 | EL-026 | Installation propre + script de démo 5–10 min | EL-024 | 1 | DEMO.md | démo rejouée sur environnement neuf | prévu |
 

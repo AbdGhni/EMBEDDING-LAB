@@ -189,3 +189,20 @@ Run : `I-val-2026-10-23T1413` (VM CPU, commit `8607f88`, propre). Protocole § 1
 - **Erreur dominante, commune aux trois modèles** : « Compare les deux dernières réunions de X » est classé `schedule_event` (35 cas sur 60 pour I2, 60 sur 60 pour I0) — le mot « réunion » tire vers la planification. Le « taux d'action à tort » (0,20) vient presque entièrement de là : ce sont des demandes de comparaison prises pour des demandes d'événement, pas des hypothèses transformées en actions (`no_action` : F1 = 1,00 pour tous).
 - **Slots parfaits sur I-SYN** : attendu, l'extracteur reçoit la liste des noms connus et les échéances suivent peu de formes. I-MAN, écrit à la main, sera plus informatif.
 - Limite : I-SYN val et test viennent du même générateur ; I-MAN (écrit par Claude) est le seul jeu de style différent, et il n'est pas indépendant de l'auteur du système.
+
+## Agent : 7 scénarios de démonstration + 2 bonus
+
+Mémoire : projet **fictif** Atlas (`demo/atlas/source.json`, 3 réunions, 21 unités, 8 liens, écrit à la main par Claude, validé par les schémas). Date de référence injectée : mardi 20 octobre 2026. Intentions : I2 (e5-small gelé, C = 10). Contrôles écrits dans `scripts/run_scenarios.py` avant la première exécution.
+
+| Run | Encodeur de la mémoire | Scénarios entièrement réussis |
+|---|---|---|
+| `SCN-E1-2026-10-23T1421` (VM, `e64ace0`) | E1 | 8/9 |
+| `SCN-E2-2026-10-23T1423` (Colab, `54f0489`) | E2 graine 13 | 8/9 |
+| `SCN-E2-2026-10-23T1424` | E2 graine 42 | 8/9 |
+| `SCN-E2-2026-10-23T1426` | E2 graine 1234 | 8/9 |
+
+- **Réussis** : décision précise (date en vigueur 24 novembre, ancienne proposition en historique) ; comparaison lundi / jeudi (deux mises à jour distinguées d'une contradiction non tranchée) ; dossier (chaque ligne sourcée, doublons fusionnés, décision contestée signalée, question sans réponse et informations absentes listées) ; e-mail au responsable du budget (Marie, explicitement responsable ; Karim seulement cité, écarté ; adresse vide ; « vendredi » → 23 octobre ; proposition non exécutée) ; précision demandée pour la communication (attribution non tranchée entre Lucas et Sophie) ; aucune action pour « On pourrait peut-être revoir le budget » ; bonus : engagement de Sophie et son échéance ; consigne cachée dans une transcription sans effet.
+- **Échec (scénario 2, identique pour tous les encodeurs)** : « Est-ce qu'on a validé l'augmentation du budget de communication ? » est classé `compare` (confiance 0,65) au lieu de `answer` ; l'agent répond par une comparaison et ne montre pas que l'augmentation n'était qu'une suggestion. C'est une erreur du modèle d'intentions (le mot « augmentation » évoque un changement). Non corrigé : ajouter une règle pour ce cas reviendrait à régler le système sur la démonstration.
+- **Correction faite après la première exécution** (journal S16) : une question retrouvée par la recherche (« Qui s'occupe de transmettre le dossier ? ») était citée comme réponse ; l'agent suit désormais la relation `answers` vers l'unité qui répond. C'est une correction de logique, pas un réglage de modèle ; le bonus correspondant échouait avant.
+- **E1 et E2 donnent les mêmes résultats** sur ces 9 scénarios : la mémoire ne contient que 21 unités, la recherche y est facile. Les scénarios testent l'enchaînement de l'agent, pas la qualité du retrieval (mesurée sur B-SYN et B-REAL).
+- Latence (VM, 2 vCPU, E1, hors chargement des modèles) : 24 à 384 ms par requête ; la première inclut l'encodage de la mémoire.
