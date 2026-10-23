@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.5**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.6**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.6 | 2026-10-23 | § 10 : protocole du module de relations (EL-015) — tâche, classes, négatifs, modèles R0–R3, métriques, sélection sur val | rédigé avant toute mesure du module, sur val comme sur test : non post hoc. |
 | 1.5 | 2026-10-23 | ajout de **E2S** (E2 sans les exemples B-REAL), ablation **diagnostique**, validation seulement, une graine ; jamais évaluée sur le test, n'entre dans aucune hypothèse ; grappes B-REAL des comparaisons = composantes de personnes (`eval/compare.py`), conformément au § 5 | décidée **après** lecture des résultats de validation E2/E3 (gain B-REAL identique pour E2 et E3, origine inconnue) : c'est une analyse exploratoire, signalée comme telle. Aucun accès au test : non post hoc vis-à-vis du test. |
 | 1.4 | 2026-10-21 | B-REAL : portée de recherche = groupe d'expérience de la requête ; annotation des groupes val/test contenant une réunion manuelle (10 + 9 groupes) ; texte indexé B-REAL | 5 scénarios partagés par de nombreux groupes : une question posée sur tout le split aurait de vraies réponses non jugées dans d'autres groupes. Aucune annotation ni évaluation B-REAL faite : non post hoc. |
 | 1.3 | 2026-10-21 | garde-fou B-REAL val, mêmes règles de batch E2/E3, même dtype et empreinte de configuration d'évaluation, moyenne par grappe en contrôle, limites ajoutées (identifiants de locuteurs, préentraînement d'e5, distracteurs ASR, prénoms communs) | points du rapport complet `docs/reviews/EL-009-mle-reviewer-full.md` absents du résumé. Aucun modèle évalué : non post hoc. |
@@ -125,3 +126,20 @@ Le benchmark E1/E2 est **isolé** : même corpus, mêmes requêtes, même décou
 - Quelques prénoms du pool d'entraînement B-SYN (ex. Julie, Lucas, Camille) apparaissent dans les transcriptions SUMM-RE de test ; recouvrement global des 4-grammes B-SYN train / SUMM-RE test : 0,36 %.
 - Les annotations de B-REAL sont provisoires tant que l'étudiant ne les a pas relues ; les résultats B-REAL sont étiquetés selon la part relue.
 - La similarité ne prouve ni la validation ni la contradiction : ces relations sont évaluées par le module de relations, séparément.
+
+## 10. Module de relations (EL-015)
+
+**Tâche.** Pour un couple d'unités d'un même projet (B-SYN) ou d'un même groupe d'expérience (B-REAL), prédire la relation entre l'unité **la plus récente** X et l'unité **la plus ancienne** Y (ordre : rang de réunion, puis tour, puis position). Classes : `supersedes` (X remplace Y), `contradicts`, `answers` (X répond à la question Y), `supports`, `creates_action` (Y crée l'action X), `none`. Le sens est fixé par l'ordre chronologique : le module ne peut pas prédire qu'une unité ancienne remplace une plus récente (C-06).
+
+**Couples.** Positifs : relations annotées (B-REAL : annotateur IA, provisoire ; B-SYN : générateur). Les rares relations annotées « à rebours » (`supports` ou `contradicts` d'une unité ancienne vers une récente) sont remises dans le sens chronologique, sans changer de classe. Négatifs `none` : B-SYN, couples `unrelated` du générateur ; B-REAL, **un** couple non relié par positif, tiré dans le même groupe, de préférence dans la même réunion ou la réunion voisine (graine 0). Limite : un couple non annoté n'est pas sûrement sans relation (bruit d'étiquette sur `none`).
+
+**Modèles.**
+- R0 : classe majoritaire du train.
+- R1 : règles écrites à la main sur les types d'unités et l'ordre (ex. réponse ou décision après une question → `answers` ; décision ou engagement après une idée du même locuteur… ), sans apprentissage.
+- R2 : régression logistique multinomiale sur des variables structurelles (types et statuts des deux unités, même réunion, écart de rang, même locuteur, recouvrement lexical, présence de nombres ou de dates).
+- R3 : R2 + plongements e5-small **gelés** des deux extraits (`[x, y, x·y, |x − y|]`).
+Le seul hyperparamètre (C de la régression, grille 0,01 à 100) est choisi sur **val** (macro-F1 B-REAL). Entraînement : B-REAL train + B-SYN train.
+
+**Métriques (M-03).** Principale : macro-F1 sur les 6 classes, B-REAL test. Secondaires : macro-F1 sur les 5 classes de relation seules (couples positifs, sans `none`), P/R par classe, matrice de confusion, et les mêmes mesures sur B-SYN test (4 classes). IC 95 % par bootstrap par grappes (composantes de personnes pour B-REAL, projets pour B-SYN), 10 000 tirages, graine 0. Comparaison R3 − R0 et R3 − R1 descriptive (pas d'hypothèse confirmatoire).
+
+**Ce que cela ne permet pas de conclure.** Les étiquettes B-REAL viennent du même annotateur IA en train et en test ; le module apprend aussi son style. Les types d'unités utilisés comme variables sont ceux de l'annotation : en usage réel, ils viendraient d'un extracteur, avec ses propres erreurs.
