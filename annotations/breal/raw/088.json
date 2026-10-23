@@ -1,0 +1,1861 @@
+{
+ "group_id": "088",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "088a_EARH",
+   "turn": "t0000",
+   "evidence": "pour évoquer différents thèmes d' actualité qui nous touchent tous",
+   "type": "fact",
+   "status": "active",
+   "statement": "La réunion sert à présenter des thèmes d'actualité choisis par chaque participante.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "088a_EARH",
+   "turn": "t0003",
+   "evidence": "maintenant on peut voir qu' il existe des téléphones qui qui euh que la vitre euh l' écran se plie",
+   "type": "fact",
+   "status": "active",
+   "statement": "Emma présente l'évolution du téléphone, jusqu'aux écrans pliables.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Début de l'exposé d'emma tronqué par l'ASR."
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "088a_EARH",
+   "turn": "t0003",
+   "evidence": "qui commencent à se rajouter sur le marché et qui en_fait ben sont plus abordables",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des marques secondaires de téléphones, plus abordables, arrivent sur le marché.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "088a_EARH",
+   "turn": "t0007",
+   "evidence": "alors j' ai choisi le sujet réseaux sociaux",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tania a choisi comme sujet personnel les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "088a_EARH",
+   "turn": "t0010",
+   "evidence": "alors ceux que j' utilise il_y a instagram twitter discord",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tania utilise Instagram, Twitter et Discord au quotidien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "088a_EARH",
+   "turn": "t0012",
+   "evidence": "ça pousse très facilement à la haine aussi au harcèlement le cyberbullying est très présent sur twitter",
+   "type": "risk",
+   "status": "active",
+   "statement": "Twitter favorise la haine et le cyberharcèlement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "088a_EARH",
+   "turn": "t0013",
+   "evidence": "mais l' inconvénient c'est la superficialité",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le défaut d'Instagram est la superficialité des contenus.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "088a_EARH",
+   "turn": "t0014",
+   "evidence": "on peut pas se focus sur une vidéo ou sur quelque_chose pendant plus d' une trentaine de secondes",
+   "type": "risk",
+   "status": "active",
+   "statement": "TikTok réduit la capacité d'attention à une trentaine de secondes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "088a_EARH",
+   "turn": "t0019",
+   "evidence": "c'est une application dans laquelle il_y a énormément de je connais vraiment pas le terme français pour ça mais de grooming",
+   "type": "risk",
+   "status": "active",
+   "statement": "Discord expose les jeunes filles au grooming dans les échanges privés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "088a_EARH",
+   "turn": "t0019",
+   "evidence": "c'est qu' on ne profite plus de l' instant présent",
+   "type": "risk",
+   "status": "active",
+   "statement": "L'application de photo à heure fixe empêche de profiter de l'instant présent.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« birille » = BeReal probablement (ASR)."
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "088a_EARH",
+   "turn": "t0022",
+   "evidence": "maintenant je vais évoquer mon propre thème qui est les gafam",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le locuteur 174 présente son thème : les GAFAM.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "088a_EARH",
+   "turn": "t0024",
+   "evidence": "ça regroupe à_la_fois google amazon apple facebook et microsoft",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les GAFAM regroupent Google, Amazon, Apple, Facebook et Microsoft.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "088a_EARH",
+   "turn": "t0024",
+   "evidence": "facebook c'est c'est devenu une entreprise donc c'est devenu méta",
+   "type": "fact",
+   "status": "active",
+   "statement": "Facebook est devenu l'entreprise Meta, qui possède notamment Instagram.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "088a_EARH",
+   "turn": "t0029",
+   "evidence": "sauf qu' il_y a l' impact écologique de la livraison",
+   "type": "risk",
+   "status": "active",
+   "statement": "La livraison rapide d'Amazon a un impact écologique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "088a_EARH",
+   "turn": "t0029",
+   "evidence": "les livreurs ne sont pas non_plus très bien considérés très bien rémunérés",
+   "type": "fact",
+   "status": "active",
+   "statement": "Les livreurs sont mal considérés et mal rémunérés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "088a_EARH",
+   "turn": "t0034",
+   "evidence": "aliexpress wish commence à prendre le dessus sur sur amazon",
+   "type": "fact",
+   "status": "active",
+   "statement": "AliExpress et Wish commencent à concurrencer Amazon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "088a_EARH",
+   "turn": "t0035",
+   "evidence": "wish ça vient d' où c'est asiatique",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Tania demande l'origine de Wish.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "088a_EARH",
+   "turn": "t0036",
+   "evidence": "il me semble que ça c'est asiatic wish",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le locuteur 174 pense que Wish est asiatique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse incertaine (« il me semble »)."
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "088a_EARH",
+   "turn": "t0039",
+   "evidence": "je vais commencer par emma pourquoi est-ce_que t' as choisi ce sujet",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question à Emma sur le choix de son sujet.",
+   "owner": null,
+   "mentioned_people": [
+    "emma"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "088a_EARH",
+   "turn": "t0040",
+   "evidence": "c'est quelque_chose qui nous concerne tous et au quotidien",
+   "type": "answer",
+   "status": "active",
+   "statement": "Emma a choisi son sujet parce qu'il concerne tout le monde au quotidien.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "088a_EARH",
+   "turn": "t0045",
+   "evidence": "il_y a beaucoup d' applications qui se développent pour essayer de limiter notre temps d' écran",
+   "type": "fact",
+   "status": "active",
+   "statement": "Des applications se développent pour limiter le temps d'écran.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "088a_EARH",
+   "turn": "t0047",
+   "evidence": "tania je vais te poser la même question pourquoi est-ce_que tu as choisi ce sujet",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Même question posée à Tania.",
+   "owner": null,
+   "mentioned_people": [
+    "tania"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "088a_EARH",
+   "turn": "t0048",
+   "evidence": "j' ai choisi ce sujet parce_que je me sentais très concernée par les réseaux sociaux",
+   "type": "answer",
+   "status": "active",
+   "statement": "Tania a choisi les réseaux sociaux parce qu'elle s'en sent très concernée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le récit personnel qui suit (t0050-t0057) n'est pas annoté (données personnelles sans intérêt pour la tâche)."
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "088b_EADH",
+   "turn": "t0000",
+   "evidence": "l événement qu on souhaite organiser sous quelle forme avec quels acteurs quels thèmes choisir",
+   "type": "question",
+   "status": "open",
+   "statement": "Ordre du jour : forme, intervenants et thème de l'événement à organiser.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "088b_EADH",
+   "turn": "t0011",
+   "evidence": "une foire ou avec des activités",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania propose une foire avec des activités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "088b_EADH",
+   "turn": "t0011",
+   "evidence": "au_bout de dix dix minutes il se retourne et il dit ben écoute euh j ai réussi à avoir ça ça ça ça ça comme information sur toi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Atelier : quelqu'un récupère en dix minutes des informations sur le visiteur à partir de son téléphone ou ordinateur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "088b_EADH",
+   "turn": "t0015",
+   "evidence": "par_exemple zora elle c'est une genre de figurante quoi et elle fait comme si elle est sur son téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma imagine une figurante qui reste sur son téléphone pour faire ressentir l'absence.",
+   "owner": null,
+   "mentioned_people": [
+    "zora"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "088b_EADH",
+   "turn": "t0018",
+   "evidence": "tu prends un groupe tu dis pas ouvrez votre téléphone et regardez votre temps d écran",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire consulter à un groupe son temps d'écran et ses applications les plus utilisées.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "088b_EADH",
+   "turn": "t0038",
+   "evidence": "cet élève pendant je sais pas tout_le semestre il a pas le droit d utiliser son téléphone plus de deux heures par jour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Expérience à l'université : des étudiants volontaires limités à deux heures de téléphone par jour pendant un semestre, avec surveillance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "088b_EADH",
+   "turn": "t0038",
+   "evidence": "ils auraient un bonus dans la moyenne",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les étudiants participants obtiendraient un bonus sur leur moyenne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "088b_EADH",
+   "turn": "t0045",
+   "evidence": "en bonus c'est un peu c'est un peu commercial quand même",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le bonus de moyenne est jugé un peu commercial.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "088b_EADH",
+   "turn": "t0045",
+   "evidence": "mais je pense que c'est une bonne idée d un point_de_vue scientifique du genre expérimentation",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'expérience est jugée intéressante comme expérimentation scientifique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Opinion du locuteur 174, annotée comme évaluation de l'idée."
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "088b_EADH",
+   "turn": "t0059",
+   "evidence": "je trouve que le téléphone c'est ce qui englobe les réseaux et les gafam",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania propose le téléphone comme thème englobant réseaux sociaux et GAFAM.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "088b_EADH",
+   "turn": "t0081",
+   "evidence": "pendant ces ces genres de cours de soutien ben ils doivent donner le téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose des cours de soutien où les élèves remettent leur téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "088b_EADH",
+   "turn": "t0087",
+   "evidence": "je pensais à forest par_exemple où il a lifehackio aussi et moi je les utilise personnellement",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le locuteur 174 utilise des applications de concentration comme Forest.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "088b_EADH",
+   "turn": "t0132",
+   "evidence": "essayer de faire des ateliers en mode qu est-ce_que serait la vie sans téléphone",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Ateliers « la vie sans téléphone ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "088b_EADH",
+   "turn": "t0132",
+   "evidence": "tu écris à la machine à écrire t écris des lettres ou des trucs comme ça voilà prendre un dictionnaire",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemples d'ateliers : machine à écrire, lettres, dictionnaire papier.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "088b_EADH",
+   "turn": "t0149",
+   "evidence": "du_coup on part sur quel thème téléphone réseaux sociaux je pense",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : quel thème choisir, téléphone ou réseaux sociaux ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "088b_EADH",
+   "turn": "t0154",
+   "evidence": "téléphone ça prend réseaux sociaux et aussi gafam mais ça va ça va être surtout réseaux sociaux",
+   "type": "answer",
+   "status": "proposed",
+   "statement": "Tania : le téléphone englobe tout mais l'accent serait surtout sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "088b_EADH",
+   "turn": "t0201",
+   "evidence": "pour le thème de l événement je mets les téléphones ou l addiction au téléphone",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : noter « les téléphones » ou « l'addiction au téléphone » comme thème ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "088b_EADH",
+   "turn": "t0204",
+   "evidence": "faut qu on choisisse un thème là de nous trois parce_que sinon ça aurait été plus les écrans",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma suggère plutôt les écrans comme thème commun.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "088b_EADH",
+   "turn": "t0209",
+   "evidence": "je mets l addiction aux écrans ou les écrans tout court",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : « l'addiction aux écrans » ou « les écrans » ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "088b_EADH",
+   "turn": "t0210",
+   "evidence": "les écrans je pense parce_qu en_fait il n y a pas que l addiction qui est problématique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Thème retenu : les écrans (pas seulement l'addiction, aussi l'usage).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Proposé par 176, approuvé par 175 (« ouais c'est sûr ») et complété par 174 (t0212)."
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "088b_EADH",
+   "turn": "t0213",
+   "evidence": "le passage d informations et ça c'est un truc sur lequel on n a aucun contrôle",
+   "type": "risk",
+   "status": "active",
+   "statement": "On n'a aucun contrôle sur la circulation des informations personnelles.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "088b_EADH",
+   "turn": "t0219",
+   "evidence": "au printemps parce_que si c'est une fois où tu veux faire des ateliers forcément on fait un truc plus agréable",
+   "type": "decision",
+   "status": "active",
+   "statement": "L'événement aurait lieu au printemps, comme les précédents, car plus agréable pour des ateliers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "176 dit « printemps » (t0218), 174 confirme ; pas de date précise."
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "088b_EADH",
+   "turn": "t0223",
+   "evidence": "du_coup vous avez une date approximative",
+   "type": "question",
+   "status": "open",
+   "statement": "Question : quelle date approximative ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Pas de réponse dans la réunion b ; tranchée en c."
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "088b_EADH",
+   "turn": "t0226",
+   "evidence": "y a peut-être le jour d internet il me semble mais je ne sais pas du tout quand c'est",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Idée de caler l'événement sur une journée d'internet, date inconnue.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "088b_EADH",
+   "turn": "t0231",
+   "evidence": "on peut jouer avec le cliché des jeunes et faire une boîte de nuit",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Section boîte de nuit dans l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "088b_EADH",
+   "turn": "t0233",
+   "evidence": "il_y aurait des casiers et tout mais du_coup obligatoire de déposer ses téléphones",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Dépôt obligatoire des téléphones dans des casiers à l'entrée.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "088b_EADH",
+   "turn": "t0276",
+   "evidence": "j aurais préféré un invité à haut coût mais un seul",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "174 préfère un seul invité à haut coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé par 175 (« moi aussi »)."
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "088b_EADH",
+   "turn": "t0285",
+   "evidence": "le second invité potentiel sera plus un scientifique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Un scientifique est envisagé comme second invité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "088b_EADH",
+   "turn": "t0286",
+   "evidence": "il suffit de soi-même s informer et regarder sur internet on n a pas besoin d une personne avec une autorité",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pas besoin d'un scientifique : l'équipe peut s'informer elle-même.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "088b_EADH",
+   "turn": "t0304",
+   "evidence": "un influenceur à à haut coût qui pourra lui donner sa vision des réseaux sociaux",
+   "type": "decision",
+   "status": "active",
+   "statement": "Invité retenu : un influenceur à haut coût qui parlera de son rapport aux réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Annoncé t0296 (« je pense plus partir sur un invité à haut coût »), approuvé par 175."
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "088b_EADH",
+   "turn": "t0306",
+   "evidence": "mais qui soit quand même euh objectif",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'influenceur devra rester objectif sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "088b_EADH",
+   "turn": "t0308",
+   "evidence": "moi je fais confiance en squeezie pour ça",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania propose Squeezie.",
+   "owner": null,
+   "mentioned_people": [
+    "squeezie"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "088b_EADH",
+   "turn": "t0310",
+   "evidence": "je pensais à une autre personne je sais pas si vous connaissez cyrus north",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "174 propose Cyrus North.",
+   "owner": null,
+   "mentioned_people": [
+    "cyrus north"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "088b_EADH",
+   "turn": "t0317",
+   "evidence": "il a fait plein d expériences genre euh j essaie de vivre sans mon téléphone",
+   "type": "fact",
+   "status": "active",
+   "statement": "Cyrus North a tenté de vivre sans téléphone ou sans réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [
+    "cyrus north"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "088b_EADH",
+   "turn": "t0365",
+   "evidence": "il faut attends on va en inviter combien là",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : combien d'invités ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "088b_EADH",
+   "turn": "t0366",
+   "evidence": "un seul du_coup haut coût",
+   "type": "answer",
+   "status": "active",
+   "statement": "Un seul invité, à haut coût.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "088b_EADH",
+   "turn": "t0367",
+   "evidence": "alors moi j étais vraiment sur squeezie mais après cyrus north c'est aussi une bonne idée donc si tu préfères cyrus north garde le",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Le nom de l'influenceur n'est pas tranché entre Squeezie et Cyrus North.",
+   "owner": null,
+   "mentioned_people": [
+    "squeezie",
+    "cyrus north"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "088b_EADH",
+   "turn": "t0376",
+   "evidence": "on n a pas de nom donc euh next",
+   "type": "fact",
+   "status": "active",
+   "statement": "Aucun nom pour l'option « influenceuse parfaite qui déconstruit son image ».",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0004",
+   "evidence": "la date précise parce_qu' on évoquait une date au_courant d' avril mais c'est vraiment très très éparpillé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Une date en avril avait été évoquée, sans précision.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0011",
+   "evidence": "est-ce_que ce serait pas mieux genre automne",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose l'automne ou l'hiver.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-03",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0023",
+   "evidence": "le problème c'est que le stand va être à l' extérieur",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le stand étant à l'extérieur, l'hiver attirerait peu de monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0028",
+   "evidence": "on se met sur le même endroit en ville que d' habitude autour de l' office de tourisme",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lieu : près de l'office de tourisme, comme d'habitude.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-05",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0033",
+   "evidence": "ou même sur le cours mirabeau simplement",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lieu alternatif : le cours Mirabeau.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0042",
+   "evidence": "moi je dis février entre les deux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Emma propose février.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0051",
+   "evidence": "un entre deux ni trop chaud ni trop froid et bon il_y a des vacances en mars aussi",
+   "type": "fact",
+   "status": "active",
+   "statement": "Mars est un entre-deux climatique et il y a des vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0061",
+   "evidence": "du coup on part sur quel mois",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : quel mois ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0067",
+   "evidence": "on est parti sur avril on part sur mars une date",
+   "type": "decision",
+   "status": "active",
+   "statement": "On passe d'avril à mars.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Mars proposé par 174, 175 et 176 (t0062-t0064), confirmé par 176 (t0068)."
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0072",
+   "evidence": "le deux mars non c'est pas la fête des grand-mères le deux mars",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Date évoquée : le 2 mars.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "174 répète « deux mars » (t0074) sans accord explicite des autres."
+  },
+  {
+   "key": "c-11",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0080",
+   "evidence": "avec le maire qui s' en occupe",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : qui s'occupe du rendez-vous avec le maire ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0082",
+   "evidence": "crois que c'est zora",
+   "type": "answer",
+   "status": "unknown",
+   "statement": "Emma pense que c'est Zora qui gère la mairie.",
+   "owner": null,
+   "mentioned_people": [
+    "zora"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Incertain ; 174 dit ensuite s'occuper du maire (t0324)."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0087",
+   "evidence": "on n' a pas évoqué le financement parce_que ben du_coup je pense que la magie fera le financement pour une grande partie",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "La mairie financerait en grande partie l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "« la magie » = « la mairie » (ASR)."
+  },
+  {
+   "key": "c-14",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0091",
+   "evidence": "là on peut faire la pub sur les réseaux",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Faire la publicité de l'événement sur les réseaux sociaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-15",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0092",
+   "evidence": "c'est un peu contradictoire en fait",
+   "type": "risk",
+   "status": "active",
+   "statement": "Faire la pub sur les réseaux est un peu contradictoire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0122",
+   "evidence": "ou même des restaurants des bars tout ça genre essayez de pas prendre en photo votre repas",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Partenariats avec restaurants et bars : ne pas photographier son repas.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0150",
+   "evidence": "je trouve ça juste un peu cliché qu' on qu' on prenne des librairies en partenariat",
+   "type": "risk",
+   "status": "active",
+   "statement": "Un partenariat avec des librairies est jugé cliché.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0197",
+   "evidence": "des financements que les youtubeurs ont beaucoup mais ça va vraiment pas",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Les financements habituels des youtubeurs sont écartés (contraires aux valeurs).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Rejet explicite t0198 « contre nos valeurs »."
+  },
+  {
+   "key": "c-19",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0200",
+   "evidence": "un partenariat peut-être avec tout ce qui est euh c'est un peu aussi c'est les applications dont j' ai parlé tout à l' heure pour réguler ton temps",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Partenariat avec des applications de régulation du temps d'écran (Forest).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Approuvé ensuite (« why not », « ça fait plus sens »)."
+  },
+  {
+   "key": "c-20",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0223",
+   "evidence": "j' ai mis contacter des applications en lien avec le projet donc qui s' en charge",
+   "type": "action",
+   "status": "active",
+   "statement": "Tâche : contacter des applications en lien avec le projet.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-21",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0224",
+   "evidence": "moi je peux si vous voulez",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Emma se charge de contacter les applications.",
+   "owner": "175",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par 174 t0235 (« ça c'est emma »)."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0235",
+   "evidence": "bon ça c'est emma",
+   "type": "commitment",
+   "status": "active",
+   "statement": "174 note qu'Emma s'occupe du contact des applications.",
+   "owner": "175",
+   "mentioned_people": [
+    "emma"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0236",
+   "evidence": "pour la troisième étape c'est contacter justement des des lieux des endroits à aix",
+   "type": "action",
+   "status": "open",
+   "statement": "Tâche : contacter des lieux à Aix pour des partenariats.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Responsable ambigu (voir t0321-t0324)."
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0268",
+   "evidence": "réserver le lieu qui s' en occupe ben je vais le prendre",
+   "type": "commitment",
+   "status": "active",
+   "statement": "174 se charge de réserver le lieu.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-25",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0301",
+   "evidence": "il faut quand même réserver le lieu et donner des dates fixes",
+   "type": "action",
+   "status": "open",
+   "statement": "Il faut réserver le lieu et fixer une date.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0313",
+   "evidence": "entre guillemets tania tu t' en occupes tu penses",
+   "type": "question",
+   "status": "unknown",
+   "statement": "174 demande à Tania si elle contacte l'influenceur.",
+   "owner": null,
+   "mentioned_people": [
+    "tania"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Réponse ambiguë (« ouais les » puis autre sujet) ; t0366 repose la question."
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0323",
+   "evidence": "c'est moi non je suis les sponsors on va y arriver",
+   "type": "commitment",
+   "status": "unknown",
+   "statement": "Emma se dit en charge des sponsors.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Échange confus t0318-t0324 : répartition sponsors/partenariats incertaine, owner non attribué."
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0324",
+   "evidence": "je m' occupe euh de de du maire et de ça",
+   "type": "commitment",
+   "status": "active",
+   "statement": "174 s'occupe du rendez-vous avec le maire.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0326",
+   "evidence": "je pense que l' influenceur en question pourrait faire la pub",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'influenceur pourrait assurer la publicité.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0337",
+   "evidence": "pas de photo à la limite je sais pas tu fais un autographe comme à l' ancienne époque",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas de photo avec l'influenceur, plutôt des autographes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée de 176 (t0336), approuvée par 174 et 175 (t0339)."
+  },
+  {
+   "key": "c-31",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0340",
+   "evidence": "est-ce_qu' on garde le truc des pubs",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Question : garde-t-on l'idée des pubs sur TikTok ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-32",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0341",
+   "evidence": "je pense que c'est une bonne idée aussi",
+   "type": "answer",
+   "status": "active",
+   "statement": "174 juge l'idée des pubs bonne.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-33",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0343",
+   "evidence": "je sais pas si les réseaux sociaux seront en_faveur_de ça",
+   "type": "risk",
+   "status": "active",
+   "statement": "Les réseaux sociaux pourraient refuser ces publicités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0369",
+   "evidence": "c'est emma qui s' occupe de la publicité",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Emma s'occupe de la publicité.",
+   "owner": "175",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Confirmé par 175 t0372 (« oui c'est moi emma »)."
+  },
+  {
+   "key": "c-35",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0376",
+   "evidence": "du_coup je m' occupe de tout ce qui est matériel tout ça",
+   "type": "commitment",
+   "status": "active",
+   "statement": "174 s'occupe du matériel.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0376",
+   "evidence": "cette phase un peu journalistique bah je vais la gérer",
+   "type": "commitment",
+   "status": "active",
+   "statement": "174 se documente pour remplacer l'apport d'un scientifique.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0389",
+   "evidence": "on peut pas avoir le petit scientifique à côté",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Tania demande si on peut ajouter un scientifique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0390",
+   "evidence": "je pense que le petit scientifique ça va surtout être nous",
+   "type": "answer",
+   "status": "active",
+   "statement": "Le rôle de scientifique sera assuré par l'équipe.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0403",
+   "evidence": "on repart sur notre truc avec un youtubeur",
+   "type": "decision",
+   "status": "active",
+   "statement": "On confirme un seul invité youtubeur.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "088c_EAPH",
+   "turn": "t0434",
+   "evidence": "y' a l' événement où c'est informatif ludique tout ça avec des ateliers",
+   "type": "decision",
+   "status": "active",
+   "statement": "Format retenu : événement informatif et ludique avec ateliers, plus partenariats sans téléphone.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Récapitulatif de 174 (t0434-t0437)."
+  }
+ ],
+ "relations": [
+  {
+   "from": "a-18",
+   "to": "a-17",
+   "relation": "answers",
+   "justification": "t0036 répond à la question sur l'origine de Wish."
+  },
+  {
+   "from": "a-20",
+   "to": "a-19",
+   "relation": "answers",
+   "justification": "Emma explique le choix de son sujet."
+  },
+  {
+   "from": "a-23",
+   "to": "a-22",
+   "relation": "answers",
+   "justification": "Tania explique le choix de son sujet."
+  },
+  {
+   "from": "b-08",
+   "to": "b-07",
+   "relation": "contradicts",
+   "justification": "Le bonus est critiqué comme commercial sans être tranché."
+  },
+  {
+   "from": "b-09",
+   "to": "b-06",
+   "relation": "supports",
+   "justification": "L'expérience universitaire est jugée intéressante scientifiquement."
+  },
+  {
+   "from": "b-16",
+   "to": "b-15",
+   "relation": "answers",
+   "justification": "Tania répond sur le thème : surtout réseaux sociaux."
+  },
+  {
+   "from": "b-20",
+   "to": "b-19",
+   "relation": "answers",
+   "justification": "« les écrans je pense » répond au choix écrans / addiction aux écrans."
+  },
+  {
+   "from": "b-20",
+   "to": "b-16",
+   "relation": "supersedes",
+   "justification": "Le thème est finalement « les écrans » et non « surtout réseaux sociaux »."
+  },
+  {
+   "from": "b-20",
+   "to": "b-10",
+   "relation": "supersedes",
+   "justification": "La décision tranche la question du thème proposé (téléphone)."
+  },
+  {
+   "from": "b-18",
+   "to": "b-20",
+   "relation": "supports",
+   "justification": "Emma avait suggéré les écrans."
+  },
+  {
+   "from": "b-30",
+   "to": "b-28",
+   "relation": "supersedes",
+   "justification": "Choix d'un seul invité influenceur à haut coût : le scientifique est écarté."
+  },
+  {
+   "from": "b-30",
+   "to": "b-27",
+   "relation": "supports",
+   "justification": "La décision reprend l'idée d'un seul invité à haut coût."
+  },
+  {
+   "from": "b-29",
+   "to": "b-28",
+   "relation": "contradicts",
+   "justification": "Argument contre l'invitation d'un scientifique."
+  },
+  {
+   "from": "b-36",
+   "to": "b-35",
+   "relation": "answers",
+   "justification": "Un seul invité."
+  },
+  {
+   "from": "b-36",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Confirme l'invité unique à haut coût."
+  },
+  {
+   "from": "c-39",
+   "to": "b-30",
+   "relation": "supports",
+   "justification": "Réunion c : on repart sur l'invité youtubeur unique."
+  },
+  {
+   "from": "c-38",
+   "to": "c-37",
+   "relation": "answers",
+   "justification": "Le scientifique sera l'équipe elle-même."
+  },
+  {
+   "from": "c-38",
+   "to": "b-29",
+   "relation": "supports",
+   "justification": "L'équipe s'informera elle-même au lieu d'inviter un scientifique."
+  },
+  {
+   "from": "c-36",
+   "to": "c-38",
+   "relation": "supports",
+   "justification": "174 prend en charge la documentation."
+  },
+  {
+   "from": "c-09",
+   "to": "c-08",
+   "relation": "answers",
+   "justification": "Le mois retenu est mars."
+  },
+  {
+   "from": "c-09",
+   "to": "c-01",
+   "relation": "supersedes",
+   "justification": "« on est parti sur avril on part sur mars »."
+  },
+  {
+   "from": "c-09",
+   "to": "c-02",
+   "relation": "supersedes",
+   "justification": "Le choix de mars tranche la question de la saison."
+  },
+  {
+   "from": "c-09",
+   "to": "c-06",
+   "relation": "supersedes",
+   "justification": "Le choix de mars tranche la question du mois."
+  },
+  {
+   "from": "c-09",
+   "to": "b-23",
+   "relation": "answers",
+   "justification": "Réponse en c à la demande de date approximative."
+  },
+  {
+   "from": "c-09",
+   "to": "b-22",
+   "relation": "supports",
+   "justification": "Mars est le début du printemps retenu en b."
+  },
+  {
+   "from": "c-07",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "Arguments pour mars."
+  },
+  {
+   "from": "c-03",
+   "to": "c-02",
+   "relation": "contradicts",
+   "justification": "Stand extérieur : hiver peu attractif."
+  },
+  {
+   "from": "c-12",
+   "to": "c-11",
+   "relation": "answers",
+   "justification": "Emma pense que Zora gère le maire."
+  },
+  {
+   "from": "c-28",
+   "to": "c-12",
+   "relation": "contradicts",
+   "justification": "174 dit s'occuper elle-même du maire."
+  },
+  {
+   "from": "c-15",
+   "to": "c-14",
+   "relation": "contradicts",
+   "justification": "La pub sur les réseaux est jugée contradictoire."
+  },
+  {
+   "from": "c-19",
+   "to": "c-20",
+   "relation": "creates_action",
+   "justification": "L'idée retenue de partenariat avec les applis donne la tâche « contacter des applications »."
+  },
+  {
+   "from": "c-22",
+   "to": "c-21",
+   "relation": "supports",
+   "justification": "174 confirme qu'Emma s'en charge."
+  },
+  {
+   "from": "c-32",
+   "to": "c-31",
+   "relation": "answers",
+   "justification": "174 répond que l'idée des pubs est bonne."
+  },
+  {
+   "from": "c-33",
+   "to": "c-32",
+   "relation": "contradicts",
+   "justification": "Doute que les réseaux acceptent ces pubs."
+  },
+  {
+   "from": "c-40",
+   "to": "b-02",
+   "relation": "supports",
+   "justification": "Le format final reprend la foire avec ateliers."
+  },
+  {
+   "from": "c-40",
+   "to": "c-16",
+   "relation": "supports",
+   "justification": "Le récapitulatif inclut les partenariats avec les restaurants."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "088b_EADH",
+   "text": "Finalement, quel thème l'équipe a-t-elle retenu pour son événement de sensibilisation ?",
+   "answerable": true,
+   "qrels": {
+    "b-20": 2,
+    "b-18": 1,
+    "b-16": 0,
+    "b-10": 0,
+    "b-17": 0,
+    "a-04": 0,
+    "a-11": 0
+   },
+   "traps": [
+    {
+     "unit": "b-16",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-10",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-04",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-11",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "088b_EADH",
+   "text": "Combien d'invités vont venir à l'événement et de quel profil ?",
+   "answerable": true,
+   "qrels": {
+    "b-30": 2,
+    "b-36": 2,
+    "c-39": 2,
+    "b-27": 1,
+    "b-28": 0,
+    "b-32": 0,
+    "b-33": 0,
+    "b-37": 0
+   },
+   "traps": [
+    {
+     "unit": "b-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-32",
+     "trap": "person"
+    },
+    {
+     "unit": "b-33",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "088b_EADH",
+   "text": "Quel mois a été choisi au bout du compte pour organiser l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "c-09": 2,
+    "c-10": 1,
+    "b-22": 1,
+    "c-01": 0,
+    "c-02": 0,
+    "c-06": 0,
+    "b-24": 0
+   },
+   "traps": [
+    {
+     "unit": "c-01",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-02",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-06",
+     "trap": "superseded"
+    },
+    {
+     "unit": "b-24",
+     "trap": "date"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "088b_EADH",
+   "text": "Qui doit prendre contact avec les applis qui aident à limiter le temps passé sur l'écran ?",
+   "answerable": true,
+   "qrels": {
+    "c-21": 2,
+    "c-22": 2,
+    "c-20": 1,
+    "c-19": 1,
+    "b-12": 0,
+    "c-34": 0,
+    "c-35": 0
+   },
+   "traps": [
+    {
+     "unit": "b-12",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-34",
+     "trap": "person"
+    },
+    {
+     "unit": "c-35",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "088b_EADH",
+   "text": "Quelles réserves ont été exprimées sur l'idée de récompenser les étudiants par des points en plus ?",
+   "answerable": true,
+   "qrels": {
+    "b-08": 2,
+    "b-09": 1,
+    "b-07": 1,
+    "b-06": 1,
+    "b-11": 0
+   },
+   "traps": [
+    {
+     "unit": "b-11",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "088b_EADH",
+   "text": "Quel atelier doit faire prendre conscience aux visiteurs de ce qu'on peut savoir sur eux grâce à leurs appareils ?",
+   "answerable": true,
+   "qrels": {
+    "b-03": 2,
+    "b-02": 1,
+    "b-21": 1,
+    "b-04": 0,
+    "b-05": 0
+   },
+   "traps": [
+    {
+     "unit": "b-04",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-05",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "088b_EADH",
+   "text": "Pourquoi n'a-t-on pas gardé l'idée de faire venir un chercheur pour expliquer les effets des écrans ?",
+   "answerable": true,
+   "qrels": {
+    "b-29": 2,
+    "c-38": 2,
+    "b-30": 1,
+    "b-28": 1,
+    "c-36": 1,
+    "c-37": 0
+   },
+   "traps": [
+    {
+     "unit": "c-37",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q08",
+   "about_meeting": "088b_EADH",
+   "text": "Quel montant l'équipe prévoit-elle de verser à l'influenceur pour sa venue ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "174": "sarah (incertain)",
+  "175": "emma",
+  "176": "tania"
+ },
+ "notes": "Réunions a et c en ASR (tours tronqués, « la magie » = la mairie, « birille » = BeReal). Réunion a : exposés individuels, récits personnels de santé/vie privée non annotés. Ambiguïtés : responsable du maire (Zora selon 175 vs 174 t0324), répartition sponsors/partenariats (t0318-t0324), contact de l'influenceur (question à Tania sans réponse claire), nom de l'influenceur jamais tranché (Squeezie / Cyrus North), date du 2 mars répétée sans accord explicite. 174 = sarah déduit de « et toi sarah » (a t0057)."
+}
