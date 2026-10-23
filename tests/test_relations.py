@@ -43,3 +43,15 @@ def test_report_and_bootstrap():
     assert rep["macro_f1_relations_only"] == 0.5
     ci = bootstrap_macro_f1(gold, pred, ["g1", "g1", "g2", "g2"], labels, n_resamples=100)
     assert ci["n_clusters"] == 2 and ci["ci_low"] <= ci["value"] <= ci["ci_high"]
+
+
+def test_demote_moves_replaced_unit_below_its_replacement():
+    from embedding_lab.retrieval.hybrid import demote
+
+    units = {"old": unit("old", 0, 1, "decision"), "new": unit("new", 2, 1, "decision"),
+             "other": {**unit("other", 1, 1), "project": "summre-901"}}
+    scores = {"old": 0.9, "other": 0.8, "new": 0.7}
+    out, applied = demote(scores, units, lambda x, y: 1.0 if x["unit_id"] == "new" else 0.0)
+    order = sorted(out, key=lambda u: -out[u])
+    assert applied == [("new", "old")]
+    assert order == ["other", "new", "old"]
