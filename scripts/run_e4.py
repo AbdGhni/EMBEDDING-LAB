@@ -37,6 +37,9 @@ def main() -> None:
     ap.add_argument("--weights", type=Path)
     ap.add_argument("--tag", default="")
     ap.add_argument("--bm25-only", action="store_true")
+    ap.add_argument("--dense-only", action="store_true",
+                    help="seulement l'encodeur dense (évaluation finale de E2 ou E3)")
+    ap.add_argument("--name", default="E4-dense", help="nom du run dense (ex. E2, E3)")
     ap.add_argument("--smoke", action="store_true")
     ap.add_argument("--split", choices=["val", "test"], default="val")
     ap.add_argument("--test-reason")
@@ -65,10 +68,13 @@ def main() -> None:
                                    weights=f"{args.weights.parent.name}/best@"
                                            f"{weights_sha(args.weights)[:16]}")
         fused = RRFSystem([bm25, dense])
-        systems = {"E4-dense": dense,  # contrôle : doit reproduire l'évaluation de E2
-                   "E4-rrf": fused,
-                   "E4-dem": DemoteSystem(dense, pred.p_supersedes, pred.config()),
-                   "E4-rrf-dem": DemoteSystem(fused, pred.p_supersedes, pred.config())}
+        if args.dense_only:
+            systems = {args.name: dense}
+        else:
+            systems = {"E4-dense": dense,  # contrôle : doit reproduire l'évaluation de E2
+                       "E4-rrf": fused,
+                       "E4-dem": DemoteSystem(dense, pred.p_supersedes, pred.config()),
+                       "E4-rrf-dem": DemoteSystem(fused, pred.p_supersedes, pred.config())}
     prefix = "SMOKE-" if args.smoke else ""
     for name, system in systems.items():
         tag = f"-{args.tag}" if args.tag else ""
