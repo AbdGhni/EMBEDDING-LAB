@@ -1,0 +1,1964 @@
+{
+ "group_id": "081",
+ "units": [
+  {
+   "key": "a-01",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0000",
+   "evidence": "organiser notre événement cinématographique et choisir un thème particulier qui pourrait attirer plus de monde",
+   "type": "fact",
+   "status": "active",
+   "statement": "Objectif : organiser un événement cinématographique autour d'un thème qui attire du monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-02",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0000",
+   "evidence": "le participant numéro un qui est emma va commencer à prendre la parole",
+   "type": "decision",
+   "status": "active",
+   "statement": "Emma parle en premier, puis Tania, puis l'animatrice.",
+   "owner": null,
+   "mentioned_people": [
+    "175",
+    "176"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-03",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0002",
+   "evidence": "moi je vais parler des comédies et des romances",
+   "type": "fact",
+   "status": "active",
+   "statement": "Emma présente le genre comédie romantique / romance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-04",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0002",
+   "evidence": "je me suis surtout concentrée depuis quelques années sur les films et séries plutôt venant de corée",
+   "type": "fact",
+   "status": "active",
+   "statement": "Emma regarde surtout des films et séries romantiques coréens.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-05",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0006",
+   "evidence": "il_y en a beaucoup titanic on va dire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Exemple hollywoodien de romance cité : Titanic.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-06",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0006",
+   "evidence": "je vais dire euh euh extraordinary you",
+   "type": "fact",
+   "status": "active",
+   "statement": "Exemple de drama coréen romantique cité : Extraordinary You.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-07",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0007",
+   "evidence": "c'est encore plus explicite quoi de nos jours",
+   "type": "fact",
+   "status": "active",
+   "statement": "Selon Emma, les romances sont devenues plus explicites avec le temps (sauf les dramas coréens).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-08",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0009",
+   "evidence": "j' aurais envie de dire comme cliché surtout les filles",
+   "type": "fact",
+   "status": "active",
+   "statement": "Public de la romance : surtout des filles (cliché).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-09",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0010",
+   "evidence": "ça peut attirer encore plus de gens qui aiment l' intégrité et la diversité",
+   "type": "fact",
+   "status": "active",
+   "statement": "La diversité des romances (couples de tous types) peut attirer plus de monde.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-10",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0016",
+   "evidence": "le thème de film que j' ai choisi c'est les films d' action",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tania présente le genre film d'action.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-11",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0019",
+   "evidence": "je me suis moi-même intéressée aux arts martiaux grâce_à certains films dont euh kickboxing de jean-claude van damme",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tania s'est mise aux arts martiaux grâce au film Kickboxing de Van Damme.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-12",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0020",
+   "evidence": "je dirais karate kid",
+   "type": "fact",
+   "status": "active",
+   "statement": "Film d'action le plus connu selon Tania : Karate Kid.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-13",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0020",
+   "evidence": "ma référence personnelle qui est aussi une grosse référence c'est jean-claude van damme",
+   "type": "fact",
+   "status": "active",
+   "statement": "Acteurs associés à l'action : Jackie Chan et surtout Jean-Claude Van Damme.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-14",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0024",
+   "evidence": "le sang est beaucoup plus présent dans le film d' aujourd'hui",
+   "type": "fact",
+   "status": "active",
+   "statement": "Évolution du film d'action : plus de sang et d'effets aujourd'hui.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-15",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0026",
+   "evidence": "je me retrouve plus personnellement dans les anciens films de combat",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tania préfère les anciens films de combat aux nouveaux.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-16",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0027",
+   "evidence": "cette audience c'est en_général masculine",
+   "type": "fact",
+   "status": "active",
+   "statement": "Public habituel des films d'action : plutôt masculin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-17",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0030",
+   "evidence": "je vais passer passer maintenant à mon mon genre de film qui est le film historique",
+   "type": "fact",
+   "status": "active",
+   "statement": "L'animatrice (174) présente le genre film historique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-18",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0031",
+   "evidence": "on peut même les mixer parce_que dans les films historiques il_y a souvent du combat",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Les trois genres peuvent être mélangés : l'historique contient souvent combat et romance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-19",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0032",
+   "evidence": "il_y a de nombreux dramas coréens qui parlent de l' histoire donc avec hwarang et l' époque joseon ou love in the moonlight",
+   "type": "fact",
+   "status": "active",
+   "statement": "Dramas coréens historiques cités : Hwarang (époque Joseon) et Love in the Moonlight.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-20",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0032",
+   "evidence": "je pense surtout à gérard depardieu avec les misérables",
+   "type": "fact",
+   "status": "active",
+   "statement": "Acteur cité pour l'historique : Gérard Depardieu (Les Misérables).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-21",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0033",
+   "evidence": "je pense aux chroniques de bridgerton où il_y a même eu the crown",
+   "type": "fact",
+   "status": "active",
+   "statement": "Séries historiques à succès citées : Bridgerton, The Crown (et Les Tudors).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-22",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0034",
+   "evidence": "on pense souvent que c'est surtout les profs d' histoire qui regardent les films historiques",
+   "type": "fact",
+   "status": "active",
+   "statement": "Cliché sur le public des films historiques : les professeurs d'histoire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-23",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0042",
+   "evidence": "j aurais du dire orgueil et préjugé",
+   "type": "fact",
+   "status": "active",
+   "statement": "Emma regrette de ne pas avoir cité Orgueil et préjugés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-24",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0063",
+   "evidence": "moi j' ai pensé à the notebook",
+   "type": "fact",
+   "status": "active",
+   "statement": "Tania pense à The Notebook comme film romantique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-25",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0092",
+   "evidence": "je vais faire un compte-rendu",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice (174) fait le compte rendu de la réunion.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-26",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0094",
+   "evidence": "on a vu que l' action c'était surtout masculin en majorité masculin et adulte",
+   "type": "fact",
+   "status": "active",
+   "statement": "Compte rendu : l'action vise surtout un public masculin et adulte.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-27",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0094",
+   "evidence": "la romance était surtout féminin",
+   "type": "fact",
+   "status": "active",
+   "statement": "Compte rendu : la romance vise surtout un public féminin.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "a-28",
+   "meeting_id": "081a_EBRH",
+   "turn": "t0094",
+   "evidence": "tous tous_les trois peuvent être le sujet d' une conférence cinématographique",
+   "type": "fact",
+   "status": "active",
+   "statement": "Conclusion de la réunion 1 : chacun des trois genres pourrait être le thème de l'événement.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-01",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0003",
+   "evidence": "on va essayer de choisir un un enfin deux thèmes",
+   "type": "fact",
+   "status": "active",
+   "statement": "But de la réunion 2 : choisir deux thèmes parmi les trois.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-02",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0047",
+   "evidence": "le problème c'est qu' il faut choisir deux thèmes",
+   "type": "risk",
+   "status": "active",
+   "statement": "Difficulté : il faut n'en garder que deux alors que les genres sont liés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-03",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0069",
+   "evidence": "on a qu' à choisir ces deux là parce qu' on sait qu' on va retrouver la troisième qui est l' amour",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania propose de choisir action et historique, la romance étant présente de toute façon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-04",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0100",
+   "evidence": "on part sur vos deux thèmes et on rajoute le_mien",
+   "type": "decision",
+   "status": "active",
+   "statement": "Décision : historique et action, avec la romance d'Emma en complément.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Transcription ASR ; accord exprimé par Emma (175)."
+  },
+  {
+   "key": "b-05",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0081",
+   "evidence": "je sais qu' il_y a de l' amour et de l' histoire du_coup mais est-ce_qu' il_y a de la violence",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Orgueil et préjugés contient-il de la violence ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-06",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0086",
+   "evidence": "non c'est vraiment de la romance",
+   "type": "answer",
+   "status": "active",
+   "statement": "Non, Orgueil et préjugés est de la romance pure, sans combat.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-07",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0107",
+   "evidence": "est-ce que vous avez une période en_particulier étant donné qu' on choisit l' histoire",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Faut-il cibler une période historique particulière ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-08",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0110",
+   "evidence": "ce serait la période médiévale",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania suggère la période médiévale.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-09",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0136",
+   "evidence": "on devrait profiter de cette variété que l' histoire nous propose pour justement montrer plein de choses",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Plutôt que d'une seule période, profiter de la variété historique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-10",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0136",
+   "evidence": "le film je crois qu' il s' appelle grrr c'est un film un peu humoristique et préhistorique",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Film proposé : Grrr, comédie préhistorique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-11",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0145",
+   "evidence": "on peut très bien mettre des films d' animation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Inclure des films d'animation / animés (Naruto, Demon Slayer).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-12",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0167",
+   "evidence": "il_y a view of the evergarden avec l' industrialisation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Violet Evergarden proposé pour l'époque de l'industrialisation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-13",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0175",
+   "evidence": "on a sauté une étape c'est cinéma drive-in",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Quel format de cinéma : drive-in, art déco ou classique ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-14",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0185",
+   "evidence": "même si c'est original ça vise qu' un certain type de personnes",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le cinéma art déco, bien qu'original, ne vise qu'un public restreint.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-15",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0195",
+   "evidence": "vous avez raison parce que de bas j' étais à fond pour l' art déco",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Tania renonce à l'art déco qu'elle soutenait au départ.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-16",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0207",
+   "evidence": "penchais plus pour un drive-in",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "L'animatrice (174) penche pour un drive-in.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Le drive-in est ensuite tenu pour acquis (réunion c)."
+  },
+  {
+   "key": "b-17",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0209",
+   "evidence": "dans le sens où c'est beaucoup plus atypique donc ça attire",
+   "type": "fact",
+   "status": "active",
+   "statement": "Argument : le drive-in est plus atypique, donc attire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-18",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0248",
+   "evidence": "c'est plus facilement accessible et dans le sens où tu te sens plus dans ton coco dans ta voiture",
+   "type": "fact",
+   "status": "active",
+   "statement": "Argument : le drive-in est accessible et confortable, on y va en famille ou entre amis.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-19",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0249",
+   "evidence": "ça se limite à cinq personnes du_coup a part si t' as un break",
+   "type": "risk",
+   "status": "active",
+   "statement": "Limite : cinq personnes par voiture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-20",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0251",
+   "evidence": "ça va à l' encontre de notre réunion de la semaine dernière sur la pollution",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le drive-in contredit la réunion précédente sur la pollution.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-21",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0261",
+   "evidence": "était pas mal maintenant faut aussi faire un ordre chronologique",
+   "type": "decision",
+   "status": "active",
+   "statement": "Programmation variée et dans l'ordre chronologique.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-22",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0266",
+   "evidence": "le sens où pas viser forcément une période pour que ça attire plus de gens",
+   "type": "decision",
+   "status": "active",
+   "statement": "Programmation internationale sans viser une seule période.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-23",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0291",
+   "evidence": "les premiers films diffusés le plus tôt c'est pour les enfants",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Films pour enfants en début de journée, renvoyé à la phase d'organisation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-24",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0299",
+   "evidence": "si on peut basculer vers des choses un peu plus soit romantiques soit sombres le soir",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Films romantiques ou sombres le soir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-25",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0309",
+   "evidence": "est-ce qu' il est plus intéressant de choisir un invité qui fera venir beaucoup de monde ou plusieurs invités en prenant le risque d' avoir moins d' entrées",
+   "type": "question",
+   "status": "resolved",
+   "statement": "Un invité vedette ou plusieurs invités moins connus ?",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-26",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0339",
+   "evidence": "un impact limité c'est nul",
+   "type": "answer",
+   "status": "active",
+   "statement": "Emma préfère un seul invité à fort impact.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-27",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0342",
+   "evidence": "comment est-ce_qu' une seule personne peut représenter tout ce qu' on va présenter",
+   "type": "risk",
+   "status": "active",
+   "statement": "Tania objecte qu'un seul invité ne peut représenter la diversité des films.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-28",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0362",
+   "evidence": "genre tu fais venir luc besson",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Exemple d'invité : Luc Besson.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-29",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0379",
+   "evidence": "y' a dix films à choisir",
+   "type": "fact",
+   "status": "active",
+   "statement": "Jusqu'à dix films à choisir.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-30",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0388",
+   "evidence": "il_y a environ six_cent épisodes ça va être un peu compliqué",
+   "type": "risk",
+   "status": "active",
+   "statement": "Naruto : trop d'épisodes pour une projection.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-31",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0396",
+   "evidence": "on pourrait faire euh un film compilation",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Pour Naruto, projeter un film compilation.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-32",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0399",
+   "evidence": "comment ça s' appelle pourquoi j' ai pas mangé mon père",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Film proposé : Pourquoi j'ai pas mangé mon père (préhistoire, Jamel Debbouze).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-33",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0407",
+   "evidence": "j ai envie d' essayer hwarang",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania veut programmer le drama coréen Hwarang.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-34",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0447",
+   "evidence": "trois avec tout ce qui est antiquité et grèce",
+   "type": "fact",
+   "status": "active",
+   "statement": "300 couvre l'Antiquité grecque.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-35",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0451",
+   "evidence": "on fait que historique alors_qu' on avait choisi deux thèmes",
+   "type": "risk",
+   "status": "active",
+   "statement": "Tania note qu'on ne choisit que des films historiques alors qu'il y a deux thèmes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-36",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0477",
+   "evidence": "non on va faire à_partir_de nos connaissances",
+   "type": "decision",
+   "status": "active",
+   "statement": "Pas de recherche internet : on choisit à partir de ses connaissances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-37",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0509",
+   "evidence": "y a full metal jacket",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Films sur le Vietnam proposés : Platoon, Full Metal Jacket.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-38",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0539",
+   "evidence": "le rugby là l ivictus l ivictus ah ça c'est pas mal ça",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Film proposé : Invictus (Mandela, rugby).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "b-39",
+   "meeting_id": "081b_EBDH",
+   "turn": "t0550",
+   "evidence": "franchement moi je pense à l' art je pense au bollywood",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Piste : un film Bollywood.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-01",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0001",
+   "evidence": "ce serait bien_que ce soit sur plusieurs jours comme le festival d' avignon",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Événement sur plusieurs jours, comme le festival d'Avignon.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-02",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0004",
+   "evidence": "ce serait bien au printemps justement avec les beaux jours qui arrivent",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Organiser l'événement au printemps.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-04",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0014",
+   "evidence": "éventuellement les vacances d' avril",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Viser les vacances scolaires d'avril, pour les enfants.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-06",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0038",
+   "evidence": "plutôt vers le quinze",
+   "type": "decision",
+   "status": "active",
+   "statement": "Première date retenue : vers le 15 (avril).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Acté au tour t0039 « on va mettre ça comme ça »."
+  },
+  {
+   "key": "c-07",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0046",
+   "evidence": "si ça se termine en mai on va mettre le vingt-et-un",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date déplacée au 21 avril, les vacances finissant en mai selon les zones.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-08",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0049",
+   "evidence": "on va mettre même le vingt_cinq comme ça on est sûr",
+   "type": "decision",
+   "status": "active",
+   "statement": "Date finale : 25 avril, pour être sûr de tomber dans les vacances.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-09",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0049",
+   "evidence": "déjà faut demander l' autorisation avant de",
+   "type": "action",
+   "status": "active",
+   "statement": "Il faut d'abord demander l'autorisation au maire.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-10",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0061",
+   "evidence": "j ai pensé au val de l' arc mais non il_y a des zones où tu peux y aller à pied",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Le Val de l'Arc est écarté (zones piétonnes).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-12",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0071",
+   "evidence": "la piscine yves blanc",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lieu évoqué : un stade près de la piscine Yves Blanc à Aix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Idée répartie sur t0069-t0071."
+  },
+  {
+   "key": "c-13",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0073",
+   "evidence": "pas besoin de financement parce_qu' on n' est pas une association en soi",
+   "type": "fact",
+   "status": "unknown",
+   "statement": "Selon 174, pas besoin de financement : les recettes suffiront.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Avis contesté par Tania (t0076)."
+  },
+  {
+   "key": "c-16",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0088",
+   "evidence": "moi je prends un rendez-vous et tania elle y va",
+   "type": "idea",
+   "status": "rejected",
+   "statement": "Emma propose de prendre le rendez-vous et d'envoyer Tania.",
+   "owner": null,
+   "mentioned_people": [
+    "176"
+   ],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Plaisanterie ; 174 venait de dire « c'est moi » (t0087)."
+  },
+  {
+   "key": "c-17",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0091",
+   "evidence": "moi je veux bien prendre les sponsors",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Tania se charge du contact avec les sponsors.",
+   "owner": "176",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-18",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0095",
+   "evidence": "moi je parle avec les célébrités pour qu' elles viennent",
+   "type": "commitment",
+   "status": "proposed",
+   "statement": "Emma propose de contacter les célébrités.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Non retenu : la tâche est prise ensuite par 174 (t0380)."
+  },
+  {
+   "key": "c-22",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0131",
+   "evidence": "on est en octobre novembre décembre janvier février mars avril six mois avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "On est en octobre : le rendez-vous avec le maire se fait six mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-23",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0132",
+   "evidence": "contact avec les sponsors du_coup ça c'est plus ben six mois avant aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Contact sponsors d'abord prévu six mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-24",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0137",
+   "evidence": "on va dire que le dossier est fait cinq mois avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Contact sponsors / dossier : cinq mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-26",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0171",
+   "evidence": "il faut d'abord négocier pour le lieu et voir nous même si ça nous plaît",
+   "type": "action",
+   "status": "active",
+   "statement": "Choisir et visiter le lieu soi-même.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-27",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0208",
+   "evidence": "au aréna du pays d' aix",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Lieu noté : stade ou Aréna du Pays d'Aix.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-28",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0224",
+   "evidence": "le matériel et prendre contact avec un technicien",
+   "type": "action",
+   "status": "active",
+   "statement": "Louer le matériel (projecteur, toile, enceintes) et contacter des techniciens.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-29",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0227",
+   "evidence": "si on avait choisi la salle de cinéma on aurait beaucoup moins de choses à faire",
+   "type": "risk",
+   "status": "active",
+   "statement": "Le drive-in demande plus de travail qu'une salle de cinéma.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-30",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0232",
+   "evidence": "là ça attirera plus de personnes donc plus d' argent",
+   "type": "fact",
+   "status": "active",
+   "statement": "Le drive-in attirera plus de monde, donc plus de recettes.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-34",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0262",
+   "evidence": "les emplacements c'est des commerçants qui viennent vendre les choses",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Louer des emplacements à des commerçants pour la nourriture.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-36",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0286",
+   "evidence": "et je pense des flyers aussi",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Communication par flyers.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-37",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0321",
+   "evidence": "ouais mais la tête d' affiche celui qui fait venir en_général c'est l' acteur",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania préfère inviter un acteur pour attirer le grand public.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-38",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0331",
+   "evidence": "je pense pas que neuf artistes de d' aussi d' horizons aussi variés vont venir",
+   "type": "risk",
+   "status": "active",
+   "statement": "Impossible de faire venir un invité par pays / par film.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-39",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0337",
+   "evidence": "le rendez-vous avec le maire c'est fait c'est moi",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice (174) prend le rendez-vous avec le maire, première action.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-40",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0337",
+   "evidence": "contacter les détenteurs des droits d' auteur et ça c'est quatre mois avant",
+   "type": "action",
+   "status": "active",
+   "statement": "Contacter les ayants droit quatre mois avant ; confié à Emma.",
+   "owner": "175",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Attribution à Emma au tour t0339 « qui veut le faire emma ok »."
+  },
+  {
+   "key": "c-41",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0345",
+   "evidence": "louer le matériel ben ça je vais le faire",
+   "type": "commitment",
+   "status": "active",
+   "statement": "L'animatrice (174) loue le matériel et contacte les techniciens, deux mois avant.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-42",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0355",
+   "evidence": "ça va avec les sponsors et tout je veux bien le prendre",
+   "type": "commitment",
+   "status": "active",
+   "statement": "Tania contacte les commerçants (snacks, buffet), trois mois avant.",
+   "owner": "176",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-43",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0386",
+   "evidence": "ça va être plus deux mois avant je pense",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Contact célébrité d'abord envisagé deux mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-45",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0399",
+   "evidence": "ok quatre mois avant c'est bon",
+   "type": "decision",
+   "status": "active",
+   "statement": "Contact célébrité fixé à quatre mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-46",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0401",
+   "evidence": "cinq six je pense parce_que vraiment si si on invite quelqu'un un acteur ils ont des plans de taf",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Tania demande cinq à six mois car les acteurs ont des plannings chargés.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-47",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0412",
+   "evidence": "six mois avant et les célébrités cinq mois avant",
+   "type": "decision",
+   "status": "active",
+   "statement": "Maire six mois avant, célébrités cinq mois avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-48",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0412",
+   "evidence": "la mise en place des structures bon ça je pense que c'est deux semaines avant",
+   "type": "idea",
+   "status": "proposed",
+   "statement": "Montage des structures envisagé deux semaines avant.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-49",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0425",
+   "evidence": "du_coup cinq jours avant ça va",
+   "type": "decision",
+   "status": "active",
+   "statement": "Montage des structures cinq jours avant (tests du matériel compris).",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-50",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0431",
+   "evidence": "j' ai peur que de le laisser trop longtemps après les gens ils viennent",
+   "type": "risk",
+   "status": "active",
+   "statement": "Risque de vol si les installations restent longtemps sans surveillance.",
+   "owner": null,
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": ""
+  },
+  {
+   "key": "c-51",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0439",
+   "evidence": "engager de la sécurité en plus c'est des films d' action",
+   "type": "action",
+   "status": "active",
+   "statement": "Engager un service de sécurité, un mois et demi avant ; confié à Tania.",
+   "owner": "176",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Attribution aux tours t0461-t0462."
+  },
+  {
+   "key": "c-52",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0463",
+   "evidence": "la mise en place des structures qui s' en occupe",
+   "type": "action",
+   "status": "active",
+   "statement": "Mise en place des structures confiée à Emma.",
+   "owner": "175",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Emma accepte (t0464), confirmé t0465-t0466."
+  },
+  {
+   "key": "c-53",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0362",
+   "evidence": "information partagée sur les réseaux sociaux de la ville ou de la région",
+   "type": "action",
+   "status": "active",
+   "statement": "Diffusion sur les réseaux sociaux de la ville ou de la région, un mois et demi avant ; Tania.",
+   "owner": "176",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Accord de Tania au tour t0363."
+  },
+  {
+   "key": "c-54",
+   "meeting_id": "081c_EBPH",
+   "turn": "t0377",
+   "evidence": "contacter une célébrité pour attirer d'autant_plus de personnes",
+   "type": "action",
+   "status": "active",
+   "statement": "Contacter une célébrité (mails au manager) ; pris par l'animatrice.",
+   "owner": "174",
+   "mentioned_people": [],
+   "amount": null,
+   "assertion": "extracted",
+   "notes": "Engagement au tour t0380 « je le fais je vais le faire »."
+  }
+ ],
+ "relations": [
+  {
+   "from": "b-04",
+   "to": "a-28",
+   "relation": "supersedes",
+   "justification": "La décision de la réunion 2 tranche les thèmes (historique + action, romance en complément) là où la réunion 1 laissait les trois possibles."
+  },
+  {
+   "from": "b-04",
+   "to": "b-03",
+   "relation": "supports",
+   "justification": "Emma accepte la proposition de Tania de garder ces deux thèmes."
+  },
+  {
+   "from": "b-06",
+   "to": "b-05",
+   "relation": "answers",
+   "justification": "Réponse directe : Orgueil et préjugés est de la romance pure, sans violence."
+  },
+  {
+   "from": "b-09",
+   "to": "b-07",
+   "relation": "answers",
+   "justification": "Réponse à la question de la période : profiter de toute la variété historique."
+  },
+  {
+   "from": "b-22",
+   "to": "b-08",
+   "relation": "supersedes",
+   "justification": "La décision de ne pas viser une période tranche la question à laquelle la période médiévale répondait."
+  },
+  {
+   "from": "b-22",
+   "to": "b-09",
+   "relation": "supports",
+   "justification": "La décision reprend l'idée de varier les périodes."
+  },
+  {
+   "from": "b-14",
+   "to": "b-15",
+   "relation": "supports",
+   "justification": "L'argument du public restreint conduit Tania à renoncer à l'art déco."
+  },
+  {
+   "from": "b-17",
+   "to": "b-16",
+   "relation": "supports",
+   "justification": "Le caractère atypique justifie la préférence pour le drive-in."
+  },
+  {
+   "from": "b-18",
+   "to": "b-16",
+   "relation": "supports",
+   "justification": "L'accessibilité et le confort justifient le drive-in."
+  },
+  {
+   "from": "b-16",
+   "to": "b-13",
+   "relation": "answers",
+   "justification": "Le drive-in répond à la question du format de cinéma."
+  },
+  {
+   "from": "b-26",
+   "to": "b-25",
+   "relation": "answers",
+   "justification": "Emma répond qu'il vaut mieux un invité à fort impact."
+  },
+  {
+   "from": "b-27",
+   "to": "b-26",
+   "relation": "contradicts",
+   "justification": "Tania objecte qu'un seul invité ne peut représenter tous les films ; pas de tranchage."
+  },
+  {
+   "from": "c-30",
+   "to": "b-16",
+   "relation": "supports",
+   "justification": "En réunion 3, on rappelle que le drive-in attirera plus de monde."
+  },
+  {
+   "from": "c-07",
+   "to": "c-06",
+   "relation": "supersedes",
+   "justification": "Nouvelle date actée (21) à la place du 15 car les vacances finissent en mai."
+  },
+  {
+   "from": "c-08",
+   "to": "c-07",
+   "relation": "supersedes",
+   "justification": "« on va mettre même le vingt_cinq » remplace le 21."
+  },
+  {
+   "from": "c-39",
+   "to": "c-09",
+   "relation": "supports",
+   "justification": "174 prend en charge la demande d'autorisation au maire."
+  },
+  {
+   "from": "c-24",
+   "to": "c-23",
+   "relation": "supersedes",
+   "justification": "« ben cinq mois avant » corrige les six mois proposés pour les sponsors."
+  },
+  {
+   "from": "c-45",
+   "to": "c-43",
+   "relation": "supersedes",
+   "justification": "Quatre mois actés au lieu de deux mois."
+  },
+  {
+   "from": "c-47",
+   "to": "c-45",
+   "relation": "supersedes",
+   "justification": "Nouvelle valeur actée : célébrités cinq mois avant au lieu de quatre."
+  },
+  {
+   "from": "c-47",
+   "to": "c-46",
+   "relation": "supports",
+   "justification": "La valeur retenue suit l'argument de Tania (cinq-six mois)."
+  },
+  {
+   "from": "c-49",
+   "to": "c-48",
+   "relation": "supersedes",
+   "justification": "Cinq jours avant remplace deux semaines pour le montage des structures."
+  },
+  {
+   "from": "c-50",
+   "to": "c-51",
+   "relation": "supports",
+   "justification": "Le risque de vol motive l'embauche de sécurité (« ah ben dans ce cas là »)."
+  },
+  {
+   "from": "c-41",
+   "to": "c-28",
+   "relation": "supports",
+   "justification": "174 s'engage sur la tâche de location du matériel."
+  },
+  {
+   "from": "c-42",
+   "to": "c-34",
+   "relation": "supports",
+   "justification": "Tania prend la tâche de contacter les commerçants."
+  },
+  {
+   "from": "c-54",
+   "to": "c-18",
+   "relation": "supersedes",
+   "justification": "La tâche célébrité est finalement attribuée à 174 et non à Emma."
+  }
+ ],
+ "queries": [
+  {
+   "key": "q01",
+   "about_meeting": "081a_EBRH",
+   "text": "Quel genre de cinéma Tania a-t-elle présenté lors du premier tour de table ?",
+   "answerable": true,
+   "qrels": {
+    "a-10": 2,
+    "a-03": 0,
+    "a-17": 0
+   },
+   "traps": [
+    {
+     "unit": "a-03",
+     "trap": "person"
+    },
+    {
+     "unit": "a-17",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q02",
+   "about_meeting": "081a_EBRH",
+   "text": "Quel film a donné envie à Tania de pratiquer un sport de combat ?",
+   "answerable": true,
+   "qrels": {
+    "a-11": 2,
+    "a-12": 0,
+    "a-13": 0
+   },
+   "traps": [
+    {
+     "unit": "a-12",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-13",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q03",
+   "about_meeting": "081a_EBRH",
+   "text": "Quels dramas coréens à thème historique ont été mentionnés ?",
+   "answerable": true,
+   "qrels": {
+    "a-19": 2,
+    "b-33": 1,
+    "a-06": 0,
+    "a-04": 0
+   },
+   "traps": [
+    {
+     "unit": "a-06",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-04",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q04",
+   "about_meeting": "081a_EBRH",
+   "text": "D'après les échanges, quel public est attiré en priorité par les films d'action ?",
+   "answerable": true,
+   "qrels": {
+    "a-16": 2,
+    "a-26": 2,
+    "a-08": 0,
+    "a-27": 0
+   },
+   "traps": [
+    {
+     "unit": "a-08",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "a-27",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q05",
+   "about_meeting": "081a_EBRH",
+   "text": "Finalement, quels genres ont été gardés comme thèmes de l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "b-04": 2,
+    "b-03": 1,
+    "a-28": 0,
+    "a-18": 0,
+    "b-01": 0
+   },
+   "traps": [
+    {
+     "unit": "a-28",
+     "trap": "superseded"
+    },
+    {
+     "unit": "a-18",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q06",
+   "about_meeting": "081a_EBRH",
+   "text": "Comment le film d'action a-t-il évolué au fil du temps selon Tania ?",
+   "answerable": true,
+   "qrels": {
+    "a-14": 2,
+    "a-15": 1,
+    "a-07": 0
+   },
+   "traps": [
+    {
+     "unit": "a-07",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q07",
+   "about_meeting": "081a_EBRH",
+   "text": "Quelle durée est prévue pour chaque projection ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  },
+  {
+   "key": "q08",
+   "about_meeting": "081c_EBPH",
+   "text": "Qui se charge de rencontrer le maire pour obtenir l'autorisation ?",
+   "answerable": true,
+   "qrels": {
+    "c-39": 2,
+    "c-09": 1,
+    "c-16": 0,
+    "c-22": 0
+   },
+   "traps": [
+    {
+     "unit": "c-16",
+     "trap": "person"
+    },
+    {
+     "unit": "c-22",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q09",
+   "about_meeting": "081c_EBPH",
+   "text": "À quelle date l'événement doit-il commencer ?",
+   "answerable": true,
+   "qrels": {
+    "c-08": 2,
+    "c-04": 1,
+    "c-02": 1,
+    "c-07": 0,
+    "c-06": 0
+   },
+   "traps": [
+    {
+     "unit": "c-07",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-06",
+     "trap": "superseded"
+    }
+   ]
+  },
+  {
+   "key": "q10",
+   "about_meeting": "081c_EBPH",
+   "text": "Combien de mois à l'avance faut-il solliciter la célébrité invitée ?",
+   "answerable": true,
+   "qrels": {
+    "c-47": 2,
+    "c-46": 1,
+    "c-43": 0,
+    "c-45": 0,
+    "c-54": 0,
+    "c-24": 0
+   },
+   "traps": [
+    {
+     "unit": "c-43",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-45",
+     "trap": "superseded"
+    },
+    {
+     "unit": "c-24",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q11",
+   "about_meeting": "081c_EBPH",
+   "text": "Qui s'occupe de la communication en ligne de l'événement ?",
+   "answerable": true,
+   "qrels": {
+    "c-53": 2,
+    "c-36": 0
+   },
+   "traps": [
+    {
+     "unit": "c-36",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q12",
+   "about_meeting": "081c_EBPH",
+   "text": "Quels emplacements à Aix ont été envisagés pour installer le drive-in ?",
+   "answerable": true,
+   "qrels": {
+    "c-27": 2,
+    "c-12": 2,
+    "c-26": 1,
+    "c-10": 0
+   },
+   "traps": [
+    {
+     "unit": "c-10",
+     "trap": "status"
+    }
+   ]
+  },
+  {
+   "key": "q13",
+   "about_meeting": "081c_EBPH",
+   "text": "Pourquoi a-t-on préféré un drive-in à une salle classique ou art déco ?",
+   "answerable": true,
+   "qrels": {
+    "b-17": 2,
+    "b-18": 2,
+    "c-30": 2,
+    "b-14": 1,
+    "b-16": 1,
+    "b-15": 1,
+    "c-29": 0,
+    "b-19": 0
+   },
+   "traps": [
+    {
+     "unit": "c-29",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "b-19",
+     "trap": "topic_only"
+    }
+   ]
+  },
+  {
+   "key": "q14",
+   "about_meeting": "081c_EBPH",
+   "text": "Comment compte-t-on éviter les vols une fois les installations montées, et qui s'en charge ?",
+   "answerable": true,
+   "qrels": {
+    "c-51": 2,
+    "c-50": 1,
+    "c-49": 0,
+    "c-52": 0
+   },
+   "traps": [
+    {
+     "unit": "c-49",
+     "trap": "topic_only"
+    },
+    {
+     "unit": "c-52",
+     "trap": "person"
+    }
+   ]
+  },
+  {
+   "key": "q15",
+   "about_meeting": "081c_EBPH",
+   "text": "Quel est le prix d'entrée prévu par voiture ?",
+   "answerable": false,
+   "qrels": {},
+   "traps": []
+  }
+ ],
+ "speaker_names": {
+  "175": "emma",
+  "176": "tania"
+ },
+ "notes": "Réunion b en ASR (tours dupliqués/déformés entre 174 et 175) : extraits pris dans le tour le plus lisible. Drive-in jamais acté explicitement en b, tenu pour acquis en c. Attributions de tâches en c souvent sur plusieurs tours (« qui veut le faire emma ok ») : owner déduit du tour suivant, noté. Date « avril deux_mille_vingt_deux vingt_trois » ambiguë sur l'année. Plaisanteries (Tania au rendez-vous du maire, karatékas en sécurité) annotées comme telles ou ignorées. Digression Squeezie et anniversaire non annotés."
+}
