@@ -396,3 +396,10 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Colab : la mise à jour du dépôt a d'abord échoué (runs non suivis de la session précédente) ; anciens runs déplacés dans `/content/runs_session1` de la session Colab, puis `verify_data.py` OK et entraînement (84 s).
 - Zip récupéré via le connecteur Google Drive, SHA-256 `cdd99416…` identique à Colab. Manifeste : commit `569b83c`, propre.
 - Résultat (val) : E2S B-REAL 0,307 contre 0,293 (E1) et 0,507 (E2) → le gain réel vient des données B-REAL d'entraînement. Détails : `docs/EXPERIMENTS.md`.
+
+## S14 · EL-015 · module de relations
+
+- **Heure** : 13:13 (« vasy continue ») → 13:25
+- Branche `el-015-relations` (depuis `el-012-013-training`). Protocole v1.6 (§ 10) écrit et commité **avant** toute mesure (`3d55b95`), puis précisé avant mesure (R1 = table des types ; statuts exclus des variables car `resolved` découle de la relation ; classes pondérées) dans `3c30c0b`.
+- Code : `relations/{pairs,features,models,metrics}.py`, `scripts/train_relations.py`, tests (84 verts).
+- Run `R-val-2026-10-23T1316` (4 min CPU) : R2 meilleur (B-REAL val macro-F1 0,648) ; R3 (plongements gelés) moins bon que R2 ; B-SYN trivial (R1 = 1,0). Lecture dans `docs/EXPERIMENTS.md`.

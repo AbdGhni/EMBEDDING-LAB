@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S13, 2026-10-23 (13 h)
+Mis à jour : session S14, 2026-10-23 (13 h 30)
 
 ## Git
 
@@ -15,6 +15,7 @@ Mis à jour : session S13, 2026-10-23 (13 h)
 - `el-007b-breal` @ `43874fd` — poussé.
 - `el-010-eval-bm25` — basé sur `el-007b-breal`, voir son dernier commit (contient aussi les relectures IA, le test B-REAL v2 et E1). Branches empilées : 001 → 003 → 005-006 → 007 → 008 → 009 → 007c → 007b → 010.
 - `el-012-013-training` — basé sur `el-010-eval-bm25` ; annotations train B-REAL, données d'entraînement versionnées, notebook Colab. Branche de travail courante.
+- `el-015-relations` — basé sur `el-012-013-training` ; module de relations.
 - Dépôt renommé `AbdGhni/EMBEDDING-LAB` ; remote mis à jour.
 
 ## Tickets
@@ -32,6 +33,7 @@ Mis à jour : session S13, 2026-10-23 (13 h)
 - EL-008 : validé (`splits/summre_v1.json`, SHA-256 `d6992f5d…`).
 - EL-009 : validé (protocole **v1.4**, voir JOURNAL pour les empreintes ; v1.1 `4dc2ec3a…` après relecture `mle-reviewer` ; test SUMM-RE `ddd19567…` ; sous-ensemble relu `7cc1bec7…`) ; qrels à figer à leur création.
 - EL-007c : validé (B-SYN 240/32/48 projets, test figé par empreintes).
+- EL-015 : exécuté non validé — relations R0–R3, val : R2 (variables structurelles) macro-F1 0,648 retenu ; plongements gelés moins bons ; `runs/R-val-2026-10-23T1316`.
 - EL-006 : exécuté non validé (guide à relire).
 - Autres : prévus.
 
@@ -42,7 +44,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 77 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
+- Projet : `uv sync --locked --extra dev` ; 84 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
 
 ## Données locales (hors Git, dans la VM)
 
@@ -60,4 +62,4 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Prochaine action
 
-E2/E3 figés (configuration actuelle, 3 graines). Suite : EL-015 (classifieur de relations), E4 (hybride BM25 + dense, filtres), puis évaluation **unique** du test avec les configurations figées (journal `TEST_ACCESS.log`).
+E4 (EL-016) : hybride BM25 + dense (RRF), filtres type/statut et, si le temps le permet, reranking ; configuration choisie sur val. Puis mémoire indexée (EL-018), intentions (EL-019), agent et outils simulés. Le test (retrieval + relations) sera mesuré une seule fois avec les configurations figées.

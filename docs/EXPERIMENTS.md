@@ -124,3 +124,33 @@ Run : `E2S-e5s-s13-bs64-lr2e-05-2026-10-23T1305` (Colab T4, commit `569b83c`, pr
 - E2 − E2S sur B-REAL : +0,200 [+0,107 ; +0,306], p = 0,016 (minimum atteignable avec 7 grappes).
 - **Conclusion** : le gain de E2 sur B-REAL vient des **exemples B-REAL d'entraînement**, pas de ce qui est appris sur B-SYN. Ce que le générateur enseigne (statut, remplacement) ne se transfère pas tel quel à l'oral réel. Les données réelles aident aussi un peu B-SYN (+0,035).
 - Ce que cela ne dit pas : si le gain B-REAL reflète une compréhension de l'oral ou une adaptation au style des questions écrites par le même annotateur IA (train et val annotés par Claude avec le même mandat) et aux thèmes de scénario partagés. Le sous-ensemble du test relu par l'étudiant et l'analyse d'erreurs (EL-017) serviront à le vérifier en partie.
+
+## Relations (EL-015) — validation
+
+Run : `R-val-2026-10-23T1316` (VM CPU, commit `3c30c0b`, propre ; protocole § 10, v1.6). Couples : B-REAL train 2 436 (1 218 positifs + 1 218 `none`), B-REAL val 900, B-SYN train 630, B-SYN val 81. C choisi sur B-REAL val : R2 C = 0,1 ; R3 C = 10. Les scores val ci-dessous sont donc légèrement optimistes pour R2 et R3 (même jeu pour choisir C et mesurer). IC 95 % : bootstrap par grappes (7 composantes B-REAL, 32 projets B-SYN).
+
+| Modèle | B-REAL val macro-F1 (6 classes) [IC] | B-REAL relations seules (5) | B-SYN val macro-F1 |
+|---|---|---|---|
+| R0 majoritaire | 0,111 | 0,000 | 0,142 |
+| R1 table des types | 0,535 [0,481 ; 0,592] | 0,530 | **1,000** |
+| R2 variables structurelles | **0,648** [0,623 ; 0,674] | **0,716** | 0,966 |
+| R3 R2 + plongements e5 gelés | 0,535 [0,480 ; 0,615] | 0,532 | 0,341 |
+
+F1 par classe sur B-REAL val (support) :
+
+| Classe | R1 | R2 | R3 |
+|---|---|---|---|
+| answers (78) | 0,89 | **0,93** | 0,93 |
+| none (450) | 0,79 | 0,81 | 0,79 |
+| supports (208) | 0,43 | **0,62** | 0,53 |
+| supersedes (105) | 0,56 | 0,57 | 0,45 |
+| contradicts (42) | 0,24 | **0,49** | 0,33 |
+| creates_action (17) | 0,30 | **0,47** | 0,18 |
+
+### Lecture
+
+- **R2 est le meilleur modèle** : +0,11 macro-F1 sur la table des types [+0,08 ; +0,15]. Les réponses aux questions sont presque toujours trouvées (F1 0,93) ; le remplacement (`supersedes`) reste moyen (0,57) et se confond surtout avec `supports` : une décision qui reprend une proposition (soutien) et une décision qui en écarte une autre (remplacement) se ressemblent beaucoup dans les variables.
+- **Les plongements e5 gelés n'aident pas, ils nuisent** (R3 < R2). Avec 1 536 dimensions de plongement pour 3 066 couples d'entraînement, la régression apprend le texte des couples B-REAL plutôt que leur structure ; sur B-SYN val, R3 classe la plupart des couples `none` en `supersedes`. Ce résultat vaut pour une régression logistique sur plongements bruts ; un cross-encoder ou un modèle NLI fine-tuné (prévu par X-R1, conditionnel) reste à tester.
+- **B-SYN est trivial pour les relations** : la table des types atteint 1,000. Dans le générateur, chaque relation correspond à un couple de types d'unités fixe ; B-SYN ne sert donc pas à juger ce module.
+- **Bruit sur `none`** : 32 couples `none` de val sont prédits `supersedes` et 45 `supports` par R2 ; certains sont peut-être de vraies relations que l'annotateur n'a pas notées (voir protocole § 10). Une relecture d'un échantillon de ces cas trancherait.
+- Modèle retenu pour le test et pour l'agent : **R2** (C = 0,1). Mesure du test : une fois, avec les autres mesures finales.

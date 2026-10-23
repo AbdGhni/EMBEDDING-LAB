@@ -15,7 +15,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | L-02 | S | Documentation datasets : provenance, licences, préparation, annotations, splits | `docs/DATA_CARD.md` | relecture + script de vérification des splits | DATA_CARD complète, empreintes des splits | en cours |
 | L-03 | S | Baselines + modèle d'embeddings adapté, scripts d'entraînement et d'inférence | `src/embedding_lab/train/`, `scripts/` | E0, E1, E2 | `runs/<id>/` avec config, logs, métriques, checkpoint référencé | prévu |
 | L-04 | S | Recherche sémantique renvoyant unités, scores, preuves | `src/embedding_lab/retrieval/` | tests unitaires + E4 | sortie JSON avec `unit_id`, score, extrait | prévu |
-| L-05 | S | Module de relations (au minimum pertinence, contradiction, remplacement) | `src/embedding_lab/relations/` | évaluation relations | macro-F1, matrice de confusion | prévu |
+| L-05 | S | Module de relations (au minimum pertinence, contradiction, remplacement) | `src/embedding_lab/relations/` | évaluation relations | macro-F1, matrice de confusion | exécuté non validé (val : R2 macro-F1 0,648 ; test à faire) |
 | L-06 | S | Module d'intentions (réponse, dossier, préparation d'action) | `src/embedding_lab/intents/` | évaluation intentions | macro-F1, exactitude des slots | prévu |
 | L-07 | S | Mini-agent avec interface ou API, dossiers et brouillons sourcés | `src/embedding_lab/agent/`, CLI | 7 scénarios | transcriptions de démo | prévu |
 | L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | en cours (schémas + tests écrits ; connecteurs à venir) |
@@ -51,7 +51,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | X-E5 | S | Effet du contexte ajouté | E5 : unité seule vs unité + contexte | métriques | prévu (modeste) |
 | X-E6 | S | Effet de la taille du modèle | E6 : petit vs moyen encodeur | métriques | prévu (modeste) |
 | X-E7 | S | Stratégies de représentation : chunking fixe, tour de parole, unités structurées | E7 | métriques | prévu (modeste) |
-| X-R1 | S | Classifieur de relations (LogReg/MLP sur embeddings et/ou cross-encoder/NLI) | R1 | macro-F1 | prévu |
+| X-R1 | S | Classifieur de relations (LogReg/MLP sur embeddings et/ou cross-encoder/NLI) | R1 | macro-F1 | partiel (LogReg sur variables et sur plongements gelés ; cross-encoder/NLI non fait) |
 | X-I1 | S | Classification d'intentions + slots (règles vs ML) | I1 | macro-F1, exactitude slots | prévu |
 
 ## 4. Métriques (§ Évaluation expérimentale)
