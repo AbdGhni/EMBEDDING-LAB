@@ -411,3 +411,8 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - VM : `E0-dem` et test de fumée avec E1 (reproduit E1 exactement). Colab : changement de branche (anciens runs déplacés dans `/content/runs_session2`), premier lancement en échec (variable `$CKPT` vide dans la boucle bash → chemin `/E2-…/best` introuvable), relancé avec le chemin écrit en entier.
 - Zip récupéré par le connecteur Drive, SHA-256 `43c7d11b…` identique à Colab ; manifestes au commit `edaacbb`, propres.
 - Résultat : RRF et rétrogradation font baisser nDCG@10 par rapport à E2 ; E4-dem retenu comme hybride pour H5, E2 seul pour l'agent. Détails : `docs/EXPERIMENTS.md`.
+
+## S16 · EL-019 · intentions — données figées avant mesure
+
+- **Heure** : 14:08 (« go ») → en cours
+- Branche `el-019-intents`. Protocole v1.8 (§ 12). I-SYN généré (`scripts/make_intents.py`) : train 888 (`497d9340…`), val 432 (`f4ce2dc2…`), test 444 (`3cc83d11…`), aucun texte partagé entre splits. I-MAN écrit par Claude, 80 requêtes : `annotations/intents/test_manual_v1.jsonl`, SHA-256 `60b547def3a29b8cf54396797a00cb01dd2186ba63e46b384c776a5c7b64d121`. Règles I0 écrites avant toute mesure.

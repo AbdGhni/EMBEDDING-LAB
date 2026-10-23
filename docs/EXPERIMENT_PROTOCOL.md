@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.7**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.8**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.8 | 2026-10-23 | § 12 : intentions et slots (EL-019) — données, modèles I0–I2, métriques, test manuel figé | rédigé avant toute mesure : non post hoc. |
 | 1.7 | 2026-10-23 | § 11 : composants de E4 précisés (RRF, rétrogradation des unités remplacées par R2, sans filtre de type ni reranker) | rédigé avant toute mesure de E4 : non post hoc. Le filtre de type dépend des intentions (EL-019) et le reranker cross-encoder est abandonné faute de temps ; les deux sont signalés comme non faits. |
 | 1.6 | 2026-10-23 | § 10 : protocole du module de relations (EL-015) — tâche, classes, négatifs, modèles R0–R3, métriques, sélection sur val | rédigé avant toute mesure du module, sur val comme sur test : non post hoc. |
 | 1.5 | 2026-10-23 | ajout de **E2S** (E2 sans les exemples B-REAL), ablation **diagnostique**, validation seulement, une graine ; jamais évaluée sur le test, n'entre dans aucune hypothèse ; grappes B-REAL des comparaisons = composantes de personnes (`eval/compare.py`), conformément au § 5 | décidée **après** lecture des résultats de validation E2/E3 (gain B-REAL identique pour E2 et E3, origine inconnue) : c'est une analyse exploratoire, signalée comme telle. Aucun accès au test : non post hoc vis-à-vis du test. |
@@ -156,3 +157,17 @@ Systèmes, tous évalués par le harnais commun, dense = **E2** (3 graines, scor
 Non faits, déclarés : filtre par type d'unité (il suppose de connaître l'intention de la question, EL-019) ; reranker cross-encoder (temps).
 
 « Meilleur système seul » pour H5 : celui de E0 et E2 qui a le meilleur nDCG@10 B-SYN val (E2, voir EXPERIMENTS). Le système hybride retenu pour le test est celui des trois E4 qui a le meilleur nDCG@10 moyen sur B-SYN val et B-REAL val ; en cas d'écart < 0,005, le plus simple.
+
+## 12. Intentions et slots (EL-019)
+
+**Classes (8).** `answer`, `compare`, `build_dossier`, `draft_email`, `create_task`, `schedule_event`, `clarify` (demande d'action dont la cible ou l'objet ne peut pas être identifié : « Envoie ça à la bonne personne »), `no_action` (hypothèse, avis ou souhait vague qui ne doit déclencher aucune action : « On pourrait peut-être revoir le budget »).
+
+**Données.**
+- I-SYN (`src/embedding_lab/intents/data.py`, `scripts/make_intents.py`) : 4 familles de gabarits par intention ; familles 0–1 → train, 2 → val, 3 → test ; projets, personnes et échéances disjoints entre splits ; slots or (personne, projet, échéance, sujet). Comme pour B-SYN, un bon score sur I-SYN test mesure surtout la généralisation à une nouvelle construction de phrase du même générateur.
+- I-MAN (`annotations/intents/test_manual_v1.jsonl`, 80 requêtes, 10 par intention) : écrit **à la main par Claude** dans un style différent des gabarits, avec des cas difficiles (« Il faudrait peut-être envoyer un mail à Margaux un de ces jours » → `no_action` ; « Est-ce que Margaux a envoyé le planning ? » → `answer`). Personnes et projets absents d'I-SYN. Figé avant toute mesure : SHA-256 `60b547de…` (voir JOURNAL). Ce n'est pas une annotation humaine indépendante ; si l'étudiant écrit ses propres requêtes, elles formeront un troisième jeu rapporté à part.
+
+**Modèles.** I0 : règles à mots-clés écrites a priori (avant toute mesure) ; I1 : régression logistique sur TF-IDF mots (1–2) + caractères (2–5) ; I2 : régression logistique sur plongements e5-small gelés (« query: »). C (0,01 à 100) choisi sur I-SYN val ; le modèle retenu pour l'agent est celui de meilleur macro-F1 sur I-SYN val. Entraînement : I-SYN train seulement.
+
+**Slots.** Extracteur par règles : personnes et projets par correspondance avec la liste des noms connus de la mémoire (gazetteer fourni en entrée, comme dans l'agent), échéances par expressions régulières (jours, « demain », dates « le 12 mars », « la semaine prochaine »…). Métrique : exactitude par slot (personne, projet, échéance), sur tous les exemples (une valeur absente doit être prédite absente).
+
+**Métriques (M-04).** Macro-F1 (8 classes) sur I-SYN test et I-MAN ; P/R de `clarify` ; **taux d'action à tort** = part des `no_action` et des `answer`/`compare` classées comme `draft_email`, `create_task` ou `schedule_event` (une action proposée sans demande) ; IC 95 % bootstrap (par exemple ; pas de grappes, les requêtes sont indépendantes par construction, limite signalée).
