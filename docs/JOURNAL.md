@@ -401,5 +401,5 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 
 - **Heure** : 13:13 (« vasy continue ») → 13:25
 - Branche `el-015-relations` (depuis `el-012-013-training`). Protocole v1.6 (§ 10) écrit et commité **avant** toute mesure (`3d55b95`), puis précisé avant mesure (R1 = table des types ; statuts exclus des variables car `resolved` découle de la relation ; classes pondérées) dans `3c30c0b`.
-- Code : `relations/{pairs,features,models,metrics}.py`, `scripts/train_relations.py`, tests (84 verts).
+- Code : `relations/{pairs,features,models,metrics}.py`, `scripts/train_relations.py`, tests (83 verts).
 - Run `R-val-2026-10-23T1316` (4 min CPU) : R2 meilleur (B-REAL val macro-F1 0,648) ; R3 (plongements gelés) moins bon que R2 ; B-SYN trivial (R1 = 1,0). Lecture dans `docs/EXPERIMENTS.md`.

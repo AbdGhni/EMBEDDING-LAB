@@ -44,7 +44,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 ## Environnement
 
 - VM cloud Linux, Python 3.13, CPU seulement. Venv de travail temporaire hors dépôt (pyarrow, huggingface_hub).
-- Projet : `uv sync --locked --extra dev` ; 84 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
+- Projet : `uv sync --locked --extra dev` ; 83 tests verts. Extra `ml` installé (torch 2.14.1+cpu, sentence-transformers 6.2.0).
 
 ## Données locales (hors Git, dans la VM)
 
