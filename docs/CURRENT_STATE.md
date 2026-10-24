@@ -17,6 +17,7 @@ Mis à jour : session S17, 2026-10-23 (15 h)
 - `el-012-013-training` — basé sur `el-010-eval-bm25` ; annotations train B-REAL, données d'entraînement versionnées, notebook Colab. Branche de travail courante.
 - `el-015-relations` — basé sur `el-012-013-training` ; module de relations.
 - `el-019-intents` — basé sur `el-015-relations` ; intentions, mémoire, agent, outils simulés, scénarios, CLI. Branche de travail courante.
+- `main` @ `6856536` (avance rapide le 2026-10-24, accord de l'étudiant) = contenu de `el-019-intents`.
 - Dépôt renommé `AbdGhni/EMBEDDING-LAB` ; remote mis à jour.
 
 ## Tickets
@@ -73,4 +74,4 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 1. Relectures ECC sur le PC de l'étudiant : `mle-reviewer` (protocole, E2/E3, rapport), `security-reviewer` (`tools/`, agent), `python-reviewer`.
 2. Démo rejouée par l'étudiant sur son PC avec les poids E2 (`docs/DEMO.md`).
 3. Optionnel : troisième jeu d'intentions écrit par l'étudiant ; mesures M-05/M-06 sur un jeu dédié.
-4. Fusion des branches empilées dans `main` (PR à ouvrir depuis GitHub ; le CLI `gh` n'est pas authentifié dans la VM).
+4. Point avec le mentor (mercredi ou jeudi) : préparer avec `docs/LEARNING_GUIDE.md` (leçons 3 à 6, questions probables) et `docs/DEMO.md`.
