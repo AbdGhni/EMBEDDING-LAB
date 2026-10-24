@@ -427,3 +427,10 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Accord de l'étudiant pour figer et mesurer. `run_e4.py --dense-only` ajouté avant tout accès (`d30c44b`).
 - VM : E0, E1, E0-dem (14:33–14:34), relations (14:34), intentions (14:38). Colab : E2/E4 × 3 graines (14:33–14:38), E3 × 3 graines (14:39–14:42) ; zip `7c17effe…` récupéré par le connecteur Drive, empreinte identique ; journal d'accès Colab fusionné dans `runs/TEST_ACCESS.log` (marqué `"machine": "colab"`). Analyse confirmatoire 14:50.
 - Résultats : H1 et H2 confirmées (Holm 0,0002) ; H3 +0,229 (7/7 grappes) ; H4 en faveur des négatifs difficiles sur les pièges ; H5 non soutenue. Relations R2 0,608. Intentions : I2 (retenu) 0,817 / 0,863, battu par les règles I0 (0,948 / 0,914) — rapporté tel quel, aucune modification après le test.
+
+## S18 · retours du mentor
+
+- **Heure** : 2026-10-24T19:49+02:00 (« améliore et corrige tous les points qu'il a pointés »)
+- Message de Martial Roberge (24/10, 18:31) : README trop léger ; point au lab mercredi ou jeudi pour vérifier que l'étudiant comprend son projet.
+- Constat : la branche par défaut `main` ne contient que le commit initial (`825fa57`, README minimal) ; tout le travail est sur les branches empilées `el-*`, jusqu'à `el-019-intents`. C'est probablement ce README que le mentor a vu.
+- README réécrit (problème, résultats du test, architecture, données, méthode, installation, démonstration avec exemple de sortie, reproduction, organisation, documents, usage de l'IA, limites, licences). `LEARNING_GUIDE.md` : leçons 3 à 6 (apprentissage contrastif, fuites et splits, relations / intentions / agent, discipline du test) et questions probables du point mentor.

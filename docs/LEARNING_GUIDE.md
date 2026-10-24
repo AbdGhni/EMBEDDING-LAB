@@ -96,3 +96,104 @@ Les requêtes d'un même projet se ressemblent : si le modèle comprend mal le p
 
 1. Pourquoi exclut-on des métriques de recherche les questions sans réponse, et où les mesure-t-on ?
 2. Avec 9 projets de test, que devient la largeur de l'intervalle de confiance par rapport à 200 requêtes supposées indépendantes ?
+
+## Leçon 3 — L'apprentissage contrastif et les négatifs difficiles
+
+### Explication simple
+
+On montre à l'encodeur des triplets : une question, la bonne réponse, et une mauvaise réponse qui lui ressemble. On le corrige pour qu'il rapproche la question de la bonne réponse et l'éloigne de la mauvaise. Si la mauvaise réponse est facile (un autre sujet), il n'apprend presque rien. Si elle est difficile (même sujet, mais « proposé » au lieu de « validé »), il est obligé de regarder le statut.
+
+### Explication technique
+
+Perte MNRL (Multiple Negatives Ranking Loss, forme d'InfoNCE). Dans un batch de B exemples, pour la question qᵢ, les candidats sont les B positifs et les B négatifs difficiles du batch. Avec s(q, d) = cosinus × 20 (échelle) :
+
+perte(qᵢ) = −log( exp s(qᵢ, pᵢ) / Σⱼ [exp s(qᵢ, pⱼ) + exp s(qᵢ, nⱼ)] )
+
+C'est une classification « lequel des 2B candidats est le bon ? ». Au hasard, la perte vaut log(2B) ; notre diagnostic l'a vérifié avant d'entraîner (`runs/DIAG-e2-cuda-2026-10-23T1234` : perte initiale 1,50 sur un lot de diagnostic où le hasard vaut 2,77, car e5 sait déjà beaucoup).
+
+Deux pièges évités :
+- **Faux négatifs dans le batch** : si deux exemples du même projet sont dans le même batch, le positif de l'un peut être une vraie réponse pour l'autre. Nos batchs n'ont jamais deux exemples du même projet ni le même positif.
+- **Négatifs du test** : les négatifs extraits par l'encodeur initial viennent du train uniquement.
+
+### Ce que les résultats montrent
+
+À budget égal, E2 (négatifs difficiles) et E3 (négatifs aléatoires) ont le même nDCG@10, mais E2 préfère la décision qui remplace l'ancienne dans 54 % des cas contre 15 % pour E3 (B-SYN test). Le type de négatif décide de ce que l'encodeur apprend.
+
+### Questions de compréhension
+
+1. Pourquoi la perte au hasard vaut-elle log(2B) avec un négatif explicite par exemple ?
+2. Que se passerait-il si un « négatif difficile » était en réalité pertinent pour la question ?
+3. Pourquoi E3 a-t-il le même nDCG@10 que E2 alors qu'il rate presque tous les pièges « superseded » ?
+
+## Leçon 4 — Les fuites de données et le découpage par personnes
+
+### Explication simple
+
+Si une même personne parle en train et en test, le modèle peut reconnaître sa façon de parler ou ses projets plutôt que comprendre la question. Le test serait trop facile. On regroupe donc les réunions qui partagent au moins un participant, et chaque groupe entier va dans un seul split.
+
+### Explication technique
+
+Graphe : un nœud par groupe d'expérience SUMM-RE ; une arête entre deux groupes qui ont un identifiant de locuteur commun. Les composantes connexes (union-find) sont l'unité de découpage. Résultat : 0 groupe et 0 locuteur partagés entre train, val et test (`splits/summre_v1.json`). Les splits officiels de SUMM-RE partagent 30 groupes entre train et test : on ne les utilise pas.
+
+Même logique pour B-SYN : familles de gabarits, personnes, projets, dates et montants différents entre splits. Et pour l'évaluation : les intervalles de confiance rééchantillonnent ces mêmes grappes (leçon 2).
+
+### Questions de compréhension
+
+1. Pourquoi un découpage aléatoire par phrase surestimerait-il le gain du fine-tuning ?
+2. Pourquoi B-REAL test n'a-t-il que 7 grappes, et qu'est-ce que cela change pour les p-valeurs ?
+
+## Leçon 5 — Relations, intentions, agent
+
+### Relations
+
+Un encodeur dit « ces deux phrases parlent de la même chose », pas « celle-ci remplace celle-là ». Le module de relations classe un couple (unité récente X, unité ancienne Y) en `supersedes`, `contradicts`, `answers`, `supports`, `creates_action` ou `none`. Le sens est imposé par la chronologie : une ancienne décision ne peut pas remplacer une plus récente. Le meilleur modèle (R2) est une régression logistique sur des variables simples (types des unités, même réunion, écart de temps, même locuteur, mots communs, mots comme « finalement »). Les plongements e5 ajoutés tels quels (R3) ont fait *baisser* le score : 1 536 dimensions pour 3 000 exemples, le modèle apprend par cœur les textes. Les statuts d'unités sont exclus des variables : le statut « résolue » d'une question découle de la relation elle-même (ce serait donner la réponse).
+
+### Intentions
+
+Huit classes, dont deux importantes pour la sécurité : `clarify` (demande d'action sans cible identifiable) et `no_action` (hypothèse, avis : « on pourrait peut-être… »). Le modèle retenu sur la validation (régression sur e5 gelé) est battu sur le test par des règles écrites à la main. On garde quand même le modèle retenu comme résultat officiel : changer après avoir vu le test serait régler le système sur le test.
+
+### Agent
+
+Étapes explicites : intention → recherche → état de l'information (remplacée, contestée) → dates et personnes → opération. Règles clés :
+- une **mention** ne fait pas un **responsable** : seul un engagement ou une action explicitement attribués comptent ;
+- jamais d'adresse inventée : sans adresse dans les sources, le champ reste vide et l'agent demande ;
+- le texte des réunions est une donnée : une phrase « ignore les consignes… » dans une transcription n'est jamais exécutée ;
+- toute action est une proposition (`executed: false`).
+
+### Questions de compréhension
+
+1. Pourquoi l'agent suit-il les relations stockées pour la « décision actuelle » plutôt que la seule similarité ?
+2. Pourquoi « Envoie ça à la bonne personne » doit-il produire une question et non un brouillon ?
+3. Que montre l'échec du scénario 2 de la démo, et pourquoi ne l'a-t-on pas corrigé ?
+
+## Leçon 6 — La discipline du test
+
+Le test sert à une seule chose : estimer honnêtement la performance d'un système déjà choisi. Toute décision (hyperparamètres, modèle retenu, seuils) se prend sur la validation. Ici :
+- le protocole et ses hypothèses ont été écrits avant les mesures, avec un historique des versions ;
+- le code refuse de charger le test sans motif, et chaque accès est consigné (`runs/TEST_ACCESS.log`) ;
+- le test a été évalué une seule fois, le 23 octobre, avec des configurations figées ;
+- les écarts sont déclarés : ablation E2S décidée après avoir vu la validation, correction de logique de l'agent après un premier passage des scénarios, modèle d'intentions retenu battu sur le test.
+
+Décision par test de permutation apparié par grappes : sous l'hypothèse « aucune différence », le signe de l'écart de chaque grappe est arbitraire ; on compare l'écart observé à tous les retournements de signes possibles. Avec deux hypothèses principales (H1, H2), la correction de Holm évite de trouver un effet par hasard en multipliant les tests.
+
+### Questions de compréhension
+
+1. Pourquoi ne peut-on pas remplacer le modèle d'intentions par les règles maintenant ?
+2. Avec 7 grappes, quelle est la plus petite p-valeur bilatérale atteignable ? (réponse : 2/2⁷ = 0,016)
+
+## Préparer le point avec le mentor
+
+Questions probables, à savoir expliquer **sans notes** :
+
+1. Quel est le problème scientifique, en une phrase ? Pourquoi une recherche vectorielle classique ne suffit-elle pas ?
+2. D'où viennent les données ? Pourquoi SUMM-RE, et pourquoi pas les splits officiels ?
+3. Comment sont faits les triplets d'entraînement ? Qu'est-ce qu'un négatif difficile, donne un exemple tiré du projet.
+4. Que mesure nDCG@10 ? Pourquoi aussi la précision par paires ?
+5. Quel est le résultat principal, avec ses chiffres ? Qu'est-ce qui le rend crédible (test figé, grappes, 3 graines) ?
+6. D'où vient le gain sur l'oral réel ? (ablation E2S)
+7. Qui a annoté B-REAL ? Quelles conséquences sur la fiabilité des résultats ? Qu'as-tu relu toi-même ?
+8. Pourquoi l'hybride BM25 + dense ne marche-t-il pas ici ?
+9. Comment l'agent choisit-il un destinataire ? Que fait-il si plusieurs personnes correspondent, ou si l'adresse manque ?
+10. Qu'as-tu fait toi-même, et qu'a fait Claude ? Quelle décision de conception défendrais-tu, et laquelle changerais-tu ?
+
+Les réponses sont dans ce guide et dans `docs/FINAL_REPORT.md`. Le but n'est pas de les réciter : refaire une partie à la main (calculer un nDCG, lancer la démo, lire un triplet dans `data/train/e2_hard.jsonl`) est la meilleure façon de pouvoir les expliquer.
