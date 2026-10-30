@@ -435,3 +435,10 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Constat : la branche par défaut `main` ne contient que le commit initial (`825fa57`, README minimal) ; tout le travail est sur les branches empilées `el-*`, jusqu'à `el-019-intents`. C'est probablement ce README que le mentor a vu.
 - README réécrit (problème, résultats du test, architecture, données, méthode, installation, démonstration avec exemple de sortie, reproduction, organisation, documents, usage de l'IA, limites, licences). `LEARNING_GUIDE.md` : leçons 3 à 6 (apprentissage contrastif, fuites et splits, relations / intentions / agent, discipline du test) et questions probables du point mentor.
 - 2026-10-24 ~19:55 : avec l'accord explicite de l'étudiant, `main` avancé (fast-forward, sans réécriture) de `825fa57` à `6856536` (contenu de `el-019-intents`). Le README complet est désormais sur la page d'accueil du dépôt.
+
+## S19 · préparation du point mentor
+
+- **Heure** : 2026-10-30T11:37+01:00 (« préparons ce point avec Martial et les prochaines étapes, l'idéal serait une démo fonctionnelle et valide »)
+- Vérification de l'état réel : `main` = `el-019-intents` = `56a7442` (poussé) ; 94 tests verts ; ruff propre. Clone neuf du dépôt, `uv sync --locked --extra dev --extra ml`, `scripts/run_scenarios.py` (E1) : 8/9 scénarios, scénario 2 en échec (intention), run `SCN-E1-2026-10-30T1138`. Démo avec E2 non rejouée aujourd'hui (poids sur le Drive de l'étudiant).
+- Écart au sujet relevé : le scénario 2 (proposition contre décision) fait partie de la démonstration attendue ; une seule mémoire de démonstration au lieu de plusieurs conversations.
+- Rédaction de `docs/POINT_MENTOR.md` (trame, écarts, étapes proposées, questions au mentor). Aucune modification du code ni du test.
