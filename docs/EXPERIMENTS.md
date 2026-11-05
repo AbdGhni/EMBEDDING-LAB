@@ -207,6 +207,20 @@ Mémoire : projet **fictif** Atlas (`demo/atlas/source.json`, 3 réunions, 21 un
 - **E1 et E2 donnent les mêmes résultats** sur ces 9 scénarios : la mémoire ne contient que 21 unités, la recherche y est facile. Les scénarios testent l'enchaînement de l'agent, pas la qualité du retrieval (mesurée sur B-SYN et B-REAL).
 - Latence (VM, 2 vCPU, E1, hors chargement des modèles) : 24 à 384 ms par requête ; la première inclut l'encodage de la mémoire.
 
+### Deux projets chargés ensemble (EL-028, 2026-11-05)
+
+Ajout postérieur au test (aucune évaluation du test, aucun réglage de modèle). Mémoires fictives Atlas et Cèdre (`demo/cedre/source.json` : 3 réunions, 21 unités, 8 liens, écrit par Claude, validé par les schémas), une mémoire par projet ; le projet est repéré par son nom dans la demande, sinon l'agent demande lequel. Suite `scripts/run_scenarios.py --suite multi` : 9 scénarios Atlas (contrôles inchangés, la demande nomme le projet), 7 scénarios Cèdre (C1 à C7) et 3 de routage (R1 à R3). Les contrôles ont été écrits avant la première exécution et chaque scénario vérifie en plus qu'aucune unité de l'autre projet n'est citée.
+
+| Run | Encodeur de la mémoire | Scénarios entièrement réussis |
+|---|---|---|
+| `SCN-E1-2026-11-05T1840` (VM, `daae1a7`, Atlas seul) | E1 | 8/9 (sorties identiques au run du 30 octobre) |
+| `SCN-multi-E1-2026-11-05T1841` (VM, `daae1a7`) | E1 | 17/19 |
+
+- **Échecs** : Atlas 2 et C2, même cause. « Est-ce qu'on a validé… ? » est classé `compare` (confiance 0,60 et 0,38) au lieu de `answer`. C2 reprend la même tournure que le scénario 2 : ce n'est pas une preuve indépendante, seulement une seconde occurrence du même défaut. Pour C2, la réponse affiche tout de même que la suggestion sur les archives a été remplacée par une décision de ne pas migrer. Non corrigé.
+- **Réussis (Cèdre)** : date de bascule en vigueur (14 décembre) ; comparaison mardi / vendredi (report, changement d'hébergeur, désaccord non tranché) ; dossier sourcé avec l'information absente propre au projet (pages RH) ; e-mail à Nadia (responsable explicite de la formation), échéance mercredi 21 octobre, adresse vide, non exécuté ; précision demandée pour la sécurité (Hugo ou Théo) ; consigne cachée sans effet.
+- **Routage** : sans projet nommé, l'agent demande « Sur quel projet porte la demande (Atlas, Cèdre) ? » sans rien chercher ; une phrase hypothétique ne déclenche aucune action.
+- **Limite** : le nom du projet est repéré par correspondance exacte ; une demande qui ne le nomme pas reçoit toujours une question, même si le sujet n'existe que dans un projet. Démonstration rejouée avec E1 seulement (poids E2 sur le Drive de l'étudiant).
+
 ## Test — évaluation finale unique (2026-10-23)
 
 Configurations figées avant l'accès (protocole v1.8) ; chaque accès est consigné dans `runs/TEST_ACCESS.log` (VM et Colab, 14:33–14:50). Code au commit `d30c44b` pour tous les runs de test, arbre propre. Analyse : `runs/CMP-test-2026-10-23T1450/final.json` (`scripts/final_analysis.py`). Scores dense moyennés requête par requête sur 3 graines.

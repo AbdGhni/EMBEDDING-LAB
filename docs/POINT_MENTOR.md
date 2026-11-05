@@ -23,12 +23,12 @@
 | E-mail à la bonne personne, justifié | OK (5) |
 | Précision demandée plutôt qu'un choix arbitraire | OK (6) |
 | Phrase hypothétique sans action | OK (7) |
-| « Charger plusieurs conversations », démo « reproductible sur plusieurs conversations » | **Partiel** : une seule mémoire de démonstration (Atlas, 3 réunions) |
+| « Charger plusieurs conversations », démo « reproductible sur plusieurs conversations » | OK depuis EL-028 : deux projets fictifs (Atlas, Cèdre), une mémoire chacun ; non rejoué avec E2 |
 
 ## 3. Écarts que Martial peut relever
 
 1. **Le scénario 2 est un cas demandé par le sujet.** L'échec vient du classifieur d'intentions (« augmentation » lu comme `compare`). Il n'a pas été corrigé pour ne pas régler le système sur la démo. Pour une démo « valide », il faut le corriger proprement, avec un résultat étiqueté **post hoc**, vérifié sur des requêtes qui ne servent ni à l'entraînement ni à la démo.
-2. **Une seule mémoire de démonstration.** Le sujet attend plusieurs conversations. À faire : une seconde mémoire (autre projet fictif ou réunions SUMM-RE réelles) chargeable par `agent_cli.py`.
+2. **Une seule mémoire de démonstration** : traité par EL-028 (projet fictif Cèdre, espace multi-projets, branche `el-028-second-memory`). Les réunions SUMM-RE réelles ne sont pas chargées dans l'agent.
 3. **Pas de reranker ni de filtre temporel ou par type**, alors que la semaine 2 du sujet demande de les étudier. Écart déclaré dans le rapport.
 4. **M-05 (destinataires) et M-06 (dossiers) non mesurées** sur un jeu dédié ; seulement des contrôles de scénarios.
 5. **Relectures indépendantes (ECC)** non faites : `docs/mandates/EL-025-review.md`, à lancer sur le PC.
@@ -42,7 +42,7 @@
 | 2 | Lancer les trois relectures ECC (mandat prêt) et corriger ce qui est signalé | exigence du protocole, regard indépendant | 1 à 2 h | aucune |
 | 3 | Écrire 40 à 60 requêtes d'intentions soi-même (troisième jeu, indépendant de Claude), puis évaluer I0, I1, I2 dessus | seul jeu non écrit par l'auteur du système ; départage les règles et I2 | 1 à 2 h | oui, voir ci-dessous |
 | 4 | Corriger les intentions (règles + I2 en secours, ou I0 seul) et rejouer les 9 scénarios, étiqueté post hoc | rend le scénario 2 réussi sans tricher | 2 h | choisir la stratégie |
-| 5 | Deuxième mémoire de démonstration (plusieurs conversations) | exigence du sujet | 2 à 3 h | fictif ou SUMM-RE réel |
+| 5 | ~~Deuxième mémoire de démonstration~~ fait le 5 novembre (fictive) | exigence du sujet | — | charger aussi des réunions SUMM-RE réelles ? |
 | 6 | Mesures M-05 / M-06 sur un petit jeu dédié (destinataires, couverture des dossiers) | métriques du sujet manquantes | 3 h | taille du jeu |
 | 7 | Reranking ou filtre temporel (étude courte) | semaine 2 du sujet | 3 à 4 h | à demander au mentor |
 | 8 | Relecture humaine d'un échantillon des annotations B-REAL train/val | réduit le risque d'annotateur IA unique | variable | à demander au mentor |

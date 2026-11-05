@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S17, 2026-10-23 (15 h)
+Mis à jour : session S20, 2026-11-05 (18 h 50)
 
 ## Git
 
@@ -19,6 +19,7 @@ Mis à jour : session S17, 2026-10-23 (15 h)
 - `el-019-intents` — basé sur `el-015-relations` ; intentions, mémoire, agent, outils simulés, scénarios, CLI. Branche de travail courante.
 - `main` @ `6856536` (avance rapide le 2026-10-24, accord de l'étudiant) = contenu de `el-019-intents`.
 - Dépôt renommé `AbdGhni/EMBEDDING-LAB` ; remote mis à jour.
+- `el-027-point-mentor` — préparation du point mentor (`docs/POINT_MENTOR.md`). `el-028-second-memory` — espace multi-projets et mémoire Cèdre (EL-028), basée sur la précédente ; la branche locale `main` est périmée (`825fa57`), la référence est `main` distant (`56a7442`).
 
 ## Tickets
 
@@ -70,6 +71,8 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 Évalué une seule fois le 2026-10-23 (14:33–14:50), commit `d30c44b`, journal `runs/TEST_ACCESS.log`. Résultats : `docs/EXPERIMENTS.md` (section Test) et `docs/FINAL_REPORT.md`. Toute modification ultérieure du système doit être étiquetée post hoc.
 
 ## Prochaine action
+
+0. Démo multi-projets (EL-028) : 17/19 avec E1 (`SCN-multi-E1-2026-11-05T1841`). Reste : la rejouer avec les poids E2 sur le PC (`docs/DEMO.md`), corriger l'intention « Est-ce qu'on a validé… ? » avec un jeu de requêtes écrit par l'étudiant (résultat post hoc), puis fusionner `el-027` et `el-028` dans `main` avec l'accord de l'étudiant.
 
 1. Relectures ECC sur le PC de l'étudiant : `mle-reviewer` (protocole, E2/E3, rapport), `security-reviewer` (`tools/`, agent), `python-reviewer`.
 2. Démo rejouée par l'étudiant sur son PC avec les poids E2 (`docs/DEMO.md`).

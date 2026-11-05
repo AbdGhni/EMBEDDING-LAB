@@ -442,3 +442,12 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Vérification de l'état réel : `main` = `el-019-intents` = `56a7442` (poussé) ; 94 tests verts ; ruff propre. Clone neuf du dépôt, `uv sync --locked --extra dev --extra ml`, `scripts/run_scenarios.py` (E1) : 8/9 scénarios, scénario 2 en échec (intention), run `SCN-E1-2026-10-30T1138`. Démo avec E2 non rejouée aujourd'hui (poids sur le Drive de l'étudiant).
 - Écart au sujet relevé : le scénario 2 (proposition contre décision) fait partie de la démonstration attendue ; une seule mémoire de démonstration au lieu de plusieurs conversations.
 - Rédaction de `docs/POINT_MENTOR.md` (trame, écarts, étapes proposées, questions au mentor). Aucune modification du code ni du test.
+
+## S20 · seconde mémoire de démonstration (EL-028)
+
+- **Heure** : 2026-11-05T18:33+01:00 (« Go ») → 18:50
+- Constat : la branche locale `main` était restée au premier commit (`825fa57`) ; le travail est reparti de `el-027-point-mentor` (= `main` distant + préparation du point). Aucun impact sur le dépôt distant.
+- Ajouts : `demo/cedre/source.json` (projet fictif, 3 réunions, 21 unités, 8 liens), `agent/workspace.py` (une mémoire par projet, projet repéré par son nom, question « Sur quel projet ? » sinon), sujets et informations attendues propres à chaque projet dans `source.json` (le « traiteur » n'est plus codé en dur), CLI à plusieurs sources, suite `--suite multi` (contrôles écrits avant la première exécution), `tests/test_workspace.py`.
+- Vérifications : 105 tests verts, ruff propre ; les 9 scénarios Atlas donnent des sorties identiques à celles du 30 octobre (hors latence). Runs sur le commit propre `daae1a7` : `SCN-E1-2026-11-05T1840` (8/9), `SCN-multi-E1-2026-11-05T1841` (17/19).
+- Échecs : Atlas 2 et C2, même défaut d'intention (« Est-ce qu'on a validé… ? » classé `compare`). C2 reprend la tournure du scénario 2 : seconde occurrence, pas preuve indépendante. Non corrigé (correction à valider sur des requêtes écrites par l'étudiant).
+- Non fait : rejeu avec les poids E2 (470 Mo sur le Drive de l'étudiant, non transférables par le connecteur) ; à faire sur le PC.

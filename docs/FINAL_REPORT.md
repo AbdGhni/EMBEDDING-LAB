@@ -15,7 +15,7 @@ Peut-on entraîner un encodeur qui ne se contente pas de retrouver le bon sujet,
 | B-SYN | projets synthétiques à 3 réunions, 240 / 32 / 48 projets, familles de gabarits, personnes, projets, dates et montants disjoints entre splits ; pièges par construction | cas difficiles contrôlés | mesure surtout notre propre générateur |
 | B-REAL | unités, relations, requêtes et pertinences annotées sur SUMM-RE par des sous-agents Claude (mandat écrit) : train 38 groupes (325 requêtes), val 10 (78), test 9 (104) | validité externe | annotateur IA unique ; test : relecture IA du sous-ensemble tiré au sort, puis relecture humaine ciblée des 43 désaccords |
 | I-SYN, I-MAN | intentions : 888 / 432 / 444 requêtes générées ; 80 requêtes écrites par Claude | intentions et slots | I-MAN n'est pas indépendant de l'auteur du système |
-| Atlas | projet fictif de 3 réunions, 21 unités, 8 liens | démonstration | écrit à la main, petit |
+| Atlas, Cèdre | deux projets fictifs de 3 réunions, 21 unités et 8 liens chacun | démonstration multi-projets | écrits par l'auteur du système, petits |
 
 Aucune donnée personnelle réelle n'a été ajoutée ; les annotateurs ont écarté les passages de santé ou de vie privée ; aucune adresse e-mail n'existe dans les sources de démonstration.
 
@@ -47,7 +47,7 @@ Aucune donnée personnelle réelle n'a été ajoutée ; les annotateurs ont éca
 - **H5 non soutenue** : l'hybride retenu sur val ne fait pas mieux que E2 (−0,003 sur B-SYN, −0,024 sur B-REAL, non significatif).
 - **Relations** : R2 macro-F1 0,608 sur B-REAL test (R1 0,574) ; `answers` bien reconnu (0,88), `contradicts` mal (0,37).
 - **Intentions** : I2, retenu sur val, obtient 0,817 (I-SYN test) et 0,863 (I-MAN) ; les règles I0 font mieux sur le test (0,948 / 0,914). Rapporté tel quel.
-- **Agent** : 8 scénarios sur 9 réussis, avec E1 comme avec E2 ; l'échec est une intention mal classée (question prise pour une comparaison).
+- **Agent** : 8 scénarios sur 9 réussis, avec E1 comme avec E2 ; l'échec est une intention mal classée (question prise pour une comparaison). Avec deux projets chargés (ajout du 5 novembre, E1) : 17 sur 19, mêmes échecs (même tournure « Est-ce qu'on a validé… ? »).
 
 ## 5. Analyse
 
@@ -64,7 +64,7 @@ Aucune donnée personnelle réelle n'a été ajoutée ; les annotateurs ont éca
 - B-REAL test : 7 composantes de personnes seulement ; les intervalles et les p sont larges, H3 reste descriptive.
 - Les thèmes de scénario SUMM-RE sont partagés entre splits.
 - Une seule taille de modèle (e5-small) ; E5–E7 (contexte, e5-base, granularité) non faits ; pas de reranker cross-encoder ni de filtre par type.
-- Agent : mémoire de démonstration de 21 unités ; la recherche n'y est pas mise à l'épreuve ; aucune mesure M-05/M-06 sur un jeu dédié (destinataires, couverture des dossiers) au-delà des contrôles de scénarios.
+- Agent : deux mémoires de démonstration de 21 unités chacune (une par projet) ; la recherche n'y est pas mise à l'épreuve ; aucune mesure M-05/M-06 sur un jeu dédié (destinataires, couverture des dossiers) au-delà des contrôles de scénarios.
 
 ## 7. Coûts
 

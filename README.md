@@ -24,7 +24,7 @@ nDCG@10 (qualité du classement des 10 premiers résultats, de 0 à 1) ; scores 
 - **Oral réel** : +0,229 nDCG@10, gain dans les 7 groupes de personnes du test. Une ablation montre que ce gain vient des exemples réels annotés, pas des données synthétiques.
 - **Négatifs difficiles** : même classement global que des négatifs aléatoires, mais l'encodeur préfère bien plus souvent la décision qui en remplace une autre (54 % contre 15 %).
 - **Ce qui ne marche pas** : l'hybride BM25 + dense n'apporte rien ; reconnaître une information remplacée reste difficile (une fois sur deux) ; pour les intentions, le modèle choisi en validation est battu par de simples règles sur le test.
-- **Relations** entre unités (remplace, contredit, répond à…) : macro-F1 0,608. **Agent** : 8 scénarios de démonstration sur 9 réussis.
+- **Relations** entre unités (remplace, contredit, répond à…) : macro-F1 0,608. **Agent** : 8 scénarios de démonstration sur 9 réussis (17 sur 19 avec deux projets chargés).
 
 Analyse complète : [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md). Détail de chaque expérience : [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md).
 
@@ -66,7 +66,7 @@ Toutes les actions sont des propositions JSON validées par schéma (`needs_conf
 | **B-SYN** | projets synthétiques à 3 réunions, avec pièges construits | cas difficiles contrôlés ; personnes, projets, dates et gabarits disjoints entre train, val et test |
 | **B-REAL** | unités, relations et requêtes annotées sur SUMM-RE (annotateur IA, relecture humaine ciblée) | mesurer sur de l'oral réel |
 | **Intentions** | 1 764 requêtes générées + 80 écrites à la main | classer les demandes |
-| **Atlas** | projet entièrement fictif (3 réunions) | démonstration |
+| **Atlas**, **Cèdre** | deux projets entièrement fictifs (3 réunions chacun) | démonstration multi-projets |
 
 Le découpage train / val / test se fait par **groupes de personnes** : deux groupes de réunions qui partagent un participant vont dans le même split. Les splits officiels de SUMM-RE mélangeaient les mêmes groupes entre train et test (fuite). Détails, licences et limites : [`docs/DATA_CARD.md`](docs/DATA_CARD.md).
 
@@ -92,12 +92,13 @@ uv sync --locked --extra dev --extra ml # + torch, sentence-transformers (démo,
 ## Démonstration
 
 ```bash
-uv run python -I scripts/run_scenarios.py              # 7 scénarios du brief + 2 bonus, contrôles automatiques
-uv run python -I scripts/agent_cli.py                  # boucle interactive
-uv run python -I scripts/agent_cli.py -q "Rédige un mail à la personne responsable du budget pour lui demander la dernière version validée avant vendredi."
+uv run python -I scripts/run_scenarios.py              # Atlas : 7 scénarios du brief + 2 bonus, contrôles automatiques
+uv run python -I scripts/run_scenarios.py --suite multi   # deux projets (Atlas, Cèdre) : 19 scénarios
+uv run python -I scripts/agent_cli.py                  # boucle interactive, Atlas et Cèdre chargés
+uv run python -I scripts/agent_cli.py -q "Rédige un mail à la personne responsable du budget d'Atlas pour lui demander la dernière version validée avant vendredi."
 ```
 
-Par défaut, la mémoire est indexée avec l'encodeur initial (E1). Pour l'encodeur fine-tuné, télécharger un dossier `E2-…/best` (≈ 470 Mo, hors Git) et ajouter `--weights <dossier>/best`. Script de démonstration de 5 à 10 minutes : [`docs/DEMO.md`](docs/DEMO.md).
+Chaque projet garde sa propre mémoire. Le projet est repéré par son nom dans la demande ; s'il y en a plusieurs et qu'aucun n'est nommé, l'agent demande lequel. Par défaut, la mémoire est indexée avec l'encodeur initial (E1). Pour l'encodeur fine-tuné, télécharger un dossier `E2-…/best` (≈ 470 Mo, hors Git) et ajouter `--weights <dossier>/best`. Script de démonstration de 5 à 10 minutes : [`docs/DEMO.md`](docs/DEMO.md).
 
 Exemple de sortie (brouillon d'e-mail, jamais envoyé) :
 
@@ -144,7 +145,7 @@ scripts/             points d'entrée en ligne de commande
 notebooks/           entraînement sur Colab
 annotations/         annotations B-REAL et jeu d'intentions écrit à la main (versionnés)
 data/                données générées (en partie hors Git), exemples d'entraînement
-demo/atlas/          mémoire de démonstration fictive
+demo/atlas/, demo/cedre/   mémoires de démonstration fictives (un projet par dossier)
 runs/                tous les résultats, journal d'accès au test
 splits/              splits figés et empreintes
 docs/                rapport, protocole, expériences, données, décisions, journal
@@ -175,7 +176,7 @@ Le code, la documentation et les annotations B-REAL ont été produits avec Clau
 - B-SYN, les intentions et la démonstration sont générés ou écrits par l'auteur du système.
 - Test B-REAL : 7 groupes de personnes seulement, d'où des intervalles larges.
 - Une seule taille de modèle ; pas de reranker cross-encoder ni de filtre par type d'unité.
-- La démonstration repose sur une mémoire de 21 unités : elle teste l'enchaînement de l'agent, pas la qualité de la recherche.
+- La démonstration repose sur deux mémoires de 21 unités chacune : elle teste l'enchaînement de l'agent, pas la qualité de la recherche.
 
 ## Licences
 
