@@ -1,6 +1,7 @@
 {
  "project": "Atlas",
  "note": "Projet entièrement fictif écrit pour la démonstration (EL-018/EL-024). Aucune personne réelle ; aucune adresse e-mail.",
+ "expected_info": [{"topic": "traiteur", "label": "Prestataire traiteur"}],
  "meetings": [
   {
    "source_id": "atlas-m1",

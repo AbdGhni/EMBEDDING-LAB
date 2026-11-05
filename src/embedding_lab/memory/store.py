@@ -79,7 +79,13 @@ def build_from_source(src: Mapping[str, Any]) -> tuple[dict, list[dict], dict]:
 
 class Memory:
     def __init__(self, units: Mapping[str, dict], relations: Sequence[dict],
-                 meetings: Mapping[str, dict], encoder: Any = None):
+                 meetings: Mapping[str, dict], encoder: Any = None,
+                 topics: Mapping[str, str] | None = None,
+                 expected_info: Sequence[Mapping[str, str]] = ()):
+        # topics : sujets propres au projet -> fin de phrase pour les brouillons ;
+        # expected_info : informations dont l'absence doit être signalée dans un dossier
+        self.topics = dict(topics or {})
+        self.expected_info = [dict(e) for e in expected_info]
         self.units = dict(units)
         self.relations = list(relations)
         self.meetings = dict(meetings)
@@ -101,7 +107,8 @@ class Memory:
         units, relations, _ = build_from_source(src)
         meetings = {m["source_id"]: {"date": m["date"], "title": m["title"]}
                     for m in src["meetings"]}
-        return cls(units, relations, meetings, encoder)
+        return cls(units, relations, meetings, encoder, src.get("topics"),
+                   src.get("expected_info", ()))
 
     # --- état des informations -----------------------------------------------------------
 

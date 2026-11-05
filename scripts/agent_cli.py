@@ -4,7 +4,10 @@ Usage :
   uv run python -I scripts/agent_cli.py                         # boucle interactive, E1
   uv run python -I scripts/agent_cli.py --weights <E2>/best     # mémoire indexée avec E2
   uv run python -I scripts/agent_cli.py -q "Qui est responsable du budget ?"
-  uv run python -I scripts/agent_cli.py --source <autre source.json> --reference-date 2026-10-20
+  uv run python -I scripts/agent_cli.py --source demo/atlas/source.json   # un seul projet
+  uv run python -I scripts/agent_cli.py --source <a.json> --source <b.json>   # plusieurs projets
+
+Par défaut, deux projets fictifs sont chargés (Atlas, Cèdre) ; nommer le projet dans la demande.
 
 Toutes les actions sont des propositions JSON (needs_confirmation=true, executed=false).
 """
@@ -14,13 +17,15 @@ import json
 from datetime import date
 from pathlib import Path
 
-from embedding_lab.agent.agent import Agent, IntentModel
-from embedding_lab.memory.store import Memory
+from embedding_lab.agent.agent import IntentModel
+from embedding_lab.agent.workspace import Workspace
 from embedding_lab.retrieval.dense import DenseRetriever
 
 
 def show(out: dict) -> None:
     a = out["analysis"]
+    if out.get("routed_project"):
+        print(f"\n[projet {out['routed_project']}]", end="")
     print(f"\n[intention {a['intent']} ({a['confidence']}) · slots {a['slots']}"
           + (f" · échéance {a['deadline_resolved']}" if a["deadline_resolved"] else "") + "]")
     if out.get("markdown"):
@@ -39,7 +44,8 @@ def show(out: dict) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--source", type=Path, default=Path("demo/atlas/source.json"))
+    ap.add_argument("--source", type=Path, action="append",
+                    help="fichier source d'un projet (répétable) ; défaut : Atlas et Cèdre")
     ap.add_argument("--reference-date", default="2026-10-20")
     ap.add_argument("--weights", type=Path)
     ap.add_argument("-q", "--query")
@@ -52,13 +58,14 @@ def main() -> None:
     else:
         enc = e1
         print("Mémoire indexée avec E1 (encodeur initial) : passer --weights pour E2.")
-    agent = Agent(Memory.from_source(args.source, encoder=enc), IntentModel(e1),
-                  date.fromisoformat(args.reference_date))
+    sources = args.source or [Path("demo/atlas/source.json"), Path("demo/cedre/source.json")]
+    agent = Workspace.from_sources(sources, enc, IntentModel(e1),
+                                   date.fromisoformat(args.reference_date))
     if args.query:
         show(agent.handle(args.query))
         return
-    print(f"Mémoire : {len(agent.memory.units)} unités, {len(agent.memory.relations)} liens. "
-          f"Date de référence : {args.reference_date}. Ligne vide pour quitter.")
+    print(f"Mémoire — {agent.summary()}. Date de référence : {args.reference_date}. "
+          "Ligne vide pour quitter.")
     while True:
         try:
             q = input("\n> ").strip()

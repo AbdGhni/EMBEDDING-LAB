@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import json
 import re
-from collections.abc import Mapping
+from collections.abc import Iterable, Mapping
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -38,9 +38,9 @@ def fr_date(iso: str | None) -> str:
     return f"{WEEKDAYS[d.weekday()]} {d.day} {FR_MONTHS[d.month - 1]} {d.year}"
 
 
-def find_topic(text: str) -> str | None:
+def find_topic(text: str, extra: Iterable[str] = ()) -> str | None:
     t = text.lower()
-    hits = [(t.find(k), k) for k in TOPICS if k in t]
+    hits = [(t.find(k), k) for k in [*TOPICS, *extra] if k in t]
     return min(hits)[1] if hits else None
 
 
@@ -73,7 +73,7 @@ class Agent:
     def analyse(self, request: str) -> dict[str, Any]:
         intent, conf = self.intents.predict(request)
         slots = extract_slots(request, self.memory.people(), self.memory.projects())
-        slots["topic"] = find_topic(request)
+        slots["topic"] = find_topic(request, self.memory.topics)
         due = resolve(slots["deadline"], self.ref)
         return {"intent": intent, "confidence": round(conf, 3), "slots": slots,
                 "deadline_resolved": due.isoformat() if due else None}
@@ -251,10 +251,12 @@ class Agent:
                   [u["unit_id"] for u in units if c in u.get("mentioned_people", [])])
         sections["Informations absentes"].append(
             {"text": "Adresses e-mail : aucune dans les sources (non inventées).", "unit_ids": []})
-        if not any("traiteur" in u["statement"].lower() and u.get("owner") for u in units):
-            sections["Informations absentes"].append(
-                {"text": "Prestataire traiteur : ni choix ni responsable dans les sources.",
-                 "unit_ids": []})
+        for info in m.expected_info:
+            if not any(info["topic"] in u["statement"].lower() and u.get("owner")
+                       for u in units):
+                sections["Informations absentes"].append(
+                    {"text": f"{info['label']} : ni choix ni responsable dans les sources.",
+                     "unit_ids": []})
         md = [f"# Dossier — projet {project}",
               f"Établi le {fr_date(self.ref.isoformat())} à partir de {len(m.meetings)} "
               "réunions. Chaque ligne cite ses unités sources.", ""]
@@ -295,7 +297,7 @@ class Agent:
         obj = re.sub(r"^(?:lui|leur)\s+demander\s+", "", obj)
         if topic not in obj.lower():
             obj += {"communication": " de la communication", "facture": " des factures",
-                    "salle": " de la salle"}.get(topic, f" du {topic}")
+                    "salle": " de la salle", **self.memory.topics}.get(topic, f" du {topic}")
         due = a["deadline_resolved"]
         when = f" avant le {fr_date(due)}" if due else ""
         context, sources = [], list(person["evidence_unit_ids"])
