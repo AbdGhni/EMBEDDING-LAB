@@ -17,7 +17,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from embedding_lab.agent.agent import IntentModel
+from embedding_lab.agent.agent import intent_model
 from embedding_lab.agent.workspace import Workspace
 from embedding_lab.retrieval.dense import DenseRetriever
 
@@ -47,6 +47,8 @@ def main() -> None:
     ap.add_argument("--source", type=Path, action="append",
                     help="fichier source d'un projet (répétable) ; défaut : Atlas et Cèdre")
     ap.add_argument("--reference-date", default="2026-10-20")
+    ap.add_argument("--intents", choices=["i2", "i2plus"], default="i2plus",
+                    help="i2 : modèle retenu sur la validation ; i2plus : correction post hoc (EL-029)")
     ap.add_argument("--weights", type=Path)
     ap.add_argument("-q", "--query")
     args = ap.parse_args()
@@ -59,7 +61,7 @@ def main() -> None:
         enc = e1
         print("Mémoire indexée avec E1 (encodeur initial) : passer --weights pour E2.")
     sources = args.source or [Path("demo/atlas/source.json"), Path("demo/cedre/source.json")]
-    agent = Workspace.from_sources(sources, enc, IntentModel(e1),
+    agent = Workspace.from_sources(sources, enc, intent_model(e1, args.intents),
                                    date.fromisoformat(args.reference_date))
     if args.query:
         show(agent.handle(args.query))

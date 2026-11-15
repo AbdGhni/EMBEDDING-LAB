@@ -13,7 +13,7 @@ from __future__ import annotations
 
 import json
 import re
-from collections.abc import Iterable, Mapping
+from collections.abc import Iterable, Mapping, Sequence
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -44,15 +44,27 @@ def find_topic(text: str, extra: Iterable[str] = ()) -> str | None:
     return min(hits)[1] if hits else None
 
 
+POST_TRAIN = Path("annotations/intents/post_train_v1.jsonl")
+
+
+def intent_model(encoder: Any, variant: str = "i2plus") -> "IntentModel":
+    """i2 : modèle retenu sur la validation ; i2plus : I2 + exemples post hoc (EL-029)."""
+    return IntentModel(encoder, extra_train=(POST_TRAIN,) if variant == "i2plus" else ())
+
+
 class IntentModel:
-    """I2 : régression logistique (C = 10, choisi sur I-SYN val) sur e5-small gelé."""
+    """I2 : régression logistique (C = 10, choisi sur I-SYN val) sur e5-small gelé.
+
+    `extra_train` ajoute des exemples d'entraînement : I2+ (EL-029, post hoc) utilise
+    annotations/intents/post_train_v1.jsonl.
+    """
 
     def __init__(self, encoder: Any, train_path: Path = Path("data/intents/train.jsonl"),
-                 C: float = 10.0):
+                 C: float = 10.0, extra_train: Sequence[Path] = ()):
         from sklearn.linear_model import LogisticRegression
 
-        rows = [json.loads(line) for line in train_path.read_text(encoding="utf-8").splitlines()
-                if line.strip()]
+        rows = [json.loads(line) for p in (train_path, *extra_train)
+                for line in p.read_text(encoding="utf-8").splitlines() if line.strip()]
         self.encoder = encoder
         X = encoder._encode(["query: " + r["text"] for r in rows])
         self.model = LogisticRegression(C=C, max_iter=3000, random_state=0)

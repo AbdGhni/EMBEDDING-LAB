@@ -18,7 +18,7 @@ from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from embedding_lab.agent.agent import Agent, IntentModel
+from embedding_lab.agent.agent import Agent, intent_model
 from embedding_lab.agent.workspace import Workspace
 from embedding_lab.memory.store import Memory
 from embedding_lab.retrieval.dense import DenseRetriever
@@ -221,6 +221,8 @@ def main() -> None:
     ap.add_argument("--source", type=Path, default=Path("demo/atlas/source.json"))
     ap.add_argument("--suite", choices=["atlas", "multi"], default="atlas")
     ap.add_argument("--reference-date", default="2026-10-20")
+    ap.add_argument("--intents", choices=["i2", "i2plus"], default="i2plus",
+                    help="i2 : modèle retenu sur la validation ; i2plus : correction post hoc (EL-029)")
     args = ap.parse_args()
     started = datetime.now(ZoneInfo("Europe/Paris")).isoformat(timespec="seconds")
     e1 = DenseRetriever()
@@ -232,12 +234,15 @@ def main() -> None:
     else:
         mem_enc, tag = e1, "E1"
     ref = date.fromisoformat(args.reference_date)
+    if args.intents == "i2plus":
+        tag += "-i2plus"
     if args.suite == "multi":
         sources = [Path("demo/atlas/source.json"), Path("demo/cedre/source.json")]
-        agent = Workspace.from_sources(sources, mem_enc, IntentModel(e1), ref)
+        agent = Workspace.from_sources(sources, mem_enc, intent_model(e1, args.intents), ref)
         scenarios, tag = multi_suite(), f"multi-{tag}"
     else:
-        agent = Agent(Memory.from_source(args.source, encoder=mem_enc), IntentModel(e1), ref)
+        agent = Agent(Memory.from_source(args.source, encoder=mem_enc),
+                      intent_model(e1, args.intents), ref)
         scenarios = SCENARIOS
     results, md = [], [f"# Scénarios de démonstration ({tag}, référence "
                        f"{args.reference_date})", ""]
@@ -267,6 +272,7 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=False)
     (out_dir / "results.json").write_text(json.dumps(
         {"encoder_memory": mem_enc.config(), "encoder_intents": e1.config(),
+         "intents": args.intents,
          "git_commit": git("rev-parse", "HEAD"),
          "git_dirty": bool(git("status", "--porcelain", "--", "src", "scripts", "demo")),
          "python": platform.python_version(), "started": started,

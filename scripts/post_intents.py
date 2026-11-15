@@ -7,8 +7,8 @@ l'évaluation et la démonstration ; tout ce qui suit est donc étiqueté post h
 Données ajoutées (écrites par Claude, donc non indépendantes de l'auteur du système) :
   annotations/intents/post_train_v1.jsonl    48 exemples d'entraînement (28 questions de
                                               vérification, 8 comparaisons de contraste, 12 autres)
-  annotations/intents/post_control_v1.jsonl  64 requêtes de contrôle, 8 par classe, noms de
-                                              projets et tournures différents, écrites avant la mesure
+  annotations/intents/post_control_v1.jsonl  64 requêtes de contrôle, 8 par classe, autres noms
+                                              de projets et autres tournures, écrites avant la mesure
 
 Règle de décision écrite avant la première mesure : I2+ remplace I2 dans l'agent si et seulement si
   (1) macro-F1 val I-SYN de I2+ >= celui de I2 - 0,02   (pas de régression sur la validation)
