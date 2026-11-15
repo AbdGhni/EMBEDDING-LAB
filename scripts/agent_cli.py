@@ -48,7 +48,7 @@ def main() -> None:
                     help="fichier source d'un projet (répétable) ; défaut : Atlas et Cèdre")
     ap.add_argument("--reference-date", default="2026-10-20")
     ap.add_argument("--intents", choices=["i2", "i2plus"], default="i2plus",
-                    help="i2 : modèle retenu sur la validation ; i2plus : correction post hoc (EL-029)")
+                    help="i2 : retenu sur la validation ; i2plus : correction post hoc")
     ap.add_argument("--weights", type=Path)
     ap.add_argument("-q", "--query")
     args = ap.parse_args()

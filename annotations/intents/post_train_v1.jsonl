@@ -44,5 +44,5 @@
 {"id": "in-post-train-043", "text": "Fais-moi une synthèse de tout ce qui a été dit sur Sillage.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
 {"id": "in-post-train-044", "text": "On pourrait peut-être revoir le calendrier d'Estuaire.", "intent": "no_action", "origin": "claude_written_post_hoc"}
 {"id": "in-post-train-045", "text": "Il faudrait sans doute augmenter le budget de Quartz un jour.", "intent": "no_action", "origin": "claude_written_post_hoc"}
-{"id": "in-post-train-046", "text": "Envoie ça à la bonne personne.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-046", "text": "Informe la personne concernée dès que possible.", "intent": "clarify", "origin": "claude_written_post_hoc"}
 {"id": "in-post-train-047", "text": "Relance-le pour demain.", "intent": "clarify", "origin": "claude_written_post_hoc"}

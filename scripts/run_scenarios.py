@@ -222,7 +222,7 @@ def main() -> None:
     ap.add_argument("--suite", choices=["atlas", "multi"], default="atlas")
     ap.add_argument("--reference-date", default="2026-10-20")
     ap.add_argument("--intents", choices=["i2", "i2plus"], default="i2plus",
-                    help="i2 : modèle retenu sur la validation ; i2plus : correction post hoc (EL-029)")
+                    help="i2 : retenu sur la validation ; i2plus : correction post hoc")
     args = ap.parse_args()
     started = datetime.now(ZoneInfo("Europe/Paris")).isoformat(timespec="seconds")
     e1 = DenseRetriever()

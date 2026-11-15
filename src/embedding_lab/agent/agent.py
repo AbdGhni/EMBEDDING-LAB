@@ -47,7 +47,7 @@ def find_topic(text: str, extra: Iterable[str] = ()) -> str | None:
 POST_TRAIN = Path("annotations/intents/post_train_v1.jsonl")
 
 
-def intent_model(encoder: Any, variant: str = "i2plus") -> "IntentModel":
+def intent_model(encoder: Any, variant: str = "i2plus") -> IntentModel:
     """i2 : modèle retenu sur la validation ; i2plus : I2 + exemples post hoc (EL-029)."""
     return IntentModel(encoder, extra_train=(POST_TRAIN,) if variant == "i2plus" else ())
 

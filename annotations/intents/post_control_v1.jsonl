@@ -59,6 +59,6 @@
 {"id": "in-post-ctrl-058", "text": "Occupe-toi de ça pour demain.", "intent": "clarify", "origin": "claude_written_post_hoc"}
 {"id": "in-post-ctrl-059", "text": "Dis-lui de venir.", "intent": "clarify", "origin": "claude_written_post_hoc"}
 {"id": "in-post-ctrl-060", "text": "Fais suivre aux personnes concernées.", "intent": "clarify", "origin": "claude_written_post_hoc"}
-{"id": "in-post-ctrl-061", "text": "Relance-les.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-061", "text": "Fais passer le mot aux concernés.", "intent": "clarify", "origin": "claude_written_post_hoc"}
 {"id": "in-post-ctrl-062", "text": "Mets-moi ça dans le planning.", "intent": "clarify", "origin": "claude_written_post_hoc"}
 {"id": "in-post-ctrl-063", "text": "Transmets-le à la bonne personne.", "intent": "clarify", "origin": "claude_written_post_hoc"}
