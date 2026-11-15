@@ -301,3 +301,16 @@ Sous-ensemble B-REAL relu par l'étudiant (5 réunions, 34 requêtes) contre le 
 - **Le modèle choisi sur la validation (I2) est battu sur le test par les règles (I0).** Le résultat officiel reste I2 ; passer aux règles maintenant serait un choix fait après avoir vu le test. Biais à signaler : les règles et I-MAN ont le même auteur (Claude), ce qui avantage probablement les règles sur I-MAN.
 - Erreur dominante de I2 sur I-SYN test : la famille « Rappelle-moi ce qui a été dit sur… » (classe `answer`, F1 0,15) prise pour `no_action` ou `compare`. Sur I-MAN, des questions de statut (« il est validé ou pas encore ? ») prises pour `compare`, et deux hypothèses (« Bon, on verra plus tard pour la salle ») prises pour `create_task`.
 - Slots (extracteur par règles, liste de noms fournie) : personne et projet 1,00 sur les deux jeux ; échéance 1,00 / 0,975.
+
+## EL-031 — Rejeu de la démo avec l'encodeur E2 sur le PC de l'étudiant (2026-11-15)
+
+Machine : PC Windows de l'étudiant, clone de `main` (`b8717cc`), poids E2 `E2-e5s-s13-bs64-lr2e-05-2026-10-23T1234/best`, intentions I2+. Runs : `runs/SCN-E2-i2plus-2026-11-15T1948` (Atlas seul) et `runs/SCN-multi-E2-i2plus-2026-11-15T1949` (Atlas + Cèdre). Étiquette : démonstration, score de développement (les contrôles ont été ajustés post hoc en EL-030).
+
+| Suite | E1 (VM, 15/11) | E2 (PC, 15/11) |
+|---|---|---|
+| Atlas seul | 9/9 | **9/9** |
+| Multi-projets | 19/19 | **18/19** |
+
+Échec E2 : « Atlas · 2. Proposition contre décision », requête « Est-ce qu'on a validé l'augmentation du budget de communication d'Atlas ? ». Avec E2, la recherche place `u-atlas-14` (« la direction a validé le budget à 45 000 euros ») avant `u-atlas-04` (suggestion de Sophie, non validée) ; l'agent répond avec la décision globale sur le budget, sans avertissement. Avec E1, la même requête donne `u-atlas-04` en tête et le scénario passe. Dans la suite Atlas seule, la requête n'inclut pas « d'Atlas » et E2 place `u-atlas-04` en tête : l'ajout du nom du projet suffit à inverser le classement.
+
+Lecture (hypothèse non vérifiée) : E2 rapproche « validé » des unités de décision, y compris d'une décision sur un autre objet (budget total contre augmentation du budget de communication). L'agent ne prend que la première unité et n'en vérifie pas l'objet. Aucune correction n'a été faite : ni l'agent ni le contrôle n'ont été modifiés pour obtenir 19/19. L'échec est un résultat à déclarer ; il ne remet pas en cause les mesures du test (qui n'ont pas été relancées).

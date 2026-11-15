@@ -39,3 +39,6 @@ Total ≈ 34 demi-journées pour ~30 disponibles sur 15 jours : la marge est né
 
 ## EL-030 — Corrections issues des relectures ECC
 Branche `el-030-review-fixes`. Voir `docs/reviews/EL-025-synthese.md`. Statut : fait, en attente de fusion (accord de l'étudiant).
+
+## EL-031 — Rejeu de la démo avec E2 sur PC
+Branche `el-031-replay-e2`. Résultat : 9/9 (Atlas), 18/19 (multi), échec déclaré (EXPERIMENTS.md). Statut : fait, en attente de fusion.

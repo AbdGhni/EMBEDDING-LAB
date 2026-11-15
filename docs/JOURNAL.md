@@ -466,3 +466,7 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 ## S22 — 2026-11-15 — EL-030 relectures ECC
 - Rapports ECC lus et triés (`docs/reviews/EL-025-synthese.md`). Corrections de robustesse, UTF-8, CI, tests anti-injection.
 - Contrôles de scénarios durcis : 3 échecs, inspection des sorties, contrôles corrigés (post hoc, déclaré). Rejeu : Atlas 9/9, multi 19/19 (I2+), `runs/SCN-E1-i2plus-2026-11-15T1931`, `runs/SCN-multi-E1-i2plus-2026-11-15T1932`. 125+ tests verts, ruff propre.
+
+## S23 — 2026-11-15 — EL-031 rejeu E2 sur le PC
+- Rejeu avec les poids E2 par l'étudiant sur son PC : Atlas 9/9, multi 18/19. Runs poussés sur `el-031-replay-e2` (`runs/SCN-E2-i2plus-2026-11-15T1948`, `runs/SCN-multi-E2-i2plus-2026-11-15T1949`).
+- Analyse : échec du scénario Atlas 2 en multi-projets (classement E2 : décision globale sur le budget avant la suggestion de Sophie). Déclaré dans `docs/EXPERIMENTS.md` (EL-031), aucune correction.

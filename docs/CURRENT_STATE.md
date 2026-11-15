@@ -78,3 +78,6 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 2. Démo rejouée par l'étudiant sur son PC avec les poids E2 (`docs/DEMO.md`).
 3. Optionnel : troisième jeu d'intentions écrit par l'étudiant ; mesures M-05/M-06 sur un jeu dédié.
 4. Point avec le mentor (mercredi ou jeudi) : préparer avec `docs/LEARNING_GUIDE.md` (leçons 3 à 6, questions probables) et `docs/DEMO.md`.
+
+## Mise à jour 2026-11-15 (soir)
+- Rejeu E2 sur le PC de l'étudiant fait : Atlas 9/9, multi 18/19 (scénario Atlas 2 en échec avec E2 ; voir EXPERIMENTS.md, EL-031). `main` = `b8717cc` ; branche `el-031-replay-e2` à fusionner.
