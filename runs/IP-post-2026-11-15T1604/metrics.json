@@ -1,0 +1,1102 @@
+{
+ "decision_rule": "val(I2+) >= val(I2) - 0.02 et controle(I2+) > controle(I2)",
+ "adopt_i2_plus": true,
+ "results": {
+  "isyn_val": {
+   "I0": {
+    "n": 432,
+    "macro_f1": 0.816969696969697,
+    "accuracy": 0.8518518518518519,
+    "f1_answer": 1.0,
+    "f1_compare": 0.0,
+    "per_class_f1": {
+     "answer": 1.0,
+     "compare": 0.0,
+     "build_dossier": 0.9600000000000001,
+     "draft_email": 1.0,
+     "create_task": 1.0,
+     "schedule_event": 0.6666666666666666,
+     "clarify": 0.9090909090909091,
+     "no_action": 1.0
+    },
+    "errors": [
+     {
+      "id": "in-val-0060",
+      "text": "Compare les deux dernières réunions de Héron sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0061",
+      "text": "Fais la comparaison entre la première et la dernière réunion de Comète",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0062",
+      "text": "Compare les deux dernières réunions de Comète sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0063",
+      "text": "Compare les deux dernières réunions de Héron sur le lancement",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0064",
+      "text": "Compare les deux dernières réunions de Héron sur le prestataire",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0065",
+      "text": "Fais la comparaison entre la première et la dernière réunion de Héron",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0066",
+      "text": "Compare les deux dernières réunions de Héron sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0067",
+      "text": "Compare les deux dernières réunions de Basalte sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0068",
+      "text": "Compare les deux dernières réunions de Héron sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0069",
+      "text": "Compare les deux dernières réunions de Héron sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0070",
+      "text": "Compare les deux dernières réunions de Comète sur le prestataire",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0071",
+      "text": "fais la comparaison entre la première et la dernière réunion de Basalte.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0072",
+      "text": "Fais la comparaison entre la première et la dernière réunion de Basalte",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0073",
+      "text": "Fais la comparaison entre la première et la dernière réunion de Héron.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0074",
+      "text": "Compare les deux dernières réunions de Héron sur le programme.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0075",
+      "text": "fais la comparaison entre la première et la dernière réunion de Basalte",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0076",
+      "text": "Compare les deux dernières réunions de Comète sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0077",
+      "text": "Fais la comparaison entre la première et la dernière réunion de Comète.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0078",
+      "text": "Compare les deux dernières réunions de Basalte sur le budget",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0079",
+      "text": "Compare les deux dernières réunions de Comète sur le planning.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0080",
+      "text": "compare les deux dernières réunions de Basalte sur le calendrier",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0081",
+      "text": "Compare les deux dernières réunions de Comète sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0082",
+      "text": "Compare les deux dernières réunions de Comète sur le lancement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0083",
+      "text": "compare les deux dernières réunions de Héron sur le programme",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0084",
+      "text": "Compare les deux dernières réunions de Basalte sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0085",
+      "text": "fais la comparaison entre la première et la dernière réunion de Héron.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0086",
+      "text": "Fais la comparaison entre la première et la dernière réunion de Basalte.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0087",
+      "text": "Compare les deux dernières réunions de Comète sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0088",
+      "text": "Compare les deux dernières réunions de Comète sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0089",
+      "text": "Compare les deux dernières réunions de Basalte sur le lancement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0090",
+      "text": "fais la comparaison entre la première et la dernière réunion de Comète",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0091",
+      "text": "fais la comparaison entre la première et la dernière réunion de Comète.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0092",
+      "text": "compare les deux dernières réunions de Comète sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0093",
+      "text": "Compare les deux dernières réunions de Héron sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0094",
+      "text": "Compare les deux dernières réunions de Basalte sur le planning",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0095",
+      "text": "compare les deux dernières réunions de Comète sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0096",
+      "text": "Compare les deux dernières réunions de Basalte sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0097",
+      "text": "Compare les deux dernières réunions de Basalte sur le planning.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0098",
+      "text": "Compare les deux dernières réunions de Basalte sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0099",
+      "text": "Compare les deux dernières réunions de Héron sur le budget",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0100",
+      "text": "Compare les deux dernières réunions de Héron sur le planning",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0101",
+      "text": "Compare les deux dernières réunions de Héron sur le recrutement",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0102",
+      "text": "Compare les deux dernières réunions de Comète sur le devis",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0103",
+      "text": "compare les deux dernières réunions de Comète sur le programme.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0104",
+      "text": "compare les deux dernières réunions de Basalte sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0105",
+      "text": "fais la comparaison entre la première et la dernière réunion de Héron",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0106",
+      "text": "compare les deux dernières réunions de Comète sur le budget",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0107",
+      "text": "Compare les deux dernières réunions de Comète sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0108",
+      "text": "Compare les deux dernières réunions de Comète sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0109",
+      "text": "Compare les deux dernières réunions de Basalte sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0110",
+      "text": "compare les deux dernières réunions de Basalte sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0111",
+      "text": "Compare les deux dernières réunions de Héron sur le lieu",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0112",
+      "text": "Compare les deux dernières réunions de Basalte sur le prestataire",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0113",
+      "text": "compare les deux dernières réunions de Basalte sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0114",
+      "text": "compare les deux dernières réunions de Héron sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0115",
+      "text": "Compare les deux dernières réunions de Basalte sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0116",
+      "text": "Compare les deux dernières réunions de Héron sur le lancement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0117",
+      "text": "compare les deux dernières réunions de Héron sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0118",
+      "text": "Compare les deux dernières réunions de Basalte sur le lieu",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0119",
+      "text": "Compare les deux dernières réunions de Basalte sur le contrat",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0350",
+      "text": "Fais le nécessaire pour ce dossier stp",
+      "gold": "clarify",
+      "pred": "build_dossier"
+     },
+     {
+      "id": "in-val-0364",
+      "text": "Fais le nécessaire pour ce dossier merci",
+      "gold": "clarify",
+      "pred": "build_dossier"
+     },
+     {
+      "id": "in-val-0370",
+      "text": "fais le nécessaire pour ce dossier stp",
+      "gold": "clarify",
+      "pred": "build_dossier"
+     },
+     {
+      "id": "in-val-0371",
+      "text": "fais le nécessaire pour ce dossier merci",
+      "gold": "clarify",
+      "pred": "build_dossier"
+     }
+    ]
+   },
+   "I2": {
+    "n": 432,
+    "macro_f1": 0.8953649077497003,
+    "accuracy": 0.8912037037037037,
+    "f1_answer": 0.9285714285714286,
+    "f1_compare": 0.5555555555555556,
+    "per_class_f1": {
+     "answer": 0.9285714285714286,
+     "compare": 0.5555555555555556,
+     "build_dossier": 0.9795918367346939,
+     "draft_email": 0.967741935483871,
+     "create_task": 0.9572649572649572,
+     "schedule_event": 0.7741935483870968,
+     "clarify": 1.0,
+     "no_action": 1.0
+    },
+    "errors": [
+     {
+      "id": "in-val-0001",
+      "text": "On a bien acté le budget de Comète",
+      "gold": "answer",
+      "pred": "build_dossier"
+     },
+     {
+      "id": "in-val-0003",
+      "text": "On a bien acté le lancement de Héron",
+      "gold": "answer",
+      "pred": "create_task"
+     },
+     {
+      "id": "in-val-0005",
+      "text": "On a bien acté le calendrier de Héron ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-val-0014",
+      "text": "On a bien acté le calendrier de Comète ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-val-0029",
+      "text": "On a bien acté le lancement de Basalte ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-val-0043",
+      "text": "Le lieu de Basalte est-il confirmé ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-val-0045",
+      "text": "On a bien acté le lieu de Basalte ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-val-0053",
+      "text": "On a bien acté le programme de Basalte",
+      "gold": "answer",
+      "pred": "build_dossier"
+     },
+     {
+      "id": "in-val-0060",
+      "text": "Compare les deux dernières réunions de Héron sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0062",
+      "text": "Compare les deux dernières réunions de Comète sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0066",
+      "text": "Compare les deux dernières réunions de Héron sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0067",
+      "text": "Compare les deux dernières réunions de Basalte sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0068",
+      "text": "Compare les deux dernières réunions de Héron sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0069",
+      "text": "Compare les deux dernières réunions de Héron sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0071",
+      "text": "fais la comparaison entre la première et la dernière réunion de Basalte.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0074",
+      "text": "Compare les deux dernières réunions de Héron sur le programme.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0076",
+      "text": "Compare les deux dernières réunions de Comète sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0079",
+      "text": "Compare les deux dernières réunions de Comète sur le planning.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0081",
+      "text": "Compare les deux dernières réunions de Comète sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0082",
+      "text": "Compare les deux dernières réunions de Comète sur le lancement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0084",
+      "text": "Compare les deux dernières réunions de Basalte sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0085",
+      "text": "fais la comparaison entre la première et la dernière réunion de Héron.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0087",
+      "text": "Compare les deux dernières réunions de Comète sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0088",
+      "text": "Compare les deux dernières réunions de Comète sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0089",
+      "text": "Compare les deux dernières réunions de Basalte sur le lancement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0091",
+      "text": "fais la comparaison entre la première et la dernière réunion de Comète.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0092",
+      "text": "compare les deux dernières réunions de Comète sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0093",
+      "text": "Compare les deux dernières réunions de Héron sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0095",
+      "text": "compare les deux dernières réunions de Comète sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0096",
+      "text": "Compare les deux dernières réunions de Basalte sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0097",
+      "text": "Compare les deux dernières réunions de Basalte sur le planning.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0098",
+      "text": "Compare les deux dernières réunions de Basalte sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0102",
+      "text": "Compare les deux dernières réunions de Comète sur le devis",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0103",
+      "text": "compare les deux dernières réunions de Comète sur le programme.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0104",
+      "text": "compare les deux dernières réunions de Basalte sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0107",
+      "text": "Compare les deux dernières réunions de Comète sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0108",
+      "text": "Compare les deux dernières réunions de Comète sur le contrat.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0109",
+      "text": "Compare les deux dernières réunions de Basalte sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0110",
+      "text": "compare les deux dernières réunions de Basalte sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0113",
+      "text": "compare les deux dernières réunions de Basalte sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0114",
+      "text": "compare les deux dernières réunions de Héron sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0115",
+      "text": "Compare les deux dernières réunions de Basalte sur le lieu.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0117",
+      "text": "compare les deux dernières réunions de Héron sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0251",
+      "text": "Enregistre l'action « envoyer le devis » sur Basalte pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0259",
+      "text": "Enregistre l'action « relancer le prestataire » sur Basalte pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0265",
+      "text": "Enregistre l'action « envoyer le devis » sur Comète pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0272",
+      "text": "Enregistre l'action « réserver la salle » sur Basalte pour le 3 avril merci",
+      "gold": "create_task",
+      "pred": "draft_email"
+     }
+    ]
+   },
+   "I2+": {
+    "n": 432,
+    "macro_f1": 0.9445659783796087,
+    "accuracy": 0.9398148148148148,
+    "f1_answer": 0.9448818897637796,
+    "f1_compare": 0.8785046728971964,
+    "per_class_f1": {
+     "answer": 0.9448818897637796,
+     "compare": 0.8785046728971964,
+     "build_dossier": 1.0,
+     "draft_email": 0.9523809523809523,
+     "create_task": 0.8785046728971964,
+     "schedule_event": 0.9022556390977443,
+     "clarify": 1.0,
+     "no_action": 1.0
+    },
+    "errors": [
+     {
+      "id": "in-val-0062",
+      "text": "Compare les deux dernières réunions de Comète sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0076",
+      "text": "Compare les deux dernières réunions de Comète sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0079",
+      "text": "Compare les deux dernières réunions de Comète sur le planning.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0081",
+      "text": "Compare les deux dernières réunions de Comète sur le prestataire.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0087",
+      "text": "Compare les deux dernières réunions de Comète sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0088",
+      "text": "Compare les deux dernières réunions de Comète sur le calendrier.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0096",
+      "text": "Compare les deux dernières réunions de Basalte sur le budget.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0097",
+      "text": "Compare les deux dernières réunions de Basalte sur le planning.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0098",
+      "text": "Compare les deux dernières réunions de Basalte sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0103",
+      "text": "compare les deux dernières réunions de Comète sur le programme.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0109",
+      "text": "Compare les deux dernières réunions de Basalte sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0110",
+      "text": "compare les deux dernières réunions de Basalte sur le recrutement.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0117",
+      "text": "compare les deux dernières réunions de Héron sur le devis.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-val-0228",
+      "text": "Enregistre l'action « vérifier le contrat » sur Basalte pour le 3 avril",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-val-0230",
+      "text": "Enregistre l'action « réserver la salle » sur Comète pour le 3 avril stp",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-val-0231",
+      "text": "Enregistre l'action « vérifier le contrat » sur Comète pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0232",
+      "text": "Enregistre l'action « envoyer le devis » sur Héron pour le 3 avril merci",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0241",
+      "text": "Enregistre l'action « envoyer le devis » sur Basalte pour la semaine prochaine.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0244",
+      "text": "Enregistre l'action « vérifier le contrat » sur Basalte pour le 3 avril stp",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0251",
+      "text": "Enregistre l'action « envoyer le devis » sur Basalte pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0265",
+      "text": "Enregistre l'action « envoyer le devis » sur Comète pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-val-0272",
+      "text": "Enregistre l'action « réserver la salle » sur Basalte pour le 3 avril merci",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-val-0278",
+      "text": "Enregistre l'action « relancer le prestataire » sur Comète pour le 3 avril",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-val-0280",
+      "text": "Enregistre l'action « réserver la salle » sur Basalte pour le 3 avril stp",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-val-0282",
+      "text": "Enregistre l'action « réserver la salle » sur Comète pour le 3 avril.",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-val-0283",
+      "text": "enregistre l'action « réserver la salle » sur Basalte pour jeudi",
+      "gold": "create_task",
+      "pred": "answer"
+     }
+    ]
+   }
+  },
+  "post_control": {
+   "I0": {
+    "n": 64,
+    "macro_f1": 0.8409987071751778,
+    "accuracy": 0.828125,
+    "f1_answer": 0.6153846153846153,
+    "f1_compare": 0.6666666666666666,
+    "per_class_f1": {
+     "answer": 0.6153846153846153,
+     "compare": 0.6666666666666666,
+     "build_dossier": 0.8571428571428571,
+     "draft_email": 0.8571428571428571,
+     "create_task": 0.8571428571428571,
+     "schedule_event": 0.9411764705882353,
+     "clarify": 0.9333333333333333,
+     "no_action": 1.0
+    },
+    "errors": [
+     {
+      "id": "in-post-ctrl-008",
+      "text": "Est-ce que ce qui a été dit mardi sur Tonnerre est différent de la réunion précédente ?",
+      "gold": "compare",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-010",
+      "text": "La réunion de jeudi remet-elle en question celle de lundi pour Hélice ?",
+      "gold": "compare",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-011",
+      "text": "Compare ce qui a été dit sur le budget de Lumen d'une réunion à l'autre.",
+      "gold": "compare",
+      "pred": "schedule_event"
+     },
+     {
+      "id": "in-post-ctrl-015",
+      "text": "Les chiffres annoncés vendredi sont-ils les mêmes que ceux de la semaine dernière sur Mosaïque ?",
+      "gold": "compare",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-020",
+      "text": "Rassemble l'historique de Cobalt avec les sources.",
+      "gold": "build_dossier",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-022",
+      "text": "Résume le projet Trident : qui fait quoi, quelles échéances.",
+      "gold": "build_dossier",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-029",
+      "text": "Mail à Inès : peut-elle confirmer la date de recette d'Orchidée ?",
+      "gold": "draft_email",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-030",
+      "text": "Contacte par écrit le responsable de la sécurité de Trident.",
+      "gold": "draft_email",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-033",
+      "text": "Ajoute à ma liste : relire le contrat de Bastion.",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-039",
+      "text": "Mets sur ma liste d'envoyer le compte rendu de Mosaïque.",
+      "gold": "create_task",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-060",
+      "text": "Fais suivre aux personnes concernées.",
+      "gold": "clarify",
+      "pred": "answer"
+     }
+    ]
+   },
+   "I2": {
+    "n": 64,
+    "macro_f1": 0.8534774436090226,
+    "accuracy": 0.859375,
+    "f1_answer": 0.5,
+    "f1_compare": 0.761904761904762,
+    "per_class_f1": {
+     "answer": 0.5,
+     "compare": 0.761904761904762,
+     "build_dossier": 0.8571428571428571,
+     "draft_email": 0.8421052631578948,
+     "create_task": 0.9333333333333333,
+     "schedule_event": 0.9333333333333333,
+     "clarify": 1.0,
+     "no_action": 1.0
+    },
+    "errors": [
+     {
+      "id": "in-post-ctrl-000",
+      "text": "Le budget de Tonnerre, il a été validé ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-post-ctrl-001",
+      "text": "Est-ce que le nouveau prestataire est confirmé pour Bastion ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-post-ctrl-003",
+      "text": "C'est acté, la fusion des deux équipes sur Lumen ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-post-ctrl-004",
+      "text": "Est-ce qu'on a approuvé la dépense supplémentaire pour Cobalt ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-post-ctrl-006",
+      "text": "Est-ce qu'on a fini par retenir la solution de Karine pour Trident ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-post-ctrl-017",
+      "text": "J'ai besoin d'un état des lieux de Bastion pour la direction.",
+      "gold": "build_dossier",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-post-ctrl-022",
+      "text": "Résume le projet Trident : qui fait quoi, quelles échéances.",
+      "gold": "build_dossier",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-039",
+      "text": "Mets sur ma liste d'envoyer le compte rendu de Mosaïque.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-post-ctrl-046",
+      "text": "Réserve un créneau avec Jules pour revoir Trident.",
+      "gold": "schedule_event",
+      "pred": "draft_email"
+     }
+    ]
+   },
+   "I2+": {
+    "n": 64,
+    "macro_f1": 0.9082866479925303,
+    "accuracy": 0.90625,
+    "f1_answer": 0.823529411764706,
+    "f1_compare": 0.9411764705882353,
+    "per_class_f1": {
+     "answer": 0.823529411764706,
+     "compare": 0.9411764705882353,
+     "build_dossier": 0.8571428571428571,
+     "draft_email": 0.7777777777777777,
+     "create_task": 0.9333333333333333,
+     "schedule_event": 0.9333333333333333,
+     "clarify": 1.0,
+     "no_action": 1.0
+    },
+    "errors": [
+     {
+      "id": "in-post-ctrl-003",
+      "text": "C'est acté, la fusion des deux équipes sur Lumen ?",
+      "gold": "answer",
+      "pred": "compare"
+     },
+     {
+      "id": "in-post-ctrl-017",
+      "text": "J'ai besoin d'un état des lieux de Bastion pour la direction.",
+      "gold": "build_dossier",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-post-ctrl-022",
+      "text": "Résume le projet Trident : qui fait quoi, quelles échéances.",
+      "gold": "build_dossier",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-029",
+      "text": "Mail à Inès : peut-elle confirmer la date de recette d'Orchidée ?",
+      "gold": "draft_email",
+      "pred": "answer"
+     },
+     {
+      "id": "in-post-ctrl-039",
+      "text": "Mets sur ma liste d'envoyer le compte rendu de Mosaïque.",
+      "gold": "create_task",
+      "pred": "draft_email"
+     },
+     {
+      "id": "in-post-ctrl-046",
+      "text": "Réserve un créneau avec Jules pour revoir Trident.",
+      "gold": "schedule_event",
+      "pred": "draft_email"
+     }
+    ]
+   }
+  }
+ }
+}

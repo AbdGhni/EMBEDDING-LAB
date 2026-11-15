@@ -1,0 +1,13 @@
+{
+ "C": 10.0,
+ "post_hoc": true,
+ "test_accessed": false,
+ "data_sha256": {
+  "data/intents/train.jsonl": "497d93402c966547cbbc378e75fbd1fe540d715ab80435af1118ed8855b20a8f",
+  "data/intents/val.jsonl": "f4ce2dc2f56da5d06bef113ad5de9a04037f94c9e3e36e4620e9e0a30ceea596",
+  "annotations/intents/post_train_v1.jsonl": "4bfe2ecf6f6827b5f8c5b2d4fae1bca483578aeeb64baee541c365b4b24a886e",
+  "annotations/intents/post_control_v1.jsonl": "f097170391ea279071f02d284d5a9853a5bbe375c713a491ab768521f595a8a2"
+ },
+ "n_train": 888,
+ "n_post_train": 48
+}

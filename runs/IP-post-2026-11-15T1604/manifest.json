@@ -1,0 +1,8 @@
+{
+ "run_id": "IP-post-2026-11-15T1604",
+ "started": "2026-11-15T16:04:01+01:00",
+ "finished": "2026-11-15T16:04:18+01:00",
+ "git_commit": "0812390e568ae07339f566958ffbf806d6bcb3a9",
+ "git_dirty": true,
+ "python": "3.13.16"
+}
