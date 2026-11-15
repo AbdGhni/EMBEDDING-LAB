@@ -30,9 +30,10 @@ def main() -> None:
     ap.add_argument("--out", type=Path, default=Path("data/breal"))
     args = ap.parse_args()
     meetings = load_meetings(Path("data/processed/summre_meetings.jsonl"))
-    split_of = json.loads(Path("splits/summre_v1.json").read_text())["split_of"]
+    split_of = json.loads(Path("splits/summre_v1.json").read_text(encoding="utf-8"))["split_of"]
     manifest_path = args.out / "manifest.json"
-    manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    manifest = (json.loads(manifest_path.read_text(encoding="utf-8"))
+                if manifest_path.exists() else {})
     for split in args.splits:
         tasks = sorted(p.stem for p in (Path("data/breal/tasks") / split).glob("*.txt"))
         missing = [g for g in tasks if not Path(f"annotations/breal/raw/{g}.json").exists()]
@@ -68,7 +69,7 @@ def main() -> None:
         }
         print(split, json.dumps({k: v for k, v in manifest[split].items()
                                  if k not in ("raw_sha256", "sha256")}, ensure_ascii=False))
-    manifest_path.write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
+    manifest_path.write_text(json.dumps(manifest, indent=1, ensure_ascii=False), encoding="utf-8")
 
 
 if __name__ == "__main__":

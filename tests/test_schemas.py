@@ -104,10 +104,10 @@ def test_action_can_never_be_executed_or_auto_confirmed(field, value):
 
 def test_invented_email_rejected():
     a = make_email()
-    a["recipient"] = dict(a["recipient"], email="marie@atlas.fr", resolution_status="resolved")
+    a["recipient"] = dict(a["recipient"], email="marie@example.org", resolution_status="resolved")
     a["clarification"] = {"needed": False}
     assert any("inventée" in e for e in check_action(a, directory={}))
-    assert check_action(a, directory={"Marie": "marie@atlas.fr"}) == []
+    assert check_action(a, directory={"Marie": "marie@example.org"}) == []
 
 
 def test_unresolved_recipient_requires_clarification():
@@ -117,7 +117,7 @@ def test_unresolved_recipient_requires_clarification():
 
 def test_ambiguous_recipient_cannot_carry_email():
     a = make_email()
-    a["recipient"] = {"name": None, "email": "x@y.fr", "evidence_unit_ids": [],
+    a["recipient"] = {"name": None, "email": "x@example.invalid", "evidence_unit_ids": [],
                       "resolution_status": "ambiguous"}
     assert check_action(a)
 

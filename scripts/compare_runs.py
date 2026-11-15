@@ -115,7 +115,8 @@ def main() -> None:
                       f"({pe['method']}) | {res['n_clusters']} |")
     out = Path("runs") / run_id
     out.mkdir(parents=True, exist_ok=False)
-    (out / "comparison.json").write_text(json.dumps(report, indent=1, ensure_ascii=False))
+    (out / "comparison.json").write_text(json.dumps(report, indent=1, ensure_ascii=False),
+        encoding="utf-8")
     print(f"\n{out}/comparison.json")
 
 

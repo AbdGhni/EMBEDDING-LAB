@@ -19,11 +19,14 @@ def write_bench(root, name="bsyn", split="val"):
                 "cluster": "p1", "group_id": "900"},
                {"query_id": "q2", "text": "rien", "answerable": False, "cluster": "p1",
                 "group_id": "900"}]
-    (base / "units.jsonl").write_text("".join(json.dumps(u) + "\n" for u in units))
-    (base / "queries.jsonl").write_text("".join(json.dumps(q) + "\n" for q in queries))
-    (base / "qrels.json").write_text(json.dumps({"q1": {"u-1": 2, "u-2": 0}}))
+    (base / "units.jsonl").write_text("".join(json.dumps(u) + "\n" for u in units),
+        encoding="utf-8")
+    (base / "queries.jsonl").write_text("".join(json.dumps(q) + "\n" for q in queries),
+        encoding="utf-8")
+    (base / "qrels.json").write_text(json.dumps({"q1": {"u-1": 2, "u-2": 0}}), encoding="utf-8")
     (base / "triplets.jsonl").write_text(
-        json.dumps({"query_id": "q1", "pos": "u-1", "neg": "u-2", "trap": "status"}) + "\n")
+        json.dumps({"query_id": "q1", "pos": "u-1", "neg": "u-2", "trap": "status"}) + "\n",
+            encoding="utf-8")
     return root
 
 
@@ -32,7 +35,7 @@ def test_test_split_requires_reason_and_is_logged(tmp_path):
     with pytest.raises(PermissionError):
         load_benchmark("bsyn", "test", root=root)
     load_benchmark("bsyn", "test", test_reason="essai", run_id="r", root=root)
-    assert (root / "runs/TEST_ACCESS.log").read_text().count("\n") == 1
+    assert (root / "runs/TEST_ACCESS.log").read_text(encoding="utf-8").count("\n") == 1
 
 
 def test_unanswerable_queries_excluded_and_triplets_scored(tmp_path):

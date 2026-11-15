@@ -23,10 +23,10 @@ def main() -> None:
     args = ap.parse_args()
     got = {f: hashlib.sha256(Path(f).read_bytes()).hexdigest() for f in FILES if Path(f).exists()}
     if args.write:
-        EXPECTED.write_text(json.dumps(got, indent=1) + "\n")
+        EXPECTED.write_text(json.dumps(got, indent=1) + "\n", encoding="utf-8")
         print(f"{len(got)} empreintes écrites dans {EXPECTED}")
         return
-    want = json.loads(EXPECTED.read_text())
+    want = json.loads(EXPECTED.read_text(encoding="utf-8"))
     bad = [f for f in want if got.get(f) != want[f]]
     print("OK : données identiques" if not bad else f"DIFFÉRENCES : {bad}")
     raise SystemExit(1 if bad else 0)

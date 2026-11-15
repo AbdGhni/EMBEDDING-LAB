@@ -462,3 +462,7 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Démonstration (E1, commit `0c07f56`) : 9/9 (Atlas), 19/19 (deux projets) avec I2+ ; 17/19 avec `--intents i2`. 19/19 attendu (famille d'erreur couverte à l'entraînement) : non indépendant.
 - Documents mis à jour : protocole v1.9 (§ 13, post hoc), EXPERIMENTS, FINAL_REPORT, README, DEMO, MATRIX, TICKETS, CURRENT_STATE, POINT_MENTOR.
 - Non fait (hors de portée d'ici) : rejeu avec les poids E2 ; relectures ECC ; jeu d'intentions de l'étudiant.
+
+## S22 — 2026-11-15 — EL-030 relectures ECC
+- Rapports ECC lus et triés (`docs/reviews/EL-025-synthese.md`). Corrections de robustesse, UTF-8, CI, tests anti-injection.
+- Contrôles de scénarios durcis : 3 échecs, inspection des sorties, contrôles corrigés (post hoc, déclaré). Rejeu : Atlas 9/9, multi 19/19 (I2+), `runs/SCN-E1-i2plus-2026-11-15T1931`, `runs/SCN-multi-E1-i2plus-2026-11-15T1932`. 125+ tests verts, ruff propre.

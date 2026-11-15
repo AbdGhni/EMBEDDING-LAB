@@ -12,7 +12,7 @@ from pathlib import Path
 from embedding_lab.ingest.breal import load_meetings, task_text
 
 meetings = load_meetings(Path("data/processed/summre_meetings.jsonl"))
-split_of = json.loads(Path("splits/summre_v1.json").read_text())["split_of"]
+split_of = json.loads(Path("splits/summre_v1.json").read_text(encoding="utf-8"))["split_of"]
 splits = sys.argv[1:] or ["val", "test"]
 for split in splits:
     groups = defaultdict(list)

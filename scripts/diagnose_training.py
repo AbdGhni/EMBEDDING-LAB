@@ -86,7 +86,7 @@ def main() -> None:
     out["finished"] = datetime.now(ZoneInfo("Europe/Paris")).isoformat(timespec="seconds")
     run = Path("runs") / f"DIAG-e2-{args.device}-{started[:16].replace(':', '')}"
     run.mkdir(parents=True, exist_ok=True)
-    (run / "diagnostics.json").write_text(json.dumps(out, indent=1))
+    (run / "diagnostics.json").write_text(json.dumps(out, indent=1), encoding="utf-8")
     print(json.dumps(out, indent=1))
     print("run :", run.name)
 

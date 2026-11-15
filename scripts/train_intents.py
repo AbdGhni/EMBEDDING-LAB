@@ -148,15 +148,16 @@ def main() -> None:
     (out / "config.json").write_text(json.dumps(
         {"task": "intents", "labels": INTENTS, "grid": GRID, "selection": sel, "C": best,
          "chosen_for_agent": chosen, "encoder": enc.config(),
-         "tfidf": "mots 1-2 + caractères 2-5 (char_wb), sublinear_tf"}, indent=1))
+         "tfidf": "mots 1-2 + caractères 2-5 (char_wb), sublinear_tf"}, indent=1), encoding="utf-8")
     (out / "manifest.json").write_text(json.dumps(
         {"run_id": run_id, "git_commit": git("rev-parse", "HEAD"),
          "git_dirty": bool(git("status", "--porcelain", "--", "src", "scripts",
                                "pyproject.toml", "uv.lock", "data/intents", "annotations")),
          "python": platform.python_version(), "started": started, "finished": now()},
-        indent=1))
+        indent=1), encoding="utf-8")
     (out / f"metrics_{args.split}.json").write_text(json.dumps(results, indent=1,
-                                                               ensure_ascii=False))
+                                                               ensure_ascii=False),
+                                                                   encoding="utf-8")
     print("C :", best, "| retenu :", chosen)
     for k, r in results.items():
         print(f"{k:16s} macro-F1 {r['macro_f1']:.3f} [{r['macro_f1_ci'][0]:.3f} ; "

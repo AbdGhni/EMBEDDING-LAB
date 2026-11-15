@@ -58,7 +58,8 @@ def main() -> None:
     log_test_access(run_id, args.test_reason, "analysis/test", Path("runs/TEST_ACCESS.log"))
     comp = component_of_groups(group_components(
         load_meetings(Path("data/processed/summre_meetings.jsonl")).values()))
-    reviewed = set(Path("splits/summre_v1_test_human_review.txt").read_text().split())
+    review_file = Path("splits/summre_v1_test_human_review.txt")
+    reviewed = set(review_file.read_text(encoding="utf-8").split())
     cl, about = {}, {}
     for b in ("bsyn", "breal"):
         qs = read_jsonl(f"data/{b}/test/queries.jsonl")
@@ -107,7 +108,7 @@ def main() -> None:
     (out / "final.json").write_text(json.dumps(
         {"run_id": run_id, "started": started, "systems": SYSTEMS, "means": means,
          "hypotheses": H, "holm_H1_H2": adj, "other_comparisons": extra,
-         "breal_reviewed_subset": subset}, indent=1, ensure_ascii=False))
+         "breal_reviewed_subset": subset}, indent=1, ensure_ascii=False), encoding="utf-8")
     print("| Système | graines | B-SYN nDCG@10 | B-SYN paires | B-REAL nDCG@10 | B-REAL paires |")
     print("|---|---|---|---|---|---|")
     for n, mm in means.items():

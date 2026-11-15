@@ -30,7 +30,7 @@ uv run python -I scripts/agent_cli.py --weights <chemin>/best
 
 Deux projets fictifs sont chargés, chacun avec sa mémoire : Atlas (3 réunions : lundi 5, jeudi 8, jeudi 15 octobre 2026) et Cèdre (mardi 6, mercredi 14, vendredi 16 octobre). Date de référence : mardi 20 octobre 2026. **Nommer le projet dans chaque demande** : sinon l'agent demande lequel (c'est voulu, voir questions 8 à 10). Questions à poser, dans l'ordre :
 
-1. `Quelle date de lancement a été validée pour Atlas ?` — décision en vigueur (24 novembre) et ancienne proposition en historique, avec extraits.
+1. `Quelle date de lancement a été validée pour Atlas ?` — la décision en vigueur (24 novembre), avec son extrait ; l'ancienne proposition du 17 novembre n'est pas présentée comme réponse (elle apparaît dans les résultats de recherche, remplacée).
 2. `Est-ce qu'on a validé l'augmentation du budget de communication d'Atlas ?` — la suggestion de Sophie est retrouvée et l'agent avertit que ce n'est pas une décision validée. **À dire** : ce scénario échouait avec le premier modèle d'intentions (classé comparaison). Il a été corrigé après coup (I2+, post hoc, exemples écrits par Claude, contrôle séparé) ; `--intents i2` rejoue l'échec.
 3. `Est-ce que la réunion de jeudi contredit celle de lundi pour Atlas ?` — deux mises à jour et une contradiction non tranchée, avec la différence entre les deux.
 4. `Prépare un dossier complet sur le projet Atlas : historique, décisions, budget, risques, prochaines étapes et personnes impliquées.` — chaque ligne cite ses sources ; informations absentes signalées.

@@ -90,7 +90,8 @@ def main() -> None:
         only = [e for e in hard if e["source"] == "bsyn"]
         manifest["e2_bsyn_only"] = {"n": len(only),
                                     "sha256": dump(args.out / "e2_bsyn_only.jsonl", only)}
-    (args.out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
+    (args.out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False),
+        encoding="utf-8")
     print(json.dumps(manifest, indent=1, ensure_ascii=False))
 
 

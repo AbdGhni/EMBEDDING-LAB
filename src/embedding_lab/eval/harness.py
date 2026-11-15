@@ -131,7 +131,7 @@ def _git(*args: str) -> str:
 def write_run(run_dir: Path, system: System, results: Mapping[str, Mapping[str, Any]],
               started: str, finished: str) -> None:
     run_dir.mkdir(parents=True, exist_ok=True)
-    (run_dir / "config.json").write_text(json.dumps(system.config(), indent=1))
+    (run_dir / "config.json").write_text(json.dumps(system.config(), indent=1), encoding="utf-8")
     manifest = {"run_id": run_dir.name, "harness_version": HARNESS_VERSION,
                 "git_commit": _git("rev-parse", "HEAD"),
                 # fichiers suivis modifiés OU nouveaux fichiers de code non commités
@@ -142,11 +142,13 @@ def write_run(run_dir: Path, system: System, results: Mapping[str, Mapping[str, 
                 "benchmarks": {k: {"fingerprint": v["fingerprint"], "n_queries": v["n_queries"],
                                    "n_clusters": v["n_clusters"], "n_triplets": v["n_triplets"],
                                    "seconds": v["seconds"]} for k, v in results.items()}}
-    (run_dir / "manifest.json").write_text(json.dumps(manifest, indent=1))
+    (run_dir / "manifest.json").write_text(json.dumps(manifest, indent=1), encoding="utf-8")
     for key, res in results.items():
-        (run_dir / f"metrics_{key}.json").write_text(json.dumps(res["summary"], indent=1))
+        (run_dir / f"metrics_{key}.json").write_text(json.dumps(res["summary"], indent=1),
+            encoding="utf-8")
         with open(run_dir / f"per_query_{key}.jsonl", "w", encoding="utf-8") as f:
             for qid, s in sorted(res["per_query"].items()):
                 f.write(json.dumps({"query_id": qid, **s,
                                     "top10": res["rankings_top10"][qid]}) + "\n")
-        (run_dir / f"triplet_wins_{key}.json").write_text(json.dumps(res["triplet_wins"]))
+        (run_dir / f"triplet_wins_{key}.json").write_text(json.dumps(res["triplet_wins"]),
+            encoding="utf-8")

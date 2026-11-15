@@ -6,6 +6,9 @@ on:
     branches: ["main", "el-*"]
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   tests:
     strategy:

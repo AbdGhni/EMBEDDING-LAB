@@ -45,9 +45,12 @@ def resolve(expr: str | None, ref: date) -> date | None:
         month = _FOLD.get(m.group(2), m.group(2))
         if month in MONTHS:
             year = int(m.group(3)) if m.group(3) else ref.year
-            d = date(year, MONTHS.index(month) + 1, int(m.group(1)))
-            if not m.group(3) and d < ref:
-                d = date(year + 1, d.month, d.day)
+            try:
+                d = date(year, MONTHS.index(month) + 1, int(m.group(1)))
+                if not m.group(3) and d < ref:
+                    d = date(year + 1, d.month, d.day)
+            except ValueError:  # « 31 novembre », « 30 février » : date impossible
+                return None
             return d
     for i, day in enumerate(DAYS):
         if re.search(rf"\b{day}\b", t):

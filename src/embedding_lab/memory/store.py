@@ -142,6 +142,8 @@ class Memory:
         if self.encoder is None:
             raise RuntimeError("mémoire sans encodeur : recherche impossible")
         cands = [u for u in self.units.values() if not types or u["type"] in types]
+        if not cands:
+            return []
         scores = self.encoder.score(query, cands)
         ranked = sorted(cands, key=lambda u: (-scores[u["unit_id"]], u["unit_id"]))[:k]
         return [{"unit": u, "score": scores[u["unit_id"]],

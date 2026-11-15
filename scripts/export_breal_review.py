@@ -47,7 +47,7 @@ def main() -> None:
     ap.add_argument("--ia", type=Path, default=Path("annotations/breal/review/ia"),
                     help="relectures IA à afficher en regard (colonnes « Avis IA »)")
     args = ap.parse_args()
-    lines = Path("splits/summre_v1_test_human_review.txt").read_text().splitlines()
+    lines = Path("splits/summre_v1_test_human_review.txt").read_text(encoding="utf-8").splitlines()
     targets = [x for x in lines if x and not x.startswith("#")]
     meetings = load_meetings(Path("data/processed/summre_meetings.jsonl"))
     wb = Workbook()

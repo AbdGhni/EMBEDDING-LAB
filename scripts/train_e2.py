@@ -75,7 +75,7 @@ def main() -> None:
     summary["weights_sha256"] = weights_sha(ckpt)
     summary["gpu"] = torch.cuda.get_device_name(0) if device == "cuda" else None
     summary["examples_sha256"] = hashlib.sha256(Path(cfg.examples).read_bytes()).hexdigest()
-    (run_dir / "train_summary.json").write_text(json.dumps(summary, indent=1))
+    (run_dir / "train_summary.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
     for k, r in results.items():
         s = r["summary"]
         print(f"{k}: nDCG@10 {s['ndcg@10']:.4f}  R@1 {s['recall@1']:.4f}  "

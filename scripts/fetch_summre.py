@@ -52,7 +52,8 @@ def main() -> None:
         "chars": sum(len(m["text"]) for m in meetings),
         "sha256": sha256_file(path),
     }
-    (args.processed / "summre_meetings.manifest.json").write_text(json.dumps(stats, indent=2))
+    (args.processed / "summre_meetings.manifest.json").write_text(json.dumps(stats, indent=2),
+        encoding="utf-8")
     print(json.dumps(stats, indent=1))
 
 

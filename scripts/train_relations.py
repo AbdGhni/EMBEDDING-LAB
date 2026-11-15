@@ -144,15 +144,16 @@ def main() -> None:
               "embedding_text": "passage: + evidence.text", "class_weight": "balanced",
               "negatives": "1 couple non relié par positif et par groupe (B-REAL), "
                            "couples unrelated du générateur (B-SYN), graine 0"}
-    (out / "config.json").write_text(json.dumps(config, indent=1, ensure_ascii=False))
+    (out / "config.json").write_text(json.dumps(config, indent=1, ensure_ascii=False),
+        encoding="utf-8")
     manifest = {"run_id": run_id, "git_commit": git("rev-parse", "HEAD"),
                 "git_dirty": bool(git("status", "--porcelain", "--", "src", "scripts",
                                       "pyproject.toml", "uv.lock")),
                 "python": platform.python_version(), "machine": platform.platform(),
                 "started": started, "finished": now(), "relations_sha256": shas,
                 "n_pairs": {f"{b}/{s}": len(data[(b, s)][1]) for (b, s) in data}}
-    (out / "manifest.json").write_text(json.dumps(manifest, indent=1))
-    (out / f"metrics_{args.split}.json").write_text(json.dumps(results, indent=1))
+    (out / "manifest.json").write_text(json.dumps(manifest, indent=1), encoding="utf-8")
+    (out / f"metrics_{args.split}.json").write_text(json.dumps(results, indent=1), encoding="utf-8")
     for b, rows in predictions.items():
         with open(out / f"predictions_{b}_{args.split}.jsonl", "w", encoding="utf-8") as f:
             for r in rows:

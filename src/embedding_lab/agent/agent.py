@@ -115,6 +115,10 @@ class Agent:
 
     def answer(self, request: str, a: Mapping[str, Any]) -> dict[str, Any]:
         hits = self.memory.search(request, k=5)
+        if not hits:
+            return {"operation": "answer", "citations": [], "retrieved": [], "action": None,
+                    "answer": "Aucune information dans les sources chargées.",
+                    "warnings": ["mémoire vide : aucune recherche possible"]}
         top = hits[0]["unit"]["unit_id"]
         # une question retrouvée n'est pas une réponse : suivre la relation « answers »
         answered = [r["from_id"] for r in self.memory.links.get(top, [])
@@ -168,9 +172,11 @@ class Agent:
         for u in sorted((u for u in m.units.values() if u["source_id"] == early),
                         key=lambda u: u["evidence"]["char_start"]):
             uid, final = u["unit_id"], u["unit_id"]
-            while final in m.superseded_by and \
+            seen = {final}
+            while final in m.superseded_by and m.superseded_by[final] not in seen and \
                     m.units[m.superseded_by[final]]["source_date"] <= d_late:
                 final = m.superseded_by[final]
+                seen.add(final)
             if final == uid or (topic and topic not in (u["statement"] + m.units[final]
                                                         ["statement"]).lower()):
                 continue

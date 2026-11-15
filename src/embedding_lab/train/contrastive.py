@@ -110,7 +110,7 @@ def train(cfg: TrainConfig) -> dict[str, Any]:
     run_dir = Path(cfg.out_root) / cfg.run_id
     ckpt_dir = Path(cfg.checkpoint_root) / cfg.run_id / "best"
     run_dir.mkdir(parents=True, exist_ok=True)
-    (run_dir / "config.json").write_text(json.dumps(asdict(cfg), indent=1))
+    (run_dir / "config.json").write_text(json.dumps(asdict(cfg), indent=1), encoding="utf-8")
     with open(cfg.examples, encoding="utf-8") as f:
         examples = [json.loads(line) for line in f]
     model = SentenceTransformer(cfg.model_name, revision=cfg.revision, device=cfg.device)
@@ -124,7 +124,7 @@ def train(cfg: TrainConfig) -> dict[str, Any]:
     sched = get_linear_schedule_with_warmup(opt, int(cfg.warmup_ratio * total), total)
     scaler = torch.amp.GradScaler("cuda", enabled=cfg.amp)
     log_path = run_dir / "train_log.jsonl"
-    log_path.write_text("")
+    log_path.write_text("", encoding="utf-8")
 
     def write(entry: dict) -> None:
         with open(log_path, "a", encoding="utf-8") as f:
@@ -178,5 +178,5 @@ def train(cfg: TrainConfig) -> dict[str, Any]:
     summary = {"run_id": cfg.run_id, "steps": step, "best_step": best_step,
                "best_val_ndcg@10": best, "checkpoint": str(ckpt_dir),
                "train_seconds": round(time.time() - t0, 1), "n_examples": len(examples)}
-    (run_dir / "train_summary.json").write_text(json.dumps(summary, indent=1))
+    (run_dir / "train_summary.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
     return summary

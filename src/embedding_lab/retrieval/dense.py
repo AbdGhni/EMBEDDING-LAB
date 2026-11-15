@@ -32,7 +32,8 @@ class DenseRetriever:
         self.query_prefix, self.passage_prefix = query_prefix, passage_prefix
         self.batch_size, self.device = batch_size, device
         self.model = model or SentenceTransformer(model_name, revision=revision, device=device)
-        self.model.max_seq_length = max_seq_length
+        if model is None:  # un modèle fourni garde sa propre longueur maximale
+            self.model.max_seq_length = max_seq_length
         self._cache: dict[str, np.ndarray] = {}
         self.truncated = 0
 

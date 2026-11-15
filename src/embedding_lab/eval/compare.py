@@ -57,7 +57,7 @@ def read_per_query(run_dir: Path, key: str, metric: str = "ndcg@10") -> dict[str
 
 def read_wins(run_dir: Path, key: str) -> dict[str, float]:
     return {k: float(v) for k, v in
-            json.loads((run_dir / f"triplet_wins_{key}.json").read_text()).items()}
+            json.loads((run_dir / f"triplet_wins_{key}.json").read_text(encoding="utf-8")).items()}
 
 
 def compare(a: Mapping[str, float], b: Mapping[str, float], cluster_of: Mapping[str, str],

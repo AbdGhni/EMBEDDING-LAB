@@ -91,7 +91,8 @@ def main() -> None:
     leaks = [k for k, v in checks.items() if isinstance(v, dict) and any(v.values())]
     if leaks:
         raise SystemExit(f"fuite d'entités : {leaks}")
-    (args.out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False))
+    (args.out / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False),
+        encoding="utf-8")
     print(json.dumps(manifest, indent=1, ensure_ascii=False))
 
 

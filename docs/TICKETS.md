@@ -36,3 +36,6 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-029 | Correction post hoc des intentions (I2+) | EL-019, EL-028 | 1 | `scripts/post_intents.py`, `annotations/intents/post_*_v1.jsonl`, protocole § 13 | règle de décision écrite avant mesure, test non touché | exécuté non validé (val 0,895 → 0,945, contrôle 0,853 → 0,908 ; jeux écrits par Claude, à valider sur un jeu de l'étudiant) |
 
 Total ≈ 34 demi-journées pour ~30 disponibles sur 15 jours : la marge est négative si E5–E7 s'ajoutent. Ces expériences secondaires restent donc **conditionnelles**.
+
+## EL-030 — Corrections issues des relectures ECC
+Branche `el-030-review-fixes`. Voir `docs/reviews/EL-025-synthese.md`. Statut : fait, en attente de fusion (accord de l'étudiant).
