@@ -1,0 +1,48 @@
+{"id": "in-post-train-000", "text": "Est-ce qu'on a validé le devis du prestataire pour Zéphyr ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-001", "text": "A-t-on acté la nouvelle date de livraison de Lagune ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-002", "text": "Est-ce que le budget de formation a été approuvé pour Corail ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-003", "text": "On a bien décidé de reporter la recette de Mistral ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-004", "text": "Est-ce qu'il a été décidé d'embaucher un prestataire pour Dune ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-005", "text": "La hausse du budget de déplacement, c'est validé ou juste une idée pour Aurore ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-006", "text": "Est-ce que l'extension du périmètre a été confirmée sur Banquise ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-007", "text": "Est-ce qu'on a tranché sur le choix du fournisseur de Cyclade ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-008", "text": "A-t-on voté la proposition de Yanis sur le nouveau planning de Fjord ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-009", "text": "Est-ce que le changement de fournisseur est acté ou seulement proposé pour Oasis ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-010", "text": "Est-ce que quelqu'un a validé l'augmentation du budget matériel de Récif ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-011", "text": "Est-ce qu'on s'est mis d'accord sur la date de la démonstration de Tempo ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-012", "text": "Il a été validé, le passage à la nouvelle plateforme pour Pivot ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-013", "text": "Est-ce qu'on a confirmé la salle pour la réunion de clôture d'Harmonie ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-014", "text": "Est-ce que la proposition de Léa sur le budget de Falaise a été retenue ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-015", "text": "A-t-on décidé qui animera la formation pour Sillage ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-016", "text": "Est-ce qu'on a approuvé le report du lancement de Gabarit ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-017", "text": "Est-ce qu'il a été acté que l'on abandonne l'option B sur Estuaire ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-018", "text": "Le changement de responsable, c'est officiel pour Quartz ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-019", "text": "Est-ce qu'on a arrêté une date pour la livraison de Lisière ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-020", "text": "A-t-on validé la baisse du budget communication pour Marée ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-021", "text": "Est-ce qu'on a finalement retenu l'offre de Mathis pour le support de Brise ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-022", "text": "Est-ce que l'idée de Noémie sur l'hébergement a été adoptée pour Rivage ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-023", "text": "Est-ce qu'il y a eu une décision sur l'augmentation du tarif d'Argile ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-024", "text": "Est-ce qu'on a entériné le nouveau calendrier d'Écume ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-025", "text": "Concernant Souffle, la réduction de l'équipe est-elle décidée ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-026", "text": "A-t-on validé l'ajout de deux jours de test sur Prisme ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-027", "text": "Est-ce que la direction a validé le plan pour Galet ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-028", "text": "Est-ce que la réunion de mardi contredit celle de lundi sur Zéphyr ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-029", "text": "Est-ce que le budget a changé entre les deux dernières réunions de Lagune ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-030", "text": "Qu'est-ce qui a évolué entre la réunion d'avril et celle de mai pour Corail ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-031", "text": "Compare les deux dernières réunions de Mistral.", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-032", "text": "Est-ce que la décision de jeudi remet en cause celle de lundi sur Dune ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-033", "text": "Y a-t-il une différence entre ce qui a été dit mercredi et vendredi sur Aurore ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-034", "text": "Quelles informations ont changé depuis la première réunion de Banquise ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-035", "text": "Est-ce que la date annoncée vendredi contredit celle de la semaine dernière pour Cyclade ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-036", "text": "Écris à Yanis pour lui demander le devis de Fjord avant jeudi.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-037", "text": "Rédige un mail à la responsable du budget d'Oasis pour confirmer le montant.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-038", "text": "Crée une tâche pour relancer le prestataire de Récif avant lundi.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-039", "text": "Ajoute une tâche : envoyer le compte rendu de Tempo à Léa.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-040", "text": "Planifie un point de dix minutes sur Pivot jeudi après-midi.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-041", "text": "Organise une visio avec Mathis sur Harmonie la semaine prochaine.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-042", "text": "Prépare un dossier complet sur le projet Falaise avec les décisions et les risques.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-043", "text": "Fais-moi une synthèse de tout ce qui a été dit sur Sillage.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-044", "text": "On pourrait peut-être revoir le calendrier d'Estuaire.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-045", "text": "Il faudrait sans doute augmenter le budget de Quartz un jour.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-046", "text": "Envoie ça à la bonne personne.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-train-047", "text": "Relance-le pour demain.", "intent": "clarify", "origin": "claude_written_post_hoc"}

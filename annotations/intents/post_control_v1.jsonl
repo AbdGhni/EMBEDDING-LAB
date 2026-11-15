@@ -1,0 +1,64 @@
+{"id": "in-post-ctrl-000", "text": "Le budget de Tonnerre, il a été validé ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-001", "text": "Est-ce que le nouveau prestataire est confirmé pour Bastion ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-002", "text": "A-t-on pris une décision sur la date de recette d'Hélice ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-003", "text": "C'est acté, la fusion des deux équipes sur Lumen ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-004", "text": "Est-ce qu'on a approuvé la dépense supplémentaire pour Cobalt ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-005", "text": "Qui a été désigné pour piloter Orchidée ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-006", "text": "Est-ce qu'on a fini par retenir la solution de Karine pour Trident ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-007", "text": "Quelle est la date de livraison en vigueur pour Mosaïque ?", "intent": "answer", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-008", "text": "Est-ce que ce qui a été dit mardi sur Tonnerre est différent de la réunion précédente ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-009", "text": "Qu'est-ce qui a bougé entre les deux comités de Bastion ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-010", "text": "La réunion de jeudi remet-elle en question celle de lundi pour Hélice ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-011", "text": "Compare ce qui a été dit sur le budget de Lumen d'une réunion à l'autre.", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-012", "text": "Entre lundi et jeudi, est-ce que le budget validé a bougé pour Cobalt ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-013", "text": "Y a-t-il des contradictions entre les deux dernières réunions d'Orchidée ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-014", "text": "Qu'est-ce qui diffère entre la première et la dernière réunion de Trident ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-015", "text": "Les chiffres annoncés vendredi sont-ils les mêmes que ceux de la semaine dernière sur Mosaïque ?", "intent": "compare", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-016", "text": "Fais-moi un récapitulatif complet de Tonnerre : décisions, risques et personnes.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-017", "text": "J'ai besoin d'un état des lieux de Bastion pour la direction.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-018", "text": "Compile tout ce qu'on sait sur Hélice dans un document.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-019", "text": "Prépare une note de synthèse sur Lumen avec les prochaines étapes.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-020", "text": "Rassemble l'historique de Cobalt avec les sources.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-021", "text": "Un dossier sur Orchidée, avec ce qui reste ouvert, s'il te plaît.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-022", "text": "Résume le projet Trident : qui fait quoi, quelles échéances.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-023", "text": "Rédige un rapport sur l'avancement de Mosaïque à partir des réunions.", "intent": "build_dossier", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-024", "text": "Écris à Karine pour lui demander où en est le devis de Tonnerre.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-025", "text": "Envoie un mail au responsable du budget de Bastion pour avoir le chiffre validé.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-026", "text": "Rédige un message à Jules pour relancer le support d'Hélice avant mardi.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-027", "text": "Prépare un courriel pour la personne qui gère la salle de Lumen.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-028", "text": "Écris à celui qui a la charge des visuels de Cobalt.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-029", "text": "Mail à Inès : peut-elle confirmer la date de recette d'Orchidée ?", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-030", "text": "Contacte par écrit le responsable de la sécurité de Trident.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-031", "text": "Relance Hugo par e-mail sur le planning de Mosaïque pour jeudi.", "intent": "draft_email", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-032", "text": "Crée une tâche pour envoyer le plan de Tonnerre à Karine d'ici vendredi.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-033", "text": "Ajoute à ma liste : relire le contrat de Bastion.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-034", "text": "Assigne à Jules la mise à jour du budget d'Hélice.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-035", "text": "Note une action : vérifier le devis de Lumen avant mercredi.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-036", "text": "Fais-moi une liste de choses à faire pour Cobalt.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-037", "text": "Rappel pour demain : appeler le prestataire d'Orchidée.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-038", "text": "Crée une tâche de suivi pour la recette de Trident.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-039", "text": "Mets sur ma liste d'envoyer le compte rendu de Mosaïque.", "intent": "create_task", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-040", "text": "Planifie un point sur Tonnerre mardi à quatorze heures.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-041", "text": "Organise une visio avec Karine pour parler de Bastion.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-042", "text": "Bloque un créneau jeudi matin pour la revue d'Hélice.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-043", "text": "Cale un rendez-vous avec le prestataire de Lumen vendredi.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-044", "text": "Programme une réunion de lancement pour Cobalt la semaine prochaine.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-045", "text": "Envoie une invitation à l'équipe d'Orchidée pour lundi dix heures.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-046", "text": "Réserve un créneau avec Jules pour revoir Trident.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-047", "text": "Organise le point de clôture de Mosaïque avant la fin du mois.", "intent": "schedule_event", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-048", "text": "On devrait peut-être décaler la recette de Tonnerre.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-049", "text": "Je me dis qu'il faudrait revoir le budget de Bastion à l'occasion.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-050", "text": "Ce serait bien de changer de prestataire pour Hélice, à voir.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-051", "text": "Il me semble que Lumen manque de budget, mais bon.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-052", "text": "Si ça se trouve, on pourrait fusionner Cobalt avec un autre projet.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-053", "text": "Je pense qu'Orchidée devrait avoir un responsable, on verra.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-054", "text": "On pourrait éventuellement ajouter une réunion sur Trident.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-055", "text": "J'ai l'impression que la date de Mosaïque est trop tôt.", "intent": "no_action", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-056", "text": "Préviens-le.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-057", "text": "Envoie ça à qui de droit.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-058", "text": "Occupe-toi de ça pour demain.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-059", "text": "Dis-lui de venir.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-060", "text": "Fais suivre aux personnes concernées.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-061", "text": "Relance-les.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-062", "text": "Mets-moi ça dans le planning.", "intent": "clarify", "origin": "claude_written_post_hoc"}
+{"id": "in-post-ctrl-063", "text": "Transmets-le à la bonne personne.", "intent": "clarify", "origin": "claude_written_post_hoc"}
