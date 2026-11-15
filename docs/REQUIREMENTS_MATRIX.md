@@ -20,7 +20,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | L-07 | S | Mini-agent avec interface ou API, dossiers et brouillons sourcés | `src/embedding_lab/agent/`, CLI | 7 scénarios | transcriptions de démo | exécuté non validé (CLI + 9 scénarios, 8 réussis) |
 | L-08 | S | Connecteurs simulés + contrats JSON, sans exécution réelle | `src/embedding_lab/tools/`, `schemas/` | test « executed=false » + schémas | CI verte sur ces tests | exécuté non validé (tests verts) |
 | L-09 | S | Rapport : comparaisons, métriques, ablations, erreurs, coûts, limites | `docs/FINAL_REPORT.md` | relecture indépendante | rapport | exécuté non validé (`docs/FINAL_REPORT.md`) |
-| L-10 | S | Démonstration reproductible sur plusieurs conversations | `docs/DEMO.md`, commande de lancement | exécution sur machine propre | log de démo | exécuté non validé (`docs/DEMO.md` ; deux projets chargés, `--suite multi` : 17/19 avec E1 ; non rejoué sur machine propre avec E2) |
+| L-10 | S | Démonstration reproductible sur plusieurs conversations | `docs/DEMO.md`, commande de lancement | exécution sur machine propre | log de démo | exécuté non validé (`docs/DEMO.md` ; deux projets chargés, `--suite multi` : 17/19 avec I2, 19/19 avec I2+ (post hoc) ; non rejoué sur machine propre avec E2) |
 
 ## 2. Difficultés sémantiques (§ Problématique, § Données)
 
@@ -72,7 +72,7 @@ Catégories : **S** = exigence du sujet · **O** = objectif ajouté par nous (m�
 | ID | Scénario | Statut |
 |---|---|---|
 | SC-1 | Question sur une décision précise, avec preuve et référence | exécuté non validé (scénario 1 ; réussi) |
-| SC-2 | Question ambiguë opposant proposition et décision | exécuté non validé (scénario 2 ; **échec**, intention classée `compare`) |
+| SC-2 | Question ambiguë opposant proposition et décision | exécuté non validé (scénario 2 ; **échec** avec I2, réussi avec I2+ corrigé post hoc, EL-029) |
 | SC-3 | Comparaison de deux réunions avec modification d'une information | exécuté non validé (scénario 3 ; réussi) |
 | SC-4 | Dossier multi-sources, affirmations traçables | exécuté non validé (scénario 4 ; réussi) |
 | SC-5 | E-mail à la personne pertinente, destinataire justifié | exécuté non validé (scénario 5 ; réussi) |

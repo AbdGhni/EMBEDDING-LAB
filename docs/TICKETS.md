@@ -33,5 +33,6 @@ Charges en demi-journées (½j) estimées. « Fin » = critère de fin vérifiab
 | EL-025 | Rapport final + MODEL_CARD | EL-024 | 2 | FINAL_REPORT.md | relecture indépendante | exécuté non validé (`docs/FINAL_REPORT.md`, `docs/MODEL_CARD.md` ; relecture indépendante à faire) |
 | EL-026 | Installation propre + script de démo 5–10 min | EL-024 | 1 | DEMO.md | démo rejouée sur environnement neuf | exécuté non validé (`docs/DEMO.md` ; démo à rejouer sur machine propre) |
 | EL-028 | Seconde mémoire de démonstration, plusieurs projets | EL-024 | 1 | `agent/workspace.py`, `demo/cedre/`, `--suite multi` | démo sur plusieurs conversations, sources non mélangées | exécuté non validé (17/19 avec E1 ; rejeu E2 à faire sur le PC) |
+| EL-029 | Correction post hoc des intentions (I2+) | EL-019, EL-028 | 1 | `scripts/post_intents.py`, `annotations/intents/post_*_v1.jsonl`, protocole § 13 | règle de décision écrite avant mesure, test non touché | exécuté non validé (val 0,895 → 0,945, contrôle 0,853 → 0,908 ; jeux écrits par Claude, à valider sur un jeu de l'étudiant) |
 
 Total ≈ 34 demi-journées pour ~30 disponibles sur 15 jours : la marge est négative si E5–E7 s'ajoutent. Ces expériences secondaires restent donc **conditionnelles**.

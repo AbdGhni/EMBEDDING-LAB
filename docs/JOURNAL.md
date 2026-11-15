@@ -451,3 +451,14 @@ Décision de l'étudiant (« oui vas-y ») : annoter les 38 groupes d'entraînem
 - Vérifications : 105 tests verts, ruff propre ; les 9 scénarios Atlas donnent des sorties identiques à celles du 30 octobre (hors latence). Runs sur le commit propre `daae1a7` : `SCN-E1-2026-11-05T1840` (8/9), `SCN-multi-E1-2026-11-05T1841` (17/19).
 - Échecs : Atlas 2 et C2, même défaut d'intention (« Est-ce qu'on a validé… ? » classé `compare`). C2 reprend la tournure du scénario 2 : seconde occurrence, pas preuve indépendante. Non corrigé (correction à valider sur des requêtes écrites par l'étudiant).
 - Non fait : rejeu avec les poids E2 (470 Mo sur le Drive de l'étudiant, non transférables par le connecteur) ; à faire sur le PC.
+
+## S21 · finalisation : fusion de main et correction post hoc des intentions (EL-029)
+
+- **Heure** : 2026-11-15T15:58+01:00 (« finissons le projet ») → 16:15
+- Vérification de l'état réel : aucun changement dans le dépôt depuis le 5 novembre (ni relecture ECC, ni jeu d'intentions de l'étudiant). Décisions de l'étudiant (AskUserQuestion) : corriger le scénario 2 maintenant, fusionner `el-027` et `el-028` dans `main`.
+- `main` mis à jour en avance rapide : `56a7442` → `917f9a9` (démo multi-projets, préparation du point).
+- EL-029 (branche `el-029-intents-post-hoc`) : 48 exemples d'entraînement et 64 requêtes de contrôle écrits par Claude, règle de décision écrite et commitée avant la première mesure (`c09162c`). Run `IP-post-2026-11-15T1604` : I-SYN val 0,895 → 0,945, contrôle 0,853 → 0,908 ; règle remplie, I2+ adopté dans l'agent. Test non lu.
+- Incident : un test de recouvrement a montré qu'une phrase d'entraînement et une phrase de contrôle figuraient dans I-MAN (jeu de test). Remplacées avant la mesure retenue ; le premier run (`IP-post-2026-11-15T1601`, jamais commité) donnait les mêmes chiffres et a été supprimé.
+- Démonstration (E1, commit `0c07f56`) : 9/9 (Atlas), 19/19 (deux projets) avec I2+ ; 17/19 avec `--intents i2`. 19/19 attendu (famille d'erreur couverte à l'entraînement) : non indépendant.
+- Documents mis à jour : protocole v1.9 (§ 13, post hoc), EXPERIMENTS, FINAL_REPORT, README, DEMO, MATRIX, TICKETS, CURRENT_STATE, POINT_MENTOR.
+- Non fait (hors de portée d'ici) : rejeu avec les poids E2 ; relectures ECC ; jeu d'intentions de l'étudiant.

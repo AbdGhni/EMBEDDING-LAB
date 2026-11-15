@@ -221,6 +221,25 @@ Ajout postérieur au test (aucune évaluation du test, aucun réglage de modèle
 - **Routage** : sans projet nommé, l'agent demande « Sur quel projet porte la demande (Atlas, Cèdre) ? » sans rien chercher ; une phrase hypothétique ne déclenche aucune action.
 - **Limite** : le nom du projet est repéré par correspondance exacte ; une demande qui ne le nomme pas reçoit toujours une question, même si le sujet n'existe que dans un projet. Démonstration rejouée avec E1 seulement (poids E2 sur le Drive de l'étudiant).
 
+## Intentions — correction post hoc I2+ (EL-029, 2026-11-15)
+
+**Post hoc, hors test** (protocole § 13, v1.9). Run `IP-post-2026-11-15T1604` (VM CPU, commit propre). Règle de décision écrite avant la première mesure. Données écrites par Claude, donc non indépendantes de l'auteur du système.
+
+| Jeu | Modèle | macro-F1 | F1 `answer` | F1 `compare` | erreurs |
+|---|---|---|---|---|---|
+| I-SYN val (432) | I0 règles | 0,817 | 1,00 | 0,00 | 64 |
+| | I2 (retenu) | 0,895 | 0,93 | 0,56 | 47 |
+| | **I2+** | **0,945** | 0,94 | 0,88 | 26 |
+| Contrôle post hoc (64) | I0 règles | 0,841 | 0,62 | 0,67 | 11 |
+| | I2 | 0,853 | 0,50 | 0,76 | 9 |
+| | **I2+** | **0,908** | 0,82 | 0,94 | 6 |
+
+- **Règle remplie** : (1) val 0,945 ≥ 0,895 − 0,02 ; (2) contrôle 0,908 > 0,853. I2+ est adopté dans l'agent (`--intents i2plus`, défaut) ; `--intents i2` reproduit l'ancien comportement.
+- **Démonstration (E1, commit `0c07f56`)** : `SCN-E1-i2plus-2026-11-15T1604` 9/9 ; `SCN-multi-E1-i2plus-2026-11-15T1604` 19/19 ; avec I2 : `SCN-multi-E1-2026-11-15T1604` 17/19. **Ce 19/19 était attendu** : les exemples d'entraînement couvrent la famille d'erreur révélée par la démonstration. La mesure qui compte est le contrôle séparé, et elle est de la même main.
+- **Les résultats officiels sur le test ne changent pas** : I2 0,817 (I-SYN test) et 0,863 (I-MAN), battu par I0 (0,948 et 0,914). I2+ n'a pas été mesuré sur le test.
+- **Incident corrigé avant la mesure retenue** : un test de recouvrement a montré qu'une phrase d'entraînement (« Envoie ça à la bonne personne. ») et une phrase de contrôle (« Relance-les. ») figuraient dans I-MAN (test). Elles ont été remplacées ; un premier run (`IP-post-2026-11-15T1601`, supprimé, non commité) les contenait et donnait les mêmes chiffres à trois décimales.
+- **Reste à faire** : valider I2+ sur un jeu de requêtes écrit par l'étudiant.
+
 ## Test — évaluation finale unique (2026-10-23)
 
 Configurations figées avant l'accès (protocole v1.8) ; chaque accès est consigné dans `runs/TEST_ACCESS.log` (VM et Colab, 14:33–14:50). Code au commit `d30c44b` pour tous les runs de test, arbre propre. Analyse : `runs/CMP-test-2026-10-23T1450/final.json` (`scripts/final_analysis.py`). Scores dense moyennés requête par requête sur 3 graines.

@@ -1,6 +1,6 @@
 # État courant
 
-Mis à jour : session S20, 2026-11-05 (18 h 50)
+Mis à jour : session S21, 2026-11-15 (16 h 15)
 
 ## Git
 
@@ -72,7 +72,7 @@ Français (D-004), Colab pour l'entraînement (D-005), pas d'échéance fixe (D-
 
 ## Prochaine action
 
-0. Démo multi-projets (EL-028) : 17/19 avec E1 (`SCN-multi-E1-2026-11-05T1841`). Reste : la rejouer avec les poids E2 sur le PC (`docs/DEMO.md`), corriger l'intention « Est-ce qu'on a validé… ? » avec un jeu de requêtes écrit par l'étudiant (résultat post hoc), puis fusionner `el-027` et `el-028` dans `main` avec l'accord de l'étudiant.
+0. `main` = `917f9a9` (démo multi-projets). Branche `el-029-intents-post-hoc` : I2+ (post hoc), démo 9/9 et 19/19 avec E1. Restent, côté étudiant : rejouer la démo avec les poids E2 sur le PC (`docs/DEMO.md`), lancer les relectures ECC (`docs/mandates/EL-025-review.md`), écrire un jeu de 40 à 60 requêtes d'intentions pour valider I2+ ; côté dépôt : fusionner `el-029` dans `main` avec l'accord de l'étudiant.
 
 1. Relectures ECC sur le PC de l'étudiant : `mle-reviewer` (protocole, E2/E3, rapport), `security-reviewer` (`tools/`, agent), `python-reviewer`.
 2. Démo rejouée par l'étudiant sur son PC avec les poids E2 (`docs/DEMO.md`).

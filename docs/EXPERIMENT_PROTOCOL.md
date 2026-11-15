@@ -1,10 +1,11 @@
 # Protocole expérimental
 
-Version **1.8**, 2026-10-23. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
+Version **1.9**, 2026-11-15. Toute modification ultérieure crée une version 1.x, journalisée avec sa raison. Les modifications faites après un premier accès au test sont signalées comme **post hoc**.
 
 | Version | Date | Changement | Raison |
 |---|---|---|---|
 | 1.0 | 2026-10-21 | version initiale | — |
+| 1.9 | 2026-11-15 | § 13 : correction **post hoc** du modèle d'intentions (I2+), mesurée hors test | rédigé après l'évaluation du test et après la démonstration ; règle de décision écrite avant la mesure. |
 | 1.8 | 2026-10-23 | § 12 : intentions et slots (EL-019) — données, modèles I0–I2, métriques, test manuel figé | rédigé avant toute mesure : non post hoc. |
 | 1.7 | 2026-10-23 | § 11 : composants de E4 précisés (RRF, rétrogradation des unités remplacées par R2, sans filtre de type ni reranker) | rédigé avant toute mesure de E4 : non post hoc. Le filtre de type dépend des intentions (EL-019) et le reranker cross-encoder est abandonné faute de temps ; les deux sont signalés comme non faits. |
 | 1.6 | 2026-10-23 | § 10 : protocole du module de relations (EL-015) — tâche, classes, négatifs, modèles R0–R3, métriques, sélection sur val | rédigé avant toute mesure du module, sur val comme sur test : non post hoc. |
@@ -171,3 +172,17 @@ Non faits, déclarés : filtre par type d'unité (il suppose de connaître l'int
 **Slots.** Extracteur par règles : personnes et projets par correspondance avec la liste des noms connus de la mémoire (gazetteer fourni en entrée, comme dans l'agent), échéances par expressions régulières (jours, « demain », dates « le 12 mars », « la semaine prochaine »…). Métrique : exactitude par slot (personne, projet, échéance), sur tous les exemples (une valeur absente doit être prédite absente).
 
 **Métriques (M-04).** Macro-F1 (8 classes) sur I-SYN test et I-MAN ; P/R de `clarify` ; **taux d'action à tort** = part des `no_action` et des `answer`/`compare` classées comme `draft_email`, `create_task` ou `schedule_event` (une action proposée sans demande) ; IC 95 % bootstrap (par exemple ; pas de grappes, les requêtes sont indépendantes par construction, limite signalée).
+
+## 13. Correction post hoc des intentions (EL-029)
+
+**Statut : post hoc.** Rédigé le 2026-11-15, après l'évaluation unique du test (2026-10-23) et après la démonstration, qui a révélé l'erreur : « Est-ce qu'on a validé… ? » est classé `compare` (scénario 2 et C2).
+
+**Données.** `annotations/intents/post_train_v1.jsonl` (48 exemples : 28 questions de vérification, 8 comparaisons de contraste, 12 autres) et `annotations/intents/post_control_v1.jsonl` (64 requêtes, 8 par classe, noms de projets et tournures différents). Écrits par Claude : **non indépendants de l'auteur du système**. Les exemples d'entraînement couvrent la famille d'erreur observée en démonstration, sans en reprendre les phrases.
+
+**Modèle.** I2+ = I2 (régression logistique, C = 10, e5-small gelé) entraîné sur le train I-SYN + les 48 exemples.
+
+**Règle de décision (écrite avant la première mesure).** I2+ remplace I2 dans l'agent si et seulement si (1) macro-F1 sur I-SYN val(I2+) ≥ val(I2) − 0,02 et (2) macro-F1 sur le contrôle post hoc(I2+) > celui de I2.
+
+**Garde-fous.** Le test (I-SYN test, I-MAN) n'est ni lu ni mesuré. Un test de non-recouvrement (`tests/test_intents_post_hoc.py`) vérifie qu'aucune phrase du contrôle ou de l'entraînement post hoc ne figure dans train, val, test, I-MAN ni dans les scénarios.
+
+**Ce que ce protocole ne permet pas de conclure.** Que I2+ généralise à des requêtes écrites par quelqu'un d'autre : le contrôle est de la même main que l'entraînement. Que le passage de la démonstration à 9/9 et 19/19 valide le modèle : il était attendu.

@@ -27,7 +27,7 @@
 
 ## 3. Écarts que Martial peut relever
 
-1. **Le scénario 2 est un cas demandé par le sujet.** L'échec vient du classifieur d'intentions (« augmentation » lu comme `compare`). Il n'a pas été corrigé pour ne pas régler le système sur la démo. Pour une démo « valide », il faut le corriger proprement, avec un résultat étiqueté **post hoc**, vérifié sur des requêtes qui ne servent ni à l'entraînement ni à la démo.
+1. **(Traité le 15 novembre, EL-029.)** Le scénario 2 est un cas demandé par le sujet. L'échec vient du classifieur d'intentions (« augmentation » lu comme `compare`). Il n'a pas été corrigé pour ne pas régler le système sur la démo. Pour une démo « valide », il faut le corriger proprement, avec un résultat étiqueté **post hoc**, vérifié sur des requêtes qui ne servent ni à l'entraînement ni à la démo.
 2. **Une seule mémoire de démonstration** : traité par EL-028 (projet fictif Cèdre, espace multi-projets, branche `el-028-second-memory`). Les réunions SUMM-RE réelles ne sont pas chargées dans l'agent.
 3. **Pas de reranker ni de filtre temporel ou par type**, alors que la semaine 2 du sujet demande de les étudier. Écart déclaré dans le rapport.
 4. **M-05 (destinataires) et M-06 (dossiers) non mesurées** sur un jeu dédié ; seulement des contrôles de scénarios.

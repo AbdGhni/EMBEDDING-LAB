@@ -46,8 +46,8 @@ Aucune donnée personnelle réelle n'a été ajoutée ; les annotateurs ont éca
 - **H4** : à budget égal, négatifs difficiles > aléatoires sur les pièges B-SYN (+0,064, p < 0,001) ; aucun écart en nDCG@10 ni sur B-REAL.
 - **H5 non soutenue** : l'hybride retenu sur val ne fait pas mieux que E2 (−0,003 sur B-SYN, −0,024 sur B-REAL, non significatif).
 - **Relations** : R2 macro-F1 0,608 sur B-REAL test (R1 0,574) ; `answers` bien reconnu (0,88), `contradicts` mal (0,37).
-- **Intentions** : I2, retenu sur val, obtient 0,817 (I-SYN test) et 0,863 (I-MAN) ; les règles I0 font mieux sur le test (0,948 / 0,914). Rapporté tel quel.
-- **Agent** : 8 scénarios sur 9 réussis, avec E1 comme avec E2 ; l'échec est une intention mal classée (question prise pour une comparaison). Avec deux projets chargés (ajout du 5 novembre, E1) : 17 sur 19, mêmes échecs (même tournure « Est-ce qu'on a validé… ? »).
+- **Intentions** : I2, retenu sur val, obtient 0,817 (I-SYN test) et 0,863 (I-MAN) ; les règles I0 font mieux sur le test (0,948 / 0,914). Rapporté tel quel. **Correction post hoc (15 novembre, hors test)** : I2+ (I2 + 48 exemples écrits après la démonstration) passe de 0,895 à 0,945 sur I-SYN val et de 0,853 à 0,908 sur un contrôle de 64 requêtes ; il est utilisé dans l'agent, qui réussit alors 9/9 et 19/19 scénarios. Exemples et contrôle sont écrits par Claude : à valider sur un jeu écrit par l'étudiant.
+- **Agent** : lors de la mesure du 23 octobre, 8 scénarios sur 9 réussis, avec E1 comme avec E2 ; l'échec était une intention mal classée (question prise pour une comparaison). Avec deux projets chargés (5 novembre, E1) : 17 sur 19, mêmes échecs. Avec I2+ (post hoc, 15 novembre) : 9/9 et 19/19, résultat attendu puisque la famille d'erreur a servi à écrire les exemples.
 
 ## 5. Analyse
 

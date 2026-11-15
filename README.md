@@ -24,7 +24,7 @@ nDCG@10 (qualité du classement des 10 premiers résultats, de 0 à 1) ; scores 
 - **Oral réel** : +0,229 nDCG@10, gain dans les 7 groupes de personnes du test. Une ablation montre que ce gain vient des exemples réels annotés, pas des données synthétiques.
 - **Négatifs difficiles** : même classement global que des négatifs aléatoires, mais l'encodeur préfère bien plus souvent la décision qui en remplace une autre (54 % contre 15 %).
 - **Ce qui ne marche pas** : l'hybride BM25 + dense n'apporte rien ; reconnaître une information remplacée reste difficile (une fois sur deux) ; pour les intentions, le modèle choisi en validation est battu par de simples règles sur le test.
-- **Relations** entre unités (remplace, contredit, répond à…) : macro-F1 0,608. **Agent** : 8 scénarios de démonstration sur 9 réussis (17 sur 19 avec deux projets chargés).
+- **Relations** entre unités (remplace, contredit, répond à…) : macro-F1 0,608. **Agent** : 9 scénarios de démonstration sur 9 réussis (19 sur 19 avec deux projets chargés) avec le modèle d'intentions corrigé a posteriori ; 8 sur 9 (17 sur 19) avec le modèle retenu sur la validation.
 
 Analyse complète : [`docs/FINAL_REPORT.md`](docs/FINAL_REPORT.md). Détail de chaque expérience : [`docs/EXPERIMENTS.md`](docs/EXPERIMENTS.md).
 
@@ -94,6 +94,7 @@ uv sync --locked --extra dev --extra ml # + torch, sentence-transformers (démo,
 ```bash
 uv run python -I scripts/run_scenarios.py              # Atlas : 7 scénarios du brief + 2 bonus, contrôles automatiques
 uv run python -I scripts/run_scenarios.py --suite multi   # deux projets (Atlas, Cèdre) : 19 scénarios
+uv run python -I scripts/run_scenarios.py --intents i2    # ancien modèle d'intentions (8/9)
 uv run python -I scripts/agent_cli.py                  # boucle interactive, Atlas et Cèdre chargés
 uv run python -I scripts/agent_cli.py -q "Rédige un mail à la personne responsable du budget d'Atlas pour lui demander la dernière version validée avant vendredi."
 ```
